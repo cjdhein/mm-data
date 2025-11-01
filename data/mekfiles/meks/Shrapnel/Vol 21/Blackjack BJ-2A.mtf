@@ -24,7 +24,7 @@ model:BJ-2A
 Config:Biped
 techbase:Clan
 era:3145
-source:Shrapnel 21
+source:Shrap21
 rules level:2
 role:Sniper
 

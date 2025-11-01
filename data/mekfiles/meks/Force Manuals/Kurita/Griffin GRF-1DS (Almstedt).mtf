@@ -22,7 +22,7 @@ model:GRF-1DS (Almstedt)
 Config:Biped
 techbase:Inner Sphere
 era:3052
-source:Force Manual: Kurita
+source:CM:Kurita
 rules level:2
 role:Skirmisher
 mul id:8289

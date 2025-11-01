@@ -21,7 +21,7 @@ model:A
 Config:Biped Omnimech
 techbase:Clan
 era:2866
-source:Turning Points: Foster
+source:TP:Foster
 rules level:2
 role:Brawler
 mul id:9236

@@ -21,7 +21,7 @@ model:Prime
 Config:Biped Omnimech
 techbase:Clan
 era:2866
-source:Turning Points: Foster
+source:TP:Foster
 rules level:2
 role:Sniper
 mul id:9237
