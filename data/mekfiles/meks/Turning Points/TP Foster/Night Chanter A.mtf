@@ -21,7 +21,7 @@ model:A
 Config:Biped Omnimech
 techbase:Clan
 era:2865
-source:Turning Points: Foster
+source:TP:Foster
 rules level:3
 role:Sniper
 mul id:9233

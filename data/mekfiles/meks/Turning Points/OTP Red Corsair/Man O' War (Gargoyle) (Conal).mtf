@@ -25,7 +25,7 @@ TechBase:Clan
 Era:3055
 Rules Level:2
 role:Skirmisher
-source:Operational Turning Points: Red Corsair 
+source:OTP:RC
 
 weaponquirk:stable_weapon:RA:2:CLERPPC
 weaponquirk:stable_weapon:RA:4:CLERPPC

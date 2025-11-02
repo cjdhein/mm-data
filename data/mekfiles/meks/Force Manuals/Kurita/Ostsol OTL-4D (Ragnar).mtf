@@ -22,7 +22,7 @@ model:OTL-4D (Ragnar)
 Config:Biped
 techbase:Inner Sphere
 era:3035
-source:Force Manual: Kurita
+source:CM:Kurita
 rules level:1
 role:Skirmisher
 mul id:8287

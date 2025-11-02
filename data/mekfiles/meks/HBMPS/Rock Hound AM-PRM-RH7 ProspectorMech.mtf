@@ -23,7 +23,7 @@ mul id:4926
 Config:Biped
 techbase:Inner Sphere
 era:3042
-source:Handbook: Major Periphery States
+source:HB:MPS
 rules level:2
 role:None
 

@@ -22,7 +22,7 @@ model:TNZ-N6
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3140
-source:Shrapnel 22
+source:Shrap22
 rules level:4
 role:Sniper
 

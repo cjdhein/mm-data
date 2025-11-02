@@ -22,7 +22,7 @@ model:HTM-27T (Lowenbrau)
 Config:Biped
 techbase:Inner Sphere
 era:3042
-source:Force Manual: Kurita
+source:CM:Kurita
 rules level:2
 role:Brawler
 mul id:8284

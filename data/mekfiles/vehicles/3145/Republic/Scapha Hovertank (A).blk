@@ -112,7 +112,7 @@ ISRotaryAC5:OMNI
 </Turret Equipment>
 
 <source>
-TRO: 3145 Republic
+TR:3145:RotS
 </source>
 
 <tonnage>
