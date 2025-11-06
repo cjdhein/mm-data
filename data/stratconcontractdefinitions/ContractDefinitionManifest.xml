@@ -66,5 +66,33 @@
             <key>EXTRACTION_RAID</key>
             <value>ExtractionRaid.xml</value>
         </entry>
+        <entry>
+            <key>ASSASSINATION</key>
+            <value>Assassination.xml</value>
+        </entry>
+        <entry>
+            <key>MOLE_HUNTING</key>
+            <value>MoleHunting.xml</value>
+        </entry>
+        <entry>
+            <key>OBSERVATION_RAID</key>
+            <value>ObservationRaid.xml</value>
+        </entry>
+        <entry>
+            <key>RETAINER</key>
+            <value>Retainer.xml</value>
+        </entry>
+        <entry>
+            <key>SABOTAGE</key>
+            <value>Sabotage.xml</value>
+        </entry>
+        <entry>
+            <key>TERRORISM</key>
+            <value>Terrorism.xml</value>
+        </entry>
+        <entry>
+            <key>ESPIONAGE</key>
+            <value>Espionage.xml</value>
+        </entry>
     </contractDefinitions>
 </contractDefinitionManifest>
