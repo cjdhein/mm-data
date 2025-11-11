@@ -1597,12 +1597,12 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>compulsion_bionic_hate</lookupName>
         <displayName>Significant Compulsion - Hates Bionics (ATOW)</displayName>
-        <desc><![CDATA[Will refuse any prosthetic more complex than Type 2 (see ATOW for prosthetic type classifications). Only has an effect if Advanced Medical's alternative mode is enabled.]]></desc>
+        <desc><![CDATA[Will refuse any prosthetic more complex than Type 2 (see ATOW for prosthetic type classifications). This has no effect if Advanced Medical's alternative mode is disabled.]]></desc>
         <xpCost>-200</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
-        <invalidAbilities>compulsion_body_mod_addition</invalidAbilities>
+        <invalidAbilities>compulsion_body_mod_addiction</invalidAbilities>
     </ability>
     <ability>
         <lookupName>unofficial_biological_machinist</lookupName>
@@ -1649,11 +1649,11 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <skillPrereq />
     </ability>
     <ability>
-        <lookupName>compulsion_body_mod_addition</lookupName>
+        <lookupName>compulsion_body_mod_addiction</lookupName>
         <displayName>Significant Compulsion - Body Modding (ATOW)</displayName>
         <desc><![CDATA[Loyalty is reduced by 2 while this character has no prosthetics.
 
-This Flaw has no effect if Advanced Medical's alt mode is disabled.
+This only has an effect if Advanced Medical's alternative mode is enabled.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
