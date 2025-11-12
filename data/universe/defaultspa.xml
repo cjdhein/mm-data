@@ -1131,6 +1131,15 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
         <skillPrereq />
     </ability>
     <ability>
+        <lookupName>unofficial_implant_resistance</lookupName>
+        <displayName>Implant Resistance (Unofficial)</displayName>
+        <desc><![CDATA[Exhibits a natural resistance to the negative effects of EI Implants, reducing the Target Number to avoid gaining an annual Flaw by 2]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
         <lookupName>eagle_eyes</lookupName>
         <desc><![CDATA[Acts as an active probe or extends range of existing active probe. Also makes avoiding minefields easier. Furthermore, if Advanced Scouting is enabled this SPA applies a +1 modifier to the scouting check.]]></desc>
         <xpCost>100</xpCost>
