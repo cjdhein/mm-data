@@ -736,7 +736,9 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
     <ability>
         <lookupName>atow_fit</lookupName>
         <displayName>Fit (ATOW)</displayName>
-        <desc><![CDATA[Half all Fatigue gained (rounding down).]]></desc>
+        <desc><![CDATA[Half all Fatigue gained (rounding down).
+
+Any attempt to heal this character has the target number reduced by 1 (Alternate Advanced Medical only).]]></desc>
         <xpCost>200</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
@@ -999,7 +1001,9 @@ Mechanically, this offers few benefits; however, the character will be completel
     <ability>
         <lookupName>atow_toughness</lookupName>
         <displayName>Toughness (ATOW)</displayName>
-        <desc><![CDATA[All injuries suffered are reduced by 25% and Fatigue gain is halved. Fatigue gain from sustaining injuries is not halved.]]></desc>
+        <desc><![CDATA[All injuries suffered are reduced by 25% and Fatigue gain is halved. Fatigue gain from sustaining injuries is not halved.
+
+Any attempt to heal this character has the target number reduced by 1 (Alternate Advanced Medical only).]]></desc>
         <xpCost>300</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
@@ -1932,7 +1936,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <!-- Support Edge Triggers - FIXME : Migrate to Isolated MHQ Support Edge Module -->
     <ability>
         <lookupName>edge_when_heal_crit_fail</lookupName>
-        <displayName>Use Edge for doctor critical failure.</displayName>
+        <displayName>Use Edge for healing critical failure.</displayName>
         <desc><![CDATA[Healing check critical failure will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
