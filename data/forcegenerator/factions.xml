@@ -898,7 +898,7 @@
     </faction>
     <faction key='CS.EC' name='Explorer Corps' minor='false' clan='false' periphery='false'>
         <years>2959-</years>
-        <ratingLevels>B,A</ratingLevels>
+        <ratingLevels>F,D,C,B,A</ratingLevels>
         <parentFaction>CS</parentFaction>
     </faction>
     <faction key='FC.FCC' name='Federated Commonwealth Corps' minor='false' clan='false'
@@ -1281,7 +1281,7 @@
     </faction>
     <faction key='WOB.PM' name='Protectorate Militia' minor='false' clan='false' periphery='false'>
         <years>3066-3078</years>
-        <ratingLevels>B</ratingLevels>
+        <ratingLevels>F,D,C,B,A</ratingLevels>
         <parentFaction>WOB</parentFaction>
     </faction>
     <faction key='DC.RR' name='Rasalhague Regulars' minor='false' clan='false' periphery='false'>
@@ -1369,7 +1369,7 @@
     </faction>
     <faction key='WOB.SD' name='Shadow Divisions' minor='false' clan='false' periphery='false'>
         <years>3067-3081</years>
-        <ratingLevels>A</ratingLevels>
+        <ratingLevels>F,D,C,B,A</ratingLevels>
         <parentFaction>WOB</parentFaction>
     </faction>
     <faction key='DC.SHIN' name='Shin Legion' minor='false' clan='false' periphery='false'>

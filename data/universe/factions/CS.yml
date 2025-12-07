@@ -40,6 +40,9 @@ logo: Inner Sphere/ComStar.png
 background: Inner Sphere/ComStar.png
 camos: ComStar
 ratingLevels:
+  - F
+  - D
+  - C
   - B
   - A
 fallBackFactions:
