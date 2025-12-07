@@ -34,6 +34,9 @@ logo: Inner Sphere/Word of Blake.png
 background: Inner Sphere/Word of Blake.png
 camos: Word of Blake
 ratingLevels:
+  - F
+  - D
+  - C
   - B
   - A
 fallBackFactions:

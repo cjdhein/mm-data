@@ -20,6 +20,9 @@ name: Explorer Corps
 yearsActive:
   - start: 2959
 ratingLevels:
+  - F
+  - D
+  - C
   - B
   - A
 fallBackFactions:
