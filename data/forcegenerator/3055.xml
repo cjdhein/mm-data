@@ -107,7 +107,7 @@
             <!-- Star League percentages: 45,45,20,17,0 -->
             <pctClan unitType='Vehicle'>10,10,40,40,40</pctClan>
             <pctSL unitType='Vehicle'>90,90,60,60,60</pctSL>
-            <salvage pct='10'>CHH:5,CCC:1,CIH:3,CSV:6,FRR:10,CFM:2,CGS:1,CSA:3,CW:6,CNC:4,CSJ:1,CJF:4,DC:8</salvage>
+            <salvage pct='10'>CHH:5,CCC:1,CIH:3,CSV:6,FRR:6,CFM:2,CGS:1,CSA:3,CW:6,CNC:4,CSJ:1,CJF:4,DC:4</salvage>
             <weightDistribution era='3055' unitType='Mek'>2,3,4,2</weightDistribution>
             <weightDistribution era='3055' unitType='Tank'>3,1,3,2</weightDistribution>
         </faction>
@@ -143,7 +143,7 @@
             <!-- Star League percentages: 50,50,20,0,0 -->
             <pctClan unitType='Vehicle'>0,0,20,20,20</pctClan>
             <pctSL unitType='Vehicle'>100,100,80,80,80</pctSL>
-            <salvage pct='20'>CHH:1,CSR:1,CIH:1,CI:1,CSV:1,CFM:1,CCO:2,CGS:1,CSA:1,CDS:2,CW:2,LA:10,CNC:1,CSJ:1,FC:10,CGB:1</salvage>
+            <salvage pct='15'>CHH:1,CSR:1,CIH:1,CI:1,CSV:1,CFM:1,CCO:2,CGS:1,CSA:1,CDS:2,CW:2,LA:4,CNC:1,CSJ:1,FC:3,CGB:1</salvage>
         </faction>
         <faction key='CNC'>
             <!-- Omni percentages: 10,10,50,90,100 -->
@@ -201,7 +201,7 @@
             <!-- Star League percentages: 70,70,40,5,0 -->
             <pctClan unitType='Vehicle'>10,10,40,40,40</pctClan>
             <pctSL unitType='Vehicle'>90,90,60,60,60</pctSL>
-            <salvage pct='20'>CSA:1,CIH:1,LA:10,CSV:1,FRR:1,CNC:1,CFM:1,CSJ:1,FC:10,CJF:2,CGB:1</salvage>
+            <salvage pct='14'>CSA:1,CIH:1,LA:4,CSV:1,FRR:2,CNC:1,CFM:1,CSJ:1,FC:5,CJF:2,CGB:1</salvage>
         </faction>
         <faction key='CWIE'>
             <!-- Omni percentages: 39,39,78,96,100 -->
@@ -209,7 +209,7 @@
             <!-- Star League percentages: 60,60,20,0,0 -->
             <pctClan unitType='Vehicle'>10,10,40,40,40</pctClan>
             <pctSL unitType='Vehicle'>90,90,60,60,60</pctSL>
-            <salvage pct='10'>CW:2,LA:5,CJF:10</salvage>
+            <salvage pct='10'>CW:2,LA:5,CJF:10,MERC.KH:6</salvage>
         </faction>
         <faction key='CS'>
             <pctOmni>0,0,0,0,0</pctOmni>
@@ -1294,7 +1294,7 @@
             </model>
             <model name='C'>
                 <roles>command</roles>
-                <availability>LA:2+,FS:2+,FC:2+,DC:2+,CLAN.IS:5+,CGB:1-,CJF!Solahma:2!Provisional Garrison:1,CNC!Second Line:1!Solahma:1!Provisional Garrison:1,CDS:2-,CWIE:3-,CB!Solahma:1!Provisional Garrison:1,CFM!Solahma:1!Provisional Garrison:1,CGS:3+,BAN:4+</availability>
+                <availability>LA:2+,FS:2+,FC:2+,DC:2+,CLAN.IS:5+,CGB:1-,CJF!Solahma:2!Provisional Garrison:1,CNC!Second Line:1!Solahma:1!Provisional Garrison:1,CDS:2-,CWIE:3-,CB!Solahma:1!Provisional Garrison:1,CFM!Solahma:1!Provisional Garrison:1,CGS:3+,CHH:0,CSR:0,BAN:4+</availability>
             </model>
             <model name='C 2'>
                 <availability>CLAN.IS:4+,CGB:5+,CDS:5+,CW:3+,CLAN.HW:5+,CBS:3+,CB:4+,CCC:4+,CFM:4+,CGS!Second Line:3!Solahma:1,CHH:4+,CSR:5+,BAN:2+</availability>
@@ -1542,7 +1542,7 @@
             </model>
         </chassis>
         <chassis name='Banshee' unitType='Mek'>
-            <availability>IS:6-,FS:7-,LA:8-,DC:5-,FWL:5-,CC:4-,MERC:6-,CS:1-,WOB:1-,CJF:1-,CSV:1-,CWIE:2-,Periphery:9-,Periphery.Deep:9-,HL:8-,NIOPS:1-</availability>
+            <availability>IS:6-,FS:7-,LA:8-,DC:5-,FWL:5-,CC:4-,MERC:6-,CS:1-,WOB:1-,CJF:1-,CSV:1-,CWIE:2-,Periphery:9-,NIOPS:1-,Periphery.Deep:9-,HL:8-</availability>
             <model name='BNC-3E'>
                 <availability>IS:5,MERC:5,Periphery:5,Periphery.Deep:8,HL:3</availability>
             </model>
@@ -1614,7 +1614,7 @@
             </model>
         </chassis>
         <chassis name='BattleMaster' unitType='Mek'>
-            <availability>IS:5,LA:7,DC.GHO:6,FRR:4,FWL:8,WOB:7-,CS:7-,CLAN.IS:2-,CJF:3-,CNC:3-,CSJ!Solahma:1!Provisional Garrison:1,CSV:3-,CWIE:3-,CLAN.HW:3-,CBS!Second Line:1!Solahma:3!Provisional Garrison:4,CCO:2-,CHH:2-,CIH!Second Line:1!Solahma:3!Provisional Garrison:4,CSR:2-,CSA:2-,Periphery:5,NIOPS:7-,HL:4,BAN:4,PIR:5</availability>
+            <availability>IS:5,LA:7,DC.GHO:6,FRR:4,FWL:8,CS:7-,WOB:7-,CLAN.IS:2-,CJF:3-,CNC:3-,CSJ!Solahma:1!Provisional Garrison:1,CSV:3-,CWIE:3-,CLAN.HW:3-,CBS!Second Line:1!Solahma:3!Provisional Garrison:4,CCO:2-,CHH:2-,CIH!Second Line:1!Solahma:3!Provisional Garrison:4,CSR:2-,CSA:2-,Periphery:5,NIOPS:7-,HL:4,BAN:4,PIR:5</availability>
             <model name='BLR-1D'>
                 <roles>command</roles>
                 <availability>FS:6</availability>
@@ -1704,7 +1704,7 @@
             </model>
         </chassis>
         <chassis name='Behemoth (Stone Rhino)' unitType='Mek'>
-            <availability>CLAN.IS!Solahma:1,CGB!Solahma:1!Provisional Garrison:1,CNC!Second Line:1,CDS!Second Line:1!Solahma:1!Provisional Garrison:1,CSJ!Front Line:1!Second Line:2!Solahma:1,CWIE!Second Line:1!Solahma:2,CW!Second Line:1!Solahma:1,CLAN.HW!Second Line:1!Solahma:1,CBS!Front Line:1,CCC!Second Line:1,CFM!Second Line:1,CGS!Front Line:1!Solahma:1,CHH!Second Line:1!Solahma:1!Provisional Garrison:1,CIH!Solahma:1!Provisional Garrison:1,CSR!Second Line:1!Solahma:2</availability>
+            <availability>CLAN.IS!Solahma:1,CGB!Solahma:1!Provisional Garrison:1,CNC!Second Line:1,CDS!Second Line:1!Solahma:1!Provisional Garrison:1,CSJ!Front Line:1!Second Line:2!Solahma:1,CWIE!Second Line:1!Solahma:2,CW!Second Line:1!Solahma:1,CLAN.HW!Second Line:1!Solahma:1,CBS!Front Line:1,CCC!Second Line:1,CFM!Second Line:1,CGS!Front Line:1!Second Line:1,CHH!Second Line:1!Solahma:1!Provisional Garrison:1,CIH!Solahma:1!Provisional Garrison:1,CSR!Second Line:1!Solahma:2</availability>
             <model name=''>
                 <availability>CLAN.IS:3+,CGB:4+,CJF:4+,CSJ:4+,CSV:4+,CW:3+,CLAN.HW:3+,CHH:3+,CIH:4+,CSR:3+</availability>
             </model>
@@ -1773,7 +1773,7 @@
             </model>
             <model name='S'>
                 <roles>urban</roles>
-                <availability>MERC.WD:2,CLAN.IS:5+,CW:4,CLAN.HW:4-,CGS:5+,CHH:5+,CIH:5+,CSR:4+,BAN:3+</availability>
+                <availability>MERC.WD:2,CLAN.IS:5+,CW:4,CLAN.HW:4+,CGS:5+,CHH:5+,CIH:5+,CSR:4+,BAN:3+</availability>
             </model>
         </chassis>
         <chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
@@ -1900,7 +1900,7 @@
         <chassis name='Blood Kite' unitType='Mek'>
             <availability>CBS!Keshik:1!Front Line:3!Second Line:2,CB!Second Line:1,CCC!Solahma:1,CFM!Second Line:1</availability>
             <model name=''>
-                <availability>CBS:8,CB:8,CFM:8</availability>
+                <availability>CBS:8,CB:8,CCC:8,CFM:8</availability>
             </model>
         </chassis>
         <chassis name='Bluehawk Combat Support Fighter' unitType='Conventional Fighter'>
@@ -2170,7 +2170,7 @@
             </model>
         </chassis>
         <chassis name='Catapult' unitType='Mek'>
-            <availability>IS:1,DC:6,FRR:5,CC:3,SIC:2,MERC:1,CNC:1-,CSJ:1-,Periphery:2,CS:3,NIOPS:3,BAN:1-</availability>
+            <availability>IS:1,DC:6,FRR:5,CC:3,SIC:2,MERC:1,CS:3,CNC:1-,CSJ:1-,Periphery:2,NIOPS:3,BAN:1-</availability>
             <model name='CPLT-A1'>
                 <roles>fire_support</roles>
                 <availability>CC:3,SIC:3</availability>
@@ -2486,10 +2486,10 @@
             </model>
         </chassis>
         <chassis name='Cicada' unitType='Mek'>
-            <availability>CC:4,CS:4-,IS:3,FWL:6,WOB:4-,FS:2,MERC:3,Periphery:1,DC:4</availability>
+            <availability>IS:3,FS:2,DC:4,FWL:6,CC:4,MERC:3,CS:4-,WOB:4-,CNC:1-,Periphery:1</availability>
             <model name='CDA-2A'>
                 <roles>recon</roles>
-                <availability>General:6</availability>
+                <availability>IS:6,CNC:8,Periphery:6</availability>
             </model>
             <model name='CDA-2B'>
                 <roles>anti_infantry</roles>
@@ -3012,7 +3012,7 @@
             </model>
         </chassis>
         <chassis name='Commando' unitType='Mek'>
-            <availability>FS:5,LA:9,MERC:5,MERC.KH:8,HL:4,FRR:4,CJF:1-,CSV:2-,CW:1-,CWIE:2-,Periphery:3,TC:6,Periphery.R:4,Periphery.CM:5,Periphery.HR:5,Periphery.ME:4,CIR:4,BAN:1-</availability>
+            <availability>FS:5,LA:9,FRR:4,MERC:5,MERC.KH:8,CJF:1-,CSV:2-,CW:1-,CWIE:2-,Periphery:3,TC:6,Periphery.R:4,Periphery.CM:5,Periphery.HR:5,Periphery.ME:4,CIR:4,HL:4,BAN:1-</availability>
             <model name='COM-1B'>
                 <roles>recon</roles>
                 <availability>LA:2</availability>
@@ -3928,7 +3928,7 @@
             </model>
         </chassis>
         <chassis name='Fenris (Ice Ferret)' unitType='Mek' omni='Clan'>
-            <availability>MERC.WD:6,CLAN.IS!Keshik:1!Front Line:1!Second Line:1,CJF!Front Line:1!Second Line:2,CDS!Keshik:2!Front Line:2!Second Line:1,CSJ!Keshik:1!Front Line:2!Second Line:2,CSV!Keshik:3!Front Line:1,CWIE:3+,CW!Keshik:4!Front Line:3,CLAN.HW!Keshik:3!Front Line:2,CBS!Keshik:1!Front Line:1,CB:2+,CFM!Keshik:1!Front Line:1,CGS:2+,CHH!Keshik:2!Front Line:2!Second Line:1,CIH!Keshik:4!Front Line:4,CSR:3+,CSA:3+,BAN:0</availability>
+            <availability>MERC.WD:6,CLAN.IS!Keshik:1!Front Line:1!Second Line:1,CJF!Front Line:1!Second Line:2,CDS!Keshik:2!Front Line:2!Second Line:1,CSJ!Keshik:1!Front Line:2!Second Line:2,CSV!Keshik:3!Front Line:1,CWIE:3+,CW!Keshik:4!Front Line:3,CLAN.HW!Keshik:3!Front Line:2,CBS!Keshik:1!Front Line:1,CB:2+,CFM!Keshik:1!Front Line:1,CGS:2+,CHH!Keshik:2!Front Line:2!Second Line:1,CIH!Keshik:4!Front Line:4,CSR:3+,CSA:3+</availability>
             <model name='A'>
                 <availability>MERC.WD:6,CLAN.IS:5-,CLAN.HW:5-</availability>
             </model>
@@ -5334,7 +5334,7 @@
             </model>
         </chassis>
         <chassis name='Great Wyrm' unitType='Mek'>
-            <availability>CLAN.IS!Solahma:1!Provisional Garrison:1,CNC!Provisional Garrison:1,CWIE!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS!Second Line:1!Solahma:1!Provisional Garrison:1,CCC!Second Line:1!Solahma:1,CCO!Provisional Garrison:1,CFM!Second Line:1!Solahma:1,CGS!Second Line:1,BAN!Front Line:1!Second Line:1!Solahma:1!Provisional Garrison:1</availability>
+            <availability>CLAN.IS!Solahma:1!Provisional Garrison:1,CNC!Provisional Garrison:1,CWIE!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS!Second Line:1!Solahma:1!Provisional Garrison:1,CCC!Second Line:1!Solahma:1,CCO:1-,CFM!Second Line:1!Solahma:1,CGS!Second Line:1,BAN!Front Line:1!Second Line:1!Solahma:1!Provisional Garrison:1</availability>
             <model name=''>
                 <availability>CLAN.IS:8,CLAN.HW:8,BAN:8</availability>
             </model>
@@ -5393,7 +5393,7 @@
             </model>
         </chassis>
         <chassis name='Grizzly' unitType='Mek'>
-            <availability>CLAN.IS!Solahma:1,CGB!Second Line:2!Solahma:2!Provisional Garrison:2,CDS!Solahma:1!Provisional Garrison:1,CSJ!Solahma:1!Provisional Garrison:1,CW!Second Line:1!Solahma:1,CLAN.HW!Solahma:1,CBS!Second Line:1!Solahma:1,CGS!Second Line:1,CHH!Solahma:1!Provisional Garrison:1,CSR!Solahma:1,BAN!Second Line:1</availability>
+            <availability>CLAN.IS!Solahma:1,CGB!Second Line:2!Solahma:2!Provisional Garrison:2,CDS!Solahma:1!Provisional Garrison:1,CSJ!Solahma:1!Provisional Garrison:1,CW!Second Line:1!Solahma:1,CLAN.HW!Solahma:1,CBS!Second Line:1!Solahma:1,CGS!Second Line:1,CHH!Solahma:1!Provisional Garrison:1,BAN!Second Line:1</availability>
             <model name=''>
                 <availability>CLAN.IS:8,CLAN.HW:8,BAN:8</availability>
             </model>
@@ -5828,6 +5828,12 @@
                 <availability>LA:4,FS:3</availability>
             </model>
         </chassis>
+        <chassis name='Hellfire' unitType='Mek'>
+            <availability>CSA!Front Line:3</availability>
+            <model name=''>
+                <availability>CSA:8</availability>
+            </model>
+        </chassis>
         <chassis name='Hellhound (Conjurer)' unitType='Mek'>
             <availability>CLAN.IS!Second Line:2!Solahma:2!Provisional Garrison:1,CGB!Second Line:1!Solahma:1,CJF!Front Line:1!Second Line:4!Solahma:4!Provisional Garrison:3,CNC!Second Line:1,CDS!Second Line:3!Solahma:2!Provisional Garrison:2,CSV!Second Line:2!Solahma:1!Provisional Garrison:1,CWIE!Second Line:2,CW!Second Line:2!Solahma:1,CLAN.HW!Second Line:2!Solahma:1,CBS!Keshik:1!Front Line:1!Second Line:2,CB!Front Line:1!Second Line:2!Solahma:1,CCC!Second Line:1,CCO!Second Line:1!Solahma:1!Provisional Garrison:1,CFM!Front Line:1!Second Line:1,CGS!Second Line:1,CHH!Second Line:2,CSR!Second Line:1!Solahma:2</availability>
             <model name=''>
@@ -6087,7 +6093,7 @@
                 <availability>IS:2,FWL:3,FS:3,MERC:3,Periphery:3</availability>
             </model>
             <model name='HBK-4P'>
-                <availability>IS:2,CLAN.IS:6,CNC:8,BAN:8,Periphery:2</availability>
+                <availability>IS:2,CLAN.IS:6,CNC:8,Periphery:2,BAN:8</availability>
             </model>
             <model name='HBK-4SP'>
                 <availability>IS:2,FWL:3,MERC:3,DC:3,Periphery:3</availability>
@@ -6865,7 +6871,7 @@
             </model>
         </chassis>
         <chassis name='King Crab' unitType='Mek'>
-            <availability>IS:1,FS:4,DC.GHO:6,FRR:2,MERC:2,CS:6,WOB:6,CB:2-,CFM:2-,CGB:2-,CGS:2-,CSJ:2-,NIOPS:6,BAN!Second Line:1!Solahma:1!Provisional Garrison:1</availability>
+            <availability>IS:1,FS:4,DC.GHO:6,FRR:2,MERC:2,CS:6,WOB:6,CB:2-,CFM:2-,CGB:2-,CGS:2-,CSJ:2-,CW!Solahma:1!Provisional Garrison:1,NIOPS:6,BAN!Second Line:1!Solahma:1!Provisional Garrison:1</availability>
             <model name='KGC-000'>
                 <roles>command</roles>
                 <availability>DC:6+,FRR:6+,CS:6,WOB:6,NIOPS:6,BAN:2-</availability>
@@ -6876,7 +6882,7 @@
             </model>
             <model name='KGC-000b'>
                 <roles>command</roles>
-                <availability>CB:8,CFM:8,CGB:5,CGS:8</availability>
+                <availability>CB:8,CFM:8,CGB:5,CGS:8,CW:8</availability>
             </model>
             <model name='KGC-001'>
                 <roles>command</roles>
@@ -6913,7 +6919,7 @@
             </model>
         </chassis>
         <chassis name='Kintaro' unitType='Mek'>
-            <availability>FS:5,DC:5,DC.GHO:7,FRR:4,MERC:4,CS:7,WOB:7,CLAN.IS:3-,CNC:2-,CDS!Provisional Garrison:2,CWIE:2-,CLAN.HW:2-,CBS:3-,CB:1-,CCC:3-,CHH:3-,CSR:2-,NIOPS:7,BAN:3+</availability>
+            <availability>FS:5,DC:5,DC.GHO:7,FRR:4,MERC:4,CLAN.IS:3-,CNC:2-,CDS!Provisional Garrison:2,CWIE:2-,CLAN.HW:2-,CBS:3-,CB:1-,CCC:3-,CHH:3-,CSR:2-,CS:7,WOB:7,NIOPS:7,BAN:3+</availability>
             <model name='KTO-18'>
                 <availability>FS:6,DC:4,MERC:6</availability>
             </model>
@@ -7534,7 +7540,7 @@
             </model>
             <model name='E'>
                 <roles>spotter</roles>
-                <availability>MERC.WD:5,CLAN.IS:1+,CWIE:0,CLAN.HW:1+,CCO!Keshik:4!Front Line:2</availability>
+                <availability>MERC.WD:1+,CLAN.IS:1+,CWIE:0,CLAN.HW:1+,CCO!Keshik:4!Front Line:2</availability>
             </model>
             <model name='N'>
                 <availability>MERC.WD:4,CLAN.IS:4+,CLAN.HW:4+,CFM:3+</availability>
@@ -7544,7 +7550,7 @@
             </model>
             <model name='S'>
                 <roles>urban</roles>
-                <availability>MERC.WD:2,CLAN.IS:7-,CWIE:5+,CLAN.HW:6-,CBS:7-,CCC:7-,CFM:7-,CGS:5-,CHH:7-,CSR:6-</availability>
+                <availability>MERC.WD:2,CLAN.IS:7-,CWIE:5+,CLAN.HW:6-,CBS:7-,CCC:7-,CFM:7-,CGS:5-,CHH:7-</availability>
             </model>
             <model name='TC'>
                 <availability>CWIE!Keshik:3,CW!Keshik:3</availability>
@@ -9039,7 +9045,7 @@
             </model>
         </chassis>
         <chassis name='Night Gyr' unitType='Mek' omni='Clan'>
-            <availability>CJF!Keshik:2,CSJ!Second Line:1</availability>
+            <availability>CJF!Keshik:2,CSJ!Front Line:1</availability>
             <model name='A'>
                 <availability>CJF:4,CSJ:6</availability>
             </model>
@@ -9111,7 +9117,7 @@
             </model>
             <model name='NSR-9J'>
                 <roles>command</roles>
-                <availability>IS:8</availability>
+                <availability>IS:8,NIOPS:8</availability>
             </model>
         </chassis>
         <chassis name='Nobori-nin (Huntsman)' unitType='Mek' omni='Clan'>
@@ -9247,7 +9253,7 @@
             </model>
             <model name='OSR-2Cb'>
                 <roles>urban</roles>
-                <availability>CLAN.IS:4,CWIE:3,CW:3,CLAN.HW:8,BAN:3</availability>
+                <availability>CLAN.IS:4,CWIE:3,CW:3,CLAN.HW:8,CHH:8,CSR:8,BAN:3</availability>
             </model>
             <model name='OSR-2D'>
                 <availability>MERC.KH:3+,MERC.WD:3+,IS:3+,MERC:3+,Periphery:2+</availability>
@@ -9273,7 +9279,7 @@
             </model>
             <model name='OTT-7Jb'>
                 <roles>recon</roles>
-                <availability>CLAN.IS:8,CLAN.HW:8,BAN:8</availability>
+                <availability>CLAN.IS:8,CLAN.HW:8,NIOPS:8,BAN:8</availability>
             </model>
             <model name='OTT-7K'>
                 <roles>recon,spotter</roles>
@@ -9392,7 +9398,7 @@
             </model>
             <model name='PNT-10KA'>
                 <roles>fire_support</roles>
-                <availability>FS.RR:2+,FRR:2+,FS.DMM:2+,DC:2+,MERC:2+,BAN:7+</availability>
+                <availability>FS.RR:2+,FS.DMM:2+,DC:2+,FRR:2+,MERC:2+,BAN:7+</availability>
             </model>
             <model name='PNT-9R'>
                 <roles>fire_support</roles>
@@ -9640,7 +9646,7 @@
             </model>
         </chassis>
         <chassis name='Piranha' unitType='Mek'>
-            <availability>CLAN.IS!Second Line:1!Solahma:1,CGB!Solahma:1!Provisional Garrison:1,CNC!Solahma:1!Provisional Garrison:1,CDS!Second Line:1!Solahma:1!Provisional Garrison:1,CWIE!Second Line:2!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS!Second Line:1!Solahma:1!Provisional Garrison:1,CB!Second Line:1!Solahma:1,CCC:1-,CCO:1-,CFM!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Second Line:1,CHH!Second Line:1,CSR!Provisional Garrison:1,BAN!Keshik:1!Front Line:1!Second Line:1</availability>
+            <availability>CLAN.IS!Second Line:1!Solahma:1,CGB!Solahma:1!Provisional Garrison:1,CNC!Solahma:1!Provisional Garrison:1,CDS!Second Line:1!Solahma:1!Provisional Garrison:1,CWIE!Second Line:2!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS!Second Line:1!Solahma:1!Provisional Garrison:1,CB!Second Line:1!Solahma:1,CCC:1-,CCO:1-,CFM!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Second Line:1,CHH!Second Line:1,CSR:1-,BAN!Keshik:1!Front Line:1!Second Line:1</availability>
             <model name=''>
                 <roles>anti_infantry</roles>
                 <availability>CLAN.IS:8,CLAN.HW:8,BAN:8</availability>
@@ -9838,7 +9844,7 @@
                 <availability>MERC.WD:8,CLAN.IS:7+,CSJ:8+,CWIE:3+,CW:8+,CLAN.HW:7+,CBS:4+,CB:5+,CFM:5+,CGS:6+,CHH:6+,CIH:5+,CSR:6+,BAN:3+</availability>
             </model>
             <model name='S'>
-                <availability>MERC.WD:5,CLAN.IS:4-,CSV:3-,CLAN.HW:4-,CBS:6-,CB:5-,CFM:5-,CHH:4-,BAN:4+</availability>
+                <availability>MERC.WD:5,CLAN.IS:4-,CSV:3-,CLAN.HW:4-,CBS:6-,CB:5-,CFM:5-,BAN:4+</availability>
             </model>
             <model name='TC'>
                 <availability>CDS!Front Line:1</availability>
@@ -10500,7 +10506,7 @@
                 <availability>LA:2</availability>
             </model>
             <model name='STN-3L'>
-                <availability>FS:8,DC:8,LA:8,MERC:8,MERC.SI:8,CS:8,WOB:8,CLAN.IS:8,CJF:3-,CDS:4-,CLAN.HW:8,CBS:4-,CCC:4,CFM:3,CHH:4-,CSR:4-,NIOPS:8,BAN:8</availability>
+                <availability>FS:8,LA:8,DC:8,MERC:8,MERC.SI:8,CS:8,WOB:8,CLAN.IS:8,CJF:3-,CDS:4-,CLAN.HW:8,CBS:4-,CCC:4,CFM:3,CHH:4-,CSR:4-,NIOPS:8,BAN:8</availability>
             </model>
             <model name='STN-3Lb'>
                 <availability>CBS:4+,CCC:4+,CFM:4+,CHH:4+,CJF:4+,CDS:4+,CSR:4+</availability>
@@ -10658,7 +10664,7 @@
             </model>
         </chassis>
         <chassis name='Shootist' unitType='Mek'>
-            <availability>CS:4,WOB:4,CLAN.IS!Provisional Garrison:1,CGB!Solahma:1!Provisional Garrison:1,CJF!Solahma:1,CNC!Solahma:1!Provisional Garrison:1,CWIE!Solahma:1!Provisional Garrison:1,CW!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS:1-,CCC!Second Line:2!Solahma:1!Provisional Garrison:1,CCO!Second Line:1!Solahma:1,CHH!Solahma:1,CSR:1-,CSA:1-,NIOPS:4</availability>
+            <availability>CS:4,WOB:4,CLAN.IS:1-,CGB!Solahma:1!Provisional Garrison:1,CJF!Solahma:1,CNC!Solahma:1!Provisional Garrison:1,CWIE!Solahma:1!Provisional Garrison:1,CW!Solahma:1,CLAN.HW!Solahma:1!Provisional Garrison:1,CBS:1-,CCC!Second Line:2!Solahma:1!Provisional Garrison:1,CCO!Second Line:1!Solahma:1,CHH!Solahma:1,CSR:1-,CSA:1-,NIOPS:4</availability>
             <model name='ST-8A'>
                 <roles>command</roles>
                 <availability>CS:8,WOB:8,CLAN.IS:8,CLAN.HW:8,NIOPS:8</availability>
@@ -11141,7 +11147,7 @@
             </model>
         </chassis>
         <chassis name='Supernova' unitType='Mek'>
-            <availability>CLAN.IS:2-,CGB:3-,CJF!Solahma:1!Provisional Garrison:1,CNC!Second Line:2!Solahma:2!Provisional Garrison:3,CDS!Second Line:1!Solahma:2!Solahma:2,CWIE!Second Line:2!Solahma:1,CW!Solahma:1,CLAN.HW:2-,CBS!Second Line:2!Solahma:1!Provisional Garrison:1,CB:1-,CCC!Solahma:1!Provisional Garrison:1,CCO!Solahma:2!Provisional Garrison:1,CFM!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Second Line:1,CHH!Second Line:1!Solahma:1,CSR:2-</availability>
+            <availability>CLAN.IS:2-,CGB:3-,CJF!Solahma:1!Provisional Garrison:1,CNC!Second Line:2!Solahma:2!Provisional Garrison:3,CDS!Second Line:1!Solahma:2!Provisional Garrison:2,CWIE!Second Line:2!Solahma:1,CW!Solahma:1,CLAN.HW:2-,CBS!Second Line:2!Solahma:1!Provisional Garrison:1,CB:1-,CCC!Solahma:1!Provisional Garrison:1,CCO!Solahma:2!Provisional Garrison:1,CFM!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Second Line:1,CHH!Second Line:1!Solahma:1,CSR:2-</availability>
             <model name=''>
                 <availability>CLAN.IS:8,CLAN.HW:8</availability>
             </model>
@@ -11200,7 +11206,7 @@
             </model>
         </chassis>
         <chassis name='Talon' unitType='Mek'>
-            <availability>LA:3+,CLAN.IS!Solahma:2!Provisional Garrison:1,CGB!Solahma:1!Provisional Garrison:1,CJF!Second Line:1!Solahma:2!Provisional Garrison:1,CNC!Second Line:2!Solahma:2!Provisional Garrison:1,CSJ!Second Line:2!Solahma:1,CWIE!Second LLine:1!Solahma:1,CW!Second Line:2!Solahma:3!Provisional Garrison:2,CLAN.HW!Second Line:1!Solahma:1,CBS!Second Line:1!Solahma:2!Provisional Garrison:1,CCC!Second Line:2!Solahma:2!Provisional Garrison:1,CCO!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Front Line:1!Second Line:1!Solahma:1,CHH!Second Line:1!Solahma:2!Provisional Garrison:1,CIH!Second Line:2!Solahma:1,CSR!Solahma:1,CSA!Solahma:1!Provisional Garrison:1,BAN:3+</availability>
+            <availability>LA:3+,CLAN.IS!Solahma:2!Provisional Garrison:1,CGB!Solahma:1!Provisional Garrison:1,CJF!Second Line:1!Solahma:2!Provisional Garrison:1,CNC!Second Line:2!Solahma:2!Provisional Garrison:1,CSJ!Second Line:2!Solahma:1,CWIE!Second Line:1!Solahma:1,CW!Second Line:2!Solahma:3!Provisional Garrison:2,CLAN.HW!Second Line:1!Solahma:1,CBS!Second Line:1!Solahma:2!Provisional Garrison:1,CCC!Second Line:2!Solahma:2!Provisional Garrison:1,CCO!Second Line:1!Solahma:1!Provisional Garrison:1,CGS!Front Line:1!Second Line:1!Solahma:1,CHH!Second Line:1!Solahma:2!Provisional Garrison:1,CIH!Second Line:2!Solahma:1,CSR!Solahma:1,CSA!Solahma:1!Provisional Garrison:1,BAN:3+</availability>
             <model name='TLN-5W'>
                 <availability>LA:8,CLAN.IS:8,CLAN.HW:8,BAN:8</availability>
             </model>
@@ -11375,7 +11381,7 @@
         <chassis name='Thunderbolt' unitType='Mek'>
             <availability>IS:8,FS:7,CC:7,MERC:8,MERC.ELH:7+,MERC.WD:2,CS:4-,WOB:3-,CLAN.IS:3-,CGB!Front Line:1!Second Line:2!Solahma:2!Provisional Garrison:3,CJF:4-,CSV:2-,CLAN.HW:3-,CBS:4-,CGS!Second Line:1!Solahma:2!Provisional Garrison:4,CIH:2-,CSR:2-,Periphery:4,NIOPS:4-,Periphery.Deep:6,HL:3,BAN:5</availability>
             <model name='C'>
-                <availability>LA:2+,FS:1+,DC:1+,CLAN.IS:4+,CGB:2,CJF!Second Line:1!Solahma:2!Provisional Garrison:1,CDS:5+,CSJ:5,CB:5+,CCC:3+,CGS:3+,CHH:0,CSR:0,CSA:4+,BAN:2+</availability>
+                <availability>LA:2+,FS:1+,DC:1+,CLAN.IS:4+,CGB:2,CJF!Second Line:1!Solahma:2!Provisional Garrison:1,CDS:5+,CSJ:5+,CB:5+,CCC:3+,CGS:3+,CHH:0,CSR:0,CSA:4+,BAN:2+</availability>
             </model>
             <model name='C 2'>
                 <availability>CJF:4+</availability>
@@ -11662,7 +11668,7 @@
             </model>
         </chassis>
         <chassis name='Uller (Kit Fox)' unitType='Mek' omni='Clan'>
-            <availability>MERC.WD:4,CLAN.IS!Front Line:1!Second Line:1,CGB!Keshik:2!Front Line:1!Second Line:1,CJF!Keshik:5!Front Line:4!Second Line:1,CDS:3+,CSJ!Keshik:1!Front Line:1!Second Line:1,CSV!Keshik:2!Front Line:1!Second Line:1,CLAN.HW:2+,CBS!Keshik:3!Front Line:2,CCC!Keshik:3!Front Line:3!Second Line:1,CFM:1+,CHH!Keshik:2!Front Line:1!Second Line:1,CSR!Keshik:4!Front Line:2!Second Line:2,CSA:3+,BAN:1+</availability>
+            <availability>MERC.WD:4,CLAN.IS!Keshik:1!Front Line:1,CGB!Keshik:2!Front Line:1!Second Line:1,CJF!Keshik:5!Front Line:4!Second Line:1,CDS:3+,CSJ!Keshik:1!Front Line:1!Second Line:1,CSV!Keshik:2!Front Line:1!Second Line:1,CLAN.HW:2+,CBS!Keshik:3!Front Line:2,CCC!Keshik:3!Front Line:3!Second Line:1,CFM:1+,CHH!Keshik:2!Front Line:1!Second Line:1,CSR!Keshik:4!Front Line:2!Second Line:2,CSA:3+,BAN:1+</availability>
             <model name='A'>
                 <availability>MERC.WD:5,CLAN.IS:2,CJF:5+,CDS:5+,CSJ:6+,CWIE:2+,CW!Keshik:5!Front Line:2,CLAN.HW:2+,CBS:2,CB!Keshik:4!Front Line:1,CCC:5+,CCO!Keshik:5!Front Line:2,CFM:3+,CHH:2+,CIH:3+,CSR:3+,CSA:4+,BAN:1+</availability>
             </model>
@@ -12073,7 +12079,7 @@
         <chassis name='Warhammer IIC' unitType='Mek'>
             <availability>CLAN.IS!Second Line:2!Solahma:2!Provisional Garrison:2,CJF!Second Line:1!Solahma:1!Provisional Garrison:1,CNC!Second Line:2,CDS!Second Line:3!Solahma:3!Provisional Garrison:1,CSJ!Second Line:1!Solahma:2!Provisional Garrison:1,CSV!Second Line:1!Solahma:1!Provisional Garrison:1,CWIE!Second Line:2!Solahma:2,CW!Second Line:1,CLAN.HW!Second Line:3!Solahma:2!Provisional Garrison:1,CB!Second Line:2!Solahma:3,CCC!Second Line:1,CCO!Second Line:1!Solahma:3!Provisional Garrison:2,CFM!Second Line:3!Solahma:1!Provisional Garrison:1,CGS!Second Line:1,CHH!Second Line:3!Solahma:1!Provisional Garrison:1,CIH!Second Line:1!Solahma:2!Provisional Garrison:1,CSR!Second Line:3!Solahma:3!Provisional Garrison:1,CSA!Second Line:3!Solahma:3!Provisional Garrison:2,BAN!Keshik:4!Front Line:2!Second Line:1</availability>
             <model name=''>
-                <availability>CLAN.IS:5,CGB:4,CLAN.HW:5,CGS:8,CSA:8</availability>
+                <availability>CLAN.IS:5,CGB:4,CLAN.HW:5,CGS:8,CSA:8,BAN:8</availability>
             </model>
             <model name='2'>
                 <roles>fire_support</roles>
