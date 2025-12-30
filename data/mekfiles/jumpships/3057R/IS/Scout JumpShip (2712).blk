@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.10 on 2025-12-26
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -156,7 +156,7 @@ Exploration/Transport
 </use>
 
 <length>
-273
+273m
 </length>
 
 <source>
