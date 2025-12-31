@@ -71,7 +71,7 @@
         <!--modifier>
             Disabled until Princess can better manage Hidden units
             PlayerAmbush.xml
-        <</modifier-->
+        </modifier-->
         <modifier>
             AlliedAirSupport.xml
         </modifier>
