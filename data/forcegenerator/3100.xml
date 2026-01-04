@@ -8601,14 +8601,14 @@
             </model>
         </chassis>
         <chassis name='Foot Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
+            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,CC:0,Periphery:1,MH:0</availability>
             <model name='(Rifle Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Foot Stealth Squad' unitType='Infantry'>
-            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1+,MH:0</availability>
+            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,CC:0,Periphery:1+,MH:0</availability>
             <model name='(Sniper Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
@@ -12041,14 +12041,14 @@
             </model>
         </chassis>
         <chassis name='Jump Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0</availability>
+            <availability>IS:2,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,CC:0</availability>
             <model name='(Laser)'>
                 <roles>specops</roles>
                 <availability>IS:5,DC:7</availability>
             </model>
             <model name='(Needler Demolition)'>
                 <roles>incendiary,anti_infantry,specops</roles>
-                <availability>CC:7,IS:5</availability>
+                <availability>IS:5</availability>
             </model>
         </chassis>
         <chassis name='Jump Triplus Contubernium (MHAF)' unitType='Infantry'>
@@ -15887,7 +15887,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Sub Platoon' unitType='Infantry'>
-            <availability>IS:1,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
+            <availability>IS:1,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,CC:0,Periphery:1,MH:0</availability>
             <model name='(Laser SCUBA)'>
                 <roles>specops</roles>
                 <availability>IS:9</availability>

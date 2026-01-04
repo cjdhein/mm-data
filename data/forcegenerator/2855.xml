@@ -2732,14 +2732,14 @@
             </model>
         </chassis>
         <chassis name='Foot Stealth Platoon' unitType='Infantry'>
-            <availability>IS:1+,DC:0,Periphery:1</availability>
+            <availability>IS:1+,DC:0,CC:0,Periphery:1</availability>
             <model name='(Rifle Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Foot Stealth Squad' unitType='Infantry'>
-            <availability>IS:1+,DC:0,Periphery:1+</availability>
+            <availability>IS:1+,DC:0,CC:0,Periphery:1+</availability>
             <model name='(Sniper Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
@@ -3620,7 +3620,7 @@
             </model>
         </chassis>
         <chassis name='Jump Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2,DC:0</availability>
+            <availability>IS:2,DC:0,CC:0</availability>
             <model name='(Laser)'>
                 <roles>specops</roles>
                 <availability>IS:5,DC:7</availability>
@@ -4682,7 +4682,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Sub Platoon' unitType='Infantry'>
-            <availability>IS:1,FS:3,DC:0,Periphery:1</availability>
+            <availability>IS:1,FS:3,DC:0,CC:0,Periphery:1</availability>
             <model name='(Laser SCUBA)'>
                 <roles>specops</roles>
                 <availability>IS:9</availability>
