@@ -8086,7 +8086,7 @@
             </model>
             <model name='(SpecOps Demoteam 3055+)'>
                 <roles>paratrooper,specops</roles>
-                <availability>CC!A:2!B:1</availability>
+                <availability>CC:2+</availability>
             </model>
             <model name='(SpecOps Fireteam 3055+)'>
                 <roles>paratrooper,recon,specops</roles>
