@@ -105,6 +105,7 @@ tasks.register<Copy>("stageMMLFiles") {
         include("mekfiles/*.txt")
         include("mekfiles/*.xml")
         exclude("mekfiles/*.cache")
+        include("names/**/*.*")
         include("sourcebooks/*.*")
         include("universe/commands/**/*.*")
         include("universe/factions/**/*.*")
@@ -113,6 +114,7 @@ tasks.register<Copy>("stageMMLFiles") {
 
     from(stagingFolder) {
         include("mekfiles/**/*.*")
+        include("rat/**/*.*")
         exclude("mekfiles/*.cache")
     }
 
