@@ -319,7 +319,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Heret Belt
     type: ASTEROID_BELT
     orbitalDist: 0.7

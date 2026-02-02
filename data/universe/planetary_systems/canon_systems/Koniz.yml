@@ -273,7 +273,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Mati Syra Zemlya
     type: TERRESTRIAL
     orbitalDist: 0.9

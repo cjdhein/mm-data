@@ -298,7 +298,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Saint Kioskurber
     type: GIANT_TERRESTRIAL
     orbitalDist: 0.7

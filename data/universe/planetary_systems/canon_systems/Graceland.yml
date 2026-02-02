@@ -273,7 +273,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Jacobs
     type: ICE_GIANT
     orbitalDist: 0.42

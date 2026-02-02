@@ -395,7 +395,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Karvonen
     type: GAS_GIANT
     orbitalDist: 7.8

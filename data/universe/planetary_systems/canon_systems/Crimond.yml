@@ -403,7 +403,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Brierley
     type: DWARF_TERRESTRIAL
     orbitalDist: 1.92

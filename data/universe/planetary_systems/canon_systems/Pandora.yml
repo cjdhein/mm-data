@@ -468,7 +468,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Rottenberger's Retreat
     type: GAS_GIANT
     orbitalDist: 174.6
