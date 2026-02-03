@@ -212,7 +212,7 @@ planet:
         faction:
           source: canon
           value:
-            - MOC
+            - DA
             - CC
       - date: '3032-05-23'
         faction:
