@@ -240,19 +240,19 @@ planet:
         faction:
           source: canon
           value:
-            - DA
+            - MOC
             - CC
       - date: '3031-08-03'
         faction:
           source: canon
           value:
-            - DA
+            - MOC
       - date: '3032-03-02'
         faction:
           source: canon
           value:
             - CC
-            - DA
+            - MOC
       - date: '3032-04-01'
         faction:
           source: canon

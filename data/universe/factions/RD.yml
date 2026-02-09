@@ -45,6 +45,7 @@ ratingLevels:
 fallBackFactions:
   - CLAN.IS
   - CGB
+  - FRR
 factionLeaders:
   - title: "Prince"
     firstName: "Ragnar"

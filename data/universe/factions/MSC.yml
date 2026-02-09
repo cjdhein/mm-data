@@ -49,4 +49,5 @@ ratingLevels:
   - B
   - A
 fallBackFactions:
+  - FWL
   - IS

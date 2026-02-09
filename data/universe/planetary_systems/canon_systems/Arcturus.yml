@@ -442,7 +442,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Buljo
     type: GIANT_TERRESTRIAL
     orbitalDist: 3.64

@@ -204,7 +204,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
       - date: '2108-12-05'
         name: Qualip
       - date: '3130-01-01'

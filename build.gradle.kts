@@ -5,7 +5,46 @@
  * Learn more about Gradle by exploring our Samples at https://docs.gradle.org/9.0.0/samples
  */
 
+plugins {
+    checkstyle
+    java
+}
+
+sourceSets {
+    main {
+        java {
+            setSrcDirs(listOf("data"))
+        }
+        resources {
+            setSrcDirs(listOf("data"))
+        }
+    }
+}
+
+tasks.withType(Checkstyle::class.java).configureEach {
+    minHeapSize = "200m"
+    maxHeapSize = "4g"
+    maxWarnings = 0  // Fail on any warning
+    maxErrors = 0    // Fail on any error
+    source(project.sourceSets.main.get().allSource)
+    configFile = file("${rootDir}/config/checkstyle/checkstyle.xml")
+}
+
 var stagingFolder = File(project.layout.buildDirectory.get().toString(), "staging")
+
+dependencies {
+    implementation("com.puppycrawl.tools:checkstyle:12.3.1")
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
 
 tasks.register<Zip>("unitFilesZip") {
     description = "Creates zip archives of all the unit file folders (excluding loose .txt and .xml files)."
@@ -159,8 +198,4 @@ tasks.register<Copy>("stageFiles") {
     }
 
     into("${stagingFolder}/all")
-}
-
-tasks.register<Delete>("clean") {
-    delete(stagingFolder)
 }

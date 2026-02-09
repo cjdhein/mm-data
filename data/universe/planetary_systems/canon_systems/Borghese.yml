@@ -309,7 +309,7 @@ planet:
         faction:
           source: canon
           value:
-            - NTamP
+            - TamP
   - name: Cicarelli's Patch
     type: GIANT_TERRESTRIAL
     orbitalDist: 0.42
