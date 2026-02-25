@@ -186,6 +186,6 @@ primaryfactory:Terra (Skobel), Corey (Hollis), Achernar (Achernar- Destroyed)
 systemmanufacturer:CHASSIS:Hollis Mk II Endo Steel
 systemmanufacturer:ENGINE:DAV 220 XL
 systemmanufacturer:ARMOR:Durallex Heavy with CASE
-systemmanufacturer:JUMPJET:Anderson Propulsion 25
+systemmanufacturer:JUMP_JET:Anderson Propulsion 25
 systemmanufacturer:COMMUNICATIONS:O/P COM-211
 systemmanufacturer:TARGETING:O/P 1078 with Beagle Active Probe

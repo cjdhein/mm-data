@@ -187,6 +187,6 @@ primaryfactory:Luthien, Abiy Adi, New Samarkand, Ozawa
 systemmanufacturer:CHASSIS:Diplan Scout-A
 systemmanufacturer:ENGINE:Magna 245
 systemmanufacturer:ARMOR:Starshield
-systemmanufacturer:JUMPJET:Smithson Lifters
+systemmanufacturer:JUMP_JET:Smithson Lifters
 systemmanufacturer:COMMUNICATIONS:Dawson III
 systemmanufacturer:TARGETING:Bk-309

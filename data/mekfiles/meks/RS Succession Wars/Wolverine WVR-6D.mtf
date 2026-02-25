@@ -184,7 +184,7 @@ primaryfactory:Nanking, Thermopolis (Kallon), Marduk (Victory), Gibson (FWDI)
 systemmanufacturer:CHASSIS:Crucis-A
 systemmanufacturer:ENGINE:CoreTek
 systemmanufacturer:ARMOR:Maximillian
-systemmanufacturer:JUMPJET:Northrup
+systemmanufacturer:JUMP_JET:Northrup
 systemmanufacturer:COMMUNICATIONS:Garret
 systemmanufacturer:TARGETING:Sync
 

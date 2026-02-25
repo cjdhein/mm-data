@@ -168,6 +168,6 @@ primaryfactory:Acrux
 systemmanufacturer:CHASSIS:Unknown
 systemmanufacturer:ENGINE:Hermes 160 XL
 systemmanufacturer:ARMOR:Durallex Light with CASE II
-systemmanufacturer:JUMPJET:Whitworth Jetlift
+systemmanufacturer:JUMP_JET:Whitworth Jetlift
 systemmanufacturer:COMMUNICATIONS:Garret T14 with Guardian
 systemmanufacturer:TARGETING:Garret D2j

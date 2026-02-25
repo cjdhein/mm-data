@@ -183,6 +183,6 @@ primaryfactory:Sabanillas
 systemmanufacturer:CHASSIS:Heavy Star QAT-4 Endo-Composite
 systemmanufacturer:ENGINE:Pitban 240 Light Fusion
 systemmanufacturer:ARMOR:Longanecker PlastiSteel with CASE
-systemmanufacturer:JUMPJET:Pitban LFT 50
+systemmanufacturer:JUMP_JET:Pitban LFT 50
 systemmanufacturer:COMMUNICATIONS:Magestrix Alpha
 systemmanufacturer:TARGETING:Magestrix Gamma

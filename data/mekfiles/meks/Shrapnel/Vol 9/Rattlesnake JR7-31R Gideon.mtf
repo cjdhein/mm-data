@@ -175,7 +175,7 @@ primaryfactory:New Valencia
 systemmanufacturer:CHASSIS:NCIA Endo Steel Type R
 systemmanufacturer:ENGINE:315 Consolidated XL
 systemmanufacturer:ARMOR:Alpha 3-E Compound Ferro-Fibrous
-systemmanufacturer:JUMPJET:Rawlings 45
+systemmanufacturer:JUMP_JET:Rawlings 45
 systemmanufacturer:COMMUNICATIONS:Hammerstorm Hugin Mk XXI-E with ECM
 systemmanufacturer:TARGETING:Hammerstorm Munin XVI
 

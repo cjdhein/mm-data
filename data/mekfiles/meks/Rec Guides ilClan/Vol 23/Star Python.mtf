@@ -173,7 +173,7 @@ primaryfactory:Braunschweig
 systemmanufacturer:CHASSIS:Imperial 1a Endo
 systemmanufacturer:ENGINE:Antwerp 175
 systemmanufacturer:ARMOR:Compound Rho Special Reflective
-systemmanufacturer:JUMPJET:Rawlings 55
+systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:CGS-Comm-1a
 systemmanufacturer:TARGETING:CGS-TTS-VIIa
 

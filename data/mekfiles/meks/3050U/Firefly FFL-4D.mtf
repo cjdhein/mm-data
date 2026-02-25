@@ -185,6 +185,6 @@ primaryfactory:Arc-Royal,Outreach
 systemmanufacturer:CHASSIS:Earthwerks Endo Firefly
 systemmanufacturer:ENGINE:GM 150 Light
 systemmanufacturer:ARMOR:StarSlab/1x Ferro Fibrous with CASE
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Datcom 18
 systemmanufacturer:TARGETING:Radcom TXX

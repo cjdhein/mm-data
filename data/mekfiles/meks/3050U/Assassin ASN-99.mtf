@@ -171,6 +171,6 @@ primaryfactory:Sian
 systemmanufacturer:CHASSIS:Hellespont Type A 40 series
 systemmanufacturer:ENGINE:VOX 280 XL
 systemmanufacturer:ARMOR:Ceres Stealth
-systemmanufacturer:JUMPJET:Lox Lift Series 1
+systemmanufacturer:JUMP_JET:Lox Lift Series 1
 systemmanufacturer:COMMUNICATIONS:Garret T15 B with ECM
 systemmanufacturer:TARGETING:Garret 500S

@@ -186,7 +186,7 @@ primaryfactory:Son Hoa
 systemmanufacturer:CHASSIS:MW240
 systemmanufacturer:ENGINE:CoreTek 275
 systemmanufacturer:ARMOR:Kemplar 5000
-systemmanufacturer:JUMPJET:GE-2200
+systemmanufacturer:JUMP_JET:GE-2200
 systemmanufacturer:COMMUNICATIONS:Fujika Multiband
 systemmanufacturer:TARGETING:General systems AV-12
 

@@ -186,6 +186,6 @@ primaryfactory:Soul
 systemmanufacturer:CHASSIS:Geometric 530 Hard Core
 systemmanufacturer:ENGINE:Strand 255
 systemmanufacturer:ARMOR:CarbonStrand 30 Weight AS
-systemmanufacturer:JUMPJET:Geotec 300
+systemmanufacturer:JUMP_JET:Geotec 300
 systemmanufacturer:COMMUNICATIONS:GRPNTR Groundpainter 5
 systemmanufacturer:TARGETING:Scope 30 RNDST

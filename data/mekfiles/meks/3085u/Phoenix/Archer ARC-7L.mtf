@@ -183,7 +183,7 @@ primaryfactory:Grand Base
 systemmanufacturer:CHASSIS:Earthwerks Archer
 systemmanufacturer:ENGINE:General Motors 210
 systemmanufacturer:ARMOR:Ceres Heavy Stealth with CASE
-systemmanufacturer:JUMPJET:Chilton 465
+systemmanufacturer:JUMP_JET:Chilton 465
 systemmanufacturer:COMMUNICATIONS:Neil 9000
 systemmanufacturer:TARGETING:RCA Instatrac Mark XII
 

@@ -183,6 +183,6 @@ primaryfactory:Paradise, Sian
 systemmanufacturer:CHASSIS:Curtiss Wraith
 systemmanufacturer:ENGINE:330 XL
 systemmanufacturer:ARMOR:Kallon FWL Special Ferro-Fibrous
-systemmanufacturer:JUMPJET:CurtissJet 55
+systemmanufacturer:JUMP_JET:CurtissJet 55
 systemmanufacturer:COMMUNICATIONS:CurtissComm Mk I
 systemmanufacturer:TARGETING:Dynatec 2780

@@ -170,6 +170,6 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Earthwerks Firefly
 systemmanufacturer:ENGINE:GM 150
 systemmanufacturer:ARMOR:StarSlab/1
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Datcom 18
 systemmanufacturer:TARGETING:Radcom TXX

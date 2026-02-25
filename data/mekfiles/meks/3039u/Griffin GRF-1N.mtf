@@ -187,7 +187,7 @@ primaryfactory:Hesperus II,Illiushin,Keystone,Marduk,Oliver,Talon (Wernke),Terra
 systemmanufacturer:CHASSIS:Earthwerks GRF
 systemmanufacturer:ENGINE:CoreTek 275
 systemmanufacturer:ARMOR:Starshield A
-systemmanufacturer:JUMPJET:Rawlings 55
+systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C
 

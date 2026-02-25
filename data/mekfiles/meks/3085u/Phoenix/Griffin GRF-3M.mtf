@@ -188,6 +188,6 @@ primaryfactory:Keystone,Oliver
 systemmanufacturer:CHASSIS:Earthwerks GRF
 systemmanufacturer:ENGINE:Hermes 275 XL
 systemmanufacturer:ARMOR:Starshield A
-systemmanufacturer:JUMPJET:Rawlings 55
+systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C

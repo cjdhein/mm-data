@@ -181,6 +181,6 @@ primaryfactory:Huntress, Arcadia,  Alnabog
 systemmanufacturer:CHASSIS:Light Series II Endo-steel
 systemmanufacturer:ENGINE:Type II 175 XL
 systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
-systemmanufacturer:JUMPJET:Clan Light Series Mk. I
+systemmanufacturer:JUMP_JET:Clan Light Series Mk. I
 systemmanufacturer:COMMUNICATIONS:Build 1685/5 Tacticom
 systemmanufacturer:TARGETING:Series III GDS with Active Probe

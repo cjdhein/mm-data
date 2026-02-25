@@ -172,6 +172,6 @@ primaryfactory:Robinson
 systemmanufacturer:CHASSIS:Skuel Heavy TRQ
 systemmanufacturer:ENGINE:Pitban 285 Light
 systemmanufacturer:ARMOR:Starshield Special Heavy
-systemmanufacturer:JUMPJET:Unknown Improved Jump Jet
+systemmanufacturer:JUMP_JET:Unknown Improved Jump Jet
 systemmanufacturer:COMMUNICATIONS:Sony MSF-31
 systemmanufacturer:TARGETING:Federated Stalker with Targeting Module

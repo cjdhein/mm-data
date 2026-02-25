@@ -188,7 +188,7 @@ primaryfactory:Soul
 systemmanufacturer:CHASSIS:Geometric 530 Endo Core
 systemmanufacturer:ENGINE:Strand 255
 systemmanufacturer:ARMOR:CarbonStrand 30 Weight AS with CASE II
-systemmanufacturer:JUMPJET:Geotec 300I
+systemmanufacturer:JUMP_JET:Geotec 300I
 systemmanufacturer:COMMUNICATIONS:GRPNTR Groundpainter 5
 systemmanufacturer:TARGETING:Scope 30 RNDST
 

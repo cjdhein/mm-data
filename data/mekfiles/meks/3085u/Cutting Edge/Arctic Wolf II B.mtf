@@ -182,6 +182,6 @@ primaryfactory:Arc-Royal
 systemmanufacturer:CHASSIS:AR1 Endo Steel
 systemmanufacturer:ENGINE:Light Force 280 XL
 systemmanufacturer:ARMOR:Royal-7a Ferro-Fibrous
-systemmanufacturer:JUMPJET:Grandthrust Mk. 4
+systemmanufacturer:JUMP_JET:Grandthrust Mk. 4
 systemmanufacturer:COMMUNICATIONS:HWLR Designation ComSys
 systemmanufacturer:TARGETING:Hunter (7) Dedicated TTS

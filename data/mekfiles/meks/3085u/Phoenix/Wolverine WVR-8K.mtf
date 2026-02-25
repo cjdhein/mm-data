@@ -191,6 +191,6 @@ primaryfactory:Marduk
 systemmanufacturer:CHASSIS:Crucia-A
 systemmanufacturer:ENGINE:Nissan 275XL
 systemmanufacturer:ARMOR:Starshield A with CASE
-systemmanufacturer:JUMPJET:Northrup 12000
+systemmanufacturer:JUMP_JET:Northrup 12000
 systemmanufacturer:COMMUNICATIONS:Garret T11-b
 systemmanufacturer:TARGETING:Cat Eyes 5

@@ -185,7 +185,7 @@ primaryfactory:Keystone
 systemmanufacturer:CHASSIS:Earthwerks TDR IIa Endo Steel
 systemmanufacturer:ENGINE:Magna 260
 systemmanufacturer:ARMOR:Ryerson 150 with CASE
-systemmanufacturer:JUMPJET:Chilton 465 Jump Jets
+systemmanufacturer:JUMP_JET:Chilton 465 Jump Jets
 systemmanufacturer:COMMUNICATIONS:Neil 8000
 systemmanufacturer:TARGETING:RCA Instatrac Mark X
 

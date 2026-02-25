@@ -187,7 +187,7 @@ primaryfactory:Talon (Wernke)
 systemmanufacturer:CHASSIS:Crucis G Endo-Steel
 systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:StarGuard Reflec
-systemmanufacturer:JUMPJET:Anderson 398
+systemmanufacturer:JUMP_JET:Anderson 398
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Matabushi Sentinel
 

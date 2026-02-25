@@ -184,7 +184,7 @@ primaryfactory:Arcadia, Alnabog
 systemmanufacturer:CHASSIS:Process 12 Endo Steel
 systemmanufacturer:ENGINE:315 Consolidated XL
 systemmanufacturer:ARMOR:Arcadia Compound Delta VII Ferro-Fibrous
-systemmanufacturer:JUMPJET:Clan Standard 14X Series
+systemmanufacturer:JUMP_JET:Clan Standard 14X Series
 systemmanufacturer:COMMUNICATIONS:KP-3 “Screamer”
 systemmanufacturer:TARGETING:Version Gamma-V TTS
 

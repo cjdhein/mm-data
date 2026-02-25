@@ -183,6 +183,6 @@ primaryfactory:Panpour
 systemmanufacturer:CHASSIS:Duralyte 246
 systemmanufacturer:ENGINE:GM 240 XL
 systemmanufacturer:ARMOR:Durallex Light with CASEII
-systemmanufacturer:JUMPJET:Rawlings 95
+systemmanufacturer:JUMP_JET:Rawlings 95
 systemmanufacturer:COMMUNICATIONS:Garret T10B
 systemmanufacturer:TARGETING:Dynatec 128C

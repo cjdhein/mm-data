@@ -188,6 +188,6 @@ primaryfactory:Coventry
 systemmanufacturer:CHASSIS:Foundation Ultralight Endo Steel
 systemmanufacturer:ENGINE:Omni 210
 systemmanufacturer:ARMOR: Durallex Nova
-systemmanufacturer:JUMPJET:Luxor Load Lifters
+systemmanufacturer:JUMP_JET:Luxor Load Lifters
 systemmanufacturer:COMMUNICATIONS:Cyclops 14
 systemmanufacturer:TARGETING:Cyclops 9 with TAG

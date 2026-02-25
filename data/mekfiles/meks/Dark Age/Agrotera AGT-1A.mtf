@@ -179,7 +179,7 @@ primaryfactory:Canopus IV
 systemmanufacturer:CHASSIS:Earthwerks PXH II Reinforced Endo Steel
 systemmanufacturer:ENGINE:Rawlings 300 XL
 systemmanufacturer:ARMOR:Durallex Light
-systemmanufacturer:JUMPJET:Rawlings 45 with Partial Wing
+systemmanufacturer:JUMP_JET:Rawlings 45 with Partial Wing
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:Tek Tru-Trak with TAG
 

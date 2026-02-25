@@ -166,6 +166,6 @@ primaryfactory:Refit
 systemmanufacturer:CHASSIS:Curtiss Wraith Endo
 systemmanufacturer:ENGINE:385 JF Extralight
 systemmanufacturer:ARMOR:Unknown
-systemmanufacturer:JUMPJET:CurtissJet 55
+systemmanufacturer:JUMP_JET:CurtissJet 55
 systemmanufacturer:COMMUNICATIONS:CurtissComm Mk I
 systemmanufacturer:TARGETING:Dynatec 2780

@@ -185,7 +185,7 @@ primaryfactory:Stewart
 systemmanufacturer:CHASSIS:Corean Model 9C
 systemmanufacturer:ENGINE:Magna 250
 systemmanufacturer:ARMOR:Starshield
-systemmanufacturer:JUMPJET:Rawlings 50
+systemmanufacturer:JUMP_JET:Rawlings 50
 systemmanufacturer:COMMUNICATIONS:Corean TransBand-J9
 systemmanufacturer:TARGETING:Corean B-Tech
 

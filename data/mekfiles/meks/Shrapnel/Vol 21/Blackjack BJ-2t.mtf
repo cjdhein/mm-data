@@ -179,7 +179,7 @@ primaryfactory:Talcott
 systemmanufacturer:CHASSIS:GM BJ-1
 systemmanufacturer:ENGINE:GM 180
 systemmanufacturer:ARMOR:StarGuard II
-systemmanufacturer:JUMPJET:Whitworth Jetlift
+systemmanufacturer:JUMP_JET:Whitworth Jetlift
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban AQ
 

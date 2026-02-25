@@ -182,7 +182,7 @@ primaryfactory:Irece
 systemmanufacturer:CHASSIS:Type D-SA Modified Endo-Steel
 systemmanufacturer:ENGINE:Series V Fusion 315 XL
 systemmanufacturer:ARMOR:Epsilon Compound 31 Ferro-Fibrous
-systemmanufacturer:JUMPJET:Clan Type 2 Light
+systemmanufacturer:JUMP_JET:Clan Type 2 Light
 systemmanufacturer:COMMUNICATIONS:NCO System 7
 systemmanufacturer:TARGETING:Build 1 HLF TTS
 

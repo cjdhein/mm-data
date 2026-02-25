@@ -188,7 +188,7 @@ primaryfactory:Grand Base,Keystone
 systemmanufacturer:CHASSIS:Earthwerks GRF Endo
 systemmanufacturer:ENGINE:CoreTek 275
 systemmanufacturer:ARMOR:Starshield A
-systemmanufacturer:JUMPJET:Chilton 950
+systemmanufacturer:JUMP_JET:Chilton 950
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C
 

@@ -180,7 +180,7 @@ primaryfactory:Alpheratz
 systemmanufacturer:CHASSIS:Heavy Star QAT-4
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:Compound LZ-7
-systemmanufacturer:JUMPJET:Pitban LFT 50
+systemmanufacturer:JUMP_JET:Pitban LFT 50
 systemmanufacturer:COMMUNICATIONS:Magestrix Alpha
 systemmanufacturer:TARGETING:Magestrix Gamma
 

@@ -190,6 +190,6 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Crucis G
 systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Durallex Heavy
-systemmanufacturer:JUMPJET:Anderson 398
+systemmanufacturer:JUMP_JET:Anderson 398
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Matabushi Sentinel

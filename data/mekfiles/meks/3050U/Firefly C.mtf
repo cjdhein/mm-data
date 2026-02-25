@@ -188,6 +188,6 @@ primaryfactory:Strana Mechty
 systemmanufacturer:CHASSIS:Earthwerks Endo Firefly
 systemmanufacturer:ENGINE:GM 150
 systemmanufacturer:ARMOR:StarSlab/1x
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Datcom 18
 systemmanufacturer:TARGETING:Radcom TXX

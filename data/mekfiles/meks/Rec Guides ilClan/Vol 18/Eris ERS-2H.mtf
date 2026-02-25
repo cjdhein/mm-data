@@ -171,6 +171,6 @@ primaryfactory:Loyalty
 systemmanufacturer:CHASSIS:N&D HLBM Endo-Steel
 systemmanufacturer:ENGINE:Hermes 250 XL
 systemmanufacturer:ARMOR:Kallon Royalstar with CASE II
-systemmanufacturer:JUMPJET:Chilton 360 with Partial Wing
+systemmanufacturer:JUMP_JET:Chilton 360 with Partial Wing
 systemmanufacturer:COMMUNICATIONS:Garret T20-C
 systemmanufacturer:TARGETING:Garret A6

@@ -185,7 +185,7 @@ primaryfactory:Gibson
 systemmanufacturer:CHASSIS:Duralyte 314 Endo Steel
 systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Jolassa-325
-systemmanufacturer:JUMPJET:Chilton 365
+systemmanufacturer:JUMP_JET:Chilton 365
 systemmanufacturer:COMMUNICATIONS:Datacom 50
 systemmanufacturer:TARGETING:Dynatec 1122
 

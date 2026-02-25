@@ -179,7 +179,7 @@ primaryfactory:Albion
 systemmanufacturer:CHASSIS:Clan Series Assault SXE
 systemmanufacturer:ENGINE:MechFusion 285 XL
 systemmanufacturer:ARMOR:Compound Alpha Ferro-Fibrous
-systemmanufacturer:JUMPJET:Pryzhok WM 10
+systemmanufacturer:JUMP_JET:Pryzhok WM 10
 systemmanufacturer:COMMUNICATIONS:Consolidated BM3-CC
 systemmanufacturer:TARGETING:Series III GB
 

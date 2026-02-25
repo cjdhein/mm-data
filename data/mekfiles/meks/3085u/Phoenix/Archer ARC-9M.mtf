@@ -189,7 +189,7 @@ manufacturer:Earthwerks-FWL, Inc.,Bowie Industries,Lexatech Industries
 primaryfactory:Calloway VI,Carlisle,Hun Ho
 systemmanufacturer:CHASSIS:Earthwerks Archer II
 systemmanufacturer:ENGINE:Defiance 210 Light Engine
-systemmanufacturer:JUMPJET:Chilton Model 21
+systemmanufacturer:JUMP_JET:Chilton Model 21
 systemmanufacturer:ARMOR:Durallex Light with CASE
 systemmanufacturer:COMMUNICATIONS:Neil 9000
 systemmanufacturer:TARGETING:RCA Instatrac Mark XII

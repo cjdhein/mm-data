@@ -186,6 +186,6 @@ notes:The Shadow Cat was such a successful design that it has seen continued pro
 systemmanufacturer:CHASSIS:Type 79-45 Endo Steel
 systemmanufacturer:ENGINE:RFUM 270 XL
 systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Model KY Boosters
+systemmanufacturer:JUMP_JET:Model KY Boosters
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:Build 2 CAT TTS

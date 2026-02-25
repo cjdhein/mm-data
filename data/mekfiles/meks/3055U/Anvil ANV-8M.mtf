@@ -185,7 +185,7 @@ primaryfactory:Gibson
 systemmanufacturer:CHASSIS:Duralyte 314 Endo Steel
 systemmanufacturer:ENGINE:240 GM
 systemmanufacturer:ARMOR:Jolassa-325
-systemmanufacturer:JUMPJET:Chilton 365
+systemmanufacturer:JUMP_JET:Chilton 365
 systemmanufacturer:COMMUNICATIONS:Datacom 50 with Guardian ECM Suite
 systemmanufacturer:TARGETING:Dynatec 1122
 

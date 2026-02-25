@@ -186,6 +186,6 @@ primaryfactory:Benjamin
 systemmanufacturer:CHASSIS:Whitworth Type Ie
 systemmanufacturer:ENGINE:LTV 160
 systemmanufacturer:ARMOR:Durallex Light
-systemmanufacturer:JUMPJET:Whitworth Improved Jetlift
+systemmanufacturer:JUMP_JET:Whitworth Improved Jetlift
 systemmanufacturer:COMMUNICATIONS:Garret T14
 systemmanufacturer:TARGETING:Garret D2j

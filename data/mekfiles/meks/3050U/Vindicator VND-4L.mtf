@@ -186,6 +186,6 @@ primaryfactory:Capella
 systemmanufacturer:CHASSIS:Ceresplex IV
 systemmanufacturer:ENGINE:VOX 225 XL
 systemmanufacturer:ARMOR:Starshield with CASE
-systemmanufacturer:JUMPJET:Anderson Propulsion 30
+systemmanufacturer:JUMP_JET:Anderson Propulsion 30
 systemmanufacturer:COMMUNICATIONS:CeresCom Model 21-Rs
 systemmanufacturer:TARGETING:C-Apple Churchill

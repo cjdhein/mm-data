@@ -176,7 +176,7 @@ primaryfactory:Irece
 systemmanufacturer:CHASSIS:Type 79-45 Endo Steel
 systemmanufacturer:ENGINE:RFUM 270 XL
 systemmanufacturer:ARMOR:Compound H17Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Model KY Boosters
+systemmanufacturer:JUMP_JET:Model KY Boosters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon SCU-9
 systemmanufacturer:TARGETING:Build 4 CAT TTS
 

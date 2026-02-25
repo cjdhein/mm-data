@@ -182,7 +182,7 @@ primaryfactory:Sudeten
 systemmanufacturer:CHASSIS:Olivetti Stage 3
 systemmanufacturer:ENGINE:275 Fusion XL
 systemmanufacturer:ARMOR:Compound Alpha ferro-fibrous
-systemmanufacturer:JUMPJET:Clan Standard Type A1 with Partial Wing
+systemmanufacturer:JUMP_JET:Clan Standard Type A1 with Partial Wing
 systemmanufacturer:COMMUNICATIONS:Raptor X-T Type iii
 systemmanufacturer:TARGETING:Goshawk E-Series with Light Active Probe
 

@@ -191,7 +191,7 @@ primaryfactory:Ironhold, Niles, Svarstaad
 systemmanufacturer:CHASSIS:JFS-703
 systemmanufacturer:ENGINE:Redline 350 XL
 systemmanufacturer:ARMOR:J63-3E Ferro Fibrous
-systemmanufacturer:JUMPJET:JF Standard
+systemmanufacturer:JUMP_JET:JF Standard
 systemmanufacturer:COMMUNICATIONS:Model J-D 067
 systemmanufacturer:TARGETING:Hawkeye 58
 

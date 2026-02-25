@@ -189,7 +189,7 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Earthwerks TDR
 systemmanufacturer:ENGINE:Magna 260 XL
 systemmanufacturer:ARMOR:Ceres Heavy Stealth
-systemmanufacturer:JUMPJET:Chilton 466
+systemmanufacturer:JUMP_JET:Chilton 466
 systemmanufacturer:COMMUNICATIONS:Neil 8000 with ECM
 systemmanufacturer:TARGETING:RCA Instatrac Mark X
 

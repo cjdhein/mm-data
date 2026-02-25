@@ -177,6 +177,6 @@ primaryfactory:Epsilon Eridani
 systemmanufacturer:CHASSIS:Harvard 12K
 systemmanufacturer:ENGINE:GM 150
 systemmanufacturer:ARMOR:Durallex Light
-systemmanufacturer:JUMPJET:GM ATO 100
+systemmanufacturer:JUMP_JET:GM ATO 100
 systemmanufacturer:COMMUNICATIONS:Rand 1200
 systemmanufacturer:TARGETING:Rand LAMTar 100

@@ -177,7 +177,7 @@ primaryfactory:Herzberg
 systemmanufacturer:CHASSIS:Kaiser Simplex I
 systemmanufacturer:ENGINE:Hermes 275 XL
 systemmanufacturer:ARMOR:Bowie Glinting Blade Reflective with CASE
-systemmanufacturer:JUMPJET:Dynamo Jump Jets
+systemmanufacturer:JUMP_JET:Dynamo Jump Jets
 systemmanufacturer:COMMUNICATIONS:Telestar Model XK-71
 systemmanufacturer:TARGETING:Starlight LX-1
 

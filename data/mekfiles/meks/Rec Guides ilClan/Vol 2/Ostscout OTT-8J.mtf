@@ -186,6 +186,6 @@ primaryfactory:Robinson
 systemmanufacturer:CHASSIS:Kell/S
 systemmanufacturer:ENGINE:GM 280 XL
 systemmanufacturer:ARMOR:StarGuard Ferro-Fibrous
-systemmanufacturer:JUMPJET:Robinson-Liberty Model 12
+systemmanufacturer:JUMP_JET:Robinson-Liberty Model 12
 systemmanufacturer:COMMUNICATIONS:Barret 4000 with Angel ECM Suite
 systemmanufacturer:TARGETING:TRSS.2L3 with Bloodhound Active Probe

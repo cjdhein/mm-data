@@ -189,7 +189,7 @@ primaryfactory:Arcadia, Weingarten
 systemmanufacturer:CHASSIS:SL-XT Modified
 systemmanufacturer:ENGINE:Fusion 270 Standard
 systemmanufacturer:ARMOR:Arcadia Compound Delta VII Ferro-Fibrous
-systemmanufacturer:JUMPJET:Prentiss-IIIA
+systemmanufacturer:JUMP_JET:Prentiss-IIIA
 systemmanufacturer:COMMUNICATIONS:C-XII Series B4 GDS
 systemmanufacturer:TARGETING:C-12 Mk. III with Artemis IV FCS
 

@@ -188,6 +188,6 @@ primaryfactory:Outreach
 systemmanufacturer:CHASSIS:Kitushi Shogun
 systemmanufacturer:ENGINE:Strand 255
 systemmanufacturer:ARMOR:Riese-350
-systemmanufacturer:JUMPJET:Anderson Propulsion 21
+systemmanufacturer:JUMP_JET:Anderson Propulsion 21
 systemmanufacturer:COMMUNICATIONS:HartfordCo COM 4000
 systemmanufacturer:TARGETING:HartfordCo XKZ 1

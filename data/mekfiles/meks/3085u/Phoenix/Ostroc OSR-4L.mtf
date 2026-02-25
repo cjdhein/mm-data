@@ -184,7 +184,7 @@ primaryfactory:Capella,Detroit,Warlock
 systemmanufacturer:CHASSIS:Ceresplex Ostroc Lite Endo Steel
 systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Ceres Heavy Stealth Armor
-systemmanufacturer:JUMPJET:HildCo 13 Jump Jets
+systemmanufacturer:JUMP_JET:HildCo 13 Jump Jets
 systemmanufacturer:COMMUNICATIONS:Ceres Metals Model 686 with Guardian ECM
 systemmanufacturer:TARGETING:Ceres Bullseye
 

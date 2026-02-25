@@ -189,6 +189,6 @@ primaryfactory:Csesztreg
 systemmanufacturer:CHASSIS:Star League Monster
 systemmanufacturer:ENGINE:Heavy Force 300
 systemmanufacturer:ARMOR:Compound 12A1 Standard
-systemmanufacturer:JUMPJET:Grandthrust Mk 5
+systemmanufacturer:JUMP_JET:Grandthrust Mk 5
 systemmanufacturer:COMMUNICATIONS:Garret L15
 systemmanufacturer:TARGETING:RCA Instatrac Version 8a

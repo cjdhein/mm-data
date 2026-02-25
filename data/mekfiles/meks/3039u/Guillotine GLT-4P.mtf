@@ -188,6 +188,6 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Crucis Type V
 systemmanufacturer:ENGINE:VOX 280
 systemmanufacturer:ARMOR:Ulston Prime
-systemmanufacturer:JUMPJET:Anderson 398
+systemmanufacturer:JUMP_JET:Anderson 398
 systemmanufacturer:COMMUNICATIONS:StarLink 955G
 systemmanufacturer:TARGETING:Pulsar Tri-X

@@ -186,6 +186,6 @@ primaryfactory:Refit
 systemmanufacturer:CHASSIS:Ceresplex IV
 systemmanufacturer:ENGINE:GM 180
 systemmanufacturer:ARMOR:Starshield
-systemmanufacturer:JUMPJET:Anderson Propulsion 30
+systemmanufacturer:JUMP_JET:Anderson Propulsion 30
 systemmanufacturer:COMMUNICATIONS:CeresCom Model 21-Rs
 systemmanufacturer:TARGETING:C-Apple Churchill

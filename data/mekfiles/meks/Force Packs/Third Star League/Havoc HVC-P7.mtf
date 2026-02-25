@@ -175,7 +175,7 @@ primaryfactory:Abadan
 systemmanufacturer:CHASSIS:X-H54 Endo Steel
 systemmanufacturer:ENGINE:Hermes 280 XL
 systemmanufacturer:ARMOR:Jolassa Light Ferro-Fibrous
-systemmanufacturer:JUMPJET:Chilton 360
+systemmanufacturer:JUMP_JET:Chilton 360
 systemmanufacturer:COMMUNICATIONS:Datacom 70
 systemmanufacturer:TARGETING:Octagon Tartrac System E
 

@@ -181,7 +181,7 @@ primaryfactory:Unknown
 systemmanufacturer:CHASSIS:MW240
 systemmanufacturer:ENGINE:220 Light
 systemmanufacturer:ARMOR:New Samarkand Teppeki Hardened
-systemmanufacturer:JUMPJET:GE-2200
+systemmanufacturer:JUMP_JET:GE-2200
 systemmanufacturer:COMMUNICATIONS:Fujika Multiband
 systemmanufacturer:TARGETING:General systems AV-12
 

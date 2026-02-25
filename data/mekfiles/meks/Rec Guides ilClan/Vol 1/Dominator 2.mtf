@@ -188,7 +188,7 @@ systemmanufacturer:CHASSIS:Type W4 Endo Steel
 systemmanufacturer:ENGINE:Starfire
 systemmode:ENGINE:325 XL
 systemmanufacturer:ARMOR:Forging FF01 Ferro-Fibrous
-systemmanufacturer:JUMPJET:BMP Series XV
+systemmanufacturer:JUMP_JET:BMP Series XV
 systemmanufacturer:COMMUNICATIONS:WC-020
 systemmanufacturer:TARGETING:WC-TT-008B with Targeting Computer
 

@@ -180,7 +180,7 @@ primaryfactory:Hesperus II
 systemmanufacturer:CHASSIS:Chariot Type II
 systemmanufacturer:ENGINE:Defiance 180 Light Fusion
 systemmanufacturer:ARMOR:Durallex Super Medium Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Luxor 2/Q
+systemmanufacturer:JUMP_JET:Luxor 2/Q
 systemmanufacturer:COMMUNICATIONS:TharHes Thalia HM-22
 systemmanufacturer:TARGETING:TharHes Ares-8A with Targeting Computer
 

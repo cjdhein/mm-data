@@ -185,7 +185,7 @@ primaryfactory:Menke
 systemmanufacturer:CHASSIS:GM Marauder
 systemmanufacturer:ENGINE:Vlar 300 Light
 systemmanufacturer:ARMOR:Ceres Heavy Stealth
-systemmanufacturer:JUMPJET:Chilton 600
+systemmanufacturer:JUMP_JET:Chilton 600
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics with ECM
 systemmanufacturer:TARGETING:Dalban Hi-Rez II
 

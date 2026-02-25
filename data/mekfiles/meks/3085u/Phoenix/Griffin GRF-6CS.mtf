@@ -190,7 +190,7 @@ primaryfactory:Marduk,Terra
 systemmanufacturer:CHASSIS:Earthwerks GRF Endo
 systemmanufacturer:ENGINE:CoreTek 275 XL
 systemmanufacturer:ARMOR:Starshield A
-systemmanufacturer:JUMPJET:Rawlings 55
+systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:RCA Instatrac Mk X
 

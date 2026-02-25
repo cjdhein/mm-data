@@ -187,7 +187,7 @@ primaryfactory:Storfors
 systemmanufacturer:CHASSIS:Enran TXS2A
 systemmanufacturer:ENGINE:Vlar 300 XL
 systemmanufacturer:ARMOR:SimplePlate Manufacturers Type M with CASE II
-systemmanufacturer:JUMPJET:McCloud Specials
+systemmanufacturer:JUMP_JET:McCloud Specials
 systemmanufacturer:COMMUNICATIONS:JoLex Systems
 systemmanufacturer:TARGETING:OptiSight-12
 

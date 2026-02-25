@@ -186,7 +186,7 @@ primaryfactory:Bell,Fronc
 systemmanufacturer:CHASSIS:Andoran Model III
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:Durallex Medium
-systemmanufacturer:JUMPJET:Andoran Model JJII
+systemmanufacturer:JUMP_JET:Andoran Model JJII
 systemmanufacturer:COMMUNICATIONS:Raldon R1
 systemmanufacturer:TARGETING:Sloane 220 Lockover System
 

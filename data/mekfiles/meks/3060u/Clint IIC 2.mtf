@@ -184,6 +184,6 @@ primaryfactory:Eden Rose [Potemkin Class], Unknown
 systemmanufacturer:CHASSIS:SR 2830/b
 systemmanufacturer:ENGINE:Type 81 Fusion 240 XL
 systemmanufacturer:ARMOR:Alpha Compound Ferro-Fibrous
-systemmanufacturer:JUMPJET:Andoran Model JJII-Improved
+systemmanufacturer:JUMP_JET:Andoran Model JJII-Improved
 systemmanufacturer:COMMUNICATIONS:Raldon R1 with ECM
 systemmanufacturer:TARGETING:Sloane 220 Lockover System

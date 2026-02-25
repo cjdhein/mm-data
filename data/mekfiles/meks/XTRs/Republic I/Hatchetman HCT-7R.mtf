@@ -188,6 +188,6 @@ primaryfactory:Addicks
 systemmanufacturer:CHASSIS:Dorwinion HCT Standard
 systemmanufacturer:ENGINE:VOX 225 Light
 systemmanufacturer:ARMOR:Durallex Super Medium Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Rawlings 80
+systemmanufacturer:JUMP_JET:Rawlings 80
 systemmanufacturer:COMMUNICATIONS:TharHes Thalia HM-22
 systemmanufacturer:TARGETING:TharHes Ares-8A with Targeting Computer

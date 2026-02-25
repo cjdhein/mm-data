@@ -182,6 +182,6 @@ primaryfactory:Field Refit
 systemmanufacturer:CHASSIS:Alshain 56A-Carrier
 systemmanufacturer:ENGINE:Leenex 140
 systemmanufacturer:ARMOR:Maximillian 42
-systemmanufacturer:JUMPJET:Lexington Ltd. Lifters
+systemmanufacturer:JUMP_JET:Lexington Ltd. Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon SCU-4
 systemmanufacturer:TARGETING:Cat’s Eyes 5

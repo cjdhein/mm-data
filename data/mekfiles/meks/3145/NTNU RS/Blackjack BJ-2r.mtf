@@ -183,7 +183,7 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:GM BJ-1
 systemmanufacturer:ENGINE:VOX 225
 systemmanufacturer:ARMOR:StarGuard II
-systemmanufacturer:JUMPJET:Whitworth Jetlift
+systemmanufacturer:JUMP_JET:Whitworth Jetlift
 systemmanufacturer:COMMUNICATIONS:StarGuard II
 systemmanufacturer:TARGETING:Dalban AQ
 

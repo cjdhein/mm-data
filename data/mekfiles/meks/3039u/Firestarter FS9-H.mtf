@@ -191,6 +191,6 @@ primaryfactory:Coventry,Skye,Erdvynn
 systemmanufacturer:CHASSIS:Argile H/09
 systemmanufacturer:ENGINE:Omni 210
 systemmanufacturer:ARMOR:Livingston Ceramics
-systemmanufacturer:JUMPJET:Luxor Load Lifters
+systemmanufacturer:JUMP_JET:Luxor Load Lifters
 systemmanufacturer:COMMUNICATIONS:Cyclops 14
 systemmanufacturer:TARGETING:Tansech C30-97

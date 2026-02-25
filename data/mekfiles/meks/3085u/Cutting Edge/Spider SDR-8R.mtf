@@ -184,7 +184,7 @@ primaryfactory:Terra
 systemmanufacturer:CHASSIS:Crucis-II Deluxe Endo Steel
 systemmanufacturer:ENGINE:Pitban 210 Light Fusion Engine
 systemmanufacturer:ARMOR:Kallon FWL Special Ferro-Fibrous
-systemmanufacturer:JUMPJET:Pitban LFT-20X Improved Jump Jets
+systemmanufacturer:JUMP_JET:Pitban LFT-20X Improved Jump Jets
 systemmanufacturer:COMMUNICATIONS:Omicron 4002 Networking Channel
 systemmanufacturer:TARGETING:TRSS Eagle Eye
 

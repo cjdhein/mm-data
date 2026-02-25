@@ -184,7 +184,7 @@ primaryfactory:Northwind
 systemmanufacturer:CHASSIS:Hollis Mark 1A
 systemmanufacturer:ENGINE:Magna 250
 systemmanufacturer:ARMOR:Paulina Ferro-Fibrous
-systemmanufacturer:JUMPJET:Unknown
+systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Dalban Series K/ Garret T11-b
 systemmanufacturer:TARGETING:650 RND/ Garret D2j
 

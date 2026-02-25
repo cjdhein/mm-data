@@ -183,6 +183,6 @@ primaryfactory:New Samarkand
 systemmanufacturer:CHASSIS:Alshain 560-Carrier Endo Steel
 systemmanufacturer:ENGINE:Leenex 140
 systemmanufacturer:ARMOR:Maximillian 42
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon CSU-4
 systemmanufacturer:TARGETING:Cat’s Eyes 5

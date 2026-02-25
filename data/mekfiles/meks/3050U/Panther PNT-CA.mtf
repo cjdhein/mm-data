@@ -183,6 +183,6 @@ primaryfactory:Field Refit
 systemmanufacturer:CHASSIS:Alshain 560-Carrier Endo Steel
 systemmanufacturer:ENGINE:Hermes 140
 systemmanufacturer:ARMOR:Maximillian 42
-systemmanufacturer:JUMPJET:Lexington Ltd. Lifters
+systemmanufacturer:JUMP_JET:Lexington Ltd. Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon CSU-4
 systemmanufacturer:TARGETING:Cat’s Eyes 5 with Artemis IV System

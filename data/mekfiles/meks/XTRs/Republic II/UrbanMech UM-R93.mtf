@@ -178,7 +178,7 @@ primaryfactory:Betelgeuse
 systemmanufacturer:CHASSIS:Republic-R
 systemmanufacturer:ENGINE:Leenex 60
 systemmanufacturer:ARMOR:Unknown
-systemmanufacturer:JUMPJET:Pitban 6000
+systemmanufacturer:JUMP_JET:Pitban 6000
 systemmanufacturer:COMMUNICATIONS:Dalban Interact
 systemmanufacturer:TARGETING:Dalban Urban
 

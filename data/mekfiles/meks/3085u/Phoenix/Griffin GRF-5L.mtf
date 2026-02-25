@@ -190,6 +190,6 @@ primaryfactory:Grand Base
 systemmanufacturer:CHASSIS:Earthwerks GRF
 systemmanufacturer:ENGINE:CoreTek 275 XL
 systemmanufacturer:ARMOR:Starshield Ultra-Tech Stealth
-systemmanufacturer:JUMPJET:Rawlings 55
+systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C

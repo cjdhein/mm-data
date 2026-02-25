@@ -191,6 +191,6 @@ primaryfactory:Terra
 systemmanufacturer:CHASSIS:Earthwerks Firefly
 systemmanufacturer:ENGINE:GM 150 XL
 systemmanufacturer:ARMOR:StarSlab/1x Ferro Fibrous
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Datcom 18
 systemmanufacturer:TARGETING:Radcom TXX

@@ -182,7 +182,7 @@ manufacturer:Unknown
 primaryfactory:Unknown
 systemmanufacturer:CHASSIS:MW240
 systemmanufacturer:ARMOR:Unknown
-systemmanufacturer:JUMPJET:GE-2200
+systemmanufacturer:JUMP_JET:GE-2200
 systemmanufacturer:COMMUNICATIONS:Fujika Multiband
 systemmanufacturer:TARGETING:General systems AV-12
 

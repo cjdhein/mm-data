@@ -188,6 +188,6 @@ primaryfactory:Tukayyid
 systemmanufacturer:CHASSIS:Kitushi Shogun
 systemmanufacturer:ENGINE:Type I 340 XL
 systemmanufacturer:ARMOR:Forging AM15 with CASEII
-systemmanufacturer:JUMPJET:Anderson Propulsion 21
+systemmanufacturer:JUMP_JET:Anderson Propulsion 21
 systemmanufacturer:COMMUNICATIONS:HartfordCo COM 5000
 systemmanufacturer:TARGETING:Dtrac Suite 5

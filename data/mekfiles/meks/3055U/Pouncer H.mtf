@@ -186,6 +186,6 @@ primaryfactory:Tiber (Clan),CSF Titanic Mobile Production Facility
 systemmanufacturer:CHASSIS:DSAM Endo 4
 systemmanufacturer:ENGINE:Fusion 240 XL
 systemmanufacturer:ARMOR:Forging ZM15 Ferro-Fibrous
-systemmanufacturer:JUMPJET:Grandthrust Mk. 4
+systemmanufacturer:JUMP_JET:Grandthrust Mk. 4
 systemmanufacturer:COMMUNICATIONS:Megaband System 21
 systemmanufacturer:TARGETING:Dtrac Suite 4

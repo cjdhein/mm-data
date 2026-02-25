@@ -185,7 +185,7 @@ primaryfactory:Grand Base
 systemmanufacturer:CHASSIS:Earthwerks CTF
 systemmanufacturer:ENGINE:280 GM XL
 systemmanufacturer:ARMOR:Kallon Royalstar with CASE
-systemmanufacturer:JUMPJET:HildCo Model 12
+systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:CommuTech Multi-Channel 10
 systemmanufacturer:TARGETING:BlazeFire Sightlock
 

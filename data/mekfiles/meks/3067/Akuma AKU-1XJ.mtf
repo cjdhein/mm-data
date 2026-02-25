@@ -181,7 +181,7 @@ primaryfactory:Quentin
 systemmanufacturer:CHASSIS:Foundation AKU Endo Steel
 systemmanufacturer:ENGINE:GM 270
 systemmanufacturer:ARMOR:Durallex Special Heavy
-systemmanufacturer:JUMPJET:HildCo Model 12
+systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
 

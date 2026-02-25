@@ -184,6 +184,6 @@ primaryfactory:Connaught
 systemmanufacturer:CHASSIS:Kell/S
 systemmanufacturer:ENGINE:VOX 280 Light
 systemmanufacturer:ARMOR:Starshield Ultra-Tech Stealth
-systemmanufacturer:JUMPJET:Rawlings 45
+systemmanufacturer:JUMP_JET:Rawlings 45
 systemmanufacturer:COMMUNICATIONS:Barret 4000 with Guardian ECM Suite
 systemmanufacturer:TARGETING:TRSS.2L3

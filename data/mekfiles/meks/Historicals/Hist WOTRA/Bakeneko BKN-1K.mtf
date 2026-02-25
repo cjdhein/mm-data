@@ -175,7 +175,7 @@ primaryfactory:Irece
 systemmanufacturer:CHASSIS:Alshain Type N endo steel
 systemmanufacturer:ENGINE:Clan Fusion 330 XL engine
 systemmanufacturer:ARMOR:StarSlab-5X with Clan CASE
-systemmanufacturer:JUMPJET:Icarus 99 TurboProp Experimental
+systemmanufacturer:JUMP_JET:Icarus 99 TurboProp Experimental
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:Build 3 Cat TTS
 

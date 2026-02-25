@@ -184,7 +184,7 @@ primaryfactory:Albion (New Bergan),Satalice,Sudeten
 systemmanufacturer:CHASSIS:Type 850 Light
 systemmanufacturer:ENGINE:Consolidated Fusion 340
 systemmanufacturer:ARMOR:Forging MD4 Ferro-Fibrous
-systemmanufacturer:JUMPJET:Unknown
+systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Series D8 CC-25Xa
 systemmanufacturer:TARGETING:“Hermes” CT-42 Mk. II
 

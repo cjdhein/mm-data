@@ -184,7 +184,7 @@ primaryfactory:Lockton
 systemmanufacturer:CHASSIS:Earthwerks Firefly
 systemmanufacturer:ENGINE:VOX 180 XL
 systemmanufacturer:ARMOR:StarSlab/1 with CASE
-systemmanufacturer:JUMPJET:Lexington Lifters
+systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Datcom 18
 systemmanufacturer:TARGETING:Radcom TXX
 

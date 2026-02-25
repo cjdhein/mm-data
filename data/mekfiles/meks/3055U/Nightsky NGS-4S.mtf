@@ -184,7 +184,7 @@ primaryfactory:Hesperus II
 systemmanufacturer:CHASSIS:Dorwinion Standard
 systemmanufacturer:ENGINE:Vlar 300 XL
 systemmanufacturer:ARMOR:Kallon Royalstar
-systemmanufacturer:JUMPJET:HildCo Model 13
+systemmanufacturer:JUMP_JET:HildCo Model 13
 systemmanufacturer:COMMUNICATIONS:TharHes Calliope Hm10
 systemmanufacturer:TARGETING:TharHes Ares-8a
 

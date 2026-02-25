@@ -184,7 +184,7 @@ primaryfactory:Lapida II,New Earth,Tematagi
 systemmanufacturer:CHASSIS:Newhart 1200
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:Durallex Light
-systemmanufacturer:JUMPJET:Pitban LFT-10
+systemmanufacturer:JUMP_JET:Pitban LFT-10
 systemmanufacturer:COMMUNICATIONS:O/P 500A
 systemmanufacturer:TARGETING:O/P TA1240
 

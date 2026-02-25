@@ -182,7 +182,7 @@ primaryfactory:Hesperus II
 systemmanufacturer:CHASSIS:Enran TXS2R Reinforced
 systemmanufacturer:ENGINE:Edasich 300 Light
 systemmanufacturer:ARMOR:StarSlab/4 Heavy Ferro-Fibrous with CASE II
-systemmanufacturer:JUMPJET:McCloud Specials
+systemmanufacturer:JUMP_JET:McCloud Specials
 systemmanufacturer:COMMUNICATIONS:JoLex Systems
 systemmanufacturer:TARGETING:OptiSight-12
 

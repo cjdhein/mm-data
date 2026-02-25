@@ -185,7 +185,7 @@ primaryfactory:Kwangjong-ni
 systemmanufacturer:CHASSIS:Chariot III Ultralight Composite
 systemmanufacturer:ENGINE:Defiance 400 XXL
 systemmanufacturer:ARMOR:Valiant Lamellor
-systemmanufacturer:JUMPJET:Unknown Improved Jump Jet
+systemmanufacturer:JUMP_JET:Unknown Improved Jump Jet
 systemmanufacturer:COMMUNICATIONS:TharHes Calliope ZE-5A2
 systemmanufacturer:TARGETING:TharHes Ares-X9-B
 

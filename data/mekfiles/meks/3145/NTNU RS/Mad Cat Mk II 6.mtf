@@ -183,7 +183,7 @@ manufacturer:Manufacturing Plant DSF-94
 systemmanufacturer:CHASSIS:DSAM Endo 4
 systemmanufacturer:ENGINE:Type 79 360 XL Fusion
 systemmanufacturer:ARMOR:Forging ZM15 Ferro Fibrous
-systemmanufacturer:JUMPJET:Grandthrust Mk. 5
+systemmanufacturer:JUMP_JET:Grandthrust Mk. 5
 systemmanufacturer:COMMUNICATIONS:MegaBand System 21
 systemmanufacturer:TARGETING:Dtrac Suite 4
 

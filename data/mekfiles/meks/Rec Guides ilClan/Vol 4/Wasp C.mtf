@@ -177,6 +177,6 @@ primaryfactory:Kalidasa
 systemmanufacturer:CHASSIS:Irian Chassis Second Generation Class 20 Endo Steel
 systemmanufacturer:ENGINE:Magna 120
 systemmanufacturer:ARMOR:Type-1 Ferro Fibrous
-systemmanufacturer:JUMPJET:Rawlings 52
+systemmanufacturer:JUMP_JET:Rawlings 52
 systemmanufacturer:COMMUNICATIONS:Irian E.A.R.
 systemmanufacturer:TARGETING:Wasat Aggressor

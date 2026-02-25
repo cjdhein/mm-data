@@ -191,6 +191,6 @@ primaryfactory:Terra
 systemmanufacturer:CHASSIS:KruppTech 770
 systemmanufacturer:ENGINE:Nissan 280 XL
 systemmanufacturer:ARMOR:PanzerFerro Type 7F
-systemmanufacturer:JUMPJET:Corwin Consolidated Model 3H
+systemmanufacturer:JUMP_JET:Corwin Consolidated Model 3H
 systemmanufacturer:COMMUNICATIONS:Krupp-COMM 650 with Guardian ECM
 systemmanufacturer:TARGETING:KBC Hypersight Model 5

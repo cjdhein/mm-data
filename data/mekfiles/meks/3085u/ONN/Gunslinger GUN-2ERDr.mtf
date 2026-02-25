@@ -188,6 +188,6 @@ primaryfactory:Hesperus II,Quentin
 systemmanufacturer:CHASSIS:Star League XT
 systemmanufacturer:ENGINE:VOX 255 XL
 systemmanufacturer:ARMOR:Kevlar 5000
-systemmanufacturer:JUMPJET:HildCo Model 12
+systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Nashan Quartet ComSy with Guardian ECM
 systemmanufacturer:TARGETING:Nashan Diana Mark II Targeting Computer

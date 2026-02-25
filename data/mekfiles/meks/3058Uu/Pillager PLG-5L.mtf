@@ -187,6 +187,6 @@ primaryfactory:St. Ives
 systemmanufacturer:CHASSIS:HildCo Heavy Type VIIQT
 systemmanufacturer:ENGINE:Vlar 300 XL
 systemmanufacturer:ARMOR:StarSlab/9.5 Mk II
-systemmanufacturer:JUMPJET:HildCo Model 13
+systemmanufacturer:JUMP_JET:HildCo Model 13
 systemmanufacturer:COMMUNICATIONS:CeresCom Recon Model 12K with ECM
 systemmanufacturer:TARGETING:C-Apple Churchill

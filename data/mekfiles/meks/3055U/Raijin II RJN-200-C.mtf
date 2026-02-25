@@ -184,6 +184,6 @@ primaryfactory:Caph,Terra
 systemmanufacturer:CHASSIS:Krupp 200-ES Endo Steel
 systemmanufacturer:ENGINE:Vlar 300 Light
 systemmanufacturer:ARMOR:Krupp Stealth
-systemmanufacturer:JUMPJET:Rawlings 60
+systemmanufacturer:JUMP_JET:Rawlings 60
 systemmanufacturer:COMMUNICATIONS:Exeter Longscan 200 with C3i Computer
 systemmanufacturer:TARGETING:Garret T12A

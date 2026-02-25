@@ -188,6 +188,6 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Chariot Type II Endo Steel
 systemmanufacturer:ENGINE:VOX 325 XL
 systemmanufacturer:ARMOR:Unknown Ferro-Fibrous
-systemmanufacturer:JUMPJET:Hellespont Leapers
+systemmanufacturer:JUMP_JET:Hellespont Leapers
 systemmanufacturer:COMMUNICATIONS:Dian-bao Comms with ECM
 systemmanufacturer:TARGETING:Dynatec Special T&T

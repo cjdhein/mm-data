@@ -181,6 +181,6 @@ primaryfactory:Unknown
 systemmanufacturer:CHASSIS:Unspecified
 systemmanufacturer:ENGINE:Unspecified
 systemmanufacturer:ARMOR:Unspecified
-systemmanufacturer:JUMPJET:Unspecified
+systemmanufacturer:JUMP_JET:Unspecified
 systemmanufacturer:COMMUNICATIONS:Unspecified
 systemmanufacturer:TARGETING:Unspecified

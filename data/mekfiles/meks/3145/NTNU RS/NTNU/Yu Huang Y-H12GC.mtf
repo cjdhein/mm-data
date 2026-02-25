@@ -184,7 +184,7 @@ primaryfactory:Capella
 systemmanufacturer:CHASSIS:Chariot Type II Endo Steel
 systemmanufacturer:ENGINE:Hermes 360 XL
 systemmanufacturer:ARMOR:Star Shell Standard(C)
-systemmanufacturer:JUMPJET:Rodan-90s
+systemmanufacturer:JUMP_JET:Rodan-90s
 systemmanufacturer:COMMUNICATIONS:Dian-bao Comms, Standard
 systemmanufacturer:TARGETING:O/P 911 Targeting and Tracking System
 

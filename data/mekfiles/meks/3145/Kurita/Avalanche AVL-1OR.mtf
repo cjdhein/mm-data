@@ -189,7 +189,7 @@ primaryfactory:Luthien
 systemmanufacturer:CHASSIS:Luthien Class M Endo Steel
 systemmanufacturer:ENGINE:Hermes 250
 systemmanufacturer:ARMOR:Mitchel Argon Standard with CASE
-systemmanufacturer:JUMPJET:Icarus Standard
+systemmanufacturer:JUMP_JET:Icarus Standard
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon SCU-9
 systemmanufacturer:TARGETING:Matabushi Stalker
 

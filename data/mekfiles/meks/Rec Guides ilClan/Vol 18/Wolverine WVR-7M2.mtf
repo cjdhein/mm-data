@@ -191,6 +191,6 @@ systemmanufacturer:ENGINE:Core Tek 275
 systemmode:ENGINE:(MASC)
 systemmanufacturer:ARMOR:Kallon Unity Weave Ferro-Fibrous
 systemmode:ARMOR:(CASE)
-systemmanufacturer:JUMPJET:Northrup 12000
+systemmanufacturer:JUMP_JET:Northrup 12000
 systemmanufacturer:COMMUNICATIONS:Garret T11-b
 systemmanufacturer:TARGETING:Sync Tracker(39-42071)

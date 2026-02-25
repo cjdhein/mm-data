@@ -170,6 +170,6 @@ primaryfactory:Taurus
 systemmanufacturer:CHASSIS:StarCorps 100
 systemmanufacturer:ENGINE:Magna 350 XL
 systemmanufacturer:ARMOR:Leviathon Plus
-systemmanufacturer:JUMPJET:Unknown Improved Jump Jet
+systemmanufacturer:JUMP_JET:Unknown Improved Jump Jet
 systemmanufacturer:COMMUNICATIONS:O/P 3000 COMSET
 systemmanufacturer:TARGETING:O/P 1500 ARB

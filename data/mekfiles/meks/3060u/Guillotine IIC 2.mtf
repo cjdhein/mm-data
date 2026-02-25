@@ -184,6 +184,6 @@ primaryfactory:Unknown, Angell II, Weingarten
 systemmanufacturer:CHASSIS:Clan Modified Heavy Type X
 systemmanufacturer:ENGINE:Clan Standard 280 series
 systemmanufacturer:ARMOR:Forging OTR17b
-systemmanufacturer:JUMPJET:Clan Series Type 4 Heavy
+systemmanufacturer:JUMP_JET:Clan Series Type 4 Heavy
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:Series VI KITT

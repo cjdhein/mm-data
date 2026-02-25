@@ -182,7 +182,7 @@ primaryfactory:New Samarkand
 systemmanufacturer:CHASSIS:New Samarkand Class 22 Composite
 systemmanufacturer:ENGINE:GM 210 XXL
 systemmanufacturer:ARMOR:Durallex Ballistic-Reinforced
-systemmanufacturer:JUMPJET:Icarus 81
+systemmanufacturer:JUMP_JET:Icarus 81
 systemmanufacturer:COMMUNICATIONS:Sipher CommSys 4
 systemmanufacturer:TARGETING:Dynatec 990 with Targeting Computer
 

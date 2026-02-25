@@ -189,6 +189,6 @@ primaryfactory:Son Hoa, Various
 systemmanufacturer:CHASSIS:Star League XT
 systemmanufacturer:ENGINE:GM 270
 systemmanufacturer:ARMOR:Grumman-3 Ferro Fibrous with CASE
-systemmanufacturer:JUMPJET:HildCo Model 10
+systemmanufacturer:JUMP_JET:HildCo Model 10
 systemmanufacturer:COMMUNICATIONS:Hector VII
 systemmanufacturer:TARGETING:Starlight LX-1

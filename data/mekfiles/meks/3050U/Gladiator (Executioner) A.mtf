@@ -186,6 +186,6 @@ primaryfactory:Alshain
 systemmanufacturer:CHASSIS:Clan Series Assault SXE
 systemmanufacturer:ENGINE:380 Heavy Force XL
 systemmanufacturer:ARMOR:Arcadia Compound Delta VII Ferro-Fibrous
-systemmanufacturer:JUMPJET:Pryzhok WM 10
+systemmanufacturer:JUMP_JET:Pryzhok WM 10
 systemmanufacturer:COMMUNICATIONS:Dash-2 Optima
 systemmanufacturer:TARGETING:Hakkøn-Morris LAP

@@ -176,6 +176,6 @@ primaryfactory:Sian
 systemmanufacturer:CHASSIS:Hellespont Wraith Endo-Composite
 systemmanufacturer:ENGINE:Magna 330 XL
 systemmanufacturer:ARMOR:Hellespont Lite Ferro-Fibrous
-systemmanufacturer:JUMPJET:Hellespont Leapers with Partial Wing
+systemmanufacturer:JUMP_JET:Hellespont Leapers with Partial Wing
 systemmanufacturer:COMMUNICATIONS:Ceres Metals Model 666
 systemmanufacturer:TARGETING:Ceres Bullseye

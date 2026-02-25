@@ -186,7 +186,7 @@ primaryfactory:New Earth
 systemmanufacturer:CHASSIS:Crucis XL
 systemmanufacturer:ENGINE:CoreTek 275
 systemmanufacturer:ARMOR:Armorscale Ferro Fibrous with CASE
-systemmanufacturer:JUMPJET:Anderson 500
+systemmanufacturer:JUMP_JET:Anderson 500
 systemmanufacturer:COMMUNICATIONS:Dalban Commline
 systemmanufacturer:TARGETING:Garret T11S
 

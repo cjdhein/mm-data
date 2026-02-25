@@ -193,7 +193,7 @@ primaryfactory:Styk
 systemmanufacturer:CHASSIS:Crucis-B
 systemmanufacturer:ENGINE:Magna 260
 systemmanufacturer:ARMOR:Riese-500
-systemmanufacturer:JUMPJET:GM Jetstar
+systemmanufacturer:JUMP_JET:GM Jetstar
 systemmanufacturer:COMMUNICATIONS:Garret T11-b
 systemmanufacturer:TARGETING:Garret A6
 

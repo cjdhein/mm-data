@@ -183,6 +183,6 @@ primaryfactory:Dante, Unknown
 systemmanufacturer:CHASSIS:SR 2830/b
 systemmanufacturer:ENGINE:Type 81 Fusion 240 XL
 systemmanufacturer:ARMOR:Durallex Ballistic-Reinforced
-systemmanufacturer:JUMPJET:Andoran Model JJII
+systemmanufacturer:JUMP_JET:Andoran Model JJII
 systemmanufacturer:COMMUNICATIONS:Raldon R1
 systemmanufacturer:TARGETING:Sloane 220 Lockover System with TC

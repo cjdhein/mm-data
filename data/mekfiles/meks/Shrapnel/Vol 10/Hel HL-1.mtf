@@ -171,6 +171,6 @@ primaryfactory:Furillo
 systemmanufacturer:CHASSIS:N&D HLBM Endo Steel
 systemmanufacturer:ENGINE:Hermes 250 XL
 systemmanufacturer:ARMOR:Nashan HD with CASE II
-systemmanufacturer:JUMPJET:HildCo Model 13
+systemmanufacturer:JUMP_JET:HildCo Model 13
 systemmanufacturer:COMMUNICATIONS:Nashan Comm-i U-284
 systemmanufacturer:TARGETING:Nashan Trac V-102

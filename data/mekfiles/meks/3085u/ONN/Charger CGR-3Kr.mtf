@@ -188,7 +188,7 @@ manufacturer:Luthien Armor Works, Sapphire Metals (ex LAW plant)
 primaryfactory:Luthien,Shimonita
 systemmanufacturer:CHASSIS:Wells 990
 systemmanufacturer:ENGINE:LTV 400 XL
-systemmanufacturer:JUMPJET:Icarus 81
+systemmanufacturer:JUMP_JET:Icarus 81
 systemmanufacturer:ARMOR:Durallex Light
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:Dalban Hirez

@@ -185,6 +185,6 @@ primaryfactory:Refit
 systemmanufacturer:CHASSIS:Curtiss Wraith
 systemmanufacturer:ENGINE:385 JF Extralight with MASC
 systemmanufacturer:ARMOR:385 JF Extralight
-systemmanufacturer:JUMPJET:CurtissJet 55
+systemmanufacturer:JUMP_JET:CurtissJet 55
 systemmanufacturer:COMMUNICATIONS:CurtissComm Mk I
 systemmanufacturer:TARGETING:Dynatec 2780

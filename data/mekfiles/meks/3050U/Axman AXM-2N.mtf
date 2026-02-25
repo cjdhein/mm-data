@@ -187,7 +187,7 @@ primaryfactory:Furillo,New Syrtis
 systemmanufacturer:CHASSIS:Dorwinion AXM Standard
 systemmanufacturer:ENGINE:Magna 260 XL
 systemmanufacturer:ARMOR:Kallon Unity Weave Ferro-Fibrous
-systemmanufacturer:JUMPJET:HildCo Model 12
+systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Johnston Wide Band
 systemmanufacturer:TARGETING:Rander Pinpoint-HYr
 systemmode:TARGETING:Pinpoint-HY

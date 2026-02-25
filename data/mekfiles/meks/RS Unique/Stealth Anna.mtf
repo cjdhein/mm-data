@@ -167,6 +167,6 @@ primaryfactory:Kathil
 systemmanufacturer:CHASSIS:GM Stealth Endo Steel
 systemmanufacturer:ENGINE:GM 315 XL
 systemmanufacturer:ARMOR:Durallex Medium
-systemmanufacturer:JUMPJET:100AFVTA
+systemmanufacturer:JUMP_JET:100AFVTA
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban HiRez with Active Probe

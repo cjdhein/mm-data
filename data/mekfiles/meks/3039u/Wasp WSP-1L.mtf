@@ -184,6 +184,6 @@ primaryfactory:Sian
 systemmanufacturer:CHASSIS:1A Type 3
 systemmanufacturer:ENGINE:Hermes 120
 systemmanufacturer:ARMOR:Durallex Light
-systemmanufacturer:JUMPJET:Rawlings 52
+systemmanufacturer:JUMP_JET:Rawlings 52
 systemmanufacturer:COMMUNICATIONS:Duoteck 65
 systemmanufacturer:TARGETING:RadCom TXX

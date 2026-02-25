@@ -180,6 +180,6 @@ primaryfactory:Alshain
 systemmanufacturer:CHASSIS:Bergan Version 6.3 Endo Steel
 systemmanufacturer:ENGINE:325 XL
 systemmanufacturer:ARMOR:Compound 12A1 Standard
-systemmanufacturer:JUMPJET:Clan Standard Type A3
+systemmanufacturer:JUMP_JET:Clan Standard Type A3
 systemmanufacturer:COMMUNICATIONS:Garret L15
 systemmanufacturer:TARGETING:RCA Instatrac Version 8

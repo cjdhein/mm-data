@@ -185,7 +185,7 @@ primaryfactory:Tikonov
 systemmanufacturer:CHASSIS:Earthwerks TDR
 systemmanufacturer:ENGINE:Magna 260
 systemmanufacturer:ARMOR:Ryerson 150 with CASE
-systemmanufacturer:JUMPJET:HildCo Model 12
+systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Neil 8000
 systemmanufacturer:TARGETING:RCA Instatrac Mark X
 

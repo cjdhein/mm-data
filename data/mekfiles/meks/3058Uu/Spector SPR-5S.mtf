@@ -184,6 +184,6 @@ primaryfactory:Loxley
 systemmanufacturer:CHASSIS:Norse XT-Light Type AE (Endo)
 systemmanufacturer:ENGINE:Magna 245 XL
 systemmanufacturer:ARMOR:Starshield Light Stealth
-systemmanufacturer:JUMPJET:HildCo Model 11c
+systemmanufacturer:JUMP_JET:HildCo Model 11c
 systemmanufacturer:COMMUNICATIONS:AR-12 Sheathed Directional Beacon with Norse Guardian ECM Suite
 systemmanufacturer:TARGETING:DLK Type Phased Array Sensor System

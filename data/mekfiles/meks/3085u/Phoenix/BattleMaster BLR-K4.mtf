@@ -184,7 +184,7 @@ primaryfactory:Soul
 systemmanufacturer:CHASSIS:Hollis Mark X
 systemmanufacturer:ENGINE:Strand 255 XL
 systemmanufacturer:ARMOR:StarGuard IV
-systemmanufacturer:JUMPJET:Geotec 300
+systemmanufacturer:JUMP_JET:Geotec 300
 systemmanufacturer:COMMUNICATIONS:HarfordCo COM 4000
 systemmanufacturer:TARGETING:HarfordCo XKZ 1
 

@@ -181,7 +181,7 @@ primaryfactory:Tongatapu
 systemmanufacturer:CHASSIS:Type AR1 Endo Steel
 systemmanufacturer:ENGINE:Hermes 270 XL
 systemmanufacturer:ARMOR:Royal-7a Ferro-Fibrous
-systemmanufacturer:JUMPJET:Leaper Model, L5
+systemmanufacturer:JUMP_JET:Leaper Model, L5
 systemmanufacturer:COMMUNICATIONS:K9 Communications System
 systemmanufacturer:TARGETING:Hunter (3) Dedicated TTS
 

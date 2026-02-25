@@ -189,7 +189,7 @@ primaryfactory:Irian
 systemmanufacturer:CHASSIS:GM Marauder
 systemmanufacturer:ENGINE:Vlar 300 Light
 systemmanufacturer:ARMOR:Valiant Lamellor with CASE
-systemmanufacturer:JUMPJET:Chilton 600
+systemmanufacturer:JUMP_JET:Chilton 600
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban Hi-Rez II
 

@@ -184,6 +184,6 @@ primaryfactory:Unknown
 systemmanufacturer:CHASSIS:Lang T3
 systemmanufacturer:ENGINE:Consolidated Fusion 270 Standard
 systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
-systemmanufacturer:JUMPJET:Northrup Starlifters M45
+systemmanufacturer:JUMP_JET:Northrup Starlifters M45
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:TRTTS Mark II

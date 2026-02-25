@@ -182,7 +182,7 @@ primaryfactory:Boardwalk,Coventry,New Avalon,New Samarkand,Oriente,Randis IV
 systemmanufacturer:CHASSIS:Dorwinion Standard 55T
 systemmanufacturer:ENGINE:Core Tek 275
 systemmanufacturer:ARMOR:Maximillian 105
-systemmanufacturer:JUMPJET:Swingline X-100
+systemmanufacturer:JUMP_JET:Swingline X-100
 systemmanufacturer:COMMUNICATIONS:Achernar Electronics HID-21
 systemmanufacturer:TARGETING:Federated Hunter Mk. II
 

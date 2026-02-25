@@ -187,7 +187,7 @@ primaryfactory:Crofton,Emris IV,Fletcher (TH),Loburg
 systemmanufacturer:CHASSIS:StarCorps 100 LGB
 systemmanufacturer:ENGINE:Strand 255 Light
 systemmanufacturer:ARMOR:StarSlab/9.5 Mk II
-systemmanufacturer:JUMPJET:Unknown
+systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:O/P 3000 COMSET
 systemmanufacturer:TARGETING:Octagon Tartrac System C
 

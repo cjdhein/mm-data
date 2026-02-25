@@ -186,7 +186,7 @@ primaryfactory:Brim
 systemmanufacturer:CHASSIS:Thor-4
 systemmanufacturer:ENGINE:Magna 250
 systemmanufacturer:ARMOR:Norse-34 Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Odin’s Own Model 34z
+systemmanufacturer:JUMP_JET:Odin’s Own Model 34z
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:FireScan with IndirecTrack
 

@@ -179,7 +179,7 @@ primaryfactory:Loxley
 systemmanufacturer:CHASSIS:Thor-4 Endo Steel
 systemmanufacturer:ENGINE:Magna 250
 systemmanufacturer:ARMOR:Unknown
-systemmanufacturer:JUMPJET:Odin’s Own Model 34z
+systemmanufacturer:JUMP_JET:Odin’s Own Model 34z
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:FireScan with IndirecTrack
 

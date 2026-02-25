@@ -187,6 +187,6 @@ primaryfactory:Victoria
 systemmanufacturer:CHASSIS:Chariot Type II Endo Steel
 systemmanufacturer:ENGINE:VOX 325 XL
 systemmanufacturer:ARMOR:Valiant DefCo
-systemmanufacturer:JUMPJET:Hellespont Leapers
+systemmanufacturer:JUMP_JET:Hellespont Leapers
 systemmanufacturer:COMMUNICATIONS:Dian-bao Comms, heavily insulated
 systemmanufacturer:TARGETING:Dynatec Special T&T

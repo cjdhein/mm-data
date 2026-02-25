@@ -168,7 +168,7 @@ primaryfactory:Luthien, Abiy Adi, New Samarkand, Ozawa
 systemmanufacturer:CHASSIS:Alshain Class 48
 systemmanufacturer:ENGINE:Magna 245 XL
 systemmanufacturer:ARMOR:New Samarkand Royal Ferro-Fibrous with CASE
-systemmanufacturer:JUMPJET:Lexington Ltd. Lifters
+systemmanufacturer:JUMP_JET:Lexington Ltd. Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
 

@@ -187,7 +187,7 @@ primaryfactory:Algedi,Achernar,Arcturus,Boardwalk,Coventry,Filtvelt,New Avalon,N
 systemmanufacturer:CHASSIS:Dorwinion Primitive
 systemmanufacturer:ENGINE:Fusion 265 Primitive
 systemmanufacturer:ARMOR:Unknown Primitive
-systemmanufacturer:JUMPJET:Unknown
+systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
 

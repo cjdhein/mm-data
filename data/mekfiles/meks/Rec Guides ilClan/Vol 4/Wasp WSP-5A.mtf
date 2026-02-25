@@ -187,6 +187,6 @@ primaryfactory:Irian,Shiro III
 systemmanufacturer:CHASSIS:Irian Chassis Fourth Generation Class 20 Endo-Composite
 systemmanufacturer:ENGINE:Hermes 160 XL
 systemmanufacturer:ARMOR:Jolassa-328 Ferro-Fibrous with CASE II
-systemmanufacturer:JUMPJET:Rawlings 52
+systemmanufacturer:JUMP_JET:Rawlings 52
 systemmanufacturer:COMMUNICATIONS:Irian E.A.R.
 systemmanufacturer:TARGETING:Wasat Aggressor

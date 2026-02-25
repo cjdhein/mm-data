@@ -183,7 +183,7 @@ primaryfactory:Tamaron
 systemmanufacturer:CHASSIS:Mk. VI Standard Light Chassis
 systemmanufacturer:ENGINE:Clan Model XT4 Standard (90)
 systemmanufacturer:ARMOR:Forging ZK11 Standard
-systemmanufacturer:JUMPJET:Clan Light Series Mk. II
+systemmanufacturer:JUMP_JET:Clan Light Series Mk. II
 systemmanufacturer:COMMUNICATIONS:Build 1685 Tacticom
 systemmanufacturer:TARGETING:HT9 TTS
 

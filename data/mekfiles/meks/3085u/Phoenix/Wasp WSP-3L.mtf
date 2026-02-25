@@ -186,6 +186,6 @@ primaryfactory:Canopus IV,Detroit,Sian,Taurus
 systemmanufacturer:CHASSIS:Hellespont Type W Endo Steel
 systemmanufacturer:ENGINE:Hermes 120
 systemmanufacturer:ARMOR:Hellespont Lite Stealth Annor
-systemmanufacturer:JUMPJET:Hellespont Leapers
+systemmanufacturer:JUMP_JET:Hellespont Leapers
 systemmanufacturer:COMMUNICATIONS:Hellespont Tight Beam
 systemmanufacturer:TARGETING:RadCom TXXI

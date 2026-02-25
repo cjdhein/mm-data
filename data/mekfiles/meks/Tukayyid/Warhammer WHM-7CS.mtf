@@ -192,7 +192,7 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:StarCorps 100
 systemmanufacturer:ENGINE:VOX 280 XL
 systemmanufacturer:ARMOR:Leviathon Plus
-systemmanufacturer:JUMPJET:Anderson 398
+systemmanufacturer:JUMP_JET:Anderson 398
 systemmanufacturer:COMMUNICATIONS:O/P 3000 COMSET
 systemmanufacturer:TARGETING:O/P 1500 ARB
 

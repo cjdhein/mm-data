@@ -184,7 +184,7 @@ primaryfactory:Weingarten
 systemmanufacturer:CHASSIS:Type W4 Endo Steel
 systemmanufacturer:ENGINE:280 Fusion XL
 systemmanufacturer:ARMOR:Advanced/3
-systemmanufacturer:JUMPJET:BMP Series XV
+systemmanufacturer:JUMP_JET:BMP Series XV
 systemmanufacturer:COMMUNICATIONS:Build 1685 Tacticom
 systemmanufacturer:TARGETING:Build 2 CAT TTttS
 

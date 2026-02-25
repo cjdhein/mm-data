@@ -192,6 +192,6 @@ primaryfactory:Kalidasa
 systemmanufacturer:CHASSIS:Corean-II Deluxe Endo Steel
 systemmanufacturer:ENGINE:Hermes 250 Light
 systemmanufacturer:ARMOR:Starshield with CASE
-systemmanufacturer:JUMPJET:Rawlings 50
+systemmanufacturer:JUMP_JET:Rawlings 50
 systemmanufacturer:COMMUNICATIONS:Corean TransBand-J9
 systemmanufacturer:TARGETING:Corean B-Tech

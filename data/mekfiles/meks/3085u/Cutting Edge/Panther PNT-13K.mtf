@@ -185,7 +185,7 @@ primaryfactory:New Samarkand
 systemmanufacturer:CHASSIS:Alshain 56A-Carrier
 systemmanufacturer:ENGINE:Omni 175 XL
 systemmanufacturer:ARMOR:Maximillian 42
-systemmanufacturer:JUMPJET:Lexington Heavy Lifters Improved Jump Jets
+systemmanufacturer:JUMP_JET:Lexington Heavy Lifters Improved Jump Jets
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon SCU-4
 systemmanufacturer:TARGETING:Cat’s Eyes 5
 

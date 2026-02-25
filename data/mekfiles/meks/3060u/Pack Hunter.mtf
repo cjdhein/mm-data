@@ -180,7 +180,7 @@ primaryfactory:Arc-Royal
 systemmanufacturer:CHASSIS:Type AR1 Endo Steel
 systemmanufacturer:ENGINE:Light Force (Standard) 210
 systemmanufacturer:ARMOR:Royal-7 Standard
-systemmanufacturer:JUMPJET:Leaper Model, L5
+systemmanufacturer:JUMP_JET:Leaper Model, L5
 systemmanufacturer:COMMUNICATIONS:K9 Communications System
 systemmanufacturer:TARGETING:Hunter (3) Dedicated TTS
 

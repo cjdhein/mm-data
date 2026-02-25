@@ -186,6 +186,6 @@ primaryfactory:Ashkum,Various
 systemmanufacturer:CHASSIS:Phoenix UM-R Special
 systemmanufacturer:ENGINE:DAV 120
 systemmanufacturer:ARMOR:Phoenix Cuirass
-systemmanufacturer:JUMPJET:Phoenix J55
+systemmanufacturer:JUMP_JET:Phoenix J55
 systemmanufacturer:COMMUNICATIONS:Hammerstorm Huginn Mk VIII
 systemmanufacturer:TARGETING:Hammerstorm Muninn Mk VI

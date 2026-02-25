@@ -183,7 +183,7 @@ primaryfactory:Furillo
 systemmanufacturer:CHASSIS:Foundation E50 Endo Steel
 systemmanufacturer:ENGINE:GM 300 XL
 systemmanufacturer:ARMOR:Maximillian 100
-systemmanufacturer:JUMPJET:Rawlings 50
+systemmanufacturer:JUMP_JET:Rawlings 50
 systemmanufacturer:COMMUNICATIONS:Neil 6000-g
 systemmanufacturer:TARGETING:RCA Instatrac Mark XXII
 

@@ -183,6 +183,6 @@ primaryfactory:Various
 systemmanufacturer:CHASSIS:Mather Tech 500
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:StarGuard I
-systemmanufacturer:JUMPJET:Model 9 Pitban
+systemmanufacturer:JUMP_JET:Model 9 Pitban
 systemmanufacturer:COMMUNICATIONS:Hartford 200S
 systemmanufacturer:TARGETING:Hartford TA10

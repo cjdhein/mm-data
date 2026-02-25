@@ -185,6 +185,6 @@ primaryfactory:New Samarkand
 systemmanufacturer:CHASSIS:Chariot Type II
 systemmanufacturer:ENGINE:GM 180 XL
 systemmanufacturer:ARMOR:Durallex Medium with CASE
-systemmanufacturer:JUMPJET:Luxor 2/Q
+systemmanufacturer:JUMP_JET:Luxor 2/Q
 systemmanufacturer:COMMUNICATIONS:TharHes Thalia HM-22
 systemmanufacturer:TARGETING:TharHes Ares-8A

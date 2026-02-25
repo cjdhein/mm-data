@@ -187,7 +187,7 @@ primaryfactory:New Valencia
 systemmanufacturer:CHASSIS:GM Marauder
 systemmanufacturer:ENGINE:Vlar 300 Light
 systemmanufacturer:ARMOR:Valiant Lamellor
-systemmanufacturer:JUMPJET:Chilton 850 Mk. II
+systemmanufacturer:JUMP_JET:Chilton 850 Mk. II
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban Hi-Rez II
 

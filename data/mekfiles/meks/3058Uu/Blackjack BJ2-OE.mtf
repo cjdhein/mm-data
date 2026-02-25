@@ -185,7 +185,7 @@ primaryfactory:Irian,Luthien,New Valencia,Shiro III,St. Ives,Warlock
 systemmanufacturer:CHASSIS:Alshain 50 Endo Steel
 systemmanufacturer:ENGINE:Nissan 200 XL
 systemmanufacturer:ARMOR:Mitchell Argon
-systemmanufacturer:JUMPJET:Icarus Standard
+systemmanufacturer:JUMP_JET:Icarus Standard
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
 

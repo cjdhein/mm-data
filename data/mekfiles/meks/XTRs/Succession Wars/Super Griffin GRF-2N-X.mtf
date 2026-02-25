@@ -181,7 +181,7 @@ primaryfactory:Hoff
 systemmanufacturer:CHASSIS:Earthwerks GRF
 systemmanufacturer:ENGINE:InterFus 260
 systemmanufacturer:ARMOR:Starshield A
-systemmanufacturer:JUMPJET:Unknown Prototype
+systemmanufacturer:JUMP_JET:Unknown Prototype
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C
 

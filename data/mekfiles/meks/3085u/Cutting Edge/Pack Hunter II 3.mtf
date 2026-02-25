@@ -177,7 +177,7 @@ primaryfactory:Arc-Royal
 systemmanufacturer:CHASSIS:Type AR1 Endo Steel
 systemmanufacturer:ENGINE:Light Force (ExtraLight) 210
 systemmanufacturer:ARMOR:Royal-7a Ferro-Fibrous
-systemmanufacturer:JUMPJET:Leaper Model, L5 (Imp)
+systemmanufacturer:JUMP_JET:Leaper Model, L5 (Imp)
 systemmanufacturer:COMMUNICATIONS:Trueborn Ultra 945B
 systemmanufacturer:TARGETING:Hunter 5 Dedicated TTS
 

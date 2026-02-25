@@ -187,6 +187,6 @@ primaryfactory:New Syrtis
 systemmanufacturer:CHASSIS:Earthwerks CTF
 systemmanufacturer:ENGINE:280 VOX Light
 systemmanufacturer:ARMOR:Ceres Heavy Stealth
-systemmanufacturer:JUMPJET:HildCo Model 12i
+systemmanufacturer:JUMP_JET:HildCo Model 12i
 systemmanufacturer:COMMUNICATIONS:CommuTech Multi-Channel 10
 systemmanufacturer:TARGETING:BlazeFire Sightlock

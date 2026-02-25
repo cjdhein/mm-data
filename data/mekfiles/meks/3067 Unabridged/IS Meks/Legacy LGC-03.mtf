@@ -193,7 +193,7 @@ primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Skobel Template 8 Endo Steel
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:Aldis Plate with CASE
-systemmanufacturer:JUMPJET:CurtissJet 80
+systemmanufacturer:JUMP_JET:CurtissJet 80
 systemmanufacturer:COMMUNICATIONS:Skobel Wave VII Comm with C3i Computer
 systemmanufacturer:TARGETING:Falcon 15 Watcher
 

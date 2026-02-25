@@ -183,6 +183,6 @@ primaryfactory:Ironhold
 systemmanufacturer:CHASSIS:JF 7 Light Endo Steel
 systemmanufacturer:ENGINE:300 JF Extralight
 systemmanufacturer:ARMOR:Compound JF Ferro Fibrous
-systemmanufacturer:JUMPJET:JF Standard
+systemmanufacturer:JUMP_JET:JF Standard
 systemmanufacturer:COMMUNICATIONS:JF 3048 Series II
 systemmanufacturer:TARGETING:Ironhold Mk II

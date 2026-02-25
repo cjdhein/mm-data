@@ -187,7 +187,7 @@ primaryfactory:Luthien,Ramora
 systemmanufacturer:CHASSIS:Wells 990
 systemmanufacturer:ENGINE:Pitban 320
 systemmanufacturer:ARMOR:Durallex Heavy
-systemmanufacturer:JUMPJET:Icarus 81
+systemmanufacturer:JUMP_JET:Icarus 81
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:Dalban Hirez
 

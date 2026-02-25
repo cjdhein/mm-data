@@ -183,6 +183,6 @@ primaryfactory:Hector,Twycross
 systemmanufacturer:CHASSIS:CCo-B Endo
 systemmanufacturer:ENGINE:Fusion 195 Mk. VI, Mod. 3
 systemmanufacturer:ARMOR:Forging ZM15 Ferro-Fibrous
-systemmanufacturer:JUMPJET:"Highlifter" 44
+systemmanufacturer:JUMP_JET:"Highlifter" 44
 systemmanufacturer:COMMUNICATIONS:Garret T11-A
 systemmanufacturer:TARGETING:GH D5j TTS with Active Probe
