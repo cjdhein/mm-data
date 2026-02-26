@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Blitzkrieg
 model:BTZ-3F
 mul id:394
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3061
-Source:TR:3060
-Rules Level:2
+techbase:Inner Sphere
+era:3061
+source:TR:3060
+rules level:2
 role:Striker
 
-
-
-
-quirk:directional_torso_mount
 quirk:no_arms
+quirk:directional_torso_mount
 
+mass:50
+engine:350 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:50
-Engine:350 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:7
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:7
-Jump MP:0
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:10
-RA Armor:10
-LT Armor:13
-RT Armor:13
-CT Armor:17
-HD Armor:8
-LL Armor:16
-RL Armor:16
-RTL Armor:4
-RTR Armor:4
-RTC Armor:5
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:10
+RA armor:10
+LT armor:13
+RT armor:13
+CT armor:17
+HD armor:8
+LL armor:16
+RL armor:16
+RTL armor:4
+RTR armor:4
+RTC armor:5
 
 Weapons:1
 Ultra AC/20, Center Torso
@@ -61,27 +58,27 @@ Ultra AC/20, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -108,11 +105,11 @@ IS Ultra AC/20 Ammo
 IS Ultra AC/20 Ammo
 IS Ultra AC/20 Ammo
 IS Ultra AC/20 Ammo
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -126,13 +123,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISUltraAC20
-Endo Steel
+IS Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Endo Steel
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -147,8 +144,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,13 +158,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thresher
 model:
 mul id:3198
 
 Config:Biped
-TechBase:Clan
-Era:2849
-Source:TR:3058U
-Rules Level:2
+techbase:Clan
+era:2849
+source:TR:3058U
+rules level:2
 role:Skirmisher
-
 
 quirk:imp_target_med
 
+mass:60
+engine:300 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
 
-Mass:60
-Engine:300 XL (Clan) Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:13 Clan Double
+walk mp:5
+jump mp:5
 
-Heat Sinks:13 Double
-Walk MP:5
-Jump MP:5
-
-Armor:Standard(Clan)
-LA Armor:14
-RA Armor:14
-LT Armor:17
-RT Armor:17
-CT Armor:22
-HD Armor:9
-LL Armor:21
-RL Armor:21
-RTL Armor:5
-RTR Armor:5
-RTC Armor:7
+armor:Standard(Inner Sphere)
+LA armor:14
+RA armor:14
+LT armor:17
+RT armor:17
+CT armor:22
+HD armor:9
+LL armor:21
+RL armor:21
+RTL armor:5
+RTR armor:5
+RTC armor:7
 
 Weapons:6
 SRM 6, Left Arm
@@ -67,7 +66,7 @@ Lower Arm Actuator
 CLSRM6
 CLMediumPulseLaser
 Clan Ammo SRM-6
-Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -81,7 +80,7 @@ Lower Arm Actuator
 CLSRM6
 CLMediumPulseLaser
 Clan Ammo SRM-6
-Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -96,8 +95,8 @@ CLDoubleHeatSink
 CLERMediumLaser
 CLMASC
 CLMASC
-Endo Steel
-Endo Steel
+Clan Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -111,8 +110,8 @@ CLUltraAC10
 CLUltraAC10
 Clan Ultra AC/10 Ammo
 Clan Ultra AC/10 Ammo
-Endo Steel
-Endo Steel
+Clan Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 
@@ -128,7 +127,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Endo Steel
+Clan Endo Steel
 
 Head:
 Life Support
@@ -171,5 +170,4 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
-
 

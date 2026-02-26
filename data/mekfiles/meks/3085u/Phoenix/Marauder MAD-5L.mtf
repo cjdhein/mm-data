@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-5L
 mul id:2040
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3067
+techbase:Inner Sphere
+era:3067
 source:TR:3085S
-Rules Level:2
+rules level:2
 role:Sniper
 
-
-
+quirk:low_profile
 quirk:command_mech
 quirk:hyper_actuator
-quirk:low_profile
 weaponquirk:direct_torso_mount:RT:6:ISERPPC
 weaponquirk:exposed_linkage:RT:6:ISERPPC
 
+mass:75
+engine:300 Fusion Engine
+structure:IS Standard
+myomer:Triple-Strength
 
-Mass:75
-Engine:300 Fusion Engine
-Structure:Standard
-Myomer:Triple-Strength
+heat sinks:18 IS Double
+walk mp:4
+jump mp:0
 
-Heat Sinks:18 Double
-Walk MP:4
-Jump MP:0
-
-Armor:Stealth(Inner Sphere)
-LA Armor:24
-RA Armor:24
-LT Armor:24
-RT Armor:24
-CT Armor:33
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:8
-RTR Armor:8
-RTC Armor:10
+armor:Stealth(Inner Sphere)
+LA armor:24
+RA armor:24
+LT armor:24
+RT armor:24
+CT armor:33
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:8
+RTR armor:8
+RTC armor:10
 
 Weapons:5
 ER Large Laser, Left Arm
@@ -71,11 +69,11 @@ Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
 ISERMediumLaser
-Stealth
-Stealth
-TSM
-TSM
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 
 Right Arm:
@@ -88,9 +86,9 @@ ISDoubleHeatSink
 ISERLargeLaser
 ISERLargeLaser
 ISERMediumLaser
-Stealth
-Stealth
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
 
 Left Torso:
 ISDoubleHeatSink
@@ -102,9 +100,9 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-Stealth
-Stealth
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
 
 Right Torso:
 ISDoubleHeatSink
@@ -116,9 +114,9 @@ ISDoubleHeatSink
 ISERPPC
 ISERPPC
 ISERPPC
-Stealth
-Stealth
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
 
 Center Torso:
 Fusion Engine
@@ -153,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -167,13 +165,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

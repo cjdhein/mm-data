@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bloodhound
 model:B3-HND
 mul id:5671
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3081
-Rules Level:3
-role:Striker
+techbase:Inner Sphere
+era:3081
 source:RS:3067u
-
-
+rules level:3
+role:Striker
 
 quirk:imp_sensors
 quirk:pro_actuator
 
+mass:45
+engine:315 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:45
-Engine:315 XL Fusion Engine
-Structure:Endo-Steel
-Myomer:Standard
+heat sinks:11 IS Double
+walk mp:7
+jump mp:0
 
-Heat Sinks:11 Double
-Walk MP:7
-Jump MP:0
+armor:Standard(Inner Sphere)
+LA armor:14
+RA armor:14
+LT armor:16
+RT armor:16
+CT armor:20
+HD armor:9
+LL armor:18
+RL armor:18
+RTL armor:6
+RTR armor:6
+RTC armor:7
 
-Armor:Standard Armor
-LA Armor:14
-RA Armor:14
-LT Armor:16
-RT Armor:16
-CT Armor:20
-HD Armor:9
-LL Armor:18
-RL Armor:18
-RTL Armor:6
-RTR Armor:6
-RTC Armor:7
-
-Weapons:9
-1 ISBPod, Center Torso
-1 ISBeagleActiveProbe, Left Torso
-1 ISERFlamer, Left Arm
-1 ISERFlamer, Left Arm
-1 ISFluidGun, Right Arm, Ammo:40
-1 ISMediumPulseLaser, Right Arm
-1 ISMediumPulseLaser, Left Arm
-1 ISERFlamer, Right Arm
-1 ISERFlamer, Right Arm
+Weapons:8
+Medium Pulse Laser, Left Arm
+ER Flamer, Left Arm
+ER Flamer, Left Arm
+Medium Pulse Laser, Right Arm
+ER Flamer, Right Arm
+ER Flamer, Right Arm
+Fluid Gun, Right Arm
+Anti-BattleArmor Pods (B-Pods), Center Torso
 
 Left Arm:
 Shoulder
@@ -71,10 +68,10 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISMediumPulseLaser
-ISERFlamer
-ISERFlamer
-Endo-Steel
-Endo-Steel
+ER Flamer
+ER Flamer
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -85,53 +82,53 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISMediumPulseLaser
-ISERFlamer
-ISERFlamer
-ISFluidGun
-ISFluidGun
-Endo-Steel
-Endo-Steel
+ER Flamer
+ER Flamer
+IS Fluid Gun
+IS Fluid Gun
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Left Torso:
-Engine
-Engine
-Engine
-ISBeagleActiveProbe
-ISBeagleActiveProbe
-Endo-Steel
-Endo-Steel
-Endo-Steel
+Fusion Engine
+Fusion Engine
+Fusion Engine
+BeagleActiveProbe
+BeagleActiveProbe
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Right Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISFluidGun Ammo
 ISFluidGun Ammo
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISBPod
 -Empty-
 
@@ -142,19 +139,38 @@ Cockpit
 -Empty-
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,19 +15,21 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Night Chanter
 model:A
+mul id:9233
 
-Config:Biped Omnimech
+Config:Biped OmniMek
 techbase:Clan
 era:2865
 source:TP:Foster
 rules level:3
 role:Sniper
-mul id:9233
+
 
 mass:45
-engine:225 Fusion (Clan) Engine(IS)
+engine:225 Fusion (Clan) Engine
 structure:IS Standard
 myomer:Standard
 
@@ -50,11 +52,11 @@ RTR armor:4
 RTC armor:5
 
 Weapons:5
-ER PPC, Center Torso
-ER Medium Laser, Right Arm
 LRM 10, Left Arm
+ER Medium Laser, Right Arm
 Machine Gun, Right Arm
 Machine Gun, Right Arm
+ER PPC, Center Torso
 
 Left Arm:
 Shoulder
@@ -175,4 +177,3 @@ systemmanufacturer:ENGINE:Type 225 Standard Fusion
 systemmanufacturer:ARMOR:CI Standard
 systemmanufacturer:COMMUNICATIONS:CI-Com 2
 systemmanufacturer:TARGETING:CI-X 2
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tessen
 model:TSN-C3M
 mul id:5678
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3077
-Rules Level:2
-role:Skirmisher
+techbase:Inner Sphere
+era:3077
 source:RS:3067u
-
-
+rules level:2
+role:Skirmisher
 
 quirk:bad_rep_is
 
+mass:50
+engine:300 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:50
-Engine:300 XL Fusion Engine
-Structure:Endo-Steel
-Myomer:ISMASC
+heat sinks:11 IS Double
+walk mp:6
+jump mp:0
 
-Heat Sinks:11 Double
-Walk MP:6
-Jump MP:0
-
-Armor:Ferro-Fibrous
-LA Armor:16
-RA Armor:16
-LT Armor:18
-RT Armor:18
-CT Armor:25
-HD Armor:9
-LL Armor:20
-RL Armor:20
-RTL Armor:6
-RTR Armor:6
-RTC Armor:7
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:16
+RA armor:16
+LT armor:18
+RT armor:18
+CT armor:25
+HD armor:9
+LL armor:20
+RL armor:20
+RTL armor:6
+RTR armor:6
+RTC armor:7
 
 Weapons:4
-1 ISSmallPulseLaser, Head
-1 ISERPPC, Right Arm
-1 ISSNPPC, Left Arm
-1 ISC3MasterComputer, Right Torso
+Snub-Nose PPC, Left Arm
+ER PPC, Right Arm
+C3 Computer (Master), Right Torso
+Small Pulse Laser, Head
 
 Left Arm:
 Shoulder
@@ -66,12 +64,12 @@ Lower Arm Actuator
 Hand Actuator
 ISSNPPC
 ISSNPPC
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Arm:
 Shoulder
@@ -80,54 +78,54 @@ Lower Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Left Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISMASC
 ISMASC
 ISMASC
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
-Engine
-Engine
-Engine
-ISC3MasterComputer
-ISC3MasterComputer
-ISC3MasterComputer
-ISC3MasterComputer
-ISC3MasterComputer
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISC3MasterUnit
+ISC3MasterUnit
+ISC3MasterUnit
+ISC3MasterUnit
+ISC3MasterUnit
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
-Ferro-Fibrous
-Ferro-Fibrous
+Fusion Engine
+Fusion Engine
+Fusion Engine
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Head:
 Life Support
@@ -136,19 +134,38 @@ Cockpit
 ISSmallPulseLaser
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Onager
 model:2
 mul id:6847
 
 Config:Biped
-TechBase:Clan
-Era:3137
-Source:RS:3145-NTNU
-Rules Level:3
+techbase:Clan
+era:3137
+source:RS:3145-NTNU
+rules level:3
 role:Sniper
 
 quirk:battle_fists_ra
 quirk:exp_actuator
 weaponquirk:exposed_linkage:LA:2:CLHAG30
-weaponquirk:exposed_linkage:LA:7:CLHAG30
 
+mass:90
+engine:270 Fusion (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
 
-Mass:90
-Engine:270 Fusion (Clan) Engine(IS)
-Structure:Clan Endo Steel
-Myomer:Standard
+heat sinks:12 Clan Double
+walk mp:3
+jump mp:3
 
-Heat Sinks:12 Double
-Walk MP:3
-Jump MP:3
-
-Armor:Ferro-Fibrous(Clan)
-LA Armor:30
-RA Armor:30
-LT Armor:25
-RT Armor:25
-CT Armor:40
-HD Armor:9
-LL Armor:38
-RL Armor:38
-RTL Armor:13
-RTR Armor:13
-RTC Armor:18
+armor:Ferro-Fibrous(Clan)
+LA armor:30
+RA armor:30
+LT armor:25
+RT armor:25
+CT armor:40
+HD armor:9
+LL armor:38
+RL armor:38
+RTL armor:13
+RTR armor:13
+RTC armor:18
 
 Weapons:8
 HAG/30, Left Arm
@@ -75,8 +74,8 @@ CLHAG30
 CLHAG30
 CLHAG30
 CLHAG30
-HAG/30 Ammo
-HAG/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
 
 Right Arm:
 Shoulder
@@ -99,9 +98,9 @@ CLLargePulseLaser
 CLSRM6
 Clan Ammo SRM-6
 Clan Ammo SRM-6
-HAG/30 Ammo
-HAG/30 Ammo
-HarJel II Self-Repair System
+Hyper-Assault Gauss Rifle/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
+HarJel Repair Systems (HarJel II)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -113,7 +112,7 @@ CLLargePulseLaser
 CLSRM6
 CLMicroPulseLaser
 CLMicroPulseLaser
-HarJel II Self-Repair System
+HarJel Repair Systems (HarJel II)
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -132,7 +131,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-HarJel II Self-Repair System
+HarJel Repair Systems (HarJel II)
 
 Head:
 Life Support
@@ -175,5 +174,4 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
-
 

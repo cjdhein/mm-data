@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Brahma
 model:BRM-5B
 mul id:427
+
 Config:Biped
 techbase:Inner Sphere
 era:3080
@@ -25,8 +27,9 @@ source:RS:3085u-CE
 rules level:2
 role:Skirmisher
 
+
 mass:60
-engine:300 XL Engine(IS)
+engine:300 XL Engine
 structure:IS Standard
 myomer:Standard
 
@@ -166,5 +169,4 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
-
 

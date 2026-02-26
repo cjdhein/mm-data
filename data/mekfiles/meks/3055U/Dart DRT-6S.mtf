@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dart
 model:DRT-6S
 mul id:830
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3053
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3053
+source:TR:3055U
+rules level:2
 role:Scout
-
-
 
 quirk:ext_twist
 
+mass:25
+engine:225 Fusion Engine
+structure:IS Standard
+myomer:Standard
 
-Mass:25
-Engine:225 Fusion Engine
-Structure:Standard
-Myomer:Standard
+heat sinks:10 Single
+walk mp:9
+jump mp:0
 
-Heat Sinks:10 Single
-Walk MP:9
-Jump MP:0
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:8
-RA Armor:8
-LT Armor:8
-RT Armor:8
-CT Armor:10
-HD Armor:8
-LL Armor:10
-RL Armor:10
-RTL Armor:3
-RTR Armor:3
-RTC Armor:4
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:8
+RA armor:8
+LT armor:8
+RT armor:8
+CT armor:10
+HD armor:8
+LL armor:10
+RL armor:10
+RTL armor:3
+RTR armor:3
+RTC armor:4
 
 Weapons:2
 Medium Laser, Center Torso
@@ -62,7 +60,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -76,7 +74,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -86,12 +84,12 @@ Ferro-Fibrous
 -Empty-
 
 Left Torso:
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -100,12 +98,12 @@ Ferro-Fibrous
 -Empty-
 
 Right Torso:
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -168,5 +166,4 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
-
 

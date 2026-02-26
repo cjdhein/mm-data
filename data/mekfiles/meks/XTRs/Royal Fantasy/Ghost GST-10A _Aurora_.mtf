@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ghost
 model:GST-10A 'Aurora'
 mul id:8373
@@ -26,19 +27,16 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Striker
 
-
-
 quirk:ext_twist
-quirk:imp_com
 quirk:imp_sensors
-
+quirk:imp_com
 
 mass:50
 engine:300 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:11 Double
+heat sinks:11 IS Double
 walk mp:6
 jump mp:0
 
@@ -56,12 +54,12 @@ RTR armor:7
 RTC armor:10
 
 Weapons:6
-ER Small Pulse Laser, Head
+iNarc, Left Arm
+ER Medium Laser, Right Arm
 ER Medium Laser, Left Torso
 MML 9, Right Torso
-ER Medium Laser, Right Arm
 ER Medium Laser, Right Torso
-iNarc, Left Arm
+ER Small Pulse Laser, Head
 
 Left Arm:
 Shoulder
@@ -174,5 +172,4 @@ Mek Void Signature System
 -Empty-
 -Empty-
 -Empty-
-
 

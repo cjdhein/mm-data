@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ronin
 model:SA-RN
 mul id:2738
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3051
-Source:TR:3055U
-Rules Level:3
+techbase:Inner Sphere
+era:3051
+source:TR:3055U
+rules level:3
 role:Striker
-
-
-
 
 quirk:non_standard
 
+mass:50
+engine:250 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:50
-Engine:250 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:5
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:5
-Jump MP:0
-
-Armor:Standard(Inner Sphere)
-LA Armor:15
-RA Armor:15
-LT Armor:16
-RT Armor:16
-CT Armor:22
-HD Armor:8
-LL Armor:22
-RL Armor:22
-RTL Armor:5
-RTR Armor:5
-RTC Armor:6
+armor:Standard(Inner Sphere)
+LA armor:15
+RA armor:15
+LT armor:16
+RT armor:16
+CT armor:22
+HD armor:8
+LL armor:22
+RL armor:22
+RTL armor:5
+RTR armor:5
+RTC armor:6
 
 Weapons:5
 Large Pulse Laser, Right Arm
@@ -69,9 +66,9 @@ ISClaw
 ISClaw
 ISClaw
 ISClaw
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 
@@ -81,11 +78,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISLargePulseLaser
 ISLargePulseLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 
@@ -100,7 +97,7 @@ ISArtemisIV
 IS Ammo SRM-4 Artemis-capable
 IS Ammo SRM-4 Artemis-capable
 ISCASE
-Endo Steel
+IS Endo Steel
 -Empty-
 
 Right Torso:
@@ -111,10 +108,10 @@ SRM 4
 ISArtemisIV
 SRM 4
 ISArtemisIV
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Center Torso:
@@ -128,7 +125,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Endo Steel
+IS Endo Steel
 -Empty-
 
 Head:
@@ -172,5 +169,4 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
-
 

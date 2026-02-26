@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,58 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:No-Dachi
 model:NDA-3S
 mul id:5692
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3081
-Rules Level:3
-role:Brawler
+techbase:Inner Sphere
+era:3081
 source:RS:3067u
-
-
+rules level:3
+role:Brawler
 
 quirk:hyper_actuator
 
+mass:70
+engine:350 XL Engine
+structure:IS Endo Steel
+myomer:Triple-Strength
 
-Mass:70
-Engine:350 XL Fusion Engine
-Structure:Endo-Steel
-Myomer:Triple Strength Myomer
+heat sinks:14 IS Double
+walk mp:5
+jump mp:0
 
-Heat Sinks:14 Double
-Walk MP:5
-Jump MP:0
+armor:Standard(Inner Sphere)
+LA armor:22
+RA armor:22
+LT armor:20
+RT armor:20
+CT armor:31
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:10
+RTR armor:10
+RTC armor:12
 
-Armor:Standard Armor
-LA Armor:22
-RA Armor:22
-LT Armor:20
-RT Armor:20
-CT Armor:31
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:10
-RTR Armor:10
-RTC Armor:12
-
-Weapons:13
-1 ISGuardianECM, Center Torso
-1 Mace, Right Arm
-1 ISSmallLaser, Right Torso
-1 ISSmallLaser, Left Torso
-1 ISSmallLaser, Head
-1 ISERMediumLaser, Right Torso
-1 ISERMediumLaser, Left Torso
-1 ISMediumPulseLaser, Right Torso
-1 ISMediumPulseLaser, Left Torso
-1 ISMediumVSPLaser, Left Arm
-1 ISMediumVSPLaser, Left Arm
-1 ISSmallPulseLaser, Left Arm
-1 ISMediumPulseLaser, Left Arm
+Weapons:11
+Medium VSP Laser, Left Arm
+Medium VSP Laser, Left Arm
+Medium Pulse Laser, Left Arm
+Small Pulse Laser, Left Arm
+Medium Pulse Laser, Left Torso
+ER Medium Laser, Left Torso
+Small Laser, Left Torso
+Medium Pulse Laser, Right Torso
+ER Medium Laser, Right Torso
+Small Laser, Right Torso
+Small Laser, Head
 
 Left Arm:
 Shoulder
@@ -78,9 +74,9 @@ ISMediumVSPLaser
 ISMediumVSPLaser
 ISMediumPulseLaser
 ISSmallPulseLaser
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Arm:
 Shoulder
@@ -94,70 +90,89 @@ Mace
 Mace
 Mace
 Mace
-Endo-Steel
+IS Endo Steel
 
 Left Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISMediumPulseLaser
 ISERMediumLaser
-ISSmallLaser
-Endo-Steel
-Endo-Steel
-Endo-Steel
+Small Laser
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
 
 Right Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISMediumPulseLaser
 ISERMediumLaser
-ISSmallLaser
-Endo-Steel
-Endo-Steel
-Endo-Steel
+Small Laser
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
-ISGuardianECM
-ISGuardianECM
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISGuardianECMSuite
+ISGuardianECMSuite
 
 Head:
 Life Support
 Sensors
 Cockpit
-ISSmallLaser
+Small Laser
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dasher II
 model:
 mul id:848
 
 Config:Biped
-TechBase:Clan
-Era:3077
+techbase:Clan
+era:3077
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Scout
-
 
 quirk:poor_performance
 
+mass:40
+engine:400 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
 
-Mass:40
-Engine:400 XL (Clan) Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 Clan Double
+walk mp:10
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:10
-Jump MP:0
-
-Armor:Ferro-Fibrous(Clan)
-LA Armor:5
-RA Armor:5
-LT Armor:7
-RT Armor:7
-CT Armor:7
-HD Armor:6
-LL Armor:7
-RL Armor:7
-RTL Armor:2
-RTR Armor:2
-RTC Armor:2
+armor:Ferro-Fibrous(Clan)
+LA armor:5
+RA armor:5
+LT armor:7
+RT armor:7
+CT armor:7
+HD armor:6
+LL armor:7
+RL armor:7
+RTL armor:2
+RTR armor:2
+RTC armor:2
 
 Weapons:6
-ER Micro Laser, Right Arm
-ER Micro Laser, Right Arm
-ER Micro Laser, Right Arm
 ER Micro Laser, Left Arm
 ER Micro Laser, Left Arm
 ER Micro Laser, Left Arm
+ER Micro Laser, Right Arm
+ER Micro Laser, Right Arm
+ER Micro Laser, Right Arm
 
 Left Arm:
 Shoulder
@@ -68,8 +67,8 @@ Hand Actuator
 CLERMicroLaser
 CLERMicroLaser
 CLERMicroLaser
-Endo Steel
-Ferro-Fibrous
+Clan Endo Steel
+Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -82,8 +81,8 @@ Hand Actuator
 CLERMicroLaser
 CLERMicroLaser
 CLERMicroLaser
-Endo Steel
-Ferro-Fibrous
+Clan Endo Steel
+Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -91,9 +90,9 @@ Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -105,9 +104,9 @@ Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -127,14 +126,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Endo Steel
+Clan Endo Steel
 -Empty-
 
 Head:
 Life Support
 Sensors
 Cockpit
-Ferro-Fibrous
+Clan Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -149,7 +148,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,7 +162,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
+Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,5 +170,4 @@ Endo Steel
 -Empty-
 -Empty-
 -Empty-
-
 

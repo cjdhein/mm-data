@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Battle Cobra
 model:BTL-C-2OG
 mul id:9492
-Config:Biped Omnimech
+
+Config:Biped OmniMek
 techbase:Inner Sphere
 era:3083
 source:Shrap11
@@ -27,9 +29,8 @@ role:Brawler
 
 quirk:ext_twist
 
-
 mass:40
-engine:200 Fusion Engine(IS)
+engine:200 Fusion Engine
 structure:IS Endo Steel
 myomer:Standard
 
@@ -53,9 +54,9 @@ RTC armor:5
 
 Weapons:4
 Plasma Rifle, Left Arm
-Machine Gun, Right Arm
-Snub-Nose PPC, Right Arm
 Machine Gun, Left Arm
+Snub-Nose PPC, Right Arm
+Machine Gun, Right Arm
 
 Left Arm:
 Shoulder
@@ -180,4 +181,3 @@ systemmanufacturer:ENGINE:Nissan 200
 systemmanufacturer:ARMOR:Paulina Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Blade 12
 systemmanufacturer:TARGETING:Spanke 112-A
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas
 model:C 2
 mul id:8431
@@ -26,17 +27,14 @@ source:RG24
 rules level:2
 role:Juggernaut
 
-
-
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:command_mech
 quirk:distracting
+quirk:command_mech
 quirk:imp_com
 
-
 mass:100
-engine:300 Fusion (Clan) Engine(IS)
+engine:300 Fusion (Clan) Engine
 structure:IS Standard
 myomer:Standard
 
@@ -44,7 +42,7 @@ heat sinks:20 Clan Double
 walk mp:3
 jump mp:0
 
-armor:Standard(Clan)
+armor:Standard(Inner Sphere)
 LA armor:34
 RA armor:34
 LT armor:32
@@ -58,12 +56,12 @@ RTR armor:10
 RTC armor:14
 
 Weapons:7
-ER Large Laser, Right Arm
 ER Large Laser, Left Arm
+ER Large Laser, Right Arm
 ER PPC, Left Torso
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Left Torso
 Streak SRM 6, Left Torso
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Left Torso
 LB 20-X AC, Right Torso
 
 Left Arm:
@@ -189,4 +187,3 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Durallex Special Heavy
 systemmanufacturer:COMMUNICATIONS:Angst Discom
 systemmanufacturer:TARGETING:Angst Accuracy
-

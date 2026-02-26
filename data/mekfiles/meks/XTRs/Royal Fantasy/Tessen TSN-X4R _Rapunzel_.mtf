@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tessen
 model:TSN-X4R 'Rapunzel'
 mul id:8377
@@ -26,17 +27,14 @@ source:XTR:Royal Fantasy
 rules level:4
 role:Striker
 
-
-
 quirk:bad_rep_is
-
 
 mass:50
 engine:300 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:11 Double
+heat sinks:11 IS Double
 walk mp:6
 jump mp:0
 
@@ -55,9 +53,9 @@ RTC armor:6
 
 Weapons:4
 C3 Remote Sensor Launcher, Left Arm
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Left Torso
 ER Large Laser, Right Torso
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Left Torso
 
 Left Arm:
 Shoulder
@@ -170,3 +168,4 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+

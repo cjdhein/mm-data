@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ti Ts'ang
 model:TSG-9 'China Doll'
 mul id:5241
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3067
-Rules Level:4
+techbase:Inner Sphere
+era:3067
+source:BattleCorps
+rules level:4
 role:None
-Source:BattleCorps
-
-
 
 quirk:hyper_actuator
 
+mass:60
+engine:300 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:60
-Engine:300 XL Fusion Engine
-Structure:Endo-Steel
-Myomer:Standard
+heat sinks:12 IS Double
+walk mp:5
+jump mp:8
 
-Heat Sinks:12 Double
-Walk MP:5
-Jump MP:8
+armor:Standard(Inner Sphere)
+LA armor:20
+RA armor:20
+LT armor:22
+RT armor:22
+CT armor:30
+HD armor:9
+LL armor:28
+RL armor:28
+RTL armor:6
+RTR armor:6
+RTC armor:9
 
-Armor:Standard Armor
-LA Armor:20
-RA Armor:20
-LT Armor:22
-RT Armor:22
-CT Armor:30
-HD Armor:9
-LL Armor:28
-RL Armor:28
-RTL Armor:6
-RTR Armor:6
-RTC Armor:9
-
-Weapons:8
-1 Hatchet, Right Arm
-1 ISERMediumLaser, Left Torso
-1 ISERSmallLaser, Left Arm
-1 ISERSmallLaser, Left Arm
-1 ISERMediumLaser, Left Arm
-1 ISERMediumLaser, Left Torso
-1 ISERMediumLaser, Right Torso
-1 ISERMediumLaser, Right Torso
+Weapons:7
+ER Medium Laser, Left Arm
+ER Small Laser, Left Arm
+ER Small Laser, Left Arm
+ER Medium Laser, Left Torso
+ER Medium Laser, Left Torso
+ER Medium Laser, Right Torso
+ER Medium Laser, Right Torso
 
 Left Arm:
 Shoulder
@@ -70,12 +67,12 @@ Lower Arm Actuator
 ISERMediumLaser
 ISERSmallLaser
 ISERSmallLaser
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Arm:
 Shoulder
@@ -86,73 +83,92 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Left Torso:
-Engine
-Engine
-Engine
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
 ISERMediumLaser
 ISERMediumLaser
-Endo-Steel
+IS Endo Steel
 
 Right Torso:
-Engine
-Engine
-Engine
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
-ImprovedJump Jet
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
 ISERMediumLaser
 ISERMediumLaser
-Endo-Steel
+IS Endo Steel
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
-IS Super Charger
-Endo-Steel
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Supercharger
+IS Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Endo-Steel
+IS Endo Steel
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ImprovedJump Jet
-ImprovedJump Jet
+Improved Jump Jet
+Improved Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ImprovedJump Jet
-ImprovedJump Jet
+Improved Jump Jet
+Improved Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

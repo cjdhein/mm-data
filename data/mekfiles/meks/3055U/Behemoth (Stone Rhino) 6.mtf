@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Behemoth
 clanname:Stone Rhino
 model:6
 mul id:3816
+
 Config:Biped
 techbase:Clan
 era:2999
@@ -26,16 +28,15 @@ source:TR:3055U
 rules level:2
 role:Brawler
 
+quirk:oversized
+quirk:weak_head_1
 quirk:barrel_fists_la
 quirk:barrel_fists_ra
-quirk:pro_actuator
-quirk:oversized
 quirk:poor_performance
-quirk:weak_head_1
-
+quirk:pro_actuator
 
 mass:100
-engine:400 XL (Clan) Engine(IS)
+engine:400 XL (Clan) Engine
 structure:IS Standard
 myomer:Standard
 
@@ -197,4 +198,3 @@ systemmanufacturer:ARMOR:Compound 12A1 Standard with CASE
 systemmanufacturer:JUMP_JET:Grandthrust Mk. 5
 systemmanufacturer:COMMUNICATIONS:Garret L15
 systemmanufacturer:TARGETING:RCA Instatrac Version 8a
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-3Cr
 mul id:2696
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3071
+techbase:Inner Sphere
+era:3071
 source:TR:3085S
-Rules Level:2
+rules level:2
 role:Brawler
 
-
-
-quirk:anti_air
-quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
+quirk:anti_air
 quirk:ubiquitous_is
+quirk:imp_com
 
+mass:60
+engine:240 Fusion Engine
+structure:IS Standard
+myomer:Standard
+cockpit:Small Cockpit
+gyro:XL Gyro
 
-Mass:60
-Engine:240 Fusion Engine(IS)
-Structure:Standard
-Myomer:Standard
-Cockpit:Small Cockpit
-Gyro:XL Gyro
+heat sinks:10 Single
+walk mp:4
+jump mp:0
 
-Heat Sinks:10 Single
-Walk MP:4
-Jump MP:0
-
-Armor:Heavy Ferro-Fibrous(Inner Sphere)
-LA Armor:17
-RA Armor:17
-LT Armor:17
-RT Armor:17
-CT Armor:22
-HD Armor:9
-LL Armor:17
-RL Armor:17
-RTL Armor:4
-RTR Armor:4
-RTC Armor:7
+armor:Heavy Ferro-Fibrous(Inner Sphere)
+LA armor:17
+RA armor:17
+LT armor:17
+RT armor:17
+CT armor:22
+HD armor:9
+LL armor:17
+RL armor:17
+RTL armor:4
+RTR armor:4
+RTC armor:7
 
 Weapons:4
-Autocannon/10, Left Arm
-Autocannon/10, Right Arm
+AC/10, Left Arm
+AC/10, Right Arm
 Medium Laser, Left Torso
 Medium Laser, Right Torso
 
@@ -75,8 +73,8 @@ Autocannon/10
 Autocannon/10
 Autocannon/10
 Autocannon/10
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -89,23 +87,23 @@ Autocannon/10
 Autocannon/10
 Autocannon/10
 Autocannon/10
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
 -Empty-
 
 Left Torso:
 Heat Sink
 Medium Laser
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
 
 Right Torso:
 Medium Laser
@@ -115,11 +113,11 @@ IS Ammo AC/10
 IS Ammo AC/10
 IS Ammo AC/10
 ISCASE
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -140,8 +138,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-Heavy Ferro-Fibrous
-Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -177,4 +175,3 @@ Foot Actuator
 -Empty-
 -Empty-
 
-imagefile:.\data\images\fluff\Mech\rifleman Silhouette.jpg

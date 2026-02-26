@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes
 model:HER-4K
 mul id:1492
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3058
-Source:TR:3050
-Rules Level:2
+techbase:Inner Sphere
+era:3058
+source:TR:3050
+rules level:2
 role:Striker
 
-
-
-quirk:imp_com
 quirk:stable
+quirk:imp_com
 
+mass:30
+engine:270 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:30
-Engine:270 XL Engine
-Structure:Endo Steel
-Myomer:MASC
+heat sinks:10 IS Double
+walk mp:9
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:9
-Jump MP:0
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:7
+RA armor:7
+LT armor:7
+RT armor:7
+CT armor:10
+HD armor:8
+LL armor:9
+RL armor:9
+RTL armor:2
+RTR armor:2
+RTC armor:3
 
-Armor:Ferro-Fibrous
-LA Armor:7
-RA Armor:7
-LT Armor:7
-RT Armor:7
-CT Armor:10
-HD Armor:8
-LL Armor:9
-RL Armor:9
-RTL Armor:2
-RTR Armor:2
-RTC Armor:3
-
-Weapons:6
-2 ISERMediumLaser, Right Arm
-2 ISERMediumLaser, Left Arm
-1 ISERSmallLaser, Right Torso
-1 ISGuardianECM, Right Torso
-1 ISC3SlaveUnit, Left Torso
-2 ISERMediumLaser, Center Torso
+Weapons:7
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
+ER Small Laser, Right Torso
+ER Medium Laser, Center Torso
+ER Medium Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -68,13 +67,13 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISERMediumLaser
 ISERMediumLaser
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -83,12 +82,12 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERMediumLaser
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -97,26 +96,26 @@ Fusion Engine
 ISMASC
 ISMASC
 ISC3SlaveUnit
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
 ISERSmallLaser
-ISGuardianECM
-ISGuardianECM
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+ISGuardianECMSuite
+ISGuardianECMSuite
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -136,7 +135,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Ferro-Fibrous
+IS Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -151,7 +150,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -165,7 +164,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -173,3 +172,4 @@ Endo Steel
 -Empty-
 -Empty-
 -Empty-
+

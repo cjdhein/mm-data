@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Locust
 model:C
 mul id:7601
@@ -26,14 +27,11 @@ source:RG16
 rules level:3
 role:Striker
 
-
-
-quirk:compact_mech
-quirk:low_profile
 quirk:cramped_cockpit
+quirk:compact_mech
 quirk:no_arms
+quirk:low_profile
 quirk:weak_legs
-
 
 mass:20
 engine:160 Fusion Engine(IS)
@@ -44,7 +42,7 @@ heat sinks:10 Single
 walk mp:8
 jump mp:0
 
-armor:Standard(Clan)
+armor:Standard(Inner Sphere)
 LA armor:4
 RA armor:4
 LT armor:8
@@ -173,5 +171,4 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
-
 

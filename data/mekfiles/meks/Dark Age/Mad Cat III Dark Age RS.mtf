@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat III
 model:(Dark Age RS)
 mul id:6896
 
 Config:Biped
-TechBase:Clan
-Era:3132
-Rules Level:2
-role:Sniper
+techbase:Clan
+era:3132
 source:TR:DA
+rules level:2
 
-quirk:bad_rep_clan
 quirk:difficult_maintain
+quirk:bad_rep_clan
 quirk:imp_com
 
+mass:55
+engine:330 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
 
-Mass:55
-Engine:330 XL (Clan) Engine(IS)
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:16 Clan Double
+walk mp:6
+jump mp:0
 
-Heat Sinks:16 Double
-Walk MP:6
-Jump MP:0
-
-Armor:Ferro-Fibrous(Clan)
-LA Armor:17
-RA Armor:17
-LT Armor:18
-RT Armor:18
-CT Armor:25
-HD Armor:9
-LL Armor:24
-RL Armor:24
-RTL Armor:6
-RTR Armor:6
-RTC Armor:8
+armor:Ferro-Fibrous(Clan)
+LA armor:17
+RA armor:17
+LT armor:18
+RT armor:18
+CT armor:25
+HD armor:9
+LL armor:24
+RL armor:24
+RTL armor:6
+RTR armor:6
+RTC armor:8
 
 Weapons:11
 ER Medium Laser, Left Arm
@@ -64,7 +63,7 @@ ER Micro Laser, Left Torso
 LRM 20, Right Torso
 ER Micro Laser, Right Torso
 ER Micro Laser, Right Torso
-AMS, Head
+Anti-Missile System, Head
 
 Left Arm:
 Shoulder
@@ -72,9 +71,9 @@ Upper Arm Actuator
 Lower Arm Actuator
 CLERMediumLaser
 CLERSmallLaser
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -88,10 +87,10 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERMediumLaser
 CLERSmallLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
 -Empty-
 
 Left Torso:
@@ -104,9 +103,9 @@ CLLRM20
 Clan Ammo LRM-20
 CLERMicroLaser
 CLERMicroLaser
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -118,9 +117,9 @@ CLLRM20
 Clan Ammo LRM-20
 CLERMicroLaser
 CLERMicroLaser
-Endo Steel
-Endo Steel
-Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -134,7 +133,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLAMS Ammo
-Ferro-Fibrous
+Clan Ferro-Fibrous
 
 Head:
 Life Support
@@ -177,5 +176,4 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
-
 

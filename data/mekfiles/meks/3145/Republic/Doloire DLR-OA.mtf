@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Doloire
 model:DLR-OA
 mul id:6679
 
-Config:Biped Omnimech
-TechBase:Mixed (IS Chassis)
-Era:3121
+Config:Biped OmniMek
+techbase:Mixed (IS Chassis)
+era:3121
 source:TR:3145:RotS
-Rules Level:3
+rules level:3
 role:Juggernaut
 
-
-
-quirk:multi_trac
 quirk:command_mech
+quirk:multi_trac
 
+mass:80
+engine:320 XL (Clan) Engine
+structure:IS Endo-Composite
+myomer:Standard
 
-Mass:80
-Engine:320 XL (Clan) Engine
-Structure:IS Endo-Composite
-Myomer:Standard
+heat sinks:16 Clan Double
+base chassis heat sinks:12
+walk mp:4
+jump mp:0
 
-Heat Sinks:16 Double
-Base Chassis Heat Sinks:12
-Walk MP:4
-Jump MP:0
-
-Armor:Standard(Clan)
-LA Armor:24
-RA Armor:24
-LT Armor:26
-RT Armor:26
-CT Armor:38
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:7
-RTR Armor:7
-RTC Armor:11
+armor:Standard(Inner Sphere)
+LA armor:24
+RA armor:24
+LT armor:26
+RT armor:26
+CT armor:38
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:7
+RTR armor:7
+RTC armor:11
 
 Weapons:7
 Plasma Rifle, Left Arm
@@ -68,11 +66,11 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink (omnipod)
-CLDoubleHeatSink (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifleAmmo (omnipod)
+CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifleAmmo (OMNIPOD)
 ISAES
 ISAES
 ISAES
@@ -82,11 +80,11 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink (omnipod)
-CLDoubleHeatSink (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifleAmmo (omnipod)
+CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifleAmmo (OMNIPOD)
 ISAES
 ISAES
 ISAES
@@ -95,11 +93,11 @@ ISAES
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (omnipod)
-ISPlasmaRifleAmmo (omnipod)
-Radical Heat Sink System (omnipod)
-Radical Heat Sink System (omnipod)
-Radical Heat Sink System (omnipod)
+CLERMediumLaser (OMNIPOD)
+ISPlasmaRifleAmmo (OMNIPOD)
+Radical Heat Sink System (OMNIPOD)
+Radical Heat Sink System (OMNIPOD)
+Radical Heat Sink System (OMNIPOD)
 IS Endo-Composite
 IS Endo-Composite
 IS Endo-Composite
@@ -109,13 +107,13 @@ IS Endo-Composite
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLSRM6 (omnipod)
-CLSRM6 (omnipod)
-Clan Ammo SRM-6 (omnipod)
-Clan Ammo SRM-6 (omnipod)
-Clan Ammo SRM-6 (omnipod)
-Clan Ammo SRM-6 (omnipod)
-ISCASEII (omnipod)
+CLSRM6 (OMNIPOD)
+CLSRM6 (OMNIPOD)
+Clan Ammo SRM-6 (OMNIPOD)
+Clan Ammo SRM-6 (OMNIPOD)
+Clan Ammo SRM-6 (OMNIPOD)
+Clan Ammo SRM-6 (OMNIPOD)
+ISCASEII (OMNIPOD)
 IS Endo-Composite
 IS Endo-Composite
 -Empty-
@@ -153,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (omnipod)
-CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (OMNIPOD)
 -Empty-
 -Empty-
 -Empty-
@@ -167,13 +165,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (omnipod)
-CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (OMNIPOD)
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 
