@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jackal
 model:JA-KL-1532
 mul id:1653
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3052
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3052
+source:TR:3055U
+rules level:2
 role:Striker
-
-
-
 
 quirk:weak_legs
 weaponquirk:imp_cooling:RT:3:ISERPPC
 
+mass:30
+engine:210 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:30
-Engine:210 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:11 Single
+walk mp:7
+jump mp:0
 
-Heat Sinks:11 Single
-Walk MP:7
-Jump MP:0
-
-Armor:Standard(Inner Sphere)
-LA Armor:8
-RA Armor:8
-LT Armor:10
-RT Armor:10
-CT Armor:15
-HD Armor:8
-LL Armor:12
-RL Armor:12
-RTL Armor:4
-RTR Armor:4
-RTC Armor:5
+armor:Standard(Inner Sphere)
+LA armor:8
+RA armor:8
+LT armor:10
+RT armor:10
+CT armor:15
+HD armor:8
+LL armor:12
+RL armor:12
+RTL armor:4
+RTR armor:4
+RTC armor:5
 
 Weapons:3
 Streak SRM 2, Left Arm
 ER PPC, Right Torso
-AMS, Head
+Anti-Missile System, Head
 
 Left Arm:
 Shoulder
@@ -66,8 +63,8 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISStreakSRM2
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -79,8 +76,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -94,10 +91,10 @@ Fusion Engine
 Fusion Engine
 Heat Sink
 IS Streak SRM 2 Ammo
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -109,10 +106,10 @@ Fusion Engine
 ISERPPC
 ISERPPC
 ISERPPC
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 
@@ -150,7 +147,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +161,11 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

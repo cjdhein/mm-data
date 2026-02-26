@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dig Lord
 model:RCL-Z1 Armed MiningMech
 mul id:5565
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3081
-Source:XTR:Periphery
-Rules Level:4
+techbase:Inner Sphere
+era:3081
+source:XTR:Periphery
+rules level:4
 role:Ambusher
 
-
-
-quirk:pro_actuator
 quirk:prototype
-weaponquirk:jettison_capable:RA:7:Medium Vibroblade
+quirk:pro_actuator
+weaponquirk:jettison_capable:RA:7:ISMediumVibroblade
 
+mass:65
+engine:195 Fuel Cell Engine
+structure:IS Industrial
+myomer:Standard
+cockpit:Industrial Cockpit
+gyro:Standard Gyro
 
-Mass:65
-Engine:195 Fuel-Cell Engine
-Structure:Industrial
-Cockpit:Industrial Cockpit
-Myomer:Standard
+heat sinks:7 Single
+walk mp:3
+jump mp:0
 
-Heat Sinks:7 Single
-Walk MP:3
-Jump MP:0
+armor:Standard(Inner Sphere)
+LA armor:16
+RA armor:16
+LT armor:14
+RT armor:14
+CT armor:16
+HD armor:9
+LL armor:16
+RL armor:16
+RTL armor:3
+RTR armor:3
+RTC armor:5
 
-Armor:Standard Armor
-LA Armor:16
-RA Armor:16
-LT Armor:14
-RT Armor:14
-CT Armor:16
-HD Armor:9
-LL Armor:16
-RL Armor:16
-RTL Armor:3
-RTR Armor:3
-RTC Armor:5
-
-Weapons:3
-1 ISMediumVibroBlade, Right Arm
-1 ISMML5, Right Torso, Ammo:48
-1 ISHeavyRifle, Left Torso, Ammo:12
+Weapons:2
+Rifle (Cannon, Heavy), Left Torso
+MML 5, Right Torso
 
 Left Arm:
 Shoulder
@@ -83,16 +81,16 @@ Hand Actuator
 ISAES
 ISAES
 ISAES
-ISMediumVibroBlade
-ISMediumVibroBlade
+ISMediumVibroblade
+ISMediumVibroblade
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-Heavy Rifle (T)
-Heavy Rifle (T)
-Heavy Rifle (T)
+Rifle (Cannon, Heavy) (T)
+Rifle (Cannon, Heavy) (T)
+Rifle (Cannon, Heavy) (T)
 ISShoulderTurret
 IS Ammo Heavy Rifle
 IS Ammo Heavy Rifle
@@ -107,8 +105,8 @@ Right Torso:
 ISMML5
 ISMML5
 ISMML5
-ISMML5 LRM Ammo
-ISMML5 SRM Ammo
+IS Ammo MML-5 LRM
+IS Ammo MML-5 SRM
 -Empty-
 -Empty-
 -Empty-
@@ -118,16 +116,16 @@ ISMML5 SRM Ammo
 -Empty-
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 -Empty-
 -Empty-
 
@@ -138,12 +136,24 @@ Cockpit
 -Empty-
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 -Empty-
 -Empty-
 
@@ -154,3 +164,10 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

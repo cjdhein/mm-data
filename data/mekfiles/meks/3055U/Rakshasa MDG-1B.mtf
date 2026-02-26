@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rakshasa
 model:MDG-1B
 mul id:2633
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3056
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3056
+source:TR:3055U
+rules level:2
 role:Skirmisher
-
-
 
 quirk:easy_maintain
 quirk:weak_head_1
 
+mass:75
+engine:375 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:75
-Engine:375 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:15 IS Double
+walk mp:5
+jump mp:0
 
-Heat Sinks:15 Double
-Walk MP:5
-Jump MP:0
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:21
-RA Armor:21
-LT Armor:22
-RT Armor:22
-CT Armor:32
-HD Armor:9
-LL Armor:28
-RL Armor:28
-RTL Armor:7
-RTR Armor:7
-RTC Armor:9
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:21
+RA armor:21
+LT armor:22
+RT armor:22
+CT armor:32
+HD armor:9
+LL armor:28
+RL armor:28
+RTL armor:7
+RTR armor:7
+RTC armor:9
 
 Weapons:7
 Large Laser, Left Arm
@@ -70,12 +68,12 @@ Lower Arm Actuator
 Large Laser
 Large Laser
 Medium Laser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -84,12 +82,12 @@ Lower Arm Actuator
 Large Laser
 Large Laser
 Medium Laser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -100,10 +98,10 @@ LRM 10
 ISArtemisIV
 ISMediumPulseLaser
 IS Ammo LRM-10 Artemis-capable
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -113,11 +111,11 @@ LRM 10
 LRM 10
 ISArtemisIV
 IS Ammo LRM-10 Artemis-capable
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -130,14 +128,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Ferro-Fibrous
+IS Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -152,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Ferro-Fibrous
+IS Endo Steel
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -166,13 +164,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Ferro-Fibrous
+IS Endo Steel
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

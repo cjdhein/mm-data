@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mjolnir
 model:MLR-B2
 mul id:2194
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3077
+techbase:Inner Sphere
+era:3077
 source:TR:3085
-Rules Level:3
+rules level:3
 role:Scout
-
-
-
 
 quirk:easy_maintain
 weaponquirk:accurate:LA:4:Mace
 
+mass:25
+engine:150 Fusion Engine
+structure:IS Standard
+myomer:Triple-Strength
 
-Mass:25
-Engine:150 Fusion Engine
-Structure:Standard
-Myomer:Triple-Strength
+heat sinks:10 Single
+walk mp:6
+jump mp:6
 
-Heat Sinks:10 Single
-Walk MP:6
-Jump MP:6
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:7
-RA Armor:7
-LT Armor:10
-RT Armor:10
-CT Armor:11
-HD Armor:8
-LL Armor:10
-RL Armor:10
-RTL Armor:2
-RTR Armor:2
-RTC Armor:3
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:7
+RA armor:7
+LT armor:10
+RT armor:10
+CT armor:11
+HD armor:8
+LL armor:10
+RL armor:10
+RTL armor:2
+RTR armor:2
+RTC armor:3
 
 Weapons:2
 ER Small Laser, Right Arm
@@ -67,11 +64,11 @@ Hand Actuator
 Mace
 Mace
 Mace
-Ferro-Fibrous
-Ferro-Fibrous
-TSM
-TSM
-TSM
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 
 Right Arm:
 Shoulder
@@ -79,11 +76,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERSmallLaser
-Ferro-Fibrous
-Ferro-Fibrous
-TSM
-TSM
-TSM
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 -Empty-
 
@@ -92,10 +89,10 @@ Heat Sink
 Heat Sink
 Jump Jet
 Jump Jet
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -106,10 +103,10 @@ Heat Sink
 Heat Sink
 Jump Jet
 Jump Jet
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -149,7 +146,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +160,11 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

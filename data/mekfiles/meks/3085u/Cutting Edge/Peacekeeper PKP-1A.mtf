@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Peacekeeper
 model:PKP-1A
 mul id:2452
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3086
+techbase:Inner Sphere
+era:3086
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Sniper
-
-
 
 quirk:rugged_1
 
+mass:95
+engine:380 XL Engine
+structure:IS Endo Steel
+myomer:Triple-Strength
 
-Mass:95
-Engine:380 XL Engine
-Structure:Endo Steel
-Myomer:Triple-Strength
+heat sinks:15 IS Double
+walk mp:4
+jump mp:3
 
-Heat Sinks:15 Double
-Walk MP:4
-Jump MP:3
-
-Armor:Standard(Inner Sphere)
-LA Armor:30
-RA Armor:30
-LT Armor:30
-RT Armor:30
-CT Armor:45
-HD Armor:9
-LL Armor:40
-RL Armor:40
-RTL Armor:10
-RTR Armor:10
-RTC Armor:14
+armor:Standard(Inner Sphere)
+LA armor:30
+RA armor:30
+LT armor:30
+RT armor:30
+CT armor:45
+HD armor:9
+LL armor:40
+RL armor:40
+RTL armor:10
+RTR armor:10
+RTC armor:14
 
 Weapons:5
 ER PPC, Left Arm
@@ -66,12 +64,12 @@ Upper Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-TSM
-TSM
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 
 Right Arm:
@@ -81,11 +79,11 @@ Heavy PPC
 Heavy PPC
 Heavy PPC
 Heavy PPC
-Endo Steel
-Endo Steel
-Endo Steel
-TSM
-TSM
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 
 Left Torso:
@@ -94,12 +92,12 @@ Fusion Engine
 Fusion Engine
 ISERLargeLaser
 ISERLargeLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Right Torso:
@@ -113,7 +111,7 @@ IS Ammo SRM-2
 ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
 ISCASE
-Endo Steel
+IS Endo Steel
 -Empty-
 
 Center Torso:
@@ -150,7 +148,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-TSM
+Triple Strength Myomer
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +162,11 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-TSM
+Triple Strength Myomer
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

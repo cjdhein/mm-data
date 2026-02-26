@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tessen
 model:TSN-1C
 mul id:5208
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3061
-Rules Level:2
-role:Skirmisher
+techbase:Inner Sphere
+era:3061
 source:TR:3067
-
-
-
+rules level:2
+role:Skirmisher
 
 quirk:bad_rep_is
 
+mass:50
+engine:300 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:50
-Engine:300 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:11 IS Double
+walk mp:6
+jump mp:0
 
-Heat Sinks:11 Double
-Walk MP:6
-Jump MP:0
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:16
+RA armor:16
+LT armor:18
+RT armor:18
+CT armor:25
+HD armor:9
+LL armor:20
+RL armor:20
+RTL armor:6
+RTR armor:6
+RTC armor:7
 
-Armor:Ferro-Fibrous
-LA Armor:16
-RA Armor:16
-LT Armor:18
-RT Armor:18
-CT Armor:25
-HD Armor:9
-LL Armor:20
-RL Armor:20
-RTL Armor:6
-RTR Armor:6
-RTC Armor:7
-
-Weapons:5
-1 ISERPPC, Right Arm
-1 ISMediumPulseLaser, Right Arm
-1 ISImprovedC3CPU, Center Torso
-1 ISTAG, Head
-1 ISImprovedNarc, Left Arm, Ammo:16
+Weapons:4
+iNarc, Left Arm
+ER PPC, Right Arm
+Medium Pulse Laser, Right Arm
+TAG, Head
 
 Left Arm:
 Shoulder
@@ -72,8 +68,8 @@ ISiNarc Pods
 ISiNarc Pods
 ISiNarc Pods
 ISiNarc Pods
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Arm:
 Shoulder
@@ -83,39 +79,39 @@ ISERPPC
 ISERPPC
 ISERPPC
 ISMediumPulseLaser
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Endo-Steel
-Endo-Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
 ISCASE
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -128,8 +124,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISImprovedC3CPU
-ISImprovedC3CPU
+ISC3iUnit
+ISC3iUnit
 
 Head:
 Life Support
@@ -150,8 +146,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo-Steel
-Endo-Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,8 +160,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-

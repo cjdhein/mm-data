@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,58 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Imp
 model:IMP-2E
 mul id:4358
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3005
-Source:TR:3050
-Rules Level:1
+techbase:Inner Sphere
+era:3005
+source:TR:3050
+rules level:1
 role:Juggernaut
 
-
-
-quirk:command_mech
 quirk:difficult_maintain
+quirk:command_mech
 
+mass:100
+engine:300 Fusion Engine
+structure:IS Standard
+myomer:Standard
 
-Mass:100
-Engine:300 Fusion Engine
-Structure:Standard
-Myomer:Standard
+heat sinks:30 Single
+walk mp:3
+jump mp:0
 
-Heat Sinks:30 Single
-Walk MP:3
-Jump MP:0
+armor:Standard(Inner Sphere)
+LA armor:25
+RA armor:25
+LT armor:30
+RT armor:30
+CT armor:40
+HD armor:9
+LL armor:42
+RL armor:42
+RTL armor:12
+RTR armor:12
+RTC armor:21
 
-Armor:Standard Armor
-LA Armor:25
-RA Armor:25
-LT Armor:30
-RT Armor:30
-CT Armor:40
-HD Armor:9
-LL Armor:42
-RL Armor:42
-RTL Armor:12
-RTR Armor:12
-RTC Armor:21
-
-Weapons:7
-1 ISPPC, Left Torso
-1 ISPPC, Right Torso
-1 ISLRM15, Right Arm, Ammo:8
-2 ISMediumLaser, Center Torso
-1 ISMediumLaser, Left Torso
-1 ISMediumLaser, Right Torso
-1 ISMediumLaser, Left Arm
+Weapons:8
+Medium Laser, Left Arm
+LRM 15, Right Arm
+PPC, Left Torso
+Medium Laser, Left Torso
+PPC, Right Torso
+Medium Laser, Right Torso
+Medium Laser, Center Torso
+Medium Laser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISMediumLaser
+Medium Laser
 -Empty-
 -Empty-
 -Empty-
@@ -81,9 +80,9 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISLRM15
-ISLRM15
-ISLRM15
+LRM 15
+LRM 15
+LRM 15
 -Empty-
 -Empty-
 -Empty-
@@ -98,11 +97,11 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-ISPPC
-ISPPC
-ISPPC
-ISMediumLaser
-ISLRM15 Ammo
+PPC
+PPC
+PPC
+Medium Laser
+IS Ammo LRM-15
 -Empty-
 
 Right Torso:
@@ -113,10 +112,10 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-ISPPC
-ISPPC
-ISPPC
-ISMediumLaser
+PPC
+PPC
+PPC
+Medium Laser
 -Empty-
 
 Center Torso:
@@ -130,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISMediumLaser
-ISMediumLaser
+Medium Laser
+Medium Laser
 
 Head:
 Life Support

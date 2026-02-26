@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-##Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 ProtoMek
 </UnitType>
@@ -33,9 +24,9 @@ ProtoMek
 Minotaur
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 2186
@@ -61,9 +52,6 @@ Juggernaut
 Biped
 </motion_type>
 
-<transporters>
-</transporters>
-
 <cruiseMP>
 3
 </cruiseMP>
@@ -84,6 +72,18 @@ false
 false
 </clan_engine>
 
+<armor_type>
+42
+</armor_type>
+
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
+2
+</armor_tech_level>
+
 <internal_type>
 -1
 </internal_type>
@@ -97,9 +97,10 @@ false
 </armor>
 
 <Body Equipment>
-ProtomechJumpJet
-ProtomechJumpJet
-ProtomechJumpJet
+ProtoMechJumpJet
+ProtoMechJumpJet
+ProtoMechJumpJet
+EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -147,7 +148,7 @@ Csesztreg,Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMPJET:Unspecified
+JUMP_JET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>

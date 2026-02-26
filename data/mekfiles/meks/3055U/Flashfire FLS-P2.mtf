@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,38 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flashfire
 model:FLS-P2
 mul id:1120
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3054
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3054
+source:TR:3055U
+rules level:2
 role:Striker
 
-Mass:30
-Engine:180 XL Engine
-Structure:Endo Steel
-Myomer:Standard
 
-Heat Sinks:10 Double
-Walk MP:6
-Jump MP:0
+mass:30
+engine:180 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Armor:Standard(Inner Sphere)
-LA Armor:7
-RA Armor:7
-LT Armor:7
-RT Armor:7
-CT Armor:11
-HD Armor:8
-LL Armor:9
-RL Armor:9
-RTL Armor:4
-RTR Armor:4
-RTC Armor:7
+heat sinks:10 IS Double
+walk mp:6
+jump mp:0
+
+armor:Standard(Inner Sphere)
+LA armor:7
+RA armor:7
+LT armor:7
+RT armor:7
+CT armor:11
+HD armor:8
+LL armor:9
+RL armor:9
+RTL armor:4
+RTR armor:4
+RTC armor:7
 
 Weapons:8
 Medium Pulse Laser, Left Arm
@@ -68,8 +70,8 @@ ISDoubleHeatSink
 ISMediumPulseLaser
 Flamer
 Flamer
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Right Arm:
@@ -93,12 +95,12 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -107,12 +109,12 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -169,5 +171,4 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
-
 

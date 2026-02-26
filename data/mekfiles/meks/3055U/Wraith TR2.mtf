@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wraith
 model:TR2
 mul id:3589
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3057
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3057
+source:TR:3055U
+rules level:2
 role:Skirmisher
 
-
-
-quirk:ubiquitous_is
 quirk:difficult_maintain
+quirk:ubiquitous_is
 
+mass:55
+engine:385 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:55
-Engine:385 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:7
+jump mp:7
 
-Heat Sinks:10 Double
-Walk MP:7
-Jump MP:7
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:14
-RA Armor:14
-LT Armor:18
-RT Armor:18
-CT Armor:23
-HD Armor:8
-LL Armor:20
-RL Armor:20
-RTL Armor:5
-RTR Armor:5
-RTC Armor:7
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:14
+RA armor:14
+LT armor:18
+RT armor:18
+CT armor:23
+HD armor:8
+LL armor:20
+RL armor:20
+RTL armor:5
+RTR armor:5
+RTC armor:7
 
 Weapons:3
 Medium Pulse Laser, Left Arm
@@ -66,11 +64,11 @@ Lower Arm Actuator
 Hand Actuator
 ISMediumPulseLaser
 ISMediumPulseLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -81,11 +79,11 @@ Hand Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -94,12 +92,12 @@ Fusion Engine
 Jump Jet
 Jump Jet
 Jump Jet
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -108,12 +106,12 @@ Fusion Engine
 Jump Jet
 Jump Jet
 Jump Jet
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -127,13 +125,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Ferro-Fibrous
+IS Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-Ferro-Fibrous
+IS Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -148,8 +146,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +160,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,14 +169,10 @@ Endo Steel
 -Empty-
 -Empty-
 
-overview:The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability. 
-
+overview:The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability.
 capabilities:It is built around a massive LTV 385 XL engine that allows it to reach speeds of just under 119 km/h. The 'Mech is also fitted with seven CurtissJet 55 jump jets which allow it to jump up to two hundred and ten meters, giving it the ability to outmaneuver most BattleMechs in existence, and also allowing the Wraith to quickly traverse any rough terrain. The 'Mech's speed, firepower, and decent armor make the Wraith a considerable threat to many 'Mechs – some being almost twice its weight.
-
 deployment:A simple modification of the Wraith, the TR2 simply replaces the Large Pulse Laser with an ER PPC, turning the 'Mech into a highly capable sniper.
-
 history:The Wraith marked Curtiss Militech's entry into BattleMech production. When the design was announced, many felt that the design would be little more than a walking water cooler. What the critics got was a shock. Following the destruction of its sole factory, Curtiss Hydroponics announced its withdrawal from the military market altogether and the sale of its Curtiss Militech assets. By 3085, Hellespont Industrials have expressed interest in the Wraith; and by 3145 Production had been ongoing at one of Hellespont Industrials locations in the Sian Commonality for Capellan use.
-
 manufacturer:Refit
 primaryfactory:Refit
 systemmanufacturer:CHASSIS:Curtiss Wraith

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,82 +15,80 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:JagerMech III
 model:JM6-D4
 mul id:1673
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3073
-Source:TR:3060
-Rules Level:2
+techbase:Inner Sphere
+era:3073
+source:TR:3060
+rules level:2
 role:Skirmisher
 
-
-
-quirk:anti_air
 quirk:overhead_arms
+quirk:anti_air
 
+mass:65
+engine:325 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:65
-Engine:325 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:16 IS Double
+walk mp:5
+jump mp:0
 
-Heat Sinks:16 Double
-Walk MP:5
-Jump MP:0
-
-Armor:Light Ferro-Fibrous(Inner Sphere)
-LA Armor:20
-RA Armor:20
-LT Armor:23
-RT Armor:23
-CT Armor:32
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:7
-RTR Armor:7
-RTC Armor:10
+armor:Light Ferro-Fibrous(Inner Sphere)
+LA armor:20
+RA armor:20
+LT armor:23
+RT armor:23
+CT armor:32
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:7
+RTR armor:7
+RTC armor:10
 
 Weapons:8
-Light PPC, Right Arm
+PPC, Left Arm
 Light PPC, Left Arm
+PPC, Right Arm
+Light PPC, Right Arm
 Medium Laser, Left Torso
 Medium Laser, Right Torso
 Medium Laser, Center Torso
 Medium Laser, Center Torso
-Particle Cannon, Left Arm
-Particle Cannon, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Particle Cannon
-Particle Cannon
-Particle Cannon
+PPC
+PPC
+PPC
 Light PPC
 Light PPC
-Endo Steel
-Endo Steel
-Endo Steel
-Light Ferro-Fibrous
-Light Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Light Ferro-Fibrous
+IS Light Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Particle Cannon
-Particle Cannon
-Particle Cannon
+PPC
+PPC
+PPC
 Light PPC
 Light PPC
-Endo Steel
-Endo Steel
-Endo Steel
-Light Ferro-Fibrous
-Light Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Light Ferro-Fibrous
+IS Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -100,11 +98,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Medium Laser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Light Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Light Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -117,8 +115,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Medium Laser
-Endo Steel
-Light Ferro-Fibrous
+IS Endo Steel
+IS Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -138,7 +136,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Endo Steel
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -153,7 +151,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -167,13 +165,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Light Ferro-Fibrous
+IS Endo Steel
+IS Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Talon
 model:TLN-5W-EC
 mul id:7677
@@ -26,18 +27,15 @@ source:TR:GC
 rules level:4
 role:Striker
 
-
-
-quirk:rugged_1
 quirk:no_arms
-
+quirk:rugged_1
 
 mass:35
 engine:280 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:11 Double
+heat sinks:11 Clan Double
 walk mp:8
 jump mp:0
 
@@ -172,4 +170,3 @@ Foot Actuator
 -Empty-
 
 history:After trialing for access, the Ice Hellions swapped the old PPC for a new Enhanced ER PPC.
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,55 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Emperor
 model:EMP-6A (Nerran)
 mul id:965
-source:RS:UM
 
 Config:Biped
-TechBase:Mixed (IS Chassis)
-Era:3064
-Rules Level:4
+techbase:Mixed (IS Chassis)
+era:3064
+source:RS:UM
+rules level:4
 role:Sniper
-
-
 
 quirk:command_mech
 weaponquirk:imp_cooling:LA:3:Large Laser
 
+mass:90
+engine:270 XL Engine(IS)
+structure:IS Standard
+myomer:Standard
 
-Mass:90
-Engine:270 XL Engine (Inner Sphere)
-Structure:Standard
-Myomer:Standard
+heat sinks:14 IS Double
+walk mp:3
+jump mp:3
 
-Heat Sinks:14 Double (Inner Sphere)
-Walk MP:3
-Jump MP:3
-
-Armor:Standard Armor (Clan)
-LA Armor:30
-RA Armor:30
-LT Armor:30
-RT Armor:30
-CT Armor:48
-HD Armor:9
-LL Armor:38
-RL Armor:38
-RTL Armor:8
-RTR Armor:8
-RTC Armor:10
+armor:Standard(Inner Sphere)
+LA armor:30
+RA armor:30
+LT armor:30
+RT armor:30
+CT armor:48
+HD armor:9
+LL armor:38
+RL armor:38
+RTL armor:8
+RTR armor:8
+RTC armor:10
 
 Weapons:4
-1 ISLargeLaser, Left Arm
-1 ISERPPC, Right Torso
-1 ISLBXAC10, Left Arm, Ammo:20
-1 CLGaussRifle, Right Arm, Ammo:16
+Large Laser, Left Arm
+LB 10-X AC, Left Arm
+Gauss Rifle, Right Arm
+ER PPC, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISLargeLaser
-ISLargeLaser
+Large Laser
+Large Laser
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
@@ -84,49 +82,49 @@ CLGaussRifle
 CLGaussRifle
 CLGaussRifle
 CLGaussRifle
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
 
 Left Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISCASE
-ISLBXAC10 CL Ammo
-ISLBXAC10 Ammo
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
+IS LB 10-X Cluster Ammo
+IS LB 10-X AC Ammo
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
 
 Right Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 ISCASE
 ISERPPC
 ISERPPC
 ISERPPC
-CLGauss Ammo
-CLGauss Ammo
-ISDouble Heat Sink
-ISDouble Heat Sink
-ISDouble Heat Sink
+Clan Gauss Ammo
+Clan Gauss Ammo
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Jump Jet
 -Empty-
 
@@ -137,6 +135,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
@@ -144,6 +148,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 -Empty-
 
 Right Leg:
@@ -153,3 +163,10 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 -Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

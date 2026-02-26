@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,99 +15,97 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vanquisher
 model:VQR-5V
 mul id:5340
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3069
-Source:TR:J
-Rules Level:2
+techbase:Inner Sphere
+era:3069
+source:TR:J
+rules level:2
 role:Juggernaut
 
-
-
-quirk:stable
-quirk:bad_rep_clan
 quirk:bad_rep_is
+quirk:stable
 quirk:no_arms
+quirk:bad_rep_clan
 
+mass:100
+engine:300 Compact Engine
+structure:IS Endo Steel
+myomer:Standard
+cockpit:Standard Cockpit
+gyro:Heavy Duty Gyro
 
-Mass:100
-Engine:300 Compact Engine(IS)
-Structure:Endo Steel
-Myomer:Standard
-Cockpit:Standard Cockpit
-Gyro:Heavy Duty Gyro
+heat sinks:12 IS Double
+walk mp:3
+jump mp:0
 
-Heat Sinks:12 Double
-Walk MP:3
-Jump MP:0
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:34
-RA Armor:34
-LT Armor:32
-RT Armor:32
-CT Armor:45
-HD Armor:9
-LL Armor:42
-RL Armor:42
-RTL Armor:10
-RTR Armor:10
-RTC Armor:14
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:34
+RA armor:34
+LT armor:32
+RT armor:32
+CT armor:45
+HD armor:9
+LL armor:42
+RL armor:42
+RTL armor:10
+RTR armor:10
+RTC armor:14
 
 Weapons:7
-ER Medium Laser, Center Torso
-ER Medium Laser, Head
+Anti-BattleArmor Pods (B-Pods), Left Leg
+Anti-BattleArmor Pods (B-Pods), Right Leg
 ER Large Laser, Left Arm
 ER Large Laser, Right Arm
 Heavy Gauss Rifle, Right Torso
-B-Pod, Left Leg
-B-Pod, Right Leg
+ER Medium Laser, Center Torso
+ER Medium Laser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Left Torso:
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Torso:
 ISHeavyGaussRifle
@@ -121,7 +119,7 @@ ISHeavyGaussRifle
 ISHeavyGaussRifle
 ISHeavyGaussRifle
 ISHeavyGaussRifle
-Endo Steel
+IS Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -134,7 +132,7 @@ Gyro
 ISERMediumLaser
 ISC3iUnit
 ISC3iUnit
-Endo Steel
+IS Endo Steel
 -Empty-
 
 Head:
@@ -157,7 +155,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISBPod
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,7 +169,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISBPod
-Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -180,13 +178,9 @@ Endo Steel
 -Empty-
 
 overview:Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.
-
 capabilities:In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.
-
 deployment:An upgraded version of the Vanquisher, the 5V keeps the ER Large Lasers of the 2A. It trades out the Light Gauss rifles, however, in favor of a Heavy Gauss Rifle. Two of the ER Medium Lasers are retained, and a pair of B-Pods are added for defense against battle armor. Ferro-Fibrous armor is utilized, though a Compact Engine is needed to make room. A Heavy-Duty Gyro increases the 5V's survivability.
-
 history:The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.
-
 manufacturer:Skobel MechWorks
 primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Hollis Alteration Mark VI

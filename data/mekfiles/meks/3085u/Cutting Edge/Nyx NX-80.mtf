@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,61 +15,58 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Nyx
 model:NX-80
 mul id:2307
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3076
+techbase:Inner Sphere
+era:3076
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Striker
 
-
-
-
-quirk:low_profile
 quirk:difficult_maintain
+quirk:low_profile
 
+mass:30
+engine:300 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:30
-Engine:300 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:10
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:10
-Jump MP:0
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:8
-RA Armor:8
-LT Armor:10
-RT Armor:10
-CT Armor:15
-HD Armor:9
-LL Armor:10
-RL Armor:10
-RTL Armor:2
-RTR Armor:2
-RTC Armor:5
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:8
+RA armor:8
+LT armor:10
+RT armor:10
+CT armor:15
+HD armor:9
+LL armor:10
+RL armor:10
+RTL armor:2
+RTR armor:2
+RTC armor:5
 
 Weapons:4
-ER Medium Laser, Right Arm
 ER Medium Laser, Left Arm
-SRM 6, Center Torso
+ER Medium Laser, Right Arm
 ER Small Laser, Left Torso
+SRM 6, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -79,11 +76,11 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -94,14 +91,14 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISERSmallLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -110,12 +107,12 @@ Fusion Engine
 IS Ammo SRM-6
 BeagleActiveProbe
 BeagleActiveProbe
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -150,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Ferro-Fibrous
+IS Endo Steel
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -164,13 +161,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Ferro-Fibrous
+IS Endo Steel
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

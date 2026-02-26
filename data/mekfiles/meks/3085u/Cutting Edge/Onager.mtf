@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Onager
 model:
 mul id:2319
 
 Config:Biped
-TechBase:Clan
-Era:3083
+techbase:Clan
+era:3083
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Skirmisher
-
 
 quirk:battle_fists_ra
 quirk:exp_actuator
 weaponquirk:exposed_linkage:LA:2:CLHAG30
-weaponquirk:exposed_linkage:LA:7:CLHAG30
 
+mass:90
+engine:270 Fusion (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
 
-Mass:90
-Engine:270 Fusion (Clan) Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:12 Clan Double
+walk mp:3
+jump mp:5
 
-Heat Sinks:12 Double
-Walk MP:3
-Jump MP:5
-
-Armor:Ferro-Fibrous(Clan)
-LA Armor:30
-RA Armor:30
-LT Armor:25
-RT Armor:25
-CT Armor:40
-HD Armor:9
-LL Armor:38
-RL Armor:38
-RTL Armor:13
-RTR Armor:13
-RTC Armor:18
+armor:Ferro-Fibrous(Clan)
+LA armor:30
+RA armor:30
+LT armor:25
+RT armor:25
+CT armor:40
+HD armor:9
+LL armor:38
+RL armor:38
+RTL armor:13
+RTR armor:13
+RTC armor:18
 
 Weapons:8
-Micro Pulse Laser, Right Torso
-Micro Pulse Laser, Right Torso
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Left Torso
-Small Pulse Laser, Head
-SRM 6, Right Torso
-SRM 6, Left Torso
 HAG/30, Left Arm
+SRM 6, Left Torso
+Medium Pulse Laser, Left Torso
+SRM 6, Right Torso
+Medium Pulse Laser, Right Torso
+Micro Pulse Laser, Right Torso
+Micro Pulse Laser, Right Torso
+Small Pulse Laser, Head
 
 Left Arm:
 Shoulder
@@ -76,50 +74,50 @@ CLHAG30
 CLHAG30
 CLHAG30
 CLHAG30
-HAG/30 Ammo
-HAG/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 
 Left Torso:
-Clan Improved Jump Jet
-Clan Improved Jump Jet
-Clan Improved Jump Jet
-Clan Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
 CLSRM6
 CLMediumPulseLaser
 Clan Ammo SRM-6
 Clan Ammo SRM-6
-HAG/30 Ammo
-HAG/30 Ammo
-Endo Steel
-Ferro-Fibrous
+Hyper-Assault Gauss Rifle/30 Ammo
+Hyper-Assault Gauss Rifle/30 Ammo
+Clan Endo Steel
+Clan Ferro-Fibrous
 
 Right Torso:
-Clan Improved Jump Jet
-Clan Improved Jump Jet
-Clan Improved Jump Jet
-Clan Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
 CLSRM6
 CLMediumPulseLaser
 CLMicroPulseLaser
 CLMicroPulseLaser
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -132,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Improved Jump Jet
-Clan Improved Jump Jet
+Improved Jump Jet
+Improved Jump Jet
 
 Head:
 Life Support
@@ -176,7 +174,6 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
-
 
 manufacturer:Red Devil Industries
 primaryfactory:Pandora

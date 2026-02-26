@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,6 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Commando
 model:COM-5S
 mul id:674
@@ -26,12 +27,11 @@ source:TR:3050
 rules level:2
 role:Striker
 
-quirk:low_profile
 quirk:exp_actuator
-
+quirk:low_profile
 
 mass:25
-engine:150 Fusion Engine(IS)
+engine:150 Fusion Engine
 structure:IS Endo Steel
 myomer:Standard
 
@@ -180,4 +180,3 @@ systemmanufacturer:ENGINE:GM 150
 systemmanufacturer:ARMOR:Lexington Ltd. High Grade Ferro-Fibrous with CASE
 systemmanufacturer:COMMUNICATIONS:Cyclops 14
 systemmanufacturer:TARGETING:Cyclops MultiTasker 10
-

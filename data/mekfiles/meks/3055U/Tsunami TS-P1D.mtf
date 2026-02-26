@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tsunami
 model:TS-P1D
 mul id:3312
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3063
-Source:TR:3055U
-Rules Level:3
+techbase:Inner Sphere
+era:3063
+source:TR:3055U
+rules level:3
 role:Striker
-
-
 
 quirk:difficult_maintain
 
+mass:40
+engine:240 Fusion Engine
+structure:IS Standard
+myomer:Triple-Strength
 
-Mass:40
-Engine:240 Fusion Engine
-Structure:Standard
-Myomer:Triple-Strength
+heat sinks:10 IS Double
+walk mp:6
+jump mp:4
 
-Heat Sinks:10 Double
-Walk MP:6
-Jump MP:4
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:11
-RA Armor:11
-LT Armor:13
-RT Armor:13
-CT Armor:16
-HD Armor:9
-LL Armor:18
-RL Armor:18
-RTL Armor:5
-RTR Armor:5
-RTC Armor:6
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:11
+RA armor:11
+LT armor:13
+RT armor:13
+CT armor:16
+HD armor:9
+LL armor:18
+RL armor:18
+RTL armor:5
+RTR armor:5
+RTC armor:6
 
 Weapons:6
 Magshot, Left Arm
@@ -68,9 +66,9 @@ Lower Arm Actuator
 Hand Actuator
 ISMagshotGR
 ISMagshotGR
-TSM
-TSM
-TSM
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +80,9 @@ Lower Arm Actuator
 Hand Actuator
 ISMagshotGR
 ISMagshotGR
-TSM
-TSM
-TSM
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 -Empty-
 -Empty-
 -Empty-
@@ -92,15 +90,15 @@ TSM
 Left Torso:
 Jump Jet
 ISStreakSRM4
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -111,11 +109,11 @@ Jump Jet
 IS Streak SRM 4 Ammo
 ISMagshotGR Ammo
 ISCASE
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -172,5 +170,4 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
-
 

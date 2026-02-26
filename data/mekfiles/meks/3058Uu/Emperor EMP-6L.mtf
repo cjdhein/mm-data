@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Emperor
 model:EMP-6L
 mul id:967
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3069
-Source:TR:3058U
-Rules Level:2
+techbase:Inner Sphere
+era:3069
+source:TR:3058U
+rules level:2
 role:Juggernaut
-
-
 
 quirk:command_mech
 weaponquirk:imp_cooling:LA:3:ISERPPC
 
+mass:90
+engine:270 Fusion Engine
+structure:IS Standard
+myomer:Triple-Strength
 
-Mass:90
-Engine:270 Fusion Engine
-Structure:Standard
-Myomer:Triple-Strength
+heat sinks:12 IS Double
+walk mp:3
+jump mp:3
 
-Heat Sinks:12 Double
-Walk MP:3
-Jump MP:3
-
-Armor:Stealth(Inner Sphere)
-LA Armor:30
-RA Armor:30
-LT Armor:28
-RT Armor:28
-CT Armor:44
-HD Armor:9
-LL Armor:38
-RL Armor:38
-RTL Armor:10
-RTR Armor:10
-RTC Armor:14
+armor:Stealth(Inner Sphere)
+LA armor:30
+RA armor:30
+LT armor:28
+RT armor:28
+CT armor:44
+HD armor:9
+LL armor:38
+RL armor:38
+RTL armor:10
+RTR armor:10
+RTC armor:14
 
 Weapons:6
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Left Torso
 ER PPC, Left Arm
 Gauss Rifle, Right Arm
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Right Torso
+Medium Pulse Laser, Right Torso
 
 Left Arm:
 Shoulder
@@ -71,10 +69,10 @@ ISERPPC
 ISERPPC
 ISGuardianECMSuite
 ISGuardianECMSuite
-Stealth
-Stealth
-TSM
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
+Triple Strength Myomer
 
 Right Arm:
 Shoulder
@@ -87,8 +85,8 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 
 Left Torso:
 ISDoubleHeatSink
@@ -97,12 +95,12 @@ ISDoubleHeatSink
 Jump Jet
 ISMediumPulseLaser
 ISMediumPulseLaser
-Stealth
-Stealth
-TSM
-TSM
-TSM
-TSM
+IS Stealth
+IS Stealth
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
 
 Right Torso:
 ISDoubleHeatSink
@@ -115,8 +113,8 @@ IS Gauss Ammo
 IS Gauss Ammo
 IS Gauss Ammo
 ISCASE
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 
 Center Torso:
 Fusion Engine
@@ -151,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -165,13 +163,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

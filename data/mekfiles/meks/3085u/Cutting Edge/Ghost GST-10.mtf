@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ghost
 model:GST-10
 mul id:1193
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3077
+techbase:Inner Sphere
+era:3077
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Sniper
 
-
-
-
 quirk:ext_twist
-quirk:imp_com
 quirk:imp_sensors
+quirk:imp_com
 
+mass:50
+engine:300 XL Engine
+structure:IS Standard
+myomer:Standard
 
-Mass:50
-Engine:300 XL Engine
-Structure:Standard
-Myomer:Standard
+heat sinks:14 IS Double
+walk mp:6
+jump mp:0
 
-Heat Sinks:14 Double
-Walk MP:6
-Jump MP:0
-
-Armor:Stealth(Inner Sphere)
-LA Armor:16
-RA Armor:16
-LT Armor:17
-RT Armor:17
-CT Armor:21
-HD Armor:9
-LL Armor:24
-RL Armor:24
-RTL Armor:7
-RTR Armor:7
-RTC Armor:10
+armor:Stealth(Inner Sphere)
+LA armor:16
+RA armor:16
+LT armor:17
+RT armor:17
+CT armor:21
+HD armor:9
+LL armor:24
+RL armor:24
+RTL armor:7
+RTR armor:7
+RTC armor:10
 
 Weapons:5
-Light PPC, Right Torso
-Light PPC, Left Torso
 ER Medium Laser, Right Arm
-MML 3, Right Torso
+Light PPC, Left Torso
 MML 3, Left Torso
+Light PPC, Right Torso
+MML 3, Right Torso
 
 Left Arm:
 Shoulder
@@ -73,8 +70,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 BeagleActiveProbe
 BeagleActiveProbe
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 
 Right Arm:
@@ -88,8 +85,8 @@ ISDoubleHeatSink
 ISERMediumLaser
 ISGuardianECMSuite
 ISGuardianECMSuite
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 
 Left Torso:
 Fusion Engine
@@ -100,8 +97,8 @@ Light PPC
 ISMML3
 ISMML3
 IS Ammo MML-3 LRM
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 
@@ -114,8 +111,8 @@ Light PPC
 ISMML3
 ISMML3
 IS Ammo MML-3 SRM
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 
@@ -152,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -166,13 +163,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

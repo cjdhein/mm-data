@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,65 +15,63 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-SD (Douglass)
 mul id:2052
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3025
-Rules Level:1
-role:Brawler
+techbase:Inner Sphere
+era:3025
 source:HTP:Galtor
+rules level:1
+role:Brawler
 
-
-
+quirk:low_profile
 quirk:command_mech
 quirk:hyper_actuator
-quirk:low_profile
 weaponquirk:direct_torso_mount:RT:0:SRM 4
 weaponquirk:exposed_linkage:RT:0:SRM 4
 weaponquirk:direct_torso_mount:RT:1:SRM 4
 weaponquirk:exposed_linkage:RT:1:SRM 4
 
+mass:75
+engine:300 Fusion Engine
+structure:IS Standard
+myomer:Standard
 
-Mass:75
-Engine:300 Fusion Engine
-Structure:Standard
-Myomer:Standard
+heat sinks:21 Single
+walk mp:4
+jump mp:0
 
-Heat Sinks:21 Single
-Walk MP:4
-Jump MP:0
-
-Armor:Standard Armor
-LA Armor:24
-RA Armor:24
-LT Armor:24
-RT Armor:24
-CT Armor:34
-HD Armor:9
-LL Armor:32
-RL Armor:32
-RTL Armor:8
-RTR Armor:8
-RTC Armor:12
+armor:Standard(Inner Sphere)
+LA armor:24
+RA armor:24
+LT armor:24
+RT armor:24
+CT armor:34
+HD armor:9
+LL armor:32
+RL armor:32
+RTL armor:8
+RTR armor:8
+RTC armor:12
 
 Weapons:6
-1 ISLargeLaser, Right Arm
-1 ISLargeLaser, Left Arm
-1 ISMediumLaser, Left Arm
-1 ISMediumLaser, Right Arm
-1 ISSRM4, Right Torso, Ammo:25
-1 ISSRM4, Right Torso
+Large Laser, Left Arm
+Medium Laser, Left Arm
+Large Laser, Right Arm
+Medium Laser, Right Arm
+SRM 4, Right Torso
+SRM 4, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISLargeLaser
-ISLargeLaser
-ISMediumLaser
+Large Laser
+Large Laser
+Medium Laser
 -Empty-
 -Empty-
 -Empty-
@@ -85,9 +83,9 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISLargeLaser
-ISLargeLaser
-ISMediumLaser
+Large Laser
+Large Laser
+Medium Laser
 -Empty-
 -Empty-
 -Empty-
@@ -110,9 +108,9 @@ Heat Sink
 -Empty-
 
 Right Torso:
-ISSRM4
-ISSRM4
-ISSRM4 Ammo
+SRM 4
+SRM 4
+IS Ammo SRM-4
 -Empty-
 -Empty-
 -Empty-
@@ -124,16 +122,16 @@ ISSRM4 Ammo
 -Empty-
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Heat Sink
 Heat Sink
 
@@ -144,6 +142,12 @@ Cockpit
 Heat Sink
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
@@ -152,6 +156,12 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Heat Sink
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Right Leg:
 Hip
@@ -160,3 +170,10 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Heat Sink
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Penthesilea
 model:PEN-2H
 mul id:2470
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3083
+techbase:Inner Sphere
+era:3083
 source:TR:3085
-Rules Level:2
+rules level:2
 role:Brawler
-
-
-
 
 quirk:rugged_1
 weaponquirk:stable_weapon:CT:9:ISERMediumLaser
 weaponquirk:stable_weapon:CT:10:ISERMediumLaser
 weaponquirk:stable_weapon:CT:11:ISERMediumLaser
 
+mass:75
+engine:300 Fusion Engine
+structure:IS Endo Steel
+myomer:Standard
+cockpit:Standard Cockpit
+gyro:Compact Gyro
 
-Mass:75
-Engine:300 Fusion Engine
-Structure:Endo Steel
-Myomer:Standard
-Cockpit:Standard Cockpit
-Gyro:Compact Gyro
+heat sinks:13 IS Double
+walk mp:4
+jump mp:3
 
-Heat Sinks:13 Double
-Walk MP:4
-Jump MP:3
-
-Armor:Ferro-Fibrous(Inner Sphere)
-LA Armor:23
-RA Armor:23
-LT Armor:20
-RT Armor:20
-CT Armor:30
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:10
-RTR Armor:10
-RTC Armor:10
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:23
+RA armor:23
+LT armor:20
+RT armor:20
+CT armor:30
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:10
+RTR armor:10
+RTC armor:10
 
 Weapons:6
 ER PPC, Left Arm
 Light PPC, Left Arm
-ER Medium Laser, Center Torso
-ER Medium Laser, Center Torso
-ER Medium Laser, Center Torso
 LB 10-X AC, Right Arm
+ER Medium Laser, Center Torso
+ER Medium Laser, Center Torso
+ER Medium Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -75,11 +72,11 @@ ISERPPC
 ISERPPC
 Light PPC
 Light PPC
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -92,20 +89,20 @@ ISLBXAC10
 ISLBXAC10
 IS LB 10-X AC Ammo
 IS LB 10-X Cluster Ammo
-Endo Steel
-Ferro-Fibrous
+IS Endo Steel
+IS Ferro-Fibrous
 
 Left Torso:
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -114,14 +111,14 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISCASE
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
-Ferro-Fibrous
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -141,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Endo Steel
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -157,7 +154,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -171,12 +168,11 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Ferro-Fibrous
+IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

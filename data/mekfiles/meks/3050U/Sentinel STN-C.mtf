@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sentinel
 model:STN-C
 mul id:2865
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3065
-Source:TR:3050
-Rules Level:2
+techbase:Inner Sphere
+era:3065
+source:TR:3050
+rules level:2
 role:Sniper
-
-
 
 quirk:imp_com
 weaponquirk:ammo_feed_problems:RT:0:SRM 2
 
+mass:40
+engine:240 Fusion Engine
+structure:IS Standard
+myomer:Standard
 
-Mass:40
-Engine:240 Fusion Engine
-Structure:Standard
-Myomer:Standard
+heat sinks:10 Single
+walk mp:6
+jump mp:0
 
-Heat Sinks:10 Single
-Walk MP:6
-Jump MP:0
+armor:Standard(Inner Sphere)
+LA armor:8
+RA armor:8
+LT armor:8
+RT armor:8
+CT armor:10
+HD armor:9
+LL armor:10
+RL armor:10
+RTL armor:5
+RTR armor:5
+RTC armor:7
 
-Armor:Standard Armor
-LA Armor:8
-RA Armor:8
-LT Armor:8
-RT Armor:8
-CT Armor:10
-HD Armor:9
-LL Armor:10
-RL Armor:10
-RTL Armor:5
-RTR Armor:5
-RTC Armor:7
-
-Weapons:3
-1 ISUltraAC5, Left Arm, Ammo:20
-1 ISSRM2, Right Torso, Ammo:50
-1 ISC3SlaveUnit, Center Torso
+Weapons:2
+Ultra AC/5, Left Arm
+SRM 2, Right Torso
 
 Left Arm:
 Shoulder
@@ -88,7 +85,7 @@ Hand Actuator
 -Empty-
 
 Left Torso:
-ISUltraAC5 Ammo
+IS Ultra AC/5 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -102,8 +99,8 @@ ISUltraAC5 Ammo
 -Empty-
 
 Right Torso:
-ISSRM2
-ISSRM2 Ammo
+SRM 2
+IS Ammo SRM-2
 -Empty-
 -Empty-
 -Empty-

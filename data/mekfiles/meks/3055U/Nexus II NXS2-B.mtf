@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Nexus II
 model:NXS2-B
 mul id:2262
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3067
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3067
+source:TR:3055U
+rules level:2
 role:Scout
 
-
-
-quirk:ext_twist
 quirk:bad_rep_is
+quirk:ext_twist
 
+mass:25
+engine:200 Light Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:25
-Engine:200 Light Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:8
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:8
-Jump MP:0
-
-Armor:Stealth(Inner Sphere)
-LA Armor:5
-RA Armor:5
-LT Armor:5
-RT Armor:5
-CT Armor:7
-HD Armor:8
-LL Armor:7
-RL Armor:7
-RTL Armor:2
-RTR Armor:2
-RTC Armor:3
+armor:Stealth(Inner Sphere)
+LA armor:5
+RA armor:5
+LT armor:5
+RT armor:5
+CT armor:7
+HD armor:8
+LL armor:7
+RL armor:7
+RTL armor:2
+RTR armor:2
+RTC armor:3
 
 Weapons:3
 ER Medium Laser, Left Arm
@@ -64,12 +62,12 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISERMediumLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Stealth
-Stealth
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 
@@ -78,12 +76,12 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISERMediumLaser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Stealth
-Stealth
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 
@@ -95,11 +93,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 BeagleActiveProbe
 BeagleActiveProbe
-Endo Steel
-Endo Steel
-Endo Steel
-Stealth
-Stealth
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Stealth
+IS Stealth
 
 Right Torso:
 Fusion Engine
@@ -109,11 +107,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISGuardianECMSuite
 ISGuardianECMSuite
-Endo Steel
-Endo Steel
-Endo Steel
-Stealth
-Stealth
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Stealth
+IS Stealth
 
 Center Torso:
 Fusion Engine
@@ -148,8 +146,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -162,13 +160,12 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Stealth
-Stealth
+IS Stealth
+IS Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk
 model:SHD-1R
 mul id:2898
 
 Config:Biped
-TechBase:Inner Sphere
-Era:2467
-Source:XTR:Primitives I
-Rules Level:4
+techbase:Inner Sphere
+era:2467
+source:XTR:Primitives I
+rules level:4
 role:Sniper
-
-
-
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 quirk:ubiquitous_clan
-quirk:ubiquitous_is
 quirk:rugged_1
+quirk:ubiquitous_is
 
+mass:50
+engine:240 Fusion Engine
+structure:IS Standard
+myomer:Standard
+cockpit:Primitive Cockpit
+gyro:Standard Gyro
 
-Mass:50
-Engine:240 Primitive Fusion Engine
-Structure:Standard
-Cockpit:Primitive Cockpit
-Myomer:Standard
+heat sinks:10 Single
+walk mp:4
+jump mp:3
 
-Heat Sinks:10 Single
-Walk MP:4
-Jump MP:3
-
-Armor:Primitive(Inner Sphere)
-LA Armor:16
-RA Armor:16
-LT Armor:18
-RT Armor:18
-CT Armor:22
-HD Armor:9
-LL Armor:16
-RL Armor:16
-RTL Armor:6
-RTR Armor:6
-RTC Armor:7
+armor:Primitive(Inner Sphere)
+LA armor:16
+RA armor:16
+LT armor:18
+RT armor:18
+CT armor:22
+HD armor:9
+LL armor:16
+RL armor:16
+RTL armor:6
+RTR armor:6
+RTC armor:7
 
 Weapons:2
-1 ISAC5, Left Torso, Ammo:20
-1 ISMediumLaser, Right Arm
+Medium Laser, Right Arm
+AC/5, Left Torso
 
 Left Arm:
 Shoulder
@@ -83,7 +81,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISMediumLaser
+Medium Laser
 -Empty-
 -Empty-
 -Empty-
@@ -94,11 +92,11 @@ ISMediumLaser
 
 Left Torso:
 Jump Jet
-ISAC5
-ISAC5
-ISAC5
-ISAC5
-ISAC5 Ammo
+Autocannon/5
+Autocannon/5
+Autocannon/5
+Autocannon/5
+IS Ammo AC/5
 -Empty-
 -Empty-
 -Empty-
@@ -121,16 +119,16 @@ Jump Jet
 -Empty-
 
 Center Torso:
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Engine
-Engine
-Engine
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Jump Jet
 -Empty-
 
@@ -141,6 +139,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 
 Left Leg:
 Hip
@@ -148,6 +152,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
 -Empty-
 
 Right Leg:
@@ -157,3 +167,10 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

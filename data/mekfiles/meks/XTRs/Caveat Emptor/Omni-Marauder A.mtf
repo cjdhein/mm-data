@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,25 +15,22 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:OmniMarauder
 model:MAD-BR-OA
 mul id:8111
 
-Config:Biped Omnimech
+Config:Biped OmniMek
 techbase:Mixed (IS Chassis)
 era:3135
 source:XTR:Caveat
 rules level:3
 role:Juggernaut
 
-
-
-
+quirk:low_profile
 quirk:command_mech
 quirk:directional_torso_mount
 quirk:hyper_actuator
-quirk:low_profile
-
 
 mass:75
 engine:300 XL (Clan) Engine
@@ -42,7 +39,7 @@ myomer:Standard
 cockpit:Standard Cockpit
 gyro:Compact Gyro
 
-heat sinks:12 Double
+heat sinks:12 IS Double
 base chassis heat sinks:12
 walk mp:4
 jump mp:0
@@ -61,17 +58,17 @@ RTR armor:8
 RTC armor:11
 
 Weapons:4
-Plasma Rifle, Right Arm
 Plasma Rifle, Left Arm
-Heavy Gauss Rifle, Right Torso
-Light TAG [Clan], Left Torso
+Plasma Rifle, Right Arm
+Light TAG, Left Torso
+Heavy Gauss Rifle, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISPlasmaRifle (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifleAmmo (omnipod)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifleAmmo (OMNIPOD)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -83,9 +80,9 @@ Clan Ferro-Lamellor
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISPlasmaRifle (omnipod)
-ISPlasmaRifle (omnipod)
-ISPlasmaRifleAmmo (omnipod)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifle (OMNIPOD)
+ISPlasmaRifleAmmo (OMNIPOD)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -97,9 +94,9 @@ Clan Ferro-Lamellor
 Left Torso:
 Fusion Engine
 Fusion Engine
-ISHeavyGauss Ammo (omnipod)
-ISHeavyGauss Ammo (omnipod)
-CLLightTAG (omnipod)
+ISHeavyGauss Ammo (OMNIPOD)
+ISHeavyGauss Ammo (OMNIPOD)
+CLLightTAG (OMNIPOD)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -111,15 +108,15 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-CLCASEII (omnipod)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+CLCASEII (OMNIPOD)
 Clan Ferro-Lamellor
 
 Center Torso:
@@ -131,10 +128,10 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-ISHeavyGaussRifle (omnipod)
-CLCASEII (omnipod)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+ISHeavyGaussRifle (OMNIPOD)
+CLCASEII (OMNIPOD)
 
 Head:
 Life Support
@@ -177,5 +174,4 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
-
 

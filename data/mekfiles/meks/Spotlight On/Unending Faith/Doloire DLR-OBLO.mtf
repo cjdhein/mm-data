@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,60 +15,58 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
+generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Doloire
 model:DLR-OBLO
 mul id:7636
 
-Config:Biped Omnimech
-TechBase:Mixed (IS Chassis)
-Era:3140
-Source:SO:UF
-Rules Level:4
+Config:Biped OmniMek
+techbase:Mixed (IS Chassis)
+era:3140
+source:SO:UF
+rules level:4
 role:Brawler
 
-
-
-quirk:multi_trac
 quirk:command_mech
+quirk:multi_trac
 
+mass:80
+engine:320 XL (Clan) Engine
+structure:IS Endo-Composite
+myomer:Standard
 
-Mass:80
-Engine:320 XL (Clan) Engine
-Structure:IS Endo-Composite
-Myomer:Standard
+heat sinks:15 Clan Double
+base chassis heat sinks:12
+walk mp:4
+jump mp:0
 
-Heat Sinks:15 Double
-Base Chassis Heat Sinks:12
-Walk MP:4
-Jump MP:0
-
-Armor:Standard(Clan)
-LA Armor:24
-RA Armor:24
-LT Armor:26
-RT Armor:26
-CT Armor:38
-HD Armor:9
-LL Armor:30
-RL Armor:30
-RTL Armor:7
-RTR Armor:7
-RTC Armor:11
+armor:Standard(Inner Sphere)
+LA armor:24
+RA armor:24
+LT armor:26
+RT armor:26
+CT armor:38
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:7
+RTR armor:7
+RTC armor:11
 
 Weapons:6
-ER Medium Laser, Center Torso
-ER Medium Laser, Center Torso
-Gauss Rifle, Right Torso
-Light TAG [Clan], Left Torso
-Large Pulse Laser, Right Arm
 Large Pulse Laser, Left Arm
+Large Pulse Laser, Right Arm
+Light TAG, Left Torso
+Gauss Rifle, Right Torso
+ER Medium Laser, Center Torso
+ER Medium Laser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLLargePulseLaser (omnipod)
-CLLargePulseLaser (omnipod)
+CLLargePulseLaser (OMNIPOD)
+CLLargePulseLaser (OMNIPOD)
 ISAES
 ISAES
 ISAES
@@ -81,8 +79,8 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLLargePulseLaser (omnipod)
-CLLargePulseLaser (omnipod)
+CLLargePulseLaser (OMNIPOD)
+CLLargePulseLaser (OMNIPOD)
 ISAES
 ISAES
 ISAES
@@ -94,11 +92,11 @@ ISAES
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (omnipod)
-CLDoubleHeatSink (omnipod)
-ISC3iUnit (omnipod)
-ISC3iUnit (omnipod)
-CLLightTAG (omnipod)
+CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (OMNIPOD)
+ISC3iUnit (OMNIPOD)
+ISC3iUnit (OMNIPOD)
+CLLightTAG (OMNIPOD)
 IS Endo-Composite
 IS Endo-Composite
 IS Endo-Composite
@@ -108,14 +106,14 @@ IS Endo-Composite
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLGaussRifle (omnipod)
-CLGaussRifle (omnipod)
-CLGaussRifle (omnipod)
-CLGaussRifle (omnipod)
-CLGaussRifle (omnipod)
-CLGaussRifle (omnipod)
-Clan Gauss Ammo (omnipod)
-Clan Gauss Ammo (omnipod)
+CLGaussRifle (OMNIPOD)
+CLGaussRifle (OMNIPOD)
+CLGaussRifle (OMNIPOD)
+CLGaussRifle (OMNIPOD)
+CLGaussRifle (OMNIPOD)
+CLGaussRifle (OMNIPOD)
+Clan Gauss Ammo (OMNIPOD)
+Clan Gauss Ammo (OMNIPOD)
 IS Endo-Composite
 IS Endo-Composite
 
@@ -130,8 +128,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (omnipod)
-CLERMediumLaser (omnipod)
+CLERMediumLaser (OMNIPOD)
+CLERMediumLaser (OMNIPOD)
 
 Head:
 Life Support
@@ -174,5 +172,4 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
-
 
