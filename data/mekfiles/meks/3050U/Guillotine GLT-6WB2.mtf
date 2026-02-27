@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Guillotine
 model:GLT-6WB2
 mul id:1343
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3070
+Source:TR:3050
+Rules Level:2
 role:Sniper
+
+
 
 quirk:searchlight
 
-mass:70
-engine:280 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:6
+Mass:70
+Engine:280 XL Engine
+Structure:Endo Steel
+Myomer:Standard
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:27
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:6
+
+Armor:Standard
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:27
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:6
-Light Gauss Rifle, Left Arm
-Light PPC, Right Arm
-Light PPC, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-LRM 5, Center Torso
+2 ISLightPPC, Right Arm
+1 ISLightGaussRifle, Left Arm, Ammo:16
+1 ISERMediumLaser, Right Torso
+1 ISERMediumLaser, Left Torso
+1 ISLRM5, Center Torso, Ammo:24
+1 ISImprovedC3CPU, Center Torso
 
 Left Arm:
 Shoulder
@@ -69,53 +70,53 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Light PPC
-Light PPC
-Light PPC
-Light PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISLightPPC
+ISLightPPC
+ISLightPPC
+ISLightPPC
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+ImprovedJump Jet
+ImprovedJump Jet
+ImprovedJump Jet
+ImprovedJump Jet
 ISERMediumLaser
-IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISLightGauss Ammo
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+ImprovedJump Jet
+ImprovedJump Jet
+ImprovedJump Jet
+ImprovedJump Jet
 ISERMediumLaser
-IS Ammo LRM-5 Artemis-capable
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISLRM5 Ammo Artemis-capable
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -126,10 +127,10 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 5
+ISLRM5
 ISArtemisIV
-ISC3iUnit
-ISC3iUnit
+ISImprovedC3CPU
+ISImprovedC3CPU
 
 Head:
 Life Support
@@ -150,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+ImprovedJump Jet
+ImprovedJump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -164,8 +165,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+ImprovedJump Jet
+ImprovedJump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -174,11 +175,15 @@ Improved Jump Jet
 -Empty-
 
 overview:The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations.
+
 capabilities:While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries.
+
 deployment:Built in 3070 on an Endo Steel frame and utilizing a Compact Gyro, the 6WB2 mounts two ER Medium Lasers, and with the removal of half a ton of armor, a Light Gauss Rifle and paired Light PPCs. An Artemis IV-guided LRM-5 launcher provides additional long range firepower. Six improved jump jets enable the 6WB2 to leap up to 180 meters. This variant retains the C3i computer.
+
 history:Newhart Industries built the Guillotine from their factory on New Earth, but this was destroyed during the Amaris Civil War in 2776 as part of a celebration put on by the 12th Republican Guard. At the same time Irian BattleMechs Unlimited was building Guillotines under contract from Newheart out of Irian and continued to do so for another half-century; Lycomb-Davion IntroTech had also been producing the Guillotine from their main manufacturing facility on Demeter, but this facility was destroyed by Capellan Confederation forces early in the First Succession War. The collapse of the Star League and exodus of the SLDF scattered Guillotines across all of the Great Houses, while ComStar succeeded in raiding New Earth in 2788 and acquiring a battalion's worth from former Newhart stockpiles. In the wake of the First Succession War a shortage of the advanced components necessary for the 'Mech forced IBMU to design a downgraded variant, the GLT-4L, which they continued to produce off and on for the next few centuries. The recovery of the Helm Memory Core inspired a number of old designs, the Guillotine included, to be upgraded with lostech. Using the refurbished Newhart factory Irian's new GLT-5M model not only restored the Guillotine to its former glory but improved upon it with better (and importantly more reliable) weaponry. Irian continued producing new Guillotines, which would go on to take part in the FedCom Civil War and the Jihad.
+
 manufacturer:Irian BattleMechs Unlimited
-primaryfactory:Irian
+primaryfactory:Irian 
 systemmanufacturer:CHASSIS:Crucis-I Endo Steel
 systemmanufacturer:ENGINE:VOX 280
 systemmanufacturer:ARMOR:Ulston Prime with CASE

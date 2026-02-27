@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shugosha
 model:LAW-QM2 Q-Mech
 mul id:7155
 
 Config:Biped
-techbase:Inner Sphere
-era:3051
-source:RS:VA
-rules level:4
+TechBase:Inner Sphere
+Era:3051
+Source:RS:VA
+Rules Level:4
 role:Ambusher
 
+Mass:20
+Engine:40 Fusion Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
+Gyro:Standard Gyro
 
-mass:20
-engine:40 Fusion Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-LA armor:4
-RA armor:4
-LT armor:4
-RT armor:4
-CT armor:6
-HD armor:2
-LL armor:4
-RL armor:4
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Armor:Commercial(Inner Sphere)
+LA Armor:4
+RA Armor:4
+LT Armor:4
+RT Armor:4
+CT Armor:6
+HD Armor:2
+LL Armor:4
+RL Armor:4
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:3
-Medium Laser, Right Arm
-Medium Laser, Right Arm
 LRM 5, Left Torso
+Medium Laser, Right Arm
+Medium Laser, Right Arm
 
 Left Arm:
 Shoulder
@@ -168,4 +166,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

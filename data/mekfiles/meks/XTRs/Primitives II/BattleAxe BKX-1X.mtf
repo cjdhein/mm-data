@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:BattleAxe
 model:BKX-1X
 mul id:5584
 
 Config:Biped
-techbase:Inner Sphere
-era:2459
-source:XTR:Primitives II
-rules level:4
+TechBase:Inner Sphere
+Era:2459
+Source:XTR:Primitives II
+Rules Level:4
 role:Juggernaut
 
+
+
+
 quirk:hard_pilot
-quirk:prototype
 quirk:poor_performance
+quirk:prototype
 
-mass:70
-engine:255 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Primitive Cockpit
-gyro:Standard Gyro
 
-heat sinks:18 Single
-walk mp:3
-jump mp:0
+Mass:70
+Engine:255 Primitive Fusion Engine
+Structure:Standard
+Cockpit:Primitive Cockpit
+Myomer:Standard
 
-armor:Primitive(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:18
-RT armor:18
-CT armor:20
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:18 Single
+Walk MP:3
+Jump MP:0
+
+Armor:Primitive
+LA Armor:14
+RA Armor:14
+LT Armor:18
+RT Armor:18
+CT Armor:20
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:7
-Large Laser, Left Arm
-Large Laser, Right Arm
-LRM 5, Left Torso
-SRM 6, Right Torso
-LRM 5, Right Torso
-Machine Gun, Center Torso
-Machine Gun, Head
+1 ISLargeLaser, Right Arm
+1 ISLRM5, Right Torso, Ammo:24
+1 ISSRM6, Right Torso, Ammo:15
+1 ISMachine Gun, Center Torso, Ammo:200
+1 ISMachine Gun, Head
+1 ISLRM5, Left Torso
+1 ISLargeLaser, Left Arm
 
 Left Arm:
 Shoulder
@@ -70,8 +72,8 @@ Upper Arm Actuator
 Lower Arm Actuator
 Heat Sink
 Heat Sink
-Large Laser
-Large Laser
+ISLargeLaser
+ISLargeLaser
 -Empty-
 -Empty-
 -Empty-
@@ -84,8 +86,8 @@ Upper Arm Actuator
 Lower Arm Actuator
 Heat Sink
 Heat Sink
-Large Laser
-Large Laser
+ISLargeLaser
+ISLargeLaser
 -Empty-
 -Empty-
 -Empty-
@@ -95,9 +97,9 @@ Large Laser
 Left Torso:
 Heat Sink
 Heat Sink
-LRM 5
-IS Ammo LRM-5
-IS Machine Gun Ammo - Half
+ISLRM5
+ISLRM5 Ammo
+ISMG Ammo (100)
 -Empty-
 -Empty-
 -Empty-
@@ -108,10 +110,10 @@ IS Machine Gun Ammo - Half
 
 Right Torso:
 Heat Sink
-SRM 6
-SRM 6
-LRM 5
-IS Ammo SRM-6
+ISSRM6
+ISSRM6
+ISLRM5
+ISSRM6 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -121,44 +123,32 @@ IS Ammo SRM-6
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Heat Sink
-Machine Gun
+ISMachine Gun
 
 Head:
 Life Support
 Sensors
 Cockpit
-Machine Gun
+ISMachine Gun
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -169,10 +159,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

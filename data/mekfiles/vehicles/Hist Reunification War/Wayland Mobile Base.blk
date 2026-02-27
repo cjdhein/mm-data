@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -24,9 +33,9 @@ LargeSupportTank
 Wayland Mobile Base
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5396
@@ -35,10 +44,6 @@ Wayland Mobile Base
 <year>
 2541
 </year>
-
-<originalBuildYear>
-2541
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -52,10 +57,6 @@ Juggernaut
 Tracked
 </motion_type>
 
-<transporters>
-cargobay:11.0:1:1::-1:0
-</transporters>
-
 <cruiseMP>
 3
 </cruiseMP>
@@ -63,18 +64,6 @@ cargobay:11.0:1:1::-1:0
 <engine_type>
 0
 </engine_type>
-
-<armor_type>
-48
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
 
 <armor>
 42
@@ -86,9 +75,17 @@ cargobay:11.0:1:1::-1:0
 37
 </armor>
 
-<Body Equipment>
-Advanced Fire Control
-</Body Equipment>
+<barrating>
+7
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<Transporters>
+CargoBay:11:1
+</Transporters>
 
 <Front Equipment>
 ISMobileFieldBase
@@ -106,8 +103,12 @@ ISMobileFieldBase
 <Rear Left Equipment>
 </Rear Left Equipment>
 
+<Body Equipment>
+Advanced Fire Control
+</Body Equipment>
+
 <Rear Equipment>
-Lift Hoist/Arresting Hoist
+Lift Hoist
 </Rear Equipment>
 
 <Turret Equipment>
@@ -117,18 +118,6 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-<barrating>
-7
-</barrating>
-
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
-
 <source>
 His:RW
 </source>
@@ -136,8 +125,3 @@ His:RW
 <tonnage>
 150.0
 </tonnage>
-
-<fuel>
-0.0
-</fuel>
-

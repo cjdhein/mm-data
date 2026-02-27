@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vixen
 clanname:Incubus
 model:
 mul id:3441
 
 Config:Biped
-techbase:Clan
-era:2954
-source:TR:3055U
-rules level:2
+TechBase:Clan
+Era:2954
+Source:TR:3055U
+Rules Level:2
 role:Striker
 
-weaponquirk:jettison_capable:RA:4:CLLargePulseLaser
-weaponquirk:mod_weapons:RA:4:CLLargePulseLaser
-weaponquirk:mod_weapons:LT:2:CLERMediumLaser
-weaponquirk:mod_weapons:LT:3:CLMG
-weaponquirk:mod_weapons:LT:4:CLMG
+
 weaponquirk:mod_weapons:RT:2:CLERMediumLaser
 weaponquirk:mod_weapons:RT:3:CLMG
 weaponquirk:mod_weapons:RT:4:CLMG
+weaponquirk:mod_weapons:LT:2:CLERMediumLaser
+weaponquirk:mod_weapons:LT:3:CLMG
+weaponquirk:mod_weapons:LT:4:CLMG
+weaponquirk:jettison_capable:RA:4:CLLargePulseLaser
+weaponquirk:mod_weapons:RA:4:CLLargePulseLaser
 
-mass:30
-engine:270 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:9
-jump mp:0
+Mass:30
+Engine:270 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:10
-RA armor:10
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:9
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:10
+RA Armor:10
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:7
 Large Pulse Laser, Right Arm
@@ -102,11 +103,11 @@ Fusion Engine
 CLERMediumLaser
 CLMG
 CLMG
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -116,10 +117,10 @@ Fusion Engine
 CLERMediumLaser
 CLMG
 CLMG
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -136,7 +137,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Clan Machine Gun Ammo - Half
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -157,8 +158,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -171,12 +172,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

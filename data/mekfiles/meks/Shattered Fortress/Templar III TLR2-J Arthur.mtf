@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,18 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar III
 model:TLR2-J 'Arthur'
 mul id:7955
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (IS Chassis)
 era:3120
 source:SF
 rules level:3
 role:Skirmisher
-
 
 mass:85
 engine:340 Light Engine(IS)
@@ -173,10 +171,15 @@ IS Endo Steel
 -Empty-
 -Empty-
 
+
 overview:The Templar III is a Dark Age era Assault Class OmniMech, first produced by General Motors for the Federated Suns. It was intended as a replacement for the original Templar, whose factory lines were destroyed during the Jihad. General Motors established a new production line on New Valencia for what was to become the next generation of the Templar with newer technologies.
+
 capabilities:Like its predecessor, the Templar III is typically utilized as a Command 'Mech by AFFS forces. With its alternate configurations the 'Mech is able to handle various combat situations thanks to access to Advanced equipment.
-deployment:Julian Davion piloted a custom Templar III with a weapon loadout similar to the Prime configuration, but upgraded to feature a full suite of Clan-tech weaponry: an ER PPC and ER medium laser in each arm, an ER Small Laser and Streak SRM-6 in the torso, and a Targeting Computer. Thanks to the resulting weight savings, four extra double heat sinks help keep the energy-intensive arsenal firing.
+
+deployment:Julian Davion piloted a custom Templar III with a weapon loadout similar to the Prime configuration, but upgraded to feature a full suite of Clan-tech weaponry: an ER PPC and ER medium laser in each arm, an ER Small Laser and Streak SRM-6 in the torso, and a Targeting Computer. Thanks to the resulting weight savings, four extra double heat sinks help keep the energy-intensive arsenal firing. 
+
 history:Among the most noticeable differences when comparing the original Templar to the Templar III is its smaller Pod Capacity. The new 'Mech has a 29 ton Pod capacity in comparison to the old Templar's 40 tons. However, the 'Mech's heavier Light Engine provides improved durability while retaining the original design's maximum speed and armor protection.
+
 manufacturer:General Motors
 primaryfactory:New Valencia
 systemmanufacturer:CHASSIS:Kallon Type XX Endo Steel
@@ -184,3 +187,4 @@ systemmanufacturer:ENGINE:GM 340 Light
 systemmanufacturer:ARMOR:StarGuard CIV
 systemmanufacturer:COMMUNICATIONS:Newberg Telescan 17
 systemmanufacturer:TARGETING:Spar 3C MegaTrak
+

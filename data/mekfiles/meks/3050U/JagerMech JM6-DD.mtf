@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:JagerMech
 model:JM6-DD
 mul id:1666
 
 Config:Biped
-techbase:Inner Sphere
-era:3049
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3049
+Source:TR:3050
+Rules Level:2
 role:Sniper
+
+
 
 quirk:anti_air
 
-mass:65
-engine:260 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:4
-jump mp:0
+Mass:65
+Engine:260 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:17
-RT armor:17
-CT armor:18
-HD armor:9
-LL armor:12
-RL armor:12
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:8
+RA Armor:8
+LT Armor:17
+RT Armor:17
+CT Armor:18
+HD Armor:9
+LL Armor:12
+RL Armor:12
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:6
-Ultra AC/5, Left Arm
-AC/2, Left Arm
-Ultra AC/5, Right Arm
-AC/2, Right Arm
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Right Torso
+1 ISUltraAC5, Right Arm, Ammo:40
+1 ISAC2, Right Arm, Ammo:90
+1 ISUltraAC5, Left Arm
+1 ISAC2, Left Arm
+1 ISMediumPulseLaser, Left Torso
+1 ISMediumPulseLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -67,10 +69,10 @@ ISUltraAC5
 ISUltraAC5
 ISUltraAC5
 ISUltraAC5
-Autocannon/2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISAC2
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -81,10 +83,10 @@ ISUltraAC5
 ISUltraAC5
 ISUltraAC5
 ISUltraAC5
-Autocannon/2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISAC2
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Left Torso:
@@ -92,13 +94,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISMediumPulseLaser
-IS Ultra AC/5 Ammo
-IS Ammo AC/2
+ISUltraAC5 Ammo
+ISAC2 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -106,13 +108,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISMediumPulseLaser
-IS Ultra AC/5 Ammo
-IS Ammo AC/2
+ISUltraAC5 Ammo
+ISAC2 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:

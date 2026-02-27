@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,59 +15,61 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Guillotine
 model:GLT-6WB
 mul id:1342
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Source:TR:3050
+Rules Level:2
 role:Brawler
+
+
 
 quirk:searchlight
 
-mass:70
-engine:280 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:11 IS Double
-walk mp:4
-jump mp:4
+Mass:70
+Engine:280 Fusion Engine
+Structure:Standard
+Myomer:Standard
+Gyro:Compact Gyro
+Cockpit:Small Cockpit
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:22
-RT armor:22
-CT armor:28
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:11 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Ferro-Fibrous
+LA Armor:22
+RA Armor:22
+LT Armor:22
+RT Armor:22
+CT Armor:28
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:6
-Heavy PPC, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-LRM 15, Center Torso
+2 ISERMediumLaser, Right Arm
+1 ISHeavyPPC, Left Arm
+1 ISERMediumLaser, Right Torso
+1 ISERMediumLaser, Left Torso
+1 ISLRM15, Center Torso, Ammo:8
+1 ISImprovedC3CPU, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Heavy PPC
-Heavy PPC
-Heavy PPC
-Heavy PPC
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
 -Empty-
 -Empty-
 -Empty-
@@ -92,13 +94,13 @@ ISERMediumLaser
 Left Torso:
 Jump Jet
 ISERMediumLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -106,12 +108,12 @@ IS Ferro-Fibrous
 Right Torso:
 Jump Jet
 ISERMediumLaser
-IS Ammo LRM-15
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM15 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -126,9 +128,9 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 -Empty-
 
 Head:
@@ -136,8 +138,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-ISC3iUnit
-ISC3iUnit
+ISImprovedC3CPU
+ISImprovedC3CPU
 -Empty-
 -Empty-
 -Empty-
@@ -151,7 +153,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -165,7 +167,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -174,9 +176,13 @@ IS Ferro-Fibrous
 -Empty-
 
 overview:The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations.
+
 capabilities:While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries.
+
 deployment:Produced by Irian Technologies in 3068, the 6WB is an upgrade similar in some ways to the 8D. A Small Cockpit and Ferro-Fibrous armor make room for an Improved C3 CPU, allowing the 'Mech to share targeting data with other units. The large laser has been replaced with a Heavy PPC, while the missile launcher has been swapped out for an LRM-15, though it only has one ton of ammunition. Eleven double heat sinks are barely adequate to keep waste heat from crippling the 'Mech thanks to its four ER Medium Lasers. A Compact Gyro allows the LRM-15 to be mounted in the center torso.
+
 history:Newhart Industries built the Guillotine from their factory on New Earth, but this was destroyed during the Amaris Civil War in 2776 as part of a celebration put on by the 12th Republican Guard. At the same time Irian BattleMechs Unlimited was building Guillotines under contract from Newheart out of Irian and continued to do so for another half-century; Lycomb-Davion IntroTech had also been producing the Guillotine from their main manufacturing facility on Demeter, but this facility was destroyed by Capellan Confederation forces early in the First Succession War. The collapse of the Star League and exodus of the SLDF scattered Guillotines across all of the Great Houses, while ComStar succeeded in raiding New Earth in 2788 and acquiring a battalion's worth from former Newhart stockpiles. In the wake of the First Succession War a shortage of the advanced components necessary for the 'Mech forced IBMU to design a downgraded variant, the GLT-4L, which they continued to produce off and on for the next few centuries. The recovery of the Helm Memory Core inspired a number of old designs, the Guillotine included, to be upgraded with lostech. Using the refurbished Newhart factory Irian's new GLT-5M model not only restored the Guillotine to its former glory but improved upon it with better (and importantly more reliable) weaponry. Irian continued producing new Guillotines, which would go on to take part in the FedCom Civil War and the Jihad.
+
 manufacturer:Irian BattleMechs Unlimited
 primaryfactory:Irian
 systemmanufacturer:CHASSIS:Crucis-I Endo Steel

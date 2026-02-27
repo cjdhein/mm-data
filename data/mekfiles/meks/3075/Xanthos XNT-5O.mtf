@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Xanthos
 model:XNT-5O
 mul id:3606
 
 Config:Quad
-techbase:Inner Sphere
-era:3076
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:3076
+Source:TR:3075
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:imp_life_support
 
-mass:100
-engine:300 Compact Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:12 IS Double
-walk mp:3
-jump mp:5
+Mass:100
+Engine:300 Compact Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:Compact Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-FLL armor:42
-FRL armor:42
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-RLL armor:42
-RRL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:12 Double
+Walk MP:3
+Jump MP:5
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+FLL Armor:42
+FRL Armor:42
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+RLL Armor:42
+RRL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
 
 Weapons:7
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Head
 Medium Pulse Laser, Right Torso
 Medium Pulse Laser, Right Torso
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Left Torso
 ER PPC, Center Torso
 ER Small Laser, Center Torso
-Medium Pulse Laser, Head
 
 Front Left Leg:
 Hip
@@ -93,30 +95,30 @@ Improved Jump Jet
 Left Torso:
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Torso:
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -130,7 +132,7 @@ ISERPPC
 ISERPPC
 ISERPPC
 ISERSmallLaser (R)
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -175,13 +177,19 @@ Improved Jump Jet
 -Empty-
 
 overview:<p>The Xanthos, a trailblazing four-legged BattleMech, represents a significant leap in Mech engineering. Developed by Hollis Inc. under the guidance of Dr. David Harrison, it was a pioneering attempt to create a stable and robust firing platform. Introduced in 2564, the Xanthos combined the vision of advanced Mech technology with practical battlefield application. Despite its challenging debut and initial design hurdles, the Xanthos was a harbinger of the technological advancements to come, influencing subsequent Mech designs like the Scorpion and Goliath. Its unique quad-legged structure set it apart in the realm of BattleMechs, making it a notable addition to the arsenals of House Liao and, later, various elite units across the Inner Sphere.</p>
+
 capabilities:<p>The refined Xanthos emerged as a formidable assault Mech, well-equipped for enduring combat. Boasting over twenty tons of armor and twenty-three heat sinks, it was designed for sustained battlefield presence. Its armament included a long-range PPC and a powerful GE autocannon, complemented by a trio of lasers and an SRM-6 for close-quarters engagement. Despite limited ammunition for the autocannon and missile rack, the Xanthos’s energy weapons provided ample firepower for cleanup operations, making it a reliable asset in prolonged engagements. The Mech's design evolution overcame initial hurdles, cementing its status as a solid assault platform.</p>
+
 deployment:An experimental variant with an endo-steel frame, light ferro-fibrous armor, ER PPC, five medium pulse lasers, an ER small laser, a compact gyro, and five improved jump jets.
+
 history:<p>The Xanthos's history is marked by both innovation and adversity. Born from Hollis Inc.'s foray into BattleMech construction, the Xanthos was a bold step into uncharted design territory. Dr. Harrison's vision of a stable, four-legged Mech was ahead of its time but faced challenges due to Hollis's inexperience and secretive development approach. The early versions of the Xanthos, particularly the 2O prototype, were plagued by mechanical and design inefficiencies, resulting in poor performance during Star League trials.</p><p>Despite these initial failures, the Xanthos eventually found a degree of success with House Liao, though issues with delivery and changing military needs led to its decline by the Second Succession War. Hollis Inc.'s financial struggles and the eventual success with the BattleMaster marked a turning point for the company, but the Xanthos remained a symbol of early technological ambition.</p><p>The rediscovery of the Hegemony Memory Core in the 3070s led to a resurgence of interest in the Xanthos design. Newer variants, incorporating modern technologies and refinements, were developed and deployed by various factions, including the Capellan Confederation, Lyran Commonwealth, and mercenary units. These modern iterations of the Xanthos demonstrated the enduring potential of Dr. Harrison's original concept, adapted to the evolving demands of futuristic warfare.</p>
+
 manufacturer:Norse-Storm Technologies, Inc
 primaryfactory:Loxley
 systemmanufacturer:CHASSIS:Hollis XNT Mark VI-Endo
 systemmanufacturer:ENGINE:Vlar 300 Compact
 systemmanufacturer:ARMOR:Starshield Light
-systemmanufacturer:JUMP_JET:Odin's Own 34z
+systemmanufacturer:JUMP_JET:HildCo Model 12i
 systemmanufacturer:TARGETING:HartfordCo XKX 2
+systemmanufacturer:JUMP_JET:Odin's Own 34z
+

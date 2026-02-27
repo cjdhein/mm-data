@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,79 +15,79 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Savage Coyote
 model:A
 mul id:4982
 
-Config:Biped OmniMek
-techbase:Clan
-era:3059
-source:TR:3067
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3059
+Source:TR:3067
+Rules Level:2
 role:Juggernaut
 
 quirk:oversized
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:14 Clan Double
-base chassis heat sinks:10
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:25
-RA armor:25
-LT armor:26
-RT armor:26
-CT armor:34
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:14 Double
+Base Chassis Heat Sinks:10
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:25
+RA Armor:25
+LT Armor:26
+RT Armor:26
+CT Armor:34
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:9
-ATM 6, Left Arm
 ER Large Laser, Left Arm
+ATM 6, Left Arm
 Medium Pulse Laser, Left Arm
 Medium Pulse Laser, Left Arm
 Gauss Rifle, Right Arm
 ATM 6, Left Torso
 ATM 6, Right Torso
 Medium Pulse Laser, Center Torso
-Anti-Missile System, Head
+AMS, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+CLERLargeLaser (omnipod)
+CLMediumPulseLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 -Empty-
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-Clan Gauss Ammo (OMNIPOD)
-Clan Gauss Ammo (OMNIPOD)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+Clan Gauss Ammo (omnipod)
+Clan Gauss Ammo (omnipod)
 -Empty-
 -Empty-
 
@@ -96,27 +96,27 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-Jump Jet (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-Clan Ammo ATM-6 (OMNIPOD)
-Clan Ammo ATM-6 ER (OMNIPOD)
-Clan Ammo ATM-6 HE (OMNIPOD)
-CLAMS Ammo (OMNIPOD)
+Jump Jet (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+Clan Ammo ATM-6 (omnipod)
+Clan Ammo ATM-6 ER (omnipod)
+Clan Ammo ATM-6 HE (omnipod)
+CLAMS Ammo (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-Jump Jet (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-Clan Ammo ATM-6 (OMNIPOD)
-Clan Ammo ATM-6 ER (OMNIPOD)
-Clan Ammo ATM-6 HE (OMNIPOD)
+Jump Jet (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+Clan Ammo ATM-6 (omnipod)
+Clan Ammo ATM-6 ER (omnipod)
+Clan Ammo ATM-6 HE (omnipod)
 -Empty-
 
 Center Torso:
@@ -130,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+Jump Jet (omnipod)
+CLMediumPulseLaser (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
-CLAntiMissileSystem (OMNIPOD)
+CLAntiMissileSystem (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -176,9 +176,13 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The Savage Coyote OmniMech was created as a showcase OmniMech. The 'Mech was also part of Khan Koga's attempts to revitalize the fading Clan that invented the OmniMech.
+
 capabilities:This assault 'Mech uses an XL Engine to save enough weight to devote forty-five tons of space to modular equipment and fifteen tons of armor. The base chassis contains fourteen fixed double heat sinks.
+
 deployment:Though the first alternate configuration is focused on close-range combat, it carries an ER Large Laser and Gauss Rifle for long-range work. Three ATM 6s are effective at all ranges, while a trio of Medium Pulse Lasers aid with the devastating attack. Enough jump jets to vault up to ninety meters at a time helps MechWarriors get into close range, while an Anti-Missile System grants added defensive capability.
-history:Following the development of Advanced Tactical Missile technology. The creation of the Savage Coyote was a direct result of both the warriors of Clan Coyote clamoring for new weapons to use and the election of Khan Sullivan Koga in 3052.
+
+history:Following the development of Advanced Tactical Missile technology. The creation of the Savage Coyote was a direct result of both the warriors of Clan Coyote clamoring for new weapons to use and the election of Khan Sullivan Koga in 3052. 
+
 manufacturer:Landen, Picuris, and Zuni ’Mech Production Complexes
 systemmanufacturer:CHASSIS:Assault Series SXG
 systemmanufacturer:ENGINE:Type 255 Extralight

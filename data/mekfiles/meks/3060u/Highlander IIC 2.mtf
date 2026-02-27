@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Highlander IIC
 model:2
 mul id:1525
 
 Config:Biped
-techbase:Clan
-era:3072
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3072
+Source:TR:3060
+Rules Level:2
 role:Juggernaut
 
-quirk:difficult_eject
-quirk:cowl
 quirk:command_mech
+quirk:cowl
 quirk:reinforced_legs
+quirk:difficult_eject
 
-mass:90
-engine:270 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Laser
-walk mp:3
-jump mp:3
+Mass:90
+Engine:270 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:29
-RT armor:29
-CT armor:42
-HD armor:9
-LL armor:35
-RL armor:35
-RTL armor:8
-RTR armor:8
-RTC armor:13
+Heat Sinks:11 Laser
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:28
+RA Armor:28
+LT Armor:29
+RT Armor:29
+CT Armor:42
+HD Armor:9
+LL Armor:35
+RL Armor:35
+RTL Armor:8
+RTR Armor:8
+RTC Armor:13
 
 Weapons:14
 Streak SRM 6, Left Arm
@@ -107,10 +107,10 @@ CLERMediumLaser
 Clan Ammo ATM-6
 Clan Streak SRM 6 Ammo
 CLAPGaussRifle Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 CLATM6
@@ -138,7 +138,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -160,7 +160,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -174,7 +174,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -183,9 +183,13 @@ Clan Endo Steel
 -Empty-
 
 overview:One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans.
+
 capabilities:With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the "Highlander Burial".
+
 deployment:This new variant was introduced during the onslaught of fighting of the Jihad in 3072. The variant is fitted out as an all-range combatant with enhanced anti-infantry fighting. It has retained its Gauss Rifle & Streak SRM 6, while designs exchanged the LRMs for three ATM 6 Launchers with four tons of ammunition. The Medium Pulse Lasers, have been exchanged for trio of ER Medium Lasers. For its anti-infantry role, it has six AP Gauss Rifles fitted into its left arm, with a ton of ammunition for them. Endo Steel has been added to the design, allowing for slight increase in its armor protection.
+
 history:As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.
+
 manufacturer:W-7 Facilities (Refit)
 primaryfactory:Weingarten
 systemmanufacturer:CHASSIS:SL-XT Modified

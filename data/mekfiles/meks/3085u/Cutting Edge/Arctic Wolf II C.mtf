@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Arctic Wolf II
 model:C
 mul id:106
 
-Config:Biped OmniMek
-techbase:Clan
-era:3085
+Config:Biped Omnimech
+TechBase:Clan
+Era:3085
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
 
 quirk:imp_target_short
 
-mass:40
-engine:280 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-base chassis heat sinks:10
-walk mp:7
-jump mp:7
+Mass:40
+Engine:280 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:12
-RA armor:12
-LT armor:16
-RT armor:16
-CT armor:18
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:10
+Walk MP:7
+Jump MP:7
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:16
+RT Armor:16
+CT Armor:18
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:4
 ER Large Laser, Left Arm
@@ -62,7 +62,7 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -76,7 +76,7 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -89,13 +89,13 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
 Jump Jet
-CLSRM4 (OMNIPOD)
-Clan Ammo SRM-4 (OMNIPOD)
-Clan Ammo SRM-4 (OMNIPOD)
+CLSRM4 (omnipod)
+Clan Ammo SRM-4 (omnipod)
+Clan Ammo SRM-4 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -103,11 +103,11 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
 Jump Jet
-CLSRM4 (OMNIPOD)
+CLSRM4 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -170,9 +170,12 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 
-overview:The Arctic Wolf II is a Clan Wolf-in-Exile Medium OmniMech that was developed during the Jihad, and finally deployed in 3085.
+overview:The Arctic Wolf II is a Clan Wolf-in-Exile Medium OmniMech that was developed during the Jihad, and finally deployed in 3085. 
+
 capabilities:The design is based on the OmniMech variant of the original Arctic Wolf. The original OmniMech version had a number of problems, including technical glitches and a lack of speed. The Arctic Wolf II addresses speed concerns by using the original Arctic Wolf's Light Force 280 rated XL Fusion Engine. Seven Grandthrust Mk. 4 Jump Jets were also installed to increase the Mech's tactical options and exploit capabilities that were gained from the failed OmniMech J Configuration. The 'Mech has over 14 tons of pod space available for its techs to install weapons and equipment. Perhaps one of the Arctic Wolf II's only weaknesses is its light armor protection, boasting only 6.5 ton of Ferro Fibrous armor.
+
 deployment:The Wolves created the C configuration to fill the role of a fast harasser. It comes with a pair of arm mounted ER Large Lasers for ranged attacks. For short ranges, the "C" is equipped with a pair of torso mounted SRM 4 Launchers with two tons of ammunition. A single Double Heat Sink is added to help with the Mech's increased heat loads.
+
 manufacturer:WC Site 1
 primaryfactory:Arc-Royal
 systemmanufacturer:CHASSIS:AR1 Endo Steel

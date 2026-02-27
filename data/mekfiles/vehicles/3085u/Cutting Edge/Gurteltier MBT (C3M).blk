@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+﻿#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -32,13 +41,59 @@ Gürteltier MBT
 4255
 </mul id:>
 
-<year>
-3086
-</year>
+<Tonnage>
+100
+</Tonnage>
 
-<originalBuildYear>
-3086
-</originalBuildYear>
+<cruiseMP>
+3
+</cruiseMP>
+
+#Order is Tank/VTOL/LST
+<Armor>
+109
+75
+75
+50
+67
+</Armor>
+
+<Front Equipment>
+ISMachine Gun
+</Front Equipment>
+
+<Left Equipment>
+ISMachine Gun
+</Left Equipment>
+
+<Right Equipment>
+ISMachine Gun
+</Right Equipment>
+
+<Rear Equipment>
+ISMachine Gun
+</Rear Equipment>
+
+<Turret Equipment>
+ISERPPC
+ISLBXAC10
+ISMML7
+ISArtemisIV
+</Turret Equipment>
+
+<Body Equipment>
+ISLBXAC10 Ammo
+ISLBXAC10 Ammo
+ISLBXAC10 CL Ammo
+ISMML7 LRM Artemis-capable Ammo
+ISMML7 LRM Artemis-capable Ammo
+ISMML7 SRM Artemis-capable Ammo
+ISMG Ammo (100)
+ISGuardianECMSuite
+ISC3MasterUnit
+ISTargeting Computer
+ISCASE
+</Body Equipment>
 
 <type>
 IS Level 2
@@ -48,74 +103,29 @@ IS Level 2
 Sniper
 </role>
 
-<motion_type>
-Tracked
-</motion_type>
+<year>
+3086
+</year>
 
-<cruiseMP>
-3
-</cruiseMP>
+<source>
+TR:3085
+</source>
 
-<engine_type>
-2
-</engine_type>
+<internal_type>
+0
+</internal_type>
 
 <armor_type>
 6
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
+<engine_type>
+2
+</engine_type>
 
-<armor_tech_level>
-1
-</armor_tech_level>
-
-<armor>
-109
-75
-75
-50
-67
-</armor>
-
-<Body Equipment>
-IS LB 10-X AC Ammo
-IS LB 10-X AC Ammo
-IS LB 10-X Cluster Ammo
-IS Ammo MML-7 LRM Artemis-capable
-IS Ammo MML-7 LRM Artemis-capable
-IS Ammo MML-7 SRM Artemis-capable
-IS Machine Gun Ammo - Half
-ISGuardianECMSuite
-ISC3MasterUnit
-ISTargeting Computer
-ISCASE
-</Body Equipment>
-
-<Front Equipment>
-Machine Gun
-</Front Equipment>
-
-<Right Equipment>
-Machine Gun
-</Right Equipment>
-
-<Left Equipment>
-Machine Gun
-</Left Equipment>
-
-<Rear Equipment>
-Machine Gun
-</Rear Equipment>
-
-<Turret Equipment>
-ISERPPC
-ISLBXAC10
-ISMML7
-ISArtemisIV
-</Turret Equipment>
+<motion_type>
+Tracked
+</motion_type>
 
 <manufacturer>
 Defiance Industries
@@ -132,12 +142,3 @@ ARMOR:StarSlab/4 Heavy Ferro-Fibrous with CASE
 COMMUNICATIONS:TharHes Muse 54-58K with C3
 TARGETING:TharHes Mars8.2
 </systemManufacturers>
-
-<source>
-TR:3085
-</source>
-
-<tonnage>
-100.0
-</tonnage>
-

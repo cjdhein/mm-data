@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,20 +15,22 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pillager
 model:PLG-6Z
-mul id:9464
 
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3142
-source:RG31
 rules level:2
 role:Juggernaut
+Source:RG31
+mul id:9464
+
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
+
 
 mass:100
 engine:300 Light Engine(IS)
@@ -53,13 +55,13 @@ RTR armor:10
 RTC armor:10
 
 Weapons:7
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
 ER Large Laser, Right Arm
-LB 20-X AC, Left Torso
-LB 20-X AC, Right Torso
 ER Medium Laser, Center Torso
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
 Medium Pulse Laser, Head
+LB 20-X AC, Right Torso
+LB 20-X AC, Left Torso
 
 Left Arm:
 Shoulder
@@ -174,9 +176,13 @@ Triple Strength Myomer
 -Empty-
 
 overview:The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications.
+
 capabilities:Based on a range of engine types, the Pillager has average mobility for its size, with a top speed of 54 km/h. Three HildCo Model 13 jump jets allow the 'Mech to jump up to ninety meters, increasing its mobility. The Pillager possesses outstanding armor protection and more than enough heat sinks to meet the Pillager's needs.
+
 deployment:Clan LB 20-X autocannons were traded to the Capellan Confederation for germanium in the new variant. The PLG-6Z retains the previous variant's triple-strength myomer. This makes the 'Mech slightly faster and more lethal in melee combat. The ER big laser has limited long-range firepower. Inexperienced pilots may be doomed by this poor, lone backup armament. The Strategios issued an order to keep the new Pillager near support 'Mechs in open ground, but MechWarriors eager to battle the enemy ignored it.
+
 history:The Pillager was the largest 'Mech ever built by HildCo during the Reunification War. The destruction of the manufacturing facilities that produced the Pillager's advanced technologies halted production during the Second Succession War, but the decoding of the Gray Death memory core allowed the Pillager to be reintroduced to the Inner Sphere. The Pillager has a long and colorful battle history. From the Reunification Battle through the Succession Wars, it has seen action in every war. Records show that during those fights, enemy forces tended to retreat at the sight of approaching Pillagers. The Pillager most recently demonstrated its amazing strength during the FedCom and the Capellan/St. Ives Civil Wars. When a Pillager-led unit attacked, many strongholds and defenses crumbled. Even now, in the struggle between Hasek's Capellan March and House Liao, the Pillager is making an impact on the battlefield, just as it did during the Amaris Civil War. The Pillager now serves in the majority of house militaries and mercenary troops. Because of the reintegration of St. Ives, the Capellan military has the most brawny 'Mechs.
+
 manufacturer:General Motors,HildCo Interplanetary
 primaryfactory:Kathil,St. Ives
 systemmanufacturer:CHASSIS:HildCo Heavy Type VIIQT

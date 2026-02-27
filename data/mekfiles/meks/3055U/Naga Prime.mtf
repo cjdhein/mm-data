@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-11-09
 chassis:Naga
 model:Prime
 mul id:2251
@@ -32,7 +32,7 @@ quirk:no_arms
 quirk:bad_rep_clan
 
 mass:80
-engine:400 XL (Clan) Engine
+engine:400 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -184,3 +184,4 @@ systemmanufacturer:ENGINE:Fusion 400 XL
 systemmanufacturer:ARMOR:Forged Type 34 Standard
 systemmanufacturer:COMMUNICATIONS:Type G3, Mk. XII
 systemmanufacturer:TARGETING:ArTrack 2 TTS
+

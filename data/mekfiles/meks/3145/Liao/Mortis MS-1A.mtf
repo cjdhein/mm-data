@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mortis
 model:MS-1A
 mul id:6466
 
 Config:Biped
-techbase:Inner Sphere
-era:3109
-source:TR:3145:CC
-rules level:3
+TechBase:Inner Sphere
+Era:3109
+Source:TR:3145:CC
+Rules Level:3
 role:Skirmisher
+
+
+
 
 quirk:distracting
 
-mass:75
-engine:375 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:5
-jump mp:5
+Mass:75
+Engine:375 XL Engine(IS)
+Structure:IS Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:25
-RT armor:25
-CT armor:33
-HD armor:9
-LL armor:25
-RL armor:25
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:5
+Jump MP:5
+
+Armor:Standard(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:25
+RT Armor:25
+CT Armor:33
+HD Armor:9
+LL Armor:25
+RL Armor:25
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:3
 Heavy PPC, Left Arm
-MML 5, Right Torso
 Rocket Launcher 10, Center Torso
+MML 5, Right Torso
 
 Left Arm:
 Shoulder
@@ -67,8 +70,8 @@ Heavy PPC
 ISAES
 ISAES
 ISAES
-IS Endo Steel
-IS Endo Steel
+IS Endo-Steel
+IS Endo-Steel
 
 Right Arm:
 Shoulder
@@ -90,13 +93,13 @@ Fusion Engine
 Fusion Engine
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+IS Endo-Steel
+IS Endo-Steel
+IS Endo-Steel
+IS Endo-Steel
+IS Endo-Steel
+IS Endo-Steel
+IS Endo-Steel
 
 Right Torso:
 Fusion Engine
@@ -109,8 +112,8 @@ ISMML5
 ISMML5
 IS Ammo MML-5 LRM
 IS Ammo MML-5 SRM
-IS Endo Steel
-IS Endo Steel
+IS Endo-Steel
+IS Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -130,7 +133,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+IS Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -145,7 +148,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+IS Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -159,7 +162,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+IS Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -167,4 +170,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

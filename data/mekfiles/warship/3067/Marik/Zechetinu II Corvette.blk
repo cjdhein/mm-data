@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -24,9 +33,9 @@ Warship
 Zechetinu II Corvette
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5434
@@ -53,12 +62,12 @@ Aerodyne
 </motion_type>
 
 <transporters>
-asfbay:6.0:2:1::-1:0
+asfbay:6.0:2:1
 dockingcollar
-1stclassquarters:200.0:0:-1::-1:0
-crewquarters:700.0:0:-1::-1:0
-cargobay:7004.5:1:5::-1:0
-cargobay:7004.5:1:6::-1:0
+1stclassquarters:200.0:0
+crewquarters:700.0:0
+cargobay:7004.5:1:4
+cargobay:7004.5:1:5
 </transporters>
 
 <SafeThrust>
@@ -85,13 +94,9 @@ cargobay:7004.5:1:6::-1:0
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 24
@@ -247,6 +252,62 @@ Small Laser
 25
 </structural_integrity>
 
+<source>
+TR:3067
+</source>
+
+<tonnage>
+180000.0
+</tonnage>
+
+<kf_core>
+1
+</kf_core>
+
+<lithium-fusion>
+1
+</lithium-fusion>
+
+<sail>
+1
+</sail>
+
+<grav_decks>
+88
+</grav_decks>
+
+<crew>
+131
+</crew>
+
+<officers>
+20
+</officers>
+
+<gunners>
+28
+</gunners>
+
+<passengers>
+0
+</passengers>
+
+<marines>
+0
+</marines>
+
+<battlearmor>
+0
+</battlearmor>
+
+<life_boat>
+8
+</life_boat>
+
+<escape_pod>
+0
+</escape_pod>
+
 <capabilities>
 Four Zechetinus in the FWLM fleet, namely the FWLS Tirana, FWLS Karelia, FWLS Attica, and FWLS Sparta, retain the original design specifications with a focus on anti-DropShip/WarShip weapons and fighter-defense systems. On the other hand, the FWLS Scorpion and the remaining Zechetinus feature Barracuda and White Shark missile systems instead of the fore and aft naval-laser batteries. This diverse armament ensures the Zechetinu's effectiveness in various combat scenarios.
 </capabilities>
@@ -286,64 +347,3 @@ Corvette
 <height>
 502 m Sail
 </height>
-
-<source>
-TR:3067
-</source>
-
-<tonnage>
-180000.0
-</tonnage>
-
-<kf_core>
-1
-</kf_core>
-
-<lithium-fusion>
-1
-</lithium-fusion>
-
-<sail>
-1
-</sail>
-
-<grav_decks>
-88
-</grav_decks>
-
-<designtype>
-1
-</designtype>
-
-<crew>
-131
-</crew>
-
-<officers>
-20
-</officers>
-
-<gunners>
-28
-</gunners>
-
-<passengers>
-0
-</passengers>
-
-<marines>
-0
-</marines>
-
-<battlearmor>
-0
-</battlearmor>
-
-<life_boat>
-8
-</life_boat>
-
-<escape_pod>
-0
-</escape_pod>
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,24 +15,25 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rime Otter
 model:Prime
 mul id:8309
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3146
 source:RG19
 rules level:2
 role:Brawler
 
-quirk:difficult_maintain
-quirk:rugged_1
+
 quirk:imp_sensors
+quirk:rugged_1
+quirk:difficult_maintain
+
 
 mass:55
-engine:275 XL (Clan) Engine
+engine:275 XL (Clan) Engine(IS)
 structure:IS Reinforced
 myomer:Standard
 
@@ -178,3 +179,4 @@ systemmanufacturer:ENGINE:RUFM XL 275
 systemmanufacturer:ARMOR:IceSheet Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Garret T10B
 systemmanufacturer:TARGETING:GC Heimdallr System Type 1
+

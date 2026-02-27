@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,116 +15,120 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Quickdraw
 model:QKD-8X
 mul id:2617
 
 Config:Biped
-techbase:Inner Sphere
-era:3073
+TechBase:Inner Sphere
+Era:3073
 source:XTR:Corps
-rules level:4
+Rules Level:4
 role:Sniper
 
-quirk:exp_actuator
+
+
 quirk:hyper_actuator
+quirk:exp_actuator
 
-mass:60
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Torso-Mounted Cockpit
-gyro:Compact Gyro
 
-heat sinks:12 Single
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 Fusion Engine
+Structure:Endo-Steel
+Gyro:Compact Gyro
+Cockpit:Torso-Mounted Cockpit
+Myomer:Triple Strength Myomer
 
-armor:Stealth(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:18
-RT armor:18
-CT armor:30
-HD armor:8
-LL armor:28
-RL armor:28
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:0
 
-Weapons:4
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-PPC, Head
-TAG, Head
+Armor:Stealth Armor
+LA Armor:16
+RA Armor:16
+LT Armor:18
+RT Armor:18
+CT Armor:30
+HD Armor:8
+LL Armor:28
+RL Armor:28
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
+
+Weapons:6
+1 ISGuardianECM, Right Torso
+1 ISPPC, Head
+1 ISTAG, Head
+1 ISMediumLaser (R), Right Torso (R)
+1 ISMediumLaser (R), Right Torso (R)
+1 ISLiftHoist (R), Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
-IS Stealth
-IS Stealth
+Stealth Armor
+Stealth Armor
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
-IS Stealth
-IS Stealth
+Stealth Armor
+Stealth Armor
 
 Left Torso:
 Life Support
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Stealth
-IS Stealth
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Stealth Armor
+Stealth Armor
 -Empty-
 -Empty-
 
 Right Torso:
 Life Support
-Medium Laser (R)
-Medium Laser (R)
-ISGuardianECMSuite
-ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Stealth
-IS Stealth
+ISMediumLaser (R)
+ISMediumLaser (R)
+ISGuardianECM
+ISGuardianECM
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Stealth Armor
+Stealth Armor
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Cockpit
 Sensors
 ISHeadTurret
@@ -133,42 +137,23 @@ ISHeadTurret
 Head:
 Sensors
 Sensors
-PPC (T)
-PPC (T)
-PPC (T)
+ISPPC (T)
+ISPPC (T)
+ISPPC (T)
 ISTAG
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Stealth Armor
+Stealth Armor
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Stealth Armor
+Stealth Armor

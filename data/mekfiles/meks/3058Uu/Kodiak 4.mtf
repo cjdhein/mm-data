@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kodiak
 model:4
 mul id:1808
 
 Config:Biped
-techbase:Clan
-era:3066
-source:TR:3058U
-rules level:2
+TechBase:Clan
+Era:3066
+Source:TR:3058U
+Rules Level:2
 role:Missile Boat
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:distracting
 
-mass:100
-engine:400 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:20 Clan Double
-walk mp:4
-jump mp:0
+Mass:100
+Engine:400 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:32
-RA armor:32
-LT armor:32
-RT armor:32
-CT armor:40
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:20 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:32
+RA Armor:32
+LT Armor:32
+RT Armor:32
+CT Armor:40
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:7
-LRM 20, Left Arm
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-LRM 20, Right Arm
 ER Medium Laser, Right Arm
 ER Medium Laser, Right Arm
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
 LB 20-X AC, Right Torso
+LRM 20, Right Arm
+LRM 20, Left Arm
 
 Left Arm:
 Shoulder
@@ -73,8 +73,8 @@ CLLRM20
 CLArtemisIV
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -87,8 +87,8 @@ CLLRM20
 CLArtemisIV
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -101,8 +101,8 @@ Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -130,7 +130,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Clan LB 20-X AC Ammo
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -175,8 +175,11 @@ CLDoubleHeatSink
 -Empty-
 
 capabilities:Though not taken to the same extreme as other Clan Totem 'Mechs, the Kodiak does epitomize the Ghost Bears' method of warfare, combining an impressive defensive platform with surprising amounts of speed and firepower. Its massive 400-rated XL Engine propels the Kodiak to a maximum speed of 64.8 km/h, while seventeen and a half tons of Compound 12A2 gives it impressive armor protection. Though it mounts an incredible amount of firepower, even the use of twenty double heat sinks cannot prevent overheating problems when they are all fired simultaneously, though most MechWarriors learn to use their weapons sparingly and love the 'Mech's ability to deliver a massive knockout punch. The Kodiak incorporates the Garret L20 as its communications system, and uses the RCA Instatrac Mark IX for targeting, however the "claws" mounted on both of its arms are purely aesthetic.
+
 deployment:This variant mounts an Artemis IV FCS enhanced LRM-20 and a pair of ER Medium Lasers in each arm. For additional short range firepower, an LB 20-X AC is carried in the right torso.
+
 history:The vast majority of Kodiaks are used by the Ghost Bears, and indeed was exclusive to them in the first years since its introduction. Of those which are found in other toumans, Clan Snow Raven has the largest share, payment for their help in relocating to the Inner Sphere, followed by Clan Goliath Scorpion and Clan Cloud Cobra. Among the Crusader Clans though, only Clan Ice Hellion fields a handful of these 'Mechs. As a interesting note, and proof of the expansion of the Kodiak, at least two of these mechs were found in a Smoke Jaguar unit on planet Asgard, during Operation Bulldog.
+
 manufacturer:Bergan Industries
 primaryfactory:Alshain
 systemmanufacturer:CHASSIS:Bergan Version 12.6 Endo Steel

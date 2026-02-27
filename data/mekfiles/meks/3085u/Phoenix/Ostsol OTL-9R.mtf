@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostsol
 model:OTL-9R
 mul id:2380
 
 Config:Biped
-techbase:Inner Sphere
-era:3077
+TechBase:Inner Sphere
+Era:3077
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Juggernaut
 
-quirk:low_profile
+
+
 quirk:imp_sensors
+quirk:low_profile
 
-mass:60
-engine:180 Fusion Engine
-structure:IS Standard
-myomer:Triple-Strength
-cockpit:Standard Cockpit
-gyro:Heavy Duty Gyro
 
-heat sinks:14 IS Double
-walk mp:3
-jump mp:0
+Mass:60
+Engine:180 Fusion Engine(IS)
+Structure:Standard
+Myomer:Triple-Strength
+Cockpit:Standard Cockpit
+Gyro:Heavy Duty Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:24
-RT armor:24
-CT armor:32
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:4
-RTR armor:4
-RTC armor:7
+Heat Sinks:14 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:24
+RT Armor:24
+CT Armor:32
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:4
+RTR Armor:4
+RTC Armor:7
 
 Weapons:6
 Heavy PPC, Left Torso
@@ -102,7 +104,7 @@ Heavy PPC
 Heavy PPC
 Heavy PPC
 Small Laser
-Triple Strength Myomer
+TSM
 
 Right Torso:
 ISDoubleHeatSink
@@ -112,7 +114,7 @@ ISSNPPC
 ISSNPPC
 ISERMediumLaser
 ISERSmallLaser
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -151,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -165,8 +167,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -174,3 +176,4 @@ Triple Strength Myomer
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Ostol .jpg

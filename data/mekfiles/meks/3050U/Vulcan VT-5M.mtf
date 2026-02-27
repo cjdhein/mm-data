@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vulcan
 model:VT-5M
 mul id:3461
 
 Config:Biped
-techbase:Inner Sphere
-era:3050
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3050
+Source:TR:3050
+Rules Level:2
 role:Striker
 
 quirk:low_profile
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:6
-jump mp:6
+Mass:40
+Engine:240 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:8
-LL armor:10
-RL armor:10
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard Armor
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:8
+LL Armor:10
+RL Armor:10
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
-Machine Gun, Left Arm
-Flamer, Right Arm
-Medium Pulse Laser, Left Torso
-Large Pulse Laser, Right Torso
+1 ISLargePulseLaser, Right Torso
+1 ISMediumPulseLaser, Left Torso
+1 ISFlamer, Right Arm
+1 ISMachine Gun, Left Arm, Ammo:200
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-Machine Gun
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISMachine Gun
 -Empty-
 -Empty-
 -Empty-
@@ -75,10 +75,10 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-Flamer
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISFlamer
 -Empty-
 -Empty-
 -Empty-
@@ -89,14 +89,14 @@ Left Torso:
 Jump Jet
 Jump Jet
 ISMediumPulseLaser
-IS Ammo MG - Full
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMG Ammo (200)
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Torso:
@@ -104,13 +104,13 @@ Jump Jet
 Jump Jet
 ISLargePulseLaser
 ISLargePulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Center Torso:
@@ -169,15 +169,19 @@ Foot Actuator
 -Empty-
 -Empty-
 
-overview:The Vulcan was designed as an anti-infantry 'Mech in 2775 during the closing years of the Amaris Civil War.
+overview:The Vulcan was designed as an anti-infantry 'Mech in 2775 during the closing years of the Amaris Civil War. 
+
 capabilities:The Vulcan is lightly armored at only five tons, though this is typically sufficient when facing infantry forces and its narrow profile makes it a harder target to hit. A cruising speed of 97.2 km/h is enhanced by six jump jets mounted in the rear of the Vulcan's torso, specially vented to reduce heat buildup, giving it a jumping range of 180 meters.
-deployment:The 5M Vulcan is an upgrade of the 2T version used by House Marik that makes the 'Mech far more effective in close range combat. The 'Mech uses a Crucis-II Delux Endo Steel chassis and removes the autocannon for a Tronel PPL-20 Large Pulse Laser and also upgrades the medium laser to a Tronel XII Medium Pulse Laser, using an LFN Lindblad and Flame Tech brand machine gun and flamer respectively. Eleven double heat sinks were also incorporated. This version of the Vulcan began production in 3052 and ceased only with the destruction of Nimakachi's Tematagi plant in 3069.
+
+deployment:The 5M Vulcan is an upgrade of the 2T version used by House Marik that makes the 'Mech far more effective in close range combat. The 'Mech uses a Crucis-II Delux Endo Steel chassis and removes the autocannon for a Tronel PPL-20 Large Pulse Laser and also upgrades the medium laser to a Tronel XII Medium Pulse Laser, using an LFN Lindblad and Flame Tech brand machine gun and flamer respectively. Eleven double heat sinks were also incorporated. This version of the Vulcan began production in 3052 and ceased only with the destruction of Nimakachi's Tematagi plant in 3069. 
+
 history:As the SLDF battled Republican troops in the streets and thoroughfares of the Terran Hegemony, many 'Mechs were destroyed by dug-in infantry during these urban battles. In response to this problem, MatherTechno Inc. designed the Vulcan to pack weaponry capable of taking out large numbers of enemy troops and capable of unparalleled mobility in an urban environment, though not intended to engage in all-out battles with larger 'Mechs. The Vulcan's distinct profile would eventually give rise to its nickname "Scarecrow." Production of the Vulcan began as soon as MatherTechno's factory on Northwind was liberated by the SLDF, with Aleksandr Kerensky himself specifically ordering their production lines converted to produce the Vulcan. The design's baptism of fire came during Operation Liberation, the final battle of the civil war to liberate Terra from Stefan Amaris, where it served as part of the Volunteer Regiments and earned its reputation as a tough city fighter. Each of the Great Houses had a sizable number of Vulcans at the start of the First Succession War when, just a few months into the conflict, MatherTechno's factory on Northwind was destroyed. Only the Lyran Commonwealth and Free Worlds League managed to acquire the design specifications for the Vulcan and keep it in limited production throughout the rest of the Succession Wars, with the League awarding the schematics to Nimakachi Fusion Products Limited and the Commonwealth giving theirs to Coventry Metal Works. Of the other Great Houses the Capellan Confederation had the fewest number of Vulcans as a result of the loss of Sappho, where the majority of their Vulcans were stationed, to House Marik during the Second Succession War. The Federated Suns kept their Vulcans going thanks to several spare part supply dumps located in their territory, and used the 'Mech extensively during the reconquest of Kentares IV. The majority of the Draconis Combine's Vulcan inventory was used during a raid on Dobson in 3020 where they decimated several key Davion aerospace fighter bases. Following the recovery of several lostech components Nimakachi was able to create a new variant, the VT-5M, and begin limited production in 3050, eventually increasing their lines to produce twenty a month. Coventry Metal Works produced their own upgraded variant around the same time, the VT-5S, which played a pivotal role during the FedCom Civil War as part of the Allied forces. The Word of Blake purchased a number of Vulcans in preparation for their seizure of Terra in 3058, codenamed Operation Odysseus. The Blakists would go on to seize more Vulcans after the start of the Jihad following their sacking of Nimakachi's Tematagi plant in 3069, with many transferred to the Protectorate Militia for policing duties.
+
 manufacturer:Nimakachi Fusion Products Ltd.,
 primaryfactory:Tematagi
 systemmanufacturer:CHASSIS:Crucis-II Delux Endo Steel
 systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:StarGuard I
-systemmanufacturer:JUMP_JET:Model 9 Pitban
 systemmanufacturer:COMMUNICATIONS:Hartford 200S
 systemmanufacturer:TARGETING:Hartford TA10
+systemmanufacturer:JUMP_JET:Model 9 Pitban

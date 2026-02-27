@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,68 +15,67 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Clint
 model:CLNT-6S
 mul id:651
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3050
+Rules Level:2
 role:Striker
 
+
+
 quirk:imp_target_long
-quirk:exp_actuator
-quirk:difficult_maintain
 quirk:imp_target_med
+quirk:difficult_maintain
+quirk:exp_actuator
 quirk:non_standard
 
-mass:40
-engine:280 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Standard Gyro
 
-heat sinks:12 IS Double
-walk mp:7
-jump mp:0
+Mass:40
+Engine:280 Light Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
 
-armor:Heavy Ferro-Fibrous(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:16
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:12 Double
+Walk MP:7
+Jump MP:0
 
-Weapons:5
-ER Large Laser, Right Arm
-ER Large Laser, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
-ER Small Laser, Head
+Armor:Heavy Ferro-Fibrous
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:16
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
+
+Weapons:3
+2 ISERLargeLaser, Right Arm
+2 ISERMediumLaser, Left Torso
+1 ISERSmallLaser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -86,39 +85,39 @@ ISERLargeLaser
 ISERLargeLaser
 ISERLargeLaser
 ISERLargeLaser
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Heavy Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Heavy Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -131,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Head:
 Life Support
@@ -140,7 +139,7 @@ Sensors
 Cockpit
 Sensors
 ISERSmallLaser
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -153,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -167,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -176,10 +175,14 @@ IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 
-overview:The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well.
+overview:The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well. 
+
 capabilities:With a top speed of 97.2 km/h and a jumping capability of 180 meters, the Clint can easily keep up with other recon elements and maneuver through mountainous or urban terrain. Its Sloan 220 Lockover T&T system in particular shines, as it is simple to use and provides the pilot with excellent battlefield data. Although the 'Mech has limited ammunition reserves for its autocannon, the Sloane 220 ensures that whatever the Clint shoots at, it hits.
-deployment:Put into production following the fall of Hesperus II to Blakist forces at the outbreak of the Jihad, the 6S uses the 5U as a base, dropping the jump jets in favor of a larger 280-rated Light engine and heavy ferro-fibrous armor. Two ER large lasers provide long-range firepower with two ER medium lasers as backup, while the TAG and C3 slave unit have been removed and a small cockpit used to make room for a head-mounted ER small laser.
+
+deployment:Put into production following the fall of Hesperus II to Blakist forces at the outbreak of the Jihad, the 6S uses the 5U as a base, dropping the jump jets in favor of a larger 280-rated Light engine and heavy ferro-fibrous armor. Two ER large lasers provide long-range firepower with two ER medium lasers as backup, while the TAG and C3 slave unit have been removed and a small cockpit used to make room for a head-mounted ER small laser. 
+
 history:The Clint was built in 2607 as a direct result of the Star League Armaments Act, a law intended to provide frontier areas with cutting-edge warfare technology. However, Andoran Industries Ltd., a tiny BattleMech firm based on Bell, won the project by undercutting its competitors with cost-cutting design features. The Clint was not only made with substandard parts that rarely lasted a year, but it also employed very few standard components; modular pieces that could be easily transferred between many different 'Mechs could not be used in the Clint without extensive modification. The machine became a technician's nightmare, requiring more time to fix than comparable 'Mechs and allowing Andoran to recoup the Clint's low purchase price with a costly service contract. Before the Star League crumbled, over 300 Clints were created, and Andoran's factories were destroyed during conflict between the Federated Suns and the Capellan Confederation. House Davion and House Liao seized the majority of the remaining Clints and dispatched them to isolated regions inside their realms for defense purposes, however the Capellans retained several of the 'Mechs in front-line troops. Nonetheless, the explosion of the Bell facility destroyed not only the original Clint blueprints, effectively terminating new unit and spare part production, but also records of the exact number of Clints made and variants created. Clints could therefore be found across the Inner Sphere throughout the Succession Wars, proving rather popular in the Periphery, although the origins of many of these machines, and whether their different loadouts were official manufacture modifications or simple field-refits, remained unknown. Furthermore, the Clint's non-standard components quickly rose in price - the gyro, in instance, became worth its weight in gold - and many were simply stripped for parts to fix damaged machines. Despite the design's inherent maintenance challenges, an estimated 200 Clints remained in service until the Clan Invasion, largely in the hands of the Capellans or scattered throughout the Suns' border regions. The Confederation also created the 3U model, which the Federated Commonwealth swiftly adopted after the Bell Refit Yards were erected on the ruins of the original factory complex. The plans for the design finally made their way to Defiance Industries of Furillo, which began constructing new Clints for the first time in millennia in 3055.
+
 manufacturer:Defiance Industries
 primaryfactory:Furillo
 systemmanufacturer:CHASSIS:Andoran Model ES-III

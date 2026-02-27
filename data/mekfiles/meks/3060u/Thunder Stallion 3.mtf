@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thunder Stallion
 model:3
 mul id:3226
 
 Config:Quad
-techbase:Clan
-era:3069
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3069
+Source:TR:3060
+Rules Level:2
 role:Juggernaut
 
 quirk:cramped_cockpit
 
-mass:85
-engine:255 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:3
-jump mp:0
+Mass:85
+Engine:255 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-FLL armor:36
-FRL armor:36
-LT armor:20
-RT armor:20
-CT armor:34
-HD armor:9
-RLL armor:36
-RRL armor:36
-RTL armor:16
-RTR armor:16
-RTC armor:20
+Heat Sinks:11 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Clan)
+FLL Armor:36
+FRL Armor:36
+LT Armor:20
+RT Armor:20
+CT Armor:34
+HD Armor:9
+RLL Armor:36
+RRL Armor:36
+RTL Armor:16
+RTR Armor:16
+RTC Armor:20
 
 Weapons:3
 HAG/40, Left Torso
@@ -61,8 +61,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Hyper-Assault Gauss Rifle/40 Ammo
-Hyper-Assault Gauss Rifle/40 Ammo
+HAG/40 Ammo
+HAG/40 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -95,8 +95,8 @@ CLHAG40
 CLHAG40
 CLHAG40
 CLHAG40
-Hyper-Assault Gauss Rifle/40 Ammo
-Hyper-Assault Gauss Rifle/40 Ammo
+HAG/40 Ammo
+HAG/40 Ammo
 
 Right Torso:
 CLLBXAC20
@@ -109,8 +109,8 @@ CLLBXAC20
 CLLBXAC20
 CLLBXAC20
 Clan LB 20-X AC Ammo
-Hyper-Assault Gauss Rifle/40 Ammo
-Hyper-Assault Gauss Rifle/40 Ammo
+HAG/40 Ammo
+HAG/40 Ammo
 
 Center Torso:
 Fusion Engine
@@ -167,4 +167,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

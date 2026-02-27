@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Koshi
 clanname:Mist Lynx
 model:A
 mul id:1827
 
-Config:Biped OmniMek
-techbase:Clan
-era:2926
-source:TR:3050
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:2926
+Source:TR:3050
+Rules Level:2
 role:Scout
 
-quirk:low_profile
 quirk:imp_sensors
+quirk:low_profile
 
-mass:25
-engine:175 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:7
-walk mp:7
-jump mp:6
+Mass:25
+Engine:175 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:4
-RA armor:4
-LT armor:7
-RT armor:7
-CT armor:10
-HD armor:9
-LL armor:5
-RL armor:5
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:7
+Walk MP:7
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:4
+RA Armor:4
+LT Armor:7
+RT Armor:7
+CT Armor:10
+HD Armor:9
+LL Armor:5
+RL Armor:5
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:6
-TAG, Left Arm
-Anti-Missile System, Left Arm
-Anti-Missile System, Left Arm
+Clan TAG, Left Arm
+AMS, Left Arm
+AMS, Left Arm
 Flamer, Right Arm
 Machine Gun, Right Arm
 Machine Gun, Right Arm
@@ -67,12 +67,12 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLTAG (OMNIPOD)
-CLAntiMissileSystem (OMNIPOD)
-CLAntiMissileSystem (OMNIPOD)
-CLAMS Ammo (OMNIPOD)
-CLAMS Ammo (OMNIPOD)
-CLAMS Ammo (OMNIPOD)
+CLTAG (omnipod)
+CLAntiMissileSystem (omnipod)
+CLAntiMissileSystem (omnipod)
+CLAMS Ammo (omnipod)
+CLAMS Ammo (omnipod)
+CLAMS Ammo (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 
@@ -81,10 +81,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLFlamer (OMNIPOD)
-CLMG (OMNIPOD)
-CLMG (OMNIPOD)
-Clan Machine Gun Ammo - Half (OMNIPOD)
+CLFlamer (omnipod)
+CLMG (omnipod)
+CLMG (omnipod)
+Clan Machine Gun Ammo - Half (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -151,7 +151,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod (OMNIPOD)
+CLAntiPersonnelPod (omnipod)
 Clan Endo Steel
 -Empty-
 -Empty-
@@ -165,7 +165,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod (OMNIPOD)
+CLAntiPersonnelPod (omnipod)
 Clan Endo Steel
 -Empty-
 -Empty-

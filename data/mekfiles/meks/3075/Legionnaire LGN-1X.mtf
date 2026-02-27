@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legionnaire
 model:LGN-1X
 mul id:1862
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Source:TR:3075
+Rules Level:2
 role:Striker
 
-quirk:imp_target_med
+
+
+
 quirk:easy_maintain
+quirk:imp_target_med
 weaponquirk:exposed_linkage:RT:3:ISRotaryAC2
 
-mass:50
-engine:350 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:50
+Engine:350 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:17
-RT armor:17
-CT armor:22
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard
+LA Armor:15
+RA Armor:15
+LT Armor:17
+RT Armor:17
+CT Armor:22
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:3
 Rotary AC/2, Right Torso
@@ -63,8 +66,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -77,8 +80,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -95,10 +98,10 @@ BeagleActiveProbe
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -108,8 +111,8 @@ ISRotaryAC2
 ISRotaryAC2
 ISRotaryAC2
 ISRotaryAC2 Ammo
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -147,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

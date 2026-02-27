@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,60 +15,63 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes
 model:HER-4S
 mul id:1494
 
 Config:Biped
-techbase:Inner Sphere
-era:3057
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3057
+Source:TR:3050
+Rules Level:2
 role:Striker
 
-quirk:stable
+
+
 quirk:imp_com
+quirk:stable
 
-mass:30
-engine:270 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:9
-jump mp:0
+Mass:30
+Engine:270 XL Engine
+Structure:Endo Steel
+Myomer:MASC
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:9
-RA armor:9
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:8
-LL armor:12
-RL armor:12
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:9
+Jump MP:0
 
-Weapons:3
-Medium Pulse Laser, Left Arm
-Medium Pulse Laser, Right Arm
-Medium Pulse Laser, Center Torso
+Armor:Ferro-Fibrous
+LA Armor:9
+RA Armor:9
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:8
+LL Armor:12
+RL Armor:12
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
+
+Weapons:4
+1 ISMediumPulseLaser, Right Arm
+1 ISMediumPulseLaser, Left Arm
+1 ISGuardianECM, Right Torso
+1 ISMediumPulseLaser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISMediumPulseLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -77,13 +80,13 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISMediumPulseLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -91,27 +94,27 @@ Fusion Engine
 Fusion Engine
 ISMASC
 ISMASC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGuardianECMSuite
-ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISGuardianECM
+ISGuardianECM
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine

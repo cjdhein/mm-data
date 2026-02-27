@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -138,7 +138,7 @@ At 274.000 tons the Star Lord is the second-largest class of JumpShip ever const
 </overview>
 
 <history>
-Due to the class its sizeable maintenance costs and small remaining production, there are few Star Lords still in the Inner Sphere. The vessel is a favorite of the Free Worlds League, due to which an estimated 40 percent of all Star Lords are now to be found within that realm. House Marikï¿½s production of the design is counted at a rate of two per year, with about one per year being produced in the Draconis Combine. At least one Star Lord is known to possess an L-F Battery. Given to Elected Prince Haakon Magnusson by the NAIS, the Norseman carried the Prince from system to system as he attempted to escape the Clan onslaught destroying his realm.
+Due to the class its sizeable maintenance costs and small remaining production, there are few Star Lords still in the Inner Sphere. The vessel is a favorite of the Free Worlds League, due to which an estimated 40 percent of all Star Lords are now to be found within that realm. House Marik’s production of the design is counted at a rate of two per year, with about one per year being produced in the Draconis Combine. At least one Star Lord is known to possess an L-F Battery. Given to Elected Prince Haakon Magnusson by the NAIS, the Norseman carried the Prince from system to system as he attempted to escape the Clan onslaught destroying his realm.
 </history>
 
 <manufacturer>
@@ -212,4 +212,5 @@ TR:3057r
 <escape_pod>
 6
 </escape_pod>
+
 

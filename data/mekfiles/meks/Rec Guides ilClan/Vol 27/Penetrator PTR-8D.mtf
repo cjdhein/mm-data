@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Penetrator
 model:PTR-8D
 mul id:9353
-
 Config:Biped
 techbase:Inner Sphere
 era:3144
@@ -27,11 +25,14 @@ source:RG27
 rules level:3
 role:Brawler
 
+
+
 quirk:good_rep_1
 quirk:stable
 
+
 mass:75
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 cockpit:Standard Cockpit
@@ -58,10 +59,10 @@ Weapons:9
 Large Re-engineered Laser, Left Arm
 Large Re-engineered Laser, Right Arm
 Medium Laser, Left Torso
-Medium Laser, Left Torso
+Medium Laser, Right Torso
 Medium Laser, Left Torso
 Medium Laser, Right Torso
-Medium Laser, Right Torso
+Medium Laser, Left Torso
 Medium Laser, Right Torso
 Laser AMS, Center Torso
 
@@ -189,3 +190,4 @@ systemmanufacturer:ARMOR:StarGuard Reflec
 systemmanufacturer:JUMP_JET:Anderson 398
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Matabushi Sentinel
+

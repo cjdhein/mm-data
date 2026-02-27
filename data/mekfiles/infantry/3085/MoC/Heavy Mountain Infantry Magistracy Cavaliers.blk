@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +41,6 @@ Cavalier 'Mountain Men' Infantry Guard; Magistracy Cavaliers
 2500
 </year>
 
-<originalBuildYear>
-2500
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -43,10 +48,6 @@ IS Level 3
 <motion_type>
 Leg
 </motion_type>
-
-<Troopers Equipment>
-Magistracy of Canopus Infantry Kit
-</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -64,14 +65,21 @@ Magistracy of Canopus Infantry Kit
 </secondn>
 
 <Primary>
-Rifle (Imperator AX-22 Assault)
+Imperator AX-22 Assault Rifle
 </Primary>
 
 <Secondary>
-InfantryHeavyMortar
+Infantry Heavy Mortar
 </Secondary>
 
 <specialization>
 128
 </specialization>
 
+<armorKit>
+CanopianKit
+</armorKit>
+
+<antimek>
+8
+</antimek>

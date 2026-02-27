@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas II
 model:AS7-D-H
 mul id:152
@@ -27,14 +26,18 @@ source:TR:3075
 rules level:2
 role:Juggernaut
 
+
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
 
+
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -176,10 +179,15 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 
+
 overview:The technologically-advanced Hegemony counterpart to the SLDF's regular army's AS7-D Atlas, the Atlas II was exclusively reserved for SLDF Royal Regiments.
+
 capabilities:The weapons payload gives the design more broad range attack ability versus the Atlas's brawling weaponry and its limited long range attack capacities.
+
 deployment:The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack. In addition, the 'Mech has been given CASE for both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.
+
 history:First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. These 'Mechs are prized by the Clans when they were found. One such 'Mech was spotted in 3052 during the Battle of Tukayyid. In the early 3070s, the design was resurrected by the Word of Blake when they captured Hesperus II's factories. After the liberation of Defiance Industries, Devlin Stone's coalition forces kept the 'Mechs in production.
+
 manufacturer:Defiance Industries,Hegemony Research and Development Department, Weapons Division
 primaryfactory:Hesperus II,New Earth
 systemmanufacturer:CHASSIS:Foundation Type 10X
@@ -187,3 +195,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:StarSlab/2 Ferro Fibrous with CASE
 systemmanufacturer:JUMP_JET:Army Comm Class 5
 systemmanufacturer:COMMUNICATIONS:Army Corporation Type 29K
+

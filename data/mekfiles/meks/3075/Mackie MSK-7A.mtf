@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mackie
 model:MSK-7A
 mul id:4556
@@ -27,13 +26,16 @@ source:Record Sheets: 3075
 rules level:1
 role:Juggernaut
 
-quirk:oversized
+
+
 quirk:easy_maintain
-quirk:rugged_1
 quirk:pro_actuator
+quirk:rugged_1
+quirk:oversized
+
 
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -171,4 +173,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

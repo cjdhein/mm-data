@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Juggernaut
 model:JG-R9T3
 mul id:1715
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3065
+Source:TR:3055U
+Rules Level:4
 role:Juggernaut
 
-quirk:difficult_maintain
+
+
 quirk:imp_life_support
+quirk:difficult_maintain
 
-mass:90
-engine:270 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 IS Double
-walk mp:3
-jump mp:0
+Mass:90
+Engine:270 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:27
-RT armor:27
-CT armor:41
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:9
-RTR armor:9
-RTC armor:14
+Heat Sinks:16 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:28
+RA Armor:28
+LT Armor:27
+RT Armor:27
+CT Armor:41
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:9
+RTR Armor:9
+RTC Armor:14
 
 Weapons:12
 Large X-Pulse Laser, Left Arm
@@ -105,8 +107,8 @@ ISMagshotGR
 ISMagshotGR
 ISMagshotGR
 ISMagshotGR Ammo
-Coolant Pod
-Coolant Pod
+IS Coolant Pod
+IS Coolant Pod
 
 Right Torso:
 ISDoubleHeatSink
@@ -119,8 +121,8 @@ ISMagshotGR
 ISMagshotGR
 ISMagshotGR
 ISMagshotGR Ammo
-Coolant Pod
-Coolant Pod
+IS Coolant Pod
+IS Coolant Pod
 
 Center Torso:
 Fusion Engine
@@ -155,7 +157,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Coolant Pod
+IS Coolant Pod
 -Empty-
 -Empty-
 -Empty-
@@ -169,7 +171,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Coolant Pod
+IS Coolant Pod
 -Empty-
 -Empty-
 -Empty-
@@ -177,4 +179,5 @@ Coolant Pod
 -Empty-
 -Empty-
 -Empty-
+
 

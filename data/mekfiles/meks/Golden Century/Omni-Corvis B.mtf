@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Omni-Corvis
 model:B
 mul id:7612
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2921
 source:TR:GC
@@ -29,8 +28,9 @@ role:Missile Boat
 
 quirk:prototype
 
+
 mass:50
-engine:250 Fusion (Clan) Engine
+engine:250 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -103,8 +103,8 @@ Clan Endo Steel
 
 Right Torso:
 CLNarcBeacon (OMNIPOD)
-ISNarc Pods (OMNIPOD)
-ISNarc Pods (OMNIPOD)
+CLNarc Pods (OMNIPOD)
+CLNarc Pods (OMNIPOD)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -173,3 +173,4 @@ Clan Ferro-Fibrous
 
 manufacturer:Niles Industriplex Alpha
 primaryfactory:Tokasha, Niles
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cerberus
 model:MR-5M
 mul id:526
 
 Config:Biped
-techbase:Inner Sphere
-era:3055
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3055
+Source:TR:3055U
+Rules Level:2
 role:Brawler
 
-quirk:imp_target_long
+
+
 quirk:barrel_fists_la
 quirk:barrel_fists_ra
+quirk:imp_target_long
 quirk:vestigial_hands_la
 quirk:vestigial_hands_ra
 
-mass:95
-engine:380 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 IS Double
-walk mp:4
-jump mp:0
+Mass:95
+Engine:380 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:28
-RT armor:28
-CT armor:40
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:12
-RTR armor:12
-RTC armor:15
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:28
+RT Armor:28
+CT Armor:40
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:12
+RTR Armor:12
+RTC Armor:15
 
 Weapons:11
 Gauss Rifle, Left Arm
@@ -66,7 +68,7 @@ Machine Gun, Left Torso
 Medium Pulse Laser, Right Torso
 Medium Pulse Laser, Right Torso
 Machine Gun, Right Torso
-Anti-Missile System, Head
+AMS, Head
 
 Left Arm:
 Shoulder
@@ -103,11 +105,11 @@ Fusion Engine
 ISMediumPulseLaser
 ISMediumPulseLaser
 Machine Gun (R)
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -117,11 +119,11 @@ Fusion Engine
 ISMediumPulseLaser
 ISMediumPulseLaser
 Machine Gun (R)
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -157,8 +159,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -171,12 +173,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

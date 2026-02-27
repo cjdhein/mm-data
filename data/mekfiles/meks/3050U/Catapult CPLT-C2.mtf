@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,59 +15,61 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Catapult
 model:CPLT-C2
 mul id:5452
 
 Config:Biped
-techbase:Inner Sphere
-era:3062
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3062
+Source:TR:3050
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:no_arms
 quirk:weak_head_1
 
-mass:65
-engine:260 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:4
+Mass:65
+Engine:260 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:28
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard Armor
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:28
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:4
-LRM 15, Left Arm
-LRM 15, Right Arm
-LB 2-X AC, Left Torso
-LB 2-X AC, Right Torso
+1 ISLRM15, Right Arm, Ammo:32
+1 ISLRM15, Left Arm
+1 ISLBXAC2, Right Torso, Ammo:45
+1 ISLBXAC2, Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 ISArtemisIV
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -75,13 +77,13 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 ISArtemisIV
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -96,9 +98,9 @@ ISLBXAC2
 ISLBXAC2
 ISLBXAC2
 ISLBXAC2
-IS Ammo LRM-15 Artemis-capable
-IS Ammo LRM-15 Artemis-capable
-IS Endo Steel
+ISLRM15 Ammo Artemis-capable
+ISLRM15 Ammo Artemis-capable
+Endo-Steel
 
 Right Torso:
 Fusion Engine
@@ -110,9 +112,9 @@ ISLBXAC2
 ISLBXAC2
 ISLBXAC2
 ISLBXAC2
-IS Ammo LRM-15 Artemis-capable
-IS Ammo LRM-15 Artemis-capable
-IS LB 2-X Cluster Ammo
+ISLRM15 Ammo Artemis-capable
+ISLRM15 Ammo Artemis-capable
+ISLBXAC2 CL Ammo
 
 Center Torso:
 Fusion Engine
@@ -125,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

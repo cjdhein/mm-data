@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kyudo
 model:KY2-D-02
 mul id:1851
 
 Config:Biped
-techbase:Inner Sphere
-era:2625
+TechBase:Inner Sphere
+Era:2625
 source:TR:3075
-rules level:2
+Rules Level:2
 role:Missile Boat
 
-quirk:exp_actuator
+
+
 quirk:easy_pilot
+quirk:exp_actuator
 
-mass:45
-engine:225 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:45
+Engine:225 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:22
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:22
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:2
-LRM 20, Left Arm
 ER Large Laser, Right Arm
+LRM 20, Left Arm
 
 Left Arm:
 Shoulder
@@ -67,21 +69,21 @@ LRM 20
 LRM 20
 LRM 20
 ISArtemisIV
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Left Torso:
@@ -91,21 +93,21 @@ ISDoubleHeatSink
 IS Ammo LRM-20 Artemis-capable
 IS Ammo LRM-20 Artemis-capable
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -123,14 +125,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -145,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -159,12 +161,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

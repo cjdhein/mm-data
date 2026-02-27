@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crusader
 model:CRD-9S
 mul id:8263
@@ -27,13 +26,16 @@ source:Shrap05
 rules level:3
 role:Sniper
 
+
+
 quirk:easy_maintain
-quirk:ubiquitous_clan
 quirk:rugged_1
+quirk:ubiquitous_clan
 quirk:ubiquitous_is
 
+
 mass:65
-engine:260 XL Engine
+engine:260 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -41,7 +43,7 @@ heat sinks:10 IS Double
 walk mp:4
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:17
 RA armor:17
 LT armor:19
@@ -56,10 +58,10 @@ RTC armor:8
 
 Weapons:5
 LRM 10, Left Arm
-ER Medium Laser, Left Arm
 LRM 10, Right Arm
+ER Medium Laser, Left Arm
 ER Medium Laser, Right Arm
-Improved Heavy Gauss Rifle, Center Torso
+Improved Heavy Gauss Rifle, Left Torso
 
 Left Arm:
 Shoulder
@@ -183,3 +185,4 @@ systemmanufacturer:ENGINE:Defiance Exalto 325 XL
 systemmanufacturer:ARMOR:Durallex Medium with CASE
 systemmanufacturer:COMMUNICATIONS:TharHes Melpomene HM-33
 systemmanufacturer:TARGETING:TharHes Ares-9 with Artemis IV FCS
+

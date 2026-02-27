@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grand Crusader
 model:GRN-D-02
 mul id:1253
 
 Config:Biped
-techbase:Inner Sphere
-era:3056
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3055U
+Rules Level:2
 role:Missile Boat
 
+
+
 quirk:bad_rep_is
-weaponquirk:direct_torso_mount:LT:3:LRM 20
 weaponquirk:direct_torso_mount:RT:3:LRM 20
+weaponquirk:direct_torso_mount:LT:3:LRM 20
 
-mass:80
-engine:240 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:0
+Mass:80
+Engine:240 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:24
-RT armor:24
-CT armor:34
-HD armor:9
-LL armor:31
-RL armor:31
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:24
+RT Armor:24
+CT Armor:34
+HD Armor:9
+LL Armor:31
+RL Armor:31
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:6
 Large Pulse Laser, Left Arm
@@ -71,9 +73,9 @@ ISLargePulseLaser
 ISLargePulseLaser
 LRM 5
 ISArtemisIV
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -82,12 +84,12 @@ ISLargePulseLaser
 ISLargePulseLaser
 LRM 5
 ISArtemisIV
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -135,7 +137,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -150,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

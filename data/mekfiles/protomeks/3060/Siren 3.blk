@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Striker
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 8
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 0
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -98,7 +90,6 @@ false
 
 <Body Equipment>
 Clan Ammo SRM-1 (20)
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -117,6 +108,14 @@ CLSRM1
 
 <Legs Equipment>
 </Legs Equipment>
+
+<source>
+TR:3060
+</source>
+
+<tonnage>
+3.0
+</tonnage>
 
 <capabilities>
 Its armoring was also kept minimal in order to attain a cruise speed of 108 km/h. Its rapid speed let it to charge forward, locate enemy positions, launch a missile strike, and flee without being seen by the enemy. Considering its weak armor, the Siren's best defense is its agility.
@@ -146,16 +145,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3060
-</source>
-
-<tonnage>
-3.0
-</tonnage>
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grand Crusader
 model:GRN-D-02-B
 mul id:8423
@@ -27,12 +26,15 @@ source:RG23
 rules level:2
 role:Sniper
 
+
+
 quirk:bad_rep_is
-weaponquirk:direct_torso_mount:LT:3:LRM 20
 weaponquirk:direct_torso_mount:RT:3:LRM 20
+weaponquirk:direct_torso_mount:LT:3:LRM 20
+
 
 mass:80
-engine:320 XL Engine
+engine:320 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -55,11 +57,11 @@ RTC armor:15
 
 Weapons:7
 ER Large Laser, Left Arm
-Medium Pulse Laser, Left Arm
-ER Large Laser, Right Arm
 Medium Pulse Laser, Right Arm
-LRM 20, Left Torso
+ER Large Laser, Right Arm
+Medium Pulse Laser, Left Arm
 LRM 20, Right Torso
+LRM 20, Left Torso
 Anti-Missile System, Head
 
 Left Arm:
@@ -173,4 +175,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

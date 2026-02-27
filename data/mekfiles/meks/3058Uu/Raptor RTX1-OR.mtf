@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Raptor
 model:RTX1-OR
 mul id:2655
 
-Config:Biped OmniMek
-techbase:Mixed (IS Chassis)
-era:3059
-source:TR:3058U
-rules level:4
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3059
+Source:TR:3058U
+Rules Level:4
 role:Striker
+
+
 
 quirk:easy_maintain
 
-mass:25
-engine:175 XL Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-base chassis heat sinks:7
-walk mp:7
-jump mp:0
+Mass:25
+Engine:175 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:7
-RT armor:7
-CT armor:8
-HD armor:6
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:7
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:7
+RT Armor:7
+CT Armor:8
+HD Armor:6
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:5
 ER Large Laser, Left Arm
@@ -68,8 +70,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
 -Empty-
 -Empty-
 
@@ -79,8 +81,8 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -126,8 +128,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERSmallLaser (OMNIPOD)
-ISC3SlaveUnit (OMNIPOD)
+CLERSmallLaser (omnipod)
+ISC3SlaveUnit (omnipod)
 
 Head:
 Life Support
@@ -170,4 +172,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

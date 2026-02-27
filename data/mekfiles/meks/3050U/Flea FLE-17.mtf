@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flea
 model:FLE-17
 mul id:1137
 
 Config:Biped
-techbase:Inner Sphere
-era:3049
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3049
+Source:TR:3050
+Rules Level:2
 role:Striker
 
-quirk:no_arms
+
+
 quirk:easy_maintain
 quirk:imp_life_support
+quirk:no_arms
 
-mass:20
-engine:120 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:20
+Engine:120 Fusion Engine
+Structure:Endo Steel
+Myomer:MASC
 
-armor:Standard(Inner Sphere)
-LA armor:4
-RA armor:4
-LT armor:5
-RT armor:5
-CT armor:8
-HD armor:5
-LL armor:4
-RL armor:4
-RTL armor:3
-RTR armor:3
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:4
+RA Armor:4
+LT Armor:5
+RT Armor:5
+CT Armor:8
+HD Armor:5
+LL Armor:4
+RL Armor:4
+RTL Armor:3
+RTR Armor:3
+RTC Armor:3
 
 Weapons:5
-Medium Pulse Laser, Left Arm
-Medium Pulse Laser, Right Arm
-Small Laser, Left Torso
-Small Laser, Right Torso
-Flamer, Center Torso
+1 ISMediumPulseLaser, Left Arm
+1 ISMediumPulseLaser, Right Arm
+1 ISFlamer, Center Torso
+1 ISSmallLaser, Left Torso (R)
+1 ISSmallLaser, Right Torso (R)
 
 Left Arm:
 Shoulder
@@ -90,28 +92,28 @@ ISMediumPulseLaser
 
 Left Torso:
 Heat Sink
-Small Laser (R)
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISSmallLaser (R)
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 
 Right Torso:
 Heat Sink
-Small Laser (R)
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISSmallLaser (R)
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -128,7 +130,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISMASC
-Flamer
+ISFlamer
 
 Head:
 Life Support

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman IIC
 model:5
 mul id:2714
 
 Config:Biped
-techbase:Clan
-era:3069
+TechBase:Clan
+Era:3069
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
 
 quirk:anti_air
 quirk:imp_com
 
-mass:65
-engine:195 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:19 Clan Double
-walk mp:3
-jump mp:5
+Mass:65
+Engine:195 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:19 Double
+Walk MP:3
+Jump MP:5
+
+Armor:Standard(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:5
 ER Large Laser, Left Arm
@@ -66,8 +66,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERLargeLaser
 CLMediumPulseLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -84,8 +84,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERLargeLaser
 CLMediumPulseLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 CLDoubleHeatSink
@@ -94,12 +94,12 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Endo Steel
-Clan Endo Steel
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Endo Steel
+Endo Steel
 
 Right Torso:
 CLDoubleHeatSink
@@ -108,11 +108,11 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Endo Steel
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -126,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 
 Head:
 Life Support
@@ -171,10 +171,14 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-overview:The Rifleman IIC is an upgrade of the venerable Rifleman BattleMech. Five tons heavier than the design it is based on, the Rifleman IIC is also slower.
-capabilities:Five tons heavier than the design it is based on, the Rifleman IIC is also slower. This creates a great deal more room with which to mount other equipment. Further weight savings are found in the use of an Endo Steel frame. One of the first upgrades to the design was maxing out its protection, with eleven tons of Ferro-Fibrous armor.
-deployment:This version uses enough Improved Jump Jets to vault up to 150 meters at a time. Nineteen double heat sinks keep the heat from three ER Large Lasers and two Medium Pulse Lasers in check. The IIC 5 is a capable mobile sniper.
+overview:The Rifleman IIC is an upgrade of the venerable Rifleman BattleMech. Five tons heavier than the design it is based on, the Rifleman IIC is also slower. 
+
+capabilities:Five tons heavier than the design it is based on, the Rifleman IIC is also slower. This creates a great deal more room with which to mount other equipment. Further weight savings are found in the use of an Endo Steel frame. One of the first upgrades to the design was maxing out its protection, with eleven tons of Ferro-Fibrous armor. 
+
+deployment:This version uses enough Improved Jump Jets to vault up to 150 meters at a time. Nineteen double heat sinks keep the heat from three ER Large Lasers and two Medium Pulse Lasers in check. The IIC 5 is a capable mobile sniper. 
+
 history:An ancient rebuild of an already ancient design, the Rifleman IIC has soldiered on throughout the centuries. The ’Mech can be found in service with most Clans (a notable exception is Clan Wolf, which prefers the Glass Spider) and several Inner Sphere powers. Its simplicity is matched only by its effectiveness, and new variants continue to debut.
+
 manufacturer:Red Devil Industries,Trellshire Heavy Industries
 primaryfactory:Pandora,Twycross
 systemmanufacturer:CHASSIS:CCo-B Endo

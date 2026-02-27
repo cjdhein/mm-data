@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Goshawk II
 model:3
 mul id:1248
-
 Config:Biped
 techbase:Clan
 era:3086
@@ -27,11 +25,12 @@ source:TR:3085
 rules level:2
 role:Striker
 
-quirk:nimble_jumper
 quirk:imp_life_support
+quirk:nimble_jumper
+
 
 mass:45
-engine:315 XL (Clan) Engine
+engine:315 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -39,7 +38,7 @@ heat sinks:10 Clan Double
 walk mp:7
 jump mp:7
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:12
 RA armor:12
 LT armor:16
@@ -168,4 +167,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat Mk II
 model:Enhanced
 mul id:4564
-
 Config:Biped
 techbase:Clan
 era:3083
@@ -30,8 +28,9 @@ role:Sniper
 quirk:imp_target_med
 quirk:pro_actuator
 
+
 mass:90
-engine:360 XL (Clan) Engine
+engine:360 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -39,7 +38,7 @@ heat sinks:18 Clan Double
 walk mp:4
 jump mp:4
 
-armor:Hardened(Inner Sphere)
+armor:Hardened(Clan)
 LA armor:20
 RA armor:20
 LT armor:22
@@ -183,3 +182,4 @@ systemmanufacturer:ARMOR:Forging ZM15 Ferro Fibrous
 systemmanufacturer:JUMP_JET:Grandthrust Mk. 5
 systemmanufacturer:COMMUNICATIONS:MegaBand System 21
 systemmanufacturer:TARGETING:Dtrac Suite 4
+

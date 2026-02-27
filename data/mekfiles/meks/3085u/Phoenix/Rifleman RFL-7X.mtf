@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-7X
 mul id:2704
 
 Config:Biped
-techbase:Inner Sphere
-era:3081
+TechBase:Inner Sphere
+Era:3081
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:360 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:12 IS Double
-walk mp:6
-jump mp:6
+Mass:60
+Engine:360 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:22
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:22
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
 Snub-Nose PPC, Left Arm
@@ -70,11 +72,11 @@ ISSNPPC
 ISSNPPC
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Right Arm:
@@ -84,11 +86,11 @@ ISSNPPC
 ISSNPPC
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -97,11 +99,11 @@ Fusion Engine
 Fusion Engine
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -111,11 +113,11 @@ Fusion Engine
 Fusion Engine
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -137,7 +139,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -175,3 +177,4 @@ Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Rifleman .jpg

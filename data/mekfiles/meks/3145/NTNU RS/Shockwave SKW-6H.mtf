@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shockwave
 model:SKW-6H
 mul id:6903
 
 Config:Biped
-techbase:Inner Sphere
-era:3102
-source:RS:3145-NTNU
-rules level:2
+TechBase:Inner Sphere
+Era:3102
+Source:RS:3145-NTNU
+Rules Level:2
 role:Sniper
+
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:easy_maintain
 
-mass:50
-engine:250 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:50
+Engine:250 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:17
-RT armor:17
-CT armor:22
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:17
+RT Armor:17
+CT Armor:22
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:3
-ER Large Laser, Left Torso
 Ultra AC/10, Right Torso
+ER Large Laser, Left Torso
 LRM 10, Right Torso
 
 Left Arm:
@@ -171,4 +173,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

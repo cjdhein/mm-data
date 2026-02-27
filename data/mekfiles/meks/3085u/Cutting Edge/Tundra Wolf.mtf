@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tundra Wolf
 model:
 mul id:3315
 
 Config:Biped
-techbase:Clan
-era:3076
+TechBase:Clan
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
 
 quirk:easy_maintain
 quirk:weak_head_1
 
-mass:75
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:17 Clan Double
-walk mp:4
-jump mp:4
+Mass:75
+Engine:300 XL (Clan) Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:34
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:17 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:34
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:8
 ATM 9, Left Arm
@@ -73,8 +74,8 @@ CLATM9
 Clan Ammo ATM-9
 Clan Ammo ATM-9 ER
 Clan Ammo ATM-9 HE
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -86,9 +87,9 @@ CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -130,13 +131,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLECMSuite
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -174,3 +175,4 @@ Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3076Tundra Wolf.jpg

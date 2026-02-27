@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,19 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ryoken III-XP
 clanname:Skinwalker
 model:Prime
 mul id:7378
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (Clan Chassis)
 era:3143
-source:XTR:RotS 3
 rules level:4
 role:Striker
-
+Source:XTR:RotS 3
 
 mass:55
 engine:330 XL (Clan) Engine
@@ -185,3 +182,4 @@ systemmanufacturer:ENGINE:330 Fusion Extralight
 systemmanufacturer:ARMOR:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
+

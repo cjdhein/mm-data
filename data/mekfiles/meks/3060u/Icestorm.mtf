@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Icestorm
 model:
 mul id:1602
 
 Config:Biped
-techbase:Clan
-era:2830
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:2830
+Source:TR:3060
+Rules Level:2
 role:Scout
 
-quirk:rugged_1
+
 quirk:imp_sensors
+quirk:rugged_1
 
-mass:25
-engine:300 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:12
-jump mp:0
+Mass:25
+Engine:300 XL (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:6
-RT armor:6
-CT armor:8
-HD armor:6
-LL armor:7
-RL armor:7
-RTL armor:1
-RTR armor:1
-RTC armor:2
+Heat Sinks:10 Single
+Walk MP:12
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:6
+RA Armor:6
+LT Armor:6
+RT Armor:6
+CT Armor:8
+HD Armor:6
+LL Armor:7
+RL Armor:7
+RTL Armor:1
+RTR Armor:1
+RTC Armor:2
 
 Weapons:3
 ER Medium Laser, Right Arm
-TAG, Center Torso
+Clan TAG, Center Torso
 SRM 2, Head
 
 Left Arm:
@@ -168,4 +169,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

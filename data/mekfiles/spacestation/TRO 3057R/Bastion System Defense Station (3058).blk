@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SpaceStation
 </UnitType>
@@ -40,18 +49,22 @@ Bastion System Defense Station
 IS Level 3
 </type>
 
+<designtype>
+1
+</designtype>
+
 <motion_type>
 Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:12.0:2:1::-1:0
-asfbay:36.0:5:2::-1:0
+smallcraftbay:12.0:2:1
+asfbay:36.0:5:2
 navalrepairpressurized:30000.0:1:3:f0
 navalrepairpressurized:30000.0:1:4:f3
-crewquarters:3465.0:0:-1::-1:0
-1stclassquarters:920.0:0:-1::-1:0
-cargobay:125483.0:1:7::-1:0
+crewquarters:3465.0:0
+1stclassquarters:920.0:0
+cargobay:125483.0:1:7
 </transporters>
 
 <SafeThrust>
@@ -78,13 +91,9 @@ cargobay:125483.0:1:7::-1:0
 41
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 20
@@ -340,10 +349,6 @@ TR:3057r
 250
 </grav_decks>
 
-<designtype>
-1
-</designtype>
-
 <crew>
 694
 </crew>
@@ -375,4 +380,3 @@ TR:3057r
 <escape_pod>
 35
 </escape_pod>
-

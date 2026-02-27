@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas
 model:C 3
 mul id:8432
@@ -27,14 +26,17 @@ source:RG24
 rules level:3
 role:Sniper
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
 
+
 mass:100
-engine:300 Fusion (Clan) Engine
+engine:300 Fusion (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -42,7 +44,7 @@ heat sinks:17 Clan Double
 walk mp:3
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:34
 RA armor:34
 LT armor:32
@@ -58,8 +60,8 @@ RTC armor:14
 Weapons:4
 ER Large Laser, Left Arm
 ER Large Laser, Right Arm
-Arrow IV, Center Torso
 Gauss Rifle, Right Torso
+Arrow IV, Left Torso
 
 Left Arm:
 Shoulder
@@ -184,3 +186,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Durallex Special Heavy
 systemmanufacturer:COMMUNICATIONS:Angst Discom
 systemmanufacturer:TARGETING:Angst Accuracy
+

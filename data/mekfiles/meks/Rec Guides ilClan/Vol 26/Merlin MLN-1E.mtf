@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Merlin
 model:MLN-1E
 mul id:9317
@@ -30,8 +29,9 @@ role:Sniper
 quirk:easy_maintain
 quirk:rugged_1
 
+
 mass:60
-engine:240 Fusion Engine
+engine:240 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -53,8 +53,8 @@ RTR armor:8
 RTC armor:11
 
 Weapons:5
-Light PPC, Left Arm
 Light PPC, Right Arm
+Light PPC, Left Arm
 Flamer, Left Torso
 PPC, Right Torso
 MML 5, Right Torso
@@ -172,9 +172,13 @@ Jump Jet
 -Empty-
 
 overview:The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech.
+
 capabilities:The 'Mech is powered by a Pitban 240 fusion engine that gives it a top speed of 64.8 km/h. The Merlin carries ten and a half tons of armor, which is a respectable amount of protection for its weight. Additionally, the Merlin carries eighteen heat sinks to handle its heavy heat load.
+
 deployment:No Information Available
+
 history:The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years.
+
 manufacturer:Mountain Wolf BattleMechs, Vandenberg Mechanized Industries
 primaryfactory:Alpheratz, New Vandenberg
 systemmanufacturer:CHASSIS:Heavy Star QAT-4

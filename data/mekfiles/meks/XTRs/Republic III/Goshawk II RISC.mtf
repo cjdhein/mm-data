@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Goshawk II
 model:RISC
 mul id:7376
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3136
-source:XTR:RotS 3
-rules level:4
+TechBase:Mixed (Clan Chassis)
+Era:3136
+Source:XTR:RotS 3
+Rules Level:4
 role:Striker
 
-quirk:nimble_jumper
-quirk:flawed_cooling
-quirk:combat_computer
 quirk:imp_life_support
+quirk:nimble_jumper
+quirk:combat_computer
+quirk:flawed_cooling
 quirk:prototype
 
-mass:45
-engine:315 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:7
-jump mp:7
+Mass:45
+Engine:315 XXL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:12
-RA armor:12
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:11 Double
+Walk MP:7
+Jump MP:7
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:3
-Plasma Cannon, Left Arm
 Streak LRM 10, Right Arm
 Improved Heavy Large Laser, Left Torso
+Plasma Cannon, Left Arm
 
 Left Arm:
 Shoulder
@@ -171,4 +171,5 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Star Adder
 clanname:Blood Asp
 model:C
 mul id:401
 
-Config:Biped OmniMek
-techbase:Clan
-era:3060
-source:TR:3060
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3060
+Source:TR:3060
+Rules Level:2
 role:Brawler
 
 quirk:rugged_1
 
-mass:90
-engine:360 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:14 Clan Double
-base chassis heat sinks:14
-walk mp:4
-jump mp:0
+Mass:90
+Engine:360 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:24
-RT armor:24
-CT armor:40
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:11
-RTR armor:11
-RTC armor:13
+Heat Sinks:14 Double
+Base Chassis Heat Sinks:14
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:28
+RA Armor:28
+LT Armor:24
+RT Armor:24
+CT Armor:40
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:11
+RTR Armor:11
+RTC Armor:13
 
 Weapons:4
 Ultra AC/10, Left Arm
@@ -62,10 +62,10 @@ LB 20-X AC, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -77,7 +77,7 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Endo Steel
 -Empty-
 -Empty-
@@ -90,29 +90,29 @@ Clan Endo Steel
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
 Clan Endo Steel
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
-CLLBXAC20 (OMNIPOD)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
+CLLBXAC20 (omnipod)
 Clan Endo Steel
 
 Center Torso:
@@ -126,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan LB 20-X AC Ammo (OMNIPOD)
-Clan LB 20-X Cluster Ammo (OMNIPOD)
+Clan LB 20-X AC Ammo (omnipod)
+Clan LB 20-X Cluster Ammo (omnipod)
 
 Head:
 Life Support
@@ -172,9 +172,13 @@ Foot Actuator
 -Empty-
 
 overview:One of the first 'Mechs to field the breakthrough Heavy Laser technology, the Blood Asp proves to be an offensive powerhouse. Delivering incredible damage at all ranges, the Blood Asp makes short work of any enemy regardless of size.
+
 capabilities:Based on the Kingfisher, the Blood Asp adds an XL engine, but space constraints forced the replacement of the Kingfisher's ferro-fibrous armor with standard plate. The Blood Asp incorporates sixteen tons of this armor and fourteen double heat sinks in the base chassis.
+
 deployment:This ammunition-dependent version uses a pair of Ultra Autocannon/10s and an LB 20-X AC for close-range duels, which its dearth of ammunition further reinforces. It mounts a lone ER Large Laser for long-range support.
+
 history:Created by Clan Star Adder as an insult to their enemies, Clan Blood Spirit, the Blood Asp has a large amount of available pod space for its size.
+
 manufacturer:Sheridan LM-TA 8-10
 primaryfactory:Sheridan
 systemmanufacturer:CHASSIS:Type MAES-90 Light

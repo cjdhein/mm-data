@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -36,10 +45,6 @@ X-C3(Sqd5)
 3076
 </year>
 
-<originalBuildYear>
-3076
-</originalBuildYear>
-
 <type>
 IS Level 4
 </type>
@@ -47,12 +52,6 @@ IS Level 4
 <role>
 Ambusher
 </role>
-
-<quirks>
-bad_rep_is
-prototype
-imp_com
-</quirks>
 
 <motion_type>
 Jump
@@ -73,8 +72,12 @@ Jump
 <Squad Equipment>
 BAArmoredGlove:LA
 BAArmoredGlove:RA
-InfantryAssaultRifle:APM:RA
 ISBC3i:Body
+Infantry Auto Rifle:APM:RA
+SwarmMek
+SwarmWeaponMek
+StopSwarm
+LegAttack
 IS BA Stealth (Basic):RA
 IS BA Stealth (Basic):Body
 IS BA Stealth (Basic):LA
@@ -95,9 +98,32 @@ IS BA Stealth (Basic):LA
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BAJumpJet
-</slotless_equipment>
+<source>
+XTR:Comstar
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+4
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
+
+The Kobold is a battle armor design that was collaborated on by the Free Rasalhague Republic, ComStar, and the second Star League.
+</overview>
 
 <capabilities>
 The Kobold can only jump up to ninety meters at a time, but it does boast enough armor to stop a medium laser. This armor is of the basic stealth variety, making it more difficult to target far away. The Kobold has the distinction of being a battle armor suit used by the Inner Sphere, ComStar, and the Clans.
@@ -123,32 +149,14 @@ Unknown
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
 
-<source>
-XTR:Comstar
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-4
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
+<quirks>
+prototype
+bad_rep_is
+imp_com
+</quirks>
 

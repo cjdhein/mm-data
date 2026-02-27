@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -141,7 +141,7 @@ The Chimeisho-class has a traditional needle-like shape featurings a spherical c
 </capabilities>
 
 <overview>
-The Chimeisho-class JumpShip is a product of the Draconis Combineï¿½s technological renaissance, marking the reactivation of the Izumi JumpShip yards at Altair by the Kurita Combine Munitions Corporation. Operated by a crew of thirty who live in cramped yet technologically advanced quarters, the Chimeisho was initially produced exclusively for the Draconis Combine Mustered Soldiery (DCMS) to bolster their strategic interstellar capabilities in the mid-3050s.
+The Chimeisho-class JumpShip is a product of the Draconis Combine’s technological renaissance, marking the reactivation of the Izumi JumpShip yards at Altair by the Kurita Combine Munitions Corporation. Operated by a crew of thirty who live in cramped yet technologically advanced quarters, the Chimeisho was initially produced exclusively for the Draconis Combine Mustered Soldiery (DCMS) to bolster their strategic interstellar capabilities in the mid-3050s.
 </overview>
 
 <history>
@@ -227,4 +227,5 @@ TR:3057r
 <escape_pod>
 0
 </escape_pod>
+
 

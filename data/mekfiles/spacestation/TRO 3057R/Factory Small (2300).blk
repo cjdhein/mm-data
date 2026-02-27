@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SpaceStation
 </UnitType>
@@ -25,7 +34,7 @@ Factory
 </Name>
 
 <Model>
-Small (2300)
+ Small (2300)
 </Model>
 
 <mul id:>
@@ -53,10 +62,10 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:2.0:2:1::-1:0
-crewquarters:329.0:0:-1::-1:0
-1stclassquarters:240.0:0:-1::-1:0
-cargobay:1197.0:1:4::-1:0
+smallcraftbay:2.0:2:1
+crewquarters:329.0:0
+1stclassquarters:240.0:0
+cargobay:1197.0:1:4
 </transporters>
 
 <SafeThrust>
@@ -83,13 +92,9 @@ cargobay:1197.0:1:4::-1:0
 40
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 8
@@ -141,10 +146,6 @@ TR:3057r
 65
 </grav_decks>
 
-<designtype>
-0
-</designtype>
-
 <crew>
 66
 </crew>
@@ -176,4 +177,3 @@ TR:3057r
 <escape_pod>
 4
 </escape_pod>
-

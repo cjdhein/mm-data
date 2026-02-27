@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -32,13 +41,50 @@ DI Morgan Assault Tank
 899
 </mul id:>
 
-<year>
-3075
-</year>
+<Tonnage>
+100
+</Tonnage>
 
-<originalBuildYear>
-3075
-</originalBuildYear>
+<cruiseMP>
+3
+</cruiseMP>
+
+<Armor>
+57
+41
+41
+28
+41
+</Armor>
+
+<Front Equipment>
+ISERMediumLaser
+ISERMediumLaser
+</Front Equipment>
+
+<Turret Equipment>
+ISLRM20
+ISArtemisIV
+ISLRM20
+ISArtemisIV
+ISLRM20
+ISArtemisIV
+ISLRM20
+ISArtemisIV
+</Turret Equipment>
+
+<Body Equipment>
+ISC3SlaveUnit
+ISCASE
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+</Body Equipment>
 
 <type>
 IS Level 2
@@ -48,75 +94,29 @@ IS Level 2
 Missile Boat
 </role>
 
-<motion_type>
-Tracked
-</motion_type>
+<year>
+3075
+</year>
 
-<cruiseMP>
-3
-</cruiseMP>
+<source>
+TR:3075
+</source>
 
-<engine_type>
-2
-</engine_type>
+<internal_type>
+0
+</internal_type>
 
 <armor_type>
 6
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
+<engine_type>
+2
+</engine_type>
 
-<armor_tech_level>
-1
-</armor_tech_level>
-
-<armor>
-57
-41
-41
-28
-41
-</armor>
-
-<Body Equipment>
-ISC3SlaveUnit
-ISCASE
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-</Body Equipment>
-
-<Front Equipment>
-ISERMediumLaser
-ISERMediumLaser
-</Front Equipment>
-
-<Right Equipment>
-</Right Equipment>
-
-<Left Equipment>
-</Left Equipment>
-
-<Rear Equipment>
-</Rear Equipment>
-
-<Turret Equipment>
-LRM 20
-ISArtemisIV
-LRM 20
-ISArtemisIV
-LRM 20
-ISArtemisIV
-LRM 20
-ISArtemisIV
-</Turret Equipment>
+<motion_type>
+Tracked
+</motion_type>
 
 <manufacturer>
 Defiance Motors, Defiance Industries
@@ -133,12 +133,3 @@ ARMOR:Durallex Super Hvy Ferro-Fibrous
 COMMUNICATIONS:Neil 6000V
 TARGETING:Angst ClearView 2AV
 </systemManufacturers>
-
-<source>
-TR:3075
-</source>
-
-<tonnage>
-100.0
-</tonnage>
-

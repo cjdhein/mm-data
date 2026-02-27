@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kintaro
 model:KTO-19b
 mul id:1792
 
 Config:Biped
-techbase:Inner Sphere
-era:2731
+TechBase:Inner Sphere
+Era:2731
 source:TR:3075
-rules level:2
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:rugged_1
 
-mass:55
-engine:275 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:55
+Engine:275 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:27
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:27
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:6
+Medium Laser, Right Arm
+Medium Laser, Right Arm
 LRM 15, Left Arm
 SRM 6, Left Arm
-Medium Laser, Right Arm
-Medium Laser, Right Arm
 SRM 6, Right Torso
 Narc, Center Torso
 
@@ -69,9 +71,9 @@ LRM 15
 LRM 15
 SRM 6
 SRM 6
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -80,8 +82,8 @@ Lower Arm Actuator
 Hand Actuator
 Medium Laser
 Medium Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -95,8 +97,8 @@ IS Ammo LRM-15 Narc-capable
 IS Ammo LRM-15 Narc-capable
 IS Ammo SRM-6 Narc-capable
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -111,8 +113,8 @@ ISNarc Pods
 ISNarc Pods
 IS Ammo SRM-6 Narc-capable
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -133,7 +135,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +164,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -172,9 +174,13 @@ IS Ferro-Fibrous
 -Empty-
 
 overview:Introduced in 2587 for the SLDF, the Kintaro was designed with one sole mission: tagging enemy units with a Narc Missile Beacon. As such, it is a 'Mech that is intended to work in a team with a missile-heavy lance.
+
 capabilities:After it delivers its deadly package to the enemy, the Kintaro disengages and lets its lance mates do most of the work as their missiles track the signal from the beacon. The act of putting this into practice is far less simple. With a maximum speed of 86.4 km/h the Kintaro is not able to engage and disengage from enemy units as easily as its designers envisioned and because of this, if a pilot is not observant of their surroundings and the enemy, they can find themselves in a very dangerous situation.
+
 deployment:The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. It used an XL Engine and Double Heat Sinks to free up space to upgrade the KTO-19's LRM-5 launcher to a larger LRM-15 with two tons of CASE-protected ammunition. CASE was also added to the SRM ammo bins, with the leftover half ton devoted to more armor.
+
 history:The Succession Wars saw the last known Narc factory destroyed in 2792, and the advances made during the Star League era became lostech. The loss of Narc beacons rendered the Kintaro's role unnecessary, and it became just another missile-armed 'Mech. By the Third Succession War the Kintaro was nearly extinct, but in the end was saved when General Dynamics rebuilt a Kintaro factory on Ozawa, though they could only produce the downgraded KTO-18 variant. ComStar however maintained a number of original Kintaros which they used to outfit their Com Guards. They also produced their own slightly-downgraded variant, the KTO-20, which they gifted to the Draconis Combine as part of Operation Rosebud. Concentrated among the Ghost Regiments and certain Sword of Light regiments, the superiority of these 'Mechs over their Federated Commonwealth cousins caused an overreaction during the War of 3039 as they were targeted for destruction more than necessary, leaving other units free to fight.
+
 manufacturer:General Mechanics
 primaryfactory:Mars
 systemmanufacturer:CHASSIS:Technicron-1

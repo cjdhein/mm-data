@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lupus
 model:D
 mul id:7629
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3147
 source:TR:GC
@@ -29,12 +28,13 @@ role:Brawler
 
 quirk:exp_actuator
 
+
 mass:60
-engine:300 Fusion (Clan) Engine
+engine:300 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:10 Clan Double
+heat sinks:10 Double
 base chassis heat sinks:10
 walk mp:5
 jump mp:0
@@ -63,8 +63,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLERMediumPulseLaser (OMNIPOD)
-CLERMediumPulseLaser (OMNIPOD)
+CLERMediumPulseLaser (omnipod)
+CLERMediumPulseLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -75,23 +75,23 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
-CLRotaryAC5 (OMNIPOD)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
+CLRotaryAC5 (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 
 Left Torso:
-CLStreakLRM10 (OMNIPOD)
-CLStreakLRM10 (OMNIPOD)
-CLERMediumPulseLaser (R) (OMNIPOD)
-CLERMediumPulseLaser (R) (OMNIPOD)
-Clan Streak LRM 10 Ammo (OMNIPOD)
+CLStreakLRM10 (omnipod)
+CLStreakLRM10 (omnipod)
+CLERMediumPulseLaser (R) (omnipod)
+CLERMediumPulseLaser (R) (omnipod)
+Clan Streak LRM 10 Ammo (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -101,9 +101,9 @@ Clan Endo Steel
 -Empty-
 
 Right Torso:
-CLRotaryAC5 Ammo (OMNIPOD)
-CLRotaryAC5 Ammo (OMNIPOD)
-CLRotaryAC5 Ammo (OMNIPOD)
+CLRotaryAC5 Ammo (omnipod)
+CLRotaryAC5 Ammo (omnipod)
+CLRotaryAC5 Ammo (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -169,4 +169,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

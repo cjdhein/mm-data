@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Black Watch
 model:BKW-7R
 mul id:371
 
 Config:Biped
-techbase:Inner Sphere
-era:3061
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3061
+Source:TR:3060
+Rules Level:2
 role:Juggernaut
+
+
+
 
 quirk:easy_pilot
 
-mass:85
-engine:255 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:26
-RT armor:26
-CT armor:37
-HD armor:9
-LL armor:31
-RL armor:31
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:26
+RT Armor:26
+CT Armor:37
+HD Armor:9
+LL Armor:31
+RL Armor:31
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:3
 Light Gauss Rifle, Left Arm
@@ -94,9 +97,9 @@ MRM 40
 MRM 40
 MRM 40
 IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Jump Jet
@@ -105,12 +108,12 @@ IS Ultra AC/10 Ammo
 IS MRM 40 Ammo
 IS MRM 40 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -124,7 +127,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -145,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -159,12 +162,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostsol
 model:OTL-9M
 mul id:2379
 
 Config:Biped
-techbase:Inner Sphere
-era:3079
+TechBase:Inner Sphere
+Era:3079
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
 
-quirk:low_profile
+
+
 quirk:imp_sensors
+quirk:low_profile
 
-mass:60
-engine:360 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:14 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:19
-RA armor:19
-LT armor:20
-RT armor:20
-CT armor:28
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:14 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:19
+RA Armor:19
+LT Armor:20
+RT Armor:20
+CT Armor:28
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:5
 ER Large Laser, Left Torso
@@ -64,28 +66,28 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -94,11 +96,11 @@ Fusion Engine
 ISERLargeLaser
 ISERLargeLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -111,9 +113,9 @@ ISERMediumLaser
 ISMASC
 ISMASC
 ISMASC
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +164,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,3 +173,4 @@ IS Endo Steel
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\ostsol OTL-8M.jpg

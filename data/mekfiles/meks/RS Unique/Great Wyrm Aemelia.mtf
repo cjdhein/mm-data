@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Great Wyrm
 model:(Aemelia)
 mul id:1283
+source:RS:UM
 
 Config:Biped
-techbase:Clan
-era:3062
-source:RS:UM
-rules level:2
+TechBase:Clan
+Era:3062
+Rules Level:2
 role:Skirmisher
 
 quirk:stable
 
-mass:45
-engine:225 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:5
-jump mp:0
+Mass:45
+Engine:225 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:12 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:6
-Large Pulse Laser, Right Arm
-ER Large Laser, Right Arm
-ER Medium Laser, Left Torso
-ER Small Laser, Left Torso
-ER Medium Laser, Right Torso
-ER Small Laser, Right Torso
+1 CLLargePulseLaser, Right Arm
+1 CLERLargeLaser, Right Arm
+1 CLERMediumLaser, Left Torso
+1 CLERMediumLaser, Right Torso
+1 CLERSmallLaser, Left Torso
+1 CLERSmallLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -88,8 +88,8 @@ CLERLargeLaser
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERMediumLaser
 CLERSmallLaser
 -Empty-
@@ -102,8 +102,8 @@ CLERSmallLaser
 -Empty-
 
 Right Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERMediumLaser
 CLERSmallLaser
 -Empty-
@@ -116,18 +116,18 @@ CLERSmallLaser
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-CLDoubleHeatSink
-CLDoubleHeatSink
+Engine
+Engine
+Engine
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 Head:
 Life Support
@@ -136,24 +136,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -164,10 +152,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

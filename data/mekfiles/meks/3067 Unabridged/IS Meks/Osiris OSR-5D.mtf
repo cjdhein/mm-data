@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,116 +15,117 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Osiris
 model:OSR-5D
 mul id:5660
 
 Config:Biped
-techbase:Inner Sphere
-era:3081
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3081
+Rules Level:2
 role:Striker
+source:RS:3067u
+
+
 
 quirk:ext_twist
 
-mass:30
-engine:210 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:7
+Mass:30
+Engine:210 XL Fusion Engine
+Structure:Endo-Steel
+Gyro:XL Gyro
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:9
-RA armor:9
-LT armor:9
-RT armor:9
-CT armor:15
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:7
+
+Armor:Light Ferro-Fibrous
+LA Armor:9
+RA Armor:9
+LT Armor:9
+RT Armor:9
+CT Armor:15
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:1
-Heavy PPC, Right Torso
+1 ISHeavyPPC, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
 Jump Jet
-Heavy PPC
-Heavy PPC
-Heavy PPC
-Heavy PPC
-IS Light Ferro-Fibrous
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+Light Ferro-Fibrous
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 
 Head:
 Life Support
@@ -133,44 +134,29 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 overview:The Osiris was essentially modeled after the Clan Dragonfly and designed by the same engineers who designed the Anubis. The Osiris was designed to be a fast, hit-and-fade style offensive platform and can perform well in that capacity with its awesome speed, although it does appear to rely too heavily on its mobility to protect it from damage.
+
 capabilities:While the limits of Inner Sphere technology forced the designers to skimp on the specifications somewhat, the Osiris does maintain the same speed as the design it is based off of with its powerful Pharaoh 240 XL. The armor and jump capacity are sadly lacking, however, as the Osiris can only jump half as far as the Dragonfly with its four Rawlings 61 jump jets and is armored with four and a half tons of StarGuard Ferro-Fibrous.
+
 deployment:This Jihad-era variant developed in 3081 drops all the weaponry in favor of a single Heavy PPC. The 'Mech makes room for this by using an XL Gyro and a smaller XL Engine that reduces the top speed to approximately 110km/h. This Osiris variant has a 210 meter jump capability and is protected by Light Ferro-Fibrous armor.
+
 manufacturer:Achernar BattleMechs
 primaryfactory:New Avalon
 systemmanufacturer:CHASSIS:FITES-O

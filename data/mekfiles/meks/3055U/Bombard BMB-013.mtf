@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bombard
 model:BMB-013
 mul id:419
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3055U
+Rules Level:4
 role:Missile Boat
+
+
 
 quirk:bad_rep_is
 quirk:non_standard
 
-mass:50
-engine:100 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
+Mass:50
+Engine:100 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:17
-RT armor:17
-CT armor:22
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:17
+RT Armor:17
+CT Armor:22
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:4
 Thunderbolt 15, Left Arm
@@ -67,8 +69,8 @@ Thunderbolt 15
 IS Ammo Thunderbolt-15
 IS Ammo Thunderbolt-15
 IS Ammo Thunderbolt-15
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -81,8 +83,8 @@ Thunderbolt 15
 IS Ammo Thunderbolt-15
 IS Ammo Thunderbolt-15
 IS Ammo Thunderbolt-15
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -94,11 +96,11 @@ Heat Sink
 Heat Sink
 ISERMediumLaser
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -108,11 +110,11 @@ Heat Sink
 Heat Sink
 ISERMediumLaser
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -169,4 +171,5 @@ Spikes
 -Empty-
 -Empty-
 -Empty-
+
 

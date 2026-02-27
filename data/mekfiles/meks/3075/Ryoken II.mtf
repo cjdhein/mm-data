@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ryoken II
 model:
 mul id:2758
 
 Config:Biped
-techbase:Clan
-era:3075
-source:TR:3075
-rules level:2
+TechBase:Clan
+Era:3075
+Source:TR:3075
+Rules Level:2
 role:Sniper
+
 
 quirk:stable
 
-mass:75
-engine:375 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:5
-jump mp:0
+Mass:75
+Engine:375 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:22
-RT armor:22
-CT armor:32
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:22
+RA Armor:22
+LT Armor:22
+RT Armor:22
+CT Armor:32
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:6
 LRM 15, Left Torso
-LB 2-X AC, Left Torso
-LB 2-X AC, Left Torso
 LRM 15, Right Torso
+LB 2-X AC, Left Torso
+LB 2-X AC, Left Torso
 LB 2-X AC, Right Torso
 LB 2-X AC, Right Torso
 
@@ -126,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -148,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -172,9 +173,13 @@ Clan Endo Steel
 -Empty-
 
 overview:After the success of the Mad Cat Mk II design, which increased the tonnage and weaponry of the Mad Cat, Clan Ghost Bear applied these same changes to the medium Ryoken.
+
 capabilities:The Ryoken II is slower than its antecedent, only capable of 87 km/h, though it has more weight available for equipment and weapons. It is built on an Endo Steel chassis and is protected by thirteen and a half tons of armor.
+
 deployment:A long-range combatant, the Ryoken II carries four Type OVR-X LB-X Autocannon/2s that make excellent anti-aircraft guns. Two Type XVI LRM-15s allow the use of indirect support as well as direct. Limited ammunition forces any MechWarrior to make quick work of his or her enemies. The standard complement of double heat sinks keep the 'Mech chilly.
+
 history:The Ryoken II, first walked off the assembly line in 3075 during the Word of Blake Jihad. When the Ghost Bears later decided to sell some to the Republic of the Sphere, it caused a ruckus among some of the Clans, including a few Trials of Grievance from Clan Hell's Horses.
+
 manufacturer:Bergan Industries
 primaryfactory:Alshain
 systemmanufacturer:CHASSIS:DSAM ENDO 5

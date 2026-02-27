@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Brigand
 model:LDT-X3
 mul id:5653
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3075
+Source:RS:3067u
+Rules Level:2
 role:Striker
+
+
 
 quirk:nimble_jumper
 
-mass:25
-engine:150 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:25
+Engine:150 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:10
-RT armor:10
-CT armor:14
-HD armor:6
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:10
+RT Armor:10
+CT Armor:14
+HD Armor:6
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:4
 Light PPC, Left Arm
@@ -67,8 +69,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Right Arm:
@@ -81,8 +83,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -93,11 +95,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Flamer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -107,11 +109,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Flamer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -168,4 +170,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

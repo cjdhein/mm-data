@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-7M
 mul id:7531
@@ -23,18 +22,21 @@ mul id:7531
 Config:Biped
 techbase:Inner Sphere
 era:3074
-source:RG06
 rules level:2
 role:Brawler
+source:RG06
 
-quirk:low_profile
+
+
 quirk:command_mech
 quirk:hyper_actuator
+quirk:low_profile
 weaponquirk:direct_torso_mount:RT:6:ISLBXAC5
 weaponquirk:exposed_linkage:RT:6:ISLBXAC5
 
+
 mass:75
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -173,4 +175,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

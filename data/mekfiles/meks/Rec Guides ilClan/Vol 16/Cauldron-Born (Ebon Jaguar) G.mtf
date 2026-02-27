@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cauldron-Born
 clanname:Ebon Jaguar
 model:G
 mul id:8211
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3125
 source:RG16
@@ -30,8 +29,9 @@ role:Skirmisher
 
 quirk:low_profile
 
+
 mass:65
-engine:325 XL (Clan) Engine
+engine:325 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -170,8 +170,11 @@ Clan Endo Steel
 -Empty-
 
 overview:Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien.
+
 capabilities:The G devotes most of its tonnage to a massive Hyper-Assault Gauss Rifle 40 that is spread between the left arm and torso. This weapon is fed from a three-ton ammunition bay in the left torso. An Improved Heavy Large Laser provides heavy secondary fire from the right arm. A right torso targeting computer enhances the accuracy of both weapons.
+
 history:Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources. By Operation BULLDOG the Cauldron-Born made up a large proportion of the heavy 'Mechs of the rebuilding Smoke Jaguars, and following their Annihilation the design proliferated the remaining Clans, save the Jade Falcons, Wolves and Coyotes who continued to favor the Hellbringer. Following the Wars of Reaving the Ebon Jaguar had finally supplanted the Hellbringer in most Homeworld Clans, save the Coyotes who remained loyal to redeeming the honor of the design.
+
 manufacturer:Huntress Manufacturing Plant DL-6
 primaryfactory:Huntress
 systemmanufacturer:CHASSIS:CSJ Type 65.43 Endo

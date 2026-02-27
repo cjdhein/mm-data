@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Goshawk
 clanname:Vapor Eagle
 model:
@@ -28,14 +27,16 @@ source:RG09
 rules level:2
 role:Skirmisher
 
+
 quirk:nimble_jumper
 
+
 mass:55
-engine:330 XL (Clan) Engine
+engine:330 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:11 Clan Double
+heat sinks:11 Double
 walk mp:6
 jump mp:6
 
@@ -58,8 +59,8 @@ Machine Gun, Left Arm
 Machine Gun, Left Arm
 Large Pulse Laser, Right Arm
 Medium Pulse Laser, Left Torso
-Streak SRM 2, Left Torso
 Machine Gun, Left Torso
+Streak SRM 2, Left Torso
 Medium Pulse Laser, Right Torso
 Medium Pulse Laser, Right Torso
 Streak SRM 2, Right Torso
@@ -175,4 +176,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

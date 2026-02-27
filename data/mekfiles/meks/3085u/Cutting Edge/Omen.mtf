@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Omen
 model:
 mul id:2318
 
 Config:Biped
-techbase:Clan
-era:3087
+TechBase:Clan
+Era:3087
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Juggernaut
 
-quirk:rugged_1
+
 quirk:pro_actuator
+quirk:rugged_1
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:18 Clan Double
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:25
-RT armor:25
-CT armor:40
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:11
-RTR armor:11
-RTC armor:14
+Heat Sinks:18 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:28
+RA Armor:28
+LT Armor:25
+RT Armor:25
+CT Armor:40
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:11
+RTR Armor:11
+RTC Armor:14
 
 Weapons:8
 Large Pulse Laser, Left Arm
@@ -60,7 +61,7 @@ ER Medium Laser, Right Arm
 ATM 12, Left Torso
 ER Medium Laser, Right Torso
 Medium Pulse Laser, Right Torso
-Anti-Missile System, Head
+AMS, Head
 
 Left Arm:
 Shoulder
@@ -174,3 +175,4 @@ Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085Omen.jpg

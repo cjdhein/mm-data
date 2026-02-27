@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,29 +15,30 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thor
 clanname:Summoner
 model:G
 mul id:3179
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3068
 source:TR:CI
 rules level:2
 role:Skirmisher
 
-quirk:ubiquitous_clan
 quirk:imp_com
+quirk:ubiquitous_clan
+
 
 mass:70
-engine:350 XL (Clan) Engine
+engine:350 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:18 Clan Double
+heat sinks:18 Double
 base chassis heat sinks:14
+nocrit:Standard:None
 walk mp:5
 jump mp:5
 
@@ -69,7 +70,7 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -82,8 +83,8 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -96,28 +97,28 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLSRM4 (OMNIPOD)
-CLSRM4 (OMNIPOD)
-CLSRM4 (OMNIPOD)
-Clan Ammo SRM-4 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLSRM4 (omnipod)
+CLSRM4 (omnipod)
+CLSRM4 (omnipod)
+Clan Ammo SRM-4 (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLSRM4 (OMNIPOD)
-CLSRM4 (OMNIPOD)
-CLSRM4 (OMNIPOD)
-Clan Ammo SRM-4 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLSRM4 (omnipod)
+CLSRM4 (omnipod)
+CLSRM4 (omnipod)
+Clan Ammo SRM-4 (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 
@@ -133,12 +134,12 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLHeavySmallLaser (OMNIPOD)
+CLHeavySmallLaser (omnipod)
 
 Head:
 Life Support
-Sensors
 Cockpit
+Sensors
 Clan Ferro-Fibrous
 Sensors
 Life Support
@@ -178,9 +179,13 @@ Jump Jet
 -Empty-
 
 overview:The Summoner is a highly mobile heavy OmniMech with a mix of speed, mobility, armor, and firepower. Making it a highly effective and reliable mech commonly used by Clan Jade Falcon in a wide variety of roles.
+
 capabilities:The Summoner is powered by a lightweight 350 XL engine that gives the 'Mech a top speed of 86.4 km/h. The mobility of the Summoner is enhanced with five jump jets that allow it to jump up to one hundred and fifty meters. The Summoner has fourteen double heat sinks which are capable of handling the heat produced in most of the 'Mechs configurations with ease. To protect it from damage, the Summoner carries nine and a half tons of Ferro-Fibrous armor.
+
 deployment:This variant is most adept sniping at long range, then dashing in to finish off its foe. The long-range punch comes from an ER PPC and an ER Large Laser, each of which is capable of opening holes in an enemy's armor. To exploit those holes, the Summoner G carries six SRM-4s and a Heavy Small Laser.
+
 history:Barely a second generation OmniMech, the Jade Falcons introduced the Summoner just after becoming the first Clan to win OmniMech technology from Clan Coyote in 2863. The Summoner was dubbed Thor, its Inner Sphere reporting name, by Victor Steiner-Davion himself after fighting one on Trellwan. The name was supposedly inspired by the weapons loadout (in Prime configuration): a PPC and an AC, lightning and thunder, which are associated with the Norse god Thor. Largely supplanted within the Jade Falcons by its successor the Grand Summoner during the Dark Age era, Clan Hell's Horses maintained production of the original on Svarstaad, ensuring by 3150 the Summoner was the oldest continuously produced OmniMech.
+
 manufacturer:Eagle Craft Group, St. Louis MechWorks, Svarstaad Industriplex Gamma
 primaryfactory:Ironhold, Niles, Svarstaad
 systemmanufacturer:CHASSIS:JFS-703
@@ -189,3 +194,4 @@ systemmanufacturer:ARMOR:J63-3E Ferro Fibrous
 systemmanufacturer:JUMP_JET:JF Standard
 systemmanufacturer:COMMUNICATIONS:Model J-D 067
 systemmanufacturer:TARGETING:Hawkeye 58
+

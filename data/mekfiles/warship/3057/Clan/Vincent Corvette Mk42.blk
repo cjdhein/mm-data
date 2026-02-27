@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,11 +62,11 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:4.0:1:1::-1:0
-asfbay:10.0:2:2::-1:0
-1stclassquarters:280.0:0:-1::-1:0
-crewquarters:1057.0:0:-1::-1:0
-cargobay:92187.5:1:5::-1:0
+smallcraftbay:4.0:1:1
+asfbay:10.0:2:2
+1stclassquarters:280.0:0
+crewquarters:1057.0:0
+cargobay:92187.5:1:5
 </transporters>
 
 <SafeThrust>
@@ -80,21 +89,13 @@ cargobay:92187.5:1:5::-1:0
 1
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
 <armor_type>
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 6
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 16
@@ -157,6 +158,62 @@ CLERLargeLaser
 40
 </structural_integrity>
 
+<source>
+TR:3057r
+</source>
+
+<tonnage>
+420000.0
+</tonnage>
+
+<kf_core>
+1
+</kf_core>
+
+<lithium-fusion>
+1
+</lithium-fusion>
+
+<sail>
+1
+</sail>
+
+<grav_decks>
+60
+</grav_decks>
+
+<crew>
+219
+</crew>
+
+<officers>
+28
+</officers>
+
+<gunners>
+24
+</gunners>
+
+<passengers>
+0
+</passengers>
+
+<marines>
+0
+</marines>
+
+<battlearmor>
+0
+</battlearmor>
+
+<life_boat>
+0
+</life_boat>
+
+<escape_pod>
+8
+</escape_pod>
+
 <capabilities>
 The Vincent corvette's notable features include its increased size and the implementation of "smart modularity." This innovative approach involved collaboration with other contractors to standardize ship fittings and systems, resulting in the adoption of long-lasting components that are still utilized in newer ships. The spacious interior of the Vincent allowed for the accommodation of various technological advancements over time, enabling engineers to replace engines, computers, and weapons as needed. Equipped with the Ulsop Al Surveillance Computer, the Vincent Mark XXXIX boasts enhanced detection capabilities, almost doubling the range compared to its predecessor, the Mark XXXVIII. With its four naval autocannons, eight lasers, and two missile systems, the Vincent possesses credible firepower, making it a formidable asset, particularly in squadron-based combat situations. Additionally, the Vincent Mark XXXIX is powered by two Howser 2G2 "Hotfire" engines, providing exceptional swiftness and maneuverability. The model in use with Clans during the initial invasion of the Inner Sphere differs little from the Mark 39, the most notable changes being the addition of a Lithium-Fusion Battery System and Clan HarJel-based hull-sealant technology.
 </capabilities>
@@ -196,64 +253,3 @@ Corvette
 <height>
 1005 m Sail
 </height>
-
-<source>
-TR:3057r
-</source>
-
-<tonnage>
-420000.0
-</tonnage>
-
-<kf_core>
-1
-</kf_core>
-
-<lithium-fusion>
-1
-</lithium-fusion>
-
-<sail>
-1
-</sail>
-
-<grav_decks>
-60
-</grav_decks>
-
-<designtype>
-1
-</designtype>
-
-<crew>
-219
-</crew>
-
-<officers>
-28
-</officers>
-
-<gunners>
-24
-</gunners>
-
-<passengers>
-0
-</passengers>
-
-<marines>
-0
-</marines>
-
-<battlearmor>
-0
-</battlearmor>
-
-<life_boat>
-0
-</life_boat>
-
-<escape_pod>
-8
-</escape_pod>
-

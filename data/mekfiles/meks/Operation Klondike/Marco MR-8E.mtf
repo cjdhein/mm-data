@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marco
 model:MR-8E
 mul id:2074
 
 Config:Biped
-techbase:Inner Sphere
-era:2801
-source:RS:OK
-rules level:2
+TechBase:Inner Sphere
+Era:2801
+Rules Level:2
 role:Brawler
+Source:RS:OK
 
+Mass:30
+Engine:120 Fusion Engine
+Structure:Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
 
-mass:30
-engine:120 Fusion Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:12 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:12 Single
-walk mp:4
-jump mp:0
-
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:6
-RT armor:6
-CT armor:9
-HD armor:8
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Armor:Standard Armor
+LA Armor:6
+RA Armor:6
+LT Armor:6
+RT Armor:6
+CT Armor:9
+HD Armor:8
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
-Medium Laser, Left Arm
-Medium Laser, Left Arm
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Right Torso
+1 ISMediumPulseLaser, Right Torso
+1 ISMediumPulseLaser, Right Torso
+1 ISMediumLaser, Left Arm
+1 ISMediumLaser, Left Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
-Medium Laser
+ISMediumLaser
+ISMediumLaser
 Environmental Sealing
 -Empty-
 -Empty-
@@ -115,16 +112,16 @@ Environmental Sealing
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Heat Sink
 Environmental Sealing
 
@@ -135,12 +132,6 @@ Cockpit
 Environmental Sealing
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -149,12 +140,6 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Environmental Sealing
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Right Leg:
 Hip
@@ -163,10 +148,3 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Environmental Sealing
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

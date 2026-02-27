@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uller
 clanname:Kit Fox
 model:E
 mul id:3344
 
-Config:Biped OmniMek
-techbase:Clan
-era:3054
-source:TR:3050
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3054
+Source:TR:3050
+Rules Level:2
 role:Striker
 
 quirk:low_profile
 
-mass:30
-engine:180 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-base chassis heat sinks:7
-walk mp:6
-jump mp:6
+Mass:30
+Engine:180 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:7
-RA armor:7
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:9
-LL armor:8
-RL armor:8
-RTL armor:4
-RTR armor:4
-RTC armor:4
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:7
+Walk MP:6
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:7
+RA Armor:7
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:9
+LL Armor:8
+RL Armor:8
+RTL Armor:4
+RTR Armor:4
+RTC Armor:4
 
 Weapons:3
 ATM 3, Left Arm
@@ -63,8 +63,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLATM3 (OMNIPOD)
-CLATM3 (OMNIPOD)
+CLATM3 (omnipod)
+CLATM3 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -75,13 +75,13 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERSmallLaser (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -93,7 +93,7 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -103,10 +103,10 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Clan Ammo ATM-3 (OMNIPOD)
-Clan Ammo ATM-3 ER (OMNIPOD)
-Clan Ammo ATM-3 HE (OMNIPOD)
+Jump Jet (omnipod)
+Clan Ammo ATM-3 (omnipod)
+Clan Ammo ATM-3 ER (omnipod)
+Clan Ammo ATM-3 HE (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -147,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +161,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -171,9 +171,13 @@ Jump Jet (OMNIPOD)
 -Empty-
 
 overview:The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus, earning it the Inner Sphere codename of Uller, after the Norse god of archery.
+
 capabilities:The Kit Fox E sports the new Advanced Tactical Missile system, mounting an ATM-3 rack, which can fire ammunition specifically designed for maximum effectiveness at a certain range, causing more damage at shorter ranges. Six added Jump Jets, allowing for a jump capacity of 180 meters, provide the Kit Fox E with additional mobility, allowing it to better exploit the ATM system, and an ER PPC provides the high firepower common to the 'Mech.
+
 deployment:In its primary configuration, the Kit Fox mounts an ER Large Laser and Small Pulse Laser on the left arm as its primary source of firepower. These are supplemented by an LB 5-X Autocannon for tactical flexibility and a Streak SRM-4 rack for close range combat.
+
 history:The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890 with the aid of new resources coming from the Tanite Worlds. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon Khan Bret Malthus took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Jade Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade. All other Clans field the Kit Fox as isorla, except Clan Blood Spirit, who was gifted the Kit Fox by the generous (or Machiavellian?) Ravens.
+
 manufacturer:Babylon MechWorks V (Cloud Cobra),Production Line Gamma 2 (Snow Raven),Ironhold Plant 9 (Jade Falcon),Snow Raven Industrial Complex Beta
 primaryfactory:Babylon, Lum, Ironhold, Mitchella
 systemmanufacturer:CHASSIS:Process 12 Endo-steel

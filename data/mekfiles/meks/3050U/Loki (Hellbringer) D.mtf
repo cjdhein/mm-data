@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Loki
 clanname:Hellbringer
 model:D
 mul id:1926
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3069
 source:TR:CI
@@ -30,17 +29,20 @@ role:Striker
 
 quirk:searchlight
 
+
 mass:65
-engine:325 XL (Clan) Engine
+engine:325 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:13 Clan Double
+heat sinks:13 Double
 base chassis heat sinks:13
+nocrit:Standard:None
+nocrit:Standard:None
 walk mp:5
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:11
 RA armor:11
 LT armor:14
@@ -72,10 +74,10 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLPlasmaCannon (OMNIPOD)
-CLPlasmaCannon (OMNIPOD)
-CLPlasmaCannonAmmo (OMNIPOD)
-CLPlasmaCannonAmmo (OMNIPOD)
+CLPlasmaCannon (omnipod)
+CLPlasmaCannon (omnipod)
+CLPlasmaCannonAmmo (omnipod)
+CLPlasmaCannonAmmo (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -86,10 +88,10 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLPlasmaCannon (OMNIPOD)
-CLPlasmaCannon (OMNIPOD)
-CLPlasmaCannonAmmo (OMNIPOD)
-CLPlasmaCannonAmmo (OMNIPOD)
+CLPlasmaCannon (omnipod)
+CLPlasmaCannon (omnipod)
+CLPlasmaCannonAmmo (omnipod)
+CLPlasmaCannonAmmo (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -99,8 +101,8 @@ CLPlasmaCannonAmmo (OMNIPOD)
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLMediumPulseLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -113,8 +115,8 @@ CLMediumPulseLaser (OMNIPOD)
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLMediumPulseLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -142,7 +144,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-CLMicroPulseLaser (OMNIPOD)
+CLMicroPulseLaser (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -157,8 +159,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISBPod (OMNIPOD)
-ISBPod (OMNIPOD)
+ISBPod (omnipod)
+ISBPod (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -171,8 +173,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISBPod (OMNIPOD)
-ISBPod (OMNIPOD)
+ISBPod (omnipod)
+ISBPod (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -181,7 +183,9 @@ ISBPod (OMNIPOD)
 -Empty-
 
 overview:The Hellbringer is a very widespread design developed by Clan Hell's Horses. However, due to its poor armor, the Hellbringer is often passed over for more robust OmniMechs.
+
 capabilities:This variant is a vicious infantry hunter. It has four Plasma Cannons that are capable of dealing immense damage to conventional troops. Four B-Pods provide defense against battle armor, while four Medium Pulse Lasers provide accurate damage potential against hardened targets. A head-mounted Micro Pulse Laser provides added firepower against unarmored infantry.
+
 history:The Inner Sphere first encountered the Hellbringer facing Clan Jade Falcon, which favors the design for its immense offensive potential. Earning the codename Loki by Galen Cox, an AFFC officer who declared each of the Hellbringer's various versions as an "utterly mad configuration," the 'Mech does at first glance appear to be highly unusual, mounting a spread of weapons, anti-personnel equipment and electronics. The Hellbringer utilizes a standard internal structure, and has decent mobility, with a top speed of 86.4 km/h. Though it has vast firepower at its disposal, the design is not particularly durable, mounting a mere eight tons of Standard armor, and the Hellbringer is not particularly suitable for defensive situations or extended engagements. In the aftermath of the Battle of Tokasha and the loss of Tokasha Mechworks, the Hell's Horses began developing several OmniMechs. Only the Hellbringer met with success. Development time for the Hellbringer was reduced through the use of modules used in the Summoner. Despite the poor armor, the Hellbringer devotes almost 43% of its mass to pods, allowing for great offensive potential. The design spread quickly after its introduction for two reasons: the Horses promptly lost the primary production facility, and used their remaining production to curry favor with other Clans through trade and gifts. After The Wars of Reaving in Clan Space, the Hellbringer would fall out of favor with the surviving Home Clans due in part to its association with the Inner Sphere based Clans. The design would be replaced by the Ebon Jaguar in military service of those in Clan Space, with the exception of Clan Coyote which still fields the 'Mech. Even after the introduction of the updated and upgraded Loki II successor design in 3121, Clan Jade Falcon would continue to produce the cheap and easy to manufacture original version on Sudeten during the Dark Age era, with disgraced, solahma or even just overly aggressive warriors still finding its offense over defense focus desirable.
 manufacturer:Various, Olivetti Weaponry
 primaryfactory:Various, Sudeten
@@ -190,3 +194,4 @@ systemmanufacturer:ENGINE:Fusion 325 XL
 systemmanufacturer:ARMOR:Forging Omni-H24
 systemmanufacturer:COMMUNICATIONS:CH2B Alpha-Com
 systemmanufacturer:TARGETING:Version Delta-II TTS(A)
+

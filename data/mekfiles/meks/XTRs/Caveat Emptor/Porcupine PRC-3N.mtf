@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Porcupine
 model:PRC-3N
 mul id:8102
@@ -27,14 +26,17 @@ source:XTR:Caveat
 rules level:4
 role:Striker
 
+
+
 quirk:distracting
 
+
 mass:20
-engine:180 XXL Engine
+engine:180 XXL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:9
 jump mp:0
 
@@ -165,4 +167,5 @@ Mek Null Signature System
 -Empty-
 -Empty-
 -Empty-
+
 

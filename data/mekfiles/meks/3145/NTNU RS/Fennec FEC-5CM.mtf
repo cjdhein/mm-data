@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fennec
 model:FEC-5CM
 mul id:6900
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3133
-source:RS:3145-NTNU
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3133
+Source:RS:3145-NTNU
+Rules Level:3
 role:Skirmisher
+
+
 
 quirk:no_arms
 
-mass:55
-engine:275 XXL (Clan) Engine
-structure:IS Endo-Composite
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:5
-jump mp:0
+Mass:55
+Engine:275 XXL (Clan) Engine
+Structure:IS Endo-Composite
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:21
-RT armor:21
-CT armor:27
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:21
+RT Armor:21
+CT Armor:27
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:5
-Large Re-engineered Laser, Left Arm
 ER Medium Laser, Left Arm
-Large Re-engineered Laser, Right Arm
 ER Medium Laser, Right Arm
-C3 Boosted System (Master), Right Torso
+Large Re-engineered Laser, Left Arm
+Large Re-engineered Laser, Right Arm
+C3 Master Boosted with TAG, Right Torso
 
 Left Arm:
 Shoulder
@@ -169,4 +171,5 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

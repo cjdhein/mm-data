@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thunder Stallion
 model:4
 mul id:7720
@@ -29,8 +28,9 @@ role:Juggernaut
 
 quirk:cramped_cockpit
 
+
 mass:85
-engine:255 XL (Clan) Engine
+engine:255 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -38,7 +38,7 @@ heat sinks:12 Clan Double
 walk mp:3
 jump mp:3
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 FLL armor:35
 FRL armor:35
 LT armor:20
@@ -54,10 +54,10 @@ RTC armor:19
 Weapons:6
 Gauss Rifle, Left Torso
 Large Pulse Laser, Left Torso
-Medium Pulse Laser, Left Torso
-LB 20-X AC, Right Torso
-ER Large Laser, Center Torso
 Medium Pulse Laser, Head
+Medium Pulse Laser, Left Torso
+ER Large Laser, Center Torso
+LB 20-X AC, Right Torso
 
 Front Left Leg:
 Hip
@@ -170,4 +170,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

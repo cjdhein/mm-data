@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Woodsman
 model:D
 mul id:7645
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3149
 source:TR:GC
@@ -29,8 +28,9 @@ role:Missile Boat
 
 quirk:easy_maintain
 
+
 mass:75
-engine:300 Fusion (Clan) Engine
+engine:300 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -39,7 +39,7 @@ base chassis heat sinks:12
 walk mp:4
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:22
 RA armor:22
 LT armor:23
@@ -175,9 +175,13 @@ Clan Endo Steel
 -Empty-
 
 overview:The first heavy OmniMech developed by Clan Wolf, the Woodsman was one of the most heavily tested weapons ever produced by the Clan.
+
 capabilities:Heavy armor provided excellent protection, while a standard fusion engine improved longevity on the battlefield. The light Endo Steel chassis allowed the Woodsman to devote 27 tons to pod space, allowing many mission specific loadouts and prototype weapon configurations. The permanently installed MASC system allowed a pilot to briefly exceed 80 km/h to either withdraw or capitalize on breaches in enemy ranks. The Woodsman was so versatile that it was often used by Wolf scientists to test new weapons and weapon configurations. The Naga's dual Arrow IV launcher configuration, for example, was tested on the Woodsman chassis.
+
 deployment:More of a support configuration, the D loadout carries a pair of Mech Mortar/4s in each of the side torsos. Four tons of mortar ammo sit in each side torso. Each arm carries a pair of ER Medium Lasers. The Watchdog CEWS carried in the C configuration is also found here.
+
 history:Every last detail was considered and problems were eliminated before production began. This resulted in a chassis that would not only function well in the Clan's front line forces for nearly a century, but also inspire the Timber Wolf, Gargoyle, and Naga OmniMechs. Though it served the Wolf Clan well, it was eventually surpassed by newer designs. The Woodsman was relegated to second-line units, and then eventually phased out of service completely by the time of Operation Revival. There are some rumors that a few Dark Caste bandits may have a Woodsman, but these reports remain unconfirmed. In 3149 the Woodsman was returned to production in the Wolf Empire to quickly rebuild the touman.
+
 manufacturer:Earthwerks Inc.
 primaryfactory:Keystone
 systemmanufacturer:CHASSIS:WOD-1
@@ -185,3 +189,4 @@ systemmanufacturer:ENGINE:Wolf 300
 systemmanufacturer:ARMOR:Durallex Heavy
 systemmanufacturer:COMMUNICATIONS:WolfCom 3-4
 systemmanufacturer:TARGETING:CW3
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk IIC
 model:11
 mul id:8329
@@ -31,8 +30,9 @@ quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 
+
 mass:45
-engine:270 Fusion (Clan) Engine
+engine:270 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -57,9 +57,9 @@ Weapons:8
 Improved Heavy Medium Laser, Left Arm
 Improved Heavy Medium Laser, Right Arm
 SRM 2, Left Torso
+SRM 2, Right Torso
+SRM 2, Right Torso
 SRM 2, Left Torso
-SRM 2, Right Torso
-SRM 2, Right Torso
 ER Small Laser, Center Torso
 ER Medium Laser, Head
 
@@ -186,3 +186,4 @@ systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Northrup Starlifters M45
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:TRTTS Mark II
+

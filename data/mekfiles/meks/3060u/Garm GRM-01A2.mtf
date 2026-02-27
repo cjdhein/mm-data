@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Garm
 model:GRM-01A2
 mul id:1190
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3076
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:ext_twist
 
-mass:35
-engine:210 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:35
+Engine:210 Light Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:7
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:7
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:2
 LRM 10, Left Torso
@@ -62,28 +64,28 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -96,8 +98,8 @@ LRM 10
 LRM 10
 IS Ammo LRM-10
 ISCASE
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -110,8 +112,8 @@ ISPlasmaRifle
 ISPlasmaRifle
 ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -131,7 +133,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -168,4 +170,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

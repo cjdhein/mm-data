@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Ambusher
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 4
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 3
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -99,10 +91,9 @@ false
 
 <Body Equipment>
 Clan Streak SRM 5 Ammo (10)
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -123,6 +114,14 @@ EIInterface
 <Main Gun Equipment>
 CLStreakSRM5
 </Main Gun Equipment>
+
+<source>
+TR:3060
+</source>
+
+<tonnage>
+6.0
+</tonnage>
 
 <capabilities>
 It also boasts sufficient armoring to survive a direct hit by a PPC to its torso. However, the 36-rated fusion engine can only propel the Hydra to a cruising speed of 43 km/h. Unfortunately to get the armor and weaponry, the designers had to omit jump jets and a larger engine that would increase the Hydra's speed. These limitations aside, the Hydra is a good general purpose ProtoMech.
@@ -152,16 +151,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:36 Fusion
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3060
-</source>
-
-<tonnage>
-6.0
-</tonnage>
-

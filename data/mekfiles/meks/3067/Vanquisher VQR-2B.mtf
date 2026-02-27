@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vanquisher
 model:VQR-2B
 mul id:5339
 
 Config:Biped
-techbase:Inner Sphere
-era:3067
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3067
+Rules Level:2
 role:Juggernaut
+source:TR:3067
 
-quirk:bad_rep_is
+
+
 quirk:stable
-quirk:no_arms
 quirk:bad_rep_clan
+quirk:bad_rep_is
+quirk:no_arms
 
-mass:100
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:47
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:12 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:7
-Ultra AC/5, Left Arm
-Ultra AC/5, Left Arm
-Ultra AC/5, Right Arm
-Ultra AC/5, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-ER Medium Laser, Head
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:47
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
+
+Weapons:6
+2 ISUltraAC5, Right Arm, Ammo:120
+2 ISUltraAC5, Left Arm
+1 ISERMediumLaser, Right Torso
+1 ISERMediumLaser, Left Torso
+1 ISImprovedC3CPU, Center Torso
+1 ISERMediumLaser, Head
 
 Left Arm:
 Shoulder
@@ -93,29 +94,29 @@ ISUltraAC5
 
 Left Torso:
 ISERMediumLaser
-IS Ultra AC/5 Ammo
-IS Ultra AC/5 Ammo
-IS Ultra AC/5 Ammo
+ISUltraAC5 Ammo
+ISUltraAC5 Ammo
+ISUltraAC5 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
 Right Torso:
 ISERMediumLaser
-IS Ultra AC/5 Ammo
-IS Ultra AC/5 Ammo
-IS Ultra AC/5 Ammo
+ISUltraAC5 Ammo
+ISUltraAC5 Ammo
+ISUltraAC5 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -130,8 +131,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISC3iUnit
-ISC3iUnit
+ISImprovedC3CPU
+ISImprovedC3CPU
 
 Head:
 Life Support
@@ -152,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -166,8 +167,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -176,9 +177,13 @@ IS Endo Steel
 -Empty-
 
 overview:Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.
+
 capabilities:In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.
+
 deployment:The 2B variant of the Vanquisher makes up roughly fifteen percent of the current production run. This variant carries four Ultra Autocannon/5s in place of the Light Gauss Rifles and ER Large Lasers. While this variant is much more reliant on ammunition based weapons, the four Ultra Autocannon/5s allow the 'Mech to put more fire downrange at a somewhat shorter range envelope than the 2A variant.
+
 history:The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.
+
 manufacturer:Skobel MechWorks
 primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Hollis Alteration Mark VI

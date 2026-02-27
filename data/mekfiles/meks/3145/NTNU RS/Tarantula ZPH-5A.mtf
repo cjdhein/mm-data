@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tarantula
 model:ZPH-5A
 mul id:6941
 
 Config:Quad
-techbase:Inner Sphere
-era:3111
-source:RS:3145-NTNU
-rules level:3
+TechBase:Inner Sphere
+Era:3111	
+Source:RS:3145-NTNU
+Rules Level:3
 role:Scout
 
+
+
+quirk:easy_pilot
 quirk:ext_twist
 quirk:exp_actuator
-quirk:easy_pilot
 
-mass:25
-engine:200 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:8
-jump mp:0
+Mass:25
+Engine:200 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-FLL armor:8
-FRL armor:8
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:8
-RLL armor:8
-RRL armor:8
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+FLL Armor:8
+FRL Armor:8
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:8
+RLL Armor:8
+RRL Armor:8
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:1
 ER Large Laser, Left Torso
@@ -167,4 +169,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostsol
 model:OTL-5D
 mul id:2373
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
+TechBase:Inner Sphere
+Era:3065
 source:TR:3085S
-rules level:2
+Rules Level:2
 role:Skirmisher
 
-quirk:low_profile
+
+
 quirk:imp_sensors
+quirk:low_profile
 
-mass:60
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 Single
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 Fusion Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:22
-RT armor:22
-CT armor:22
-HD armor:8
-LL armor:22
-RL armor:22
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:16 Single
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:22
+RT Armor:22
+CT Armor:22
+HD Armor:8
+LL Armor:22
+RL Armor:22
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:9
 Large Laser, Left Torso
@@ -68,9 +70,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +84,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -97,9 +99,9 @@ Large Laser
 Medium Laser
 RL10
 RL10
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -111,9 +113,9 @@ Large Laser
 Medium Laser
 RL10
 RL10
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -131,13 +133,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 RL10
-IS Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -174,4 +176,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

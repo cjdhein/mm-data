@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stiletto
 model:STO-6X
 mul id:5134
 
 Config:Biped
-techbase:Inner Sphere
-era:3078
-source:XTR:Steiner
-rules level:4
+TechBase:Inner Sphere
+Era:3078
+Source:XTR:Steiner
+Rules Level:4
 role:Striker
 
-quirk:difficult_eject
+
+
 quirk:multi_trac
+quirk:difficult_eject
 
-mass:35
-engine:245 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:35
+Engine:245 Fusion Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:12
-RT armor:12
-CT armor:16
-HD armor:9
-LL armor:15
-RL armor:15
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:11
+RA Armor:11
+LT Armor:12
+RT Armor:12
+CT Armor:16
+HD Armor:9
+LL Armor:15
+RL Armor:15
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:4
 ER Medium Laser, Left Torso
@@ -63,11 +65,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -77,11 +79,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -93,12 +95,12 @@ ISShoulderTurret
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 ISERMediumLaser (T)
@@ -107,12 +109,12 @@ ISShoulderTurret
 BloodhoundActiveProbe
 BloodhoundActiveProbe
 BloodhoundActiveProbe
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -126,13 +128,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Supercharger
-IS Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

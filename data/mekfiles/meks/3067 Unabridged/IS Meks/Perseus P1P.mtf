@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Perseus
 model:P1P
 mul id:5698
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3078
-source:TR:J
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3078
+Source:TR:J
+Rules Level:2
 role:Brawler
 
-quirk:easy_maintain
+
+
 quirk:anti_air
+quirk:easy_maintain
 
-mass:75
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-base chassis heat sinks:12
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:24
-RT armor:24
-CT armor:36
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:9
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:12
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:24
+RT Armor:24
+CT Armor:36
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:9
 
 Weapons:10
 ER Small Laser, Left Leg
@@ -68,13 +70,13 @@ TAG, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-MRM 20 (OMNIPOD)
-MRM 20 (OMNIPOD)
-MRM 20 (OMNIPOD)
-PPC (OMNIPOD)
-PPC (OMNIPOD)
-PPC (OMNIPOD)
-Medium Laser (OMNIPOD)
+MRM 20 (omnipod)
+MRM 20 (omnipod)
+MRM 20 (omnipod)
+PPC (omnipod)
+PPC (omnipod)
+PPC (omnipod)
+Medium Laser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -82,12 +84,12 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -97,29 +99,29 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS MRM 20 Ammo (OMNIPOD)
-IS MRM 20 Ammo (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
+IS MRM 20 Ammo (omnipod)
+IS MRM 20 Ammo (omnipod)
+ISGuardianECMSuite (omnipod)
+ISGuardianECMSuite (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-ISCASE (OMNIPOD)
+ISCASE (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-IS Streak SRM 4 Ammo (OMNIPOD)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+IS Streak SRM 4 Ammo (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-ISCASE (OMNIPOD)
+ISCASE (omnipod)
 
 Center Torso:
 Fusion Engine
@@ -132,14 +134,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISStreakSRM4 (OMNIPOD)
+ISStreakSRM4 (omnipod)
 -Empty-
 
 Head:
 Life Support
 Sensors
 Cockpit
-ISTAG (OMNIPOD)
+ISTAG (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -154,8 +156,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISERSmallLaser (OMNIPOD)
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
+ISERSmallLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -168,8 +170,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISERSmallLaser (OMNIPOD)
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
+ISERSmallLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -178,9 +180,13 @@ ISERSmallLaser (OMNIPOD)
 -Empty-
 
 overview:The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production.
+
 capabilities:While on paper the Perseus is a capable 'Mech with forty-tons of available pod space, the design has earned something of a lackluster reputation when compared to other modern OmniMechs such as the Templar or Hauptmann. This is largely due to the small size of it's weapon bays which limit the type of weaponry of the Perseus can mount, only the arms can carry larger autocannons and the hand and lower-arm actuators must be removed to be able do so, with a number of configurations also forced to mount weaponry in the 'Mech's legs. More critically the small size of the bays hampers the volume of extra double heat sinks that can be carried, consequently most of the Perseus's configurations utilize ballistic and missile weaponry over more heat-intensive energy loadouts. Built on a lightweight Endo Steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis.
+
 deployment:This Perseus configuration has a Rotary AC/5, MRM-20, PPC, and Streak SRM-4. Each leg carries a Small Laser. A Guardian ECM Suite disrupts enemy networks, while a head mounted TAG system allows the Perseus-P to designate artillery targets.
+
 history:The Perseus shares much with the venerable Orion, a staple of Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the "Omni-Orion" and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis.
+
 manufacturer:Kali Yama Weapons Industries
 primaryfactory:Kalidasa
 systemmanufacturer:CHASSIS:Kali Yama Endo Steel

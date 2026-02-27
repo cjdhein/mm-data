@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cyclops
 model:C
 mul id:8357
@@ -27,13 +26,16 @@ source:RG21
 rules level:3
 role:Brawler
 
-quirk:difficult_eject
-quirk:cowl
-quirk:weak_head_2
+
+
 quirk:battle_computer
+quirk:cowl
+quirk:difficult_eject
+quirk:weak_head_2
+
 
 mass:90
-engine:360 Fusion (Clan) Engine
+engine:360 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -184,3 +186,4 @@ systemmanufacturer:ENGINE:Unknown
 systemmanufacturer:ARMOR:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
+

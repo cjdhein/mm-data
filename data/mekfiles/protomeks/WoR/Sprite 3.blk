@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Striker
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 3
 </cruiseMP>
@@ -72,18 +84,6 @@ false
 false
 </clan_engine>
 
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
-
 <internal_type>
 -1
 </internal_type>
@@ -103,7 +103,6 @@ ExtendedJumpJetSystem
 ExtendedJumpJetSystem
 ExtendedJumpJetSystem
 CLMediumChemLaserAmmo (30)
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -115,22 +114,16 @@ Fusillade
 </Torso Equipment>
 
 <Right Arm Equipment>
-CLMediumChemicalLaser
+CLMediumChemLaser
 </Right Arm Equipment>
 
 <Left Arm Equipment>
-CLMediumChemicalLaser
+CLMediumChemLaser
 </Left Arm Equipment>
 
 <Legs Equipment>
 </Legs Equipment>
 
-<slotless_equipment>
-Clan Ammo iATM-3 (1)
-Clan Ammo iATM-3 (1)
-Clan Ammo iATM-3 (1)
-Clan Ammo iATM-3 (1)
-</slotless_equipment>
 
 <capabilities>
 When combined with the Boggart, the Sprite would shoot long-range missiles at opposing units, allowing the Boggart to reach closer and deal more damage. The Sprite's five Extended Jump Jets allow it to keep up with its lighter buddy. The Sprite's heavy armor is an extremely significant characteristic. An Autocannon/20 hit to the torso will not kill the ProtoMech. The Sprite, with its strong armor, was most frequently utilized by the Society's most experienced ProtoMech pilots. This kept them safe, but due to the Sprite's slow top speed and limited ammunition, these warriors had to pick their targets wisely or risk running out of ammunition at a critical time.
@@ -160,7 +153,7 @@ Unknown
 CHASSIS:SPT/15
 ENGINE:75 Fusion
 ARMOR:Proto-Type 4
-JUMP_JET:X5 Series Extended Jump Jets
+JUMPJET:X5 Series Extended Jump Jets
 COMMUNICATIONS:Proto-Type 4
 TARGETING:SAT-PM1
 </systemManufacturers>
@@ -172,4 +165,3 @@ WoR
 <tonnage>
 15.0
 </tonnage>
-

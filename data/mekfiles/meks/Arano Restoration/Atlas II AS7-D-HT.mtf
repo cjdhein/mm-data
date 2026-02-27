@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas II
 model:AS7-D-HT
 mul id:7618
@@ -27,14 +26,17 @@ source:Arano
 rules level:2
 role:Juggernaut
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
 
+
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -177,9 +179,13 @@ IS Ferro-Fibrous
 -Empty-
 
 overview:The technologically-advanced Hegemony counterpart to the SLDF's regular army's AS7-D Atlas, the Atlas II was exclusively reserved for SLDF Royal Regiments.
+
 capabilities:The weapons payload gives the design more broad range attack ability versus the Atlas's brawling weaponry and its limited long range attack capacities.
+
 deployment:Its origins unknown, the only known example of the AS7-D-HT was found inside Castle Nautilus, an SLDF Outpost Fortress found in the world of Artru, in the Aurigan Reach and used by Kamea Arano during her final defeat of the Aurigan Directorate. This seemingly custom variant retains the bulk of the standard model's weapon loadout save swapping the LB-X-10 for a mammoth Autocannon/20 for enhanced short-range combat.
+
 history:First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. These 'Mechs are prized by the Clans when they were found. One such 'Mech was spotted in 3052 during the Battle of Tukayyid. In the early 3070s, the design was resurrected by the Word of Blake when they captured Hesperus II's factories. After the liberation of Defiance Industries, Devlin Stone's coalition forces kept the 'Mechs in production.
+
 manufacturer:Defiance Industries,Hegemony Research and Development Department, Weapons Division
 primaryfactory:Hesperus II,New Earth
 systemmanufacturer:CHASSIS:Foundation Type 10X

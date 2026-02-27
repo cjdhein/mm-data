@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Excalibur
 model:EXC-B2b-EC
 mul id:7683
@@ -30,12 +29,13 @@ role:Missile Boat
 quirk:vestigial_hands_la
 quirk:vestigial_hands_ra
 
+
 mass:70
 engine:350 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:12 Clan Double
+heat sinks:12 Double
 walk mp:5
 jump mp:0
 
@@ -53,11 +53,11 @@ RTR armor:8
 RTC armor:11
 
 Weapons:5
-Prototype ER Medium Laser (CP), Left Arm
+Prototype ER Medium Laser, Left Arm
 Improved Gauss Rifle, Right Arm
 Improved LRM 20, Left Torso
 Anti-Missile System, Center Torso
-Prototype ER Small Laser (CP), Center Torso
+Prototype ER Small Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -172,3 +172,4 @@ IS Endo Steel
 -Empty-
 
 history:After KLONDIKE, Wolf techs radically altered the regular Excaliburs in their possession. They replaced the gauss rifle and LRM launcher with new improved versions, which freed up enough room to include a prototype ER medium laser in the left arm and four tons of additional armor. The biggest change to the old design was the replacement of the single heat sinks with surplus doubles and moving the anti-missile ammunition to a CASE-protected torso location. Throughout the early clan years, Wolf Excaliburs were some of the coolest-running ’Mechs in clan space.
+

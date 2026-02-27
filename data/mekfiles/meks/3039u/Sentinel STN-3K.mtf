@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sentinel
 model:STN-3K
 mul id:2857
 
 Config:Biped
-techbase:Inner Sphere
-era:2830
-source:TR:3039
-rules level:1
+TechBase:Inner Sphere
+Era:2830
+Source:TR:3039
+Rules Level:1
 role:Scout
+
+
 
 quirk:imp_com
 weaponquirk:ammo_feed_problems:RT:0:SRM 2
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:10
-RT armor:10
-CT armor:12
-HD armor:9
-LL armor:11
-RL armor:11
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:10
+RT Armor:10
+CT Armor:12
+HD Armor:9
+LL Armor:11
+RL Armor:11
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:3
-AC/5, Left Arm
-SRM 2, Right Torso
 Small Laser, Right Torso
+SRM 2, Right Torso
+Autocannon/5, Left Arm
 
 Left Arm:
 Shoulder
@@ -168,4 +170,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

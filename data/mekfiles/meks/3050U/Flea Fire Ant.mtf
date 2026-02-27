@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,61 +15,59 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flea
 model:'Fire Ant'
 mul id:1135
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3050
+Rules Level:2
 role:Scout
 
-quirk:no_arms
+
+
 quirk:easy_maintain
 quirk:imp_life_support
+quirk:no_arms
 
-mass:20
-engine:120 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:20
+Engine:120 Fusion Engine
+Structure:Endo Steel
+Myomer:MASC
 
-armor:Standard(Inner Sphere)
-LA armor:3
-RA armor:3
-LT armor:4
-RT armor:4
-CT armor:7
-HD armor:5
-LL armor:4
-RL armor:4
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
 
-Weapons:9
-Machine Gun, Left Arm
-Machine Gun, Left Arm
-Machine Gun, Left Arm
-Machine Gun, Right Arm
-Machine Gun, Right Arm
-Machine Gun, Right Arm
-Flamer, Left Torso
-Flamer, Right Torso
-Flamer, Head
+Armor:Standard
+LA Armor:3
+RA Armor:3
+LT Armor:4
+RT Armor:4
+CT Armor:7
+HD Armor:5
+LL Armor:4
+RL Armor:4
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
+
+Weapons:5
+3 ISMachine Gun, Right Arm, Ammo:100
+3 ISMachine Gun, Left Arm
+1 ISFlamer, Right Torso
+1 ISFlamer, Left Torso
+1 ISFlamer, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Machine Gun
-Machine Gun
-Machine Gun
+ISMachine Gun
+ISMachine Gun
+ISMachine Gun
 -Empty-
 -Empty-
 -Empty-
@@ -81,9 +79,9 @@ Machine Gun
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Machine Gun
-Machine Gun
-Machine Gun
+ISMachine Gun
+ISMachine Gun
+ISMachine Gun
 -Empty-
 -Empty-
 -Empty-
@@ -94,28 +92,28 @@ Machine Gun
 
 Left Torso:
 Heat Sink
-Flamer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISFlamer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 
 Right Torso:
 Heat Sink
-Flamer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISFlamer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -132,13 +130,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISMASC
-IS Machine Gun Ammo - Half
+ISMG Ammo (100)
 
 Head:
 Life Support
 Sensors
 Cockpit
-Flamer
+ISFlamer
 Sensors
 Life Support
 -Empty-
@@ -175,4 +173,3 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
-

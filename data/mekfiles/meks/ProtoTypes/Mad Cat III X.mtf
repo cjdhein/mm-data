@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat III
 model:X
 mul id:4563
 
 Config:Biped
-techbase:Clan
-era:3076
-source:XTR:Clans
-rules level:4
+TechBase:Clan
+Era:3076
+Source:XTR:Clans
+Rules Level:4
 role:Missile Boat
 
-quirk:difficult_maintain
-quirk:prototype
 quirk:bad_rep_clan
+quirk:difficult_maintain
 quirk:imp_com
+quirk:prototype
 
-mass:55
-engine:330 XL (Clan) Engine
-structure:Clan Endo-Composite
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL (Clan) Engine(IS)
+Structure:Endo-Composite
+Myomer:Standard
 
-armor:Ferro-Lamellor(Clan)
-LA armor:12
-RA armor:12
-LT armor:15
-RT armor:15
-CT armor:19
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:7
-RTR armor:7
-RTC armor:8
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Lamellor(Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:15
+RT Armor:15
+CT Armor:19
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:7
+RTR Armor:7
+RTC Armor:8
 
 Weapons:10
-ER Medium Laser, Left Arm
-ER Small Laser, Left Arm
+ER Micro Laser, Right Torso
+ER Micro Laser, Right Torso
+ER Micro Laser, Left Torso
+ER Micro Laser, Left Torso
 ER Medium Laser, Right Arm
+ER Medium Laser, Left Arm
 ER Small Laser, Right Arm
+ER Small Laser, Left Arm
 LRM 20, Left Torso
-ER Micro Laser, Left Torso
-ER Micro Laser, Left Torso
 LRM 20, Right Torso
-ER Micro Laser, Right Torso
-ER Micro Laser, Right Torso
 
 Left Arm:
 Shoulder
@@ -72,12 +72,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 CLERMediumLaser
 CLERSmallLaser
-Clan Endo-Composite
-Clan Endo-Composite
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Endo-Composite
+Endo-Composite
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 -Empty-
 
 Right Arm:
@@ -86,12 +86,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 CLERMediumLaser
 CLERSmallLaser
-Clan Endo-Composite
-Clan Endo-Composite
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Endo-Composite
+Endo-Composite
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 -Empty-
 
 Left Torso:
@@ -155,8 +155,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
@@ -169,12 +169,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

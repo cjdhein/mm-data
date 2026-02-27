@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Deva
 model:C-DVA-O Invictus
 mul id:885
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Sniper
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:70
-engine:280 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Heavy Duty Gyro
 
-heat sinks:11 IS Double
-base chassis heat sinks:11
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Heavy Duty Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:20
-RT armor:20
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:11 Double
+Base Chassis Heat Sinks:11
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:22
+RA Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:4
 Gauss Rifle, Right Arm
@@ -68,11 +71,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Retractable Blade (OMNIPOD)
-Retractable Blade (OMNIPOD)
-Retractable Blade (OMNIPOD)
-Retractable Blade (OMNIPOD)
-Retractable Blade (OMNIPOD)
+Retractable Blade (omnipod)
+Retractable Blade (omnipod)
+Retractable Blade (omnipod)
+Retractable Blade (omnipod)
+Retractable Blade (omnipod)
 IS Endo Steel
 IS Endo Steel
 -Empty-
@@ -80,22 +83,22 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-ISGaussRifle (OMNIPOD)
-IS Gauss Ammo (OMNIPOD)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+ISGaussRifle (omnipod)
+IS Gauss Ammo (omnipod)
 IS Endo Steel
 IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -108,11 +111,11 @@ IS Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
 ISC3iUnit
 ISC3iUnit
-ISCASE (OMNIPOD)
+ISCASE (omnipod)
 IS Endo Steel
 IS Endo Steel
 -Empty-
@@ -138,8 +141,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -174,4 +177,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

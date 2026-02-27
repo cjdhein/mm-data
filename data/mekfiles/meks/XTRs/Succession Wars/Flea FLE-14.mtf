@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flea
 model:FLE-14
 mul id:5769
 
 Config:Biped
-techbase:Inner Sphere
-era:2519
-source:XTR:SW
-rules level:4
+TechBase:Inner Sphere
+Era:2519
+Source:XTR:SW
+Rules Level:4
 role:Scout
 
-quirk:hard_pilot
-quirk:no_arms
+
+
 quirk:easy_maintain
 quirk:imp_life_support
+quirk:no_arms
 quirk:low_profile
+quirk:hard_pilot
 
-mass:15
-engine:135 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:9
-jump mp:4
+Mass:15
+Engine:135 Fusion Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:1
-RA armor:1
-LT armor:1
-RT armor:1
-CT armor:3
-HD armor:2
-LL armor:2
-RL armor:2
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Heat Sinks:10 Single
+Walk MP:9
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:1
+RA Armor:1
+LT Armor:1
+RT Armor:1
+CT Armor:3
+HD Armor:2
+LL Armor:2
+RL Armor:2
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:1
 Medium Laser, Right Arm
@@ -169,4 +171,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

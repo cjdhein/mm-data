@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Orion
 model:ON1-C
 mul id:4755
-
 Config:Biped
 techbase:Inner Sphere
 era:2453
@@ -27,12 +25,15 @@ source:XTR:Primitives V
 rules level:3
 role:Brawler
 
-quirk:easy_maintain
+
+
 quirk:obsolete:2525
+quirk:easy_maintain
 weaponquirk:ammo_feed_problems:RT:0:Autocannon/5
 
+
 mass:75
-engine:360 Fusion Engine
+engine:360 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Primitive Cockpit
@@ -183,3 +184,4 @@ systemmanufacturer:ENGINE:Vlar 360
 systemmanufacturer:ARMOR:Valiant Lamellor
 systemmanufacturer:COMMUNICATIONS:Irian Orator-5K
 systemmanufacturer:TARGETING:Irian Orator-5K
+

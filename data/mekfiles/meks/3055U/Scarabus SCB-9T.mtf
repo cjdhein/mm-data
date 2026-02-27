@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scarabus
 model:SCB-9T
 mul id:2814
 
 Config:Biped
-techbase:Inner Sphere
-era:3054
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3054
+Source:TR:3055U
+Rules Level:2
 role:Scout
+
+
 
 quirk:rugged_1
 
-mass:30
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 Single
-walk mp:10
-jump mp:0
+Mass:30
+Engine:300 XL Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:9
-RA armor:9
-LT armor:10
-RT armor:10
-CT armor:12
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Single
+Walk MP:10
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:9
+RA Armor:9
+LT Armor:10
+RT Armor:10
+CT Armor:12
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:5
 Medium Laser, Left Arm
@@ -65,12 +67,12 @@ Medium Laser
 Medium Laser
 Small Laser
 Small Laser
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-Triple Strength Myomer
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+TSM
 
 Right Arm:
 Shoulder
@@ -79,40 +81,40 @@ Lower Arm Actuator
 Hand Actuator
 Hatchet
 Hatchet
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-Triple Strength Myomer
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+TSM
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+TSM
+TSM
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

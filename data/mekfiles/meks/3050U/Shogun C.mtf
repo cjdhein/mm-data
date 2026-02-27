@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shogun
 model:C
 mul id:2931
-
 Config:Biped
 techbase:Clan
 era:2850
@@ -27,13 +25,16 @@ source:TR:3050
 rules level:2
 role:Missile Boat
 
-quirk:difficult_maintain
-quirk:non_standard
+
+
 quirk:barrel_fists_la
 quirk:barrel_fists_ra
+quirk:difficult_maintain
+quirk:non_standard
+
 
 mass:85
-engine:255 Fusion (Clan) Engine
+engine:255 Fusion (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -59,9 +60,9 @@ LRM 20, Left Arm
 LRM 20, Right Arm
 Streak SRM 6, Left Torso
 Streak SRM 6, Left Torso
+Streak SRM 6, Right Torso
+Streak SRM 6, Right Torso
 ER PPC, Right Torso
-Streak SRM 6, Right Torso
-Streak SRM 6, Right Torso
 
 Left Arm:
 Shoulder
@@ -187,3 +188,4 @@ systemmanufacturer:ARMOR:Compound  Alpha
 systemmanufacturer:JUMP_JET:Anderson Propulsion 21
 systemmanufacturer:COMMUNICATIONS:HartfordCo COM 4000
 systemmanufacturer:TARGETING:HartfordCo XKZ 1
+

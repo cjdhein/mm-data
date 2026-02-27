@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Apollo
 model:APL-4M
 mul id:3706
 
 Config:Biped
-techbase:Inner Sphere
-era:3083
-source:TR:Proto
-rules level:4
+TechBase:Inner Sphere
+Era:3083
+Rules Level:4
 role:Missile Boat
+Source:TR:Proto
 
-quirk:difficult_maintain
+
+
 quirk:fast_reload
 quirk:rugged_1
+quirk:difficult_maintain
 
-mass:55
-engine:220 XL Engine
-structure:IS Composite
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:55
+Engine:220 XL Engine(IS)
+Structure:Composite
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:27
-HD armor:9
-LL armor:25
-RL armor:25
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:27
+HD Armor:9
+LL Armor:25
+RL Armor:25
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:3
 Extended LRM 15, Left Torso
@@ -66,11 +68,11 @@ Hand Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -80,11 +82,11 @@ Hand Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

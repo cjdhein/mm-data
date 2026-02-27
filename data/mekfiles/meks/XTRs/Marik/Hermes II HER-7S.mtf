@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes II
 model:HER-7S
 mul id:1505
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3077
-source:XTR:Marik
-rules level:4
+TechBase:Mixed (IS Chassis)
+Era:3077
+Source:XTR:Marik
+Rules Level:4
 role:Sniper
+
+
 
 quirk:easy_maintain
 quirk:imp_com
 
-mass:40
-engine:320 XXL Engine(IS)
-structure:IS Composite
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:8
-jump mp:8
+Mass:40
+Engine:320 XXL Fusion Engine (Inner Sphere)
+Structure:Composite
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double (Inner Sphere)
+Walk MP:8
+Jump MP:8
+
+Armor:Standard Armor (Clan)
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
-ER Flamer, Left Arm
-Light PPC, Right Arm
-Large Pulse Laser, Right Torso
+1 CLERFlamer, Left Arm
+1 CLLargePulseLaser, Right Torso
+1 ISLightPPC, Right Arm
 
 Left Arm:
 Shoulder
@@ -76,8 +78,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Light PPC
-Light PPC
+ISLightPPC
+ISLightPPC
 -Empty-
 -Empty-
 -Empty-
@@ -86,12 +88,12 @@ Light PPC
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
@@ -100,12 +102,12 @@ Jump Jet
 -Empty-
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
@@ -114,16 +116,16 @@ CLLargePulseLaser
 CLLargePulseLaser
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 CLTargeting Computer
 CLTargeting Computer
 
@@ -134,24 +136,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -162,10 +152,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

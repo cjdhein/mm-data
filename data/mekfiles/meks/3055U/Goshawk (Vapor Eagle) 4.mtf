@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Goshawk
 clanname:Vapor Eagle
 model:4
 mul id:1246
 
 Config:Biped
-techbase:Clan
-era:3066
-source:TR:3055U
-rules level:2
+TechBase:Clan
+Era:3066
+Source:TR:3055U
+Rules Level:2
 role:Skirmisher
 
 quirk:nimble_jumper
 
-mass:55
-engine:330 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:17 Clan Double
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:16
-RA armor:16
-LT armor:20
-RT armor:20
-CT armor:28
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:17 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:16
+RA Armor:16
+LT Armor:20
+RT Armor:20
+CT Armor:28
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:9
 ER Small Laser, Left Arm
@@ -71,9 +71,9 @@ Hand Actuator
 CLERSmallLaser
 CLERSmallLaser
 CLERSmallLaser
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -85,9 +85,9 @@ CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -101,9 +101,9 @@ CLATM6
 CLATM6
 Clan Ammo ATM-6
 Clan Ammo ATM-6 HE
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -115,9 +115,9 @@ CLATM6
 CLATM6
 Clan Ammo ATM-6
 Clan Ammo ATM-6 ER
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -130,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -174,4 +174,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

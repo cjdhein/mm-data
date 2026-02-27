@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:OmniMarauder
 model:MAD-BR-O
 mul id:8110
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (IS Chassis)
 era:3135
 source:XTR:Caveat
 rules level:3
 role:Sniper
 
-quirk:low_profile
+
+
 quirk:command_mech
 quirk:directional_torso_mount
 quirk:hyper_actuator
+quirk:low_profile
+
 
 mass:75
 engine:300 XL (Clan) Engine
@@ -39,7 +41,7 @@ myomer:Standard
 cockpit:Standard Cockpit
 gyro:Compact Gyro
 
-heat sinks:17 Clan Double
+heat sinks:17 Double
 base chassis heat sinks:12
 walk mp:4
 jump mp:0
@@ -67,13 +69,13 @@ HAG/30, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERMediumLaser (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -81,13 +83,13 @@ Clan Ferro-Lamellor
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERMediumLaser (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -95,8 +97,8 @@ Clan Ferro-Lamellor
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -109,15 +111,15 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLHAG30 (OMNIPOD)
-CLCASEII (OMNIPOD)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLHAG30 (omnipod)
+CLCASEII (omnipod)
 Clan Ferro-Lamellor
 
 Center Torso:
@@ -129,9 +131,9 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Hyper-Assault Gauss Rifle/30 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/30 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/30 Ammo (OMNIPOD)
+Hyper-Assault Gauss Rifle/30 Ammo (omnipod)
+Hyper-Assault Gauss Rifle/30 Ammo (omnipod)
+Hyper-Assault Gauss Rifle/30 Ammo (omnipod)
 -Empty-
 
 Head:
@@ -175,4 +177,5 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
+
 

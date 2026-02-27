@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Aquagladius
 model:AQS-3
 mul id:58
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3065
+Source:TR:3055U
+Rules Level:4
 role:Striker
+
+
+
 
 quirk:difficult_eject
 quirk:difficult_maintain
 
-mass:50
-engine:300 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:50
+Engine:300 Light Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:17
-RT armor:17
-CT armor:22
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:17
+RT Armor:17
+CT Armor:22
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:1
-BattleMech Taser, Left Arm
+Taser, Left Arm
 
 Left Arm:
 Shoulder
@@ -63,9 +66,9 @@ Hand Actuator
 Mek Taser
 Mek Taser
 Mek Taser
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -77,38 +80,38 @@ IS Flail
 IS Flail
 IS Flail
 IS Flail
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-UMU
-UMU
+ISUMU
+ISUMU
 Taser Ammo
 Taser Ammo
 Taser Ammo
 IS HarJel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-UMU
-UMU
+ISUMU
+ISUMU
 IS HarJel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -122,14 +125,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-UMU
+ISUMU
 IS HarJel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -144,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -158,12 +161,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

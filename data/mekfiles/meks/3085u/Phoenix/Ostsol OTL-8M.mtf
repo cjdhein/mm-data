@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostsol
 model:OTL-8M
 mul id:2378
 
 Config:Biped
-techbase:Inner Sphere
-era:3066
+TechBase:Inner Sphere
+Era:3066
 source:TR:3085S
-rules level:2
+Rules Level:2
 role:Skirmisher
 
-quirk:low_profile
+
+
 quirk:imp_sensors
+quirk:low_profile
 
-mass:60
-engine:360 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:11 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XL Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:24
-RT armor:24
-CT armor:25
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:14
+RA Armor:14
+LT Armor:24
+RT Armor:24
+CT Armor:25
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:7
 Large Pulse Laser, Left Torso
@@ -66,11 +68,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -80,10 +82,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -97,9 +99,9 @@ ISLargePulseLaser
 ISLargePulseLaser
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+TSM
 -Empty-
 -Empty-
 
@@ -111,9 +113,9 @@ PPC
 PPC
 PPC
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+TSM
 -Empty-
 -Empty-
 
@@ -135,7 +137,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -150,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -24,9 +33,9 @@ SupportTank
 Randolph Support Vehicle
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5586
@@ -36,10 +45,6 @@ Randolph Support Vehicle
 2300
 </year>
 
-<originalBuildYear>
-2300
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -48,24 +53,9 @@ IS Level 2
 None
 </role>
 
-<quirks>
-easy_maintain
-obsolete:2500
-</quirks>
-
-<weaponQuirks>
-mod_weapons:FR:0:Machine Gun
-mod_weapons:RS:0:Machine Gun
-mod_weapons:LS:0:Machine Gun
-</weaponQuirks>
-
 <motion_type>
 Tracked
 </motion_type>
-
-<transporters>
-cargobay:9.0:1:1::-1:0
-</transporters>
 
 <cruiseMP>
 4
@@ -75,17 +65,9 @@ cargobay:9.0:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-46
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
+<fuel>
 1
-</armor_tech_level>
+</fuel>
 
 <armor>
 16
@@ -94,10 +76,18 @@ cargobay:9.0:1:1::-1:0
 14
 </armor>
 
+<barrating>
+5
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
 <Body Equipment>
-SV Chassis Mod [Tractor]
+Tractor
 Basic Fire Control
-IS Machine Gun Ammo - Half
+ISMG Ammo (100)
 </Body Equipment>
 
 <Front Equipment>
@@ -115,31 +105,25 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<barrating>
-5
-</barrating>
-
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
-
 <source>
 XTR:Primitives II
 </source>
+
+<transporters>
+cargobay:9:1
+</transporters>
 
 <tonnage>
 35.0
 </tonnage>
 
-<fuel>
-1.0
-</fuel>
+<quirks>
+easy_maintain
+obsolete:2500
+</quirks>
 
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
+<weaponQuirks>
+mod_weapons:FR:0:Machine Gun
+mod_weapons:RS:0:Machine Gun
+mod_weapons:LS:0:Machine Gun
+</weaponQuirks>

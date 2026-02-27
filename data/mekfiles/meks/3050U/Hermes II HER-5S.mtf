@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,55 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes II
 model:HER-5S
 mul id:1501
 
 Config:Biped
-techbase:Inner Sphere
-era:3050
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3050
+Source:TR:3050
+Rules Level:2
 role:Striker
+
+
 
 quirk:easy_maintain
 quirk:imp_com
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
-Flamer, Left Arm
-Medium Pulse Laser, Right Arm
-Ultra AC/5, Right Torso
+1 ISUltraAC5, Right Torso, Ammo:20
+1 ISFlamer, Left Arm
+1 ISMediumPulseLaser, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Flamer
+ISFlamer
 -Empty-
 -Empty-
 -Empty-
@@ -86,17 +88,17 @@ ISMediumPulseLaser
 -Empty-
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Ultra AC/5 Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISUltraAC5 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Torso:
@@ -105,13 +107,13 @@ ISUltraAC5
 ISUltraAC5
 ISUltraAC5
 ISUltraAC5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine

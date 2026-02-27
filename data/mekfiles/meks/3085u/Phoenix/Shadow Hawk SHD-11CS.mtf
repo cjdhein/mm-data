@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk
 model:SHD-11CS
 mul id:2896
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
+TechBase:Inner Sphere
+Era:3068
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 quirk:ubiquitous_clan
-quirk:rugged_1
 quirk:ubiquitous_is
+quirk:rugged_1
 
-mass:55
-engine:275 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-ejection:Full Head Ejection System
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:5
+Mass:55
+Engine:275 Light Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
+Ejection:Full Head Ejection System
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:19
-RT armor:19
-CT armor:26
-HD armor:9
-LL armor:25
-RL armor:25
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:5
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:19
+RT Armor:19
+CT Armor:26
+HD Armor:9
+LL Armor:25
+RL Armor:25
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:4
 ER Medium Laser, Left Arm
@@ -69,12 +71,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -83,10 +85,10 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -100,10 +102,10 @@ ISSNPPC
 ISSNPPC
 ISC3iUnit
 ISC3iUnit
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -117,7 +119,7 @@ ISArtemisIV
 IS Ammo LRM-15 Artemis-capable
 IS Ammo LRM-15 Artemis-capable
 ISCASE
-IS Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -131,13 +133,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -152,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -166,8 +168,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -175,3 +177,4 @@ IS Endo Steel
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\shadow hawk SHD-7CS.jpg

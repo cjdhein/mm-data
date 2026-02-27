@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Osiris
 model:OSR-4D
 mul id:4764
@@ -27,11 +26,14 @@ source:TR:3067
 rules level:2
 role:Striker
 
+
+
 quirk:ext_twist
 weaponquirk:direct_torso_mount:CT:10:ISERMediumLaser
 
+
 mass:30
-engine:240 XL Engine
+engine:240 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -182,3 +184,4 @@ systemmanufacturer:ENGINE:Pharaoh 240 XL
 systemmanufacturer:ARMOR:StarGuard Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Achernar Electronics HID-8.7
 systemmanufacturer:TARGETING:Federated Hunter Mk. VII
+

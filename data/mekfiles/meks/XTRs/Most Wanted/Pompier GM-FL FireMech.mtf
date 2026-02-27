@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pompier
 model:GM-FL FireMech
 mul id:5780
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
-source:XTR:Most Wanted
-rules level:3
+TechBase:Inner Sphere
+Era:3076
+Source:XTR:Most Wanted
+Rules Level:3
+role:Ambusher
 
+Mass:15
+Engine:60 Fusion Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
 
-mass:15
-engine:60 Fusion Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:10 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:4
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-LA armor:1
-RA armor:1
-LT armor:1
-RT armor:1
-CT armor:2
-HD armor:1
-LL armor:1
-RL armor:1
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Armor:Commercial(Inner Sphere)
+LA Armor:1
+RA Armor:1
+LT Armor:1
+RT Armor:1
+CT Armor:2
+HD Armor:1
+LL Armor:1
+RL Armor:1
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:4
-Machine Gun, Left Arm
-Machine Gun, Left Arm
 Flamer, Right Arm
 Fluid Gun, Right Torso
+Machine Gun, Left Arm
+Machine Gun, Left Arm
 
 Left Arm:
 Shoulder
@@ -166,4 +165,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

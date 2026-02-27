@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Redback
 model:
 mul id:7684
@@ -27,13 +26,12 @@ source:TR:GC
 rules level:4
 role:Brawler
 
-
 mass:75
 engine:375 XL (Clan) Engine
 structure:IS Standard
 myomer:Standard
 
-heat sinks:19 Clan Double
+heat sinks:19 Double
 walk mp:5
 jump mp:0
 
@@ -55,7 +53,7 @@ ER Large Laser, Left Arm
 Enhanced PPC, Right Arm
 TAG, Right Torso
 Medium Pulse Laser, Center Torso
-Prototype ER Medium Laser (CP), Center Torso
+Prototype ER Medium Laser, Center Torso
 Medium Pulse Laser, Head
 
 Left Arm:
@@ -171,3 +169,4 @@ Foot Actuator
 -Empty-
 
 history:One of the rare designs produced by the ill-fated Clan Widowmaker, the Maelstrom known as the Redback amongst the clans, was popular with Widowmaker Mechwarriors after Operation Klondike. The design enjoyed an Enhanced ER PPC, a Clan standard ER large laser, two SLDF surplus medium pulse lasers and a prototype ER medium laser.
+

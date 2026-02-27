@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,60 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thug
 model:THG-12K
 mul id:3208
 
 Config:Biped
-techbase:Inner Sphere
-era:3067
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3067
+Source:TR:3050
+Rules Level:2
 role:Brawler
+
+
 
 quirk:rugged_1
 
-mass:80
-engine:320 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:17 IS Double
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:26
-RT armor:26
-CT armor:38
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:17 Double
+Walk MP:4
+Jump MP:0
 
-Weapons:4
-ER PPC, Left Arm
-ER PPC, Right Arm
-SRM 6, Left Torso
-SRM 6, Right Torso
+Armor:Standard
+LA Armor:26
+RA Armor:26
+LT Armor:26
+RT Armor:26
+CT Armor:38
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
+
+Weapons:6
+1 ISERPPC, Right Arm
+1 ISERPPC, Left Arm
+1 ISSRM6, Right Torso, Ammo:15
+1 ISSRM6, Left Torso
+1 ISGuardianECM, Center Torso
+1 ISC3SlaveUnit, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
@@ -76,41 +80,41 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
-IS Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-SRM 6
-SRM 6
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISSRM6
+ISSRM6
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-SRM 6
-SRM 6
-IS Ammo SRM-6
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISSRM6
+ISSRM6
+ISSRM6 Ammo
+Endo Steel
+Endo Steel
 ISCASE
 
 Center Torso:
@@ -124,8 +128,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 
 Head:
 Life Support
@@ -146,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -160,8 +164,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -169,9 +173,12 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-overview:The Thug was designed by Maltex Corporation as a direct competitor to the popular Warhammer BattleMech. First seeing production in 2572.
-capabilities:The armament on the Thug is a very simple, yet effective, combination. This Draconis Combine variant of the 12E introduced in 3067 replaces the C3i with a C3 Slave and a Guardian ECM Suite.
+overview:The Thug was designed by Maltex Corporation as a direct competitor to the popular Warhammer BattleMech. First seeing production in 2572. 
+
+capabilities:The armament on the Thug is a very simple, yet effective, combination. This Draconis Combine variant of the 12E introduced in 3067 replaces the C3i with a C3 Slave and a Guardian ECM Suite. 
+
 history:The Thug sought to directly address some of the challenges which faced the Warhammer, chief of which was to increase armor protection without sacrificing firepower. When compared side-by-side, the Thug has a great many advantages over the Warhammer, yet it never wholly replaced the venerable 'Mech. Still the Thug proved popular enough that Maltex Corporation was forced to contract Earthwerks Incorporated to produce the Thug on Keystone in order to meet demand. Although it has had its detractors, the Thug has proven itself for over five hundred years to be the quintessential "zombie 'Mech." Production of the Thug from Maltex's original factory on Errai ceased when it was destroyed in 2835, one of many causalities of the Succession Wars, leaving only Earthwerks to continue building new Thugs at a rate of twelve per year. Unfortunately the same terrible conflict resulted in the loss of much advanced knowledge and technology, threatening their ability to keep even this meager production rate up. In a twist of fate it was the Warhammer which helped keep the Thug production line alive: with the loss of their original PPC weaponry, Earthwerks instead reworked the design to make use of the extensive stockpile of Donal PPCs used by the Warhammer, allowing new Thugs to be built and repairs to be made more easily. Beyond the few still in service to the Great Houses the largest user of Thugs was ComStar, a fact confirmed upon the reveal of their Com Guards. Eventually the recovery of lostech would allow both Earthwerks and Maltex to restart production of original-model Thugs during the 3050s. These were supplanted by new variants which, following the formation of the Second Star League, were supplied to ComStar, the SLDF, the Draconis Combine and Federated Suns. New Thugs were also built for the Word of Blake and those forces of the Free Worlds League aligned with them during the Jihad.
+
 manufacturer:Maltex Corporation, Earthwerks Incorporated
 primaryfactory:Errai, Keystone
 systemmanufacturer:CHASSIS:Earthwerks VOL Endo Steel

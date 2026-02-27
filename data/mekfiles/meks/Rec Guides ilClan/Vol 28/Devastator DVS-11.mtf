@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Devastator
 model:DVS-11
 mul id:9377
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3146
@@ -27,8 +25,11 @@ source:RG28
 rules level:3
 role:Juggernaut
 
-quirk:searchlight
+
+
 quirk:hyper_actuator
+quirk:searchlight
+
 
 mass:100
 engine:300 XL Engine(IS)
@@ -58,8 +59,8 @@ Weapons:8
 Gauss Rifle, Left Arm
 Gauss Rifle, Right Arm
 Snub-Nose PPC, Left Torso
-ER Medium Laser, Left Torso
 Snub-Nose PPC, Right Torso
+ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
 ER Small Laser, Center Torso
 ER Small Laser, Head
@@ -187,3 +188,4 @@ systemmanufacturer:ENGINE:Vlar 300 XL
 systemmanufacturer:ARMOR:Durallex Heavy
 systemmanufacturer:COMMUNICATIONS:Johnston Wide Band
 systemmanufacturer:TARGETING:Randar Pinpoint-HY
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uni
 model:ATAE-70 ArtilleryMech
 mul id:8101
@@ -23,13 +22,12 @@ mul id:8101
 Config:Quad
 techbase:Inner Sphere
 era:3090
-source:XTR:Caveat
 rules level:5
 role:Missile Boat
-
+source:XTR:Caveat
 
 mass:70
-engine:210 Fuel Cell Engine
+engine:210 Fuel Cell Engine(IS)
 structure:IS Industrial
 myomer:Standard
 
@@ -50,9 +48,8 @@ RTL armor:9
 RTR armor:9
 RTC armor:10
 
-Weapons:2
-Thumper, Center Torso
-Thumper, Right Torso
+Weapons:1
+Thumper, None
 
 Front Left Leg:
 Hip
@@ -90,9 +87,9 @@ ISThumper
 ISThumper
 ISThumper
 ISThumper
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo:size:1.0
+Cargo:size:1.0
+Cargo:size:1.0
 -Empty-
 -Empty-
 
@@ -105,9 +102,9 @@ ISThumper
 ISThumper
 ISThumper
 ISThumperAmmo
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo:size:1.0
+Cargo:size:1.0
+Cargo:size:1.0
 -Empty-
 
 Center Torso:
@@ -165,4 +162,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

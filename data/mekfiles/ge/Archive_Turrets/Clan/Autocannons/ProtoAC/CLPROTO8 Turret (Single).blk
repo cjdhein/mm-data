@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Guns block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 GunEmplacement
 </UnitType>
-
 <Name>
 ProtoMech AC/8 Turret
 </Name>
-
-<Model>
+<model>
 (Single)
-</Model>
-
-<year>
+</model>
+<Year>
 3145
-</year>
-
-<originalBuildYear>
-3145
-</originalBuildYear>
-
-<type>
+</Year>
+<Type>
 Clan Level 2
-</type>
-
-<GUNS Equipment>
-CLProtoMechAC8
-Clan ProtoMech AC/8 Ammo
-Clan ProtoMech AC/8 Ammo
-Clan ProtoMech AC/8 Ammo
-Clan ProtoMech AC/8 Ammo
-Clan ProtoMech AC/8 Ammo
-Clan ProtoMech AC/8 Ammo
-</GUNS Equipment>
-
-<turret>
+</Type>
+<Turret>
 1
-</turret>
-
+</Turret>
+<Guns Equipment>
+CLProtoMechAC8
+CLProtoAC8Ammo
+CLProtoAC8Ammo
+CLProtoAC8Ammo
+CLProtoAC8Ammo
+CLProtoAC8Ammo
+CLProtoAC8Ammo
+</Guns Equipment>

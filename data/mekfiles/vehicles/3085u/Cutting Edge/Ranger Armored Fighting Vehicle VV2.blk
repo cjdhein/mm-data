@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -32,74 +41,27 @@ VV2
 2640
 </mul id:>
 
-<year>
-3082
-</year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
-
-<type>
-IS Level 3
-</type>
-
-<role>
-Striker
-</role>
-
-<motion_type>
-Wheeled
-</motion_type>
+<Tonnage>
+45
+</Tonnage>
 
 <cruiseMP>
 6
 </cruiseMP>
 
-<engine_type>
-0
-</engine_type>
-
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-0
-</armor_tech_level>
-
-<armor>
+#Order is Tank/VTOL/LST
+<Armor>
 34
 30
 30
 28
 30
-</armor>
-
-<Body Equipment>
-ISMagshotGR Ammo
-ISMagshotGR Ammo
-ISMagshotGR Ammo
-ISMagshotGR Ammo
-</Body Equipment>
+</Armor>
 
 <Front Equipment>
 ISERSmallLaser
 ISERSmallLaser
 </Front Equipment>
-
-<Right Equipment>
-</Right Equipment>
-
-<Left Equipment>
-</Left Equipment>
-
-<Rear Equipment>
-</Rear Equipment>
 
 <Turret Equipment>
 ISMagshotGR
@@ -112,11 +74,45 @@ ISMagshotGR
 ISMagshotGR
 </Turret Equipment>
 
+<Body Equipment>
+ISMagshotGR Ammo
+ISMagshotGR Ammo
+ISMagshotGR Ammo
+ISMagshotGR Ammo
+</Body Equipment>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Striker
+</role>
+
+<year>
+3082
+</year>
+
 <source>
 TR:3085
 </source>
 
-<tonnage>
-45.0
-</tonnage>
+<internal_type>
+0
+</internal_type>
 
+<armor_type>
+0
+</armor_type>
+
+<engine_type>
+0
+</engine_type>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<imagepath>
+.\data\images\fluff\vehicle\ranger.jpg
+</imagepath>

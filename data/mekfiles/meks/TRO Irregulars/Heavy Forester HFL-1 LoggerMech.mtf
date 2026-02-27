@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Heavy Forester
 model:HFL-1 LoggerMech
 mul id:4529
@@ -27,9 +26,8 @@ source:TR:I
 rules level:2
 role:None
 
-
 mass:60
-engine:180 ICE Engine
+engine:180 ICE Engine(IS)
 structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
@@ -91,8 +89,8 @@ Chainsaw
 Lift Hoist/Arresting Hoist (R)
 Lift Hoist/Arresting Hoist (R)
 Lift Hoist/Arresting Hoist (R)
-Cargo:SIZE:2.0
-Cargo:SIZE:2.0
+Cargo:size:2.0
+Cargo:size:2.0
 -Empty-
 -Empty-
 
@@ -105,8 +103,8 @@ Chainsaw
 Lift Hoist/Arresting Hoist (R)
 Lift Hoist/Arresting Hoist (R)
 Lift Hoist/Arresting Hoist (R)
-Cargo:SIZE:2.0
-Cargo:SIZE:2.0
+Cargo:size:2.0
+Cargo:size:2.0
 -Empty-
 -Empty-
 
@@ -165,4 +163,5 @@ Searchlight (R)
 -Empty-
 -Empty-
 -Empty-
+
 

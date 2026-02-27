@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jupiter
 model:
 mul id:1725
 
 Config:Biped
-techbase:Clan
-era:3068
-source:TR:3075
-rules level:2
+TechBase:Clan
+Era:3068
+Source:TR:3075
+Rules Level:2
 role:Sniper
 
-quirk:imp_target_long
+
 quirk:fine_manipulators
 quirk:imp_sensors
+quirk:imp_target_long
 
-mass:100
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:17 Clan Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:17 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
 
 Weapons:8
 Ultra AC/5, Left Arm
@@ -59,8 +60,8 @@ Ultra AC/5, Left Arm
 Ultra AC/5, Right Arm
 Ultra AC/5, Right Arm
 ER PPC, Left Torso
-LRM 15, Left Torso
 ER PPC, Right Torso
+LRM 15, Left Torso
 LRM 15, Right Torso
 
 Left Arm:
@@ -74,8 +75,8 @@ CLUltraAC5
 CLUltraAC5
 CLUltraAC5
 CLUltraAC5
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -88,8 +89,8 @@ CLUltraAC5
 CLUltraAC5
 CLUltraAC5
 CLUltraAC5
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -103,7 +104,7 @@ CLLRM15
 Clan Ultra AC/5 Ammo
 Clan Ultra AC/5 Ammo
 Clan Ammo LRM-15
-Clan Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -117,7 +118,7 @@ CLLRM15
 Clan Ultra AC/5 Ammo
 Clan Ultra AC/5 Ammo
 Clan Ammo LRM-15
-Clan Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -137,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -174,4 +175,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

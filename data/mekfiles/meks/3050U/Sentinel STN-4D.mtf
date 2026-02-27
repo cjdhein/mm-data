@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sentinel
 model:STN-4D
 mul id:2863
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3050
+Rules Level:2
 role:Striker
+
+
 
 quirk:imp_com
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:15
-RT armor:15
-CT armor:19
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:12
+RA Armor:12
+LT Armor:15
+RT Armor:15
+CT Armor:19
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:2
-Rotary AC/5, Left Arm
-ER Medium Laser, Right Torso
+1 ISRotaryAC5, Left Arm, Ammo:40
+1 ISERMediumLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -64,49 +66,49 @@ ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISRotaryAC5 Ammo
 ISRotaryAC5 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -122,8 +124,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Ferro-Fibrous
+Endo-Steel
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -144,8 +146,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Ferro-Fibrous
+Endo-Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -158,8 +160,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Ferro-Fibrous
+Endo-Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-

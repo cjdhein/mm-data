@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Paladin
 model:PAL-3
 mul id:2410
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3068
+Source:TR:3055U
+Rules Level:4
 role:Skirmisher
+
+
 
 quirk:difficult_maintain
 quirk:non_standard
 
-mass:60
-engine:360 XXL Engine
-structure:IS Reinforced
-myomer:Standard
-cockpit:Small Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XXL Engine
+Structure:Reinforced
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:XL Gyro
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:21
-RT armor:21
-CT armor:30
-HD armor:9
-LL armor:25
-RL armor:25
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:21
+RT Armor:21
+CT Armor:30
+HD Armor:9
+LL Armor:25
+RL Armor:25
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:6
 Ultra AC/20, Left Arm
@@ -81,10 +83,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISMediumXPulseLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -101,8 +103,8 @@ Machine Gun
 Machine Gun
 Machine Gun
 Machine Gun
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -115,8 +117,8 @@ IS Ultra AC/20 Ammo
 IS Ultra AC/20 Ammo
 IS Ammo MG - Full
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -137,8 +139,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -151,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +167,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rhino
 model:
 mul id:7883
@@ -27,13 +26,12 @@ source:OTP:HC
 rules level:4
 role:Skirmisher
 
-
 mass:50
 engine:300 XL (Clan) Engine
 structure:IS Reinforced
 myomer:Standard
 
-heat sinks:12 Clan Double
+heat sinks:12 Double
 walk mp:6
 jump mp:0
 
@@ -51,11 +49,11 @@ RTR armor:4
 RTC armor:5
 
 Weapons:5
-ER Medium Laser, Front Left Leg
-ER Medium Laser, Front Left Leg
-ER Medium Laser, Front Right Leg
-ER Medium Laser, Front Right Leg
 ER Medium Laser, Head
+ER Medium Laser, Front Right Leg
+ER Medium Laser, Front Left Leg
+ER Medium Laser, Front Right Leg
+ER Medium Laser, Front Left Leg
 
 Front Left Leg:
 Hip
@@ -168,4 +166,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

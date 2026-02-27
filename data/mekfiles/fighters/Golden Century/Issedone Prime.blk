@@ -1,21 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.50.11 on 2025-12-12
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -143,6 +126,10 @@ CLERMediumLaser:OMNI
 
 <history>
 <p>The Issedone debuted to considerable acclaim within Clan Snow Raven, representing a significant technological achievement as the first successful application of OmniPod technology to aerospace fighters. However, the rapid introduction of the superior Avar OmniFighter soon after dampened enthusiasm for the design among front-line warriors, and the Issedone might have been consigned to obscurity as a mere historical footnote.</p>
+
+<p>The fighter would justify its existence during the Hellgate crisis of 2897, when Clan Steel Viper captured the Snow Ravens' agro-domes on that harsh world. Facing the impossible choice between importing food for their civilian population or weapons to defend against continued Viper incursions, the Ravens found themselves operating under severe logistical constraints. In these deprived conditions, the Issedone thrived where more capable but maintenance-intensive fighters failed. Starting from a single Point, Issedones gradually became the Ravens' fighter of choice on Hellgate, eventually fielding a full Trinary. As more advanced fighters were grounded for lack of spare parts, the rugged Issedones maintained an extraordinarily high combat tempo, launching near-daily operations against Steel Viper positions. Over eighteen months of escalating conflict, the Vipers committed increasingly sophisticated assets from vintage SLDF fighters to modern Clan designs, yet none could overcome the combination of Hellgate's hostile environment and the Issedone's relentless operational availability. When the Ravens finally withdrew from Hellgate in 2899, the Steel Vipers could muster only a pair of Spads to harass the retreating DropShips, a fitting tribute to the enduring legacy of the Issedone's original Spad-based design philosophy.</p>
+
+<p>Following Clan Snow Raven's relocation to the Inner Sphere and their merger with the Outworlds Alliance, the Issedone largely faded from front-line service with the Ravens themselves. However, Clan Sea Fox recognized the design's continuing value and resumed production at their facilities, marketing the OmniFighter to Periphery nations and smaller powers unable to afford more advanced Clan aerospace assets. The Sea Fox merchants have introduced new configurations specifically tailored for Inner Sphere buyers, incorporating equipment sourced from local vendors to ease maintenance and supply concerns. Mercenary units have proven particularly receptive customers, employing Issedones in force-multiplier roles such as artillery spotting, harassment operations behind enemy lines, and precision strike missions using the C variant's targeting capabilities. This commercial success in secondary markets validates the original Snow Raven design philosophy prioritizing reliability and maintainability over raw performance.</p>
 </history>
 
 <manufacturer>
@@ -168,4 +155,5 @@ TR:GC
 <tonnage>
 30.0
 </tonnage>
+
 

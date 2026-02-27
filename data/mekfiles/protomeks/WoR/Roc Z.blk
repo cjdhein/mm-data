@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Skirmisher
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 5
 </cruiseMP>
@@ -68,22 +80,6 @@ false
 0
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
-
 <internal_type>
 -1
 </internal_type>
@@ -98,13 +94,12 @@ false
 </armor>
 
 <Body Equipment>
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 CLMediumChemLaserAmmo (20)
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -124,8 +119,16 @@ ProtoMagneticClamp
 </Legs Equipment>
 
 <Main Gun Equipment>
-CLMediumChemicalLaser
+CLMediumChemLaser
 </Main Gun Equipment>
+
+<source>
+WoR
+</source>
+
+<tonnage>
+7.0
+</tonnage>
 
 <capabilities>
 In a sense a "super-Elemental". It can also maintain a cruising speed of 54 km/h and carries sufficient armoring to survive a direct PPC hit to the chest.
@@ -155,16 +158,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-WoR
-</source>
-
-<tonnage>
-7.0
-</tonnage>
-

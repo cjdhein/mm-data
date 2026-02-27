@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Celerity
 model:CLR-03OMM 'Rajah'
 mul id:8366
@@ -27,7 +26,6 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Scout
 
-
 mass:15
 engine:120 Fusion Engine(IS)
 structure:IS Endo Steel
@@ -35,7 +33,8 @@ myomer:Standard
 cockpit:Small Cockpit
 gyro:XL Gyro
 
-heat sinks:10 Clan Double
+heat sinks:10 Double
+nocrit:Standard:None
 walk mp:8
 jump mp:0
 
@@ -167,4 +166,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

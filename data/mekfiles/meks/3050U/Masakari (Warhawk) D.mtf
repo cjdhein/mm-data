@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Masakari
 clanname:Warhawk
 model:D
 mul id:2094
 
-Config:Biped OmniMek
-techbase:Clan
-era:3054
-source:TR:3050
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3054
+Source:TR:3050
+Rules Level:2
 role:Sniper
 
 quirk:imp_target_long
 
-mass:85
-engine:340 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:20 Clan Double
-base chassis heat sinks:13
-walk mp:4
-jump mp:0
+Mass:85
+Engine:340 XL (Clan) Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:28
-RA armor:28
-LT armor:26
-RT armor:26
-CT armor:42
-HD armor:9
-LL armor:35
-RL armor:35
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:20 Double
+Base Chassis Heat Sinks:13
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:28
+RA Armor:28
+LT Armor:26
+RT Armor:26
+CT Armor:42
+HD Armor:9
+LL Armor:35
+RL Armor:35
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:5
 ATM 9, Left Arm
@@ -63,13 +63,13 @@ ER Small Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-Clan Ammo ATM-9 (OMNIPOD)
-Clan Ammo ATM-9 ER (OMNIPOD)
-Clan Ammo ATM-9 HE (OMNIPOD)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+Clan Ammo ATM-9 (omnipod)
+Clan Ammo ATM-9 ER (omnipod)
+Clan Ammo ATM-9 HE (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -77,12 +77,12 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -107,12 +107,12 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLERLargeLaser (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLERLargeLaser (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 
@@ -127,7 +127,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERSmallLaser (OMNIPOD)
+CLERSmallLaser (omnipod)
 -Empty-
 
 Head:
@@ -172,10 +172,14 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-overview:Introduced by Clan Smoke Jaguar in 2999 in preparation for the anticipated return to the Inner Sphere, while the Dragoon Compromise stalled such plans, the Jaguars unleashed the powerful Warhawk on their Warden opponents to deadly effect.
+overview:Introduced by Clan Smoke Jaguar in 2999 in preparation for the anticipated return to the Inner Sphere, while the Dragoon Compromise stalled such plans, the Jaguars unleashed the powerful Warhawk on their Warden opponents to deadly effect. 
+
 capabilities:The Warhawk was powered by a massive 340 XL Engine that gave it a top speed of 64.8 km/h and mounted thirteen and a half tons of Ferro-Fibrous armor to protect itself from enemy fire. To dissipate the massive waste heat produced in its various configurations, it carried a staggering twenty double heat sinks. Additionally, though not truly fixed equipment on the chassis, the Warhawk managed to incorporate an advanced Targeting Computer into each of its configurations, making all of its direct fire weapons extremely accurate.
+
 deployment:A 'Mech that could handle itself well at long range, the Warhawk D carried as its primary long range weapons a pair of ER Large Lasers which were supported by an Ultra Autocannon/10 that could fire at twice the rate as a standard autocannon. For short range the 'Mech had a single ER Small Laser and, as a sort of wild card, carried an ATM-9 launcher which could fire ammunition for long, medium, and short ranges which carry larger warhead payloads as the 'Mech closed on its target.
+
 history:Deployed extensively in the Jaguar frontline forces, and often seen paired with the Dire Wolf, the design truly came to prominence as originally intended, on the battlefields of the Jaguars' Invasion Corridor and earned the code name of Masakari - a Japanese battle-axe used on medieval Terra - from warriors within the DCMS who faced it. Though it appeared in the Toumans of a number of other Clans, such as the Ghost Bears and Jade Falcons, the Jaguars jealously guarded their production, and all examples of the highly prized 'Mech outside of the Jaguars were battlefield salvage until production lines and design specs finally spread to the Fire Mandrills, Diamond Sharks and Goliath Scorpions upon the Smoke Jaguars' Annihilation. Produced exclusively on the Clan Homeworlds, the design was one of many lost to the Inner Sphere Clans after contact with the Homeworlds ceased during the Jihad.
+
 manufacturer:Phan Industrialplex,Abysmal Manufacturing Complex,Kindraa Kline Primary Production Facility,Imperial BattleMechs
 primaryfactory:Huntress,Huntress,Dagda,Antwerp
 systemmanufacturer:CHASSIS:Huntress WH

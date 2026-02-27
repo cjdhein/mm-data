@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kraken
 clanname:Bane
 model:6
@@ -31,8 +30,9 @@ role:Sniper
 quirk:ext_twist
 quirk:pro_actuator
 
+
 mass:100
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:Clan Endo-Composite
 myomer:Standard
 
@@ -40,7 +40,7 @@ heat sinks:13 Clan Double
 walk mp:3
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:34
 RA armor:34
 LT armor:32
@@ -182,8 +182,11 @@ Clan Endo-Composite
 -Empty-
 
 overview:The Bane is a BattleMech that is based upon a Star League prototype that was never put into production. Tagged the Kraken by Inner Sphere forces who opposed it.
+
 capabilities:The Bane was first built in 2827. It was originally a significant part of many Clan toumans, but was gradually relegated to second-line status following the introduction of the OmniMech. As such, it is still critical to many defensive units. The design uses a lightweight XL Engine so that it can mount the arsenal that it does. Nineteen tons of armor protects this venerable assault 'Mech.
+
 deployment:Inspired by the original configuration, this Bane mounts five ProtoMech AC/2s in each arm. The right torso has four ER Medium Lasers for additional support. These weapons are all tied into a Targeting Computer for more accuracy. The head carries an ECM suite. Six tons of autocannon ammunition are carried in the side torsos, protected by CASE II. Thirteen double heat sinks are fitted. To make room for all this equipment, engineers used an Endo Composite structure.
+
 manufacturer:Tokasha MechWorks Alpha, Olivetti Weapons
 primaryfactory:Tokasha, Sudeten
 systemmanufacturer:CHASSIS:Type AXT, Mk. XX

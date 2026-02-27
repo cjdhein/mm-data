@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wolverine
 model:WVR-6D
 mul id:7430
@@ -27,16 +26,19 @@ source:RS:SW
 rules level:1
 role:Skirmisher
 
-quirk:cramped_cockpit
-quirk:ext_twist
+
+
 quirk:command_mech
+quirk:ext_twist
+quirk:imp_com
+quirk:pro_actuator
 quirk:ubiquitous_clan
 quirk:ubiquitous_is
-quirk:pro_actuator
-quirk:imp_com
+quirk:cramped_cockpit
+
 
 mass:55
-engine:275 Fusion Engine
+engine:275 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -185,3 +187,4 @@ systemmanufacturer:ARMOR:Maximillian
 systemmanufacturer:JUMP_JET:Northrup
 systemmanufacturer:COMMUNICATIONS:Garret
 systemmanufacturer:TARGETING:Sync
+

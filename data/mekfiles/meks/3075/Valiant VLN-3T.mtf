@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Valiant
 model:VLN-3T
 mul id:3371
 
 Config:Biped
-techbase:Inner Sphere
-era:3074
-source:TR:3075
-rules level:4
+TechBase:Inner Sphere
+Era:3074
+Source:TR:3075
+Rules Level:4
 role:Striker
 
-quirk:weak_head_1
+
+
 quirk:imp_target_short
 quirk:pro_actuator
+quirk:weak_head_1
 
-mass:30
-engine:210 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:30
+Engine:210 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:3
-RT armor:3
-CT armor:4
-HD armor:8
-LL armor:5
-RL armor:5
-RTL armor:1
-RTR armor:1
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:3
+RT Armor:3
+CT Armor:4
+HD Armor:8
+LL Armor:5
+RL Armor:5
+RTL Armor:1
+RTR Armor:1
+RTC Armor:2
 
 Weapons:3
 ER Medium Laser, Left Torso
@@ -169,4 +171,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

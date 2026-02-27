@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sasquatch
 model:SQS-TH-001
 mul id:2798
 
 Config:Biped
-techbase:Inner Sphere
-era:3054
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3054
+Source:TR:3055U
+Rules Level:2
 role:Skirmisher
+
+
+
 
 quirk:difficult_maintain
 
-mass:85
-engine:340 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:14 IS Double
-walk mp:4
-jump mp:4
+Mass:85
+Engine:340 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:27
-RT armor:27
-CT armor:39
-HD armor:9
-LL armor:33
-RL armor:33
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:14 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:27
+RT Armor:27
+CT Armor:39
+HD Armor:9
+LL Armor:33
+RL Armor:33
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:10
 Medium Pulse Laser, Left Arm
@@ -60,7 +63,7 @@ Gauss Rifle, Right Arm
 Machine Gun, Left Torso
 SRM 6, Right Torso
 Machine Gun, Right Torso
-Anti-Missile System, Right Torso
+AMS, Right Torso
 Small Laser, Head
 
 Left Arm:
@@ -174,4 +177,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

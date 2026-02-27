@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hellstar
 model:
 mul id:1481
 
 Config:Biped
-techbase:Clan
-era:3079
+TechBase:Clan
+Era:3079
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Sniper
 
-quirk:exp_actuator
+
 quirk:barrel_fists_la
 quirk:barrel_fists_ra
+quirk:exp_actuator
 
-mass:95
-engine:380 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:30 Clan Double
-walk mp:4
-jump mp:0
+Mass:95
+Engine:380 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:32
-RA armor:32
-LT armor:30
-RT armor:30
-CT armor:45
-HD armor:9
-LL armor:40
-RL armor:40
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:30 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:32
+RA Armor:32
+LT Armor:30
+RT Armor:30
+CT Armor:45
+HD Armor:9
+LL Armor:40
+RL Armor:40
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:4
-ER PPC, Left Arm
-ER PPC, Right Arm
-ER PPC, Left Torso
 ER PPC, Right Torso
+ER PPC, Left Torso
+ER PPC, Right Arm
+ER PPC, Left Arm
 
 Left Arm:
 Shoulder
@@ -69,9 +70,9 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERPPC
 CLERPPC
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -83,9 +84,9 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERPPC
 CLERPPC
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -133,7 +134,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -170,4 +171,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

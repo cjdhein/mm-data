@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Turkina
 model:C
 mul id:3328
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3052
 source:TR:CI
@@ -29,8 +28,9 @@ role:Juggernaut
 
 quirk:easy_pilot
 
+
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -39,7 +39,7 @@ base chassis heat sinks:11
 walk mp:3
 jump mp:3
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:32
 RA armor:32
 LT armor:30
@@ -53,8 +53,6 @@ RTR armor:10
 RTC armor:10
 
 Weapons:10
-Flamer, Left Leg
-Flamer, Right Leg
 LB 20-X AC, Left Arm
 Large Pulse Laser, Right Arm
 Large Pulse Laser, Right Arm
@@ -63,6 +61,8 @@ Medium Pulse Laser, Left Torso
 Streak SRM 6, Right Torso
 Machine Gun, Right Torso
 Machine Gun, Right Torso
+Flamer, Left Leg
+Flamer, Right Leg
 
 Left Arm:
 Shoulder
@@ -186,3 +186,4 @@ systemmanufacturer:ENGINE:285 JF Extralight
 systemmanufacturer:ARMOR:JF Standard
 systemmanufacturer:COMMUNICATIONS:JF Integrated
 systemmanufacturer:TARGETING:Series JFIX/Olivetti Pinpoint Advanced
+

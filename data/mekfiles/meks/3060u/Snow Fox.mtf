@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Snow Fox
 model:
 mul id:2979
 
 Config:Quad
-techbase:Clan
-era:3015
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3015
+Source:TR:3060
+Rules Level:2
 role:Striker
 
-quirk:hard_pilot
+
 quirk:low_profile
+quirk:hard_pilot
 
-mass:20
-engine:160 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:8
-jump mp:0
+Mass:20
+Engine:160 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-FLL armor:8
-FRL armor:8
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:9
-RLL armor:8
-RRL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+FLL Armor:8
+FRL Armor:8
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:9
+RLL Armor:8
+RRL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:3
 ER Small Laser, Left Torso
@@ -89,9 +90,9 @@ Left Torso:
 Heat Sink
 Heat Sink
 CLERSmallLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -103,9 +104,9 @@ Right Torso:
 Heat Sink
 Heat Sink
 CLERSmallLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -125,7 +126,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLMASC
-Clan Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -168,4 +169,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

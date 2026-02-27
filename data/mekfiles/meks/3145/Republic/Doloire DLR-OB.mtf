@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Doloire
 model:DLR-OB
 mul id:6680
 
-Config:Biped OmniMek
-techbase:Mixed (IS Chassis)
-era:3121
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3121
 source:TR:3145:RotS
-rules level:3
+Rules Level:3
 role:Brawler
 
-quirk:command_mech
+
+
 quirk:multi_trac
+quirk:command_mech
 
-mass:80
-engine:320 XL (Clan) Engine
-structure:IS Endo-Composite
-myomer:Standard
 
-heat sinks:17 Clan Double
-base chassis heat sinks:12
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 XL (Clan) Engine
+Structure:IS Endo-Composite
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:26
-RT armor:26
-CT armor:38
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:7
-RTR armor:7
-RTC armor:11
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:12
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:26
+RT Armor:26
+CT Armor:38
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:7
+RTR Armor:7
+RTC Armor:11
 
 Weapons:5
 ER PPC, Left Arm
@@ -63,12 +65,12 @@ ER Medium Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 ISAES
 ISAES
 ISAES
@@ -77,12 +79,12 @@ ISAES
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
 ISAES
 ISAES
 ISAES
@@ -91,12 +93,12 @@ ISAES
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 IS Endo-Composite
 IS Endo-Composite
 IS Endo-Composite
@@ -105,13 +107,13 @@ IS Endo-Composite
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISCASEII (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISCASEII (omnipod)
 IS Endo-Composite
 IS Endo-Composite
 -Empty-
@@ -171,4 +173,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

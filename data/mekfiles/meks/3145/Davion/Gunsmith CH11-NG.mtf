@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.07 on 2025-07-07
 chassis:Gunsmith
 model:CH11-NG
 mul id:6332
@@ -29,7 +29,7 @@ role:Striker
 
 
 mass:25
-engine:250 XXL Engine
+engine:250 XXL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 cockpit:Standard Cockpit
@@ -173,3 +173,4 @@ IS Endo Steel
 
 manufacturer:Jalastar Aerospace
 primaryfactory:Panpour
+

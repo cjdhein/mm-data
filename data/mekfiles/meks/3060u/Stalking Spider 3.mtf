@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stalking Spider
 model:3
 mul id:3047
 
 Config:Quad
-techbase:Clan
-era:3072
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3072
+Source:TR:3060
+Rules Level:2
 role:Striker
 
 quirk:stable
 
-mass:50
-engine:250 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:5
-jump mp:8
+Mass:50
+Engine:250 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-FLL armor:21
-FRL armor:21
-LT armor:19
-RT armor:19
-CT armor:25
-HD armor:9
-RLL armor:21
-RRL armor:21
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:5
+Jump MP:8
+
+Armor:Ferro-Fibrous(Clan)
+FLL Armor:21
+FRL Armor:21
+LT Armor:19
+RT Armor:19
+CT Armor:25
+HD Armor:9
+RLL Armor:21
+RRL Armor:21
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:5
 Medium Pulse Laser, Left Torso
@@ -63,8 +63,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -77,8 +77,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -87,31 +87,31 @@ Improved Jump Jet
 -Empty-
 
 Left Torso:
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 CLMediumPulseLaser
 CLMediumPulseLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
 Right Torso:
 CLDoubleHeatSink
 CLDoubleHeatSink
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 CLSRM6
 Clan Ammo SRM-6
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -147,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +161,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

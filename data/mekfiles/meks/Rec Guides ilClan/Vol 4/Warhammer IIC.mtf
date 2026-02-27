@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Warhammer IIC
 model:
 mul id:3500
-
 Config:Biped
 techbase:Clan
 era:2829
@@ -27,11 +25,13 @@ source:RG04
 rules level:2
 role:Brawler
 
-quirk:stable
+
 quirk:searchlight
+quirk:stable
+
 
 mass:80
-engine:320 Fusion (Clan) Engine
+engine:320 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -175,9 +175,13 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The Clan's interpretation on the classic Warhammer has never been subtle. The BattleMech's hyper-advanced technology only emphasized and improved its duty as a frontline brawler; boosting its mass by 10 tons (with equivalent increases in armor protection) made it even more powerful.
+
 capabilities:Thanks to their technological expertise, they were able to add ten tons with the same speed and firepower and nearly double the armor of the original. The Warhammer IIC is built on an Endo Steel frame and is protected by tons of ferro-fibrous armor. The result is a dangerous 'Mech, able to hold its own in any battle against the Inner Sphere. Also note that the armor was the primary concern when designing the IIC version rivaling even 100 ton assault 'Mechs in durability and protection.
+
 deployment:Paired Mk. XVII ER PPCs allow the Warhammer IIC to inflict fifty percent more damage than the regular Successor States' PPCs. Added to an SRM-6 launcher and five Medium Pulse Lasers, this firepower overwhelms most 'Mechs of equal or lesser tonnage. Twenty double heat sinks keep the design relatively cool.
+
 history:The Warhammer IIC is now the most common Clan BattleMech in the Inner Sphere. These remarkable machines are fielded by every major Inner Sphere force, Clan, and many large mercenary groups. It is only found on the periphery, where its equally outstanding price tag is simply too high for these countries to justify.
+
 manufacturer:Snow Raven Industrial Complex Alpha,Mu Manufacturing Plant 3H,Sheridan LM-TA 8-10
 primaryfactory:Dante,Paxon,Sheridan
 systemmanufacturer:CHASSIS:SFX-80 Endo
@@ -185,3 +189,4 @@ systemmanufacturer:ENGINE:Type 320 Fusion
 systemmanufacturer:ARMOR:Forging ZM15 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:TDWS-37 Mk 2.2
 systemmanufacturer:TARGETING:“Hephaestus” CT-44
+

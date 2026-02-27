@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,59 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Warlord
 model:BLR-2G
 mul id:3511
 
 Config:Biped
-techbase:Inner Sphere
-era:3071
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:3071
+Source:TR:3075
+Rules Level:2
 role:Brawler
+
+
 
 quirk:easy_maintain
 
-mass:80
-engine:320 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 IS Double
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:27
-RT armor:27
-CT armor:40
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:16 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:27
+RT Armor:27
+CT Armor:40
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:14
 Heavy PPC, Left Arm
 Heavy PPC, Right Arm
-Medium Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
 Medium Laser, Center Torso
 Medium Laser, Center Torso
+Medium Laser, Left Torso
+Medium Laser, Left Torso
+Medium Laser, Left Torso
+Medium Laser, Left Torso
+Medium Laser, Left Torso
+Medium Laser, Right Torso
+Medium Laser, Right Torso
+Medium Laser, Right Torso
+Medium Laser, Right Torso
+Medium Laser, Right Torso
 
 Left Arm:
 Shoulder
@@ -178,4 +180,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

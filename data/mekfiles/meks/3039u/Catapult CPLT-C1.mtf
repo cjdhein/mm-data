@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Catapult
 model:CPLT-C1
 mul id:478
 
 Config:Biped
-techbase:Inner Sphere
-era:2561
-source:TR:3039
-rules level:1
+TechBase:Inner Sphere
+Era:2561
+Source:TR:3039
+Rules Level:1
 role:Missile Boat
+
+
+
 
 quirk:no_arms
 quirk:weak_head_1
 
-mass:65
-engine:260 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 Single
-walk mp:4
-jump mp:4
+Mass:65
+Engine:260 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:13
-RA armor:13
-LT armor:19
-RT armor:19
-CT armor:24
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:15 Single
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:13
+RA Armor:13
+LT Armor:19
+RT Armor:19
+CT Armor:24
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:6
-LRM 15, Left Arm
-LRM 15, Right Arm
 Medium Laser, Left Torso
 Medium Laser, Right Torso
 Medium Laser, Center Torso
 Medium Laser, Center Torso
+LRM 15, Right Arm
+LRM 15, Left Arm
 
 Left Arm:
 Shoulder
@@ -172,9 +175,13 @@ Heat Sink
 -Empty-
 -Empty-
 
-overview: The Catapult, though a well-designed BattleMech, has had a tumultuous existence. Produced by Hollis Incorporated in record numbers for the SLDF, the Terran Hegemony ultimately decided to forgo contract renewal, leaving Hollis with a BattleMech line but no customer. When the facility was eventually retooled to produce the BattleMaster, they chose to completely abandon their Catapult chassis, and its numbers began to decline. The attrition of the Succession Wars left the Draconis Combine with many Catapults but no parts for them. Contracting Yori Mech Works, a production line was eventually built and new Catapults began entering the DCMS by 3033. The Capellan Confederation would follow suit and the Catapult would finally claim the popularity that it deserved.
-capabilities: Carrying two LRM launchers in its "ears" and four medium lasers in its body, the Catapult was a fire support 'Mech akin to the slightly larger Archer. The inclusion of jump jets, though, and the placement of the lasers allowed many Catapults to be their own bodyguards. Many Catapult MechWarriors choose to fire all of their LRM missiles at their chosen targets before closing in to exploit any armor breaches with their lasers. This does make the Catapult slightly more flexible than many traditional support 'Mechs, although its limited ammunition stores can hamper it in extended ranged battles.
-deployment: While visible in every military of note, the Capellan Confederation and Draconis Combine would lay claim to the lion's share of the design. When production for the Catapult began in both states, the divide only increased, with many states losing all of their examples of the design by the conclusion of the Jihad. Even the base model would eventually disappear from the militaries of House Kurita and Liao. Now only commonly seen in periphery armies, the design still demands respect in this lower-technology environment.
+
+Overview: The Catapult, though a well-designed BattleMech, has had a tumultuous existence. Produced by Hollis Incorporated in record numbers for the SLDF, the Terran Hegemony ultimately decided to forgo contract renewal, leaving Hollis with a BattleMech line but no customer. When the facility was eventually retooled to produce the BattleMaster, they chose to completely abandon their Catapult chassis, and its numbers began to decline. The attrition of the Succession Wars left the Draconis Combine with many Catapults but no parts for them. Contracting Yori Mech Works, a production line was eventually built and new Catapults began entering the DCMS by 3033. The Capellan Confederation would follow suit and the Catapult would finally claim the popularity that it deserved.
+
+Capabilities: Carrying two LRM launchers in its "ears" and four medium lasers in its body, the Catapult was a fire support 'Mech akin to the slightly larger Archer. The inclusion of jump jets, though, and the placement of the lasers allowed many Catapults to be their own bodyguards. Many Catapult MechWarriors choose to fire all of their LRM missiles at their chosen targets before closing in to exploit any armor breaches with their lasers. This does make the Catapult slightly more flexible than many traditional support 'Mechs, although its limited ammunition stores can hamper it in extended ranged battles.
+
+Deployment: While visible in every military of note, the Capellan Confederation and Draconis Combine would lay claim to the lion's share of the design. When production for the Catapult began in both states, the divide only increased, with many states losing all of their examples of the design by the conclusion of the Jihad. Even the base model would eventually disappear from the militaries of House Kurita and Liao. Now only commonly seen in periphery armies, the design still demands respect in this lower-technology environment.
+
 systemmanufacturer:CHASSIS:Hollis
 systemmode:CHASSIS:Mark II
 systemmanufacturer:ENGINE:Magna

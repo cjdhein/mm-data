@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Griffin IIC
 model:3
 mul id:1312
 
 Config:Biped
-techbase:Clan
-era:3060
+TechBase:Clan
+Era:3060
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 
-mass:40
-engine:240 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:6
+Mass:40
+Engine:240 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:11
-RA armor:11
-LT armor:15
-RT armor:15
-CT armor:17
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:11
+RA Armor:11
+LT Armor:15
+RT Armor:15
+CT Armor:17
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:6
 Heavy Medium Laser, Left Torso
@@ -67,7 +67,7 @@ Lower Arm Actuator
 Hand Actuator
 CLDoubleHeatSink
 CLDoubleHeatSink
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -79,7 +79,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -96,10 +96,10 @@ CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLStreakSRM2
 Clan Streak SRM 2 Ammo
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -110,10 +110,10 @@ CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLStreakSRM2
 Clan Streak SRM 2 Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -149,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

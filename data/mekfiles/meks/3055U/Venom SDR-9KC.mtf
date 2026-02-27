@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Venom
 model:SDR-9KC
 mul id:3401
 
 Config:Biped
-techbase:Inner Sphere
-era:3066
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3066
+Source:TR:3055U
+Rules Level:2
 role:Striker
 
-quirk:difficult_eject
+
+
 quirk:nimble_jumper
+quirk:difficult_eject
 
-mass:35
-engine:280 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:8
-jump mp:8
+Mass:35
+Engine:280 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:11
-RT armor:11
-CT armor:16
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:8
+Jump MP:8
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:11
+RT Armor:11
+CT Armor:16
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
 Medium Pulse Laser, Left Torso
@@ -62,28 +64,28 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -95,9 +97,9 @@ Jump Jet
 Jump Jet
 ISMediumPulseLaser
 ISC3SlaveUnit
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -109,9 +111,9 @@ Jump Jet
 Jump Jet
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -124,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -146,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -160,12 +162,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,60 +15,62 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Incubus II
 model:
 mul id:4363
 
 Config:Biped
-techbase:Clan
-era:3085
-source:TR:Proto
-rules level:4
+TechBase:Clan
+Era:3085
+Source:TR:Proto
+Rules Level:4
 role:Striker
+History:Handheld weapons NOT available in MegaMek so none are included.
+
 
 quirk:cramped_cockpit
 quirk:reinforced_legs
 
-mass:30
-engine:240 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:8
-jump mp:8
+Mass:30
+Engine:240 XL (Clan) Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:10
-RA armor:10
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:8
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:10
+RA Armor:10
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
 ER Medium Pulse Laser, Left Torso
-Laser AMS, Left Torso
 ER Medium Pulse Laser, Right Torso
+Laser AMS, Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -76,13 +78,13 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -169,4 +171,4 @@ Jump Jet
 -Empty-
 -Empty-
 
-history:Handheld weapons NOT available in MegaMek so none are included.
+

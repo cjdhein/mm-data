@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Archangel
 model:C-ANG-O (Berith)
 mul id:64
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3072
-source:SB:W&B
-rules level:4
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3072
+Source:SB:W&B
+Rules Level:4
 role:Juggernaut
 
-quirk:bad_rep_is
+
+
 quirk:command_mech
-quirk:bad_rep_clan
-quirk:imp_sensors
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:100
-engine:300 Compact Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:19 IS Double
-base chassis heat sinks:12
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Compact Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:19 Double
+Base Chassis Heat Sinks:12
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
 
 Weapons:5
 Light PPC, Left Arm
@@ -68,38 +70,38 @@ Snub-Nose PPC, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-PPC Capacitor (OMNIPOD)
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-PPC Capacitor (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Light PPC (omnipod)
+Light PPC (omnipod)
+PPC Capacitor (omnipod)
+Light PPC (omnipod)
+Light PPC (omnipod)
+PPC Capacitor (omnipod)
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-PPC Capacitor (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+PPC Capacitor (omnipod)
 -Empty-
 -Empty-
 
 Left Torso:
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -108,12 +110,12 @@ IS Endo Steel
 -Empty-
 
 Right Torso:
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -129,19 +131,19 @@ Gyro
 Gyro
 ISC3iUnit
 ISC3iUnit
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISMediumVSPLaser (OMNIPOD)
-ISMediumVSPLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISMediumVSPLaser (omnipod)
+ISMediumVSPLaser (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
 Sensors
-ISSNPPC (OMNIPOD)
-ISSNPPC (OMNIPOD)
+ISSNPPC (omnipod)
+ISSNPPC (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -178,8 +180,11 @@ IS Endo Steel
 -Empty-
 
 overview:Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.
+ 
 capabilities:The Archangel is the largest of these. Designed to be an "anchor" for Word formations, the 'Mech is known as a "zombie" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.
+
 history:The customized configuration of the Manei Domini's feared Precentor Berith features a mix of advanced & experimental technologies only enhanced by his VDNI link. Carrying an all energy weapons array, its primary weapons are a Heavy PPC and twin Light PPCs each fitted with capacitors, supported by a Medium Variable Speed Pulse Laser and a Snub-Nose PPC.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series AA1E
@@ -187,3 +192,4 @@ systemmanufacturer:ENGINE:Immortus 300 Compact Fusion
 systemmanufacturer:ARMOR:Durallex Heavy Gold
 systemmanufacturer:COMMUNICATIONS:Master’s Voice Cel-Alpha
 systemmanufacturer:TARGETING:Master’s Sight 1-Omega
+

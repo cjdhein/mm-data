@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,25 +15,28 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Seraph
 model:C-SRP-O Invictus
 mul id:2869
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3069
 source:TR:3075
 rules level:2
 role:Juggernaut
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
+
 
 mass:85
-engine:255 Light Engine
+engine:255 Light Engine(IS)
 structure:IS Standard
 myomer:Triple-Strength
 cockpit:Small Cockpit
@@ -59,8 +62,8 @@ RTC armor:13
 
 Weapons:5
 Ultra AC/10, Right Arm
-Streak SRM 6, Left Torso
 MML 5, Left Torso
+Streak SRM 6, Left Torso
 MML 5, Right Torso
 Snub-Nose PPC, Head
 
@@ -177,8 +180,11 @@ Triple Strength Myomer
 -Empty-
 
 overview:The light assault 'Mech of the Celestial series of OmniMechs, the Seraph is somewhat slow for its weight, but it attempts to make up for that with the inclusion of Triple-Strength Myomer that enables the 'Mech to speed up to 64 kph when it runs hot.
+
 capabilities:Like the other Celestials, the Seraph makes use of a light fusion engine and a small cockpit, though other newer technologies are present only in its weaponry. As with the other Celestials, a C3i Computer is included. The main criticism of the Seraph Invictus is that it does not make very good use of its Triple-Strength Myomer. The design does not build enough heat to activate the musculature, a problem the Streak missile system only exacerbates.
+
 deployment:The Seraph features an array of weapons that is useful at long to medium ranges, but becomes very strong at close range. The largest gun on the 'Mech is the Ultra AC/10 that is capable of a sustained high rate of fire thanks to the inclusion of three tons of ammunition. The paired MML-5s can fire both SRM and LRM rounds, giving it great flexibility, while the Streak SRM-6 can be fired as often as possible since it does not fire unless it acquires a target lock. The Snub-Nose PPC is capable of the same amount of damage as its heavier counterpart at short range. With this wide array of weaponry, the Seraph makes use of its C3i Computer, whether it is sniping with its missiles or closing to short range and unloading on opponents while feeding its targeting telemetry back to other members of its Level II. Of course, the Retractable Blade gives it an accurate physical weapon.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series SP1
@@ -186,3 +192,4 @@ systemmanufacturer:ENGINE:GM 255 Light Fusion with Triple-Strength Myomer
 systemmanufacturer:ARMOR:Durallex Divine Guardian
 systemmanufacturer:COMMUNICATIONS:Master’s Voice Cel-Alpha
 systemmanufacturer:TARGETING:Master’s Sight 1-Omega
+

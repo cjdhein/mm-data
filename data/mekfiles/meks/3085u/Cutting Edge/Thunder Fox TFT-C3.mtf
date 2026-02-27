@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,59 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thunder Fox
 model:TFT-C3
 mul id:3218
 
 Config:Quad
-techbase:Inner Sphere
-era:3085
+TechBase:Inner Sphere
+Era:3085
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Skirmisher
+
+
 
 quirk:easy_maintain
 
-mass:55
-engine:220 Light Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Command Console
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:55
+Engine:220 Light Engine
+Structure:Standard
+Myomer:Standard
+Cockpit:Command Console
+Gyro:Standard Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-FLL armor:17
-FRL armor:17
-LT armor:20
-RT armor:20
-CT armor:21
-HD armor:9
-RLL armor:17
-RRL armor:17
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+FLL Armor:17
+FRL Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:21
+HD Armor:9
+RLL Armor:17
+RRL Armor:17
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
+C3 Master with TAG, Left Torso
 Medium X-Pulse Laser, Left Torso
-ER Medium Laser, Left Torso
-C3 Computer (Master), Left Torso
 ER Large Laser, Right Torso
+ER Medium Laser, Left Torso
 
 Front Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:4.0
-MechanicalJumpBooster:SIZE:4.0
+Jump Booster
+Jump Booster
 -Empty-
 -Empty-
 -Empty-
@@ -78,8 +80,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:4.0
-MechanicalJumpBooster:SIZE:4.0
+Jump Booster
+Jump Booster
 -Empty-
 -Empty-
 -Empty-
@@ -109,11 +111,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISERLargeLaser
 ISERLargeLaser
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -126,8 +128,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Head:
 Life Support
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:4.0
-MechanicalJumpBooster:SIZE:4.0
+Jump Booster
+Jump Booster
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:4.0
-MechanicalJumpBooster:SIZE:4.0
+Jump Booster
+Jump Booster
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

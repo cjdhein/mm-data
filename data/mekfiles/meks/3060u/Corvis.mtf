@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Corvis
 model:
 mul id:700
 
 Config:Biped
-techbase:Clan
-era:2845
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:2845
+Source:TR:3060
+Rules Level:2
 role:Brawler
 
+
+weaponquirk:mod_weapons:RA:3:CLUltraAC10
 weaponquirk:mod_weapons:LA:4:CLMediumPulseLaser
 weaponquirk:mod_weapons:LA:5:CLMediumPulseLaser
-weaponquirk:mod_weapons:RA:3:CLUltraAC10
 
-mass:40
-engine:160 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:4
-jump mp:4
+Mass:40
+Engine:160 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:12
-RA armor:12
-LT armor:16
-RT armor:16
-CT armor:18
-HD armor:8
-LL armor:19
-RL armor:19
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:16
+RT Armor:16
+CT Armor:18
+HD Armor:8
+LL Armor:19
+RL Armor:19
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:3
-Medium Pulse Laser, Left Arm
-Medium Pulse Laser, Left Arm
 Ultra AC/10, Right Arm
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -91,12 +92,12 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 Jump Jet
 Jump Jet
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -105,12 +106,12 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 Jump Jet
 Jump Jet
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -125,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -169,4 +170,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

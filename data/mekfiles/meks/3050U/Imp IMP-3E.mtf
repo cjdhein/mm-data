@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Imp
 model:IMP-3E
 mul id:1610
 
 Config:Biped
-techbase:Inner Sphere
-era:3050
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3050
+Source:TR:3050
+Rules Level:2
 role:Juggernaut
 
-quirk:difficult_maintain
+
+
 quirk:command_mech
+quirk:difficult_maintain
 
-mass:100
-engine:300 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:30 Single
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:25
-RA armor:25
-LT armor:30
-RT armor:30
-CT armor:40
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:12
-RTR armor:12
-RTC armor:21
+Heat Sinks:30 Single
+Walk MP:3
+Jump MP:0
 
-Weapons:8
-Large Pulse Laser, Left Arm
-LRM 15, Right Arm
-ER PPC, Left Torso
-ER PPC, Right Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-Medium Pulse Laser, Center Torso
-Medium Pulse Laser, Center Torso
+Armor:Standard Armor
+LA Armor:25
+RA Armor:25
+LT Armor:30
+RT Armor:30
+CT Armor:40
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:12
+RTR Armor:12
+RTC Armor:21
+
+Weapons:6
+1 ISERPPC, Left Torso
+1 ISERPPC, Right Torso
+1 ISLRM15, Right Arm, Ammo:16
+1 ISLargePulseLaser, Left Arm
+2 ISMediumPulseLaser, Center Torso
+2 ISMediumLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -83,9 +83,9 @@ Lower Arm Actuator
 Heat Sink
 Heat Sink
 Heat Sink
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 -Empty-
 -Empty-
 -Empty-
@@ -100,8 +100,8 @@ Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
-IS Ammo LRM-15
-IS Ammo LRM-15
+ISLRM15 Ammo
+ISLRM15 Ammo
 ISCASE
 
 Right Torso:
@@ -115,8 +115,8 @@ Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
-Medium Laser
-Medium Laser
+ISMediumLaser
+ISMediumLaser
 
 Center Torso:
 Fusion Engine

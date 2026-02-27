@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sarath
 model:SRTH-1OA
 mul id:6507
 
-Config:Quad OmniMek
-techbase:Mixed (IS Chassis)
-era:3122
-source:TR:3145:FWL
-rules level:4
+Config:Quad Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3122
+Source:TR:3145:FWL
+Rules Level:4
 role:Missile Boat
 
-quirk:bad_rep_is
-quirk:compact_mech
+
+
 quirk:distracting
+quirk:compact_mech
 quirk:low_profile
+quirk:bad_rep_is
 
-mass:50
-engine:250 XL Engine(IS)
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-base chassis heat sinks:10
-walk mp:5
-jump mp:5
+Mass:50
+Engine:250 XL Engine(IS)
+Structure:IS Standard
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-FLL armor:24
-FRL armor:24
-LT armor:20
-RT armor:20
-CT armor:25
-HD armor:8
-RLL armor:24
-RRL armor:24
-RTL armor:4
-RTR armor:4
-RTC armor:7
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:5
+Jump MP:5
+
+Armor:Standard(Clan)
+FLL Armor:24
+FRL Armor:24
+LT Armor:20
+RT Armor:20
+CT Armor:25
+HD Armor:8
+RLL Armor:24
+RRL Armor:24
+RTL Armor:4
+RTR Armor:4
+RTC Armor:7
 
 Weapons:6
 LRM 15, Right Torso
@@ -68,8 +70,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-IS Ammo MML-3 LRM (OMNIPOD)
+Jump Jet (omnipod)
+IS Ammo MML-3 LRM (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -82,8 +84,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-IS Ammo MML-3 SRM (OMNIPOD)
+Jump Jet (omnipod)
+IS Ammo MML-3 SRM (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -95,28 +97,28 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Ammo LRM-15 (OMNIPOD)
-Clan Ammo LRM-15 (OMNIPOD)
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Clan Ammo LRM-15 (omnipod)
+Clan Ammo LRM-15 (omnipod)
+TSM
+TSM
+TSM
+TSM
+TSM
+TSM
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLLRM15 (T) (OMNIPOD)
-CLLRM15 (T) (OMNIPOD)
-CLLRM15 (T) (OMNIPOD)
-CLLRM15 (T) (OMNIPOD)
-ISMML3 (T) (OMNIPOD)
-ISMML3 (T) (OMNIPOD)
-ISMML3 (T) (OMNIPOD)
-ISMML3 (T) (OMNIPOD)
+CLLRM15 (T) (omnipod)
+CLLRM15 (T) (omnipod)
+CLLRM15 (T) (omnipod)
+CLLRM15 (T) (omnipod)
+ISMML3 (T) (omnipod)
+ISMML3 (T) (omnipod)
+ISMML3 (T) (omnipod)
+ISMML3 (T) (omnipod)
 ISQuadTurret
 
 Center Torso:
@@ -130,8 +132,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
+Jump Jet (omnipod)
+CLERSmallLaser (omnipod)
 
 Head:
 Life Support
@@ -152,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Clan Ammo LRM-15 (OMNIPOD)
+Jump Jet (omnipod)
+Clan Ammo LRM-15 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -166,12 +168,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Clan Ammo LRM-15 (OMNIPOD)
+Jump Jet (omnipod)
+Clan Ammo LRM-15 (omnipod)
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

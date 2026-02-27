@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vulture
 clanname:Mad Dog
 model:F
 mul id:3471
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3069
 source:TR:3050
@@ -30,13 +29,15 @@ role:Skirmisher
 
 quirk:imp_target_med
 
+
 mass:60
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:12 Clan Double
+heat sinks:12 Double
 base chassis heat sinks:12
+nocrit:Standard:None
 walk mp:5
 jump mp:0
 
@@ -64,12 +65,12 @@ ER Medium Laser, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -78,12 +79,12 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -92,10 +93,10 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLERMediumLaser (omnipod)
+Hyper-Assault Gauss Rifle/20 Ammo (omnipod)
+Hyper-Assault Gauss Rifle/20 Ammo (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -106,10 +107,10 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLERMediumLaser (omnipod)
+Hyper-Assault Gauss Rifle/20 Ammo (omnipod)
+Hyper-Assault Gauss Rifle/20 Ammo (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -174,7 +175,9 @@ Foot Actuator
 -Empty-
 
 overview:The Mad Dog is a heavy Clan OmniMech used for long-range indirect fire support. With hunched shoulders, a protruding head, and reverse-jointed legs, the Mad Dog resembles a vulture, so much so that it was codenamed Vulture and Hagetaka ("Vulture" in Japanese) by the Inner Sphere forces which first encountered it.
-capabilities:The Mad Dog F has a pair of HAG 20s. Though they don't have the sheer power of the larger guns, the four tons of ammunition provide substantially better staying power than the E variant has. To back the HAGs up, the F mounts four ER Medium Lasers.
+
+capabilities:The Mad Dog F has a pair of HAG 20s. Though they don't have the sheer power of the larger guns, the four tons of ammunition provide substantially better staying power than the E variant has. To back the HAGs up, the F mounts four ER Medium Lasers. 
+
 deployment:The name also fit the battlefield role of the Mad Dog; to act as a support 'Mech, and it often holds a hill maintaining constant watch over the entire battlefield, like a vulture waiting for its prey. With its ample firepower and decent speed of 86.4 km/h, it makes a highly mobile firing platform, and as such has spread to near ubiquity among the forces deployed by the Clans, although the design is favored more by Clan Ghost Bear MechWarriors. The Mad Dog carries eight and a half tons of Ferro-Fibrous armor for decent protection, although it will not be able to stand up to heavy fire.
 history:The Mad Dog was designed by Clan Smoke Jaguar as a second generation OmniMech based on the original heavy OmniMech Lupus of Clan Coyote. The Mad Dog also used some of the same moulds of the Clan Wolf Timber Wolf OmniMech. However, despite using some of the same moulds (which might be viewed as high praise), the Mad Dog was named as a slur to the Lupus and Timber Wolf, and to Clans Wolf and Coyote. Because of its widespread production, most Clans maintain a large number of Mad Dogs in their toumans.
 manufacturer:Various,Svarstaad Industriplex Beta

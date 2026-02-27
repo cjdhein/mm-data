@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Enfield
 model:END-6Q
 mul id:973
 
 Config:Biped
-techbase:Inner Sphere
-era:3055
-source:TR:3058U
-rules level:2
+TechBase:Inner Sphere
+Era:3055
+Source:TR:3058U
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:ext_twist
 
-mass:50
-engine:250 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:5
-jump mp:0
+Mass:50
+Engine:250 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:5
 Large Pulse Laser, Left Arm
@@ -65,9 +67,9 @@ Lower Arm Actuator
 ISLargePulseLaser
 ISLargePulseLaser
 Medium Laser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +84,9 @@ ISLBXAC10
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -93,9 +95,9 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -107,9 +109,9 @@ Fusion Engine
 IS LB 10-X AC Ammo
 IS LB 10-X Cluster Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -147,7 +149,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,7 +163,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -169,4 +171,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

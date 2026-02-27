@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas II
 model:AS7-DK-H
 mul id:8459
@@ -27,11 +26,14 @@ source:RG24
 rules level:2
 role:Brawler
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
+
 
 mass:100
 engine:400 XL Engine(IS)
@@ -58,11 +60,11 @@ RTC armor:14
 Weapons:7
 ER Large Laser, Left Arm
 ER Large Laser, Left Arm
-Rotary AC/5, Right Arm
 SRM 6, Left Torso
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
 LRM 20, Right Torso
+Rotary AC/5, Right Arm
+ER Medium Laser, Left Torso
+ER Medium Laser, Left Torso
 
 Left Arm:
 Shoulder
@@ -187,3 +189,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:StarSlab/2 Ferro Fibrous with CASE II
 systemmanufacturer:JUMP_JET:Army Comm Class 5
 systemmanufacturer:COMMUNICATIONS:Army Corporation Type 29K
+

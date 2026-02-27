@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vulture Mk IV
 clanname:Mad Dog Mk IV
 model:Prime
 mul id:6558
 
-Config:Biped OmniMek
-techbase:Clan
-era:3137
-source:TR:3145:Merc
-rules level:3
+Config:Biped Omnimech
+TechBase:Clan
+Era:3137
+Source:TR:3145:Merc
+Rules Level:3
 role:Brawler
 
+
 quirk:stable
-quirk:non_standard
 quirk:pro_actuator
+quirk:non_standard
 
-mass:60
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-base chassis heat sinks:12
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Lamellor(Clan)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:12
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Lamellor(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:8
 LB 5-X AC, Left Arm
@@ -68,11 +69,11 @@ ER Small Pulse Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-Clan LB 5-X Cluster Ammo (OMNIPOD)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+Clan LB 5-X Cluster Ammo (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -82,8 +83,8 @@ Clan Ferro-Lamellor
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -96,9 +97,9 @@ Clan Ferro-Lamellor
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLSRM6 (OMNIPOD)
-CLSRM6 (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
+CLSRM6 (omnipod)
+CLSRM6 (omnipod)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -110,9 +111,9 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLSRM6 (OMNIPOD)
-CLSRM6 (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
+CLSRM6 (omnipod)
+CLSRM6 (omnipod)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -132,8 +133,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERSmallPulseLaser (OMNIPOD)
-CLERSmallPulseLaser (OMNIPOD)
+CLERSmallPulseLaser (omnipod)
+CLERSmallPulseLaser (omnipod)
 
 Head:
 Life Support
@@ -176,4 +177,5 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
+
 

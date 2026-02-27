@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,15 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 Infantry
 </UnitType>
-
 <Name>
 Clan Assault Infantry
 </Name>
-
 <Model>
 Ghost Bear Heavy Solahma Infantry
 </Model>
@@ -31,15 +36,24 @@ Ghost Bear Heavy Solahma Infantry
 <mul id:>
 600
 </mul id:>
-
-<year>
-3015
-</year>
-
-<originalBuildYear>
-3015
-</originalBuildYear>
-
+<squad_size>
+5
+</squad_size>
+<squadn>
+4
+</squadn>
+<Primary>
+InfantryClanMauserIICIAS
+</Primary>
+<Secondary>
+InfantryClanERMicroLaser
+</Secondary>
+<secondn>
+2
+</secondn>
+<armorKit>
+ClanKit
+</armorKit>
 <type>
 Clan Level 3
 </type>
@@ -47,39 +61,12 @@ Clan Level 3
 <role>
 Ambusher
 </role>
-
-<motion_type>
-Jump
-</motion_type>
-
-<Troopers Equipment>
-Clan Armor Kit (All)
-</Troopers Equipment>
-
-<Field Guns Equipment>
-</Field Guns Equipment>
-
+<year>
+3015
+</year>
 <source>
 TR:3085
 </source>
-
-<squad_size>
-5
-</squad_size>
-
-<squadn>
-4
-</squadn>
-
-<secondn>
-2
-</secondn>
-
-<Primary>
-Laser Rifle (Mauser IIC IAS)
-</Primary>
-
-<Secondary>
-Support Laser (ER, Semi-Portable)
-</Secondary>
-
+<motion_type>
+Jump
+</motion_type>

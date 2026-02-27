@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
-AeroSpaceFighter
+Aero
 </UnitType>
 
 <Name>
@@ -52,6 +61,9 @@ Attack Fighter
 Aerodyne
 </motion_type>
 
+<transporters>
+</transporters>
+
 <SafeThrust>
 6
 </SafeThrust>
@@ -76,17 +88,9 @@ Aerodyne
 2
 </engine_type>
 
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<clan_engine>
+false
+</clan_engine>
 
 <armor>
 70
@@ -123,7 +127,20 @@ ClanImprovedLRM20Ammo
 ClanImprovedLRM20Ammo
 IS Ammo AC/20
 IS Ammo AC/20
+CLCASE
 </Fuselage Equipment>
+
+<history>
+
+</history>
+
+<source>
+TR:GC
+</source>
+
+<tonnage>
+85.0
+</tonnage>
 
 <capabilities>
 The Bauer Scope 130Y, the innovation at the heart of the Rapier design, effectively extends the range of all of the mounted weapon systems, and allows the pilot to help direct launched missiles in mid-flight through neural impulses.
@@ -136,6 +153,10 @@ The Rapier was the staple heavy Aerospace Fighter of the SLDF since its introduc
 <deployment>
 Clan Wolverine replaced the Large Pulse Lasers with Clan-spec versions and the missile launcher with an Improved LRM-20. Additional armor, heat sinks, fuel and autocannon ammo used up the rest of the weight freed by the lighter weapons.
 </deployment>
+
+<history>
+Bauer's unexpected decision to enter the military aerospace market in 2590 was a complete surprise to everyone, since it was better-known for making remote-controlled aerospace models than the real deal. However, their decision was based upon a new invention from one of their researchers, the veteran Dr. Lionel Rajan III, who developed a revolutionary neurocontrol device. This device used overlapping wave signals to produce a three-dimensional image of what the toy was "seeing" in the operator's mind. The SLDF was impressed with this revolutionary targeting and tracking system, especially since the Reunification War still raged with no end in sight, and gave the toy company a chance. A number of different prototypes, including a heavy Land-Air 'Mech, were rejected but it was the Rapier which won Bauer Enterprises its contract, with full production beginning in 2595. Besides its revolutionary Bauer Scope 130Y, the craft boasted good maneuverability and protection compared to craft of similar mass, sporting twelve tons of Philter Mech myomer-weave armor plating. It was widely deployed throughout the SLDF, with less advanced versions lacking the Scope 130Y used by the Lyran Commonwealth. Though the factory on Tharkad was never attacked during the TRO: Golden Century, the Rapier still suffered from the loss of technological knowledge during that period, with downgraded versions of the fighter produced throughout the Inner Sphere. Only ComStar and the Word of Blake are known to still field Star League-quality Rapiers. Bauer Enterprises was poised to begin production of new models of the Rapier when a Blakist assault in late 3067 destroyed the Tharkad factory, though enough of the facility apparently survived to roll out a few of the new variant.
+</history>
 
 <manufacturer>
 Field Refit
@@ -152,12 +173,3 @@ ARMOR:PhilterMesh
 COMMUNICATIONS:COMHRT II.Q
 TARGETING:Bauer-Scope 130Z
 </systemManufacturers>
-
-<source>
-TR:GC
-</source>
-
-<tonnage>
-85.0
-</tonnage>
-

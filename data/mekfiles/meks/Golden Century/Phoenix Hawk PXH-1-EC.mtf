@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-1-EC
 mul id:7678
@@ -27,17 +26,20 @@ source:TR:GC
 rules level:4
 role:Skirmisher
 
+
+
 quirk:command_mech
-quirk:ubiquitous_clan
 quirk:imp_com
+quirk:ubiquitous_clan
 weaponquirk:jettison_capable:RA:4:Improved Large Laser
+
 
 mass:45
 engine:270 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:6
 jump mp:6
 
@@ -55,9 +57,9 @@ RTR armor:4
 RTC armor:5
 
 Weapons:4
-Prototype ER Medium Laser (CP), Left Arm
+Prototype ER Medium Laser, Left Arm
 Improved Large Laser, Right Arm
-Prototype ER Medium Laser (CP), Right Arm
+Prototype ER Medium Laser, Right Arm
 Anti-Missile System, Center Torso
 
 Left Arm:
@@ -173,3 +175,4 @@ Foot Actuator
 -Empty-
 
 history:Goliath Scorpion techs swapped the standard large laser for an improved version to compliment the twin prototype medium lasers also installed. However, the old double heat sinks struggled with the heat, but it was the lack of CASE for the anti-missile ammunition that became the real reason why this ‘Hawk disappeared from the Scorpion touman.
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,18 +15,27 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
-AeroSpaceFighter
+Aero
 </UnitType>
 
 <Name>
 Scarab Medium Drone Fighter
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 2812
@@ -51,6 +60,9 @@ Fast Dogfighter
 <motion_type>
 Aerodyne
 </motion_type>
+
+<transporters>
+</transporters>
 
 <SafeThrust>
 7
@@ -80,13 +92,9 @@ Aerodyne
 20
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 7
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 62
@@ -119,10 +127,6 @@ ISLargePulseLaser
 ImprovedSmartRoboticControlSystem
 </Fuselage Equipment>
 
-<notes>
-Aerospace Smart Robotic Control System (Improved) gives the Scarab a Piloting Skill of 5 and a Gunnery Skill of 4
-</notes>
-
 <source>
 JHS:Terra
 </source>
@@ -130,4 +134,8 @@ JHS:Terra
 <tonnage>
 70.0
 </tonnage>
+
+<notes>
+Aerospace Smart Robotic Control System (Improved) gives the Scarab a Piloting Skill of 5 and a Gunnery Skill of 4
+</notes>
 

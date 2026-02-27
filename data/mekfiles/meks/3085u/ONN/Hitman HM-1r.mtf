@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hitman
 model:HM-1r
 mul id:1534
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
+TechBase:Inner Sphere
+Era:3069
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
 
-weaponquirk:stable_weapon:HD:3:ISTAG
+
+
 weaponquirk:accurate:HD:3:ISTAG
+weaponquirk:stable_weapon:HD:3:ISTAG
 
-mass:30
-engine:210 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 Single
-walk mp:7
-jump mp:0
+Mass:30
+Engine:210 XL Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:10
-RT armor:10
-CT armor:10
-HD armor:8
-LL armor:9
-RL armor:9
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Single
+Walk MP:7
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:10
+RT Armor:10
+CT Armor:10
+HD Armor:8
+LL Armor:9
+RL Armor:9
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
+TAG, Head
 ER Medium Laser, Left Arm
 ER Medium Laser, Left Arm
 MML 7, Left Torso
-TAG, Head
 
 Left Arm:
 Shoulder
@@ -66,12 +68,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -79,13 +81,13 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Left Torso:
@@ -100,7 +102,7 @@ IS Ammo MML-7 LRM
 IS Ammo MML-7 SRM
 ISGuardianECMSuite
 ISGuardianECMSuite
-IS Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -110,11 +112,11 @@ Heat Sink
 Heat Sink
 BeagleActiveProbe
 BeagleActiveProbe
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -149,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -171,4 +173,5 @@ ISMASC
 -Empty-
 -Empty-
 -Empty-
+
 

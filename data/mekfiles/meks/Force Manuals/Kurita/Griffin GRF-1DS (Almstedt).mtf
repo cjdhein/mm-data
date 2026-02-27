@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-10-12
 chassis:Griffin
 model:GRF-1DS (Almstedt)
-mul id:8289
 
 Config:Biped
 techbase:Inner Sphere
@@ -26,6 +25,7 @@ era:3052
 source:CM:Kurita
 rules level:2
 role:Skirmisher
+mul id:8289
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
@@ -35,7 +35,7 @@ quirk:ubiquitous_is
 weaponquirk:jettison_capable:RA:7:ISLargePulseLaser
 
 mass:55
-engine:275 XL Engine
+engine:275 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -184,3 +184,4 @@ systemmanufacturer:ARMOR:Starshield A
 systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:Neil 6000
 systemmanufacturer:TARGETING:Octagon Tartrac System C
+

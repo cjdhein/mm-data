@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hollander III
 model:BZK-D3
 mul id:6335
 
 Config:Biped
-techbase:Inner Sphere
-era:3118
-source:TR:3145:FS
-rules level:3
+TechBase:Inner Sphere
+Era:3118
+Source:TR:3145:FS
+Rules Level:3
 role:Striker
 
+Mass:35
+Engine:210 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:Compact Gyro
 
-mass:35
-engine:210 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
-
-armor:Reflective(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:12
-RT armor:12
-CT armor:15
-HD armor:9
-LL armor:12
-RL armor:12
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Armor:Reflective(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:12
+RT Armor:12
+CT Armor:15
+HD Armor:9
+LL Armor:12
+RL Armor:12
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:4
 Medium Laser, Left Torso
@@ -169,4 +167,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

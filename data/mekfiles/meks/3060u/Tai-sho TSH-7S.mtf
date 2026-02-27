@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tai-sho
 model:TSH-7S
 mul id:3150
 
 Config:Biped
-techbase:Inner Sphere
-era:3061
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3061
+Source:TR:3060
+Rules Level:2
 role:Sniper
+
+
+
 
 quirk:imp_com
 weaponquirk:stable_weapon:RT:0:ISUltraAC10
 
-mass:85
-engine:255 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:3
-jump mp:0
+Mass:85
+Engine:255 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:27
-RT armor:27
-CT armor:41
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:9
-RTR armor:9
-RTC armor:13
+Heat Sinks:13 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:28
+RA Armor:28
+LT Armor:27
+RT Armor:27
+CT Armor:41
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:9
+RTR Armor:9
+RTC Armor:13
 
 Weapons:5
 ER PPC, Left Arm
 ER PPC, Right Arm
-C3 Computer (Master), Left Torso
-C3 Computer (Master), Left Torso
+C3 Master with TAG, Left Torso
+C3 Master with TAG, Left Torso
 Ultra AC/10, Right Torso
 
 Left Arm:
@@ -69,9 +72,9 @@ ISDoubleHeatSink
 ISERPPC
 ISERPPC
 ISERPPC
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -98,8 +101,8 @@ ISC3MasterUnit
 ISC3MasterUnit
 ISC3MasterUnit
 ISC3MasterUnit
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 ISUltraAC10
@@ -112,8 +115,8 @@ ISUltraAC10
 IS Ultra AC/10 Ammo
 IS Ultra AC/10 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -126,14 +129,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -148,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +165,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legacy
 model:LGC-01
 mul id:4488
@@ -27,17 +26,21 @@ source:TR:3067
 rules level:2
 role:Juggernaut
 
-quirk:bad_rep_is
+
+
+
 quirk:directional_torso_mount
-weaponquirk:direct_torso_mount:LA:7:ISERSmallLaser
-weaponquirk:direct_torso_mount:RA:4:ISERMediumLaser
-weaponquirk:direct_torso_mount:RA:5:ISERMediumLaser
-weaponquirk:direct_torso_mount:LT:0:ISUltraAC10
+quirk:bad_rep_is
 weaponquirk:direct_torso_mount:RT:0:ISUltraAC10
 weaponquirk:direct_torso_mount:RT:7:ISStreakSRM4
+weaponquirk:direct_torso_mount:LT:0:ISUltraAC10
+weaponquirk:direct_torso_mount:RA:4:ISERMediumLaser
+weaponquirk:direct_torso_mount:RA:5:ISERMediumLaser
+weaponquirk:direct_torso_mount:LA:7:ISERSmallLaser
+
 
 mass:80
-engine:240 Fusion Engine
+engine:240 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -190,3 +193,4 @@ systemmanufacturer:ARMOR:Aldis Plate with CASE
 systemmanufacturer:JUMP_JET:CurtissJet 80
 systemmanufacturer:COMMUNICATIONS:Skobel Wave VII Comm with C3i Computer
 systemmanufacturer:TARGETING:Falcon 15 Watcher
+

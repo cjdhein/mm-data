@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,14 +62,14 @@ Aerodyne
 </motion_type>
 
 <transporters>
-cargobay:53600.0:2:1::-1:0
-asfbay:12.0:6:2::-1:0
+cargobay:53600.0:2:1
+asfbay:12.0:6:2
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:400.0:0:-1::-1:0
-smallcraftbay:2.0:2:7::-1:0
-crewquarters:1435.0:0:-1::-1:0
+1stclassquarters:400.0:0
+smallcraftbay:2.0:2:7
+crewquarters:1435.0:0
 </transporters>
 
 <SafeThrust>
@@ -87,13 +96,9 @@ crewquarters:1435.0:0:-1::-1:0
 11
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 75
@@ -264,34 +269,6 @@ The Narukami-class WarShip was developed by the Draconis Combine, known for its 
 The development of the Narukami-class WarShip by the Draconis Combine was a slow process due to the nation's weak industrial base. However, this delay allowed for careful observation of trends in WarShip design, resulting in the inclusion of docking collars and the development of a doctrine based on small yet powerful ships. The Narukami-class was launched twice in history, first in the twenty-fourth century and again after the Amaris Coup. The first generation of Narukamis participated in the Reunification War, showcasing their effectiveness. However, ongoing drive failures and structural issues led to the decommissioning of the class during the Star League's peak years. The Block II ships, unveiled after Aleksandr Kerensky's liberation of Terra, incorporated newer armor technologies and improved secondary armaments while retaining the original structural and engine design. Flight decks on the second-generation Narukamis were reorganized to accommodate the proliferation and success of aerospace fighters. These later ships, along with the Samarkand II carriers, became the backbone of the Draconis Combine's navy during the early Succession Wars. The demise of the Narukami class was not due to battles, but rather economic factors. The ravages of war shattered the fragile industry of the Draconis Combine, making it financially impossible to maintain these temperamental vessels. The surviving Narukamis were mothballed and managed to survive until the 3060s. However, the Combine's attempts to reactivate them to face the Clans proved futile due to extensive damage to their ancient jump cores and complete failures in the maneuvering drives. Eventually, the remaining Narukamis were scrapped by the time of the Jihad.
 </history>
 
-<manufacturer>
-Tengoku no Ken Master Shipwrights Ltd.
-</manufacturer>
-
-<primaryFactory>
-Mizunami
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<use>
-Destroyer
-</use>
-
-<length>
-610 m
-</length>
-
-<height>
-1100 m Sail
-</height>
-
 <source>
 FR:2765-DCMS
 </source>
@@ -349,3 +326,30 @@ FR:2765-DCMS
 45
 </escape_pod>
 
+<manufacturer>
+Tengoku no Ken Master Shipwrights Ltd.
+</manufacturer>
+
+<primaryFactory>
+Mizunami
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<use>
+Destroyer
+</use>
+
+<length>
+610 m
+</length>
+
+<height>
+1100 m Sail
+</height>

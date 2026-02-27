@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,62 +15,63 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Imp
 model:C
 mul id:1606
 
 Config:Biped
-techbase:Clan
-era:2863
-source:TR:3050
-rules level:2
+TechBase:Clan
+Era:2863
+Source:TR:3050
+Rules Level:2
 role:Juggernaut
 
-quirk:difficult_maintain
+
+
 quirk:command_mech
+quirk:difficult_maintain
 
-mass:100
-engine:300 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:25 Clan Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:44
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:25 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:8
-Medium Pulse Laser, Left Arm
-LRM 20, Right Arm
-ER PPC, Left Torso
-Medium Pulse Laser, Left Torso
-ER PPC, Right Torso
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Center Torso
-Medium Pulse Laser, Center Torso
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:44
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
+
+Weapons:7
+1 CLLRM20, Right Arm, Ammo:18
+1 CLMediumPulseLaser, Left Arm
+1 CLERPPC, Right Torso
+1 CLMediumPulseLaser, Right Torso
+1 CLERPPC, Left Torso
+1 CLMediumPulseLaser, Left Torso
+2 CLMediumPulseLaser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLMediumPulseLaser
 -Empty-
 -Empty-
@@ -80,8 +81,8 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLLRM20
 CLLRM20
 CLLRM20
@@ -91,28 +92,28 @@ CLArtemisIV
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERPPC
 CLERPPC
 CLMediumPulseLaser
-Clan Ammo LRM-20 (Clan) Artemis-capable
-Clan Ammo LRM-20 (Clan) Artemis-capable
-Clan Ammo LRM-20 (Clan) Artemis-capable
+CLLRM20 Ammo (Clan) Artemis-capable
+CLLRM20 Ammo (Clan) Artemis-capable
+CLLRM20 Ammo (Clan) Artemis-capable
 
 Right Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERPPC
 CLERPPC
 CLMediumPulseLaser
@@ -151,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-
@@ -165,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-

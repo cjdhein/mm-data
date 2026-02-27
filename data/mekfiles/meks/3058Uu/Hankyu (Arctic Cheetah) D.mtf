@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hankyu
 clanname:Arctic Cheetah
 model:D
 mul id:1381
 
-Config:Biped OmniMek
-techbase:Clan
-era:3037
+Config:Biped Omnimech
+TechBase:Clan
+Era:3037
 source:TR:CI
-rules level:2
+Rules Level:2
 role:Missile Boat
 
 quirk:pro_actuator
 
-mass:30
-engine:240 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:9
-walk mp:8
-jump mp:6
+Mass:30
+Engine:240 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:7
-RA armor:7
-LT armor:8
-RT armor:8
-CT armor:8
-HD armor:9
-LL armor:8
-RL armor:8
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:9
+Walk MP:8
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:7
+RA Armor:7
+LT Armor:8
+RT Armor:8
+CT Armor:8
+HD Armor:9
+LL Armor:8
+RL Armor:8
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
 LRM 10, Left Arm
@@ -63,7 +63,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLLRM10 (OMNIPOD)
+CLLRM10 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -77,7 +77,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLLRM10 (OMNIPOD)
+CLLRM10 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -89,8 +89,8 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-Clan Ammo LRM-10 (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
+Clan Ammo LRM-10 (omnipod)
+Clan Ammo LRM-10 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -105,9 +105,9 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLFlamer (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
+CLFlamer (omnipod)
+Clan Ammo LRM-10 (omnipod)
+Clan Ammo LRM-10 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -171,9 +171,13 @@ Jump Jet
 -Empty-
 
 overview:The Arctic Cheetah was originally designed by Clan Ice Hellion to replace the Mist Lynx OmniMech.
+
 capabilities:The Arctic Cheetah uses all the weight-saving materials that were available to the Clans in the 3030s: an Endo Steel structure, an XL Engine, and four tons of Ferro-Fibrous armor. It maintains enough jump jets in the base chassis to leap up to one hundred eighty meters at a time. Every variant of the Arctic Cheetah mounts a modular Flamer somewhere on the 'Mech for anti-infantry work.
+
 deployment:A capable long-range missile boat, configuration D mounts a pair of LRM-10s in each arm with a Medium Pulse Laser and a Flamer mounted in the Left Torso.
+
 history:Shortly after they began production in 3037, Clan Smoke Jaguar conquered the factory on Foster that produced the design, enabling the Jaguars to replace their Mist Lynx 'Mechs. The design was dubbed the Hankyu (Japanese for "short bow") by the Draconis Combine forces that first encountered it during the Battle of Luthien. The Ice Hellions subsequently recovered or recaptured Foster MechWorks Facility Beta, but by that point, the majority of the Ice Hellion MechWarriors preferred the Hellion OmniMech.
+
 manufacturer:Foster MechWorks Facility Beta,Mualang Alpha
 primaryfactory:Foster,Coudoux
 systemmanufacturer:CHASSIS:Hellion Light Endo Steel V3
@@ -181,3 +185,4 @@ systemmanufacturer:ENGINE:Warrior 240 XL
 systemmanufacturer:ARMOR:Compound Beta Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:HCFA 3001 5.7
 systemmanufacturer:TARGETING:HCFA 3005 4.3
+

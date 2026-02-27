@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crossbow
 model:CRS-6B
 mul id:733
@@ -28,11 +27,12 @@ rules level:1
 role:Missile Boat
 
 quirk:poor_target_long
-weaponquirk:mod_weapons:LA:3:LRM 10
 weaponquirk:mod_weapons:RA:3:LRM 10
+weaponquirk:mod_weapons:LA:3:LRM 10
+
 
 mass:60
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -183,3 +183,4 @@ systemmanufacturer:ARMOR:Diamond Skin Beta Series
 systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Arc Signal 1100
 systemmanufacturer:TARGETING:Arc Walker T&T Prime
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Archangel
 model:C-ANG-OD Luminos
 mul id:69
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Juggernaut
 
-quirk:bad_rep_is
+
+
 quirk:command_mech
-quirk:bad_rep_clan
-quirk:imp_sensors
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:100
-engine:300 Compact Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:17 IS Double
-base chassis heat sinks:12
-walk mp:3
-jump mp:3
+Mass:100
+Engine:300 Compact Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:47
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:12
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Inner Sphere)
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:47
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:8
 ER PPC, Left Arm
@@ -71,36 +73,36 @@ ER Small Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
 -Empty-
 
 Left Torso:
-Jump Jet (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
+Jump Jet (omnipod)
+ISMediumPulseLaser (omnipod)
+ISGuardianECMSuite (omnipod)
+ISGuardianECMSuite (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -111,9 +113,9 @@ IS Endo Steel
 -Empty-
 
 Right Torso:
-Jump Jet (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
+Jump Jet (omnipod)
+ISMediumPulseLaser (omnipod)
+ISMediumPulseLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -130,11 +132,11 @@ Fusion Engine
 Fusion Engine
 Gyro
 Gyro
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-Jump Jet (OMNIPOD)
-ISSmallPulseLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Jump Jet (omnipod)
+ISSmallPulseLaser (omnipod)
 ISC3iUnit
 ISC3iUnit
 
@@ -143,8 +145,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-ISMediumPulseLaser (OMNIPOD)
-ISERSmallLaser (OMNIPOD)
+ISMediumPulseLaser (omnipod)
+ISERSmallLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -181,8 +183,11 @@ IS Endo Steel
 -Empty-
 
 overview:Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.
+ 
 capabilities:The Archangel is the largest of these. Designed to be an "anchor" for Word formations, the 'Mech is known as a "zombie" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.
+
 history:Meant for work at longer ranges than the previous variants, the main guns of the Luminos are a pair of ER PPCs. Jump jets give it the ability to maneuver to a good position to snipe from more quickly, while a Guardian ECM Suite provides added defense. In case an enemy gets close, the Archangel D can utilize four Medium Pulse Lasers, an ER Small Laser, and a Small Pulse Laser that is devastating to unarmored infantry.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series AA1E

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Chameleon
 model:CLN-7W
 mul id:544
 
 Config:Biped
-techbase:Inner Sphere
-era:3058
-source:TR:3058U
-rules level:2
+TechBase:Inner Sphere
+Era:3058
+Source:TR:3058U
+Rules Level:2
 role:Striker
+
+
 
 quirk:easy_pilot
 
-mass:50
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:50
+Engine:300 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:16
-RT armor:16
-CT armor:22
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:16
+RT Armor:16
+CT Armor:22
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:3
 Medium Pulse Laser, Left Arm
@@ -170,8 +172,11 @@ Jump Jet
 
 overview:Since the Terran Hegemony introduced it in 2510, the Chameleon has been the premiere training BattleMech for light- and medium-BattleMech MechWarriors.
 capabilities:The Chameleon was designed to help a new MechWarrior master the skills of maneuvering and heat management, with a top speed of 97.2 km/h and a jumping distance of 180 meters. The 'Mech also had an almost all energy weapons loadout, but cooled only by 10 single heat sinks; this paucity of freezers forces MechWarriors to concentrate on the 'Mech's heat levels.
+
 deployment:The 7W variant of the Chameleon looked to use the 'Mech in a full-time combat role. The 'Mech had upgraded the large laser to an ER large laser. Additionally, the machine guns and small lasers had been removed and replaced with a medium pulse laser and double heat sinks.
+
 history:In fact, with its role away from the battlefield, except in the most desperate of circumstances, the Chameleon has suffered relatively little attrition. Combined with its continuous production on Hesperus II, the Chameleon is one of the most common BattleMechs. Even in the 31st century, the Chameleon is widely used at academies and training cadres throughout the Inner Sphere. In some instances, the Chameleon had been forced into combat situations, notably during the Dragoon Civil War. Production of the Chameleon halted briefly in 3052 when Defiance Industries decided to switch its production to the Nightsky, but was quickly resumed when J.B. BattleMechs Incorporated purchased the rights to the design. J.B. BattleMechs also introduced two battleworthy variants of the Chameleon. The Chameleon is a training 'Mech, intended to simulate a variety of opponents by mounting a wide variety of weapon systems. While a medium 'Mech by design, it doesn't always look like one; it can be fitted out with extra plates to modify its appearance, and carries special electronics to falsify its signature. It is these special abilities that let it look and scan as something other than what it is, hence the machine's name.
+
 manufacturer:J.B. BattleMechs Inc.
 primaryfactory:Storfors
 systemmanufacturer:CHASSIS:Enran TXS2A
@@ -180,3 +185,4 @@ systemmanufacturer:ARMOR:SimplePlate Manufacturers Type M
 systemmanufacturer:JUMP_JET:McCloud Specials
 systemmanufacturer:COMMUNICATIONS:Jolex Systems
 systemmanufacturer:TARGETING:Optisight-12
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Boreas
 model:B
 mul id:7353
 
-Config:QuadVee OmniMek
-techbase:Clan
-era:3132
-source:XTR:RotS 2
-rules level:3
+Config:QuadVee Omnimech
+TechBase:Clan
+Era:3132
+Source:XTR:RotS 2
+Rules Level:3
 role:Sniper
 
+Mass:60
+Engine:240 Fusion (Clan) Engine(IS)
+Structure:IS Standard
+Myomer:Standard
+Motive:Track
 
-mass:60
-engine:240 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
-motive:Track
-cockpit:QuadVee Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Laser
+Base Chassis Heat Sinks:9
+Walk MP:4
+Jump MP:0
 
-heat sinks:10 Laser
-base chassis heat sinks:9
-walk mp:4
-jump mp:0
-
-armor:Standard(Inner Sphere)
-FLL armor:21
-FRL armor:21
-LT armor:21
-RT armor:21
-CT armor:26
-HD armor:8
-RLL armor:21
-RRL armor:21
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Armor:Standard(Inner Sphere)
+FLL Armor:21
+FRL Armor:21
+LT Armor:21
+RT Armor:21
+CT Armor:26
+HD Armor:8
+RLL Armor:21
+RRL Armor:21
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:1
 Streak LRM 20, Right Torso
@@ -64,12 +60,6 @@ Lower Leg Actuator
 Foot Actuator
 Conversion Gear
 Tracks
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Front Right Leg:
 Hip
@@ -78,12 +68,6 @@ Lower Leg Actuator
 Foot Actuator
 Conversion Gear
 Tracks
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Torso:
 Laser Heat Sink
@@ -100,13 +84,13 @@ Laser Heat Sink
 -Empty-
 
 Right Torso:
-CLStreakLRM20 (OMNIPOD)
-CLStreakLRM20 (OMNIPOD)
-CLStreakLRM20 (OMNIPOD)
-CLStreakLRM20 (OMNIPOD)
-CLStreakLRM20 (OMNIPOD)
-Clan Streak LRM 20 Ammo (OMNIPOD)
-Clan Streak LRM 20 Ammo (OMNIPOD)
+CLStreakLRM20 (omnipod)
+CLStreakLRM20 (omnipod)
+CLStreakLRM20 (omnipod)
+CLStreakLRM20 (omnipod)
+CLStreakLRM20 (omnipod)
+Clan Streak LRM 20 Ammo (omnipod)
+Clan Streak LRM 20 Ammo (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -134,12 +118,6 @@ Cockpit
 Cockpit
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Rear Left Leg:
 Hip
@@ -148,12 +126,6 @@ Lower Leg Actuator
 Foot Actuator
 Conversion Gear
 Tracks
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Rear Right Leg:
 Hip
@@ -162,17 +134,15 @@ Lower Leg Actuator
 Foot Actuator
 Conversion Gear
 Tracks
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 overview:Developed by Clan Hell's Horses in 3132, the Boreas is an experimental Heavy Class hybrid Quad BattleMech / Combat Vehicle known as a QuadVee.
+
 capabilities:The Boreas utilizes a Standard 240-rated Fusion Engine to move up to 64 km/h while in either Vehicle or BattleMech form. The vehicle is protected by 11.5 tons of armor, giving it less than stellar armor for a typical Clan BattleMech. Aside from its revolutionary conversion abilities, scientists also created a two-man cockpit. The cockpit is set up for pilot and gunner positions. This arrangement allows for the gunner to target multiple enemies with little trouble while the pilot handles the 'Mech's movement. Unlike other quadruped 'Mechs, the Boreas has a turret-like structure mounted on the main body. This allows all weapons mounted in this section to be aimed with any facing the gunner chooses. Should the vehicle's gyro be destroyed during combat, the vehicle can simply convert itself into vehicular form. It would also be able to be change into a 'Mech should one of its four tracks be rendered useless. Built with the modularity of an OmniMech, this OmniQuadVee has twelve tons of Pod Space, which gives some flexibility over later fixed-configuration QuadVees.
+
 deployment:Long-range fire support configuration, the B is armed with a 20-tubed Streak LRM with two tons of ammunition.
+
 history:Created by Hell's Horses scientists, the Mech has the ability to transform itself from a tracked combat vehicle into a quadruped BattleMech, benefiting from some of the best qualities of both. Developed at the Csesztreg Industriplex Alpha Annex on Csesztreg. The Boreas was the first of its kind to be developed, it would be later in 3136 when production versions of the QuadVee would be fielded in combat with OmniPod technology.
+
 manufacturer:Csesztreg Industriplex Alpha Annex
 primaryfactory:Csesztreg
 systemmanufacturer:CHASSIS:Unknown
@@ -181,3 +151,4 @@ systemmanufacturer:ARMOR:Unknown
 systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
+

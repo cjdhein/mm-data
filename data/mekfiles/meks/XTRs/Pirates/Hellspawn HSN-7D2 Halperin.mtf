@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,169 +15,159 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hellspawn
 model:HSN-7D2 (Halperin)
 mul id:1478
 
 Config:Biped
-techbase:Inner Sphere
-era:3072
-source:XTR:Pirates
-rules level:4
+TechBase:Inner Sphere
+Era:3072
+Rules Level:4
 role:Striker
+Source:XTR:Pirates
+
+
 
 quirk:bad_rep_is
 
-mass:45
-engine:270 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:12 IS Double
-walk mp:6
-jump mp:6
+Mass:45
+Engine:270 XL Engine
+Structure:Endo-Steel
+Gyro:Compact Gyro
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:6
 
-Weapons:8
-Rocket Launcher 20, Left Arm
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-Rocket Launcher 20, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Small Laser, Left Torso
-ER Small Laser, Right Torso
+Armor:Standard Armor
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
+
+Weapons:12
+1 ISAngelECM, Center Torso
+1 ISERSmallLaser (R), Right Torso (R)
+1 ISERSmallLaser (R), Left Torso (R)
+1 ISERMediumLaser, Left Arm
+1 ISERMediumLaser, Left Arm
+1 ISRocketLauncher20, Left Arm
+1 ISRocketLauncher20, Right Arm
+1 IS Coolant Pod, Left Torso
+1 IS Coolant Pod, Left Torso
+1 IS Coolant Pod, Right Torso
+1 ISERMediumLaser, Right Arm
+1 ISERMediumLaser, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-RL20
-RL20
-RL20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-RL20
-RL20
-RL20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 ISERSmallLaser (R)
-Coolant Pod
-Coolant Pod
-IS Endo Steel
+IS Coolant Pod
+IS Coolant Pod
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 ISERSmallLaser (R)
-Coolant Pod
-IS Endo Steel
-IS Endo Steel
+IS Coolant Pod
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
-ISAngelECMSuite
-ISAngelECMSuite
+ISAngelECM
+ISAngelECM
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 overview:The flagship design of GM's Talcott production facility, the Hellspawn was designed in response to a call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile, fire-support BattleMech to compete with the older Dervish.
+
 capabilities:The Hellspawn is built on a GM Fury-M Endo Steel chassis that weighs half as much as a standard chassis. The Hellspawn carries a GM 270 XL engine that gives it a top speed of 97.2 km/h and also weighs half as much as a standard engine while making the 'Mech susceptible to a combat kill from a side torso loss. For protection from enemy electronic warfare equipment such as C3 or Artemis IV, the Hellspawn is equipped with a Guardian ECM Suite. To enhance the 'Mech's mobility it has six Rawlings 80 jump jets that allow the 'Mech to jump up to one hundred and eighty meters. Finally, the Hellspawn has six and a half tons of armor that is barely adequate when compared to other medium 'Mechs.
+
 deployment:The personal 'Mech of Crucis March Militia deserter-turned-bandit Greta Halperin, her Hellspawn introduced in 3072 had been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser is replaced with a pair of ER Medium Lasers. The torso mounted pulse laser is dropped entirely for two rear facing ER Small Lasers, while two additional tons of armor improve the Hellspawns weak armor. Two extra heat sinks enhanced by a trio of Coolant Pods allow Halperin to Alpha Strike repeatedly until her targets are destroyed, while switching the Guardian for an advanced Angel ECM Suite prevents any chance of her high-ranked marks calling for help.
+
 manufacturer:General Motors
 primaryfactory:Talcott
 systemmanufacturer:CHASSIS:GM Fury-M Endo

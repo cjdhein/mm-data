@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Archer
 model:ARC-9M
 mul id:88
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
+TechBase:Inner Sphere
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:stable
 quirk:command_mech
+quirk:stable
 quirk:ubiquitous_is
 
-mass:70
-engine:210 Light Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:5
+Mass:70
+Engine:210 Light Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:22
-RT armor:22
-CT armor:28
-HD armor:9
-LL armor:21
-RL armor:21
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:5
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:22
+RT Armor:22
+CT Armor:28
+HD Armor:9
+LL Armor:21
+RL Armor:21
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:6
 Light PPC, Left Arm
@@ -73,9 +75,9 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Light PPC
 Light PPC
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -87,9 +89,9 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Light PPC
 Light PPC
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -137,7 +139,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -176,14 +178,18 @@ Improved Jump Jet
 -Empty-
 
 overview:One of the most iconic BattleMechs is the Archer, with its low-slung torso, enormous fists, and missile-bay covers. The Archer was first manufactured in 2474 for heavy-hitting, long-range brawling, and fire-support.
+
 capabilities:Two enormous missile launchers with tons of ammo power the Archer. The missiles were formidable, but their short-range inaccuracy required four medium lasers, two rear-facing and one in each arm. Enlarged hand actuators allow the design to undertake severe physical attacks and transport captured supplies during raids. The cockpit of the Archer is situated beneath the center midsection, giving the pilot a unique battlefield view. The torso armor belt above the cockpit protects the gyro and engine from the superior armor. Many pilots initially entered battle with their missile bays locked to hide the 'Mech's real capabilities, leading some to believe it was a close-combat design. As the Archer became famous, this pretext became meaningless. Archer pilots rarely learn new skills, but this hasn't tarnished the 'Mech's reputation.
-deployment:This variant used a Defiance 210 light engine, which dropped the top speed to 54 km/h, but five Improved Jump Jets were added to compensate for this lack of speed. Built in 3076 on an endo steel chassis, the standard weapons were replaced by a Delta Dart LRM-15 with Artemis IV FCS and a Diverse Optics ER medium laser in each torso, and a Defiance 250 light PPC was mounted in each arm. Eleven tons of Light Ferro-Fibrous armor and CASE protected the 'Mech.
+
+deployment:This variant used a Defiance 210 light engine, which dropped the top speed to 54 km/h, but five Improved Jump Jets were added to compensate for this lack of speed. Built in 3076 on an endo steel chassis, the standard weapons were replaced by a Delta Dart LRM-15 with Artemis IV FCS and a Diverse Optics ER medium laser in each torso, and a Defiance 250 light PPC was mounted in each arm. Eleven tons of Light Ferro-Fibrous armor and CASE protected the 'Mech. 
+
 history:The design was constructed at the request of Terran Hegemony's HAF for a new "heavy fire support BattleMech" and took nearly nine years to complete. This owed in part to the design team, which included former HAF MechWarriors, field technicians, and general officer advisors, and the company's engineer team, led by Supervising Engineer Linn Tommi, disagreeing over theoretical and practical concerns. The intricate engineering proposal presented to the HAF includes complicated, difficult-to-repair stabilizing technology and powerful, computer-slaved sensors designed to make the Archer the most accurate BattleMech in existence. However, the final prototype abandoned these criteria in favor of a sturdier, blockier, and more heavily armored frame that is still in use today. It was so effective that it remained the Hegemony standard for more than a decade and a half, until technological developments allowed Earthwerks to produce a more efficient variant. The Archer, which debuted in 2474, quickly became one of the most well-known and commonly deployed BattleMechs. The Archer was a contemporary of 'Mechs such as the Thunderbolt and the Banshee, and its primary job was fire support, though early in its combat career it was regarded an attack 'Mech capable of long-range brawling, and it was deployed in a variety of different duties. More than 100,000 Archers were built between its introduction and the outbreak of the First Succession War, with tens of thousands of variation types produced over the centuries. Though many were destroyed or deconstructed for spare components, they remained a common sight in the Great House troops, with six distinct manufacturers creating new Archers throughout the Succession Wars. The retrieval of the Helm Memory Core had a significant impact on the creation of the Archer. New variations were created that used rediscovered lostech, giving the venerable 'Mech a few new tricks to surprise its opponents. By the time of the Clan Invasion, most of the major manufacturers had switched over to building these new variants for the Free Worlds League, Federated Commonwealth, Free Rasalhague Republic, and Wolf's Dragoons; only Vandenberg Mechanized Industries continued to build original ARC-2R Archers for the Taurian Concordat. As technology advanced, newer, more advanced models of the Archer were produced.
+
 manufacturer:Earthwerks-FWL, Inc.,Bowie Industries,Lexatech Industries
 primaryfactory:Calloway VI,Carlisle,Hun Ho
 systemmanufacturer:CHASSIS:Earthwerks Archer II
 systemmanufacturer:ENGINE:Defiance 210 Light Engine
-systemmanufacturer:ARMOR:Durallex Light with CASE
 systemmanufacturer:JUMP_JET:Chilton Model 21
+systemmanufacturer:ARMOR:Durallex Light with CASE
 systemmanufacturer:COMMUNICATIONS:Neil 9000
 systemmanufacturer:TARGETING:RCA Instatrac Mark XII

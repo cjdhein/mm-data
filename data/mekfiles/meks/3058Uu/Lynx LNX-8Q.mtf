@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lynx
 model:LNX-8Q
 mul id:1966
 
 Config:Biped
-techbase:Inner Sphere
-era:2853
-source:TR:3058U
-rules level:1
+TechBase:Inner Sphere
+Era:2853
+Source:TR:3058U
+Rules Level:1
 role:Skirmisher
+
+
 
 quirk:multi_trac
 
-mass:55
-engine:275 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 Single
-walk mp:5
-jump mp:0
+Mass:55
+Engine:275 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:19
-RT armor:19
-CT armor:25
-HD armor:9
-LL armor:25
-RL armor:25
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:15 Single
+Walk MP:5
+Jump MP:0
+
+Armor:Standard((Unknown Technology Base))
+LA Armor:17
+RA Armor:17
+LT Armor:19
+RT Armor:19
+CT Armor:25
+HD Armor:9
+LL Armor:25
+RL Armor:25
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:4
 Medium Laser, Left Arm
@@ -168,4 +170,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Men Shen
 model:MS1-OE
 mul id:2165
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3070
-source:TR:3060
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3070
+Source:TR:3060
+Rules Level:2
 role:Striker
 
-quirk:exp_actuator
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:exp_actuator
 
-mass:55
-engine:330 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-base chassis heat sinks:10
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:13
 Light Machine Gun, Left Arm
@@ -72,11 +74,11 @@ Medium Laser, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-ISLMGA (OMNIPOD)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+ISLMGA (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -86,11 +88,11 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-Light Machine Gun (OMNIPOD)
-ISLMGA (OMNIPOD)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+Light Machine Gun (omnipod)
+ISLMGA (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -101,8 +103,8 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser (OMNIPOD)
-IS Light Machine Gun Ammo - Full (OMNIPOD)
+Medium Laser (omnipod)
+IS Light Machine Gun Ammo - Full (omnipod)
 ISMASC
 ISMASC
 ISMASC
@@ -115,12 +117,12 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISPlasmaRifle (OMNIPOD)
-ISPlasmaRifle (OMNIPOD)
-Medium Laser (OMNIPOD)
-ISPlasmaRifleAmmo (OMNIPOD)
-ISPlasmaRifleAmmo (OMNIPOD)
-IS Light Machine Gun Ammo - Full (OMNIPOD)
+ISPlasmaRifle (omnipod)
+ISPlasmaRifle (omnipod)
+Medium Laser (omnipod)
+ISPlasmaRifleAmmo (omnipod)
+ISPlasmaRifleAmmo (omnipod)
+IS Light Machine Gun Ammo - Full (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -180,4 +182,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

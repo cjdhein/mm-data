@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crosscut
 model:ED-XX 'Ichabod'
 mul id:744
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
-source:XTR:Gladiators
-rules level:4
+TechBase:Inner Sphere
+Era:3075
+Rules Level:4
 role:Ambusher
+Source:XTR:Gladiators
 
+Mass:30
+Engine:90 Fusion Engine
+Structure:Industrial
+Cockpit:Torso-Mounted Cockpit
+Myomer:Standard
 
-mass:30
-engine:90 Fusion Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:3
-jump mp:0
+Armor:Standard Armor
+LA Armor:6
+RA Armor:6
+LT Armor:6
+RT Armor:6
+CT Armor:12
+HD Armor:6
+LL Armor:6
+RL Armor:6
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:6
-RT armor:6
-CT armor:12
-HD armor:6
-LL armor:6
-RL armor:6
-RTL armor:3
-RTR armor:3
-RTC armor:4
-
-Weapons:3
-BattleMech Taser, Left Arm
-ER Small Laser, Head
-ER Medium Laser, Head
+Weapons:4
+1 ISERMediumLaser, Head
+1 ISERSmallLaser, Head
+1 ISMekTaser, Left Arm, Ammo:5
+1 Chainsaw, Right Arm
 
 Left Arm:
 Shoulder
@@ -63,9 +61,9 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 Heat Sink
-Mek Taser
-Mek Taser
-Mek Taser
+ISMekTaser
+ISMekTaser
+ISMekTaser
 -Empty-
 -Empty-
 -Empty-
@@ -88,7 +86,7 @@ Chainsaw
 Left Torso:
 Life Support
 Heat Sink
-Taser Ammo
+MekTaserAmmo
 ISCASE
 -Empty-
 -Empty-
@@ -114,16 +112,16 @@ Heat Sink
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Cockpit
 Sensors
 
@@ -134,12 +132,6 @@ Heat Sink
 ISERSmallLaser
 ISERMediumLaser
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -147,12 +139,6 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 
 Right Leg:
@@ -162,10 +148,3 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

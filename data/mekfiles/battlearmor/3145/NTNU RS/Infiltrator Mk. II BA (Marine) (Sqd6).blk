@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,15 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -32,13 +40,42 @@ Infiltrator Mk. II Battle Armor
 9148
 </mul id:>
 
-<year>
-3092
-</year>
+<chassis>
+biped
+</chassis>
 
-<originalBuildYear>
-3092
-</originalBuildYear>
+<weightclass>
+2
+</weightclass>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<cruiseMP>
+1
+</cruiseMP>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<Armor>
+6
+</Armor>
+
+<Squad Equipment>
+CLBAMicroPulseLaser:LA
+BABasicManipulator:LA
+BABasicManipulator:RA
+BACuttingTorch:RA
+Magnetic Clamp:Body
+ISBASpaceOperationsAdaptation:Body
+IS BA Stealth:Body
+IS BA Stealth:RA
+IS BA Stealth:LA
+IS BA Stealth:LA
+</Squad Equipment>
 
 <type>
 Mixed (IS Chassis)
@@ -48,64 +85,32 @@ Mixed (IS Chassis)
 Ambusher
 </role>
 
+<year>
+3092
+</year>
+
 <motion_type>
 Jump
 </motion_type>
 
-<cruiseMP>
-1
-</cruiseMP>
+<source>
+RS:3145-NTNU
+</source>
 
 <armor_type>
 32
 </armor_type>
-
 <armor_tech>
 3
 </armor_tech>
 
-<Squad Equipment>
-CLBAMicroPulseLaser:LA
-BABasicManipulator:LA
-BABasicManipulator:RA
-BACuttingTorch:RA
-BA-Magnetic Clamp:Body
-ISBASpaceOperationsAdaptation:Body
-IS BA Stealth (Standard):Body
-IS BA Stealth (Standard):RA
-IS BA Stealth (Standard):LA
-IS BA Stealth (Standard):LA
-</Squad Equipment>
-
-<Trooper 1 Equipment>
-</Trooper 1 Equipment>
-
-<Trooper 2 Equipment>
-</Trooper 2 Equipment>
-
-<Trooper 3 Equipment>
-</Trooper 3 Equipment>
-
-<Trooper 4 Equipment>
-</Trooper 4 Equipment>
-
-<Trooper 5 Equipment>
-</Trooper 5 Equipment>
-
-<Trooper 6 Equipment>
-</Trooper 6 Equipment>
-
-<slotless_equipment>
-BAJumpJet
-</slotless_equipment>
+<overview>
+The Infiltrator Mk. II is a battle armor suit designed as a replacement for the earlier Infiltrator Mk. I.
+</overview>
 
 <capabilities>
 Although the Puma has just a top ground speed of 10.8 km/h, the inclusion of integral Jump Jets allows it to jump 90 meters at a time. The 360kg of Standard Stealth armor the Mk. II caries not only allows it to withstand a full burst from an Inner Sphere Medium Pulse Laser and keep fighting, it also mimics the effect of a combination IR/ECM Sneak Suit, continually recharged by the suit to allow indefinite operation. Providing additional electronic protection is a personal-sized ECM Suite. Finally the suit includes an optional Parafoil attachment that aids in HALO drops.
 </capabilities>
-
-<overview>
-The Infiltrator Mk. II is a battle armor suit designed as a replacement for the earlier Infiltrator Mk. I.
-</overview>
 
 <deployment>
 This Dark Age era variant is designed to support and repel boarding operations. Space Operations Adaptations allow it to operate in space, while Magnetic Clamps let it hang onto a ship hull. A Cutting Torch allows the Infiltrator to cut through bulkheads, bring a Clan-built Micro Pulse Laser into the fight.
@@ -127,32 +132,7 @@ New Avalon
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
-
-<source>
-RS:3145-NTNU
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-

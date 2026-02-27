@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,15 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 Tank
 </UnitType>
-
 <Name>
 Tokugawa Heavy Tank
 </Name>
-
 <Model>
 (MRM)
 </Model>
@@ -31,15 +36,36 @@ Tokugawa Heavy Tank
 <mul id:>
 3261
 </mul id:>
-
-<year>
-3062
-</year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
-
+<Tonnage>
+60
+</Tonnage>
+<cruiseMP>
+4
+</cruiseMP>
+<Armor>
+40
+33
+33
+26
+36
+</Armor>
+<Turret Equipment>
+ISMRM30
+ISSRM6
+ISArtemisIV
+</Turret Equipment>
+<Front Equipment>
+ISMediumPulseLaser
+ISMediumPulseLaser
+ISTAG
+</Front Equipment>
+<Body Equipment>
+ISMRM30 Ammo
+ISMRM30 Ammo
+ISMRM30 Ammo
+ISSRM6 Ammo Artemis-capable
+ISSRM6 Ammo Artemis-capable
+</Body Equipment>
 <type>
 IS Level 2
 </type>
@@ -47,73 +73,21 @@ IS Level 2
 <role>
 Juggernaut
 </role>
-
-<motion_type>
-Wheeled
-</motion_type>
-
-<cruiseMP>
-4
-</cruiseMP>
-
-<engine_type>
+<year>
+3062
+</year>
+<internal_type>
 0
-</engine_type>
-
+</internal_type>
 <armor_type>
 0
 </armor_type>
-
-<armor_tech_rating>
+<engine_type>
 0
-</armor_tech_rating>
-
-<armor_tech_level>
-0
-</armor_tech_level>
-
-<armor>
-40
-33
-33
-26
-36
-</armor>
-
-<Body Equipment>
-IS MRM 30 Ammo
-IS MRM 30 Ammo
-IS MRM 30 Ammo
-IS Ammo SRM-6 Artemis-capable
-IS Ammo SRM-6 Artemis-capable
-</Body Equipment>
-
-<Front Equipment>
-ISMediumPulseLaser
-ISMediumPulseLaser
-ISTAG
-</Front Equipment>
-
-<Right Equipment>
-</Right Equipment>
-
-<Left Equipment>
-</Left Equipment>
-
-<Rear Equipment>
-</Rear Equipment>
-
-<Turret Equipment>
-MRM 30
-SRM 6
-ISArtemisIV
-</Turret Equipment>
-
+</engine_type>
+<motion_type>
+Wheeled
+</motion_type>
 <source>
 TR:3058U
 </source>
-
-<tonnage>
-60.0
-</tonnage>
-

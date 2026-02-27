@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crossbow
 model:CRS-X
 mul id:5583
@@ -28,12 +27,13 @@ rules level:4
 role:Missile Boat
 
 quirk:obsolete:2490
-quirk:prototype
 quirk:poor_target_long
+quirk:prototype
 weaponquirk:poor_cooling:RT:0:Large Laser
 
+
 mass:60
-engine:290 Fusion Engine
+engine:290 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Primitive Cockpit
@@ -178,8 +178,11 @@ Foot Actuator
 -Empty-
 
 overview:The predecessor to Clan Steel Viper's Crossbow OmniMech, the original Crossbow first saw battlefield action for the Lyran Commonwealth in 2468. The 60-ton 'Mech is speedy for its era, capable of 86 km/h. This came at the expense of armor, however, as the Crossbow is only protected by eight tons of armor.
+
 capabilities:The prototype used less sophisticated components, forcing the downgrade of many weapon systems. Each arm carried a pair of LRM-5 launchers and a Medium Laser, while a single Large Laser mounted in the torso provided additional long range firepower. The Primitive Engine drove this version of the Crossbow at a top speed of 64km/h. The bulk of the engine, cockpit, and armor required engineers to devote more tonnage to armor. This would be overcome in later versions of the Crossbow
+
 history:The production model, the 6B, came a few years later. The heavy 'Mech was the first produced by Arcturan Arms and the third homegrown BattleMech produced in the Commonwealth. Arcturan Arms fell on hard times when the capital was relocated from Arcturus to Tharkad, forcing them to shut down the factory in 2490 after producing only a few hundred Crossbows. MacEnroe Motors bought out the financially troubled company in 2541, which shut down Crossbow production in 2550.
+
 manufacturer:Arcturan Arms
 primaryfactory:Arcturus
 systemmanufacturer:CHASSIS:Unknown
@@ -188,3 +191,4 @@ systemmanufacturer:ARMOR:Unknown
 systemmanufacturer:JUMP_JET:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
+

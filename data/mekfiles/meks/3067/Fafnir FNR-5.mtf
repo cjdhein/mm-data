@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fafnir
 model:FNR-5
 mul id:4152
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Rules Level:2
 role:Juggernaut
+source:TR:3067
+
+
+
 
 quirk:no_arms
-weaponquirk:stable_weapon:LT:0:ISHeavyGaussRifle
 weaponquirk:stable_weapon:RT:0:ISHeavyGaussRifle
+weaponquirk:stable_weapon:LT:0:ISHeavyGaussRifle
 
-mass:100
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:5
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-Heavy Gauss Rifle, Left Torso
-Heavy Gauss Rifle, Right Torso
-Medium Pulse Laser, Head
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
+
+Weapons:6
+1 ISERMediumLaser, Right Arm
+1 ISERMediumLaser, Left Arm
+1 ISHeavyGaussRifle, Right Torso, Ammo:32
+1 ISHeavyGaussRifle, Left Torso
+1 ISMediumPulseLaser, Head
+1 ISGuardianECM, Center Torso
 
 Left Arm:
 Shoulder
@@ -66,13 +70,13 @@ Upper Arm Actuator
 ISERMediumLaser
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
@@ -80,13 +84,13 @@ Upper Arm Actuator
 ISERMediumLaser
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Torso:
 ISHeavyGaussRifle
@@ -127,8 +131,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 
 Head:
 Life Support

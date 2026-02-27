@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Duan Gung
 model:D9-G10
 mul id:934
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3070
+Source:TR:3060
+Rules Level:2
 role:Striker
 
-quirk:non_standard
+
+
 quirk:pro_actuator
+quirk:non_standard
 
-mass:25
-engine:175 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:6
+Mass:25
+Engine:175 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Stealth(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:9
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:6
+
+Armor:Stealth(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:9
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
 Medium Laser, Left Arm
@@ -67,8 +69,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Medium Laser
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 
@@ -81,8 +83,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Medium Laser
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 
@@ -96,8 +98,8 @@ ISDoubleHeatSink
 Jump Jet
 Jump Jet
 Jump Jet
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 
 Right Torso:
@@ -109,8 +111,8 @@ Jump Jet
 Jump Jet
 Light PPC
 Light PPC
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

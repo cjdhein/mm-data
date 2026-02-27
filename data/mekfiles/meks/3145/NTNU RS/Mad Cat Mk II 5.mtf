@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat Mk II
 model:5
 mul id:6849
 
 Config:Biped
-techbase:Clan
-era:3109
-source:RS:3145-NTNU
-rules level:2
+TechBase:Clan
+Era:3109
+Source:RS:3145-NTNU
+Rules Level:2
 role:Brawler
 
 quirk:imp_target_med
 
-mass:90
-engine:360 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:14 Clan Double
-walk mp:4
-jump mp:6
+Mass:90
+Engine:360 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:30
-RA armor:30
-LT armor:30
-RT armor:30
-CT armor:45
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:14 Double
+Walk MP:4
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:30
+RA Armor:30
+LT Armor:30
+RT Armor:30
+CT Armor:45
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:3
+Gauss Rifle, Right Arm
 Improved Heavy Large Laser, Left Arm
 Improved Heavy Medium Laser, Left Arm
-Gauss Rifle, Right Arm
 
 Left Arm:
 Shoulder
@@ -87,12 +87,12 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -101,12 +101,12 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 Clan Gauss Ammo
 Clan Gauss Ammo
 Clan Ferro-Fibrous
@@ -169,9 +169,13 @@ Clan Endo Steel
 -Empty-
 
 overview:Designed to be sold to fellow Clans, this rebuild of the Timber Wolf carries thirteen tons of ferro-fibrous armor while being one of most nimble BattleMechs of its class, yet still packing serious weaponry.
+
 capabilities:This variant carries a Gauss Rifle in the right arm, supported by an Improved Heavy Large Laser and Improved Heavy Medium Laser in the left arm. Six Improved Jump Jets allow it to cover 180 meters at a time.
+
 deployment:Despite this, Mk II's most notable potential buyers, Clan Wolf and Clan Jade Falcon, did not purchase even a single unit, though they won some numbers in Trials. Significant numbers of Mad Cat Mk II were sold to Clan Nova Cat, and the Mech served also in Clan Ice Hellion, Clan Jade Falcon, Clan Wolf-in-Exile in addition to Diamond Shark itself. On a limited basis, Clan Diamond Shark sold unmodified Mad Cat Mk IIs to Inner Sphere factions, most notably the Draconis Combine and Federated Commonwealth, and also the Lyran Alliance bought an unknown amount of Mad Cat Mark IIs.
+
 history:The Mad Cat Mk II was in development for fifteen months by the time production began in 3061. The sole rationale for the Mad Cat Mk II was to increase profits for Clan Diamond Shark after war with the Inner Sphere in the 3050s.
+
 manufacturer:Manufacturing Plant DSF-94
 systemmanufacturer:CHASSIS:DSAM Endo 4
 systemmanufacturer:ENGINE:Type 79 360 XL Fusion
@@ -179,3 +183,5 @@ systemmanufacturer:ARMOR:Forging ZM15 Ferro Fibrous
 systemmanufacturer:JUMP_JET:Grandthrust Mk. 5
 systemmanufacturer:COMMUNICATIONS:MegaBand System 21
 systemmanufacturer:TARGETING:Dtrac Suite 4
+
+

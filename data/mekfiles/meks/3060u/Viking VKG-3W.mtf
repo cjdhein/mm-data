@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Viking
 model:VKG-3W
 mul id:3420
 
 Config:Biped
-techbase:Inner Sphere
-era:3072
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3072
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
 
-quirk:no_arms
+
+
 quirk:easy_maintain
 quirk:multi_trac
+quirk:no_arms
 
-mass:90
-engine:270 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:0
+Mass:90
+Engine:270 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:30
-RA armor:30
-LT armor:28
-RT armor:28
-CT armor:44
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:10
-RTR armor:10
-RTC armor:14
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:30
+RA Armor:30
+LT Armor:28
+RT Armor:28
+CT Armor:44
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:10
+RTR Armor:10
+RTC Armor:14
 
 Weapons:8
 Streak SRM 2, Left Leg
@@ -60,8 +62,8 @@ MML 9, Left Arm
 MML 9, Left Arm
 MML 9, Right Arm
 MML 9, Right Arm
-Light AC/2, Left Torso
-Light AC/2, Right Torso
+Light Auto Cannon/2, Left Torso
+Light Auto Cannon/2, Right Torso
 
 Left Arm:
 Shoulder
@@ -99,11 +101,11 @@ IS Ammo MML-9 SRM
 IS Ammo MML-9 SRM
 IS Streak SRM 2 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Light Auto Cannon/2
@@ -112,12 +114,12 @@ IS Ammo MML-9 LRM
 IS Ammo MML-9 LRM
 IS Ammo MML-9 SRM
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -137,7 +139,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -153,7 +155,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISStreakSRM2
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -167,11 +169,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISStreakSRM2
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

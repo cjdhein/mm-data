@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hitotsume Kozo
 model:HKZ-1FM 'Mulan'
 mul id:8380
@@ -27,13 +26,12 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Skirmisher
 
-
 mass:55
-engine:330 XL Engine
+engine:330 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Triple-Strength
 
-heat sinks:12 IS Double
+heat sinks:12 Double
 walk mp:6
 jump mp:4
 
@@ -51,9 +49,9 @@ RTR armor:9
 RTC armor:10
 
 Weapons:3
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
 Heavy PPC, Right Torso
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -166,4 +164,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

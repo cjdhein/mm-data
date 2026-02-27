@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-11-09
 chassis:Opossum
 model:OPO-2 SalvageMech
 mul id:7847
@@ -29,7 +29,7 @@ role:None
 
 
 mass:25
-engine:75 ICE Engine
+engine:75 ICE Engine(IS)
 structure:IS Industrial
 myomer:Standard
 
@@ -175,3 +175,4 @@ systemmanufacturer:ENGINE:InterComBust 75 ICE
 systemmanufacturer:ARMOR:StrongArm III Heavy Industrial
 systemmanufacturer:COMMUNICATIONS:Garret T10B
 systemmanufacturer:TARGETING:Apple Churchill 2000
+

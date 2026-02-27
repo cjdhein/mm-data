@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phantom
 model:R
 mul id:9351
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (Clan Chassis)
 era:3145
 source:RG27
@@ -28,6 +26,7 @@ rules level:2
 role:Striker
 
 quirk:imp_sensors
+
 
 mass:40
 engine:360 XL (Clan) Engine
@@ -56,8 +55,8 @@ Weapons:5
 SRM 6, Left Arm
 Medium Laser, Right Arm
 Medium Laser, Right Arm
-Improved Heavy Medium Laser, Left Torso
 Improved Heavy Medium Laser, Right Torso
+Improved Heavy Medium Laser, Left Torso
 
 Left Arm:
 Shoulder
@@ -182,3 +181,4 @@ systemmanufacturer:ENGINE:Light Force 360 (XL)
 systemmanufacturer:ARMOR:Composite A-2 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Howler 79
 systemmanufacturer:TARGETING:Model 92 “Stalker”
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-16
 chassis:Hatchetman
 model:HCT-6S
 mul id:1417
@@ -31,7 +31,7 @@ quirk:anti_air
 weaponquirk:fast_reload:RT:2:ISLBXAC10
 
 mass:45
-engine:180 Light Engine
+engine:180 Light Engine(IS)
 structure:IS Standard
 myomer:Standard
 ejection:Full Head Ejection System
@@ -183,3 +183,4 @@ systemmanufacturer:ARMOR:Durallex Super Medium Ferro-Fibrous with CASE
 systemmanufacturer:JUMP_JET:Luxor 2/Q
 systemmanufacturer:COMMUNICATIONS:TharHes Thalia HM-22
 systemmanufacturer:TARGETING:TharHes Ares-8A with Targeting Computer
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes II
 model:HER-5C
 mul id:1499
 
 Config:Biped
-techbase:Inner Sphere
-era:3062
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3062
+Source:TR:3050
+Rules Level:2
 role:Striker
+
+
 
 quirk:easy_maintain
 quirk:imp_com
 
-mass:40
-engine:240 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
 
-Weapons:5
-iNarc, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Large Laser, Right Torso
+Armor:Standard Armor
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
+
+Weapons:4
+1 ISERLargeLaser, Right Torso
+3 ISERMediumLaser, Right Arm
+1 ISImprovedNarc, Left Arm, Ammo:12
+1 ISImprovedC3CPU, Center Torso
 
 Left Arm:
 Shoulder
@@ -66,9 +67,9 @@ Lower Arm Actuator
 ISImprovedNarc
 ISImprovedNarc
 ISImprovedNarc
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISiNarc Pods
 ISiNarc Pods
 ISiNarc Pods
@@ -91,13 +92,13 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -107,13 +108,13 @@ Fusion Engine
 Fusion Engine
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -126,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISC3iUnit
-ISC3iUnit
+ISImprovedC3CPU
+ISImprovedC3CPU
 
 Head:
 Life Support

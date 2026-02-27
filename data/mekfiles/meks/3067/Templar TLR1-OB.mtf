@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar
 model:TLR1-OB
 mul id:5196
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3062
-source:TR:3067
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3062
+Source:TR:3067
+Rules Level:2
 role:Sniper
+
+
 
 quirk:easy_maintain
 
-mass:85
-engine:340 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:17 IS Double
-base chassis heat sinks:13
-walk mp:4
-jump mp:0
+Mass:85
+Engine:340 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:26
-RT armor:26
-CT armor:44
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:13
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:28
+RA Armor:28
+LT Armor:26
+RT Armor:26
+CT Armor:44
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:6
 ER PPC, Left Arm
@@ -63,12 +65,12 @@ ER Medium Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -77,27 +79,27 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
-ISRotaryAC2 (OMNIPOD)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
+ISRotaryAC2 (omnipod)
 IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 -Empty-
@@ -106,12 +108,12 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISRotaryAC2 Ammo (OMNIPOD)
-ISRotaryAC2 Ammo (OMNIPOD)
-ISRotaryAC2 Ammo (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISRotaryAC2 Ammo (omnipod)
+ISRotaryAC2 Ammo (omnipod)
+ISRotaryAC2 Ammo (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -127,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISERMediumLaser (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+ISERMediumLaser (omnipod)
+ISERMediumLaser (omnipod)
 
 Head:
 Life Support
@@ -172,9 +174,12 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-capabilities:A workhorse configuration, the Templar B can engage an enemy at either short or long ranges. For long range combat, the Templar B carries an ER PPC. For intermediate ranges, the 'Mech has three Rotary Autocannon/2s and also has two ER Medium Lasers for close combat. To handle the 'Mech's heat load, the Templar B has four additional double heat sinks.
+capabilities:A workhorse configuration, the Templar B can engage an enemy at either short or long ranges. For long range combat, the Templar B carries an ER PPC. For intermediate ranges, the 'Mech has three Rotary Autocannon/2s and also has two ER Medium Lasers for close combat. To handle the 'Mech's heat load, the Templar B has four additional double heat sinks.  
+
 deployment: The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h while sacrificing durability. The Templar has thirteen fixed double heat sinks and is armored with sixteen and a half tons of Starshield A armor with CASE fixed in the right torso. Overall, this allows the Templar to have forty tons of free pod space for weapons and equipment which the 'Mech uses effectively in its various configurations.
+
 history:With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.
+
 manufacturer:Kallon Industries
 primaryfactory:Talon
 systemmanufacturer:CHASSIS:Kallon Type XIX Endo Steel

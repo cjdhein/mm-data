@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,19 +62,19 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:26.0:6:1::-1:0
-asfbay:123.0:7:3::-1:0
-cargobay:27255.0:1:4::-1:0
+smallcraftbay:26.0:6:1
+asfbay:123.0:7:3
+cargobay:27255.0:1:4
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:540.0:0:-1::-1:0
-crewquarters:3941.0:0:-1::-1:0
-2ndclassquarters:3661.0:0:-1::-1:0
-cargobay:39639.0:1:13::-1:0
+1stclassquarters:540.0:0
+crewquarters:3941.0:0
+2ndclassquarters:3661.0:0
+cargobay:39639.0:1:13
 </transporters>
 
 <SafeThrust>
@@ -92,13 +101,9 @@ cargobay:39639.0:1:13::-1:0
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 310

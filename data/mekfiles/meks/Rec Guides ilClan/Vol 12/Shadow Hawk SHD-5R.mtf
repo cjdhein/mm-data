@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk
 model:SHD-5R
 mul id:7787
@@ -27,19 +26,22 @@ source:RG12
 rules level:2
 role:Missile Boat
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 quirk:ubiquitous_clan
-quirk:rugged_1
 quirk:ubiquitous_is
+quirk:rugged_1
+
 
 mass:55
-engine:220 XL Engine
+engine:220 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:4
 jump mp:3
 
@@ -177,4 +179,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

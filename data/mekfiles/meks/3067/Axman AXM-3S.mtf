@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Axman
 model:AXM-3S
 mul id:186
 
 Config:Biped
-techbase:Inner Sphere
-era:3060
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3060
+Rules Level:2
 role:Skirmisher
+source:TR:3067
+
+
 
 quirk:pro_actuator
 
-mass:65
-engine:260 Light Engine
-structure:IS Standard
-myomer:Standard
+
+Mass:65
+Engine:260 Light Engine
+Structure:Standard
+Myomer:Standard
 ejection:Full Head Ejection System
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:4
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:21
-RT armor:21
-CT armor:28
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Armor:Ferro-Fibrous
+LA Armor:17
+RA Armor:17
+LT Armor:21
+RT Armor:21
+CT Armor:28
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
-Weapons:4
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-LB 20-X AC, Center Torso
+Weapons:3
+3 ISERMediumLaser, Left Arm
+1 ISLBXAC20, Right Torso, Ammo:20
+1 ISGuardianECM, Left Torso
 
 Left Arm:
 Shoulder
@@ -65,12 +66,12 @@ Lower Arm Actuator
 ISERMediumLaser
 ISERMediumLaser
 ISERMediumLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -82,37 +83,37 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-IS LB 20-X Cluster Ammo
-IS LB 20-X AC Ammo
-IS LB 20-X Cluster Ammo
-IS LB 20-X AC Ammo
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISLBXAC20 CL Ammo
+ISLBXAC20 Ammo
+ISLBXAC20 CL Ammo
+ISLBXAC20 Ammo
+ISGuardianECM
+ISGuardianECM
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-IS Ferro-Fibrous
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -125,14 +126,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISLBXAC20
-ISLBXAC20
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -171,9 +172,13 @@ Jump Jet
 -Empty-
 
 overview:Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer
+
 capabilities:The Axman has a ground speed of only 64.8 km/h, which is average for a Heavy weight, but improved in part by the inclusion of Jump Jets. The 'Mech is covered with eleven tons of Ferro-Fibrous armor that gives it a great deal of protection, with ten Double Heat Sinks offering average heat dissipation. Much like its lighter brother, the Axman was designed to utilize the Full-Head Ejection System to safe-guard its MechWarrior.
+
 deployment:The Furillo manufactured 3S introduced in 3057 removes the XL Engine of the 1N and 2N variants and replaces it with a Light Fusion Engine. This exclusively Lyran variant of the Axman is armed with a massive LB-X Autocannon/20, which allows it to fire either solid rounds or cluster rounds that act like a 'Mech sized shotgun. The 'Mech also carries three ER Medium Lasers for close combat and a Guardian ECM Suite, which defends against enemy electronic warfare equipment.
+
 history:The Axman was also intended as a symbol of solidarity throughout the Federated Commonwealth by using components that were produced in Federated Suns, Lyran Commonwealth, and even former Capellan Confederation space. The collapse of the Federated Commonwealth in 3057 almost rendered the design extinct because of this, production slowing to a trickle as both the Federated Suns and Lyran Alliance were forced to rely on surplus stores while developing new variants utilizing locally sourced components.
+
 manufacturer:Defiance Industries
 primaryfactory:Furillo
 systemmanufacturer:CHASSIS:Dorwinion AXM Standard

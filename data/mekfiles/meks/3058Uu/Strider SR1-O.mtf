@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Strider
 model:SR1-O
 mul id:3084
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3057
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3057
+Source:TR:3058U
+Rules Level:2
 role:Striker
+
+
+
 
 quirk:easy_pilot
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-base chassis heat sinks:9
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:14
-RT armor:14
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Single
+Base Chassis Heat Sinks:9
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:14
+RT Armor:14
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
 SRM 6, Left Arm
@@ -60,9 +63,9 @@ Small Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-SRM 6 (OMNIPOD)
-SRM 6 (OMNIPOD)
-ISArtemisIV (OMNIPOD)
+SRM 6 (omnipod)
+SRM 6 (omnipod)
+ISArtemisIV (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -74,9 +77,9 @@ ISArtemisIV (OMNIPOD)
 Right Arm:
 Shoulder
 Upper Arm Actuator
-SRM 6 (OMNIPOD)
-SRM 6 (OMNIPOD)
-ISArtemisIV (OMNIPOD)
+SRM 6 (omnipod)
+SRM 6 (omnipod)
+ISArtemisIV (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -86,7 +89,7 @@ ISArtemisIV (OMNIPOD)
 -Empty-
 
 Left Torso:
-IS Ammo SRM-6 Artemis-capable (OMNIPOD)
+IS Ammo SRM-6 Artemis-capable (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -100,7 +103,7 @@ IS Endo Steel
 -Empty-
 
 Right Torso:
-IS Ammo SRM-6 Artemis-capable (OMNIPOD)
+IS Ammo SRM-6 Artemis-capable (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -124,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-BeagleActiveProbe (OMNIPOD)
-BeagleActiveProbe (OMNIPOD)
+BeagleActiveProbe (omnipod)
+BeagleActiveProbe (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
-Small Laser (OMNIPOD)
+Small Laser (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -168,4 +171,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

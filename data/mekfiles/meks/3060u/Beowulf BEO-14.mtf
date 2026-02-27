@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Beowulf
 model:BEO-14
 mul id:328
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
-source:TR:3060
-rules level:3
+TechBase:Inner Sphere
+Era:3075
+Source:TR:3060
+Rules Level:3
 role:Skirmisher
 
+
+
+quirk:command_mech
 quirk:ext_twist
 quirk:exp_actuator
-quirk:command_mech
 
-mass:45
-engine:270 XL Engine
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:45
+Engine:270 XL Engine
+Structure:Standard
+Myomer:Triple-Strength
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:17
-RT armor:17
-CT armor:21
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:14
+RA Armor:14
+LT Armor:17
+RT Armor:17
+CT Armor:21
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:6
-Medium VSP Laser, Left Arm
-Medium VSP Laser, Left Arm
+Medium VSP, Left Arm
+Medium VSP, Left Arm
 ER Medium Laser, Right Arm
 ER Small Laser, Left Torso
 Small Laser, Left Torso
@@ -66,14 +68,14 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISMediumVSPLaser
-ISMediumVSPLaser
-ISMediumVSPLaser
-ISMediumVSPLaser
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+ISMediumVariableSpeedLaser
+ISMediumVariableSpeedLaser
+ISMediumVariableSpeedLaser
+ISMediumVariableSpeedLaser
+TSM
+TSM
+TSM
+TSM
 
 Right Arm:
 Shoulder
@@ -84,9 +86,9 @@ ISERMediumLaser
 Sword
 Sword
 Sword
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Left Torso:
@@ -97,11 +99,11 @@ Jump Jet
 Jump Jet
 ISERSmallLaser
 Small Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -110,12 +112,12 @@ Fusion Engine
 Jump Jet
 Jump Jet
 ISERSmallLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -151,7 +153,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -165,11 +167,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Night Wolf
 model:
 mul id:2273
 
 Config:Biped
-techbase:Clan
-era:3084
+TechBase:Clan
+Era:3084
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
+
 
 quirk:hyper_actuator
 weaponquirk:direct_torso_mount:HD:3:CLAntiMissileSystem
 
-mass:90
-engine:360 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:18 Clan Double
-walk mp:4
-jump mp:4
+Mass:90
+Engine:360 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:25
-RA armor:25
-LT armor:28
-RT armor:28
-CT armor:37
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:18 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:25
+RA Armor:25
+LT Armor:28
+RT Armor:28
+CT Armor:37
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:6
 ATM 9, Left Arm
@@ -58,7 +59,7 @@ Plasma Cannon, Left Arm
 ATM 9, Right Arm
 ER Medium Laser, Right Arm
 Heavy Large Laser, Right Torso
-Anti-Missile System, Head
+AMS, Head
 
 Left Arm:
 Shoulder
@@ -72,7 +73,7 @@ CLPlasmaCannon
 Clan Ammo ATM-9
 Clan Ammo ATM-9 ER
 Clan Ammo ATM-9 HE
-Clan Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -86,7 +87,7 @@ CLERMediumLaser
 Clan Ammo ATM-9
 Clan Ammo ATM-9 ER
 Clan Ammo ATM-9 HE
-Clan Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -99,8 +100,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLPlasmaCannonAmmo
 CLPlasmaCannonAmmo
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -112,9 +113,9 @@ CLHeavyLargeLaser
 CLHeavyLargeLaser
 CLTargeting Computer
 CLTargeting Computer
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -171,4 +172,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

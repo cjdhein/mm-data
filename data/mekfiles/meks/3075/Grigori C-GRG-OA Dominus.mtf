@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,25 +15,27 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grigori
 model:C-GRG-OA Dominus
 mul id:1321
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3069
 source:TR:3075
 rules level:2
 role:Skirmisher
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
+
 
 mass:60
-engine:240 Light Engine
+engine:240 Light Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Small Cockpit
@@ -59,10 +61,10 @@ RTC armor:9
 
 Weapons:6
 Heavy PPC, Right Arm
-Medium Pulse Laser, Left Torso
 ER Medium Laser, Left Torso
-Medium Pulse Laser, Right Torso
+Medium Pulse Laser, Left Torso
 ER Medium Laser, Right Torso
+Medium Pulse Laser, Right Torso
 Streak SRM 6, Head
 
 Left Arm:
@@ -178,9 +180,13 @@ IS Light Ferro-Fibrous
 -Empty-
 
 overview:The Grigori is one of the Word of Blake's new Celestial series OmniMechs designed by Doctor Devon Cortland.
+
 capabilities:It is constructed on a standard chassis, but makes use of eleven tons of Light Ferro-Fibrous armor, a light fusion engine, and an XL Gyro; as well as the small cockpit that is common to all of the Celestials. Like the other Celestials, the Grigori has a C3i Computer to help direct its fire.
+
 deployment:This variant uses four, torso-mounted jump jets to propel it up to one hundred twenty meters at a time. Its largest weapon is the Heavy PPC that can dish out as much damage as its Clan-tech counterpart. Up close, the Grigori Dominus uses paired ER Medium Lasers and Medium Pulse Lasers, as well as a head-mounted Streak SRM-6. A pair of extra double heat sinks keep heat levels manageable.
+
 history:The Grigori (named after fallen angels from Christianity) was added to the Word of Blake Militia's arsenal in late 3069 as Doctor Cortland oversaw the final production personally.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series GG1
@@ -188,3 +194,4 @@ systemmanufacturer:ENGINE:GM 240 Light Fusion
 systemmanufacturer:ARMOR:Divine Shield-B Light Ferro
 systemmanufacturer:COMMUNICATIONS:Master’s Voice Cel-Alpha
 systemmanufacturer:TARGETING:Master’s Sight 1-Omega
+

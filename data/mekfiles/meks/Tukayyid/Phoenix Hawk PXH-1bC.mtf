@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-1bC
 mul id:7602
 
 Config:Biped
-techbase:Inner Sphere
-era:3052
+TechBase:Inner Sphere
+Era:3052
 source:BoT
-rules level:2
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:command_mech
 quirk:imp_com
 weaponquirk:jettison_capable:RA:7:ISERLargeLaser
 
-mass:45
-engine:270 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:6
-jump mp:6
+Mass:45
+Engine:270 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:18
-RT armor:18
-CT armor:23
-HD armor:6
-LL armor:15
-RL armor:15
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:18
+RT Armor:18
+CT Armor:23
+HD Armor:6
+LL Armor:15
+RL Armor:15
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:5
-Medium Laser, Left Arm
-Narc, Left Arm
 ER Large Laser, Right Arm
+Medium Laser, Left Arm
 Medium Laser, Right Arm
 Flamer, Right Arm
+Narc, Left Arm
 
 Left Arm:
 Shoulder
@@ -171,4 +173,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

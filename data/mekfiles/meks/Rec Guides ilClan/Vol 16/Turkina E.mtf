@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Turkina
 model:E
 mul id:3330
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3070
 source:RG16
@@ -29,8 +28,9 @@ role:Juggernaut
 
 quirk:easy_pilot
 
+
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -39,7 +39,7 @@ base chassis heat sinks:11
 walk mp:3
 jump mp:3
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:32
 RA armor:32
 LT armor:30
@@ -183,3 +183,4 @@ systemmanufacturer:ENGINE:285 JF Extralight
 systemmanufacturer:ARMOR:JF Standard
 systemmanufacturer:COMMUNICATIONS:JF Integrated
 systemmanufacturer:TARGETING:Series JFIX/Olivetti Pinpoint Advanced
+

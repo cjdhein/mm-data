@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jade Hawk
 model:
 mul id:6566
 
 Config:Biped
-techbase:Clan
-era:3136
-source:TR:3145:Merc
-rules level:3
+TechBase:Clan
+Era:3136
+Source:TR:3145:Merc
+Rules Level:3
 role:Skirmisher
+
 
 quirk:distracting
 quirk:reinforced_legs
 quirk:non_standard
 
-mass:75
-engine:375 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:13 Laser
-walk mp:5
-jump mp:5
+Mass:75
+Engine:375 XL (Clan) Engine(IS)
+Structure:Clan Endo-Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:35
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:13 Laser
+Walk MP:5
+Jump MP:5
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:35
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:8
 ER Small Laser, Left Arm
+ER Small Laser, Right Arm
 ER Small Laser, Left Arm
 ER Small Laser, Right Arm
-ER Small Laser, Right Arm
-Streak SRM 6, Left Torso
 Streak SRM 6, Left Torso
 Streak SRM 6, Right Torso
 Streak SRM 6, Right Torso
+Streak SRM 6, Left Torso
 
 Left Arm:
 Shoulder
@@ -71,11 +72,11 @@ Hand Actuator
 CLERSmallLaser
 CLERSmallLaser
 Clan Streak SRM 6 Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Clan Endo-Steel
+Clan Endo-Steel
+Clan Endo-Steel
+Clan Endo-Steel
+Clan Endo-Steel
 
 Right Arm:
 Shoulder
@@ -131,7 +132,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Supercharger
+CL Super Charger
 
 Head:
 Life Support
@@ -152,7 +153,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Clan Endo-Steel
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -166,7 +167,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Clan Endo-Steel
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -174,4 +175,5 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

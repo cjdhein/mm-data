@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -24,9 +33,9 @@ SupportVTOL
 Apple-Churchill Surveillance VTOL
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 3708
@@ -35,10 +44,6 @@ Apple-Churchill Surveillance VTOL
 <year>
 2971
 </year>
-
-<originalBuildYear>
-2971
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -52,10 +57,6 @@ None
 VTOL
 </motion_type>
 
-<transporters>
-cargobay:0.5:1:1::-1:0
-</transporters>
-
 <cruiseMP>
 7
 </cruiseMP>
@@ -64,17 +65,9 @@ cargobay:0.5:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-46
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<fuel>
+.5
+</fuel>
 
 <armor>
 4
@@ -84,9 +77,17 @@ cargobay:0.5:1:1::-1:0
 2
 </armor>
 
+<barrating>
+5
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
 <Body Equipment>
-Communications Equipment:SIZE:0.0
-RemoteSensorDispenser
+CommsGear:1
+Remote Sensor Dispenser
 </Body Equipment>
 
 <Front Equipment>
@@ -106,31 +107,18 @@ ISInfraredImager
 <Rotor Equipment>
 </Rotor Equipment>
 
-<barrating>
-5
-</barrating>
+<Turret Equipment>
 
-<structural_tech_rating>
-3
-</structural_tech_rating>
+</Turret Equipment>
 
-<engine_tech_rating>
-3
-</engine_tech_rating>
+<transporters>
+cargobay:.5:1
+</transporters>
 
 <source>
 HB:HL
 </source>
 
 <tonnage>
-20.0
+20
 </tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-

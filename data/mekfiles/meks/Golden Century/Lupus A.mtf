@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lupus
 model:A
 mul id:1963
 
-Config:Biped OmniMek
-techbase:Clan
-era:2857
-source:TR:GC
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:2857
+Rules Level:2
 role:Brawler
+source:TR:GC
+
 
 quirk:exp_actuator
 
-mass:60
-engine:300 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-base chassis heat sinks:10
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 Fusion (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:17
-RA armor:17
-LT armor:18
-RT armor:18
-CT armor:25
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:10
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:17
+RA Armor:17
+LT Armor:18
+RT Armor:18
+CT Armor:25
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:4
 Large Pulse Laser, Left Arm
@@ -61,9 +62,9 @@ ER Medium Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLERMediumLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -75,20 +76,20 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -101,8 +102,8 @@ Clan Endo Steel
 -Empty-
 
 Right Torso:
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -125,7 +126,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
+CLERMediumLaser (omnipod)
 Clan Endo Steel
 
 Head:
@@ -169,4 +170,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

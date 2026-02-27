@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pillager
 model:PLG-3Z
 mul id:2525
-
 Config:Biped
 techbase:Inner Sphere
 era:2594
@@ -27,11 +25,14 @@ source:TR:3058U
 rules level:2
 role:Juggernaut
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
 
+
 mass:100
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -174,9 +175,13 @@ IS Gauss Ammo
 -Empty-
 
 overview:The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications.
+
 capabilities:Based on a range of engine types, the Pillager has average mobility for its size, with a top speed of 54 km/h. Three HildCo Model 13 jump jets allow the 'Mech to jump up to ninety meters, increasing its mobility. The Pillager possesses outstanding armor protection and more than enough heat sinks to meet the Pillager's needs.
+
 deployment:The primary weapons on the Pillager were a pair of Poland Main Model A Gauss rifles, which allowed the Pillager to engage an enemy at up to six hundred and sixty meters. The Gauss rifles were supported at intermediate ranges by a Defiance B3L large laser. For close range combat, the Pillager had four Ceres Arms medium lasers that provided a devastating close range barrage.
+
 history:The Pillager was the largest 'Mech ever built by HildCo during the Reunification War. The destruction of the manufacturing facilities that produced the Pillager's advanced technologies halted production during the Second Succession War, but the decoding of the Gray Death memory core allowed the Pillager to be reintroduced to the Inner Sphere. The Pillager has a long and colorful battle history. From the Reunification Battle through the Succession Wars, it has seen action in every war. Records show that during those fights, enemy forces tended to retreat at the sight of approaching Pillagers. The Pillager most recently demonstrated its amazing strength during the FedCom and the Capellan/St. Ives Civil Wars. When a Pillager-led unit attacked, many strongholds and defenses crumbled. Even now, in the struggle between Hasek's Capellan March and House Liao, the Pillager is making an impact on the battlefield, just as it did during the Amaris Civil War. The Pillager now serves in the majority of house militaries and mercenary troops. Because of the reintegration of St. Ives, the Capellan military has the most brawny 'Mechs.
+
 manufacturer:General Motors,HildCo Interplanetary
 primaryfactory:Kathil,St. Ives
 systemmanufacturer:CHASSIS:HildCo Heavy Type VIIQT
@@ -185,3 +190,4 @@ systemmanufacturer:ARMOR:StarSlab/9.5 Mk II
 systemmanufacturer:JUMP_JET:HildCo Model 13
 systemmanufacturer:COMMUNICATIONS:CeresCom Recon Model 12K
 systemmanufacturer:TARGETING:C-Apple Churchill
+

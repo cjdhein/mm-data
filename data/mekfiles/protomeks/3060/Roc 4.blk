@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Brawler
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 5
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 5
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -99,12 +91,11 @@ false
 
 <Body Equipment>
 CLAPGaussRifle Ammo (16)
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -127,9 +118,18 @@ CLECMSuite
 CLAPGaussRifle
 </Main Gun Equipment>
 
+<source>
+TR:3060
+</source>
+
+<tonnage>
+7.0
+</tonnage>
+
 <capabilities>
 By the time it was created, the engineers and technicians had enough feedback from the other units to find a good balance of armor, weaponry, and speed. It proved to be very popular with pilots, and formed the backbone of many ProtoMech Points and Stars. In a sense a "super-Elemental". It can also maintain a cruising speed of 54 km/h and carries sufficient armoring to survive a direct PPC hit to the chest.
 </capabilities>
+
 
 <overview>
 The Roc is considered one of the best of the first generation ProtoMechs, and most known successful, as it was produced, operative and fighting for almost a century.
@@ -155,16 +155,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3060
-</source>
-
-<tonnage>
-7.0
-</tonnage>
-

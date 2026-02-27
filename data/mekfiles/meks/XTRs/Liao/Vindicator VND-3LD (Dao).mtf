@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vindicator
 model:VND-3LD (Dao)
 mul id:3427
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3078
@@ -27,8 +25,11 @@ source:XTR:Liao
 rules level:4
 role:Sniper
 
-quirk:difficult_eject
+
+
 quirk:rugged_1
+quirk:difficult_eject
+
 
 mass:45
 engine:180 Compact Engine(IS)
@@ -183,3 +184,4 @@ systemmanufacturer:ARMOR:Starshield with CASE
 systemmanufacturer:JUMP_JET:Anderson Propulsion 30
 systemmanufacturer:COMMUNICATIONS:CeresCom Model 21-Rs
 systemmanufacturer:TARGETING:C-Apple Churchill
+

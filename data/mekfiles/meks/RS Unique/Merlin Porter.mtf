@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Merlin
 model:MLN-1B (Porter)
 mul id:2179
+source:RS:UM
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:RS:UM
-rules level:1
+TechBase:Inner Sphere
+Era:3064
+Rules Level:1
 role:Skirmisher
 
 quirk:easy_maintain
 quirk:rugged_1
 
-mass:60
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:20 Single
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:21
-RT armor:21
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:7
-RTR armor:7
-RTC armor:9
+Heat Sinks:20 Single
+Walk MP:4
+Jump MP:4
+
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:21
+RT Armor:21
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:7
+RTR Armor:7
+RTC Armor:9
 
 Weapons:4
-Medium Laser, Left Arm
-Medium Laser, Right Arm
-SRM 4, Left Torso
-Large Laser, Right Torso
+1 ISMediumLaser, Left Arm
+1 ISMediumLaser, Right Arm
+1 ISLargeLaser, Right Torso
+1 ISSRM4, Left Torso, Ammo:25
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Medium Laser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -76,7 +76,7 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Medium Laser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -92,7 +92,7 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-SRM 4
+ISSRM4
 -Empty-
 -Empty-
 -Empty-
@@ -105,9 +105,9 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-Large Laser
-Large Laser
-IS Ammo SRM-4
+ISLargeLaser
+ISLargeLaser
+ISSRM4 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -115,16 +115,16 @@ IS Ammo SRM-4
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Heat Sink
 Heat Sink
 
@@ -135,12 +135,6 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -149,12 +143,6 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Right Leg:
 Hip
@@ -163,17 +151,15 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
-overview:The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech.
+overview:The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech. 
+
 capabilities:The 'Mech is powered by a Pitban 240 fusion engine that gives it a top speed of 64.8 km/h. The Merlin carries ten and a half tons of armor, which is a respectable amount of protection for its weight. Additionally, the Merlin carries eighteen heat sinks to handle its heavy heat load.
+
 deployment:A uniquely customized Merlin introduced in 3064, which was created by a tech named Porter Romero on the world Armington. He salvaged the 'Mech from a pirate raid during the 3060s. Using a wrecked militia Bulldog for parts, he replaced the ruined PPC and LRM-5 with the tank's Large Laser and SRM 4 Launcher as well as adding additional armor.
+
 history:The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years.
+
 manufacturer:Mountain Wolf BattleMechs, Vandenberg Mechanized Industries
 primaryfactory:Alpheratz, New Vandenberg
 systemmanufacturer:CHASSIS:Heavy Star QAT-4

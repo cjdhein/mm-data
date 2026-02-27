@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
-AeroSpaceFighter
+Aero
 </UnitType>
 
 <Name>
@@ -44,23 +53,16 @@ SF-1X (Prototype)
 IS Level 4
 </type>
 
-<quirks>
-atmo_flyer
-obsolete:3045
-</quirks>
 
-<weaponQuirks>
-mod_weapons:NOS:0:ISUltraAC5Prototype
-mod_weapons:LWG:0:Medium Laser
-mod_weapons:LWG:1:Medium Laser
-mod_weapons:RWG:0:Medium Laser
-mod_weapons:RWG:1:Medium Laser
-mod_weapons:AFT:0:Small Laser
-</weaponQuirks>
-
+<role>
+Fast Dogfighter
+</role>
 <motion_type>
 Aerodyne
 </motion_type>
+
+<transporters>
+</transporters>
 
 <SafeThrust>
 7
@@ -90,13 +92,9 @@ Aerodyne
 27
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 7
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 42
@@ -138,3 +136,16 @@ XTR:SW
 55.0
 </tonnage>
 
+<quirks>
+atmo_flyer
+obsolete:3045
+</quirks>
+
+<weaponQuirks>
+mod_weapons:NOS:0:ISUltraAC5Prototype
+mod_weapons:LWG:0:Medium Laser
+mod_weapons:LWG:1:Medium Laser
+mod_weapons:RWG:0:Medium Laser
+mod_weapons:RWG:1:Medium Laser
+mod_weapons:AFT:0:Small Laser
+</weaponQuirks>

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cauldron-Born
 clanname:Ebon Jaguar
 model:U
 mul id:497
 
-Config:Biped OmniMek
-techbase:Clan
-era:3077
+Config:Biped Omnimech
+TechBase:Clan
+Era:3077
 source:TR:CI
-rules level:4
+Rules Level:4
 role:Sniper
 
 quirk:low_profile
 
-mass:65
-engine:325 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:16 Clan Double
-base chassis heat sinks:13
-walk mp:5
-jump mp:0
+Mass:65
+Engine:325 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:17
-RA armor:17
-LT armor:22
-RT armor:22
-CT armor:32
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:8
-RTR armor:8
-RTC armor:9
+Heat Sinks:16 Double
+Base Chassis Heat Sinks:13
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:17
+RA Armor:17
+LT Armor:22
+RT Armor:22
+CT Armor:32
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:8
+RTR Armor:8
+RTC Armor:9
 
 Weapons:6
 Large Pulse Laser, Left Arm
@@ -64,9 +64,9 @@ LRT 15, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLERSmallLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -78,9 +78,9 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLERSmallLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -92,29 +92,29 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-CLLRT15 (OMNIPOD)
-CLLRT15 (OMNIPOD)
-Clan Ammo LRTorpedo-15 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLUMU (omnipod)
+CLUMU (omnipod)
+CLUMU (omnipod)
+CLLRT15 (omnipod)
+CLLRT15 (omnipod)
+Clan Ammo LRTorpedo-15 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-CLLRT15 (OMNIPOD)
-CLLRT15 (OMNIPOD)
-Clan Ammo LRTorpedo-15 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLUMU (omnipod)
+CLUMU (omnipod)
+CLLRT15 (omnipod)
+CLLRT15 (omnipod)
+Clan Ammo LRTorpedo-15 (omnipod)
 Clan Endo Steel
 
 Center Torso:
@@ -174,8 +174,11 @@ Clan Endo Steel
 -Empty-
 
 overview:Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien.
+
 capabilities:Intended for use underwater, this variant carries five experimental UMUs. Each arm carries a single Large Pulse Laser and ER Small Laser to capitalize on armor breaches inflicted by the pair of LRT-15s carried in the torso.
+
 history:Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources. By Operation BULLDOG the Cauldron-Born made up a large proportion of the heavy 'Mechs of the rebuilding Smoke Jaguars, and following their Annihilation the design proliferated the remaining Clans, save the Jade Falcons, Wolves and Coyotes who continued to favor the Hellbringer. Following the Wars of Reaving the Ebon Jaguar had finally supplanted the Hellbringer in most Homeworld Clans, save the Coyotes who remained loyal to redeeming the honor of the design.
+
 manufacturer:Huntress Manufacturing Plant DL-6
 primaryfactory:Huntress
 systemmanufacturer:CHASSIS:CSJ Type 65.43 Endo
@@ -183,3 +186,5 @@ systemmanufacturer:ENGINE:Consolidated Fusion 325 XL
 systemmanufacturer:ARMOR:Composite A-4 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Hector CC-22E
 systemmanufacturer:TARGETING:Integrated Bravo-7
+
+

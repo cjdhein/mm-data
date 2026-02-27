@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Locust IIC
 model:9
 mul id:1922
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3085
+TechBase:Mixed (Clan Chassis)
+Era:3085
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Striker
 
-quirk:no_arms
 quirk:easy_maintain
 quirk:low_profile
+quirk:no_arms
 quirk:weak_legs
 
-mass:25
-engine:350 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:11 Clan Double
-walk mp:14
-jump mp:0
+Mass:25
+Engine:350 XXL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Heavy Ferro-Fibrous(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:9
-RT armor:9
-CT armor:13
-HD armor:9
-LL armor:12
-RL armor:12
-RTL armor:3
-RTR armor:3
-RTC armor:3
+Heat Sinks:11 Double
+Walk MP:14
+Jump MP:0
+
+Armor:Heavy Ferro-Fibrous(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:9
+RT Armor:9
+CT Armor:13
+HD Armor:9
+LL Armor:12
+RL Armor:12
+RTL Armor:3
+RTR Armor:3
+RTC Armor:3
 
 Weapons:3
 Improved Heavy Medium Laser, Left Arm
@@ -94,8 +94,8 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 IS Heavy Ferro-Fibrous
 IS Heavy Ferro-Fibrous
 IS Heavy Ferro-Fibrous
@@ -108,9 +108,9 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 IS Heavy Ferro-Fibrous
 IS Heavy Ferro-Fibrous
 IS Heavy Ferro-Fibrous
@@ -150,7 +150,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
@@ -164,7 +164,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
@@ -173,3 +173,4 @@ IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Locustiic .jpg

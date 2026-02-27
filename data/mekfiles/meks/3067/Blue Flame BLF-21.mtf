@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Blue Flame
 model:BLF-21
 mul id:3840
@@ -27,11 +26,15 @@ source:TR:3067
 rules level:2
 role:Sniper
 
-quirk:bad_rep_is
+
+
+
 quirk:directional_torso_mount
+quirk:bad_rep_is
+
 
 mass:45
-engine:225 Light Engine
+engine:225 Light Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -170,4 +173,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

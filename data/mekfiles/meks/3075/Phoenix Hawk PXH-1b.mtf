@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-11
 chassis:Phoenix Hawk
 model:PXH-1b 'Special'
 mul id:2492
@@ -34,7 +34,7 @@ quirk:imp_com
 weaponquirk:jettison_capable:RA:4:ISERPPC
 
 mass:45
-engine:270 XL Engine
+engine:270 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -174,4 +174,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

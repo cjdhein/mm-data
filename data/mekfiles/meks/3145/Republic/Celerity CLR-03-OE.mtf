@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Celerity
 model:CLR-03-OE
 mul id:6708
 
-Config:Quad OmniMek
-techbase:Mixed (IS Chassis)
-era:3138
-source:TR:3145:RotS
-rules level:4
+Config:Quad Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3138
+Source:TR:3145:RotS
+Rules Level:4
 role:Scout
 
-quirk:exp_actuator
+
+
 quirk:imp_com
+quirk:exp_actuator
 
-mass:15
-engine:240 XXL Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-base chassis heat sinks:9
-walk mp:16
-jump mp:0
+Mass:15
+Engine:240 XXL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:XL Gyro
 
-armor:Standard(Inner Sphere)
-FLL armor:1
-FRL armor:1
-LT armor:4
-RT armor:4
-CT armor:5
-HD armor:4
-RLL armor:1
-RRL armor:1
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:9
+Walk MP:16
+Jump MP:0
+
+Armor:Standard(Clan)
+FLL Armor:1
+FRL Armor:1
+LT Armor:4
+RT Armor:4
+CT Armor:5
+HD Armor:4
+RLL Armor:1
+RRL Armor:1
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:2
 ER Medium Laser, Right Torso
@@ -108,7 +110,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
+CLERMediumLaser (omnipod)
 ISDroneOperatingSystem
 IS Endo Steel
 IS Endo Steel
@@ -134,8 +136,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -170,4 +172,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,60 +15,61 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Catapult
 model:CPLT-C5
 mul id:483
 
 Config:Biped
-techbase:Inner Sphere
-era:3061
-source:TR:3050
-rules level:3
+TechBase:Inner Sphere
+Era:3061
+Source:TR:3050
+Rules Level:3
 role:Missile Boat
+
+
 
 quirk:no_arms
 quirk:weak_head_1
 
-mass:65
-engine:260 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:4
-jump mp:4
+Mass:65
+Engine:260 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:28
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:4
 
-Weapons:5
-Arrow IV, Right Torso
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-ER Medium Laser, Center Torso
-ER Medium Laser, Center Torso
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:28
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
+
+Weapons:4
+1 ISArrowIVSystem, Right Arm, Ammo:20
+1 ISERMediumLaser, Right Torso
+2 ISERMediumLaser, Center Torso
+1 ISERMediumLaser, Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -76,44 +77,44 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-IS Endo Steel
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+Endo-Steel
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 ISERMediumLaser
-ISArrowIVAmmo
-ISArrowIVHomingAmmo
-ISArrowIVAmmo
-ISArrowIVHomingAmmo
+ISArrowIV Ammo
+ISArrowIV Homing Ammo
+ISArrowIV Ammo
+ISArrowIV Homing Ammo
 ISCASE
-IS Endo Steel
+Endo-Steel
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 ISERMediumLaser
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
 
 Center Torso:
 Fusion Engine
@@ -133,7 +134,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -148,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

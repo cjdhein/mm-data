@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fire Scorpion
 model:2
 mul id:1072
 
 Config:Quad
-techbase:Clan
-era:3060
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3060
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
 
 quirk:cowl
 
-mass:65
-engine:260 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:4
-jump mp:0
+Mass:65
+Engine:260 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-FLL armor:29
-FRL armor:29
-LT armor:22
-RT armor:22
-CT armor:31
-HD armor:9
-RLL armor:29
-RRL armor:29
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:10 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+FLL Armor:29
+FRL Armor:29
+LT Armor:22
+RT Armor:22
+CT Armor:31
+HD Armor:9
+RLL Armor:29
+RRL Armor:29
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:7
 Ultra AC/20, Left Torso
@@ -65,8 +65,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod
-Clan Endo Steel
+CLAntiPersonnelPod
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -79,8 +79,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod
-Clan Endo Steel
+CLAntiPersonnelPod
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -127,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -149,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod
-Clan Endo Steel
+CLAntiPersonnelPod
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISAntiPersonnelPod
-Clan Endo Steel
+CLAntiPersonnelPod
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

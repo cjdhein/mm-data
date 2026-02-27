@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Duan Gung
 model:(Vaughn)
 mul id:6979
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:BD:YZ
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Source:BD:YZ
+Rules Level:2
 role:Missile Boat
 
-quirk:non_standard
+
+
 quirk:pro_actuator
+quirk:non_standard
 
-mass:25
-engine:175 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:6
+Mass:25
+Engine:175 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:10
-RT armor:10
-CT armor:12
-HD armor:9
-LL armor:9
-RL armor:9
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:10
+RT Armor:10
+CT Armor:12
+HD Armor:9
+LL Armor:9
+RL Armor:9
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
 ER Medium Laser, Left Arm
@@ -169,4 +171,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

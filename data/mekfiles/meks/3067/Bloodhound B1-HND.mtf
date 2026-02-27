@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bloodhound
 model:B1-HND
 mul id:3838
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3064
+Rules Level:2
 role:Striker
+source:TR:3067
+
+
+
 
 quirk:imp_sensors
 quirk:pro_actuator
 
-mass:45
-engine:315 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:14 IS Double
-walk mp:7
-jump mp:0
+Mass:45
+Engine:315 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:14 Double
+Walk MP:7
+Jump MP:0
 
-Weapons:5
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-ER Small Laser, Right Arm
-Streak SRM 6, Right Torso
-ER Medium Laser, Head
+Armor:Standard Armor
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
+
+Weapons:6
+1 ISERMediumLaser, Right Arm
+1 ISERSmallLaser, Right Arm
+1 ISERMediumLaser, Left Arm
+1 ISStreakSRM6, Right Torso, Ammo:15
+1 ISBeagleActiveProbe, Center Torso
+1 ISERMediumLaser, Head
 
 Left Arm:
 Shoulder
@@ -65,7 +69,7 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -80,7 +84,7 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERSmallLaser
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -91,29 +95,29 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISStreakSRM6
 ISStreakSRM6
-IS Streak SRM 6 Ammo
+ISStreakSRM6 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -126,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-BeagleActiveProbe
-BeagleActiveProbe
+ISBeagleActiveProbe
+ISBeagleActiveProbe
 
 Head:
 Life Support
@@ -148,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

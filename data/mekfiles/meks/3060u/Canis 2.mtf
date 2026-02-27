@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Canis
 model:2
 mul id:460
 
 Config:Biped
-techbase:Clan
-era:3071
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3071
+Source:TR:3060
+Rules Level:2
 role:Sniper
 
 quirk:fast_reload
 
-mass:80
-engine:240 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:16 Clan Double
-walk mp:3
-jump mp:3
+Mass:80
+Engine:240 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:25
-RA armor:25
-LT armor:23
-RT armor:23
-CT armor:37
-HD armor:9
-LL armor:33
-RL armor:33
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:16 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:25
+RA Armor:25
+LT Armor:23
+RT Armor:23
+CT Armor:37
+HD Armor:9
+LL Armor:33
+RL Armor:33
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:5
 Large Pulse Laser, Left Arm
@@ -70,7 +70,7 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLLargePulseLaser
 CLLargePulseLaser
-Clan Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -82,9 +82,9 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLLargePulseLaser
 CLLargePulseLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -96,9 +96,9 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLHAG20
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
-Clan Endo Steel
+HAG/20 Ammo
+HAG/20 Ammo
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -110,9 +110,9 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLHAG20
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
-Clan Endo Steel
+HAG/20 Ammo
+HAG/20 Ammo
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -126,7 +126,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -169,4 +169,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

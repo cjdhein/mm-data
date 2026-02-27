@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Piranha
 model:
 mul id:2535
 
 Config:Biped
-techbase:Clan
-era:3051
-source:TR:3058U
-rules level:2
+TechBase:Clan
+Era:3051
+Source:TR:3058U
+Rules Level:2
 role:Striker
+
 
 quirk:imp_target_short
 
-mass:20
-engine:180 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:9
-jump mp:0
+Mass:20
+Engine:180 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:8
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:9
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:8
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:15
 ER Medium Laser, Left Arm
@@ -106,9 +107,9 @@ CLMG
 CLMG
 CLMG
 Clan Machine Gun Ammo - Half
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -120,9 +121,9 @@ CLMG
 CLMG
 CLMG
 Clan Machine Gun Ammo - Half
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -142,7 +143,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -179,4 +180,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

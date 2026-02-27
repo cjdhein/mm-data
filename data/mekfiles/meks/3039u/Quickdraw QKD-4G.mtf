@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Quickdraw
 model:QKD-4G
 mul id:2610
 
 Config:Biped
-techbase:Inner Sphere
-era:2779
-source:TR:3039
-rules level:1
+TechBase:Inner Sphere
+Era:2779
+Source:TR:3039
+Rules Level:1
 role:Skirmisher
 
-quirk:exp_actuator
+
+
+
 quirk:hyper_actuator
+quirk:exp_actuator
 
-mass:60
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 Single
-walk mp:5
-jump mp:5
+Mass:60
+Engine:300 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:15
-RL armor:15
-RTL armor:7
-RTR armor:7
-RTC armor:8
+Heat Sinks:13 Single
+Walk MP:5
+Jump MP:5
+
+Armor:Standard(Inner Sphere)
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:15
+RL Armor:15
+RTL Armor:7
+RTR Armor:7
+RTC Armor:8
 
 Weapons:6
 Medium Laser, Left Arm
+Medium Laser, Right Torso
+Medium Laser, Right Torso
 Medium Laser, Right Arm
 LRM 10, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
 SRM 4, Center Torso
 
 Left Arm:
@@ -172,9 +175,13 @@ Foot Actuator
 -Empty-
 -Empty-
 
-overview: Few business decisions have been as questionable as those that lead to the original reasoning for the Quickdraw. Intended to replace the Rifleman, the Quickdraw lacked any of the capabilities that made the Rifleman such a popular fire support platform. Had the Star League stood for longer, perhaps the Quickdraw would have faded into obscurity, but the rapid start of the Succession Wars only seven years after the Quickdraw's introduction instead sent it into the armies of every Great House. There it created its own legacy as a generalist workhouse, able to fill many different roles with its maneuverable movement profile and varied armament.
-capabilities: Many Quickdraw variants carry weapons for every angle, including rarely seen rear-mount firepower. With its specially-modified arm actuators allowing it to flip its arms towards the rear, the Quickdraw is well suited for forays in the midst of an enemy formation. Pilots must be cautious of the Quickdraw's fragility in physical combat, however. The ankle actuators, though allowing the Quickdraw unparalleled stability on uneven ground, are susceptible to damage that can quickly paralyze the BattleMech.
-deployment: The Quickdraw shows few favorites, and has notable concentrations in most armies of the Inner Sphere. The Draconis Combine and Free Worlds League are both home to manufacturing lines for the design, and the 'Mech tends to be a more common sight in most of their formations as a result. Unlike many other lower-technology BattleMechs, the Quickdraw QKD-4G survived through the worst of the fighting of the past century, and remains common even in this post-Jihad world.
+
+Overview: Few business decisions have been as questionable as those that lead to the original reasoning for the Quickdraw. Intended to replace the Rifleman, the Quickdraw lacked any of the capabilities that made the Rifleman such a popular fire support platform. Had the Star League stood for longer, perhaps the Quickdraw would have faded into obscurity, but the rapid start of the Succession Wars only seven years after the Quickdraw's introduction instead sent it into the armies of every Great House. There it created its own legacy as a generalist workhouse, able to fill many different roles with its maneuverable movement profile and varied armament.
+
+Capabilities: Many Quickdraw variants carry weapons for every angle, including rarely seen rear-mount firepower. With its specially-modified arm actuators allowing it to flip its arms towards the rear, the Quickdraw is well suited for forays in the midst of an enemy formation. Pilots must be cautious of the Quickdraw's fragility in physical combat, however. The ankle actuators, though allowing the Quickdraw unparalleled stability on uneven ground, are susceptible to damage that can quickly paralyze the BattleMech.
+
+Deployment: The Quickdraw shows few favorites, and has notable concentrations in most armies of the Inner Sphere. The Draconis Combine and Free Worlds League are both home to manufacturing lines for the design, and the 'Mech tends to be a more common sight in most of their formations as a result. Unlike many other lower-technology BattleMechs, the Quickdraw QKD-4G survived through the worst of the fighting of the past century, and remains common even in this post-Jihad world.
+
 systemmanufacturer:CHASSIS:Technicron
 systemmode:CHASSIS:Type E
 systemmanufacturer:ENGINE:Vlar

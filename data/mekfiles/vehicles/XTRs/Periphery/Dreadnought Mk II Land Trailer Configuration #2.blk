@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -36,10 +45,6 @@ Configuration #2
 3081
 </year>
 
-<originalBuildYear>
-3081
-</originalBuildYear>
-
 <type>
 IS Level 4
 </type>
@@ -48,17 +53,9 @@ IS Level 4
 Missile Boat
 </role>
 
-<quirks>
-non_standard
-</quirks>
-
 <motion_type>
 Tracked
 </motion_type>
-
-<transporters>
-LiquidCargoBay:18.2:1:1::-1:0
-</transporters>
 
 <cruiseMP>
 0
@@ -68,18 +65,6 @@ LiquidCargoBay:18.2:1:1::-1:0
 8
 </engine_type>
 
-<armor_type>
-48
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
-
 <armor>
 20
 20
@@ -88,9 +73,17 @@ LiquidCargoBay:18.2:1:1::-1:0
 20
 </armor>
 
+<barrating>
+7
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
 <Body Equipment>
-SV Chassis Mod [Tractor]
-SV Chassis Mod [Trailer]
+Tractor
+Trailer
 Advanced Fire Control
 IS Ammo SRM-6
 IS Ammo SRM-6
@@ -115,17 +108,10 @@ Extended LRM 10
 SRM 6
 </Turret Equipment>
 
-<barrating>
-7
-</barrating>
+<transporters>
+liquidcargobay:18.2:1
+</transporters>
 
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
 
 <source>
 XTR:Periphery
@@ -135,7 +121,7 @@ XTR:Periphery
 50.0
 </tonnage>
 
-<fuel>
-0.0
-</fuel>
+<quirks>
+non_standard
+</quirks>
 

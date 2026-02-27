@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scavenger
 model:SC-V SalvageMech
+
 mul id:4987
 
 Config:Quad
-techbase:Inner Sphere
-era:2613
-source:RS:VA
-rules level:2
+TechBase:Inner Sphere
+Era:2613
+Source:RS:VA
+Rules Level:2
+role:Ambusher
 
+Mass:80
+Engine:320 Fuel Cell Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
+Gyro:Standard Gyro
 
-mass:80
-engine:320 Fuel Cell Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:2 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:2 Single
-walk mp:4
-jump mp:0
-
-armor:Heavy Industrial(Inner Sphere)
-FLL armor:13
-FRL armor:13
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:8
-RLL armor:13
-RRL armor:13
-RTL armor:6
-RTR armor:6
-RTC armor:5
+Armor:Heavy Industrial(Inner Sphere)
+FLL Armor:13
+FRL Armor:13
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:8
+RLL Armor:13
+RRL Armor:13
+RTL Armor:6
+RTR Armor:6
+RTC Armor:5
 
 Weapons:0
 
@@ -82,12 +82,12 @@ Foot Actuator
 -Empty-
 
 Left Torso:
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -98,13 +98,13 @@ Cargo:SIZE:1.0
 Right Torso:
 Searchlight
 MechSprayer
-Fluid Suction System (Light - Mech)
-Liquid Storage:SIZE:1.0
-Liquid Storage:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Light Fluid Suction System (Mech)
+Liquid Storage (1 ton)
+Liquid Storage (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -120,8 +120,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo (1 ton)
+Cargo (1 ton)
 
 Head:
 Life Support
@@ -164,4 +164,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

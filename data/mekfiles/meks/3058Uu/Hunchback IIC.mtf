@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hunchback IIC
 model:
 mul id:1568
 
 Config:Biped
-techbase:Clan
-era:2856
-source:TR:3058U
-rules level:2
+TechBase:Clan
+Era:2856
+Source:TR:3058U
+Rules Level:2
 role:Ambusher
+
 
 quirk:bad_rep_clan
 
-mass:50
-engine:200 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:4
-jump mp:4
+Mass:50
+Engine:200 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:12
-RT armor:12
-CT armor:18
-HD armor:8
-LL armor:12
-RL armor:12
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:6
+RA Armor:6
+LT Armor:12
+RT Armor:12
+CT Armor:18
+HD Armor:8
+LL Armor:12
+RL Armor:12
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:4
 Ultra AC/20, Left Torso
@@ -66,8 +67,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -80,8 +81,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -97,7 +98,7 @@ CLUltraAC20
 CLUltraAC20
 CLUltraAC20
 Clan Ultra AC/20 Ammo
-Clan Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -111,7 +112,7 @@ CLUltraAC20
 CLUltraAC20
 CLUltraAC20
 Clan Ultra AC/20 Ammo
-Clan Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -131,7 +132,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -168,4 +169,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

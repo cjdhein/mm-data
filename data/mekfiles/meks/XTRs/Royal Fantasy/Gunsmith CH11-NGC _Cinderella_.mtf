@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gunsmith
 model:CH11-NGC 'Cinderella'
 mul id:8367
@@ -27,7 +26,6 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Striker
 
-
 mass:25
 engine:200 XL Engine(IS)
 structure:IS Endo Steel
@@ -36,7 +34,7 @@ cockpit:Standard Cockpit
 gyro:XL Gyro
 ejection:Full Head Ejection System
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:8
 jump mp:0
 
@@ -171,4 +169,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

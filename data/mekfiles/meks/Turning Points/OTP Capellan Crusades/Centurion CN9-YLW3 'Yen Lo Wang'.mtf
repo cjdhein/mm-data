@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Centurion
 model:CN9-YLW3 'Yen Lo Wang'
 mul id:7404
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3101
-source:TP:CC
-rules level:4
+TechBase:Mixed (IS Chassis)
+Era:3101
+Source:TP:CC
+Rules Level:4
 role:Brawler
 
-quirk:non_standard
 quirk:imp_target_short
+quirk:non_standard
 
-mass:50
-engine:200 XL Engine(IS)
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:50
+Engine:200 XL Engine(IS)
+Structure:IS Standard
+Myomer:Triple-Strength
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:16
-RT armor:16
-CT armor:21
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:16
+RT Armor:16
+CT Armor:21
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:3
-Gauss Rifle, Right Arm
-LRM 20, Left Torso
 ER Medium Laser, Center Torso
+LRM 20, Left Torso
+Gauss Rifle, Right Arm
 
 Left Arm:
 Shoulder
@@ -69,7 +69,7 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-Triple Strength Myomer
+TSM
 
 Right Arm:
 Shoulder
@@ -82,7 +82,7 @@ CLGaussRifle
 CLGaussRifle
 CLGaussRifle
 IS Light Ferro-Fibrous
-Triple Strength Myomer
+TSM
 -Empty-
 
 Left Torso:
@@ -97,7 +97,7 @@ Clan Ammo LRM-20
 Clan Ammo LRM-20
 CLCASEII
 IS Light Ferro-Fibrous
-Triple Strength Myomer
+TSM
 
 Right Torso:
 Fusion Engine
@@ -109,7 +109,7 @@ ISDoubleHeatSink
 Clan Gauss Ammo
 Clan Gauss Ammo
 IS Light Ferro-Fibrous
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 
@@ -147,7 +147,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 IS Light Ferro-Fibrous
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -161,11 +161,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 IS Light Ferro-Fibrous
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

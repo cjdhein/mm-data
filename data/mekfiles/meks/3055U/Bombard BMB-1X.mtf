@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bombard
 model:BMB-1X
 mul id:420
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3068
-source:TR:3055U
-rules level:4
+TechBase:Mixed (IS Chassis)
+Era:3068
+Source:TR:3055U
+Rules Level:4
 role:Sniper
+
+
 
 quirk:bad_rep_is
 quirk:non_standard
 
-mass:50
-engine:200 XXL Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:4
-jump mp:0
+Mass:50
+Engine:200 XXL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:17
-RT armor:17
-CT armor:22
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:17
+RT Armor:17
+CT Armor:22
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:5
 Gauss Rifle, Left Arm
@@ -69,9 +71,9 @@ CLGaussRifle
 CLGaussRifle
 CLGaussRifle
 Clan Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -83,9 +85,9 @@ CLGaussRifle
 CLGaussRifle
 CLGaussRifle
 Clan Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -96,10 +98,10 @@ Fusion Engine
 Fusion Engine
 Heat Sink
 ISMPod
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -110,10 +112,10 @@ Fusion Engine
 Fusion Engine
 Heat Sink
 ISMPod
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -170,4 +172,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

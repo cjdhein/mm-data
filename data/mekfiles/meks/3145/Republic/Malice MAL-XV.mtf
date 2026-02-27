@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Malice
 model:MAL-XV
 mul id:6726
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3140
-source:TR:3145:RotS
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3140
+Source:TR:3145:RotS
+Rules Level:3
 role:Juggernaut
 
+Mass:100
+Engine:400 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-mass:100
-engine:400 XL Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
+Heat Sinks:17 Double
+Walk MP:4
+Jump MP:0
 
-heat sinks:17 IS Double
-walk mp:4
-jump mp:0
-
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:30
-RT armor:30
-CT armor:42
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:12
-RTR armor:12
-RTC armor:20
+Armor:Standard(IS/Clan)
+LA Armor:34
+RA Armor:34
+LT Armor:30
+RT Armor:30
+CT Armor:42
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:12
+RTR Armor:12
+RTC Armor:20
 
 Weapons:8
-Improved Heavy Medium Laser, Left Arm
-Light AC/5, Left Arm
-Improved Heavy Medium Laser, Right Arm
-Light AC/5, Right Arm
-Improved Heavy Medium Laser, Left Torso
-Light AC/5, Left Torso
 Improved Heavy Medium Laser, Right Torso
-Light AC/5, Right Torso
+Improved Heavy Medium Laser, Left Arm
+Improved Heavy Medium Laser, Left Torso
+Improved Heavy Medium Laser, Right Arm
+LAC/5, Left Torso
+LAC/5, Right Torso
+LAC/5, Left Arm
+LAC/5, Right Arm
 
 Left Arm:
 Shoulder
@@ -171,4 +169,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

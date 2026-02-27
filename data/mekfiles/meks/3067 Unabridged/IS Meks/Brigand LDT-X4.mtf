@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Brigand
 model:LDT-X4
 mul id:5654
 
 Config:Biped
-techbase:Inner Sphere
-era:3078
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3078
+Source:RS:3067u
+Rules Level:2
 role:Striker
+
+
 
 quirk:nimble_jumper
 
-mass:25
-engine:150 Light Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:25
+Engine:150 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:10
-RT armor:10
-CT armor:12
-HD armor:9
-LL armor:9
-RL armor:9
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:10
+RT Armor:10
+CT Armor:12
+HD Armor:9
+LL Armor:9
+RL Armor:9
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
 ER Medium Laser, Left Arm
@@ -68,8 +70,8 @@ ISDoubleHeatSink
 ISERMediumLaser
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 
 Right Arm:
 Shoulder
@@ -83,7 +85,7 @@ Light PPC
 Light PPC
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
+TSM
 
 Left Torso:
 Fusion Engine
@@ -97,7 +99,7 @@ IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
+TSM
 
 Right Torso:
 Fusion Engine
@@ -111,7 +113,7 @@ IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
+TSM
 
 Center Torso:
 Fusion Engine
@@ -131,7 +133,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Triple Strength Myomer
+TSM
 Sensors
 Life Support
 -Empty-
@@ -168,4 +170,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

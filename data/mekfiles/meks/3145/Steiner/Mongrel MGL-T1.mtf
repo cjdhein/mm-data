@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mongrel
 model:MGL-T1
 mul id:6618
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3092
-source:TR:3145:LC
-rules level:4
+TechBase:Mixed (Clan Chassis)
+Era:3092
+Source:TR:3145:LC
+Rules Level:4
 role:Striker
+
+
+
 
 quirk:easy_pilot
 weaponquirk:no_cooling:LA:2:Autocannon/5
 
-mass:50
-engine:350 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:7
-jump mp:0
+Mass:50
+Engine:350 XL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Reactive(Clan)
-LA armor:16
-RA armor:16
-LT armor:19
-RT armor:19
-CT armor:24
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Reactive(Clan)
+LA Armor:16
+RA Armor:16
+LT Armor:19
+RT Armor:19
+CT Armor:24
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:4
 AC/5, Left Arm
@@ -169,4 +172,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

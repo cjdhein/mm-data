@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uziel
 model:UZL-2S
 mul id:5331
@@ -27,12 +26,16 @@ source:TR:3067
 rules level:2
 role:Striker
 
-quirk:bad_rep_is
+
+
+
 quirk:cowl
+quirk:bad_rep_is
 quirk:exp_actuator
 
+
 mass:50
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -183,3 +186,4 @@ systemmanufacturer:ARMOR:Maximillian 100
 systemmanufacturer:JUMP_JET:Rawlings 50
 systemmanufacturer:COMMUNICATIONS:Neil 6000-g
 systemmanufacturer:TARGETING:RCA Instatrac Mark XXII
+

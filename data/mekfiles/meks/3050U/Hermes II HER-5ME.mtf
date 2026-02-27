@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hermes II
 model:HER-5ME 'Mercury Elite'
 mul id:1500
 
 Config:Biped
-techbase:Inner Sphere
-era:3056
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3050
+Rules Level:2
 role:Sniper
+
+
 
 quirk:easy_maintain
 quirk:imp_com
 
-mass:40
-engine:240 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:9
-RA armor:9
-LT armor:12
-RT armor:12
-CT armor:14
-HD armor:8
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard
+LA Armor:9
+RA Armor:9
+LT Armor:12
+RT Armor:12
+CT Armor:14
+HD Armor:8
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:4
 
 Weapons:1
-Light Gauss Rifle, Right Torso
+1 ISLightGaussRifle, Right Torso, Ammo:32
 
 Left Arm:
 Shoulder
@@ -84,18 +86,18 @@ Hand Actuator
 -Empty-
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Light Gauss Ammo
-IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISLightGauss Ammo
+ISLightGauss Ammo
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 ISLightGaussRifle
@@ -103,13 +105,13 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -166,4 +168,3 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
-

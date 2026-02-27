@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,22 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Balius
 model:Prime
 mul id:215
-
-Config:Quad OmniMek
+Config:Quad Omnimech
 techbase:Clan
 era:3075
 source:TR:3075
 rules level:2
 role:Skirmisher
 
+
 quirk:rugged_1
 
+
 mass:65
-engine:390 XL (Clan) Engine
+engine:390 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -173,14 +173,19 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 
-overview:The Balius is a quadrupedal, front-line OmniMech produced by Clan Hell's Horses.
+overview:The Balius is a quadrupedal, front-line OmniMech produced by Clan Hell's Horses. 
+
 capabilities:The Balius, a true frontline Omni, employs weight-saving technologies such as an Endo Steel chassis, eleven tons of ferro-fibrous armor, and an XL engine. In a quad, though, this leaves limited room for other components. The Balius, on the other hand, has a top speed of 97 km/h, which is fairly fast for a 'Mech of its size. The Balius is equipped with a Creosote Special-H Flamer that can be used against troops as well as as a psychological weapon.
+
 deployment:The primary configuration mounts two ER Large Lasers. These are supplemented by a pair of Medium Pulse Lasers for close range work. Every configuration of the Balius mounts rear-facing weapons to counter the inability of a quad to torso-twist. The prime carries another pair of Medium Pulse Lasers for this job. Four extra double heat sinks keep heat levels in check.
+
 history:As of 3075, few details were available about the 'Mech. It is a totem 'Mech, resembling a horse, that is meant to improve morale as much as to be an effective combat unit. There is apparently no factory producing this design. Instead, it is hand-crafted by a crew of technicians specifically selected for the task by the Khan. This has led to few Balius' being produced, so the 'Mech is only in the hands of select Bloodnamed warriors.
-manufacturer:Manufacturing Site #3,Transitional Facility HH-Beta
-primaryfactory:New Oslo,Nouveaux Paris
+
+manufacturer:Manufacturing Site #3,Transitional Facility HH-Beta  
+primaryfactory:New Oslo,Nouveaux Paris 
 systemmanufacturer:CHASSIS:Type BMHQ-5 Endo Steel
 systemmanufacturer:ENGINE:390 XL
 systemmanufacturer:ARMOR:Forged Type HH35 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
+

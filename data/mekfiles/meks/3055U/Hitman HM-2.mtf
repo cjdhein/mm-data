@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,40 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hitman
 model:HM-2
 mul id:1535
 
 Config:Biped
-techbase:Inner Sphere
-era:3056
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3055U
+Rules Level:2
 role:Striker
 
+Mass:30
+Engine:210 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-mass:30
-engine:210 XL Engine
-structure:IS Endo Steel
-myomer:Standard
+Heat Sinks:10 Single
+Walk MP:7
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:7
-jump mp:0
-
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:8
-LL armor:9
-RL armor:9
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:8
+LL Armor:9
+RL Armor:9
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
 Medium Laser, Left Arm
@@ -63,8 +61,8 @@ Lower Arm Actuator
 Medium Laser
 Medium Laser
 Medium Laser
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -75,8 +73,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -93,10 +91,10 @@ ISNarcBeacon
 ISNarc Pods
 ISGuardianECMSuite
 ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -106,10 +104,10 @@ Heat Sink
 Heat Sink
 BeagleActiveProbe
 BeagleActiveProbe
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -123,8 +121,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -167,4 +165,5 @@ ISMASC
 -Empty-
 -Empty-
 -Empty-
+
 

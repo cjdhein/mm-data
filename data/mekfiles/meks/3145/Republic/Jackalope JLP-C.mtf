@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jackalope
 model:JLP-C
 mul id:6711
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3135
-source:TR:3145:RotS
-rules level:3
+TechBase:Mixed (Clan Chassis)
+Era:3135
+Source:TR:3145:RotS
+Rules Level:3
 role:Striker
+
+
 
 quirk:compact_mech
 quirk:low_profile
 
-mass:30
-engine:240 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:8
-jump mp:8
+Mass:30
+Engine:240 XL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:8
-RA armor:8
-LT armor:9
-RT armor:9
-CT armor:13
-HD armor:9
-LL armor:11
-RL armor:11
-RTL armor:2
-RTR armor:2
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:8
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:8
+RA Armor:8
+LT Armor:9
+RT Armor:9
+CT Armor:13
+HD Armor:9
+LL Armor:11
+RL Armor:11
+RTL Armor:2
+RTR Armor:2
+RTC Armor:4
 
 Weapons:4
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-SRM 6, Right Torso
 Laser AMS, Head
+SRM 6, Right Torso
+ER Medium Laser, Right Arm
+ER Medium Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -171,9 +173,13 @@ Foot Actuator
 -Empty-
 
 overview:The Jackalope, once thought to be a myth, emerged as a prominent 'Mech following the widespread combat post-Blackout, earning a nearly indelible reputation. Produced by the Galatean Defense League and utilized extensively by the RAF and on Mizar, its visibility in Solaris VII's combats prior to Clan Wolf's conquest cemented its place in popular culture.
+
 capabilities:The Jackalope is a swift, well-armed reconnaissance unit. Its relatively light armor is compensated by a compact design and effective Clean-Sweep anti-missile systems. Typically operating independently or in scout lances, its operational range is primarily limited by the ammunition for its missile launchers, making it a versatile asset in fast-paced recon missions.
+
 deployment:A mixed-tech variant equipped with a C3 slave unit for enhanced lance coordination, replacing its ATM-6 with a Clan-produced SRM-6 to serve better in C3 lances.
+
 history:The Jackalope's deployment extends across a wide array of military and mercenary units, with its presence notably strong in the Republic Remnant due to the heroics of figures like Gloria Hansen. Her actions, particularly during significant conflicts with Clan Wolf, have not only etched the Jackalope into the annals of military legend but also inspired a generation of MechWarriors within the Remnant and beyond.<p>In the tumultuous period following the Blackout, the Jackalope's usage expanded significantly. The 'Mech's adaptability made it a preferred choice in diverse combat scenarios, from guerrilla warfare to structured battlefield engagements. Its presence in the Free Worlds League and the RAF showcases its strategic value, serving in roles that capitalize on its reconnaissance and quick-strike capabilities.</p><p>Mercenary groups, especially those operating on the fringes of the Inner Sphere, prize the Jackalope for its reliability and combat prowess. In the training regiments of prestigious units like the Wolf Dragoons, the Jackalope serves as a crucial element in preparing MechWarriors for the rigors of front-line combat. The losses incurred during the invasion of the Federated Suns highlighted the Jackalope's role in rapid response and high-mobility tactics, leading to an accelerated transition of trainees into active combat roles to replenish striker and Gamma Regiment ranks. This dynamic shift underscores the Jackalope's integral part in both training and operational deployment, solidifying its stature as a versatile and indispensable asset in modern warfare.</p>
+
 manufacturer:Victory Conditions Industries, Eris Enterprises Design Group
 primaryfactory:Mizar,Capolla
 systemmanufacturer:CHASSIS:Triumph Dynamic Endo Steel
@@ -181,3 +187,4 @@ systemmanufacturer:ENGINE:Victory 240 XL
 systemmanufacturer:ARMOR:Advantage Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Angst Clear Channel 5
 systemmanufacturer:TARGETING:O/P TA1240 with Light Active Probe
+

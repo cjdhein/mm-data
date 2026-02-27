@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hoplite
 model:HOP-4B
 mul id:4330
-
 Config:Biped
 techbase:Inner Sphere
 era:2581
@@ -27,10 +25,13 @@ source:TR:3050
 rules level:1
 role:Sniper
 
+
+
 quirk:no_arms
 
+
 mass:55
-engine:220 Fusion Engine
+engine:220 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -167,10 +168,14 @@ Heat Sink
 -Empty-
 -Empty-
 
-overview:Martinson Armaments designed the Hoplite as a support 'Mech for deployment alongside the infantry divisions of the newly formed Star League Defense Force.
+overview:Martinson Armaments designed the Hoplite as a support 'Mech for deployment alongside the infantry divisions of the newly formed Star League Defense Force.	
+
 capabilities:The Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower.
+
 deployment:The 4B variant of the Hoplite is an early variant of the 'Mech that attempts to both alleviate the ammunition dependence of its primary weapon and increase its long-range damage potential. This is done by mounting a Magna Hellstar PPC as the primary weapon that is backed up by a massive Mitchell Systems LRM-15 launcher with two tons of reloads, giving it excellent long-range and indirect fire support capabilities.
+
 history:The Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. During the Jihad, when the surviving Dragoons relocated to Arc-Royal, experimental refits were performed on the remaining Hoplites, which continued after the conflict's end.
+
 manufacturer:Martinson Armaments
 primaryfactory:Terra
 systemmanufacturer:CHASSIS:Star League HO-01a
@@ -178,3 +183,4 @@ systemmanufacturer:ENGINE:DAV 220
 systemmanufacturer:ARMOR:DuraShield 12-b.1
 systemmanufacturer:COMMUNICATIONS:MultiGab 2000
 systemmanufacturer:TARGETING:Dalban HiRez II
+

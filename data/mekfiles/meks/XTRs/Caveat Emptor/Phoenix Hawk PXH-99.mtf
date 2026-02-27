@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-99
 mul id:8106
@@ -27,19 +26,22 @@ source:XTR:Caveat
 rules level:3
 role:Juggernaut
 
+
+
 quirk:command_mech
 quirk:imp_com
 weaponquirk:jettison_capable:RA:7:ISLargeXPulseLaser
 
+
 mass:45
-engine:45 Fusion Engine
+engine:45 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Standard Cockpit
 gyro:Heavy Duty Gyro
 ejection:Full Head Ejection System
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:1
 jump mp:2
 
@@ -57,10 +59,10 @@ RTR armor:5
 RTC armor:6
 
 Weapons:5
-ER Medium Laser, Left Arm
-ER Small Laser, Left Arm
 Large X-Pulse Laser, Right Arm
 ER Medium Laser, Right Arm
+ER Small Laser, Left Arm
+ER Medium Laser, Left Arm
 ER Small Laser, Right Arm
 
 Left Arm:
@@ -174,4 +176,6 @@ ISModularArmor
 -Empty-
 -Empty-
 -Empty-
+
+imagefile:.\data\images\fluff\Mech\phoenix hawk PXH-7CS.jpg
 

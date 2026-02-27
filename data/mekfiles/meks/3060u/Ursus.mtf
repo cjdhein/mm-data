@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ursus
 model:
 mul id:3363
 
 Config:Biped
-techbase:Clan
-era:3059
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3059
+Source:TR:3060
+Rules Level:2
 role:Brawler
 
-quirk:cramped_cockpit
+
 quirk:distracting
 quirk:pro_actuator
+quirk:cramped_cockpit
 
-mass:50
-engine:200 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 Clan Double
-walk mp:4
-jump mp:0
+Mass:50
+Engine:200 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:15
-RA armor:15
-LT armor:18
-RT armor:18
-CT armor:25
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:16 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:15
+RA Armor:15
+LT Armor:18
+RT Armor:18
+CT Armor:25
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:7
 LRM 10, Left Arm
@@ -113,8 +114,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERMediumLaser
 CLECMSuite
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -136,7 +137,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -151,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

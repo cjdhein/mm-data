@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sun Cobra
 model:
 mul id:3122
 
 Config:Biped
-techbase:Clan
-era:3074
-source:TR:3075
-rules level:2
+TechBase:Clan
+Era:3074
+Source:TR:3075
+Rules Level:2
 role:Sniper
+
 
 quirk:pro_actuator
 
-mass:55
-engine:220 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:4
-jump mp:0
+Mass:55
+Engine:220 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:14
-RT armor:14
-CT armor:18
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:15
+RA Armor:15
+LT Armor:14
+RT Armor:14
+CT Armor:18
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:2
-Gauss Rifle, Left Arm
 Gauss Rifle, Right Arm
+Gauss Rifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -67,7 +68,7 @@ CLGaussRifle
 CLGaussRifle
 Clan Gauss Ammo
 Clan Gauss Ammo
-Clan Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -81,7 +82,7 @@ CLGaussRifle
 CLGaussRifle
 Clan Gauss Ammo
 Clan Gauss Ammo
-Clan Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -91,7 +92,7 @@ CLTargeting Computer
 CLTargeting Computer
 CLTargeting Computer
 CLTargeting Computer
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -102,7 +103,7 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -129,7 +130,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -144,7 +145,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -158,7 +159,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -166,4 +167,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Galahad
 clanname:Glass Spider
 model:3
 mul id:1172
 
 Config:Biped
-techbase:Clan
-era:3065
-source:TR:3055U
-rules level:2
+TechBase:Clan
+Era:3065
+Source:TR:3055U
+Rules Level:2
 role:Sniper
 
-quirk:ext_twist
 quirk:anti_air
+quirk:ext_twist
 quirk:multi_trac
 
-mass:60
-engine:240 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:16 Clan Double
-walk mp:4
-jump mp:0
+Mass:60
+Engine:240 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:16 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:7
 ER PPC, Left Arm
@@ -72,7 +72,7 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERPPC
 CLERPPC
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -84,8 +84,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLERPPC
 CLERPPC
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -114,10 +114,10 @@ CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLHeavyMediumLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -130,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -152,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -166,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

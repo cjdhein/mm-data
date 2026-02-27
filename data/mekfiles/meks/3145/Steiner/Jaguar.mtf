@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jaguar
 model:
 mul id:6612
 
 Config:Quad
-techbase:Clan
-era:3121
-source:TR:3145:LC
-rules level:3
+TechBase:Clan
+Era:3121
+Source:TR:3145:LC
+Rules Level:3
 role:Striker
+
 
 quirk:pro_actuator
 
-mass:35
-engine:280 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:8
-jump mp:0
+Mass:35
+Engine:280 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-FLL armor:16
-FRL armor:16
-LT armor:11
-RT armor:11
-CT armor:17
-HD armor:9
-RLL armor:16
-RRL armor:16
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+FLL Armor:16
+FRL Armor:16
+LT Armor:11
+RT Armor:11
+CT Armor:17
+HD Armor:9
+RLL Armor:16
+RRL Armor:16
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:7
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
-SRM 2, Left Torso
-ER Medium Laser, Right Torso
-ER Medium Laser, Right Torso
 ATM 6, Right Torso
 SRM 2, Right Torso
+SRM 2, Left Torso
+ER Medium Laser, Left Torso
+ER Medium Laser, Right Torso
+ER Medium Laser, Left Torso
+ER Medium Laser, Right Torso
 
 Front Left Leg:
 Hip
@@ -113,7 +114,7 @@ CLATM6 (T)
 CLSRM2
 Clan Ammo ATM-6
 Clan Ammo ATM-6
-ISQuadTurret
+CLQuadTurret
 -Empty-
 
 Center Torso:
@@ -171,4 +172,5 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

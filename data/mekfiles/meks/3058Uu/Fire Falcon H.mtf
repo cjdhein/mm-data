@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fire Falcon
 model:H
 mul id:1069
 
-Config:Biped OmniMek
-techbase:Clan
-era:3062
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3062
+Source:TR:3058U
+Rules Level:2
 role:Striker
 
 quirk:imp_sensors
 
-mass:25
-engine:200 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:13 Clan Double
-base chassis heat sinks:8
-walk mp:8
-jump mp:0
+Mass:25
+Engine:200 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:6
-RA armor:6
-LT armor:9
-RT armor:9
-CT armor:10
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:13 Double
+Base Chassis Heat Sinks:8
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:6
+RA Armor:6
+LT Armor:9
+RT Armor:9
+CT Armor:10
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:6
 Heavy Medium Laser, Left Arm
@@ -63,9 +63,9 @@ Heavy Small Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLHeavyMediumLaser (OMNIPOD)
-CLHeavyMediumLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLHeavyMediumLaser (omnipod)
+CLHeavyMediumLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -77,11 +77,11 @@ Clan Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLHeavyMediumLaser (OMNIPOD)
-CLHeavyMediumLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLHeavyMediumLaser (omnipod)
+CLHeavyMediumLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -91,8 +91,8 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -105,8 +105,8 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -127,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLHeavySmallLaser (OMNIPOD)
-CLHeavySmallLaser (OMNIPOD)
+CLHeavySmallLaser (omnipod)
+CLHeavySmallLaser (omnipod)
 
 Head:
 Life Support
@@ -173,8 +173,11 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The Fire Falcon was created in the early-3050s, apparently as a replacement for the Mist Lynx.
-capabilities:The Fire Falcon is faster, has more front-facing armor, and more pod space, though it lacks the Jump Jets of that earlier 'Mech. It makes use of weight-saving materials in the form of an XL Engine, an Endo Steel internal structure, and four tons of Ferro-Fibrous armor. Clan Jade Falcon first produced this OmniMech on their capital of Ironhold, but they soon began to produce it on the Occupation Zone headquarters of Sudeten. In November of 3069, Clan Steel Viper would sack Ironhold as part that Clan's effort to expel the Jade Falcons from the Clan Homeworlds. The invasion would end up destroying the Fire Falcon's production facilities, letting the design fade from use by Homeworlds based Clans.
+
 deployment:The H configuration uses a pair of Heavy Medium Lasers and a pair of Heavy Small Lasers. Another pair of Medium Pulse Lasers provide more accurate fire, while three additional heat sinks keep the 'Mech safe.
+
+capabilities:The Fire Falcon is faster, has more front-facing armor, and more pod space, though it lacks the Jump Jets of that earlier 'Mech. It makes use of weight-saving materials in the form of an XL Engine, an Endo Steel internal structure, and four tons of Ferro-Fibrous armor. Clan Jade Falcon first produced this OmniMech on their capital of Ironhold, but they soon began to produce it on the Occupation Zone headquarters of Sudeten. In November of 3069, Clan Steel Viper would sack Ironhold as part that Clan's effort to expel the Jade Falcons from the Clan Homeworlds. The invasion would end up destroying the Fire Falcon's production facilities, letting the design fade from use by Homeworlds based Clans.
+
 manufacturer:Ironhold Alpha Complex, Olivetti Weapons
 primaryfactory:Ironhold, Sudeten
 systemmanufacturer:CHASSIS:JF 3 Light Endo-Steel

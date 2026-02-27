@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -24,9 +33,9 @@ SupportVTOL
 Strike Falcon Attack VTOL
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5585
@@ -36,10 +45,6 @@ Strike Falcon Attack VTOL
 2371
 </year>
 
-<originalBuildYear>
-2371
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -47,11 +52,6 @@ IS Level 2
 <role>
 Striker
 </role>
-
-<quirks>
-easy_pilot
-obsolete:2510
-</quirks>
 
 <motion_type>
 VTOL
@@ -69,17 +69,9 @@ troopspace:6.0
 1
 </engine_type>
 
-<armor_type>
-48
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
+<fuel>
 1
-</armor_tech_level>
+</fuel>
 
 <armor>
 10
@@ -89,6 +81,10 @@ troopspace:6.0
 2
 </armor>
 
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
 <Body Equipment>
 Advanced Fire Control
 IS Ammo SRM-4
@@ -96,6 +92,7 @@ IS Machine Gun Ammo - Half
 </Body Equipment>
 
 <Front Equipment>
+
 SRM 4
 SRM 4
 Machine Gun
@@ -119,14 +116,6 @@ Machine Gun
 7
 </barrating>
 
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
-
 <source>
 XTR:Primitives II
 </source>
@@ -135,11 +124,8 @@ XTR:Primitives II
 30.0
 </tonnage>
 
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
+<quirks>
+easy_pilot
+obsolete:2510
+</quirks>
 

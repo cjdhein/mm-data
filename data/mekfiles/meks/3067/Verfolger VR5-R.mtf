@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,59 +15,62 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Verfolger
 model:VR5-R
 mul id:5346
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Rules Level:2
 role:Skirmisher
+source:TR:3067
 
-quirk:difficult_maintain
+
+
+
 quirk:hyper_actuator
+quirk:difficult_maintain
 
-mass:65
-engine:325 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:5
-jump mp:0
+Mass:65
+Engine:325 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:24
-RT armor:24
-CT armor:31
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:13 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:24
+RT Armor:24
+CT Armor:31
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:6
-ER PPC, Right Arm
-Medium Laser, Left Torso
-LB 10-X AC, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Center Torso
-Anti-Missile System, Head
+1 ISERPPC, Right Arm
+1 ISMediumLaser, Right Torso
+1 ISMediumLaser, Left Torso
+1 ISLBXAC10, Left Torso, Ammo:30
+1 ISMediumLaser, Center Torso
+1 ISAntiMissileSystem, Head, Ammo:24
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +85,9 @@ Hand Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -92,29 +95,29 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
+ISMediumLaser
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
-IS LB 10-X Cluster Ammo
-IS LB 10-X AC Ammo
-IS LB 10-X Cluster Ammo
+ISMediumLaser
+ISLBXAC10 CL Ammo
+ISLBXAC10 Ammo
+ISLBXAC10 CL Ammo
 ISAMS Ammo
 ISAMS Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -127,7 +130,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
+ISMediumLaser
 -Empty-
 
 Head:
@@ -149,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

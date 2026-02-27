@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-10-12
 chassis:Catapult
 model:CPLT-K2 (Kasigi)
-mul id:8286
 
 Config:Biped
 techbase:Inner Sphere
@@ -26,12 +25,13 @@ era:3052
 source:CM:Kurita
 rules level:2
 role:Sniper
+mul id:8286
 
 quirk:no_arms
 quirk:weak_head_1
 
 mass:65
-engine:260 Fusion Engine
+engine:260 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -183,3 +183,4 @@ systemmanufacturer:COMMUNICATIONS:O/P
 systemmode:COMMUNICATIONS:Com-211
 systemmanufacturer:TARGETING:O/P
 systemmode:TARGETING:1078
+

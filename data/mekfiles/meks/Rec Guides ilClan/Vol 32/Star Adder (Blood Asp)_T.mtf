@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,20 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Star Adder
 clanname:Blood Asp
 model:T
-mul id:9486
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (Clan Chassis)
 era:3142
-source:RG32
 rules level:2
 role:Brawler
+Source:RG32
+mul id:9486
 
 quirk:rugged_1
+
 
 mass:90
 engine:360 XL (Clan) Engine
@@ -40,7 +40,7 @@ base chassis heat sinks:14
 walk mp:4
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:28
 RA armor:28
 LT armor:24
@@ -177,9 +177,13 @@ CLDoubleHeatSink (OMNIPOD)
 -Empty-
 
 overview:One of the first 'Mechs to field the breakthrough Heavy Laser technology, the Blood Asp proves to be an offensive powerhouse. Delivering incredible damage at all ranges, the Blood Asp makes short work of any enemy regardless of size.
+
 capabilities:Based on the Kingfisher, the Blood Asp adds an XL engine, but space constraints forced the replacement of the Kingfisher's ferro-fibrous armor with standard plate. The Blood Asp incorporates sixteen tons of this armor and fourteen double heat sinks in the base chassis.
+
 deployment:No Information on this variant
+
 history:Created by Clan Star Adder as an insult to their enemies, Clan Blood Spirit, the Blood Asp has a large amount of available pod space for its size.
+
 manufacturer:Snow Raven Industrial Complex Alpha
 primaryfactory:Dante
 systemmanufacturer:CHASSIS:Type MAES-90 Light

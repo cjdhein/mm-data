@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Battle Cobra
 model:BTL-C-2OA
 mul id:264
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3063
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3058U
+Rules Level:2
 role:Brawler
 
 quirk:ext_twist
 
-mass:40
-engine:200 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-base chassis heat sinks:8
-walk mp:5
-jump mp:0
+Mass:40
+Engine:200 Fusion Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:17
-RL armor:17
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:11 Double
+Base Chassis Heat Sinks:8
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:11
+RA Armor:11
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:17
+RL Armor:17
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:8
 Medium Pulse Laser, Left Arm
@@ -65,12 +65,12 @@ TAG, Right Arm
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISMediumPulseLaser (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
-ISSmallPulseLaser (OMNIPOD)
-BeagleActiveProbe (OMNIPOD)
-BeagleActiveProbe (OMNIPOD)
+ISMediumPulseLaser (omnipod)
+ISMediumPulseLaser (omnipod)
+ISMediumPulseLaser (omnipod)
+ISSmallPulseLaser (omnipod)
+BeagleActiveProbe (omnipod)
+BeagleActiveProbe (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Ferro-Fibrous
@@ -79,12 +79,12 @@ IS Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Medium Laser (OMNIPOD)
-Medium Laser (OMNIPOD)
-Medium Laser (OMNIPOD)
-ISTAG (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
+Medium Laser (omnipod)
+Medium Laser (omnipod)
+Medium Laser (omnipod)
+ISTAG (omnipod)
+ISGuardianECMSuite (omnipod)
+ISGuardianECMSuite (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Ferro-Fibrous
@@ -108,9 +108,9 @@ Right Torso:
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -175,9 +175,13 @@ IS Endo Steel
 -Empty-
 
 overview:Obtaining a large number of mostly operational Battle Cobras in the aftermath of the brutal conflict in the Devil's Bath during the Battle of Tukayyid, ComStar selected the Battle Cobra as the focus of their efforts to reverse engineer and develop their own OmniMech.
+
 capabilities:Constructed using Inner Sphere–manufactured components, ComStar's BTL-C-2O Battle Cobra is built on an endo steel, clad in seven tons of ferro-fibrous armor, and is powered by a 200-rated fusion engine. While reducing its speed by 20 km/h, the extra weight was required to carry heavier Inner Sphere–grade weapons, as well as mount a fixed improved C3 computer in its center torso.
+
 deployment:An electronic warfare configuration, the BTL-C-2OA carries TAG and a Guardian ECM suite in its right arm, and a Beagle active probe in its left. For protection, a trio of medium pulse lasers and a single small pulse laser are mounted in its left arm, and three standard medium lasers are mounted in its right. To help with the extra heat an additional double heat sink is mounted.
+
 history:The Draconis Combine was able to pursue an OmniMech development program after recovering massive amounts of Clan salvage from Wolcott and Luthien. Analysts were shocked by ComStar's absence of comparable outcomes following their stunning victory on Tukayyid, which had given them unprecedented access to Clan salvage. ComStar, with some of the finest brains and greatest technological databases in the Inner Sphere, should have produced legions of new OmniMech variants from Terra's reopened factories. Finally, ComStar's approach to the Battle Cobra was typical of their failings in the aftermath of Operation Scorpion. Many of ComStar's brightest minds defected to join the Word of Blake, leaving low-level engineers in control of one of the company's most critical projects in centuries. But, the daring seizure of Terra by the Word of Blake in 3058 drove ComStar back to square one. ComStar's top management directed its surviving technical teams to complete the simplest OmniMech project at any cost. The Fighting Cobra, with its simple weapon pods, went into full production five years later. With control over practically all of ComStar's first OmniMech research, the Word of Blake chose to develop the 'Mech's design rather than push it to completion. The Blakist Battle Cobra project, eventually entrusted to the now-famous Devon Cortland, would gradually evolve into the first of the iconic Celestials: the Preta.
+
 manufacturer:Arc-Royal MechWorks,Comguard Tukayyid Omega-Epsilon Facility X
 primaryfactory:Arc-Royal,Tukayyid
 systemmanufacturer:CHASSIS:Alshain Type 69-40S

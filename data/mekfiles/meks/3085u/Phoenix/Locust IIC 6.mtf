@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Locust IIC
 model:6
 mul id:1919
 
 Config:Biped
-techbase:Clan
-era:3075
+TechBase:Clan
+Era:3075
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Scout
 
-quirk:no_arms
 quirk:easy_maintain
 quirk:low_profile
+quirk:no_arms
 quirk:weak_legs
 
-mass:25
-engine:200 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:8
-jump mp:0
+Mass:25
+Engine:200 Fusion (Clan) Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:8
-RA armor:8
-LT armor:9
-RT armor:9
-CT armor:13
-HD armor:8
-LL armor:11
-RL armor:11
-RTL armor:3
-RTR armor:3
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:8
+RA Armor:8
+LT Armor:9
+RT Armor:9
+CT Armor:13
+HD Armor:8
+LL Armor:11
+RL Armor:11
+RTL Armor:3
+RTR Armor:3
+RTC Armor:3
 
 Weapons:9
 Heavy Machine Gun, Left Arm
@@ -71,7 +71,7 @@ Upper Arm Actuator
 CLHeavyMG
 CLHeavyMG
 CLHeavyMG
-Clan Heavy Machine Gun Array
+CLHMGA
 -Empty-
 -Empty-
 -Empty-
@@ -85,7 +85,7 @@ Upper Arm Actuator
 CLHeavyMG
 CLHeavyMG
 CLHeavyMG
-Clan Heavy Machine Gun Array
+CLHMGA
 -Empty-
 -Empty-
 -Empty-
@@ -96,10 +96,10 @@ Clan Heavy Machine Gun Array
 Left Torso:
 CLDoubleHeatSink
 CLDoubleHeatSink
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -111,10 +111,10 @@ Right Torso:
 CLDoubleHeatSink
 CLDoubleHeatSink
 Clan Heavy Machine Gun Ammo - Full
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -133,13 +133,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLERMediumLaser
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -154,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -168,8 +168,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -177,3 +177,4 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Locustiic .jpg

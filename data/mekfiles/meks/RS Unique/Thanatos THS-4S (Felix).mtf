@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,60 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thanatos
 model:TNS-4S (Felix)
 mul id:3173
+source:RS:UM
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:RS:UM
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:stable
 
-mass:75
-engine:375 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:16 IS Double
-walk mp:5
-jump mp:5
+Mass:75
+Engine:375 XL Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:22
-RT armor:22
-CT armor:32
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:16 Double
+Walk MP:5
+Jump MP:5
 
-Weapons:14
-ER Large Laser, Left Arm
-Medium Pulse Laser, Left Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-Medium Pulse Laser, Center Torso
+Armor:Standard Armor
+LA Armor:22
+RA Armor:22
+LT Armor:22
+RT Armor:22
+CT Armor:32
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
+
+Weapons:15
+1 ISERLargeLaser, Left Arm
+1 ISERMediumLaser, Left Torso
+1 ISERMediumLaser, Right Torso
+1 ISMediumPulseLaser, Left Arm
+1 ISMediumPulseLaser, Center Torso
+1 ISGuardianECM, Left Torso
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
+1 ISRocketLauncher10, Right Arm
 
 Left Arm:
 Shoulder
@@ -74,66 +77,66 @@ Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
 -Empty-
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-RL10
-RL10
-RL10
-RL10
-RL10
-RL10
-RL10
-RL10
-RL10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISERMediumLaser
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISERMediumLaser
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 ISMediumPulseLaser
 
@@ -141,15 +144,9 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -158,12 +155,6 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Right Leg:
 Hip
@@ -172,10 +163,3 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

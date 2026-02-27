@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-2N
 mul id:7184
 
 Config:Biped
-techbase:Inner Sphere
-era:2556
-source:XTR:Primitives IV
-rules level:1
+TechBase:Inner Sphere
+Era:2556
+Source:XTR:Primitives IV
+Rules Level:1
 role:Sniper
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:50
-engine:200 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 Single
-walk mp:4
-jump mp:0
+Mass:50
+Engine:200 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:15
-RT armor:15
-CT armor:22
-HD armor:6
-LL armor:12
-RL armor:12
-RTL armor:2
-RTR armor:2
-RTC armor:4
+Heat Sinks:16 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:15
+RT Armor:15
+CT Armor:22
+HD Armor:6
+LL Armor:12
+RL Armor:12
+RTL Armor:2
+RTR Armor:2
+RTC Armor:4
 
 Weapons:6
-PPC, Left Arm
 Medium Laser, Left Arm
-PPC, Right Arm
 Medium Laser, Right Arm
+PPC, Right Arm
+PPC, Left Arm
 Medium Laser, Left Torso
 Medium Laser, Right Torso
 
@@ -174,4 +176,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

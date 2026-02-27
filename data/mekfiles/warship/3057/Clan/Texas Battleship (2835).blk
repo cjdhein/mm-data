@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,17 +62,17 @@ Aerodyne
 </motion_type>
 
 <transporters>
-asfbay:40.0:6:1::-1:0
-smallcraftbay:16.0:2:2::-1:0
-cargobay:287183.0:5:3::-1:0
+asfbay:40.0:6:1
+smallcraftbay:16.0:2:2
+cargobay:287183.0:5:3
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:1170.0:0:-1::-1:0
-crewquarters:4095.0:0:-1::-1:0
+1stclassquarters:1170.0:0
+crewquarters:4095.0:0
 </transporters>
 
 <SafeThrust>
@@ -86,21 +95,13 @@ crewquarters:4095.0:0:-1::-1:0
 1
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
 <armor_type>
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 6
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 234
@@ -233,6 +234,64 @@ Ammo AR10 White Shark:10
 85
 </structural_integrity>
 
+<source>
+TR:3057r
+</source>
+
+<tonnage>
+1560000.0
+</tonnage>
+
+<kf_core>
+1
+</kf_core>
+
+<lithium-fusion>
+1
+</lithium-fusion>
+
+<sail>
+1
+</sail>
+
+<grav_decks>
+95
+65
+55
+</grav_decks>
+
+<crew>
+862
+</crew>
+
+<officers>
+117
+</officers>
+
+<gunners>
+78
+</gunners>
+
+<passengers>
+0
+</passengers>
+
+<marines>
+0
+</marines>
+
+<battlearmor>
+0
+</battlearmor>
+
+<life_boat>
+35
+</life_boat>
+
+<escape_pod>
+20
+</escape_pod>
+
 <capabilities>
 The Texas battleship boasts impressive capabilities that set it apart as a formidable warship. It incorporates advanced technologies and design features to address the needs identified by the Star League Navy. Enhanced engine technology provides the battleship with improved speed, granting it greater maneuverability on the battlefield. The ship's hull utilizes synthetic metals and BattleMech armor research, resulting in lighter yet stronger armor plating that offers increased protection against enemy attacks. At the heart of the Texas battleship is the powerful Communal XXX computer system, designed by the Nirasaki Computers Collective. This massive computer, rivaling planet-based machines, controls communication and power grids, enabling efficient coordination and operation of the ship's systems. The battleship's weaponry includes two Winchester-Boeing Autocannons, capable of launching 1.2-ton shells with tremendous accuracy over long distances. The ship is also equipped with six missile launchers capable of firing various-sized missiles, along with PPCs and lasers. This formidable arsenal, coupled with the vessel's maneuverability provided by three Rolls Kraken engines, makes the Texas battleship a force to be reckoned with. The Clans respected the capabilities of this massive ship and so have maintained it within their fleet. The remaining Texas-class ships have been outfitted with a Lithium-Fusion Battery at the expense of a portion of their cargo space.
 </capabilities>
@@ -272,66 +331,3 @@ Battleship
 <height>
 1375 m Sail
 </height>
-
-<source>
-TR:3057r
-</source>
-
-<tonnage>
-1560000.0
-</tonnage>
-
-<kf_core>
-1
-</kf_core>
-
-<lithium-fusion>
-1
-</lithium-fusion>
-
-<sail>
-1
-</sail>
-
-<grav_decks>
-95
-65
-55
-</grav_decks>
-
-<designtype>
-1
-</designtype>
-
-<crew>
-862
-</crew>
-
-<officers>
-117
-</officers>
-
-<gunners>
-78
-</gunners>
-
-<passengers>
-0
-</passengers>
-
-<marines>
-0
-</marines>
-
-<battlearmor>
-0
-</battlearmor>
-
-<life_boat>
-35
-</life_boat>
-
-<escape_pod>
-20
-</escape_pod>
-

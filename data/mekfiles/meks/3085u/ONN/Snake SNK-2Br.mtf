@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Snake
 model:SNK-2Br
 mul id:2977
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
+TechBase:Inner Sphere
+Era:3070
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
+
 
 quirk:imp_target_short
 quirk:pro_actuator
 
-mass:45
-engine:225 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:5
+Mass:45
+Engine:225 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Stealth(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:11
-RT armor:11
-CT armor:16
-HD armor:8
-LL armor:16
-RL armor:16
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:5
+
+Armor:Stealth(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:11
+RT Armor:11
+CT Armor:16
+HD Armor:8
+LL Armor:16
+RL Armor:16
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
-Plasma Rifle, Right Arm
-Plasma Rifle, Right Arm
 Streak SRM 2, Left Torso
 Streak SRM 2, Left Torso
+Plasma Rifle, Right Arm
+Plasma Rifle, Right Arm
 
 Left Arm:
 Shoulder
@@ -66,8 +68,8 @@ Hand Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -80,8 +82,8 @@ ISPlasmaRifle
 ISPlasmaRifle
 ISPlasmaRifle
 ISPlasmaRifle
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -96,8 +98,8 @@ ISStreakSRM2
 ISStreakSRM2
 ISGuardianECMSuite
 ISGuardianECMSuite
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 
 Right Torso:
@@ -110,8 +112,8 @@ ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
 IS Streak SRM 2 Ammo
 ISCASE
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 
 Center Torso:
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

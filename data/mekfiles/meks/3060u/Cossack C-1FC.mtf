@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cossack
 model:C-1FC
 mul id:702
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
-source:TR:3060
-rules level:3
+TechBase:Inner Sphere
+Era:3076
+Source:TR:3060
+Rules Level:3
 role:Scout
+
+
 
 quirk:ext_twist
 
-mass:20
-engine:120 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:6
+Mass:20
+Engine:120 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:7
-RT armor:7
-CT armor:8
-HD armor:9
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:6
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:7
+RT Armor:7
+CT Armor:8
+HD Armor:9
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:4
-Medium VSP Laser, Left Arm
+Medium VSP, Left Arm
 Rocket Launcher 10, Left Torso
 Rocket Launcher 10, Right Torso
 Rocket Launcher 10, Center Torso
@@ -62,11 +64,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISMediumVSPLaser
-ISMediumVSPLaser
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+ISMediumVariableSpeedLaser
+ISMediumVariableSpeedLaser
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -76,14 +78,14 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -93,11 +95,11 @@ Heat Sink
 Heat Sink
 Jump Jet
 RL10
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -107,11 +109,11 @@ Heat Sink
 Heat Sink
 Jump Jet
 RL10
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -168,4 +170,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Raven
 model:RVN-3X
 mul id:2665
 
 Config:Biped
-techbase:Inner Sphere
-era:3028
-source:TR:3039
-rules level:4
+TechBase:Inner Sphere
+Era:3028
+Source:TR:3039
+Rules Level:4
 role:Scout
+
+
 
 quirk:no_arms
 
-mass:35
-engine:175 Fusion Engine
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:12 Single
-walk mp:5
-jump mp:0
+Mass:35
+Engine:175 Fusion Engine
+Structure:Standard
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:6
-RT armor:6
-CT armor:8
-HD armor:6
-LL armor:8
-RL armor:8
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:6
+RT Armor:6
+CT Armor:8
+HD Armor:6
+LL Armor:8
+RL Armor:8
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:3
 Medium Laser, Right Arm
@@ -90,8 +92,8 @@ ISElectronicWarfareEquipment
 ISElectronicWarfareEquipment
 ISElectronicWarfareEquipment
 ISElectronicWarfareEquipment
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -101,8 +103,8 @@ Triple Strength Myomer
 Right Torso:
 SRM 6
 SRM 6
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -123,8 +125,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 
 Head:
 Life Support
@@ -167,4 +169,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

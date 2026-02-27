@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -24,9 +33,9 @@ SupportTank
 Luciano White Wolverine
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 4540
@@ -35,10 +44,6 @@ Luciano White Wolverine
 <year>
 2554
 </year>
-
-<originalBuildYear>
-2554
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -52,10 +57,6 @@ None
 Tracked
 </motion_type>
 
-<transporters>
-cargobay:0.5:1:1::-1:0
-</transporters>
-
 <cruiseMP>
 4
 </cruiseMP>
@@ -64,17 +65,9 @@ cargobay:0.5:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<fuel>
+.5
+</fuel>
 
 <armor>
 4
@@ -82,6 +75,14 @@ cargobay:0.5:1:1::-1:0
 3
 3
 </armor>
+
+<barrating>
+6
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
 
 <Body Equipment>
 SnowmobileChassis
@@ -100,17 +101,9 @@ Searchlight
 <Rear Equipment>
 </Rear Equipment>
 
-<barrating>
-6
-</barrating>
-
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
+<transporters>
+cargobay:.5:1
+</transporters>
 
 <source>
 TR:VAr
@@ -119,12 +112,3 @@ TR:VAr
 <tonnage>
 8.0
 </tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-

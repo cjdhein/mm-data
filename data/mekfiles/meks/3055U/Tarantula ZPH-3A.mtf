@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tarantula
 model:ZPH-3A
 mul id:3162
 
 Config:Quad
-techbase:Inner Sphere
-era:3063
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3055U
+Rules Level:2
 role:Striker
 
+
+
+quirk:easy_pilot
 quirk:ext_twist
 quirk:exp_actuator
-quirk:easy_pilot
 
-mass:25
-engine:200 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:8
-jump mp:7
+Mass:25
+Engine:200 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-FLL armor:12
-FRL armor:12
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:9
-RLL armor:12
-RRL armor:12
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:7
+
+Armor:Standard(Inner Sphere)
+FLL Armor:12
+FRL Armor:12
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:9
+RLL Armor:12
+RRL Armor:12
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:2
 Medium Pulse Laser, Left Torso
@@ -63,7 +65,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -77,7 +79,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -94,10 +96,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -108,10 +110,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -125,13 +127,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -147,7 +149,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,11 +163,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

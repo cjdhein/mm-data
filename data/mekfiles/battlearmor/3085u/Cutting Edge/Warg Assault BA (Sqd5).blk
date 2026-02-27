@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,15 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -24,7 +32,7 @@ BattleArmor
 Warg Assault Battle Armor
 </Name>
 
-<Model>
+<model>
 (Sqd5)
 </Model>
 
@@ -32,29 +40,25 @@ Warg Assault Battle Armor
 8599
 </mul id:>
 
-<year>
-3086
-</year>
+<chassis>
+biped
+</chassis>
 
-<originalBuildYear>
-3086
-</originalBuildYear>
+<weightclass>
+4
+</weightclass>
 
-<type>
-Clan Level 2
-</type>
-
-<role>
-Juggernaut
-</role>
-
-<motion_type>
-Leg
-</motion_type>
+<Trooper Count>
+5
+</Trooper Count>
 
 <cruiseMP>
 1
 </cruiseMP>
+
+<Armor>
+16
+</Armor>
 
 <armor_type>
 28
@@ -66,37 +70,42 @@ Leg
 
 <Point Equipment>
 CLBASmallPulseLaser:RA
-CLBALightMG:LA
+Clan BA Light Machine Gun:LA
 CLBASRM3:Body
-BA-SRM3 Ammo:Body:Shots3#
+BASRM3 Ammo:Body:Shots3#
 CLBASRM3:Body
-BA-SRM3 Ammo:Body:Shots3#
+BASRM3 Ammo:Body:Shots3#
 BAHeavyBattleClaw:LA
 BABasicManipulator:RA
 </Point Equipment>
 
-<Trooper 1 Equipment>
-</Trooper 1 Equipment>
+<type>
+Clan Level 2
+</type>
 
-<Trooper 2 Equipment>
-</Trooper 2 Equipment>
+<role>
+Juggernaut
+</role>
 
-<Trooper 3 Equipment>
-</Trooper 3 Equipment>
+<year>
+3086
+</year>
 
-<Trooper 4 Equipment>
-</Trooper 4 Equipment>
+<motion_type>
+Leg
+</motion_type>
 
-<Trooper 5 Equipment>
-</Trooper 5 Equipment>
-
-<capabilities>
-The Warg is protected by 400 kgs worth of standard armor, and is only able to move at 10 km/h.
-</capabilities>
+<source>
+TR:3085
+</source>
 
 <overview>
 Created in the post-Jihad era, the Warg assault battle armor was Clan Wolf's response to the growing number of assault weight battle armor units being introduced after the Word of Blake's Jihad.
 </overview>
+
+<capabilities>
+The Warg is protected by 400 kgs worth of standard armor, and is only able to move at 10 km/h.
+</capabilities>
 
 <deployment>
 The battle armor's primary weapon is its right arm mounted Small Pulse Laser, with enough energy for twenty-eight shots. It also packs an impressive amount of missile weaponry, in the form of a pair of a Three-Tubed Short-Range Missile Launcher mounted on the Warg's shoulders. These launchers have each been given ammunition for three volleys of fire. To handle light threats such as conventional infantry the armor has a left arm mounted Light Machine Gun, and fifty rounds of fire in its ammo bin. Also found in the left arm is a Heavy Battle Claw.
@@ -118,32 +127,7 @@ Stewart,Tamar
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
-
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-16
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-

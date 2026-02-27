@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-7M
 mul id:2703
 
 Config:Biped
-techbase:Inner Sphere
-era:3066
+TechBase:Inner Sphere
+Era:3066
 source:TR:3085S
-rules level:2
+Rules Level:2
 role:Brawler
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:240 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:4
-jump mp:0
+Mass:60
+Engine:240 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:18
-RT armor:18
-CT armor:27
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:18
+RT Armor:18
+CT Armor:27
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:9
 Light Gauss Rifle, Left Arm
@@ -76,9 +78,9 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -90,9 +92,9 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -103,8 +105,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISERMediumLaser
 IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -117,8 +119,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISERMediumLaser
 IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -155,8 +157,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -169,12 +171,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

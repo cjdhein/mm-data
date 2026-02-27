@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-9W
 mul id:2050
 
 Config:Biped
-techbase:Inner Sphere
-era:3071
+TechBase:Inner Sphere
+Era:3071
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
 
-quirk:low_profile
+
+
 quirk:command_mech
 quirk:hyper_actuator
+quirk:low_profile
 weaponquirk:direct_torso_mount:RT:7:ISSNPPC
 weaponquirk:exposed_linkage:RT:7:ISSNPPC
 
-mass:75
-engine:225 Light Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Heavy Duty Gyro
 
-heat sinks:16 IS Double
-walk mp:3
-jump mp:5
+Mass:75
+Engine:225 Light Engine(IS)
+Structure:Standard
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:Heavy Duty Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:24
-RT armor:24
-CT armor:30
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:11
+Heat Sinks:16 Double
+Walk MP:3
+Jump MP:5
+
+Armor:Standard(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:24
+RT Armor:24
+CT Armor:30
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:11
 
 Weapons:5
 ER Large Laser, Left Arm
@@ -176,3 +178,4 @@ Improved Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Marauder .jpg

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Victor
 model:C
 mul id:3403
@@ -27,7 +26,10 @@ source:Shrap06
 rules level:4
 role:Skirmisher
 
+
+
 quirk:rugged_1
+
 
 mass:80
 engine:320 Fusion (Clan) Engine
@@ -38,7 +40,7 @@ heat sinks:17 Single
 walk mp:4
 jump mp:4
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:15
 RA armor:15
 LT armor:20
@@ -181,3 +183,4 @@ systemmanufacturer:ARMOR:Durallex Heavy
 systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Opus III Highbeam
 systemmanufacturer:TARGETING:MaLandry 34
+

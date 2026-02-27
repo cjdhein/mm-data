@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lineholder
 model:KW1-LH8 'Linebreaker'
 mul id:1895
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
-source:TR:3058U
-rules level:2
+TechBase:Inner Sphere
+Era:3065
+Source:TR:3058U
+Rules Level:2
 role:Sniper
+
+
 
 quirk:easy_maintain
 
-mass:55
-engine:275 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:55
+Engine:275 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:17
-RT armor:17
-CT armor:25
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:17
+RT Armor:17
+CT Armor:25
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
 ER Large Laser, Left Arm
@@ -62,10 +64,10 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -80,19 +82,19 @@ ISRotaryAC2
 ISRotaryAC2
 ISRotaryAC2
 ISRotaryAC2
-IS Endo Steel
-IS Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 
 Left Torso:
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -100,14 +102,14 @@ IS Ferro-Fibrous
 
 Right Torso:
 ISRotaryAC2 Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -123,8 +125,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -145,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -159,12 +161,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thunder Fox
 model:TFT-A9
 mul id:3217
 
 Config:Quad
-techbase:Inner Sphere
-era:3077
+TechBase:Inner Sphere
+Era:3077
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Sniper
+
+
+
 
 quirk:easy_maintain
 
-mass:55
-engine:220 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:3
+Mass:55
+Engine:220 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-FLL armor:17
-FRL armor:17
-LT armor:20
-RT armor:20
-CT armor:21
-HD armor:9
-RLL armor:17
-RRL armor:17
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:3
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+FLL Armor:17
+FRL Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:21
+HD Armor:9
+RLL Armor:17
+RRL Armor:17
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
 ER Large Laser, Left Torso
-Streak SRM 4, Left Torso
 ER Small Laser, Left Torso
+Streak SRM 4, Left Torso
 Light Gauss Rifle, Right Torso
 
 Front Left Leg:
@@ -62,8 +65,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -76,8 +79,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -125,7 +128,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Head:
 Life Support
@@ -147,7 +150,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,11 +164,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

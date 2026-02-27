@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -24,9 +33,9 @@ ProtoMek
 Boggart Ultraheavy ProtoMech
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 3843
@@ -52,6 +61,9 @@ Striker
 Quad
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 5
 </cruiseMP>
@@ -68,22 +80,6 @@ false
 0
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
-
 <internal_type>
 -1
 </internal_type>
@@ -99,12 +95,11 @@ false
 
 <Body Equipment>
 CLPlasmaCannonAmmo (10)
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -125,6 +120,14 @@ EIInterface
 <Main Gun Equipment>
 CLPlasmaCannon
 </Main Gun Equipment>
+
+<source>
+WoR
+</source>
+
+<tonnage>
+13.0
+</tonnage>
 
 <capabilities>
 The Boggart was the first attempt to build a production-worthy quad ProtoMech. It is able to intercept communications signals from other units and determine where the targeted unit is placing most of its attention. This allows the Boggart's pilot to target those units that aren't expecting an attack, making the assault even more effective. The Boggart's relatively high ground speed is coupled with a 150 meter jumping capability to allow it to quickly engage multiple foes.
@@ -154,16 +157,7 @@ Unknown
 CHASSIS:BGR13
 ENGINE:45 Fusion
 ARMOR:Proto-Standard B
-JUMP_JET:MegaTan Lifters
+JUMPJET:MegaTan Lifters
 COMMUNICATIONS:Proto-Type A
 TARGETING:SAT-PM1
 </systemManufacturers>
-
-<source>
-WoR
-</source>
-
-<tonnage>
-13.0
-</tonnage>
-

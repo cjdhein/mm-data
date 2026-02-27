@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bowman
 model:3
 mul id:5690
 
 Config:Biped
-techbase:Clan
-era:3076
-source:RS:3067u
-rules level:2
+TechBase:Clan
+Era:3076
+Rules Level:2
 role:Skirmisher
+source:RS:3067u
 
-quirk:stable
 quirk:fast_reload
+quirk:stable
 quirk:bad_rep_clan
 
-mass:70
-engine:350 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:5
-jump mp:0
+Mass:70
+Engine:350 XL Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:22
-RA armor:22
-LT armor:22
-RT armor:22
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:12 Double
+Walk MP:5
+Jump MP:0
 
-Weapons:8
-Anti-BattleArmor Pods (B-Pods), Left Leg
-Anti-BattleArmor Pods (B-Pods), Right Leg
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-HAG/20, Right Arm
-ATM 9, Left Torso
-ER Medium Laser, Right Torso
+Armor:Ferro-Fibrous
+LA Armor:22
+RA Armor:22
+LT Armor:22
+RT Armor:22
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
+
+Weapons:9
+1 CLECMSuite, Head
+1 CLBPod, Right Leg
+1 CLBPod, Left Leg
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Right Torso
+1 CLATM9, Left Torso, Ammo:21
+1 CLHAG20, Right Arm, Ammo:18
 
 Left Arm:
 Shoulder
@@ -71,8 +72,8 @@ Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -86,52 +87,52 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLHAG20
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
+CLHAG20 Ammo
+CLHAG20 Ammo
+CLHAG20 Ammo
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 CLATM9
 CLATM9
 CLATM9
 CLATM9
-Clan Ammo ATM-9
-Clan Ammo ATM-9 ER
-Clan Ammo ATM-9 HE
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+CLATM9 Ammo
+CLATM9 ER Ammo
+CLATM9 HE Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 CLERMediumLaser
 CLTargeting Computer
 CLTargeting Computer
 CLTargeting Computer
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Clan Endo Steel
-Clan Ferro-Fibrous
+Engine
+Engine
+Engine
+Endo-Steel
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -140,38 +141,19 @@ Cockpit
 CLECMSuite
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISBPod
-Clan Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+CLBPod
+Ferro-Fibrous
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISBPod
-Clan Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+CLBPod
+Ferro-Fibrous

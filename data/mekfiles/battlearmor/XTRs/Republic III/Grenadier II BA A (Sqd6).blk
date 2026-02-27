@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -36,10 +45,6 @@ A(Sqd6)
 3137
 </year>
 
-<originalBuildYear>
-3137
-</originalBuildYear>
-
 <type>
 Mixed (IS Chassis)
 </type>
@@ -47,10 +52,6 @@ Mixed (IS Chassis)
 <role>
 Ambusher
 </role>
-
-<quirks>
-difficult_maintain
-</quirks>
 
 <motion_type>
 Leg
@@ -69,10 +70,10 @@ Leg
 </armor_tech>
 
 <Squad Equipment>
-Clan BA Stealth (Standard):LA
-Clan BA Stealth (Standard):RA
-Clan BA Stealth (Standard):RA
-Clan BA Stealth (Standard):LA
+Clan BA Stealth:LA
+Clan BA Stealth:RA
+Clan BA Stealth:RA
+Clan BA Stealth:LA
 BABasicManipulator:RA
 ISBASmallLaser:LA
 CLBASRM4:Body
@@ -80,23 +81,29 @@ BA-SRM4 Ammo:Body:Shots4#
 BA-SRM4 Ammo:Body:Shots4#
 </Squad Equipment>
 
-<Trooper 1 Equipment>
-</Trooper 1 Equipment>
+<source>
+XTR:RotS 3
+</source>
 
-<Trooper 2 Equipment>
-</Trooper 2 Equipment>
+<chassis>
+biped
+</chassis>
 
-<Trooper 3 Equipment>
-</Trooper 3 Equipment>
+<jumpingMP>
+0
+</jumpingMP>
 
-<Trooper 4 Equipment>
-</Trooper 4 Equipment>
+<armor>
+12
+</armor>
 
-<Trooper 5 Equipment>
-</Trooper 5 Equipment>
+<Trooper Count>
+6
+</Trooper Count>
 
-<Trooper 6 Equipment>
-</Trooper 6 Equipment>
+<weightclass>
+3
+</weightclass>
 
 <capabilities>
 The Grenadier II has a Modular Weapon Mount in the left arm and a second mounted in the body. The right arm has a single Basic Manipulator.
@@ -126,32 +133,12 @@ Talcott
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
 
-<source>
-XTR:RotS 3
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-12
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
+<quirks>
+difficult_maintain
+</quirks>
 

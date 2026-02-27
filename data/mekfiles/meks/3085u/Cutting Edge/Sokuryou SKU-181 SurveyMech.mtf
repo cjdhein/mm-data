@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,40 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sokuryou
 model:SKU-181 SurveyMech
 mul id:2982
 
 Config:Biped
-techbase:Inner Sphere
-era:3084
+TechBase:Inner Sphere
+Era:3084
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Scout
 
+Mass:25
+Engine:100 ICE Engine(IS)
+Structure:Industrial
+Myomer:Standard
 
-mass:25
-engine:100 ICE Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:0 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:0 Single
-walk mp:4
-jump mp:0
-
-armor:Heavy Industrial(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:9
-RT armor:9
-CT armor:12
-HD armor:9
-LL armor:12
-RL armor:12
-RTL armor:3
-RTR armor:3
-RTC armor:3
+Armor:Heavy Industrial(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:9
+RT Armor:9
+CT Armor:12
+HD Armor:9
+LL Armor:12
+RL Armor:12
+RTL Armor:3
+RTR Armor:3
+RTC Armor:3
 
 Weapons:1
 TAG, Right Arm
@@ -82,7 +80,7 @@ ISTAG
 -Empty-
 
 Left Torso:
-Extended Fuel Tank
+Extended Fuel Tank (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -96,8 +94,8 @@ Extended Fuel Tank
 -Empty-
 
 Right Torso:
-Communications Equipment:SIZE:2.0
-Communications Equipment:SIZE:2.0
+Communications Equipment (2 ton)
+Communications Equipment (2 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -165,3 +163,4 @@ Foot Actuator
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085Sokuryou.jpg

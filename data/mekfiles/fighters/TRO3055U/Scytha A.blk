@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
-AeroSpaceFighter
+Aero
 </UnitType>
 
 <Name>
@@ -52,6 +61,9 @@ Dogfighter
 Aerodyne
 </motion_type>
 
+<transporters>
+</transporters>
+
 <SafeThrust>
 6
 </SafeThrust>
@@ -84,13 +96,9 @@ Aerodyne
 19
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 2
-</armor_tech_level>
+</armor_tech>
 
 <omni>
 1
@@ -140,6 +148,14 @@ Clan Streak SRM 6 Ammo:OMNI
 CLCASE
 </Fuselage Equipment>
 
+<source>
+TR:3055U
+</source>
+
+<tonnage>
+90.0
+</tonnage>
+
 <capabilities>
 While its fourteen tons of Ironhold Series III Ferro-Aluminum armor is below average for a ninety-ton fighter, even with the use of massive 360 XL Engine, four tons of fuel and twenty Double Heat Sinks, this choice give the Scytha a whopping 42.5 tons of pod space. Fast enough to bring its weapons into optimum range, the design is highly popular among the Falcons, who rarely share the design with others.
 </capabilities>
@@ -172,11 +188,5 @@ TARGETING:TTS Model 3
 This unit is intentionally built per the TRO: which makes it 2 tons overweight.
 </notes>
 
-<source>
-TR:3055U
-</source>
 
-<tonnage>
-90.0
-</tonnage>
 

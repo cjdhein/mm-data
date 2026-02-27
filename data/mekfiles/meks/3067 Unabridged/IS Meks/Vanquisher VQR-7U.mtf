@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,140 +15,139 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vanquisher
 model:VQR-7U
 mul id:5721
 
 Config:Biped
-techbase:Inner Sphere
-era:3071
-source:RS:3067u
-rules level:3
+TechBase:Inner Sphere
+Era:3071
+Rules Level:3
 role:Juggernaut
+source:RS:3067u
 
-quirk:bad_rep_is
+
+
 quirk:stable
-quirk:no_arms
 quirk:bad_rep_clan
+quirk:bad_rep_is
+quirk:no_arms
 
-mass:100
-engine:300 Compact Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:16 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Compact Fusion Engine
+Structure:Endo-Steel
+Gyro:Compact Gyro
+Cockpit:Small Cockpit
+Myomer:Triple Strength Myomer
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:45
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:14
+Heat Sinks:16 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:8
-Plasma Rifle, Left Arm
-ER Flamer, Left Arm
-Plasma Rifle, Right Arm
-ER Flamer, Right Arm
-Small VSP Laser, Left Torso
-Small VSP Laser, Left Torso
-Snub-Nose PPC, Right Torso
-Heavy Flamer, Head
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:45
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:14
+
+Weapons:11
+1 ISHeavyFlamer, Head, Ammo:10
+1 ISBeagleActiveProbe, Center Torso
+1 ISRemoteSensorDispenser, Left Torso
+1 ISImprovedC3CPU, Center Torso
+1 ISERFlamer, Right Arm
+1 ISERFlamer, Left Arm
+1 ISPlasmaRifle, Right Arm, Ammo:40
+1 ISPlasmaRifle, Left Arm
+1 ISSmallVSPLaser, Left Torso
+1 ISSmallVSPLaser, Left Torso
+1 ISSNPPC, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 ISPlasmaRifle
 ISPlasmaRifle
-ER Flamer
-ISPlasmaRifleAmmo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISERFlamer
+ISPlasmaRifle Ammo
 -Empty-
 -Empty-
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 ISPlasmaRifle
 ISPlasmaRifle
-ER Flamer
-ISPlasmaRifleAmmo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISERFlamer
+ISPlasmaRifle Ammo
 -Empty-
 -Empty-
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISSmallVSPLaser
 ISSmallVSPLaser
-ISPlasmaRifleAmmo
+ISPlasmaRifle Ammo
 RemoteSensorDispenser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 Triple Strength Myomer
 Triple Strength Myomer
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISSNPPC
 ISSNPPC
-ISPlasmaRifleAmmo
-IS Endo Steel
+ISPlasmaRifle Ammo
+Endo-Steel
 Triple Strength Myomer
 Triple Strength Myomer
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-BeagleActiveProbe
-BeagleActiveProbe
-ISC3iUnit
-ISC3iUnit
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISBeagleActiveProbe
+ISBeagleActiveProbe
+ISImprovedC3CPU
+ISImprovedC3CPU
 
 Head:
 Life Support
 Sensors
 Cockpit
 Sensors
-Heavy Flamer
-IS Heavy Flamer Ammo
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+ISHeavyFlamer
+ISHeavyFlamer Ammo
 
 Left Leg:
 Hip
@@ -156,13 +155,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Triple Strength Myomer
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
 
 Right Leg:
 Hip
@@ -170,18 +163,16 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Triple Strength Myomer
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
 
 overview:Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.
+
 capabilities:In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.
+
 deployment:This Vanquisher variant uses a Compact Engine and Compact Gyro to improve survivability. The MechWarrior piloting it is forced into a Small Cockpit, which allows the head to carry a Heavy Flamer and fuel. Each arm carries a Plasma Rifle and ER Flamer, which are backed up by a Snub Nose PPC and two Small VSP Lasers. A Beagle Active Probe allows the 7U to find hidden enemy units, and a Remote Sensor Dispenser is also fitted. This variant also carries sixteen double heat sinks to dissipate the heat generated by the weapons, but it is also equipped with Triple Strength Myomer to turn a liability (excess heat) into a strength.
+
 history:The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.
+
 manufacturer:Skobel MechWorks
 primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Hollis Alteration Mark VI

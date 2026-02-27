@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Highlander IIC
 model:3
 mul id:1523
 
 Config:Biped
-techbase:Clan
-era:3077
-source:RS:3085u-ONN
-rules level:2
+TechBase:Clan
+Era:3077
+Source:RS:3085u-ONN
+Rules Level:2
 role:Missile Boat
 
-quirk:difficult_eject
-quirk:cowl
 quirk:command_mech
+quirk:cowl
 quirk:reinforced_legs
+quirk:difficult_eject
 
-mass:90
-engine:270 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:3
-jump mp:3
+Mass:90
+Engine:270 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:30
-RA armor:30
-LT armor:28
-RT armor:28
-CT armor:40
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:10
-RTR armor:10
-RTC armor:17
+Heat Sinks:12 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:30
+RA Armor:30
+LT Armor:28
+RT Armor:28
+CT Armor:40
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:10
+RTR Armor:10
+RTC Armor:17
 
 Weapons:7
-Streak SRM 6, Left Arm
-Streak SRM 6, Left Arm
-HAG/20, Right Arm
 Medium Pulse Laser, Left Torso
 Medium Pulse Laser, Left Torso
 Medium Pulse Laser, Left Torso
 LRM 20, Right Torso
+Streak SRM 6, Left Arm
+Streak SRM 6, Left Arm
+HAG/20, Right Arm
 
 Left Arm:
 Shoulder
@@ -72,8 +72,8 @@ CLStreakSRM6
 CLStreakSRM6
 CLStreakSRM6
 CLStreakSRM6
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -87,9 +87,9 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLHAG20
-Hyper-Assault Gauss Rifle/20 Ammo
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+HAG/20 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Jump Jet
@@ -112,12 +112,12 @@ CLLRM20
 CLLRM20
 CLLRM20
 CLArtemisIV
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+HAG/20 Ammo
+HAG/20 Ammo
+HAG/20 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -175,11 +175,15 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-overview:One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans.
+overview:One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans. 
+
 capabilities:With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the "Highlander Burial".
+
 deployment:This version introduced 3077 carries a HAG/20 with 4 tons of ammunition for long battlefield endurance and ECM Suite instead of the standard Gauss Rifle.
+
 history:As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.
-manufacturer:W-7 Facilities (Refit)
+
+manufacturer:W-7 Facilities (Refit) 
 primaryfactory:Weingarten
 systemmanufacturer:CHASSIS:SL-XT Modified
 systemmanufacturer:ENGINE:Fusion 270 Standard

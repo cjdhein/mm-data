@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bombard
 model:BMB-016
 mul id:7980
-
 Config:Biped
 techbase:Inner Sphere
 era:3138
 source:RS:3150
 rules level:4
+role:Sniper
+
+
 
 quirk:bad_rep_is
 quirk:non_standard
 
+
 mass:50
-engine:100 XL Engine
+engine:100 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Triple-Strength
 
@@ -38,7 +40,7 @@ heat sinks:10 Compact
 walk mp:2
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:15
 RA armor:15
 LT armor:17
@@ -168,4 +170,5 @@ Chameleon Light Polarization Shield
 -Empty-
 -Empty-
 -Empty-
+
 

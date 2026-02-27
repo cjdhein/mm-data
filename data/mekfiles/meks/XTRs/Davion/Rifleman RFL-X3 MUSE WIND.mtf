@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-X3 MUSE WIND
 mul id:2708
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3076
+TechBase:Mixed (IS Chassis)
+Era:3076
 source:XTR:Davion
-rules level:4
+Rules Level:4
 role:Sniper
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:240 XL Engine(IS)
-structure:IS Standard
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 XL Engine(IS)
+Structure:Standard
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Ferro-Fibrous(Clan)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:31
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:31
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:4
 HAG/20, Left Arm
@@ -73,7 +75,7 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLMediumPulseLaser
-IS Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -87,7 +89,7 @@ CLHAG20
 CLHAG20
 CLHAG20
 CLMediumPulseLaser
-IS Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -95,11 +97,11 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
+HAG/20 Ammo
+HAG/20 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -112,11 +114,11 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-Hyper-Assault Gauss Rifle/20 Ammo
-Hyper-Assault Gauss Rifle/20 Ammo
+HAG/20 Ammo
+HAG/20 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -137,7 +139,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -174,4 +176,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

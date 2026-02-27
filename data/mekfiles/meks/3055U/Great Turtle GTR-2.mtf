@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Great Turtle
 model:GTR-2
 mul id:1282
 
 Config:Quad
-techbase:Inner Sphere
-era:3068
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3068
+Source:TR:3055U
+Rules Level:4
 role:Juggernaut
 
-quirk:poor_performance
+
+
 quirk:imp_target_short
+quirk:poor_performance
 
-mass:100
-engine:300 Compact Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Compact Gyro
 
-heat sinks:17 IS Double
-walk mp:3
-jump mp:3
+Mass:100
+Engine:300 Compact Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Torso-Mounted Cockpit
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-FLL armor:42
-FRL armor:42
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-RLL armor:42
-RRL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:17 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Inner Sphere)
+FLL Armor:42
+FRL Armor:42
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+RLL Armor:42
+RRL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
 
 Weapons:4
 Medium X-Pulse Laser, Left Torso
@@ -61,12 +63,12 @@ ER PPC, Right Torso
 Medium X-Pulse Laser, Head
 
 Front Left Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -75,12 +77,12 @@ IS Endo Steel
 -Empty-
 
 Front Right Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -89,7 +91,7 @@ IS Endo Steel
 -Empty-
 
 Left Torso:
-Life Support (ARMORED)
+Life Support (armored)
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
@@ -97,46 +99,46 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
-ISMediumXPulseLaser (ARMORED)
-ISERMediumLaser (ARMORED)
-IS Endo Steel
-IS Endo Steel
+ISMediumXPulseLaser (armored)
+ISERMediumLaser (armored)
+Endo Steel
+Endo Steel
 
 Right Torso:
-Life Support (ARMORED)
+Life Support (armored)
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
-ISERPPC (ARMORED)
-ISERPPC (ARMORED)
-ISERPPC (ARMORED)
-PPC Capacitor (ARMORED)
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISERPPC (armored)
+ISERPPC (armored)
+ISERPPC (armored)
+PPC Capacitor (armored)
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Gyro (ARMORED)
-Gyro (ARMORED)
-Cockpit (ARMORED)
-Sensors (ARMORED)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Gyro (armored)
+Gyro (armored)
+Cockpit (armored)
+Sensors (armored)
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
-Sensors (ARMORED)
-Sensors (ARMORED)
+Sensors (armored)
+Sensors (armored)
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISMediumXPulseLaser (ARMORED)
+ISMediumXPulseLaser (armored)
 -Empty-
 -Empty-
 -Empty-
@@ -145,12 +147,12 @@ ISMediumXPulseLaser (ARMORED)
 -Empty-
 
 Rear Left Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -159,16 +161,17 @@ IS Endo Steel
 -Empty-
 
 Rear Right Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

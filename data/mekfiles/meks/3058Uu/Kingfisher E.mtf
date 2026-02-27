@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kingfisher
 model:E
 mul id:1783
 
-Config:Biped OmniMek
-techbase:Clan
-era:3063
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3063
+Source:TR:3058U
+Rules Level:2
 role:Brawler
 
 quirk:rugged_1
 
-mass:90
-engine:360 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:17 Clan Double
-base chassis heat sinks:14
-walk mp:4
-jump mp:0
+Mass:90
+Engine:360 Fusion (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:30
-RA armor:30
-LT armor:28
-RT armor:28
-CT armor:44
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:10
-RTR armor:10
-RTC armor:13
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:14
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:30
+RA Armor:30
+LT Armor:28
+RT Armor:28
+CT Armor:44
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:10
+RTR Armor:10
+RTC Armor:13
 
 Weapons:6
 ATM 12, Left Arm
@@ -64,11 +64,11 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLATM12 (OMNIPOD)
-CLATM12 (OMNIPOD)
-CLATM12 (OMNIPOD)
-CLATM12 (OMNIPOD)
-CLATM12 (OMNIPOD)
+CLATM12 (omnipod)
+CLATM12 (omnipod)
+CLATM12 (omnipod)
+CLATM12 (omnipod)
+CLATM12 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -78,8 +78,8 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -89,10 +89,10 @@ CLLargePulseLaser (OMNIPOD)
 -Empty-
 
 Left Torso:
-CLMediumPulseLaser (OMNIPOD)
-Clan Ammo ATM-12 (OMNIPOD)
-Clan Ammo ATM-12 ER (OMNIPOD)
-Clan Ammo ATM-12 HE (OMNIPOD)
+CLMediumPulseLaser (omnipod)
+Clan Ammo ATM-12 (omnipod)
+Clan Ammo ATM-12 ER (omnipod)
+Clan Ammo ATM-12 HE (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -105,7 +105,7 @@ Clan Ferro-Fibrous
 Right Torso:
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -127,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLMediumPulseLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 
 Head:
 Life Support
@@ -173,9 +173,13 @@ CLDoubleHeatSink
 -Empty-
 
 overview:An early Clan assault OmniMech that may have influenced all subsequent assault OmniMech design, the Kingfisher is rugged and maneuverable. These traits make the Kingfisher an ideal choice for take and hold missions.
+
 capabilities:The tough Kingfisher mounts fourteen and a half tons of Ferro-Fibrous armor on an Endo Steel chassis, the most it can take. Unlike most modern front-line OmniMechs, the Kingfisher uses a standard engine. The 'Mech also has seventeen fixed double heat sinks, forcing three to be mounted outside of the engine.
+
 deployment:The new Warden variant is built around an ATM 12 with three tons of ammunition. To supplement it, Clan engineers added four Medium Pulse Lasers and a single Large Pulse Laser.
+
 history:Based off the powerful but dezgra Pulverizer, Clan Snow Raven debuted the Kingfisher in 2887 as an early second-generation OmniMech, the Kingfisher's speed and relative invulnerability have kept it in heavy use even during the Clan Invasion era, especially by Clan Ghost Bear, alongside more recent assault OmniMechs like the Executioner.
+
 manufacturer:Snow Raven Industrial Complex Alpha, Strana Mechty ’Mech Production Facility Beta
 primaryfactory:Dante, Strana Mechty
 systemmanufacturer:CHASSIS:SL YT-A Endo

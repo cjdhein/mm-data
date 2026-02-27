@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -48,18 +57,12 @@ IS Level 2
 None
 </role>
 
-<quirks>
-internal_bomb
-atmo_flyer
-poor_performance
-</quirks>
-
 <motion_type>
 Aerodyne
 </motion_type>
 
 <transporters>
-cargobay:20.5:1:1::-1:0
+cargobay:20.5:1:1
 </transporters>
 
 <SafeThrust>
@@ -85,18 +88,6 @@ cargobay:20.5:1:1::-1:0
 <engine_type>
 7
 </engine_type>
-
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-2
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
 
 <armor>
 20
@@ -157,6 +148,10 @@ External Stores Hardpoint
 2
 </engine_tech_rating>
 
+<armor_tech_rating>
+2
+</armor_tech_rating>
+
 <capabilities>
 The Torrent featured thrust vectoring and fly-by-light equipment, eliminating the need for a horizontal rudder and giving it the ability to use the short runways found on these new colonies; however, the bomber required a full runway and (occasionally) rocket assistance when carrying a full bomb load. With a crew of one officer, three enlisted and two gunners, the aircraft could carry a total of thirty tons of ordnance split between an internal bomb bay and external hardpoints, was protected by three and a half tons of Hubris Heavy armor, and with thirteen tons of fuel could reach a target half a world away.
 </capabilities>
@@ -196,4 +191,11 @@ TR:VAr
 <tonnage>
 200.0
 </tonnage>
+
+
+<quirks>
+atmo_flyer
+internal_bomb
+poor_performance
+</quirks>
 

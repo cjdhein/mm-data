@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,9 +62,9 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:5.0:1:1::-1:0
-smallcraftbay:5.0:1:2::-1:0
-cargobay:371293.5:1:3::-1:0
+smallcraftbay:5.0:1:1
+smallcraftbay:5.0:1:2
+cargobay:371293.5:1:3
 dockingcollar
 dockingcollar
 dockingcollar
@@ -81,8 +90,8 @@ dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:680.0:0:-1::-1:0
-crewquarters:2359.0:0:-1::-1:0
+1stclassquarters:680.0:0
+crewquarters:2359.0:0
 </transporters>
 
 <SafeThrust>
@@ -113,13 +122,9 @@ false
 11
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 6
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 179
@@ -223,6 +228,7 @@ The Potemkin-class troop cruiser, known as the "Corncob Cruiser," played a signi
 
 <history>
 The Potemkin-class troop cruisers that accompanied General Kerensky on the Exodus continued to serve in Clan fleets, benefiting from routine Clan upgrades and modifications. The Clans recognized the potential of these ships and leveraged their capabilities in various roles. However, improvements in escort tactics and the development of smaller craft eventually led to a decline in Potemkin deployment.
+Following the Jihad, Clan Sea Fox repurposed many Potemkin-class ships into ArcShips and CargoShips. These modifications allowed the vessels to serve as mobile habitats and supply stations, providing essential resources and serving as hubs for Clan operations. The CargoShips, equipped with permanently attached DropShips, became dedicated long-term habitats and supply stations. The ArcShips, extensively modified Potemkin-class WarShips, served as societal and governmental centers for entire Clans. While the Potemkin-class troop cruiser's original purpose was transportation and protection, its adaptability allowed it to evolve and find new roles within the Clan fleets. The legacy of the Potemkin class lives on, as these vessels continue to serve as essential components of Clan operations, providing habitation, supply support, and strategic coordination capabilities.
 </history>
 
 <manufacturer>

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat III
 model:2 (MWDA)
 mul id:6896
 
 Config:Biped
-techbase:Clan
-era:3089
+TechBase:Clan
+Era:3089
+Rules Level:2
+role:Sniper
 source:TR:DA
-rules level:2
 
-quirk:difficult_maintain
 quirk:bad_rep_clan
+quirk:difficult_maintain
 quirk:imp_com
 
-mass:55
-engine:330 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:16 Clan Double
-walk mp:6
-jump mp:5
+Mass:55
+Engine:330 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:27
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:16 Double
+Walk MP:6
+Jump MP:5
+
+Armor:Ferro-Fibrous
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:27
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:4
-Heavy Medium Laser, Left Arm
-Heavy Medium Laser, Right Arm
-LRM 20, Left Torso
-LRM 20, Right Torso
+1 CLHeavyMediumLaser, Right Arm
+1 CLHeavyMediumLaser, Left Arm
+1 CLLRM20, Right Torso, Ammo:12
+1 CLLRM20, Left Torso
 
 Left Arm:
 Shoulder
@@ -64,9 +65,9 @@ Upper Arm Actuator
 Lower Arm Actuator
 CLHeavyMediumLaser
 CLHeavyMediumLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -76,14 +77,14 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLHeavyMediumLaser
 CLHeavyMediumLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -95,10 +96,10 @@ CLLRM20
 CLLRM20
 CLLRM20
 CLLRM20
-Clan Ammo LRM-20
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+CLLRM20 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -109,10 +110,10 @@ CLLRM20
 CLLRM20
 CLLRM20
 CLLRM20
-Clan Ammo LRM-20
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+CLLRM20 Ammo
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -126,7 +127,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Clan Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -147,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +162,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legionnaire
 model:LGN-2D (Raul)
 mul id:8296
 
 Config:Biped
-techbase:Inner Sphere
-era:3132
-source:TR:DA
-rules level:2
+TechBase:Inner Sphere
+Era:3132
+Rules Level:2
 role:Striker
+source:TR:DA
 
-quirk:imp_target_med
+
+
 quirk:easy_maintain
+quirk:imp_target_med
 weaponquirk:exposed_linkage:RA:5:ISRotaryAC5
 
-mass:50
-engine:350 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:50
+Engine:350 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
 
-Weapons:4
-Rotary AC/5, Right Arm
-Medium Laser, Center Torso
-Medium Laser, Center Torso
-Medium Laser, Head
+Armor:Standard Armor
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
+
+Weapons:3
+1 ISRotaryAC5, Right Arm, Ammo:60
+2 ISMediumLaser, Center Torso
+1 ISMediumLaser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -78,7 +79,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
+Endo-Steel
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
@@ -91,15 +92,15 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
@@ -108,12 +109,12 @@ Fusion Engine
 ISRotaryAC5 Ammo
 ISRotaryAC5 Ammo
 ISRotaryAC5 Ammo
-IS Endo Steel
-IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -126,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
-Medium Laser
+ISMediumLaser
+ISMediumLaser
 
 Head:
 Life Support
 Sensors
 Cockpit
-Medium Laser
+ISMediumLaser
 Sensors
 Life Support
 -Empty-
@@ -148,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

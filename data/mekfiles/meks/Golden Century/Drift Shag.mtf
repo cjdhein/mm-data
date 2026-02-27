@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Drift Shag
 model:
 mul id:7605
@@ -23,19 +22,21 @@ mul id:7605
 Config:Biped
 techbase:Clan
 era:2827
-source:TR:GC
 rules level:2
 role:Scout
+source:TR:GC
+
 
 quirk:low_profile
 quirk:bad_rep_clan
 
+
 mass:30
-engine:210 XL (Clan) Engine
+engine:210 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:11 Clan Double
+heat sinks:11 Double
 walk mp:7
 jump mp:6
 
@@ -171,4 +172,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

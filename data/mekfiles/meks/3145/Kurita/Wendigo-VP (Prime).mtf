@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wendigo-VP
 model:(Prime)
 mul id:6408
 
-Config:Biped OmniMek
-techbase:Clan
-era:3134
-source:TR:3145:DC
-rules level:4
+Config:Biped Omnimech
+TechBase:Clan
+Era:3134
+Source:TR:3145:DC
+Rules Level:4
 role:Skirmisher
 
+Mass:50
+Engine:250 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
+Cockpit:Torso-Mounted Cockpit
+Gyro:Standard Gyro
 
-mass:50
-engine:250 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:5
+Jump MP:4
 
-heat sinks:10 Clan Double
-base chassis heat sinks:10
-walk mp:5
-jump mp:4
-
-armor:Reflective(Clan)
-LA armor:16
-RA armor:16
-LT armor:16
-RT armor:16
-CT armor:22
-HD armor:8
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:8
+Armor:Reflective(Clan)
+LA Armor:16
+RA Armor:16
+LT Armor:16
+RT Armor:16
+CT Armor:22
+HD Armor:8
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:8
 
 Weapons:5
 LB 10-X AC, Left Arm
@@ -63,13 +61,13 @@ ER Small Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLLBXAC10 (OMNIPOD)
-CLLBXAC10 (OMNIPOD)
-CLLBXAC10 (OMNIPOD)
-CLLBXAC10 (OMNIPOD)
-CLLBXAC10 (OMNIPOD)
-Clan LB 10-X AC Ammo (OMNIPOD)
-Clan LB 10-X Cluster Ammo (OMNIPOD)
+CLLBXAC10 (omnipod)
+CLLBXAC10 (omnipod)
+CLLBXAC10 (omnipod)
+CLLBXAC10 (omnipod)
+CLLBXAC10 (omnipod)
+Clan LB 10-X AC Ammo (omnipod)
+Clan LB 10-X Cluster Ammo (omnipod)
 Clan Reflective
 Clan Reflective
 Clan Reflective
@@ -77,10 +75,10 @@ Clan Reflective
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLMediumPulseLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -89,11 +87,11 @@ Clan Endo Steel
 -Empty-
 
 Left Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Reflective
@@ -103,11 +101,11 @@ Clan Reflective
 -Empty-
 
 Right Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Reflective
@@ -133,7 +131,7 @@ Sensors
 Head:
 Sensors
 Sensors
-CLERSmallLaser (OMNIPOD)
+CLERSmallLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -171,4 +169,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,27 +15,27 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Nobori-nin
 clanname:Huntsman
 model:T
 mul id:7781
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3142
-source:RG12
 rules level:2
 role:Skirmisher
+source:RG12
 
 quirk:stable
 
+
 mass:50
-engine:250 XL (Clan) Engine
+engine:250 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:10 Clan Double
+heat sinks:10 Double
 base chassis heat sinks:10
 walk mp:5
 jump mp:5
@@ -54,29 +54,29 @@ RTR armor:6
 RTC armor:7
 
 Weapons:12
-Streak SRM 6, Left Arm
-Improved Heavy Medium Laser, Left Arm
-Improved Heavy Medium Laser, Left Arm
-Improved Heavy Medium Laser, Right Arm
-Improved Heavy Medium Laser, Right Arm
-Ultra AC/2, Right Arm
 ER Small Laser, Left Torso
 Flamer, Left Torso
 Laser AMS, Left Torso
+Improved Heavy Medium Laser, Right Arm
+Improved Heavy Medium Laser, Right Arm
+Improved Heavy Medium Laser, Left Arm
+Improved Heavy Medium Laser, Left Arm
+Ultra AC/2, Right Arm
 Streak LRM 5, Right Torso
 Streak LRM 5, Right Torso
+Streak SRM 6, Left Arm
 Micro Pulse Laser, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -84,13 +84,13 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLImprovedMediumHeavyLaser (OMNIPOD)
-CLUltraAC2 (OMNIPOD)
-CLUltraAC2 (OMNIPOD)
-Clan Ultra AC/2 Ammo (OMNIPOD)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLImprovedMediumHeavyLaser (omnipod)
+CLUltraAC2 (omnipod)
+CLUltraAC2 (omnipod)
+Clan Ultra AC/2 Ammo (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -99,10 +99,10 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLERSmallLaser (OMNIPOD)
-CLFlamer (OMNIPOD)
-CLLaserAntiMissileSystem (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
+CLERSmallLaser (omnipod)
+CLFlamer (omnipod)
+CLLaserAntiMissileSystem (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -113,12 +113,12 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLStreakLRM5 (OMNIPOD)
-CLStreakLRM5 (OMNIPOD)
-CLMicroPulseLaser (OMNIPOD)
-Clan Streak LRM 5 Ammo (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLStreakLRM5 (omnipod)
+CLStreakLRM5 (omnipod)
+CLMicroPulseLaser (omnipod)
+Clan Streak LRM 5 Ammo (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -180,9 +180,13 @@ Jump Jet
 -Empty-
 
 overview:Exemplifying the OmniMech concept, the flexible Huntsman was the premier medium 'Mech of Clan Nova Cat during Operation REVIVAL.
-capabilities:No expense has been spared in the construction of this front-line OmniMech that uses an Extra-Light Engine, Endo Steel structure, and nine tons of Ferro-Fibrous armor. Five jump jets enable it to leap up to 150 meters at a time.
+
 deployment:This configuration provides a wide variety of weapons. Each arm carries a pair of Improved Heavy Medium Lasers. Long range fire is provided by an Ultra AC/2 in the right arm and a pair of Streak LRM-5 launchers in the right torso. A Micro Pulse Laser, ER Small Laser, and Flamer are provided to threaten infantry and armor forces. The left arm carries a Streak SRM-6 launcher. Additional protection is provided by a Laser Anti-Missile System. The missile launchers and autocannon each have a ton of ammunition provided.
+
+capabilities:No expense has been spared in the construction of this front-line OmniMech that uses an Extra-Light Engine, Endo Steel structure, and nine tons of Ferro-Fibrous armor. Five jump jets enable it to leap up to 150 meters at a time.
+
 history:First seen within the 119th Nova Cat Striker Cluster during the Battle of Luthien, a Draconis Combine Mustered Soldiery intelligence officer dubbed the OmniMech with the name of "Nobori-nin" (Japanese for "Banner-bearer") due to the single fin-like projection rising from the back of the 'Mech reminding him of the banner samurai worn on their backs in feudal Japan. Prized for its flexibility across a wide range of opponents and battlefield conditions, the Huntsman was almost exclusively a Nova Cat design during the initial Clan Invasion, but prior to the Word of Blake Jihad had entered service with Clans Diamond Shark, Cloud Cobra and Star Adder.
+
 manufacturer:Irece Alpha, Avon Alpha, and Brim Ironworks, Clan Protectorate Arms
 primaryfactory:Irece, Avon, Brim, Asellus Australis
 systemmanufacturer:CHASSIS:Mynx Type Medium Endo Steel

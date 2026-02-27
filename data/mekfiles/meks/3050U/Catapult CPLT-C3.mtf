@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Catapult
 model:CPLT-C3
 mul id:481
 
 Config:Biped
-techbase:Inner Sphere
-era:3049
-source:TR:3050
-rules level:3
+TechBase:Inner Sphere
+Era:3049
+Source:TR:3050
+Rules Level:3
 role:Missile Boat
+
+
 
 quirk:no_arms
 quirk:weak_head_1
 
-mass:65
-engine:260 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 Single
-walk mp:4
-jump mp:4
+Mass:65
+Engine:260 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:13
-RA armor:13
-LT armor:19
-RT armor:19
-CT armor:24
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:15 Single
+Walk MP:4
+Jump MP:4
 
-Weapons:5
-Arrow IV, Right Torso
-Medium Laser, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Center Torso
-Medium Laser, Center Torso
+Armor:Standard Armor
+LA Armor:13
+RA Armor:13
+LT Armor:19
+RT Armor:19
+CT Armor:24
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
+
+Weapons:4
+1 ISArrowIVSystem, Right Arm, Ammo:5
+2 ISMediumLaser, Center Torso
+1 ISMediumLaser, Left Torso
+1 ISMediumLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -76,21 +77,21 @@ Upper Arm Actuator
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
 -Empty-
 
 Left Torso:
 Jump Jet
 Jump Jet
-Medium Laser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -104,14 +105,14 @@ Medium Laser
 Right Torso:
 Jump Jet
 Jump Jet
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-ISArrowIV
-Medium Laser
-ISArrowIVAmmo
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISArrowIVSystem (Split)
+ISMediumLaser
+ISArrowIV Ammo
 -Empty-
 -Empty-
 
@@ -126,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
-Medium Laser
+ISMediumLaser
+ISMediumLaser
 
 Head:
 Life Support

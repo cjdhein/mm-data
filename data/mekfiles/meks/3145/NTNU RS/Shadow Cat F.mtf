@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Cat
 model:F
 mul id:6912
 
-Config:Biped OmniMek
-techbase:Mixed (Clan Chassis)
-era:3131
-source:RS:3145-NTNU
-rules level:3
+Config:Biped Omnimech
+TechBase:Mixed (Clan Chassis)
+Era:3131
+Source:RS:3145-NTNU
+Rules Level:3
 role:Sniper
 
 quirk:low_profile
 
-mass:45
-engine:270 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:10
-walk mp:6
-jump mp:6
+Mass:45
+Engine:270 XL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:10
-RA armor:10
-LT armor:18
-RT armor:18
-CT armor:20
-HD armor:8
-LL armor:18
-RL armor:18
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:6
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:10
+RA Armor:10
+LT Armor:18
+RT Armor:18
+CT Armor:20
+HD Armor:8
+LL Armor:18
+RL Armor:18
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:3
 TSEMP Cannon, Right Arm
@@ -74,11 +74,11 @@ Clan Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-TSEMP Cannon (OMNIPOD)
-TSEMP Cannon (OMNIPOD)
-TSEMP Cannon (OMNIPOD)
-TSEMP Cannon (OMNIPOD)
-TSEMP Cannon (OMNIPOD)
+TSEMP Cannon (omnipod)
+TSEMP Cannon (omnipod)
+TSEMP Cannon (omnipod)
+TSEMP Cannon (omnipod)
+TSEMP Cannon (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -89,8 +89,8 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -103,10 +103,10 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -170,9 +170,13 @@ Jump Jet
 -Empty-
 
 overview:The Shadow Cat is a heavily-armed and maneuverable medium OmniMech developed by Clan Nova Cat to replace the Ice Ferret in the early 31st century during preparations for Operation Revival.
+
 capabilities:This expensive OmniMech makes use of weight-saving technologies in the form of an Endo Steel internal structure, an XL Engine, and seven tons of Ferro-Fibrous armor. All of these together allow the Shadow Cat to employ more pod space than the Ice Ferret at the expense of speed. To counteract this, the base chassis employs enough jump jets to vault up to 180 meters in a single bound and Myomer Accelerated Signal Circuitry that enables it to move up to 130 km/h in bursts.
+
 deployment:Another Dark Age configuration, this variant carries a TSEMP cannon, ER PPC, and Streak SRM-6.
+
 history:First used against Inner Sphere forces during the Battle of Luthien, the successful Shadow Cat was subsequently deployed by the Clans against ComStar during the Battle of Tukayyid. The Shadow Cat is one of the few Invasion-era Clan 'Mechs to lack a separate Inner Sphere designation; every Inner Sphere pilot who encountered the 'Mech before the Battle of Tukayyid was killed in action, and ComStar was informed of its designation before that battle which resulted in both sides using the same name to refer to the Shadow Cat. Production of the Shadow Cat in the Clan Homeworlds faltered in the years after the Great Refusal, and stopped altogether around the time of the Wars of Reaving. This 'Mech was one of several older designs that were being phased out of manufacture in the Homeworlds. The reasons for the cessation of Shadow Cat production were never explicitly given, but it is possible that the 'Mech's association with the exiled Clan Nova Cat played a role in the decision to phase out this 'Mech. In the Inner Sphere, however, no such reservations existed - despite its historical associations, the Shadow Cat remains a highly successful design that has seen continued production by Clan Nova Cat well into the Dark Age period. Rights to produce the 'Mech were acquired by the rechristened Clan Sea Fox, who continue to sell Shadow Cats to most Clans and even Inner Sphere militaries.
+
 manufacturer:Barcella Beta, Clan Protectorate Arms
 primaryfactory:Barcella, Irece, Asellus Australis
 notes:The Shadow Cat was such a successful design that it has seen continued production by Clan Nova Cat well into the Dark Age period.

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,61 +15,65 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stag
 model:ST-14G
 mul id:3033
+source:JSBD
 
 Config:Biped
-techbase:Inner Sphere
-era:2823
-source:JSBD
-rules level:2
+TechBase:Inner Sphere
+Era:2823
+Rules Level:2
 role:Striker
 
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
 weaponquirk:stable_weapon:RA:3:ISERLargeLaser
 
-mass:45
-engine:270 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:6
-jump mp:0
+Mass:45
+Engine:270 XL Engine
+Structure:Endo Steel
+Myomer:MASC
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:21
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:0
 
-Weapons:5
-Medium Laser, Left Arm
-ER Large Laser, Right Arm
-SRM 4, Left Torso
-SRM 4, Right Torso
-Medium Laser, Head
+Armor:Standard
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:21
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
+
+Weapons:6
+1 ISERLargeLaser, Right Arm
+1 ISMediumLaser, Left Arm
+1 ISSRM4, Right Torso, Ammo:50
+1 ISSRM4, Left Torso
+1 ISBeagleActiveProbe, Left Torso
+1 ISMediumLaser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMediumLaser
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -81,9 +85,9 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -93,28 +97,28 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-SRM 4
-IS Ammo SRM-4
-IS Ammo SRM-4
-BeagleActiveProbe
-BeagleActiveProbe
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISSRM4
+ISSRM4 Ammo
+ISSRM4 Ammo
+ISBeagleActiveProbe
+ISBeagleActiveProbe
 ISCASE
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-SRM 4
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISSRM4
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -135,7 +139,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Medium Laser
+ISMediumLaser
 Sensors
 Life Support
 -Empty-
@@ -150,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +168,11 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-

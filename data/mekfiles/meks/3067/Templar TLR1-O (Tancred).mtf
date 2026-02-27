@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar
 model:TLR1-O (Tancred)
 mul id:5193
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3067
-source:TR:3067
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3067
+Source:TR:3067
+Rules Level:2
 role:Brawler
+
+
 
 quirk:easy_maintain
 
-mass:85
-engine:340 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:13 IS Double
-base chassis heat sinks:13
-walk mp:4
-jump mp:0
+Mass:85
+Engine:340 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:26
-RT armor:26
-CT armor:44
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:13 Double
+Base Chassis Heat Sinks:13
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:28
+RA Armor:28
+LT Armor:26
+RT Armor:26
+CT Armor:44
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:6
 Rotary AC/5, Left Arm
@@ -63,12 +65,12 @@ ER Medium Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -77,28 +79,28 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISRotaryAC5 (OMNIPOD)
-ISERLargeLaser (OMNIPOD)
-ISERLargeLaser (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISRotaryAC5 (omnipod)
+ISERLargeLaser (omnipod)
+ISERLargeLaser (omnipod)
+ISERMediumLaser (omnipod)
 IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
 IS Endo Steel
 IS Endo Steel
 
@@ -106,11 +108,11 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
-ISRotaryAC5 Ammo (OMNIPOD)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
+ISRotaryAC5 Ammo (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -127,14 +129,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISERMediumLaser (OMNIPOD)
+ISERMediumLaser (omnipod)
 IS Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-ISERMediumLaser (OMNIPOD)
+ISERMediumLaser (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -172,9 +174,12 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-capabilities:Configured for Tancred Sandoval, this configuration carries two Rotary Autocannon/5s that can fire at a rate six times as fast as a standard autocannon. These are backed up by three ER Medium Lasers for close combat. For long range engagements, the Tancred configuration has a single ER Large Laser. All of these weapons are linked to a Targeting Computer, giving them increased accuracy.
+capabilities:Configured for Tancred Sandoval, this configuration carries two Rotary Autocannon/5s that can fire at a rate six times as fast as a standard autocannon. These are backed up by three ER Medium Lasers for close combat. For long range engagements, the Tancred configuration has a single ER Large Laser. All of these weapons are linked to a Targeting Computer, giving them increased accuracy. 
+
 deployment: The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h while sacrificing durability. The Templar has thirteen fixed double heat sinks and is armored with sixteen and a half tons of Starshield A armor with CASE fixed in the right torso. Overall, this allows the Templar to have forty tons of free pod space for weapons and equipment which the 'Mech uses effectively in its various configurations.
+
 history:With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.
+
 manufacturer:Kallon Industries
 primaryfactory:Talon
 systemmanufacturer:CHASSIS:Kallon Type XIX Endo Steel
@@ -182,3 +187,4 @@ systemmanufacturer:ENGINE:KalTek 340 Extralight
 systemmanufacturer:ARMOR:Starshield A with CASE
 systemmanufacturer:COMMUNICATIONS:Newberg Telescan 17
 systemmanufacturer:TARGETING:Spar 3C MegaTrak
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ghost
 model:GST-50
 mul id:6907
 
 Config:Biped
-techbase:Inner Sphere
-era:3087
-source:RS:3145-NTNU
-rules level:2
+TechBase:Inner Sphere
+Era:3087
+Source:RS:3145-NTNU
+Rules Level:2
 role:Striker
 
+
+
 quirk:ext_twist
-quirk:imp_sensors
 quirk:imp_com
+quirk:imp_sensors
 
-mass:50
-engine:300 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:50
+Engine:300 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(IS/Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:4
-ER Small Laser, Right Arm
 Large Pulse Laser, Left Torso
 Large Pulse Laser, Right Torso
+ER Small Laser, Right Arm
 SRM 6, Center Torso
 
 Left Arm:
@@ -170,4 +172,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

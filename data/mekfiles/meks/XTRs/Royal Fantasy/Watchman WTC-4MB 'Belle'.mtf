@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Watchman
 model:WTC-4MB 'Belle'
 mul id:8371
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3144
@@ -27,9 +25,12 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Scout
 
-quirk:easy_pilot
+
+
 quirk:easy_maintain
+quirk:easy_pilot
 quirk:rugged_1
+
 
 mass:40
 engine:200 Light Engine(IS)
@@ -54,11 +55,11 @@ RTR armor:6
 RTC armor:7
 
 Weapons:5
+ER Medium Laser, Right Arm
+ER Medium Laser, Left Torso
+ER Medium Laser, Left Torso
+ER Medium Laser, Right Arm
 Large Re-engineered Laser, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
 
 Left Arm:
 Shoulder
@@ -171,4 +172,5 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

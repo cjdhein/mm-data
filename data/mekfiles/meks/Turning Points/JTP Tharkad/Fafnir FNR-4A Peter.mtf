@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,104 +15,100 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fafnir
 model:FNR-4A (Peter)
 mul id:1020
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:JTP:Tharkad
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Rules Level:2
 role:Juggernaut
+Source:JTP:Tharkad
+
+
 
 quirk:no_arms
 weaponquirk:stable_weapon:RT:1:ISHeavyGaussRifle
 
-mass:100
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:13 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:13 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:16
-Medium Pulse Laser, Left Arm
-Rocket Launcher 10, Left Arm
-Rocket Launcher 10, Left Arm
-Rocket Launcher 10, Left Arm
-Medium Pulse Laser, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-Rocket Launcher 10, Right Arm
-ER Large Laser, Left Torso
-ER Large Laser, Left Torso
-Rocket Launcher 10, Left Torso
-Rocket Launcher 10, Left Torso
-Rocket Launcher 10, Left Torso
-Heavy Gauss Rifle, Right Torso
-Rocket Launcher 10, Center Torso
-Medium Pulse Laser, Head
+Armor:Standard
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
+
+Weapons:11
+1 ISMediumPulseLaser, Right Arm
+3 ISRocketLauncher10, Right Arm
+1 ISMediumPulseLaser, Left Arm
+3 ISRocketLauncher10, Left Arm
+1 ISHeavyGaussRifle, Right Torso, Ammo:16
+2 ISERLargeLaser, Left Torso
+3 ISRocketLauncher10, Left Torso
+1 ISGuardianECM, Center Torso
+1 ISC3SlaveUnit, Center Torso
+1 ISRocketLauncher10, Center Torso
+1 ISMediumPulseLaser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 ISMediumPulseLaser
-RL10
-RL10
-RL10
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 ISMediumPulseLaser
-RL10
-RL10
-RL10
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
 ISHeavyGauss Ammo
 ISHeavyGauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERLargeLaser
 ISERLargeLaser
 ISERLargeLaser
 ISERLargeLaser
-RL10
-RL10
-RL10
-IS Endo Steel
-IS Endo Steel
+ISRocketLauncher10
+ISRocketLauncher10
+ISRocketLauncher10
+Endo Steel
+Endo Steel
 
 Right Torso:
 ISCASE
@@ -137,10 +133,10 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 ISC3SlaveUnit
-RL10
+ISRocketLauncher10
 
 Head:
 Life Support
@@ -161,8 +157,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -183,4 +179,3 @@ ISHeavyGauss Ammo
 -Empty-
 -Empty-
 -Empty-
-

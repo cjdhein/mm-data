@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Firestarter
 model:FS9-X81
 mul id:1092
 
 Config:Biped
-techbase:Inner Sphere
-era:3074
+TechBase:Inner Sphere
+Era:3074
 source:XTR:Corps
-rules level:4
+Rules Level:4
 role:Striker
 
+Mass:35
+Engine:210 XXL Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-mass:35
-engine:210 XXL Engine
-structure:IS Standard
-myomer:Standard
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
-
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:11
-RT armor:11
-CT armor:13
-HD armor:9
-LL armor:8
-RL armor:8
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Armor:Standard Armor
+LA Armor:6
+RA Armor:6
+LT Armor:11
+RT Armor:11
+CT Armor:13
+HD Armor:9
+LL Armor:8
+RL Armor:8
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:6
-Flamer, Left Arm
-Medium X-Pulse Laser, Left Arm
-Plasma Rifle, Right Arm
-Medium X-Pulse Laser, Right Arm
-Flamer, Center Torso
-Flamer, Center Torso
+1 ISFlamer, Center Torso
+1 ISFlamer, Left Arm
+1 ISFlamer (R), Center Torso (R)
+1 ISMediumXPulseLaser, Right Arm
+1 ISMediumXPulseLaser, Left Arm
+1 ISPlasmaRifle, Right Arm, Ammo:10
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Flamer
+ISFlamer
 ISMediumXPulseLaser
 -Empty-
 -Empty-
@@ -78,7 +76,7 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISPlasmaRifle
 ISPlasmaRifle
-ISPlasmaRifleAmmo
+ISPlasmaRifle Ammo
 ISMediumXPulseLaser
 -Empty-
 -Empty-
@@ -87,46 +85,46 @@ ISMediumXPulseLaser
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Flamer
-Flamer (R)
+Engine
+Engine
+Engine
+ISFlamer
+ISFlamer (R)
 
 Head:
 Life Support
@@ -135,24 +133,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -163,17 +149,15 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 overview:Originally intended as a mobile incendiary ’Mech, the Firestarter evolved into a decent scouting and reconnaissance platform.
+
 capabilities:Despite being shielded by five and a half tons of armor and capable of jumping 180 meters, the Firestarter was powerless against medium or heavyweight opponents. Instead, an entire strategy was built around its ability to cause wildfires, with strategically positioned blazes routing an opponent or covering a withdrawal and impeding any pursuit. Firestarter MechWarriors enjoyed setting fire to densely forested areas when enemy 'Mechs marched through them, as well as any buildings where the enemy was hiding. Other applications for the 'Mech included scorched earth tactics, though this grew less common as it became more important to capture rather than destroy the declining amount of precious resources, or leading units of Wasps and Stingers in deep penetration scouting and light raiding operations. This approach altered in the later Succession Wars when it was discovered that the Firestarter could not only set flames to prevent an enemy from following it, but also clear ambush spots for the advancing of friendly forces.
+
 deployment:This is an experimental prototype of the Firestarter that was created by Defiance Industries of Kwangjong-ni. Only three of these prototypes were produced as of 3074, and suffered from developmental problems with their components. Using the FS9-H as its base, the 'Mech is fitted with an XXL engine, a plasma rifle with 10 rounds as its main weapon, and a pair of medium X-Pulse lasers, both mounted in the right arm. The 'Mech retains the original base model's flamers and jump capabilities.
+
 history:Firestarters, both ancient and contemporary, can still be found in abundance among planetary militias and House troops. Even though Blakist forces have taken over CMW's principal plant on Coventry, spare parts are still accessible from other Firestarter producers (including LAW, Ceres Metals, Defiance, and Independence Weaponry). Loki field offices near the Circinus Federation frontier are concerned about reports of a new variety using endo steel technology on Federation-occupied worlds. With its particular load-out, this new variation appears to be designed to spread chaos and destruction. Firestarters have also been seen in Level II formations with Blakist soldiers in their Protectorate, most frequently at "police demonstrations" and guarding suspected prison sites. These versions are thought to be Coventry goods.
+
 manufacturer:Defiance Industries (Refit)
 primaryfactory:Kwangjong-ni
 systemmanufacturer:CHASSIS:Argile H/09

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Apollo
 model:APL-2S
 mul id:56
 
 Config:Biped
-techbase:Inner Sphere
-era:3056
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3055U
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:fast_reload
 quirk:rugged_1
 
-mass:55
-engine:220 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:55
+Engine:220 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:28
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:28
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:4
 LRM 15, Left Torso
@@ -169,4 +171,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

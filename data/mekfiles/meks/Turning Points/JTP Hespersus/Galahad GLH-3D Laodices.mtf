@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Galahad
 model:GLH-3D (Laodices)
 mul id:6978
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
-source:JTP:Hesperus II
-rules level:4
+TechBase:Inner Sphere
+Era:3070
+Source:JTP:Hesperus II
+Rules Level:4
 role:Sniper
+
+
 
 quirk:difficult_maintain
 
-mass:60
-engine:240 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:60
+Engine:240 Light Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Compact Gyro
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:3
-Light Gauss Rifle, Left Arm
-ER PPC, Right Arm
 Light PPC, Center Torso
+ER PPC, Right Arm
+Light Gauss Rifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -69,8 +71,8 @@ ISLightGaussRifle
 IS Light Gauss Ammo
 IS Light Gauss Ammo
 IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -79,25 +81,25 @@ ISERPPC
 ISERPPC
 ISERPPC
 PPC Capacitor
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -106,13 +108,13 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -172,8 +174,11 @@ IS Endo Steel
 
 overview:Born from the Terran Hegemony's attempts to create a medium fire-support platform that would be more advanced than the RLN-1N Rifleman.
 capabilities:The Galahad utilizes special building materials in the form of eleven tons of Ferro-Fibrous armor and Endo Steel internals. To fit the massive weapons on the Galahad, the engine was dropped to a GM 180, giving it a maximum speed of only 54 km/h, making it difficult for the 'Mech to keep up with its companions in most cases.
+
 deployment:This custom variant of the Galahad was used by Phantom Demi-Precentor Delta Laodices, a commander of the 40th Shadow Division. It uses a Small Cockpit, an Improved C3 Computer, one Light Gauss Rifle, and a Guardian ECM Suite - just like a standard 3D Galahad. It differs, however, in that it drops the other Light Gauss Rifle and one ton of ammunition, replacing them with an ER PPC enhanced by an experimental PPC Capacitor in the right arm. In addition, a Light PPC is mounted in the center torso. These modifications allow the 'Mech to remain in combat for far longer.
+
 history:Mitchell Vehicles unveiled the GLH-1D Galahad in 2570. Though it outgunned the earlier design and found significant acceptance within the Hegemony Armed Forces, the Galahad suffered from the same heat issues as the BattleMech it was meant to replace. With the development of the new Gauss Rifle, Mitchell Vehicles decided in 2594 to redesign the Galahad around these new weapons, changing it into a heavy design in the process. Production of the 2D Galahad continued for almost two centuries, only stopping when the Graham IV manufacturing center was destroyed during the First Succession War. While the older GLH-1D did spread to the Member State militaries, because the GLH-2D possessed so much advanced technology, the Galahad was mainly (but not exclusively) reserved for SLDF Royal Units. Most functioning GLH-2D Galahads departed the Inner Sphere during Kerensky's Exodus. Though sizable numbers of the less advanced GLH-1D remained behind, the technological decline of the Succession Wars era soon made it impossible for the Inner Sphere to maintain either variant. Outside the secret stockpiles of ComStar and patchwork examples in the Periphery or other backwaters, the Galahad was one of many designs that disappeared from the battlefield. During the Word of Blake Jihad, the Blakists put the Galahad back in production for the first time in centuries at the massive Defiance Industries plant on Hesperus II. After the factory was retaken by the Lyran Alliance and its allies, production of the 'Mech would continue for the Lyrans as of 3079.
+
 manufacturer:Mitchell Vehicles, Defiance Industries
 primaryfactory:Graham IV (destroyed 2775), Hesperus II
 systemmanufacturer:CHASSIS:Star League VI

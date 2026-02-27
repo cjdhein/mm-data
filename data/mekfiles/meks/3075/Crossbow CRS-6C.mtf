@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crossbow
 model:CRS-6C
 mul id:734
 
 Config:Biped
-techbase:Inner Sphere
-era:2481
-source:TR:3075
-rules level:1
+TechBase:Inner Sphere
+Era:2481
+Source:TR:3075
+Rules Level:1
 role:Skirmisher
 
 quirk:poor_target_long
 
-mass:60
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:13
-RA armor:13
-LT armor:14
-RT armor:14
-CT armor:17
-HD armor:8
-LL armor:16
-RL armor:16
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:13
+RA Armor:13
+LT Armor:14
+RT Armor:14
+CT Armor:17
+HD Armor:8
+LL Armor:16
+RL Armor:16
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:3
 Medium Laser, Left Arm
-AC/10, Right Arm
-PPC, Right Torso
+Autocannon/10, Right Arm
+Particle Cannon, Right Torso
 
 Left Arm:
 Shoulder
@@ -99,9 +99,9 @@ Left Torso:
 -Empty-
 
 Right Torso:
-PPC
-PPC
-PPC
+Particle Cannon
+Particle Cannon
+Particle Cannon
 -Empty-
 -Empty-
 -Empty-
@@ -169,8 +169,11 @@ Foot Actuator
 -Empty-
 
 overview:The predecessor to Clan Steel Viper's Crossbow OmniMech, the original Crossbow first saw battlefield action for the Lyran Commonwealth in 2468. The 60-ton 'Mech is speedy for its era, capable of 86 km/h. This came at the expense of armor, however, as the Crossbow is only protected by eight tons of armor.
+
 capabilities:This variant introduced in 2481, meant for close-quarters action, removed the missile launchers and one laser in favor of an Autocannon/10, though it had a limited ammunition supply
+
 history:The production model, the 6B, came a few years later. The heavy 'Mech was the first produced by Arcturan Arms and the third homegrown BattleMech produced in the Commonwealth. Arcturan Arms fell on hard times when the capital was relocated from Arcturus to Tharkad, forcing them to shut down the factory in 2490 after producing only a few hundred Crossbows. MacEnroe Motors bought out the financially troubled company in 2541, which shut down Crossbow production in 2550.
+
 manufacturer:Arcturan Arms, MacEnroe Motors
 primaryfactory:Arcturus
 systemmanufacturer:CHASSIS:Arc Walker 6X-B

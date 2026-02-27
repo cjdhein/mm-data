@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dark Crow
 model:3
 mul id:825
 
 Config:Biped
-techbase:Clan
-era:3084
+TechBase:Clan
+Era:3084
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Striker
 
 quirk:low_arms
 
-mass:55
-engine:330 XXL (Clan) Engine
-structure:Clan Endo-Composite
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:6
+Mass:55
+Engine:330 XXL (Clan) Engine
+Structure:Endo-Composite
+Myomer:Standard
 
-armor:Ferro-Lamellor(Clan)
-LA armor:10
-RA armor:10
-LT armor:16
-RT armor:16
-CT armor:18
-HD armor:9
-LL armor:12
-RL armor:12
-RTL armor:3
-RTR armor:3
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Ferro-Lamellor(Clan)
+LA Armor:10
+RA Armor:10
+LT Armor:16
+RT Armor:16
+CT Armor:18
+HD Armor:9
+LL Armor:12
+RL Armor:12
+RTL Armor:3
+RTR Armor:3
+RTC Armor:3
 
 Weapons:4
 Rotary AC/2, Left Arm
@@ -64,12 +64,12 @@ CLRotaryAC2
 CLRotaryAC2
 CLRotaryAC2
 CLRotaryAC2
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 
 Right Arm:
 Shoulder
@@ -78,12 +78,12 @@ CLRotaryAC2
 CLRotaryAC2
 CLRotaryAC2
 CLRotaryAC2
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
-Clan Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
+Ferro-Lamellor
 
 Left Torso:
 Fusion Engine
@@ -97,7 +97,7 @@ Jump Jet
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLRotaryAC2 Ammo
-Clan Endo-Composite
+Endo-Composite
 
 Right Torso:
 Fusion Engine
@@ -111,7 +111,7 @@ Jump Jet
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLRotaryAC2 Ammo
-Clan Endo-Composite
+Endo-Composite
 
 Center Torso:
 Fusion Engine
@@ -124,14 +124,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Liquid Storage:SIZE:1.0
-Clan Endo-Composite
+Liquid Storage (1 ton)
+Endo-Composite
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo-Composite
+Endo-Composite
 Sensors
 Life Support
 -Empty-
@@ -168,4 +168,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

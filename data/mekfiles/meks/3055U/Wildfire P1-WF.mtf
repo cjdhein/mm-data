@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,55 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wildfire
 model:P1-WF
 mul id:5409
 
 Config:Biped
-techbase:Inner Sphere
-era:3053
-source:Unbound
-rules level:4
+TechBase:Inner Sphere
+Era:3053
+Source:Unbound
+Rules Level:4
 role:Skirmisher
 
-quirk:prototype
+
+
+
 quirk:non_standard
+quirk:prototype
 
-mass:65
-engine:390 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
 
-heat sinks:13 IS Double
-walk mp:6
-jump mp:0
+Mass:65
+Engine:390 XL Fusion Engine
+Structure:Endo-Steel
+Cockpit:Torso-Mounted Cockpit
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:24
-RT armor:24
-CT armor:33
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:13 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:20
+RA Armor:20
+LT Armor:24
+RT Armor:24
+CT Armor:33
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:7
-Streak SRM 2, Left Leg
-Streak SRM 2, Right Leg
-Large Pulse Laser, Left Arm
-Medium Pulse Laser, Left Arm
-Small Pulse Laser, Right Arm
-Machine Gun, Right Arm
-Machine Gun, Head
+1 ISMachine Gun, Right Arm, Ammo:200
+1 ISMachine Gun, Head
+1 ISLargePulseLaser, Left Arm
+1 ISMediumPulseLaser, Left Arm
+1 ISSmallPulseLaser, Right Arm
+1 ISStreakSRM2, Right Leg, Ammo:50
+1 ISStreakSRM2, Left Leg
 
 Left Arm:
 Shoulder
@@ -70,12 +72,12 @@ Lower Arm Actuator
 ISLargePulseLaser
 ISLargePulseLaser
 ISMediumPulseLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -83,69 +85,63 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISSmallPulseLaser
-Machine Gun
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISMachine Gun
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
+Engine
+Engine
+Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Torso:
+Engine
+Engine
+Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Ammo MG - Full
-IS Streak SRM 2 Ammo
+ISMG Ammo (200)
+ISStreakSRM2 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Cockpit
 Sensors
 
 Head:
 Sensors
 Sensors
-Machine Gun
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+ISMachine Gun
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Leg:
 Hip
@@ -153,13 +149,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISStreakSRM2
-IS Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Ferro-Fibrous
 
 Right Leg:
 Hip
@@ -167,11 +157,4 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 ISStreakSRM2
-IS Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Ferro-Fibrous

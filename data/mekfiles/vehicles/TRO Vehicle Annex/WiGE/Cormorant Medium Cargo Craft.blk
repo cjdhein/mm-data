@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -24,9 +33,9 @@ SupportTank
 Cormorant Medium Cargo Craft
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 4004
@@ -35,10 +44,6 @@ Cormorant Medium Cargo Craft
 <year>
 2690
 </year>
-
-<originalBuildYear>
-2690
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -53,7 +58,7 @@ WiGE
 </motion_type>
 
 <transporters>
-cargobay:29.0:1:1::-1:0
+cargobay:29:1
 </transporters>
 
 <cruiseMP>
@@ -64,17 +69,9 @@ cargobay:29.0:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<fuel>
+4
+</fuel>
 
 <armor>
 10
@@ -82,6 +79,14 @@ cargobay:29.0:1:1::-1:0
 10
 9
 </armor>
+
+<barrating>
+6
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
 
 <Body Equipment>
 AmphibiousChassis
@@ -102,17 +107,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<barrating>
-6
-</barrating>
+<source>
+TR:VAr
+</source>
 
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
+<tonnage>
+70.0
+</tonnage>
 
 <capabilities>
 The Cormorant is designed to be a seaborne capable craft, which has an Amphibious Chassis for water landings. It has a Cargo Bay with a 30.5 ton capacity, with a rear-mounted bay door. It has a 1.5 tons of BAR 6 rated commercial armor protecting the craft from light damage.
@@ -142,24 +143,7 @@ Ruchbah
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-70.0
-</tonnage>
-
-<fuel>
-4.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-

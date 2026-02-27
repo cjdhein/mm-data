@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Missile Boat
 WiGE
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 4
 </cruiseMP>
@@ -60,29 +72,9 @@ WiGE
 0
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -100,7 +92,6 @@ false
 <Body Equipment>
 Clan Ammo LRM-15 (10)
 Clan Ammo LRM-15 (10)
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -122,6 +113,14 @@ CLLRM15
 <Main Gun Equipment>
 CLLRM15
 </Main Gun Equipment>
+
+<source>
+TR:Proto
+</source>
+
+<tonnage>
+14.0
+</tonnage>
 
 <capabilities>
 The Svartalfa is 50 percent larger than any other known ProtoMech. To match its huge size, the Svartalfa possesses a tremendous quantity of armor, with more than three tons of UltraProto Standard, it is more protected than most light 'Mechs. However its slow ground speed of 10 km/h, which is matched by unarmored troops, could be its undoing. Apart from obvious variances from other ProtoMech designs, the Svartalfa's size allows it to be configured with a larger-than-average cockpit, allowing even Elemental breeding line pilots to manage this one-of-a-kind Proto.
@@ -151,16 +150,7 @@ Kirchbach
 CHASSIS:SVA-14 Glider
 ENGINE:60 Fusion
 ARMOR:UltraProto Standard
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:Proto
-</source>
-
-<tonnage>
-14.0
-</tonnage>
-

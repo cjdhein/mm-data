@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ti Ts'ang
 model:TSG-9C
 mul id:3252
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3060
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:hyper_actuator
 
-mass:60
-engine:360 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:60
+Engine:360 XL Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:5
 Plasma Rifle, Left Arm
@@ -64,10 +66,10 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISPlasmaRifle
 ISPlasmaRifle
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -81,10 +83,10 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -93,12 +95,12 @@ Fusion Engine
 Jump Jet
 ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
+TSM
+TSM
 
 Right Torso:
 Fusion Engine
@@ -107,12 +109,12 @@ Fusion Engine
 Jump Jet
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -169,4 +171,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

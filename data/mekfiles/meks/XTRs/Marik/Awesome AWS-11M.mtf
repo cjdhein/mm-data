@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,63 +15,64 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Awesome
 model:AWS-11M
 mul id:173
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3079
-source:XTR:Marik
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3079
+Source:XTR:Marik
+Rules Level:3
 role:Sniper
+
+
 
 quirk:battle_fists_la
 
-mass:80
-engine:240 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:20 Clan Double
-walk mp:3
-jump mp:0
+Mass:80
+Engine:240 Fusion Engine (Clan)
+Structure:Standard
+Gyro:Compact Gyro
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:34
-HD armor:9
-LL armor:33
-RL armor:33
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:20 Double (Clan)
+Walk MP:3
+Jump MP:0
+
+Armor:Standard Armor (Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:34
+HD Armor:9
+LL Armor:33
+RL Armor:33
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:8
-Light PPC, Left Arm
-Light PPC, Right Arm
-Light PPC, Left Torso
-Light PPC, Left Torso
-Light PPC, Right Torso
-Light PPC, Right Torso
-Light PPC, Center Torso
-Light PPC, Center Torso
+1 ISLightPPC, Center Torso
+1 ISLightPPC, Center Torso
+1 ISLightPPC, Left Torso
+1 ISLightPPC, Left Torso
+1 ISLightPPC, Right Torso
+1 ISLightPPC, Right Torso
+1 ISLightPPC, Left Arm
+1 ISLightPPC, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
-Light PPC
-Light PPC
+CLDouble Heat Sink
+CLDouble Heat Sink
+ISLightPPC
+ISLightPPC
 -Empty-
 -Empty-
 -Empty-
@@ -82,56 +83,56 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-Light PPC
-Light PPC
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+ISLightPPC
+ISLightPPC
 -Empty-
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-Light PPC
-Light PPC
-PPC Capacitor
-Light PPC
-Light PPC
-PPC Capacitor
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+ISLightPPC
+ISLightPPC
+ISLightPPCCapacitor
+ISLightPPC
+ISLightPPC
+ISLightPPCCapacitor
 
 Right Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-Light PPC
-Light PPC
-PPC Capacitor
-Light PPC
-Light PPC
-PPC Capacitor
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+ISLightPPC
+ISLightPPC
+ISLightPPCCapacitor
+ISLightPPC
+ISLightPPC
+ISLightPPCCapacitor
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Light PPC
-Light PPC
-Light PPC
-Light PPC
+Engine
+Engine
+Engine
+ISLightPPC
+ISLightPPC
+ISLightPPC
+ISLightPPC
 
 Head:
 Life Support
@@ -140,45 +141,31 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 overview:The Awesome was designed in 2665 for the Star League by the Technicron Conglomorate and was based on the aging STR-2C Striker. While not as fast as its forefather, the Awesome is a strong assault 'Mech.
+
 capabilities:The Awesome's abilities are nearly entirely dependent on its particle projection cannons. The AWS can withstand a severe and consistent onslaught from its weaponry thanks to several heat sinks. With one and a half tons more armor than the Striker, the AWS is more protected than even the BattleMaster. The Awesome, like any other BattleMech, has weaknesses. While it is lethal at range, it is less effective in close-quarters combat since its PPCs have a tougher time connecting with the victim. In that case, it just possesses a light weapon and a left fist to fall back on. Because of its limited mobility, it is vulnerable to flanking attacks from speedier opponents seeking to get past the PPCs. While they face arguably of the heaviest rear armor found on any BattleMech, the Awesome's lack of rear facing armaments or a weapon mount on its left arm has offered numerous MechWarriors a fighting chance. Formations of Awesomes (or even just a few) are incredibly effective and tough to stop or defeat when correctly placed by commanders who are knowledgeable of the AWS's limitations.
+
 deployment:This advanced tech variant of the Awesome was introduced during the end of the Jihad in 3079, and uses eight Light PPCs as its main armament. To improve the damage potential of the 'Mech, half of those PPCs are equipped with experimental PPC Capacitors. Technicron engineers were forced to reduce the top speed of the Awesome to that of an 8Q, and to provide the room for two of the Light PPCs, they had to equip the 11M with a heavy Compact Gyro. To offset the heat caused by the eight PPCs and capacitors, the engineers used twenty Clan-spec Double Heat Sinks.
+
 history:Awesomes can be found in every military House. Because the Free Worlds League has the last remaining manufacturing factories capable of generating the Awesome, it also has the most Awesomes of any of the Great Houses. Opinions on the 'Mech vary greatly within the League. Many people laud its powers, while others believe that its limited mobility is too high a price to pay for what it can do. Similar sentiments exist in the other Houses, but none of them can debate the issue beyond academics. Few commanders would turn down the opportunity to acquire an Awesome for their army. The Awesome is typically used to assault a fixed position or to breach the enemy's line of defense. They are also in demand for defensive operations. MechWarriors piloting the Awesome can expect to be involved in heavy battle and to be charged with obtaining or guarding the most crucial objectives from the adversary.
+
 manufacturer:Technicron Manufacturing/Irian BattleMechs Unlimited
 primaryfactory:Tongatapu
 systemmanufacturer:CHASSIS:Technicron Type G

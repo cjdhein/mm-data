@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,27 +15,28 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gladiator
 clanname:Executioner
 model:Prime
 mul id:1211
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3001
 source:TR:3050
 rules level:2
 role:Sniper
 
+
 quirk:distracting
 
+
 mass:95
-engine:380 XL (Clan) Engine
+engine:380 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:19 Clan Double
+heat sinks:19 Double
 base chassis heat sinks:15
 walk mp:4
 jump mp:4
@@ -63,14 +64,14 @@ Machine Gun, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 
@@ -79,20 +80,20 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERLargeLaser (omnipod)
+CLERLargeLaser (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-Clan Gauss Ammo (OMNIPOD)
-Clan Gauss Ammo (OMNIPOD)
+Clan Gauss Ammo (omnipod)
+Clan Gauss Ammo (omnipod)
 CLMASC
 CLMASC
 CLMASC
@@ -107,9 +108,9 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLMG (OMNIPOD)
-CLMG (OMNIPOD)
-Clan Machine Gun Ammo - Full (OMNIPOD)
+CLMG (omnipod)
+CLMG (omnipod)
+Clan Machine Gun Ammo - Full (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -172,10 +173,12 @@ Jump Jet
 -Empty-
 -Empty-
 
-overview:Fast and powerful, the Executioner, known as the Gladiator in the Inner Sphere, is an assault OmniMech often deployed by Clan Ghost Bear. Though originally produced by Clan Ghost Bear, design schematics for the Executioner were actually acquired in a trial with Clan Burrock. Using a massive Heavy Force 380 XL Engine, the Executioner has a top speed of 64.8 km/h. A MASC system enhances the top speed to 86.4 km/h (albeit only in short bursts), and four permanently mounted Pryzhok WM10 jump jets give the 'Mech the ability to propel itself 120 meters into the air. This unusual emphasis on speed gives the Executioner unmatched speed for its weight class, as it is often capable of keeping up with 'Mechs twenty or thirty tons lighter than itself. The Executioner also carries thirteen and a half tons of Ferro-Fibrous armor, which is below average for its weight class, but generally adequate. Sixteen double heat sinks are mounted to cool the 'Mech down.
+overview:Fast and powerful, the Executioner, known as the Gladiator in the Inner Sphere, is an assault OmniMech often deployed by Clan Ghost Bear. Though originally produced by Clan Ghost Bear, design schematics for the Executioner were actually acquired in a trial with Clan Burrock. Using a massive Heavy Force 380 XL Engine, the Executioner has a top speed of 64.8 km/h. A MASC system enhances the top speed to 86.4 km/h (albeit only in short bursts), and four permanently mounted Pryzhok WM10 jump jets give the 'Mech the ability to propel itself 120 meters into the air. This unusual emphasis on speed gives the Executioner unmatched speed for its weight class, as it is often capable of keeping up with 'Mechs twenty or thirty tons lighter than itself. The Executioner also carries thirteen and a half tons of Ferro-Fibrous armor, which is below average for its weight class, but generally adequate. Sixteen double heat sinks are mounted to cool the 'Mech down. 
+
 capabilities:The Executioner's primary configuration uses its mobility to keep enemies as far away as possible. A Gauss Rifle is the 'Mech's primary weapon, backed up by dual ER Large Lasers, which give it excellent direct firepower. For use against soft targets and possibly any light vehicles that manage to close the ranges, the Executioner carries two Machine Guns. This makes the 'Mech very effective in an open battlefield, but makes it virtually useless should it encounter a faster enemy with enough firepower, or a physical barrier.
+
 deployment:Even though the design has not been used since the 3060s, the Home Clans withdrew it from use after the Wars of Reaving, possibly due to its reputation with the Spheroid Clans like Clan Ghost Bear.
-manufacturer:Alshain BattleWorx
+manufacturer:Alshain BattleWorx 
 primaryfactory:Alshain
 systemmanufacturer:CHASSIS:Clan Series Assault SXE
 systemmanufacturer:ENGINE:380 Heavy Force XL

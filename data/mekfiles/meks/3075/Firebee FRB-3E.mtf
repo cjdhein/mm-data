@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Firebee
 model:FRB-3E
 mul id:1080
 
 Config:Biped
-techbase:Inner Sphere
-era:3071
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:3071
+Source:TR:3075
+Rules Level:2
 role:Brawler
 
-quirk:weak_legs
+
+
 quirk:poor_life_support
+quirk:weak_legs
 
-mass:35
-engine:175 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Small Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:35
+Engine:175 Fusion Engine
+Structure:Standard
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:XL Gyro
 
-armor:Stealth(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:10
-RT armor:10
-CT armor:14
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Stealth
+LA Armor:10
+RA Armor:10
+LT Armor:10
+RT Armor:10
+CT Armor:14
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:2
 Plasma Rifle, Right Arm
@@ -63,8 +65,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -82,8 +84,8 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISPlasmaRifle
 ISPlasmaRifle
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 
 Left Torso:
@@ -96,8 +98,8 @@ ISMML5
 IS Ammo MML-5 LRM
 IS Ammo MML-5 SRM
 ISCASE
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 
 Right Torso:
@@ -108,8 +110,8 @@ ISGuardianECMSuite
 ISGuardianECMSuite
 ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

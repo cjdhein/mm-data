@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Toro
 model:TR-A-6
 mul id:3277
 
 Config:Biped
-techbase:Inner Sphere
-era:2548
-source:TR:3075
-rules level:1
+TechBase:Inner Sphere
+Era:2548
+Source:TR:3075
+Rules Level:1
 role:Missile Boat
+
+
 
 quirk:cramped_cockpit
 
-mass:35
-engine:175 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:5
-jump mp:0
+Mass:35
+Engine:175 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:11
-RT armor:11
-CT armor:14
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:3
-RTR armor:3
-RTC armor:5
+Heat Sinks:10 Single
+Walk MP:5
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:11
+RT Armor:11
+CT Armor:14
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:3
+RTR Armor:3
+RTC Armor:5
 
 Weapons:3
-PPC, Left Arm
+Particle Cannon, Left Arm
 LRM 5, Left Torso
 LRM 5, Right Torso
 
@@ -61,9 +63,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Heat Sink
-PPC
-PPC
-PPC
+Particle Cannon
+Particle Cannon
+Particle Cannon
 -Empty-
 -Empty-
 -Empty-
@@ -169,9 +171,13 @@ Foot Actuator
 -Empty-
 
 overview:The Toro was the Taurian Concordat's first indigenous BattleMech. First produced in 2481, the design was based on captured Firebees and developed as a collaboration between the three best arms manufacturers in the Concordat.
+
 capabilities:The light 'Mech is slow by 31st century standards, but it was quite maneuverable for the Age of War. The design topped out at 86 km/h. It was protected by a respectable six and a half tons of armor. Its comparatively low cost allowed entire battalions to swiftly be equipped with BattleMechs
+
 deployment:The Toro was a long-range fighter. It was armed with a Taurus WarWorks PPC and two Delta Dart LRM-5 launchers. The standard allotment of heat sinks was sufficient as long as the MechWarrior managed his or her heat wisely. Two tons of ammunition kept the Toro in protracted engagements and allowed flexibility in ammo selection. Due to the lack of short-range backup, Toros were arrayed in staggered lines so as to allow them to support each other.
+
 history:The Toro took to the front lines against the Star League in the Reunification War, but was not enough to stop the combined might of the Inner Sphere. The League shut down and demolished all of the Toro factories by 2598 in the hope that it would crush Taurian nationalism, though there is no evidence it had the desired effect. Under the Star League aegis, the Taurian heavy industry produced League 'Mechs, a situation they pragmatically continued with following its fall. Thanks to the dissemination of the Hegemony Memory Core during the Jihad the Toro was finally revived by manufacturers in the Concordat, Calderon Protectorate, Magistracy of Canopus and ironically the Federated Suns.
+
 manufacturer:Taurus WarWorks
 primaryfactory:Taurus (discontinued 2598)
 systemmanufacturer:CHASSIS:Humanoid Mk. VI TR

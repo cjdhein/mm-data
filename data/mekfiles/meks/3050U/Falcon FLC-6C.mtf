@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Falcon
 model:FLC-6C
 mul id:1029
 
 Config:Biped
-techbase:Clan
-era:3065
-source:TR:3050
-rules level:2
+TechBase:Clan
+Era:3065
+Source:TR:3050
+Rules Level:2
 role:Sniper
+
+
 
 quirk:low_profile
 
-mass:30
-engine:180 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:5
+Mass:30
+Engine:180 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:8
-RA armor:8
-LT armor:12
-RT armor:12
-CT armor:14
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:5
+
+Armor:Ferro-Fibrous
+LA Armor:8
+RA Armor:8
+LT Armor:12
+RT Armor:12
+CT Armor:14
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
-ER Small Laser, Left Arm
-ER Large Laser, Right Arm
-ER Small Laser, Right Arm
-Anti-Missile System, Left Torso
+1 CLERLargeLaser, Right Arm
+1 CLERSmallLaser, Right Arm
+1 CLERSmallLaser, Left Arm
+1 CLAntiMissileSystem, Left Torso, Ammo:24
 
 Left Arm:
 Shoulder
@@ -63,8 +65,8 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 CLERSmallLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -78,20 +80,20 @@ Lower Arm Actuator
 Hand Actuator
 CLERLargeLaser
 CLERSmallLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 Jump Jet
 Jump Jet
 CLAntiMissileSystem
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -104,7 +106,7 @@ Jump Jet
 Jump Jet
 CLTargeting Computer
 CLAMS Ammo
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -125,7 +127,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Clan Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -146,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-
@@ -160,12 +162,11 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
-

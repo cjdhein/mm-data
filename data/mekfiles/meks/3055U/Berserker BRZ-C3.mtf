@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Berserker
 model:BRZ-C3
 mul id:331
 
 Config:Biped
-techbase:Inner Sphere
-era:3067
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3067
+Source:TR:3055U
+Rules Level:2
 role:Juggernaut
+
+
 
 quirk:distracting
 
-mass:100
-engine:400 Light Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:15 IS Double
-walk mp:4
-jump mp:0
+Mass:100
+Engine:400 Light Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:31
-RT armor:31
-CT armor:46
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:34
+RA Armor:34
+LT Armor:31
+RT Armor:31
+CT Armor:46
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:9
 ER PPC, Left Arm
@@ -59,7 +61,7 @@ ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
 ER Medium Laser, Right Torso
 ER Medium Laser, Right Torso
-Anti-Missile System, Center Torso
+AMS, Center Torso
 Flamer, Head
 
 Left Arm:
@@ -69,10 +71,10 @@ Lower Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 -Empty-
 -Empty-
 
@@ -88,7 +90,7 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-Triple Strength Myomer
+TSM
 
 Left Torso:
 Fusion Engine
@@ -97,12 +99,12 @@ ISERMediumLaser
 ISERMediumLaser
 ISERMediumLaser
 ISC3SlaveUnit
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 
 Right Torso:
 Fusion Engine
@@ -112,11 +114,11 @@ ISERMediumLaser
 ISERMediumLaser
 ISGuardianECMSuite
 ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 
 Center Torso:
 Fusion Engine
@@ -151,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +167,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Bear Cub
 model:
 mul id:314
 
 Config:Biped
-techbase:Clan
-era:3068
-source:TR:3075
-rules level:2
+TechBase:Clan
+Era:3068
+Source:TR:3075
+Rules Level:2
 role:Striker
 
-quirk:cramped_cockpit
-quirk:ext_twist
+
 quirk:easy_pilot
+quirk:ext_twist
+quirk:cramped_cockpit
 
-mass:25
-engine:200 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 Single
-walk mp:8
-jump mp:0
+Mass:25
+Engine:200 XL (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:7
-RT armor:7
-CT armor:10
-HD armor:7
-LL armor:10
-RL armor:10
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:12 Single
+Walk MP:8
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:7
+RA Armor:7
+LT Armor:7
+RT Armor:7
+CT Armor:10
+HD Armor:7
+LL Armor:10
+RL Armor:10
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:5
 ER Medium Laser, Left Arm
@@ -171,4 +172,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

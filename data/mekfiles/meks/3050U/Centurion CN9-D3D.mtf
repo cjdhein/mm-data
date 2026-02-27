@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Centurion
 model:CN9-D3D
 mul id:5448
 
 Config:Biped
-techbase:Inner Sphere
-era:3060
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3060
+Source:TR:3050
+Rules Level:2
 role:Skirmisher
 
-quirk:non_standard
 quirk:imp_target_short
+quirk:non_standard
 
-mass:50
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:50
+Engine:300 XL Engine
+Structure:Endo Steel
+Myomer:MASC
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:15
-RT armor:15
-CT armor:20
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:14
+RA Armor:14
+LT Armor:15
+RT Armor:15
+CT Armor:20
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:3
-Light Gauss Rifle, Right Arm
-LRM 10, Left Torso
-ER Medium Laser, Right Torso
+1 ISLightGaussRifle, Right Arm, Ammo:32
+1 ISERMediumLaser, Right Torso
+1 ISLRM10, Left Torso, Ammo:12
 
 Left Arm:
 Shoulder
@@ -65,11 +65,11 @@ Hand Actuator
 ISMASC
 ISMASC
 ISMASC
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -80,38 +80,38 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
-IS Light Gauss Ammo
-IS Light Gauss Ammo
-IS Endo Steel
-IS Endo Steel
+ISLightGauss Ammo
+ISLightGauss Ammo
+Endo-Steel
+Endo-Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 10
-LRM 10
-IS Ammo LRM-10
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM10
+ISLRM10
+ISLRM10 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -124,14 +124,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -146,8 +146,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -160,8 +160,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.50.12 on 2026-02-17
 <UnitType>
 BattleArmor
 </UnitType>
@@ -49,7 +49,7 @@ Juggernaut
 </role>
 
 <motion_type>
-Leg
+Jump
 </motion_type>
 
 <cruiseMP>
@@ -96,6 +96,10 @@ IS BA Advanced:Body
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
+<slotless_equipment>
+BAJumpJet
+</slotless_equipment>
+
 <capabilities>
 Its 520kg of advanced armor is enough to stop two Medium Pulse Laser blasts and still have a little left, and though it has four primary configurations, the nature of the Tengu allows for a wide array of variants including several unconfirmed variations such as a weaponless electronic warfare suit and a Rocket Launcher-equipped anti-infantry suit.
 </capabilities>
@@ -124,7 +128,6 @@ Gibson
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
@@ -152,4 +155,5 @@ biped
 <weightclass>
 3
 </weightclass>
+
 

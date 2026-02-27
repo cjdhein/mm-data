@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Ambusher
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 4
 </cruiseMP>
@@ -68,22 +80,6 @@ false
 0
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
-
 <internal_type>
 -1
 </internal_type>
@@ -98,7 +94,6 @@ false
 
 <Body Equipment>
 CLAPGaussRifle Ammo (20)
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -120,6 +115,14 @@ CLAPGaussRifle
 
 <Legs Equipment>
 </Legs Equipment>
+
+<source>
+WoR
+</source>
+
+<tonnage>
+10.0
+</tonnage>
 
 <capabilities>
 While not being intended for use on the battlefield, the Society was able to quickly put the tested Hobgoblin design into production to supplement their forces. The magnetic clamp system, which allowed Society BattleMechs to transport the Hobgoblin to various danger places on the battlefield, compensated for the poor top speed. This was a significant advantage because the Hobgoblin's slow speed made it an easy target.
@@ -149,16 +152,7 @@ Ironhold
 CHASSIS:HOB/11
 ENGINE:60 Fusion
 ARMOR:ProtoMech Standard/2
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:PMT-429
 TARGETING:Ribaldi 402 TTS
 </systemManufacturers>
-
-<source>
-WoR
-</source>
-
-<tonnage>
-10.0
-</tonnage>
-

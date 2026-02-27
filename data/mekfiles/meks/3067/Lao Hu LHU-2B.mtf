@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lao Hu
 model:LHU-2B
 mul id:4478
@@ -27,10 +26,14 @@ source:TR:3067
 rules level:2
 role:Skirmisher
 
+
+
+
 quirk:good_rep_1
 
+
 mass:75
-engine:375 XL Engine
+engine:375 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -169,8 +172,11 @@ IS Endo Steel
 -Empty-
 
 overview:Designed by a student at the Victoria Academy of Arms and Technology, the Lao Hu ("Tiger") is based on the Thunder BattleMech and is designed to correct perceived flaws in the Thunder by using new technologies available to the Capellan Confederation.
+
 capabilities:The Lao Hu is built on a lightweight Chariot Type II Endo Steel that carries a GM 375 XL Engine which gives the 'Mech a top speed of 86.4 km/h while sacrificing some survivability for more free weight and a heavier weapons payload. The Lao Hu is protected by an impressive thirteen and a half tons of armor, making it capable of weathering hits from all but the heaviest weapons.
+
 deployment:The Lao Hu is capable of engaging an enemy at most any range. For long-range combat, the Lao Hu has a Martell ER Large Laser and a Zeus LRM-15 launcher, giving the 'Mech a powerful long range punch. For close combat, the Lao Hu has a devastating Shengli LB-X Autocannon/20 which is capable of firing both solid rounds for armor penetration and cluster rounds allowing it to find holes in already damaged armor and for anti-aircraft use.
+
 manufacturer:Shengli Arms
 primaryfactory:Victoria
 systemmanufacturer:CHASSIS:Chariot Type II Endo Steel
@@ -178,3 +184,4 @@ systemmanufacturer:ENGINE:GM 375 XL
 systemmanufacturer:ARMOR:Star Shell Standard
 systemmanufacturer:COMMUNICATIONS:Dian-bao Comms, Standard
 systemmanufacturer:TARGETING:O/P 911 Targeting and Tracking System
+

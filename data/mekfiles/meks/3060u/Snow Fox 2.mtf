@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Snow Fox
 model:2
 mul id:2980
 
 Config:Quad
-techbase:Clan
-era:3015
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3015
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
 
-quirk:hard_pilot
 quirk:low_profile
+quirk:hard_pilot
 
-mass:20
-engine:160 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:8
-jump mp:0
+Mass:20
+Engine:160 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-FLL armor:5
-FRL armor:5
-LT armor:6
-RT armor:6
-CT armor:6
-HD armor:7
-RLL armor:5
-RRL armor:5
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Heat Sinks:10 Single
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+FLL Armor:5
+FRL Armor:5
+LT Armor:6
+RT Armor:6
+CT Armor:6
+HD Armor:7
+RLL Armor:5
+RRL Armor:5
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:1
 LRM 10, Head
@@ -86,9 +86,9 @@ Foot Actuator
 Left Torso:
 Heat Sink
 Heat Sink
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -101,9 +101,9 @@ Right Torso:
 Heat Sink
 Heat Sink
 Clan Ammo LRM-10
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -123,7 +123,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLMASC
-Clan Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -166,4 +166,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Nyx
 model:NX-100
 mul id:6937
 
 Config:Biped
-techbase:Inner Sphere
-era:3095
-source:RS:3145-NTNU
-rules level:2
+TechBase:Inner Sphere
+Era:3095
+Source:RS:3145-NTNU
+Rules Level:2
 role:Scout
 
-quirk:difficult_maintain
+
+
 quirk:low_profile
+quirk:difficult_maintain
 
-mass:30
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:10
-jump mp:0
+Mass:30
+Engine:300 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Heavy Ferro-Fibrous(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:2
-RTR armor:2
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:10
+Jump MP:0
+
+Armor:Heavy Ferro-Fibrous(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:2
+RTR Armor:2
+RTC Armor:5
 
 Weapons:5
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
 MML 3, Left Torso
 MML 3, Right Torso
 MML 3, Center Torso
+ER Medium Laser, Right Arm
+ER Medium Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -170,4 +172,5 @@ IS Heavy Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lao Hu
 model:LHU-3C
 mul id:4480
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3064
+Rules Level:2
 role:Sniper
+source:TR:3067
+
+
 
 quirk:good_rep_1
 
-mass:75
-engine:375 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:75
+Engine:375 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:23
-RA armor:23
-LT armor:24
-RT armor:24
-CT armor:33
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
 
-Weapons:5
-ER Large Laser, Left Arm
-Gauss Rifle, Right Arm
-LRM 5, Left Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
+Armor:Standard Armor
+LA Armor:23
+RA Armor:23
+LT Armor:24
+RT Armor:24
+CT Armor:33
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
+
+Weapons:3
+1 ISGaussRifle, Right Arm, Ammo:16
+1 ISERLargeLaser, Left Arm
+3 ISLRM5, Left Torso, Ammo:72
 
 Left Arm:
 Shoulder
@@ -90,29 +90,29 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 5
-LRM 5
-LRM 5
-IS Ammo LRM-5
-IS Ammo LRM-5
-IS Ammo LRM-5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISLRM5
+ISLRM5
+ISLRM5
+ISLRM5 Ammo
+ISLRM5 Ammo
+ISLRM5 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Gauss Ammo
-IS Gauss Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISGauss Ammo
+ISGauss Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -147,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +161,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,8 +171,11 @@ IS Endo Steel
 -Empty-
 
 overview:Designed by a student at the Victoria Academy of Arms and Technology, the Lao Hu ("Tiger") is based on the Thunder BattleMech and is designed to correct perceived flaws in the Thunder by using new technologies available to the Capellan Confederation.
+
 capabilities:The Lao Hu is built on a lightweight Chariot Type II Endo Steel that carries a GM 375 XL Engine which gives the 'Mech a top speed of 86.4 km/h while sacrificing some survivability for more free weight and a heavier weapons payload. The Lao Hu is protected by an impressive thirteen and a half tons of armor, making it capable of weathering hits from all but the heaviest weapons.
+
 deployment:The 3C is intended to spar with its enemies at long range. The 'Mech replaced the LB 20-X AC with a powerful Gauss Rifle. Additionally, the 3C removed the LRM-15 in favor of three LRM-5 launchers, giving it the same firepower but allowing it to spread it over a greater number of targets.
+
 manufacturer:Shengli Arms
 primaryfactory:Victoria
 systemmanufacturer:CHASSIS:Chariot Type II Endo Steel

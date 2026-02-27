@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stinger
 model:C 2
 mul id:8128
@@ -27,13 +26,16 @@ source:RG13
 rules level:2
 role:Scout
 
-quirk:cramped_cockpit
-quirk:ubiquitous_clan
+
+
 quirk:rugged_1
+quirk:ubiquitous_clan
 quirk:ubiquitous_is
+quirk:cramped_cockpit
+
 
 mass:20
-engine:120 Fusion (Clan) Engine
+engine:120 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -41,7 +43,7 @@ heat sinks:10 Single
 walk mp:6
 jump mp:6
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:6
 RA armor:6
 LT armor:7
@@ -170,4 +172,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

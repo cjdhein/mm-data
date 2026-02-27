@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar
 model:TLR1-OU
 mul id:3171
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3078
 source:TR:3085
 rules level:4
 role:Brawler
 
+
+
 quirk:easy_maintain
 
+
 mass:85
-engine:340 XL Engine
+engine:340 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -173,9 +175,12 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-capabilities:This variant was designed for underwater operations. In addition to four UMUs it is also equipped with a BattleMech HarJel System to prevent hull breaches. Three Medium Pulse Lasers and a Large Pulse Laser provide energy weapon support. An SRT-6 and LRT-10 torpedo launcher increase the odds of breaching an enemy unit's armor. A C3 Slave allows the Templar U to share targeting data with friendly units.
+capabilities:This variant was designed for underwater operations. In addition to four UMUs it is also equipped with a BattleMech HarJel System to prevent hull breaches. Three Medium Pulse Lasers and a Large Pulse Laser provide energy weapon support. An SRT-6 and LRT-10 torpedo launcher increase the odds of breaching an enemy unit's armor. A C3 Slave allows the Templar U to share targeting data with friendly units. 
+
 deployment: The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h while sacrificing durability. The Templar has thirteen fixed double heat sinks and is armored with sixteen and a half tons of Starshield A armor with CASE fixed in the right torso. Overall, this allows the Templar to have forty tons of free pod space for weapons and equipment which the 'Mech uses effectively in its various configurations.
+
 history:With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.
+
 manufacturer:Kallon Industries
 primaryfactory:Talon
 systemmanufacturer:CHASSIS:Kallon Type XIX Endo Steel
@@ -183,3 +188,4 @@ systemmanufacturer:ENGINE:KalTek 340 Extralight
 systemmanufacturer:ARMOR:Starshield A with CASE
 systemmanufacturer:COMMUNICATIONS:Newberg Telescan 17
 systemmanufacturer:TARGETING:Spar 3C MegaTrak
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hellion
 model:C
 mul id:4305
 
-Config:Biped OmniMek
-techbase:Clan
-era:3061
-source:TR:3067
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3061
+Source:TR:3067
+Rules Level:2
 role:Striker
 
 quirk:weak_head_1
 
-mass:30
-engine:210 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:8
-walk mp:7
-jump mp:0
+Mass:30
+Engine:210 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:10
-RA armor:10
-LT armor:10
-RT armor:10
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:8
+Walk MP:7
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:10
+RA Armor:10
+LT Armor:10
+RT Armor:10
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:5
 ER Medium Laser, Left Torso
@@ -90,13 +90,13 @@ Clan Endo Steel
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-CLATM6 (OMNIPOD)
-Clan Ammo ATM-6 (OMNIPOD)
-Clan Ammo ATM-6 ER (OMNIPOD)
-Clan Ammo ATM-6 HE (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+CLATM6 (omnipod)
+Clan Ammo ATM-6 (omnipod)
+Clan Ammo ATM-6 ER (omnipod)
+Clan Ammo ATM-6 HE (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -105,8 +105,8 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 CLMASC
-CLERMediumLaser (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLTargeting Computer (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -126,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLERMediumLaser (omnipod)
 
 Head:
 Life Support
@@ -172,8 +172,11 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The Hellion is a product of Clan Ice Hellion and their philosophy that espouses speed above all else. Based on the Mist Lynx, the Hellion is a fast OmniMech that has respectable firepower.
+ 
 capabilities:This light 'Mech is rather difficult to kill, incorporating five and a half tons of Ferro-Fibrous armor. To save weight, the Hellion also uses an Endo Steel chassis. While it is not especially fast for its size, the Hellion does use MASC to allow for bursts of additional speed.
+
 deployment:A heat efficient headhunter configuration, the Hellion C has an ATM 6 launcher, as well as four ER Medium Lasers that are integrated into a Targeting Computer for increased accuracy.
+
 manufacturer:Hector MechWorks Facility Alpha,Prosoma War Works,Svarstaad Industriplex Alpha
 primaryfactory:Hector,Valencia,Svarstaad
 systemmanufacturer:CHASSIS:Hellion Light Endo Steel V5

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wight
 model:WGT-4NC 'Dezgra'
 mul id:5600
@@ -27,12 +26,15 @@ source:XTR:Phantoms
 rules level:4
 role:Striker
 
-quirk:bad_rep_is
+
+
 quirk:exp_actuator
-quirk:difficult_maintain
-quirk:distracting
 quirk:weak_legs
+quirk:distracting
 quirk:imp_sensors
+quirk:bad_rep_is
+quirk:difficult_maintain
+
 
 mass:35
 engine:280 XL Engine(IS)
@@ -171,4 +173,5 @@ Chameleon Light Polarization Shield
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Aquagladius
 model:AQS-5 MAM
 mul id:8108
@@ -27,17 +26,20 @@ source:XTR:Caveat
 rules level:4
 role:Skirmisher
 
+
+
 quirk:difficult_eject
 quirk:difficult_maintain
 
+
 mass:50
-engine:300 XXL Engine
+engine:300 XXL Engine(IS)
 structure:IS Composite
 myomer:Triple-Strength
 cockpit:Standard Cockpit
 gyro:XL Gyro
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:6
 jump mp:0
 
@@ -57,8 +59,8 @@ RTC armor:4
 Weapons:5
 Heavy PPC, Left Arm
 Small VSP Laser, Right Arm
-Small VSP Laser, Right Arm
 ER Flamer, Right Arm
+Small VSP Laser, Right Arm
 ER Flamer, Right Arm
 
 Left Arm:
@@ -172,4 +174,5 @@ Triple Strength Myomer
 -Empty-
 -Empty-
 -Empty-
+
 

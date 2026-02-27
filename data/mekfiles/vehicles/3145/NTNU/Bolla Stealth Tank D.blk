@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +44,6 @@ D
 <year>
 3091
 </year>
-
-<originalBuildYear>
-3091
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -69,13 +74,9 @@ BattleArmorHandles - troopers:-1
 22
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <omni>
 1
@@ -91,6 +92,7 @@ BattleArmorHandles - troopers:-1
 
 <Body Equipment>
 IS Vehicular Stealth
+IS Vehicular Stealth
 ISC3SlaveUnit
 ISGuardianECMSuite
 ISSniperCannonAmmo:OMNI
@@ -100,7 +102,7 @@ IS Machine Gun Ammo - Half
 </Body Equipment>
 
 <Front Equipment>
-CLMediumChemicalLaser:OMNI
+CLMediumChemLaser:OMNI
 Machine Gun
 Machine Gun:OMNI
 </Front Equipment>
@@ -118,6 +120,18 @@ Machine Gun:OMNI
 ISSniperCannon:OMNI
 </Turret Equipment>
 
+<source>
+RS:3145-NTNU
+</source>
+
+<tonnage>
+60.0
+</tonnage>
+
+<baseChassisTurretWeight>
+1.5
+</baseChassisTurretWeight>
+
 <manufacturer>
 Maxwell-Pulaski Motors Krupp Armaments Works
 </manufacturer>
@@ -133,16 +147,3 @@ ARMOR:Krupp Stealth
 COMMUNICATIONS:GPT Multi-Track Enhanced
 TARGETING:Baltex K590
 </systemManufacturers>
-
-<source>
-RS:3145-NTNU
-</source>
-
-<tonnage>
-60.0
-</tonnage>
-
-<baseChassisTurretWeight>
-1.5
-</baseChassisTurretWeight>
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -24,9 +33,9 @@ Tank
 Vidar Heavy Defense Tank
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5348
@@ -36,10 +45,6 @@ Vidar Heavy Defense Tank
 3085
 </year>
 
-<originalBuildYear>
-3085
-</originalBuildYear>
-
 <type>
 Clan Level 3
 </type>
@@ -47,12 +52,6 @@ Clan Level 3
 <role>
 Missile Boat
 </role>
-
-<quirks>
-trailer_hitch
-bad_rep_clan
-poor_performance
-</quirks>
 
 <motion_type>
 Tracked
@@ -66,21 +65,13 @@ Tracked
 6
 </engine_type>
 
-<clan_engine>
-false
-</clan_engine>
-
 <armor_type>
 1
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 8
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 40
@@ -128,10 +119,10 @@ CLLRM15
 </Rear Turret Equipment>
 
 <Front Turret Equipment>
-CLLargeChemicalLaser
-CLLargeChemicalLaser
-CLLargeChemicalLaser
-CLLargeChemicalLaser
+CLLargeChemLaser
+CLLargeChemLaser
+CLLargeChemLaser
+CLLargeChemLaser
 </Front Turret Equipment>
 
 <source>
@@ -141,4 +132,10 @@ TR:Proto
 <tonnage>
 75.0
 </tonnage>
+
+<quirks>
+bad_rep_clan
+poor_performance
+trailer_hitch
+</quirks>
 

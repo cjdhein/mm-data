@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas II
 model:AS7-D-H (Devlin)
 mul id:7398
@@ -27,11 +26,14 @@ source:Total Chaos
 rules level:4
 role:Juggernaut
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
+
 
 mass:100
 engine:300 XL (Clan) Engine
@@ -60,11 +62,11 @@ RTC armor:14
 Weapons:7
 ER Large Laser, Left Arm
 ER Large Laser, Left Arm
+MML 9, Right Torso
 LB 10-X AC, Right Arm
 Medium Pulse Laser, Left Torso
 Medium Pulse Laser, Left Torso
 Anti-Missile System, Left Torso
-MML 9, Right Torso
 
 Left Arm:
 Shoulder
@@ -179,9 +181,13 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The technologically-advanced Hegemony counterpart to the SLDF's regular army's AS7-D Atlas, the Atlas II was exclusively reserved for SLDF Royal Regiments.
+
 capabilities:The weapons payload gives the design more broad range attack ability versus the Atlas's brawling weaponry and its limited long range attack capacities.
+
 deployment:Used by Devlin Stone, this Atlas variant used a combination of Clan and Inner Sphere technology to maximize survival. The ER Large Lasers, XL Engine, and heat sinks came from Clan sources. A Heavy Duty Gyro is also fitted to enhance survivability. The LRM and SRM launchers have been replaced by a single MML-9 with an Artemis IV system. CASE II protects each side torso from ammunition explosions, an Angel ECM suite foils Blakist communications gear, and for additional protection the left torso carries an Anti-Missile System. For additional protection the cockpit, sensors, and life support system in the head are all armored.
+
 history:First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. These 'Mechs are prized by the Clans when they were found. One such 'Mech was spotted in 3052 during the Battle of Tukayyid. In the early 3070s, the design was resurrected by the Word of Blake when they captured Hesperus II's factories. After the liberation of Defiance Industries, Devlin Stone's coalition forces kept the 'Mechs in production.
+
 manufacturer:Defiance Industries,Hegemony Research and Development Department, Weapons Division
 primaryfactory:Hesperus II,New Earth
 systemmanufacturer:CHASSIS:Foundation Type 10X

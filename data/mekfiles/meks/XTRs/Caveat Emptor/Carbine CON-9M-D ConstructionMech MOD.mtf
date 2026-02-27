@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Carbine
 model:CON-9M-D ConstructionMech MOD
 mul id:8098
@@ -27,18 +26,18 @@ source:XTR:Caveat
 rules level:5
 role:Ambusher
 
-quirk:no_twist
 quirk:illegal_design
-quirk:exp_actuator
-quirk:stable
 quirk:gas_hog
+quirk:stable
+quirk:exp_actuator
+quirk:no_twist
 
 mass:30
 engine:90 ICE Engine(IS)
 structure:IS Industrial
 myomer:Standard
 
-heat sinks:2 IS Double
+heat sinks:2 Double
 walk mp:3
 jump mp:0
 
@@ -172,4 +171,5 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

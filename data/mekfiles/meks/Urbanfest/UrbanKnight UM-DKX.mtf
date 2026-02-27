@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.05 on 2025-04-22
 chassis:UrbanKnight
 model:UM-DKX
 
@@ -60,8 +60,8 @@ RTR armor:9
 RTC armor:10
 
 Weapons:2
-Small Laser, Left Arm
 BattleMech Taser, Right Arm
+Small Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -174,4 +174,5 @@ Mek Null Signature System
 -Empty-
 -Empty-
 -Empty-
+
 

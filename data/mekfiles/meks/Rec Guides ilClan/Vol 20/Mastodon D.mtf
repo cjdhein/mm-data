@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mastodon
 model:D
 mul id:8346
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3148
 source:RG20
@@ -28,11 +27,12 @@ rules level:2
 role:Missile Boat
 
 quirk:imp_target_long
-quirk:difficult_maintain
 quirk:rugged_1
+quirk:difficult_maintain
+
 
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Reinforced
 myomer:Standard
 
@@ -57,12 +57,12 @@ RTC armor:10
 Weapons:8
 LRM 15, Left Arm
 LRM 15, Left Arm
-Medium Pulse Laser, Left Arm
 LRM 15, Right Arm
 LRM 15, Right Arm
-Medium Pulse Laser, Right Arm
 LRM 20, Left Torso
 LRM 20, Right Torso
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Right Arm
 
 Left Arm:
 Shoulder
@@ -184,3 +184,4 @@ systemmanufacturer:ENGINE:RUFM XL 285
 systemmanufacturer:ARMOR:IceSheet Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Garret T10B
 systemmanufacturer:TARGETING:GC Hodr System Type 2
+

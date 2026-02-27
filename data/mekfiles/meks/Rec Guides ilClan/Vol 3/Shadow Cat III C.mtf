@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Cat III
 model:C
 mul id:7494
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3111
 source:RG03
@@ -29,8 +27,9 @@ role:Striker
 
 quirk:low_profile
 
+
 mass:45
-engine:270 XL (Clan) Engine
+engine:270 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -180,3 +179,4 @@ systemmanufacturer:ARMOR:Compound H17Ferro-Fibrous with CASE
 systemmanufacturer:JUMP_JET:Model KY Boosters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon SCU-9
 systemmanufacturer:TARGETING:Build 4 CAT TTS
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,16 +62,16 @@ Aerodyne
 </motion_type>
 
 <transporters>
-asfbay:20.0:4:1::-1:0
-mekbay:100.0:3:-1::-1:0
-cargobay:159174.5:0:3::-1:0
+asfbay:20.0:4:1
+mekbay:100.0:3
+cargobay:159174.5:0:3
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:1390.0:0:-1::-1:0
-crewquarters:4858.0:0:-1::-1:0
-2ndclassquarters:3500.0:0:-1::-1:0
+1stclassquarters:1390.0:0
+crewquarters:4858.0:0
+2ndclassquarters:3500.0:0
 </transporters>
 
 <SafeThrust>
@@ -93,13 +102,9 @@ false
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 6
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 350
@@ -252,6 +257,8 @@ The Nightlord-class battleship is hailed as the ultimate in Clan-produced weapon
 
 <history>
 The Nightlord-class battleship emerged as a testament to Clan Snow Raven's dedication to technological progress. Designed to capitalize on Clan advancements, the Nightlord represented the pinnacle of Clan military prowess when it was first launched from the Snow Raven yards at Lum in the early 2930s. It quickly became renowned for its advanced construction, armoring techniques, and remarkable offensive and defensive capabilities. Throughout its history, the Nightlord has primarily been observed in the fleets of Clans Jade Falcon and Ghost Bear. While the Clans largely relied on retrofitted SLDF vessels from the Exodus fleet, the Nightlord stood apart as a specialized vessel explicitly tailored to exploit Clan technologies. It served as a task force command ship, boasting superior armor, firepower, and cargo capacity compared to its Star League-era counterparts.
+Despite its exceptional capabilities, the Nightlord faced limited production and deployment due to its high cost and the abundance of still functional ex-SLDF ships. As a result, the number of Nightlords remained relatively small outside of the Snow Raven and Ghost Bear fleets, with the latter possessing the majority share. Nevertheless, the Nightlord played a significant role as a flagship vessel, participating in notable missions and contributing to Clan military achievements.
+Throughout its storied history, the Nightlord-class battleship has cemented its reputation as the ultimate Clan-produced weapon. Its technological advancements, formidable firepower, and transport capacity for OmniMechs, Elementals, and OmniFighters make it a fearsome presence on the battlefield, embodying the pinnacle of Clan military prowess.
 </history>
 
 <manufacturer>

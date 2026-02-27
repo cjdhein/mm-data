@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Turkina
 model:M
 mul id:8213
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3058
 source:RG16
@@ -29,8 +28,9 @@ role:Sniper
 
 quirk:easy_pilot
 
+
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -39,7 +39,7 @@ base chassis heat sinks:11
 walk mp:3
 jump mp:3
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:32
 RA armor:32
 LT armor:30
@@ -66,55 +66,55 @@ Medium Pulse Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLERLargeLaser (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-Clan LB 2-X AC Ammo (OMNIPOD)
-Clan LB 5-X AC Ammo (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC2 (omnipod)
+CLLBXAC2 (omnipod)
+CLLBXAC2 (omnipod)
+Clan LB 2-X AC Ammo (omnipod)
+Clan LB 5-X AC Ammo (omnipod)
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERLargeLaser (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC5 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-CLLBXAC2 (OMNIPOD)
-Clan LB 2-X Cluster Ammo (OMNIPOD)
-Clan LB 5-X Cluster Ammo (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC5 (omnipod)
+CLLBXAC2 (omnipod)
+CLLBXAC2 (omnipod)
+CLLBXAC2 (omnipod)
+Clan LB 2-X Cluster Ammo (omnipod)
+Clan LB 5-X Cluster Ammo (omnipod)
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
-CLLRM5 (OMNIPOD)
+CLLRM5 (omnipod)
 -Empty-
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
-CLLRM5 (OMNIPOD)
-Clan Ammo LRM-5 (OMNIPOD)
+CLLRM5 (omnipod)
+Clan Ammo LRM-5 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -131,7 +131,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
 
 Head:
 Life Support
@@ -176,7 +176,9 @@ Foot Actuator
 -Empty-
 
 overview:The Turkina is a powerful OmniMech that was first seen in the Turkina Keshik at the Battle of Tukayyid, and entered general service with Clan Jade Falcon following the end of the Refusal War. In a design oddity, the Turkina mounts enough jump jets to vault 90 meters hardwired onto the frame, rather than using them in modular pods. While this simplified repair, it also uses tonnage that could be devoted to other systems when a mission does not call for jumping. Designers also included fifteen double heat sinks, four more than could be fit into the engine, so they are fixed in the torso. The Turkina has 42 tons available for modular pods.
+
 capabilities:Each arm of this Turkina configuration carries an ER Large Laser, LB 2-X, and an LB 5-X, plus a ton of ammunition for each autocannon. These are supplemented by an LRM-5 in each side torso and a center torso mounted Medium Pulse Laser. Sixteen double heat sinks are carried as well.
+
 history:The Turkina is named after Turkina, the first Jade Falcon to be tamed, who inspired the leaders of Clan Jade Falcon in its early days. The name of the Turkina Keshik is also derived from this bird.
 manufacturer:Complex Beta, Olivetti Weapons
 primaryfactory:Ironhold, Sudeten

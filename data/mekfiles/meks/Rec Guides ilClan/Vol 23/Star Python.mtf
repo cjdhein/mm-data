@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Star Python
 model:
 mul id:8413
@@ -27,9 +26,8 @@ source:RG23
 rules level:3
 role:Scout
 
-
 mass:25
-engine:175 Fusion (Clan) Engine
+engine:175 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -54,9 +52,9 @@ Weapons:6
 Improved Heavy Medium Laser, Left Arm
 ER Medium Laser, Left Arm
 ER Micro Laser, Left Arm
-Improved Heavy Medium Laser, Right Arm
 ER Micro Laser, Right Arm
 Anti-Missile System, Left Torso
+Improved Heavy Medium Laser, Right Arm
 
 Left Arm:
 Shoulder
@@ -178,3 +176,4 @@ systemmanufacturer:ARMOR:Compound Rho Special Reflective
 systemmanufacturer:JUMP_JET:Rawlings 55
 systemmanufacturer:COMMUNICATIONS:CGS-Comm-1a
 systemmanufacturer:TARGETING:CGS-TTS-VIIa
+

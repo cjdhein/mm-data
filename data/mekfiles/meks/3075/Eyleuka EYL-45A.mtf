@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Eyleuka
 model:EYL-45A
 mul id:1009
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Striker
+
+
 
 quirk:exp_actuator
 
-mass:55
-engine:275 XL Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:7
+Mass:55
+Engine:275 XL Engine
+Structure:Standard
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Compact Gyro
 
-armor:Stealth(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:16
-RT armor:16
-CT armor:22
-HD armor:9
-LL armor:21
-RL armor:21
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:7
+
+Armor:Stealth
+LA Armor:15
+RA Armor:15
+LT Armor:16
+RT Armor:16
+CT Armor:22
+HD Armor:9
+LL Armor:21
+RL Armor:21
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:5
-MML 9, Left Arm
+TAG, Left Torso
 ER Large Laser, Right Arm
 ER Medium Laser, Right Arm
-TAG, Left Torso
+MML 9, Left Arm
 ER Medium Laser, Right Torso
 
 Left Arm:
@@ -71,8 +73,8 @@ ISMML9
 ISMML9
 ISMML9
 IS Ammo MML-9 SRM
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 
 Right Arm:
 Shoulder
@@ -82,8 +84,8 @@ Hand Actuator
 ISERLargeLaser
 ISERLargeLaser
 ISERMediumLaser
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -99,8 +101,8 @@ Improved Jump Jet
 Improved Jump Jet
 Improved Jump Jet
 ISTAG
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 
 Right Torso:
 Fusion Engine
@@ -113,8 +115,8 @@ Improved Jump Jet
 Improved Jump Jet
 Improved Jump Jet
 ISERMediumLaser
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 
 Center Torso:
 Fusion Engine
@@ -149,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +165,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

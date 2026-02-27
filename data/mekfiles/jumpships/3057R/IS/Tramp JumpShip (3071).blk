@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -164,7 +164,7 @@ Designed for high-risk trade in the "wilder" reaches of the Periphery, the Tramp
 </capabilities>
 
 <overview>
-The Tramp-class JumpShip is a venerable design dating back to 2754. While its integrated weaponry initially made it a favorite for traders navigating the dangerous Periphery, it never achieved widespread production. Despite being similar in scale to the Star Lord, the Tramp is less efficient, supporting only three DropShips compared to the Star Lordï¿½s six. Consequently, by the early 29th century, most shipyards abandoned the design in favor of its more capable rival. Though the "Succession Wars Downgraded" variant saw sporadic production, ComStar remained the only major power to consistently field the original Star League-era model.
+The Tramp-class JumpShip is a venerable design dating back to 2754. While its integrated weaponry initially made it a favorite for traders navigating the dangerous Periphery, it never achieved widespread production. Despite being similar in scale to the Star Lord, the Tramp is less efficient, supporting only three DropShips compared to the Star Lord’s six. Consequently, by the early 29th century, most shipyards abandoned the design in favor of its more capable rival. Though the "Succession Wars Downgraded" variant saw sporadic production, ComStar remained the only major power to consistently field the original Star League-era model.
 </overview>
 
 <history>
@@ -234,4 +234,5 @@ TR:3057r
 <escape_pod>
 5
 </escape_pod>
+
 

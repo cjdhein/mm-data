@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Guns block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 GunEmplacement
 </UnitType>
-
 <Name>
 UAC/2 Turret
 </Name>
-
-<Model>
+<model>
 (Quad)
-</Model>
-
-<year>
+</model>
+<Year>
 3057
-</year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
-
-<type>
+</Year>
+<Type>
 Clan Level 5
-</type>
-
-<GUNS Equipment>
-CLUltraAC2
-CLUltraAC2
-CLUltraAC2
-CLUltraAC2
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-Clan Ultra AC/2 Ammo
-</GUNS Equipment>
-
-<turret>
+</Type>
+<Turret>
 1
-</turret>
-
+</Turret>
+<Guns Equipment>
+ClUltraAC2
+ClUltraAC2
+ClUltraAC2
+ClUltraAC2
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+ClUltraAC2 Ammo
+</Guns Equipment>

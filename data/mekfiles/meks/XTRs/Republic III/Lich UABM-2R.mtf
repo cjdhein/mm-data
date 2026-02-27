@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lich
 model:UABM-2R
 mul id:7385
 
 Config:Quad
-techbase:Mixed (IS Chassis)
-era:3140
-source:XTR:RotS 3
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3140
+Source:XTR:RotS 3
+Rules Level:3
 role:Sniper
 
+
+
+
 quirk:difficult_maintain
-weaponquirk:mod_weapons:LT:3:CLERLargeLaser
-weaponquirk:mod_weapons:LT:4:ISLightGaussRifle
 weaponquirk:mod_weapons:RT:3:CLERLargeLaser
 weaponquirk:mod_weapons:RT:4:ISLightGaussRifle
+weaponquirk:mod_weapons:LT:3:CLERLargeLaser
+weaponquirk:mod_weapons:LT:4:ISLightGaussRifle
 
-mass:90
-engine:270 XL Engine(IS)
-structure:IS Endo-Composite
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:0
+Mass:90
+Engine:270 XL Engine(IS)
+Structure:IS Endo-Composite
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Standard Gyro
 
-armor:Standard(Inner Sphere)
-FLL armor:34
-FRL armor:34
-LT armor:29
-RT armor:29
-CT armor:41
-HD armor:9
-RLL armor:34
-RRL armor:34
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(IS/Clan)
+FLL Armor:34
+FRL Armor:34
+LT Armor:29
+RT Armor:29
+CT Armor:41
+HD Armor:9
+RLL Armor:34
+RRL Armor:34
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
 
 Weapons:4
 ER Large Laser, Left Torso
 Light Gauss Rifle, Left Torso
-ER Large Laser, Right Torso
 Light Gauss Rifle, Right Torso
+ER Large Laser, Right Torso
 
 Front Left Leg:
 Hip
@@ -101,7 +104,7 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
-HarJel Repair Systems (HarJel II)
+HarJel II Self-Repair System
 ISCASEII
 IS Endo-Composite
 
@@ -115,7 +118,7 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
-HarJel Repair Systems (HarJel II)
+HarJel II Self-Repair System
 ISCASEII
 IS Endo-Composite
 
@@ -131,7 +134,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISDroneOperatingSystem
-HarJel Repair Systems (HarJel II)
+HarJel II Self-Repair System
 
 Head:
 Life Support
@@ -174,4 +177,5 @@ IS Endo-Composite
 -Empty-
 -Empty-
 -Empty-
+
 

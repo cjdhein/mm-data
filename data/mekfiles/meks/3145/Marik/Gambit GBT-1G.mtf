@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gambit
 model:GBT-1G
 mul id:6500
 
 Config:Biped
-techbase:Inner Sphere
-era:3136
-source:TR:3145:FWL
-rules level:2
+TechBase:Inner Sphere
+Era:3136
+Source:TR:3145:FWL
+Rules Level:2
 role:Striker
+
+
+
 
 quirk:hyper_actuator
 
-mass:25
-engine:175 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:25
+Engine:175 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:10
-RT armor:10
-CT armor:13
-HD armor:6
-LL armor:10
-RL armor:10
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:10
+RT Armor:10
+CT Armor:13
+HD Armor:6
+LL Armor:10
+RL Armor:10
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:3
 Light PPC, Left Arm
-Light PPC, Right Arm
 MML 3, Right Torso
+Light PPC, Right Arm
 
 Left Arm:
 Shoulder
@@ -169,4 +172,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

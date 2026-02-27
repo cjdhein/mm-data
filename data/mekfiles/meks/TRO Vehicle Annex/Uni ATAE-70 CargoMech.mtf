@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uni
 model:ATAE-70 CargoMech
 mul id:5321
 
 Config:Quad
-techbase:Inner Sphere
-era:3050
-source:RS:VA
-rules level:2
+TechBase:Inner Sphere
+Era:3050
+Source:RS:VA
+Rules Level:2
 role:Ambusher
 
+Mass:70
+Engine:210 Fuel Cell Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
+Gyro:Standard Gyro
 
-mass:70
-engine:210 Fuel Cell Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:1 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:1 Single
-walk mp:3
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-FLL armor:27
-FRL armor:27
-LT armor:20
-RT armor:20
-CT armor:31
-HD armor:9
-RLL armor:27
-RRL armor:27
-RTL armor:9
-RTR armor:9
-RTC armor:10
+Armor:Commercial(Inner Sphere)
+FLL Armor:27
+FRL Armor:27
+LT Armor:20
+RT Armor:20
+CT Armor:31
+HD Armor:9
+RLL Armor:27
+RRL Armor:27
+RTL Armor:9
+RTR Armor:9
+RTC Armor:10
 
 Weapons:0
 
@@ -83,9 +81,9 @@ Environmental Sealing
 -Empty-
 
 Left Torso:
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
 Environmental Sealing
 -Empty-
 -Empty-
@@ -97,9 +95,9 @@ Environmental Sealing
 -Empty-
 
 Right Torso:
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
 Environmental Sealing
 -Empty-
 -Empty-
@@ -121,7 +119,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Cargo:SIZE:1.0
+Cargo (1 ton)
 Environmental Sealing
 
 Head:
@@ -165,4 +163,5 @@ Environmental Sealing
 -Empty-
 -Empty-
 -Empty-
+
 

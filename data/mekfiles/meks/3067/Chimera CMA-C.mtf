@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Chimera
 model:CMA-C
 mul id:3951
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Rules Level:2
 role:Striker
+source:TR:3067
+
+
 
 quirk:nimble_jumper
 
-mass:40
-engine:240 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:40
+Engine:240 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:12
-RT armor:12
-CT armor:14
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
 
-Weapons:3
-ER Large Laser, Left Arm
-ER Medium Laser, Left Arm
-MRM 20, Right Torso
+Armor:Standard Armor
+LA Armor:10
+RA Armor:10
+LT Armor:12
+RT Armor:12
+CT Armor:14
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
+
+Weapons:4
+1 ISERLargeLaser, Left Arm
+1 ISERMediumLaser, Left Arm
+1 ISC3SlaveUnit, Right Torso
+1 ISMRM20, Right Torso, Ammo:24
 
 Left Arm:
 Shoulder
@@ -63,7 +66,7 @@ Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
 ISERMediumLaser
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -74,10 +77,10 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-IS Endo Steel
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -91,12 +94,12 @@ Fusion Engine
 Jump Jet
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
 Fusion Engine
@@ -105,11 +108,11 @@ Fusion Engine
 Jump Jet
 Jump Jet
 Jump Jet
-MRM 20
-MRM 20
-MRM 20
-IS MRM 20 Ammo
-IS MRM 20 Ammo
+ISMRM20
+ISMRM20
+ISMRM20
+ISMRM20 Ammo
+ISMRM20 Ammo
 ISC3SlaveUnit
 
 Center Torso:
@@ -123,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Head:
 Life Support
@@ -145,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -159,8 +162,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ryoken
 clanname:Stormcrow
 model:P
 mul id:7555
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3049
 source:RG07
@@ -30,12 +29,13 @@ role:Striker
 
 quirk:stable
 
+
 mass:55
-engine:330 XL (Clan) Engine
+engine:330 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:12 Clan Double
+heat sinks:12 Double
 base chassis heat sinks:10
 walk mp:6
 jump mp:0
@@ -67,8 +67,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLERLargeLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -81,8 +81,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLERLargeLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -93,11 +93,11 @@ CLMediumPulseLaser (OMNIPOD)
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -107,10 +107,10 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -136,7 +136,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -176,8 +176,11 @@ Clan Endo Steel
 
 overview:The Stormcrow is a wide-spread, second generation OmniMech fielded by many Clans. However, within the Clan Smoke Jaguar touman, the Stormcrow was especially common during the Clan Invasion and was codenamed the Ryoken（a misspelling of ryōken - hunting dog) by the warriors of the DCMS who encountered it. Because of its versatility through its combination of mobility, armor, and firepower in its various configurations, the Stormcrow is a feared opponent on the battlefield.
 capabilities:The Stormcrow is built on a lightweight Endo Steel chassis and is powered by a 330 XL engine that propels it to a top speed of 97.2 km/h. The Stormcrow is protected by nine and a half tons of Ferro-Fibrous armor, giving the 'Mech the ability to survive encounters with other units that it isn't capable of outpacing.
+
 deployment:Deadly at any range, the P is more dangerous the closer it gets to its prey. A medium pulse laser sits beside an ER large laser in both arms, while a medium pulse laser also sits below the pilot’s feet in the head. Each side torso mounts an additional double heat sink, a Streak SRM-6 and a corresponding ton of ammo.
+
 history:The Stormcrow was designed by Clan Hell's Horses and debuted during the Battle of Tokasha. It is also implied that Stormcrow prototypes were produced on Tokasha at Tokasha MechWorks. However, prototypes of the Stormcrow had only just debuted when Clan Ghost Bear won Tokasha through the Battle of Tokasha. As a result of the upheaval, design copies and moulds for the Stormcrow were scattered throughout Clan space. The final production version of the Stormcrow debuted in 2930, when Clan Snow Raven scientists finished with a series of minor design changes and rechristened the OmniMech.
+
 manufacturer:Industrial Complex Alpha, Various
 primaryfactory:Dante,Various
 systemmanufacturer:CHASSIS:Model MHO-7E Endo-Steel

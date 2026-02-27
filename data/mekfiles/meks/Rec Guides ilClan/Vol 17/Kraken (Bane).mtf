@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kraken
 clanname:Bane
 model:
@@ -28,11 +27,13 @@ source:RG17
 rules level:2
 role:Sniper
 
+
 quirk:ext_twist
 quirk:pro_actuator
 
+
 mass:100
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -40,7 +41,7 @@ heat sinks:10 Clan Double
 walk mp:3
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:34
 RA armor:34
 LT armor:32
@@ -182,8 +183,11 @@ Foot Actuator
 -Empty-
 
 overview:The Bane is a BattleMech that is based upon a Star League prototype that was never put into production. Tagged the Kraken by Inner Sphere forces who opposed it.
+
 capabilities:The Bane was first built in 2827. It was originally a significant part of many Clan toumans, but was gradually relegated to second-line status following the introduction of the OmniMech. As such, it is still critical to many defensive units. The design uses a lightweight XL Engine so that it can mount the arsenal that it does. Nineteen tons of armor protects this venerable assault 'Mech.
+
 deployment:This long-range, direct-fire support 'Mech is armed with ten Ultra Autocannon/2s. This weapon has one of the longest ranges in the Clan arsenal, so the Bane can stand back at extreme range and pepper an enemy unit with impunity. Four tons of ammunition keep the 'Mech well-supplied. It runs into problems up close, however, stemming from the minimum range of the autocannons. To keep enemies at bay, especially unarmored infantry, the Bane mounts four Machine Guns. Ten double heat sinks are sufficient to keep the 'Mech cool.
+
 manufacturer:Tokasha MechWorks Alpha, Olivetti Weapons
 primaryfactory:Tokasha, Sudeten
 systemmanufacturer:CHASSIS:Type AXT, Mk. XX
@@ -191,3 +195,4 @@ systemmanufacturer:ENGINE:Fusion 300 XL
 systemmanufacturer:ARMOR:Forging C745
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:Series VI TTS
+

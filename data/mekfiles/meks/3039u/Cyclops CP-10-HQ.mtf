@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cyclops
 model:CP-10-HQ
 mul id:770
-
 Config:Biped
 techbase:Inner Sphere
 era:2753
@@ -27,13 +25,16 @@ source:TR:3039
 rules level:3
 role:Juggernaut
 
-quirk:difficult_eject
-quirk:cowl
-quirk:weak_head_2
+
+
 quirk:battle_computer
+quirk:cowl
+quirk:difficult_eject
+quirk:weak_head_2
+
 
 mass:90
-engine:360 Fusion Engine
+engine:360 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -183,3 +184,4 @@ systemmanufacturer:ENGINE:Hermes 360
 systemmanufacturer:ARMOR:Starshield Special
 systemmanufacturer:COMMUNICATIONS:Olmstead 840
 systemmanufacturer:TARGETING:Tacticon Tracer 280
+

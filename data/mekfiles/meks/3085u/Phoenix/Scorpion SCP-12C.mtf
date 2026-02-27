@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scorpion
 model:SCP-12C
 mul id:2834
 
 Config:Quad
-techbase:Inner Sphere
-era:3067
+TechBase:Inner Sphere
+Era:3067
 source:TR:3085S
-rules level:2
+Rules Level:2
 role:Skirmisher
 
+
+
+quirk:bad_rep_clan
 quirk:bad_rep_is
 quirk:hard_pilot
-quirk:bad_rep_clan
 
-mass:55
-engine:330 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-FLL armor:26
-FRL armor:26
-LT armor:20
-RT armor:20
-CT armor:24
-HD armor:9
-RLL armor:26
-RRL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+FLL Armor:26
+FRL Armor:26
+LT Armor:20
+RT Armor:20
+CT Armor:24
+HD Armor:9
+RLL Armor:26
+RRL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:3
 ER Small Laser, Left Torso
@@ -63,8 +65,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -77,8 +79,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -95,9 +97,9 @@ ISiNarc Pods
 ISiNarc Pods
 ISiNarc Pods
 ISiNarc Pods
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -110,8 +112,8 @@ ISERPPC
 ISImprovedNarc
 ISImprovedNarc
 ISImprovedNarc
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -132,7 +134,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

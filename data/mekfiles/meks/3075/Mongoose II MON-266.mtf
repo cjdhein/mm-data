@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mongoose II
 model:MON-266
 mul id:2216
@@ -27,11 +26,15 @@ source:TR:3075
 rules level:2
 role:Scout
 
+
+
+
 quirk:command_mech
 quirk:imp_com
 
+
 mass:40
-engine:320 XL Engine
+engine:320 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -167,10 +170,14 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-overview:Luthien Armor Works was working on an upgrade of the Mongoose for ComStar to be a faster and tougher scout 'Mech, when the chaos on Luthien during the early years of the Jihad forced them to look elsewhere.
+overview:Luthien Armor Works was working on an upgrade of the Mongoose for ComStar to be a faster and tougher scout 'Mech, when the chaos on Luthien during the early years of the Jihad forced them to look elsewhere. 
+
 capabilities:The result is the Mongoose II, an effective hunter-killer that is able to find hidden enemies and provide long range fire support. Equipped with an impressive suite of electronics, the 'Mech carries a Beagle Active Probe, Guardian ECM Suite, C3i Computer, and MASC that enables it move up to 172 km/h in bursts. A respectable seven tons of armor protects the Mongoose II.
+
 deployment:The only ranged weapon on the Mongoose II is its Diverse Optics Sunbeam ER Large Laser. The ammo-independent weapon is just as potent at long range as at pointblank. With its quick speed, the Mongoose II can also close in to use its fists for quick hits, making this BattleMech an effective brawler.
+
 history:ComStar financed a refit of a lost Rim Worlds Republic factory on Kwangjong-ni. New versions of the Zeus and Banshee were walking off the line for battlefield testing when Word of Blake conquered Hesperus II. Anxious to stay solvent, ComStar C-bills paid for the upgrade to the Kwangjong-ni facility. In exchange, Defiance sold them sixty-six percent of its production for its first two years.
+
 manufacturer:Arc-Royal MechWorks, Defiance Manufacturing Annex
 primaryfactory:Arc-Royal,Kwangjong-ni
 systemmanufacturer:CHASSIS:Alshain Type 69-40S
@@ -178,3 +185,4 @@ systemmanufacturer:ENGINE:Pitban 320 XL
 systemmanufacturer:ARMOR:Starshield
 systemmanufacturer:COMMUNICATIONS:Nashan Comm-i U-284
 systemmanufacturer:TARGETING:Nashan Trac V-102 with Active Probe
+

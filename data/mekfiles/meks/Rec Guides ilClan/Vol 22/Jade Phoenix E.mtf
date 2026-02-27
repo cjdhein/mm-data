@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,18 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jade Phoenix
 model:E
 mul id:8403
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (Clan Chassis)
 era:3148
 source:RG22
 rules level:3
 role:Sniper
-
 
 mass:85
 engine:340 XL (Clan) Engine
@@ -54,7 +52,7 @@ RTC armor:10
 Weapons:3
 Plasma Rifle, Left Arm
 Plasma Rifle, Left Arm
-LB 20-X AC, Right Torso
+LB 20-X AC, Right Arm
 
 Left Arm:
 Shoulder
@@ -123,7 +121,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Supercharger (OMNIPOD)
+Supercharger (Clan) (OMNIPOD)
 -Empty-
 
 Head:
@@ -176,3 +174,4 @@ systemmanufacturer:ENGINE:JF 340 XL
 systemmanufacturer:ARMOR:Compound JF Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:JF Integrated
 systemmanufacturer:TARGETING:Goshawk E-Series
+

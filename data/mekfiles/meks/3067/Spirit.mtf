@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Spirit
 model:
 mul id:5108
 
+
 Config:Biped
-techbase:Clan
-era:3063
-source:TR:3067
-rules level:2
+TechBase:Clan
+Era:3063
+Rules Level:2
 role:Striker
+source:TR:3067
+
 
 weaponquirk:jettison_capable:RA:4:CLStreakSRM4
 
-mass:35
-engine:245 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:7
-jump mp:0
+Mass:35
+Engine:245 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:11
-RA armor:11
-LT armor:11
-RT armor:11
-CT armor:12
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:5
-RTR armor:5
-RTC armor:8
+Heat Sinks:11 Double
+Walk MP:7
+Jump MP:0
 
-Weapons:5
-ER Large Laser, Left Arm
-LRM 10, Left Arm
-Streak SRM 4, Right Arm
-Heavy Medium Laser, Left Torso
-Heavy Small Laser, Left Torso
+Armor:Ferro-Fibrous
+LA Armor:11
+RA Armor:11
+LT Armor:11
+RT Armor:11
+CT Armor:12
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:5
+RTR Armor:5
+RTC Armor:8
+
+Weapons:6
+1 CLStreakSRM4, Right Arm, Ammo:25
+1 CLERLargeLaser, Left Arm
+1 CLLRM10, Left Arm, Ammo:12
+1 CLHeavyMediumLaser, Left Torso
+1 CLHeavySmallLaser, Left Torso
+1 CLECMSuite, Head
 
 Left Arm:
 Shoulder
@@ -65,7 +68,7 @@ Lower Arm Actuator
 CLERLargeLaser
 CLLRM10
 CLArtemisIV
-Clan Ammo LRM-10 (Clan) Artemis-capable
+CLLRM10 Ammo (Clan) Artemis-capable
 -Empty-
 -Empty-
 -Empty-
@@ -78,7 +81,7 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 CLStreakSRM4
-Clan Streak SRM 4 Ammo
+CLStreakSRM4 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -92,26 +95,26 @@ Fusion Engine
 CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLHeavySmallLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -147,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +164,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-

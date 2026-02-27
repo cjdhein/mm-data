@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crucible
 model:2
 mul id:7735
@@ -27,11 +26,12 @@ source:RG10
 rules level:2
 role:Sniper
 
-quirk:oversized
 quirk:pro_actuator
+quirk:oversized
+
 
 mass:100
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -171,4 +171,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

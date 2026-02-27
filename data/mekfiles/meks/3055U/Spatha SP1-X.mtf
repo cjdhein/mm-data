@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Spatha
 model:SP1-X
 mul id:2998
 
 Config:Biped
-techbase:Inner Sphere
-era:3067
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3067
+Source:TR:3055U
+Rules Level:4
 role:Skirmisher
+
+
+
 
 quirk:difficult_maintain
 quirk:non_standard
 
-mass:60
-engine:360 XXL Engine
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:13 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XXL Engine
+Structure:Standard
+Myomer:Triple-Strength
 
-armor:Reflective(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:18
-RT armor:18
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:13 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Reflective(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:18
+RT Armor:18
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:5
 ER PPC, Left Arm
-Streak SRM 6, Left Arm
+Medium X-Pulse Laser, Head
 Medium X-Pulse Laser, Right Torso
 Laser AMS, Center Torso
-Medium X-Pulse Laser, Head
+Streak SRM 6, Left Arm
 
 Left Arm:
 Shoulder
@@ -71,7 +74,7 @@ PPC Capacitor
 ISStreakSRM6
 ISStreakSRM6
 IS Streak SRM 6 Ammo
-IS Reflective
+Reflective
 
 Right Arm:
 Shoulder
@@ -82,7 +85,7 @@ Sword
 Sword
 Sword
 Sword
-IS Reflective
+Reflective
 -Empty-
 -Empty-
 -Empty-
@@ -94,11 +97,11 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Reflective
-IS Reflective
-IS Reflective
-Triple Strength Myomer
-Triple Strength Myomer
+Reflective
+Reflective
+Reflective
+TSM
+TSM
 -Empty-
 
 Right Torso:
@@ -109,11 +112,11 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISMediumXPulseLaser
-IS Reflective
-IS Reflective
-IS Reflective
-Triple Strength Myomer
-Triple Strength Myomer
+Reflective
+Reflective
+Reflective
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -148,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Reflective
-Triple Strength Myomer
+Reflective
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +165,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Reflective
-Triple Strength Myomer
+Reflective
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

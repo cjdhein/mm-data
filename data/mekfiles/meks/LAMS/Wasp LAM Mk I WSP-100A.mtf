@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wasp LAM Mk I
 model:WSP-100A
 mul id:5393
 
 Config:LAM
-techbase:Inner Sphere
-era:2697
-source:TR:3085
-rules level:3
+TechBase:Inner Sphere
+Era:2697
+Source:TR:3085
+Rules Level:3
 role:Scout
 
+Mass:30
+Engine:150 Fusion Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-mass:30
-engine:150 Fusion Engine
-structure:IS Standard
-myomer:Standard
-lam:Standard
+Heat Sinks:10 Single
+Walk MP:5
+Jump MP:5
 
-heat sinks:10 Single
-walk mp:5
-jump mp:5
-
-armor:Standard(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:8
-LL armor:7
-RL armor:7
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Armor:Standard(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:8
+LL Armor:7
+RL Armor:7
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:2
 Medium Laser, Right Arm
@@ -168,9 +165,13 @@ Jump Jet
 -Empty-
 
 overview:Designed right after the Stinger LAM proved the Land-Air 'Mech concept, the aerodynamic Wasp chassis also seemed to promise a successful conversion. However, weapon accuracy was severely hampered on initial prototypes. Only after the Harvard Company hired Katherine Piscalla was a successful Wasp LAM actually produced.
+
 capabilities:The Wasp LAM is similar to the Stinger LAM, maintaining the same ground and air speed. The only real difference is in the armament.
+
 deployment:This version of the Wasp LAM replaces the bomb bay with an LRM-10 launcher and an extra jump jet. This variant was later used as the inspiration for the Valkyrie.
+
 history:The Wasp LAM is able to convert from BattleMech to Aerospace Fighter faster than any other Land-Air 'Mech. The Wasp LAM also mounts no lostech (save the conversion equipment). The ease of use and ability to drop bombs from bomb bays made the Wasp LAM especially successful in air-to-ground strikes, no matter where that ground may be. During its first operation, Wasp LAMs were tasked with destroying a nuclear weapons facility orbiting in the Terran Oort Cloud in 2690. Generations of SLDF ground soldiers loved the Wasp LAM so much, they bestowed upon it the moniker "angels on our shoulders". The Wasp LAM was a highly sought-after prize, and a jealously guarded commodity when most of the Wasp LAM production facilities were destroyed shortly after the start of the First Succession War. By the thirty-first century, the Wasp LAM was an exceedingly rare sight within the Inner Sphere.
+
 manufacturer:Harvard Company, Inc.
 primaryfactory:Epsilon Eridani
 systemmanufacturer:CHASSIS:Harvard 12K

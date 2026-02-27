@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-18
 chassis:Grasshopper
 model:GHR-7K
 mul id:1270
@@ -30,7 +30,7 @@ role:Skirmisher
 quirk:rugged_1
 
 mass:70
-engine:280 Fusion Engine
+engine:280 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -52,8 +52,8 @@ RTR armor:10
 RTC armor:13
 
 Weapons:5
-Light PPC, Left Arm
 Light PPC, Right Arm
+Light PPC, Left Arm
 Snub-Nose PPC, Left Torso
 Snub-Nose PPC, Right Torso
 ER Medium Laser, Head
@@ -182,3 +182,4 @@ systemmanufacturer:ARMOR:Maximillian 100
 systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Allet-C308 with ECM
 systemmanufacturer:TARGETING:Allet T-11
+

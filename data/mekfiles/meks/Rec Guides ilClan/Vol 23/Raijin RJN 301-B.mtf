@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Raijin
 model:RJN-301-B
 mul id:8416
@@ -27,17 +26,20 @@ source:RG23
 rules level:2
 role:Striker
 
-quirk:bad_rep_is
+
+
 quirk:ext_twist
+quirk:bad_rep_is
+weaponquirk:direct_torso_mount:RT:3:ISImprovedNarc
+weaponquirk:direct_torso_mount:RT:6:SRM 2
+weaponquirk:direct_torso_mount:LT:3:SRM 6
 weaponquirk:direct_torso_mount:LA:2:ISERMediumLaser
 weaponquirk:direct_torso_mount:LA:3:ISERMediumLaser
 weaponquirk:direct_torso_mount:LA:4:ISERMediumLaser
-weaponquirk:direct_torso_mount:LT:3:SRM 6
-weaponquirk:direct_torso_mount:RT:3:ISImprovedNarc
-weaponquirk:direct_torso_mount:RT:6:SRM 2
+
 
 mass:50
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -63,8 +65,8 @@ ER Medium Laser, Left Arm
 ER Medium Laser, Left Arm
 ER Medium Laser, Left Arm
 SRM 6, Left Torso
-iNarc, Right Torso
 SRM 2, Right Torso
+iNarc, Right Torso
 
 Left Arm:
 Shoulder
@@ -178,10 +180,15 @@ Jump Jet
 -Empty-
 -Empty-
 
+
 overview:The Raijin is designed to be highly mobile and capable of engaging an enemy at a variety of ranges.
+
 capabilities: The 'Mech's relatively light armor can be a liability if it is engaged in close combat or finds itself in a protracted engagement.
+
 deployment:Unknown
+
 history:The Raijin was designed after the Battle of Tukayyid to rearm ComGuard units that had suffered losses in the campaign. Despite having stockpiled Star League-era BattleMechs at his disposal, Precentor Martial Focht wanted something unfamiliar to both the Inner Sphere and the Clans. The Raijin was redesigned after Word of Blake forces lost considerable amounts of the design during its taking of Terra from ComStar in 3058. Newly redesigned Raijin II units began to be deployed in 3066, with older versions of the 'Mech being refitted to RJN-200-A variant standards. While off-shoots of the 200-A were deployed to elite Divisions.
+
 manufacturer:Independence Weaponry
 primaryfactory:Quentin
 systemmanufacturer:CHASSIS:TSN Light Endo-Steel

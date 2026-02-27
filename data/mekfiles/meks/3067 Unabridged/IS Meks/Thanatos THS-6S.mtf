@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,123 +15,125 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thanatos
 model:TNS-6S
 mul id:5701
 
 Config:Biped
-techbase:Inner Sphere
-era:3081
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3081
+Rules Level:2
 role:Skirmisher
+source:RS:3067u
+
+
 
 quirk:stable
 
-mass:75
-engine:300 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:13 IS Double
-walk mp:4
-jump mp:6
+Mass:75
+Engine:300 Light Fusion Engine
+Structure:Endo-Steel
+Gyro:XL Gyro
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:25
-RT armor:25
-CT armor:32
-HD armor:9
-LL armor:29
-RL armor:29
-RTL armor:7
-RTR armor:7
-RTC armor:13
+Heat Sinks:13 Double
+Walk MP:4
+Jump MP:6
 
-Weapons:8
-Heavy PPC, Left Arm
-LRM 5, Right Arm
-LRM 5, Right Arm
-LRM 5, Right Arm
-ER Medium Laser, Left Torso
-Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-Medium Laser, Right Torso
+Armor:Standard Armor
+LA Armor:24
+RA Armor:24
+LT Armor:25
+RT Armor:25
+CT Armor:32
+HD Armor:9
+LL Armor:29
+RL Armor:29
+RTL Armor:7
+RTR Armor:7
+RTC Armor:13
+
+Weapons:9
+1 ISC3SlaveUnit, Head
+1 ISMediumLaser, Right Torso
+1 ISMediumLaser, Left Torso
+1 ISERMediumLaser, Right Torso
+1 ISERMediumLaser, Left Torso
+1 ISLRM5, Right Arm, Ammo:48
+1 ISLRM5, Right Arm
+1 ISLRM5, Right Arm
+1 ISHeavyPPC, Left Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Heavy PPC
-Heavy PPC
-Heavy PPC
-Heavy PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 5
-LRM 5
-LRM 5
-IS Ammo LRM-5
-IS Ammo LRM-5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISLRM5
+ISLRM5
+ISLRM5
+ISLRM5 Ammo
+ISLRM5 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISImprovedJump Jet
+ISImprovedJump Jet
+ISImprovedJump Jet
+ISImprovedJump Jet
 ISERMediumLaser
-Medium Laser
-IS Endo Steel
+ISMediumLaser
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+Engine
+Engine
+ISImprovedJump Jet
+ISImprovedJump Jet
+ISImprovedJump Jet
+ISImprovedJump Jet
 ISERMediumLaser
-Medium Laser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMediumLaser
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 
 Head:
 Life Support
@@ -140,38 +142,19 @@ Cockpit
 ISC3SlaveUnit
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+ISImprovedJump Jet
+ISImprovedJump Jet
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+ISImprovedJump Jet
+ISImprovedJump Jet

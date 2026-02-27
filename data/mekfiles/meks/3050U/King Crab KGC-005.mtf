@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,104 +15,106 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:King Crab
 model:KGC-005
 mul id:1774
 
 Config:Biped
-techbase:Inner Sphere
-era:3062
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3062
+Source:TR:3050
+Rules Level:2
 role:Juggernaut
+
+
 
 quirk:command_mech
 
-mass:100
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:30
-RT armor:30
-CT armor:44
-HD armor:9
-LL armor:40
-RL armor:40
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:12 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:30
+RT Armor:30
+CT Armor:44
+HD Armor:9
+LL Armor:40
+RL Armor:40
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:5
-LB 20-X AC, Left Torso
-LB 20-X AC, Right Torso
-Streak SRM 4, Left Torso
-Streak SRM 4, Left Torso
-ER Large Laser, Right Torso
+1 ISLBXAC20, Right Arm, Ammo:30
+1 ISLBXAC20, Left Arm
+1 ISERLargeLaser, Right Torso
+2 ISStreakSRM4, Left Torso, Ammo:25
+1 ISImprovedC3CPU, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-IS Endo Steel
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-ISLBXAC20
-IS Endo Steel
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
+Endo-Steel
 
 Left Torso:
-ISLBXAC20
-ISLBXAC20
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
 ISStreakSRM4
 ISStreakSRM4
-IS LB 20-X AC Ammo
-IS LB 20-X Cluster Ammo
-IS LB 20-X AC Ammo
-IS Streak SRM 4 Ammo
+ISLBXAC20 Ammo
+ISLBXAC20 CL Ammo
+ISLBXAC20 Ammo
+ISStreakSRM4 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
-ISLBXAC20
-ISLBXAC20
+ISLBXAC20 (Split)
+ISLBXAC20 (Split)
 ISERLargeLaser
 ISERLargeLaser
-IS LB 20-X Cluster Ammo
-IS LB 20-X AC Ammo
-IS LB 20-X Cluster Ammo
+ISLBXAC20 CL Ammo
+ISLBXAC20 Ammo
+ISLBXAC20 CL Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -125,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISC3iUnit
-ISC3iUnit
+ISImprovedC3CPU
+ISImprovedC3CPU
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,9 +173,13 @@ IS Endo Steel
 -Empty-
 
 overview:The King Crab has been a horror on the battlefield since its introduction just before the old Star League's demise, and it is well known for its ability to quickly kill most BattleMechs under eighty tons.
+
 capabilities:While not the most heavily armored 'Mech, the King Crab is still tough to crack, with sixteen tons of ferro-fibrous armor and CASE protecting its ammunition stores; however, the arms are probably the most susceptible area to receive damage and an internal hit is likely to knock an autocannon out of the fight. The 'Mech is also slow, with a cruising speed of 32 km/h and top speed of 54 km/h, and has been described as a "notorious hangar queen".
-deployment:The 005 King Crab is an upgraded version of the 000 model introduced in 3062. The autocannons have been upgraded to LB-X Autocannon/20s and the large laser has been upgraded to an ER Large Laser. The LRM-15 has been completely removed from the ‘Mech and replaced with two Streak SRM-4s. The final upgrade is the inclusion of an improved C3 computer to allow the King Crab to work in concert with up to five other units sharing targeting telemetry.
+
+deployment:The 005 King Crab is an upgraded version of the 000 model introduced in 3062. The autocannons have been upgraded to LB-X Autocannon/20s and the large laser has been upgraded to an ER Large Laser. The LRM-15 has been completely removed from the ‘Mech and replaced with two Streak SRM-4s. The final upgrade is the inclusion of an improved C3 computer to allow the King Crab to work in concert with up to five other units sharing targeting telemetry. 
+
 history:The KGC-000, designed by Cosara Weaponries scientists under General Kerensky's directives, performed brilliantly in its specified mission, though it was nowhere near the command vehicle that Defiance Industries' later Atlas was. The majority of King Crabs joined Kerensky on his Exodus, including all surviving -010 platforms; those that remained were surreptitiously purchased by ComStar and mothballed on Terra. Upon the Clans' arrival and the Battle of Tukayyid, most Com Guard commanders discovered that the original Imperator-D autocannon design could not close quickly enough with Clan machines to cause considerable damage. After being approached by ComStar, Cosara Weaponries created the -001 variant; the additional range gave the King Crab some much-needed reach. ComStar, pleased with their performance, gave Cosara permission to mass-produce the enhanced King Crab for general market sale, with ComStar receiving a major portion of the yearly earnings. Northwind production ended after the Word of Blake blockaded the system, and scattered intelligence reports indicate that the Blakists took control the Cosara plant. After being shut down for some months, the plant reopened in late 3069, continuously producing and sending a newer King Crab variant to Protectorate forces. First Precentor Dow took an extraordinary action for the once-secret organization after losing a major weapons supply. ComStar was able to infiltrate the Cosara plant and grab the new engineering designs by hiring a tiny mercenary group that specialized in corporate espionage. ComStar then approached Starcorps Industries and gave the young company the opportunity to create a new King Crab variation, the KGC-007. StarCorps accepted, eager to expand their product line, and the first -007s are scheduled to roll off the Son Hoa line in late 3071. The first three production runs have already been purchased by the LAAF and AFFC.
+
 manufacturer:Cosara Weaponries
 primaryfactory:Mars
 systemmanufacturer:CHASSIS:Hollis Mark IIe

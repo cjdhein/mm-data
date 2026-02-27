@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Liberator
 model:LIB-4T
 mul id:5845
-
 Config:Biped
 techbase:Inner Sphere
 era:3018
@@ -27,13 +25,17 @@ source:XTR:Boondoggles
 rules level:2
 role:None
 
-quirk:bad_rep_is
-quirk:prototype
+
+
+
 quirk:bad_rep_clan
+quirk:bad_rep_is
 quirk:poor_work
+quirk:prototype
+
 
 mass:40
-engine:240 Fusion Engine
+engine:240 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -56,9 +58,9 @@ RTC armor:4
 
 Weapons:4
 LRM 5, Left Arm
-LRM 5, Right Arm
-SRM 2, Left Torso
 Large Laser, Center Torso
+SRM 2, Left Torso
+LRM 5, Right Arm
 
 Left Arm:
 Shoulder
@@ -175,3 +177,4 @@ Foot Actuator
 history:Non Functional Quirk doesn't work in MegaMek, so this assumes what the unit would be like if the HS all worked.
 manufacturer:KaliYama Weapons Industries
 primaryfactory:Kalidasa
+

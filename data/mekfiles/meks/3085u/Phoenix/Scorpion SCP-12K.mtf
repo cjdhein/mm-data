@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scorpion
 model:SCP-12K
 mul id:2835
 
 Config:Quad
-techbase:Inner Sphere
-era:3071
+TechBase:Inner Sphere
+Era:3071
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
 
+
+
+quirk:bad_rep_clan
 quirk:bad_rep_is
 quirk:hard_pilot
-quirk:bad_rep_clan
 
-mass:55
-engine:330 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-FLL armor:22
-FRL armor:22
-LT armor:20
-RT armor:20
-CT armor:25
-HD armor:9
-RLL armor:22
-RRL armor:22
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+FLL Armor:22
+FRL Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:25
+HD Armor:9
+RLL Armor:22
+RRL Armor:22
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:4
 ER Medium Laser, Left Torso
-C3 Computer (Master), Left Torso
+C3 Master with TAG, Left Torso
 Snub-Nose PPC, Right Torso
 MML 9, Right Torso
 
@@ -64,8 +66,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -78,8 +80,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -99,7 +101,7 @@ ISC3MasterUnit
 ISC3MasterUnit
 ISC3MasterUnit
 ISC3MasterUnit
-IS Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -112,8 +114,8 @@ ISMML9
 ISMML9
 ISMML9
 ISMML9
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -126,14 +128,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

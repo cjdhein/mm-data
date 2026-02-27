@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Merlin
 model:MLN-1B
 mul id:2178
 
 Config:Biped
-techbase:Inner Sphere
-era:3053
-source:TR:3058U
-rules level:1
+TechBase:Inner Sphere
+Era:3053
+Source:TR:3058U
+Rules Level:1
 role:Brawler
 
 quirk:easy_maintain
 quirk:rugged_1
 
-mass:60
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:19 Single
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:18
-RT armor:18
-CT armor:26
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:19 Single
+Walk MP:4
+Jump MP:4
+
+Armor:Standard((Unknown Technology Base))
+LA Armor:16
+RA Armor:16
+LT Armor:18
+RT Armor:18
+CT Armor:26
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:5
 Medium Laser, Left Arm
 Medium Laser, Right Arm
 Flamer, Left Torso
-PPC, Right Torso
+Particle Cannon, Right Torso
 LRM 5, Right Torso
 
 Left Arm:
@@ -106,9 +106,9 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-PPC
-PPC
-PPC
+Particle Cannon
+Particle Cannon
+Particle Cannon
 LRM 5
 -Empty-
 -Empty-
@@ -172,9 +172,13 @@ Jump Jet
 -Empty-
 
 overview:The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech.
+
 capabilities:The 'Mech is powered by a Pitban 240 fusion engine that gives it a top speed of 64.8 km/h. The Merlin carries ten and a half tons of armor, which is a respectable amount of protection for its weight. Additionally, the Merlin carries eighteen heat sinks to handle its heavy heat load.
+
 deployment:The 1B variant introduced in 3053 removes the Machine Gun and its ammunition and replaces them with an additional heat sink to help handle the Merlin's heat load.
+
 history:The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years.
+
 manufacturer:Field Refit
 primaryfactory:Various
 systemmanufacturer:CHASSIS:Heavy Star QAT-4

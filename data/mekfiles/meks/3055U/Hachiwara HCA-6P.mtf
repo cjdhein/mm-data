@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hachiwara
 model:HCA-6P
 mul id:1363
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3055U
+Rules Level:4
 role:Juggernaut
+
+
 
 quirk:difficult_maintain
 
-mass:70
-engine:350 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:0
+Mass:70
+Engine:350 XL Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Hardened(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:22
-RT armor:22
-CT armor:33
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Hardened(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:22
+RT Armor:22
+CT Armor:33
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:6
 ER PPC, Left Arm
@@ -66,9 +68,9 @@ ISERPPC
 ISERPPC
 ISERPPC
 PPC Capacitor
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +84,9 @@ IS Lance
 IS Lance
 IS Lance
 IS Lance
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -94,11 +96,11 @@ Fusion Engine
 Medium Laser
 Medium Laser
 Spikes
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 -Empty-
 
 Right Torso:
@@ -108,11 +110,11 @@ Fusion Engine
 Medium Laser
 Medium Laser
 Spikes
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 -Empty-
 
 Center Torso:
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

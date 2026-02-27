@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,23 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Carrion Crow
 model:B
 mul id:7777
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3145
 source:RG12
 rules level:2
 role:Sniper
 
-quirk:unbalanced
 quirk:imp_target_short
+quirk:unbalanced
+
 
 mass:40
-engine:280 XL (Clan) Engine
+engine:280 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -105,7 +105,7 @@ Fusion Engine
 Fusion Engine
 Clan Ammo ATM-9 (OMNIPOD)
 Clan Ammo ATM-9 (OMNIPOD)
-Supercharger (OMNIPOD)
+Supercharger (Clan) (OMNIPOD)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -171,9 +171,13 @@ Foot Actuator
 -Empty-
 
 overview:The Carrion Crow is a Raven Alliance OmniMech designed alongside the heavier and more expensive War Crow.
+
 capabilities:An extralight engine drives the 'Mech at a top speed of 111km/h. Protection for the engine and Endo-Steel chassis is provided by nine and a half tons of Ferro-Lamellor armor. Fourteen and a half tons of pod space allows the Carrion Crow to carry weapons that let it effectively fight heavier units.
+
 deployment:An Improved Heavy Medium Laser is in the right arm, while the left arm carries an ER Large Laser. Supplementing this is an ATM 9 in the left torso, and two tons of ammunition is in the right torso. Also present is an engine Supercharger for sprint speeds, and a Watchdog CEWS is mounted in the center torso to disrupt enemy networks.
+
 history:Deployment of the Carrion Crow is limited to the Raven touman with the Alliance Military Corps not receiving any of these 'Mechs. A fast 'Mech, the Carrion Crow is intended to be a standard medium 'Mech for the Alliance.
+
 manufacturer:Snow Raven Industrial Complex Beta
 primaryfactory:Mitchella
 systemmanufacturer:CHASSIS:Raven Endo Steel
@@ -182,3 +186,4 @@ systemmanufacturer:ENGINE:Type 280 Extralight
 systemmanufacturer:ARMOR:Compound LZ-7 Ferro-Lamellor
 systemmanufacturer:COMMUNICATIONS:TDWS-37 Mk. 2.2
 systemmanufacturer:TARGETING:“Hermes” CT-44
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk
 model:SHD-2D2
 mul id:2900
@@ -27,15 +26,18 @@ source:RG12
 rules level:2
 role:Brawler
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 quirk:ubiquitous_clan
-quirk:rugged_1
 quirk:ubiquitous_is
+quirk:rugged_1
+
 
 mass:55
-engine:275 Fusion Engine
+engine:275 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -175,4 +177,6 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
+imagefile:.\data\images\fluff\Mech\Shadowhawk3050.jpg
 

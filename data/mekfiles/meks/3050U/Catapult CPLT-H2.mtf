@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,110 +15,107 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Catapult
 model:CPLT-H2
 mul id:486
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3064
+Source:TR:3050
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:no_arms
 quirk:weak_head_1
 
-mass:65
-engine:260 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:4
-jump mp:4
+Mass:65
+Engine:260 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:13
-RA armor:13
-LT armor:22
-RT armor:22
-CT armor:26
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:13 Double
+Walk MP:4
+Jump MP:4
 
-Weapons:11
-PPC, Left Arm
-Rocket Launcher 20, Left Arm
-Rocket Launcher 20, Right Arm
-Rocket Launcher 20, Right Arm
-Rocket Launcher 20, Right Arm
-Rocket Launcher 20, Left Torso
-Rocket Launcher 20, Left Torso
-Rocket Launcher 20, Right Torso
-Rocket Launcher 20, Right Torso
-Medium Laser, Center Torso
-Medium Laser, Center Torso
+Armor:Standard Armor
+LA Armor:13
+RA Armor:13
+LT Armor:22
+RT Armor:22
+CT Armor:26
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
+
+Weapons:6
+3 ISRocketLauncher20, Right Arm
+1 ISPPC, Left Arm
+1 ISRocketLauncher20, Left Arm
+2 ISRocketLauncher20, Right Torso
+2 ISRocketLauncher20, Left Torso
+2 ISMediumLaser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-PPC
-PPC
-PPC
-RL20
-RL20
-RL20
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISPPC
+ISPPC
+ISPPC
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
 -Empty-
 
 Left Torso:
 Jump Jet
 Jump Jet
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 -Empty-
 
 Right Torso:
 Jump Jet
 Jump Jet
-RL20
-RL20
-RL20
-RL20
-RL20
-RL20
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISRocketLauncher20
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 -Empty-
 
 Center Torso:
@@ -132,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
-Medium Laser
+ISMediumLaser
+ISMediumLaser
 
 Head:
 Life Support

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,108 +15,108 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Savage Coyote
 model:C
 mul id:4984
 
-Config:Biped OmniMek
-techbase:Clan
-era:3064
-source:TR:3067
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3064
+Source:TR:3067
+Rules Level:2
 role:Juggernaut
 
 quirk:oversized
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:20 Clan Double
-base chassis heat sinks:10
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:25
-RA armor:25
-LT armor:26
-RT armor:26
-CT armor:34
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:20 Double
+Base Chassis Heat Sinks:10
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:25
+RA Armor:25
+LT Armor:26
+RT Armor:26
+CT Armor:34
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:8
 ER Large Laser, Left Arm
 ER Medium Laser, Left Arm
 ER Large Laser, Right Arm
 ER Medium Laser, Right Arm
-ER PPC, Left Torso
 ATM 9, Left Torso
+ER PPC, Left Torso
 ATM 9, Right Torso
 ER Medium Laser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-Jump Jet (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-Clan Ammo ATM-9 (OMNIPOD)
+Jump Jet (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+Clan Ammo ATM-9 (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-Jump Jet (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-CLATM9 (OMNIPOD)
-Clan Ammo ATM-9 (OMNIPOD)
-Clan Ammo ATM-9 HE (OMNIPOD)
-Clan Ammo ATM-9 HE (OMNIPOD)
+Jump Jet (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+CLATM9 (omnipod)
+Clan Ammo ATM-9 (omnipod)
+Clan Ammo ATM-9 HE (omnipod)
+Clan Ammo ATM-9 HE (omnipod)
 
 Center Torso:
 Fusion Engine
@@ -129,14 +129,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+Jump Jet (omnipod)
+CLERMediumLaser (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Ammo ATM-9 ER (OMNIPOD)
+Clan Ammo ATM-9 ER (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -175,9 +175,13 @@ CLDoubleHeatSink
 -Empty-
 
 overview:The Savage Coyote OmniMech was created as a showcase OmniMech. The 'Mech was also part of Khan Koga's attempts to revitalize the fading Clan that invented the OmniMech.
+
 capabilities:This assault 'Mech uses an XL Engine to save enough weight to devote forty-five tons of space to modular equipment and fifteen tons of armor. The base chassis contains fourteen fixed double heat sinks.
+
 deployment:This configuration focuses on long-range combat with an ER PPC, a pair of ER Large Lasers, and two ATM 9s that carry enough ammunition to be effective at all ranges. Three ER Medium Lasers provide medium to close range support, while a Targeting Computer aids the accuracy of all the energy weapons. Three jump jets give the 'Mech some extra maneuverability.
-history:Following the development of Advanced Tactical Missile technology. The creation of the Savage Coyote was a direct result of both the warriors of Clan Coyote clamoring for new weapons to use and the election of Khan Sullivan Koga in 3052.
+
+history:Following the development of Advanced Tactical Missile technology. The creation of the Savage Coyote was a direct result of both the warriors of Clan Coyote clamoring for new weapons to use and the election of Khan Sullivan Koga in 3052. 
+
 manufacturer:Landen, Picuris, and Zuni ’Mech Production Complexes
 systemmanufacturer:CHASSIS:Assault Series SXG
 systemmanufacturer:ENGINE:Type 255 Extralight

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-10-12
 chassis:Panther
 model:PNT-9ALAG
 mul id:7417
@@ -31,7 +31,7 @@ quirk:nimble_jumper
 quirk:imp_target_short
 
 mass:35
-engine:175 Fusion Engine
+engine:175 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -180,3 +180,4 @@ systemmanufacturer:ARMOR:Maximillian 42
 systemmanufacturer:JUMP_JET:Lexington Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher CommCon CSU-4
 systemmanufacturer:TARGETING:Cat’s Eyes 5
+

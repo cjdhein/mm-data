@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Champion
 model:CHP-1Nb2
 mul id:6765
@@ -23,14 +22,17 @@ mul id:6765
 Config:Biped
 techbase:Inner Sphere
 era:2737
-source:His:OK
 rules level:3
 role:None
+source:His:OK
+
+
 
 quirk:no_arms
 
+
 mass:60
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -52,8 +54,8 @@ RTR armor:6
 RTC armor:8
 
 Weapons:2
-PPC, Left Torso
 Gauss Rifle, Right Torso
+PPC, Left Torso
 
 Left Arm:
 Shoulder
@@ -166,4 +168,3 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
-

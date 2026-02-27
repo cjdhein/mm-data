@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:JagerMech
 model:JM7-G
 mul id:4392
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Source:TR:3050
+Rules Level:2
 role:Sniper
+
+
 
 quirk:anti_air
 
-mass:70
-engine:280 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 XL Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:24
-RT armor:24
-CT armor:34
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Heat Sinks:13 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:22
+RA Armor:22
+LT Armor:24
+RT Armor:24
+CT Armor:34
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:6
-Rotary AC/2, Left Arm
-LB 2-X AC, Left Arm
-Rotary AC/2, Right Arm
-LB 2-X AC, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
+1 ISRotaryAC2, Left Arm, Ammo:90
+1 ISRotaryAC2, Right Arm
+1 ISLBXAC2, Left Arm, Ammo:90
+1 ISLBXAC2, Right Arm
+1 ISERMediumLaser, Left Torso
+1 ISERMediumLaser, Right Torso
 
 Left Arm:
 Shoulder
@@ -69,9 +71,9 @@ ISLBXAC2
 ISLBXAC2
 ISLBXAC2
 ISLBXAC2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -83,49 +85,49 @@ ISLBXAC2
 ISLBXAC2
 ISLBXAC2
 ISLBXAC2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERMediumLaser
-IS LB 2-X AC Ammo
-ISRotaryAC2 Ammo
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLBXAC2 Ammo
+IS Rotary AC/2 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
 ISCASE
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERMediumLaser
-IS LB 2-X Cluster Ammo
-ISRotaryAC2 Ammo
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLBXAC2 CL Ammo
+IS Rotary AC/2 Ammo
+Ferro-Fibrous
+Ferro-Fibrous
 ISCASE
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 -Empty-
 -Empty-
 
@@ -136,38 +138,19 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Ferro-Fibrous
+Ferro-Fibrous

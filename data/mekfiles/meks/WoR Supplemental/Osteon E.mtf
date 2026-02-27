@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Osteon
 model:E
 mul id:5826
 
-Config:Biped OmniMek
-techbase:Clan
-era:3072
+Config:Biped Omnimech
+TechBase:Clan
+Era:3072
 source:WoR
-rules level:4
+Rules Level:4
 role:Juggernaut
 
 quirk:ext_twist
-quirk:bad_rep_clan
 quirk:multi_trac
 quirk:pro_actuator
+quirk:bad_rep_clan
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:IS Reinforced
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
 
-heat sinks:11 Clan Double
-base chassis heat sinks:10
-walk mp:3
-jump mp:0
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:Clan Reinforced
+Myomer:Standard
+Cockpit:Torso-Mounted Cockpit
+Gyro:Standard Gyro
 
-armor:Ferro-Lamellor(Clan)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:40
-HD armor:8
-LL armor:36
-RL armor:36
-RTL armor:12
-RTR armor:12
-RTC armor:12
+Heat Sinks:11 Double
+Base Chassis Heat Sinks:10
+Walk MP:3
+Jump MP:0
+
+Armor:Ferro-Lamellor(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:40
+HD Armor:8
+LL Armor:36
+RL Armor:36
+RTL Armor:12
+RTR Armor:12
+RTC Armor:12
 
 Weapons:4
 HAG/20, Left Arm
@@ -66,51 +66,51 @@ ER Medium Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+HAG/20 Ammo (omnipod)
+HAG/20 Ammo (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+HAG/20 Ammo (omnipod)
+HAG/20 Ammo (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 
 Left Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 -Empty-
 -Empty-
 
 Right Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 -Empty-
@@ -137,8 +137,8 @@ Head:
 Sensors
 Sensors
 NovaCEWS
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -176,7 +176,9 @@ Clan Ferro-Lamellor
 -Empty-
 
 overview:The Osteon was The Society's assault-class OmniMech. To maximize the 'Mech's battlefield longevity, the designers focused on survivability above other considerations. Eighteen tons of Ferro-Lamellor armor provide excellent protection against weapons fire, but in case the armor is breached the Reinforced Structure will resist most attacks. In addition, the Torso-Mounted Cockpit allows the Osteon's pilot to take advantage of the heavy center torso armor. To maximize the Osteon's damage potential, a Nova CEWS allows the unit to share targeting data with friendly units. This equipment is so valuable that it's permanently mounted in the 'Mech's head.
-capabilities:This version carries a HAG 20 in each arm. The head sports an ER Large Laser and ER Medium Laser.
+
+capabilities:This version carries a HAG 20 in each arm. The head sports an ER Large Laser and ER Medium Laser. 
+
 deployment:Due to the role this Omnimech played with The Society during the Wars of Reaving, the Osteon, as of 3090, was outlawed by the Home Clans, although it was undergoing study.
 manufacturer:Kerensky Memorial Manufacturing
 primaryfactory:Strana Mechty

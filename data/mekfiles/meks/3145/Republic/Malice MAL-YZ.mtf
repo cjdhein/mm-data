@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Malice
 model:MAL-YZ
 mul id:6727
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3142
-source:TR:3145:RotS
-rules level:3
+TechBase:Mixed (Clan Chassis)
+Era:3142
+Source:TR:3145:RotS
+Rules Level:3
 role:Sniper
 
+Mass:100
+Engine:400 XXL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:Compact Gyro
 
-mass:100
-engine:400 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:0
 
-heat sinks:12 Clan Double
-walk mp:4
-jump mp:0
-
-armor:Ferro-Lamellor(Clan)
-LA armor:32
-RA armor:32
-LT armor:30
-RT armor:30
-CT armor:42
-HD armor:9
-LL armor:41
-RL armor:41
-RTL armor:12
-RTR armor:12
-RTC armor:20
+Armor:Ferro-Lamellor(Clan)
+LA Armor:32
+RA Armor:32
+LT Armor:30
+RT Armor:30
+CT Armor:42
+HD Armor:9
+LL Armor:41
+RL Armor:41
+RTL Armor:12
+RTR Armor:12
+RTC Armor:20
 
 Weapons:7
-Large Pulse Laser, Left Arm
-Laser AMS, Left Arm
-Large Pulse Laser, Right Arm
-Laser AMS, Right Arm
+Clan TAG, Head
 ER Large Laser, Left Torso
 ER Large Laser, Right Torso
-TAG, Head
+Large Pulse Laser, Right Arm
+Large Pulse Laser, Left Arm
+Laser AMS, Left Arm
+Laser AMS, Right Arm
 
 Left Arm:
 Shoulder
@@ -67,7 +65,7 @@ Upper Arm Actuator
 CLLargePulseLaser
 CLLargePulseLaser
 CLLaserAntiMissileSystem
-ISModularArmor
+CLModularArmor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -81,7 +79,7 @@ Upper Arm Actuator
 CLLargePulseLaser
 CLLargePulseLaser
 CLLaserAntiMissileSystem
-ISModularArmor
+CLModularArmor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 Clan Ferro-Lamellor
@@ -90,46 +88,46 @@ Clan Ferro-Lamellor
 Clan Ferro-Lamellor
 
 Left Torso:
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
 CLERLargeLaser
 RemoteSensorDispenser
-Coolant Pod
-ISModularArmor
+Clan Coolant Pod
+CLModularArmor
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
 
 Right Torso:
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
 CLERLargeLaser
 RemoteSensorDispenser
-Coolant Pod
-ISModularArmor
+Clan Coolant Pod
+CLModularArmor
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
 
 Center Torso:
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Gyro (ARMORED)
-Gyro (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-Fusion Engine (ARMORED)
-ISAngelECMSuite
-ISAngelECMSuite
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Gyro (armored)
+Gyro (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+Fusion Engine (armored)
+CLAngelECMSuite
+CLAngelECMSuite
 ISC3SlaveUnit
-ISModularArmor
+CLModularArmor
 
 Head:
 Life Support
@@ -146,11 +144,11 @@ Life Support
 -Empty-
 
 Left Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISModularArmor
+CLModularArmor
 -Empty-
 -Empty-
 -Empty-
@@ -160,11 +158,11 @@ ISModularArmor
 -Empty-
 
 Right Leg:
-Hip (ARMORED)
+Hip (armored)
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-ISModularArmor
+CLModularArmor
 -Empty-
 -Empty-
 -Empty-
@@ -172,4 +170,5 @@ ISModularArmor
 -Empty-
 -Empty-
 -Empty-
+
 

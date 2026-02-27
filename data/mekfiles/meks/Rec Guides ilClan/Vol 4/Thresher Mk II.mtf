@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thresher Mk II
 model:
 mul id:7502
@@ -23,15 +22,17 @@ mul id:7502
 Config:Biped
 techbase:Clan
 era:3149
-source:RG04
 rules level:4
 role:Skirmisher
+source:RG04
 
-quirk:ramshackle
+
 quirk:imp_target_med
+quirk:ramshackle
+
 
 mass:60
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -110,7 +111,7 @@ CLLRM15
 CLLRM15
 Clan Ammo LRM-15
 Clan Ammo LRM-15
-Supercharger
+Supercharger (Clan)
 CLCASEII
 Clan Reflective
 -Empty-
@@ -170,4 +171,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uller
 clanname:Kit Fox
 model:G
 mul id:5486
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3054
 source:RG11
@@ -30,12 +29,13 @@ role:Sniper
 
 quirk:low_profile
 
+
 mass:30
-engine:180 XL (Clan) Engine
+engine:180 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
-heat sinks:13 Clan Double
+heat sinks:13 Double
 base chassis heat sinks:7
 walk mp:6
 jump mp:0
@@ -64,7 +64,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLECMSuite (OMNIPOD)
+CLECMSuite (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -76,8 +76,8 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERLargeLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLERMediumLaser (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -94,8 +94,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLLRM10 (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
+CLLRM10 (omnipod)
+Clan Ammo LRM-10 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Ferro-Fibrous
@@ -104,10 +104,10 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLLRM10 (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLLRM10 (omnipod)
+Clan Ammo LRM-10 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -148,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -162,8 +162,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -172,9 +172,13 @@ CLDoubleHeatSink (OMNIPOD)
 -Empty-
 
 overview:The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus, earning it the Inner Sphere codename of Uller, after the Norse god of archery.
+
 capabilities:Often fielded by Clan Jade Falcon, the Kit Fox has a surprising amount of firepower, with the ten built-in double heat sinks sometimes barely able to fully cool the 'Mech down. However, the Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis. Four tons of Ferro-Fibrous armor provide the Kit Fox with ample protection.
+
 deployment:The G configuration is armed with a pair of LRM-10 missile launchers. An ER Large Laser and ER Medium Laser mounted in the right arm provide additional firepower. The left arm carries an ECM Suite to disrupt enemy electronics.
+
 history:The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890 with the aid of new resources coming from the Tanite Worlds. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon Khan Bret Malthus took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Jade Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade. All other Clans field the Kit Fox as isorla, except Clan Blood Spirit, who was gifted the Kit Fox by the generous (or Machiavellian?) Ravens.
+
 manufacturer:Babylon MechWorks V (Cloud Cobra),Production Line Gamma 2 (Snow Raven),Ironhold Plant 9 (Jade Falcon),Snow Raven Industrial Complex Beta
 primaryfactory:Babylon, Lum, Ironhold, Mitchella
 systemmanufacturer:CHASSIS:Process 12 Endo-steel

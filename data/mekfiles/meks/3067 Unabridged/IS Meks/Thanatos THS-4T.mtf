@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thanatos
 model:TNS-4T
 mul id:5700
 
 Config:Biped
-techbase:Inner Sphere
-era:3062
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3062
+Rules Level:2
 role:Skirmisher
+source:RS:3067u
+
+
 
 quirk:stable
 
-mass:75
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:4
-jump mp:4
+Mass:75
+Engine:300 XL Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:25
-RT armor:25
-CT armor:28
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:7
-RTR armor:7
-RTC armor:13
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:4
 
-Weapons:6
-LB 20-X AC, Left Torso
-MRM 20, Right Arm
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Right Torso
-Medium Pulse Laser, Right Torso
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:25
+RT Armor:25
+CT Armor:28
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:7
+RTR Armor:7
+RTC Armor:13
+
+Weapons:8
+1 ISC3SlaveUnit, Center Torso
+1 ISMediumPulseLaser, Left Torso
+1 ISMediumPulseLaser, Left Torso
+1 ISLBXAC20, Left Torso, Ammo:15
+1 ISMRM20, Right Arm, Ammo:24
+1 ISMediumPulseLaser, Right Torso
+1 ISMediumPulseLaser, Right Torso
+1 ISGuardianECM, Left Torso
 
 Left Arm:
 Shoulder
@@ -77,71 +81,65 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-MRM 20
-MRM 20
-MRM 20
-IS MRM 20 Ammo
-IS MRM 20 Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMRM20
+ISMRM20
+ISMRM20
+ISMRM20 Ammo
+ISMRM20 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISLBXAC20
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS LB 20-X AC Ammo
-IS LB 20-X AC Ammo
-IS LB 20-X Cluster Ammo
-ISGuardianECMSuite
-ISGuardianECMSuite
-IS Endo Steel
+ISLBXAC20 Ammo
+ISLBXAC20 Ammo
+ISLBXAC20 CL Ammo
+ISGuardianECM
+ISGuardianECM
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISMediumPulseLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISC3SlaveUnit
-IS Endo Steel
+Endo-Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -150,12 +148,6 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Right Leg:
 Hip
@@ -164,10 +156,3 @@ Lower Leg Actuator
 Foot Actuator
 Jump Jet
 Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

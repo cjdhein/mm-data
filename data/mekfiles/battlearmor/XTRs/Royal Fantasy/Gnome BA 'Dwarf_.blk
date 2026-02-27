@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -52,6 +61,9 @@ Juggernaut
 Jump
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 1
 </cruiseMP>
@@ -64,8 +76,13 @@ Jump
 2
 </armor_tech>
 
-<Point Equipment>
-</Point Equipment>
+<Squad Equipment>
+BAArmoredGlove:RA
+BABattleClawVibro:LA
+ISBASmallVSPLaser:LA
+CLBASRM6 (OS):Body
+BA-Magnetic Clamp:RA
+</Squad Equipment>
 
 <Trooper 1 Equipment>
 </Trooper 1 Equipment>
@@ -78,10 +95,6 @@ Jump
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-
-<slotless_equipment>
-BAJumpJet
-</slotless_equipment>
 
 <capabilities>
 Unlike the Elemental armor, the Gnome's armament is fixed. It mounts an ER Small Laser in its right arm while carrying a fixed SRM-2 launcher with two rounds that mimics the Streak system. Its left arm ends in a Heavy Battle Claw, however while it is able to hold onto the handholds of an OmniMech it lacks the dexterity to make anti-'Mech swarming and leg attacks. The Gnome is equipped with jump jets although it is only able to leap 60 meters at a time. The 350kg of armor protecting the Gnome can't survive a direct hit from a Clan ER PPC like the Kanazuchi can, but it will stop two shots from a Clan ER Medium Laser and remain functional with the warrior inside alive
@@ -111,7 +124,7 @@ Solaris VII
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>

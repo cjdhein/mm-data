@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kuma
 model:
 mul id:1849
 
 Config:Biped
-techbase:Clan
-era:3082
+TechBase:Clan
+Era:3082
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
+
 
 quirk:hard_pilot
 weaponquirk:accurate:LA:3:CLHeavyLargeLaser
 
-mass:60
-engine:360 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:6
-jump mp:8
+Mass:60
+Engine:360 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:6
+Jump MP:8
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:3
 Heavy Large Laser, Left Arm
@@ -64,10 +65,10 @@ Lower Arm Actuator
 CLHeavyLargeLaser
 CLHeavyLargeLaser
 CLHeavyLargeLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -78,39 +79,39 @@ Lower Arm Actuator
 Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -146,8 +147,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -160,14 +161,15 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 
 manufacturer:Alshain Battleworx
 primaryfactory:Alshain

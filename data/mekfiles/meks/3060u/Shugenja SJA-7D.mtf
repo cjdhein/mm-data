@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shugenja
 model:SJA-7D
 mul id:2942
 
 Config:Biped
-techbase:Inner Sphere
-era:3061
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3061
+Source:TR:3060
+Rules Level:2
 role:Brawler
 
+
+
+
 quirk:cowl
-quirk:exp_actuator
 quirk:hyper_actuator
+quirk:exp_actuator
 
-mass:75
-engine:300 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 IS Double
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:35
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:35
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:5
 ER PPC, Left Arm
 Large Laser, Right Arm
 Large Laser, Right Arm
 MRM 30, Left Torso
-C3 Computer (Master), Right Torso
+C3 Master with TAG, Right Torso
 
 Left Arm:
 Shoulder
@@ -70,9 +73,9 @@ ISDoubleHeatSink
 ISERPPC
 ISERPPC
 ISERPPC
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -85,8 +88,8 @@ Large Laser
 Large Laser
 Large Laser
 Large Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -99,8 +102,8 @@ MRM 30
 MRM 30
 IS MRM 30 Ammo
 IS MRM 30 Ammo
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -127,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -149,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,55 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Emperor
 model:EMP-6M
 mul id:968
 
 Config:Biped
-techbase:Inner Sphere
-era:3069
-source:TR:3058U
-rules level:2
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3058U
+Rules Level:2
 role:Sniper
 
+
+
 quirk:command_mech
-weaponquirk:imp_cooling:LA:8:ISERLargeLaser
 weaponquirk:imp_cooling:RA:8:ISERLargeLaser
+weaponquirk:imp_cooling:LA:8:ISERLargeLaser
 
-mass:90
-engine:270 Light Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:3
-jump mp:3
+Mass:90
+Engine:270 Light Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:29
-RA armor:29
-LT armor:28
-RT armor:28
-CT armor:43
-HD armor:9
-LL armor:37
-RL armor:37
-RTL armor:9
-RTR armor:9
-RTC armor:14
+Heat Sinks:10 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Inner Sphere)
+LA Armor:29
+RA Armor:29
+LT Armor:28
+RT Armor:28
+CT Armor:43
+HD Armor:9
+LL Armor:37
+RL Armor:37
+RTL Armor:9
+RTR Armor:9
+RTC Armor:14
 
 Weapons:8
-Light Gauss Rifle, Left Arm
-ER Large Laser, Left Arm
-Light Gauss Rifle, Right Arm
-ER Large Laser, Right Arm
 Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Right Torso
 Medium Pulse Laser, Center Torso
+Medium Pulse Laser, Right Torso
 ER Medium Laser, Head
+ER Large Laser, Left Arm
+ER Large Laser, Right Arm
+Light Gauss Rifle, Left Arm
+Light Gauss Rifle, Right Arm
 
 Left Arm:
 Shoulder
@@ -75,7 +77,7 @@ ISLightGaussRifle
 ISERLargeLaser
 ISERLargeLaser
 IS Light Gauss Ammo
-Triple Strength Myomer
+TSM
 
 Right Arm:
 Shoulder
@@ -89,21 +91,21 @@ ISLightGaussRifle
 ISERLargeLaser
 ISERLargeLaser
 IS Light Gauss Ammo
-Triple Strength Myomer
+TSM
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 
 Right Torso:
 Fusion Engine
@@ -111,13 +113,13 @@ Fusion Engine
 ISMediumPulseLaser
 ISC3iUnit
 ISC3iUnit
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 
 Center Torso:
 Fusion Engine
@@ -153,7 +155,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -167,11 +169,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-Triple Strength Myomer
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

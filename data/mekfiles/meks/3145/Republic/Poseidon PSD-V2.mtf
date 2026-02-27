@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Poseidon
 model:PSD-V2
 mul id:6684
@@ -27,9 +26,13 @@ source:TR:3145:RotS
 rules level:3
 role:Juggernaut
 
-quirk:distracting
+
+
+
 quirk:command_mech
+quirk:distracting
 quirk:searchlight
+
 
 mass:125
 engine:375 XL Engine(IS)
@@ -201,6 +204,14 @@ ISAntiPersonnelPod
 overview:<p>The Poseidon represents a groundbreaking achievement in BattleMech engineering, successfully surpassing the “100-ton barrier” that had long been a limit for Mech design. Emergent from the chaos of the Jihad and the technological innovations of the Word of Blake, the Poseidon was developed by the Republic of the Sphere as part of the ambitious Rhodes Project. This super-heavy tripod Mech, often referred to as a "Colossal," embodies the culmination of efforts to create a Mech that is bigger, stronger, and more formidable than any predecessor. It stands as a testament to the Republic's readiness to embrace advanced warfare technology in the wake of the Blackout and the subsequent Fortress Republic initiative.</p>
 capabilities:<p>The PSD-V2 Poseidon, drawing inspiration from the Orca project and the Word of Blake’s Omega, features reengineered endo steel bones and reinforced actuators for enhanced stability and battlefield flexibility. Unlike its spiritual predecessor, the Orca, the Poseidon boasts greater stability and flexibility, making it a formidable presence on the battlefield. This super-heavy tripod is designed not just for raw power but also for operational versatility, showcasing the pinnacle of Mech engineering in the post-Jihad era.</p>
 history:<p>
+The Poseidon BattleMech, emerging in the wake of the Jihad and amid the complex political landscape of the Fortress Republic, represents a significant milestone in the evolution of BattleMech technology. Developed as part of the Republic of the Sphere's ambitious Rhodes Project, the Poseidon broke through the “100-ton barrier,” a long-standing limitation in Mech design, to become a symbol of the Republic's commitment to advanced warfare technology.
+
+<p>
+The Poseidon's first deployment at the Serbian proving grounds on Terra in 3135 was a pivotal moment in its history. Engaged against rebel senatorial forces, the PSD-X1 test bed models of the Poseidon achieved a stunning victory, thanks largely to their imposing presence and formidable weaponry. This crucial engagement underlined the effectiveness of the Poseidon in combat and led to the refinements that characterized the final PSD-V2 models.
+
+<p>
+In the current era, Poseidon-class superheavy tripods are exclusively deployed by the most elite and reliable commands of the Republic Armed Forces (RAF). Their primary role remains defensive, underscoring their strategic importance as a deterrent and a symbol of strength. The deployment and operational history of the Poseidon reflect not just the Republic's technological prowess but also its strategic acumen in leveraging such advanced machines in the ever-evolving landscape of interstellar warfare.
+</p>
 manufacturer:Rhodes Foundry
 primaryfactory:Devil’s Rock
 systemmanufacturer:CHASSIS:Rhodes-P Endo Steel
@@ -208,3 +219,4 @@ systemmanufacturer:ENGINE:PlasmaStar 375 XL
 systemmanufacturer:ARMOR:Maximillian 320 with CASE II
 systemmanufacturer:COMMUNICATIONS:Titan’s Shout Mk. IVA
 systemmanufacturer:TARGETING:Titan’s Vantage Mk. II with Apollo FCS
+

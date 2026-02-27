@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.03-SNAPSHOT on 2025-01-25
 chassis:Orion
 model:(Kerensky)
 
@@ -32,7 +32,7 @@ quirk:anti_air
 quirk:rugged_1
 
 mass:75
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -56,8 +56,8 @@ RTC armor:10
 Weapons:5
 Medium Laser, Left Arm
 Medium Laser, Right Arm
-Snub-Nose PPC, Left Torso
 SRM 4, Left Torso
+Snub-Nose PPC, Left Torso
 Gauss Rifle, Right Torso
 
 Left Arm:
@@ -183,3 +183,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Leopard V Ferro-Fibrous with CASE
 systemmanufacturer:COMMUNICATIONS:OmniComm 3
 systemmanufacturer:TARGETING:Starbeam 3000 with Artemis IV FCS
+

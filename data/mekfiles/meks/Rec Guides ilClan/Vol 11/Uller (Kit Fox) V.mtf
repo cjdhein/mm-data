@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uller
 clanname:Kit Fox
 model:V
 mul id:7746
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2921
 source:RG11
@@ -30,8 +29,9 @@ role:Missile Boat
 
 quirk:low_profile
 
+
 mass:30
-engine:180 XL (Clan) Engine
+engine:180 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -171,9 +171,13 @@ Foot Actuator
 -Empty-
 
 overview:The Kit Fox is a light Clan OmniMech with long-range combat as a primary focus, earning it the Inner Sphere codename of Uller, after the Norse god of archery.
+
 capabilities:Often fielded by Clan Jade Falcon, the Kit Fox has a surprising amount of firepower, with the ten built-in double heat sinks sometimes barely able to fully cool the 'Mech down. However, the Kit Fox is somewhat slow for its weight class, only capable of a top speed of 97.2 km/h, provided by a lightweight 180 XL Fusion Engine. Available tonnage is further increased by the use of a lightweight Endo Steel chassis. Four tons of Ferro-Fibrous armor provide the Kit Fox with ample protection.
+
 deployment:This configuration provides fast artillery support to Clan forces via an Arrow IV system. Three tons of ammunition are also carried. For close in defense the left arm has two ER Small Lasers.
+
 history:The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890 with the aid of new resources coming from the Tanite Worlds. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon Khan Bret Malthus took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Jade Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade. All other Clans field the Kit Fox as isorla, except Clan Blood Spirit, who was gifted the Kit Fox by the generous (or Machiavellian?) Ravens.
+
 manufacturer:Babylon MechWorks V (Cloud Cobra),Production Line Gamma 2 (Snow Raven),Ironhold Plant 9 (Jade Falcon),Snow Raven Industrial Complex Beta
 primaryfactory:Babylon, Lum, Ironhold, Mitchella
 systemmanufacturer:CHASSIS:Process 12 Endo-steel
@@ -181,3 +185,4 @@ systemmanufacturer:ENGINE:Starfire 180 XL
 systemmanufacturer:ARMOR:Compound H18
 systemmanufacturer:COMMUNICATIONS:CobraTalk 12
 systemmanufacturer:TARGETING:Series XXX MultiTrack
+

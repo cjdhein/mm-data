@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stealth
 model:STH-1D
 mul id:3052
@@ -27,10 +26,14 @@ source:TR:3055U
 rules level:2
 role:Striker
 
+
+
+
 quirk:imp_sensors
 
+
 mass:45
-engine:315 XL Engine
+engine:315 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -52,8 +55,8 @@ RTR armor:5
 RTC armor:6
 
 Weapons:4
-SRM 6, Left Torso
 Medium Laser, Left Torso
+SRM 6, Left Torso
 Medium Laser, Right Torso
 Streak SRM 2, Right Torso
 
@@ -170,8 +173,11 @@ IS Endo Steel
 -Empty-
 
 overview:The Stealth is a heavy scout 'Mech that is in use by the Federated Suns and the Lyran Alliance.
+
 capabilities:The 'Mech has a GM 315 XL Engine that allows the Stealth to move at speeds of 118.8 kph and the MASC system on board can push the 'Mech to 151.2 kph in short bursts. This amazing mobility is augmented by jump jets which the Stealth can use to jump up to two hundred and ten meters. The Stealth is also outfitted with a Cyclops-Beagle Sensory Active Probe that the Stealth can use to find hidden enemy units.
+
 deployment:The Stealth is armed with an eclectic short range weapons arsenal. The primary weapons in this arsenal are a pair of Diplan M3 Medium Lasers which are backed up by a Shannon SH-60 SRM-6 and a Federated SuperStreak Streak SRM-2 which both allow the 'Mech to find weak spots in an enemy 'Mech's armor.
+
 manufacturer:General Motors
 primaryfactory:Kathil
 systemmanufacturer:CHASSIS:GM Stealth Endo Steel
@@ -180,3 +186,4 @@ systemmanufacturer:ARMOR:Durallex Medium
 systemmanufacturer:JUMP_JET:100AFVTA
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban HiRez with Active Probe
+

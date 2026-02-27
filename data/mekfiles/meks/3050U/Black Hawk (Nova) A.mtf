@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Black Hawk
 clanname:Nova
 model:A
 mul id:335
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2870
 source:TR:3050
@@ -31,8 +30,9 @@ role:Sniper
 quirk:combat_computer
 quirk:low_profile
 
+
 mass:50
-engine:250 XL (Clan) Engine
+engine:250 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -41,7 +41,7 @@ base chassis heat sinks:10
 walk mp:5
 jump mp:5
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:16
 RA armor:16
 LT armor:16
@@ -174,9 +174,13 @@ Jump Jet
 -Empty-
 
 overview:The Nova is a versatile medium OmniMech that is capable of acting as a workhorse design in most forces. In fact, the design is so well balanced that it inspired the creation of the Black Hawk-KU, an Inner Sphere design based on the Nova and named using the Inner Sphere code name for this 'Mech: Black Hawk.
+
 capabilities:A long range sniper configuration, the Nova A has a pair of powerful Clan ER PPCs for long range combat. For protection at close range, the Nova A has a single Medium Pulse Laser and also mounts two Anti-Missile Systems for protection from missile fire.
+
 deployment:A long range sniper configuration, the Nova A has a pair of powerful Clan ER PPCs for long range combat. For protection at close range, the Nova A has a single Medium Pulse Laser and also mounts two Anti-Missile Systems for protection from missile fire.
+
 history:The Black Hawk's debut battle was the combined assault on Kindraa Smythe-Jewel on Foster in 2872 launched by the Hell's Horses, Clan Coyote and Kindraa Payne that saw the Smythe-Jewels wiped out as a faction. However, the number of Novas has been diminishing. Only spare parts have been in production since 2921. Designed as an early OmniMech by Clan Hell's Horses, the Nova was produced at the famous Tokasha Mechworks beginning in 2870. At the time of its introduction, the Nova was designed for infantry support, and was the first OmniMech designed with hardpoints allowing Elementals to easily mount and dismount the chassis. However, after Tokasha was taken by Clan Ghost Bear during the Battle of Tokasha, production of the Nova ceased. Since 2921, every Clan has acquired Nova OmniMechs as isorla. Although the last Nova factory was replaced to create Pouncers, the very few remaining in Clan Space have gotten into the hands of Aggressor Mechwarriors.
+
 manufacturer:Tokasha MechWorks, Olivetti Weaponry
 primaryfactory:Tokasha, Sudeten
 systemmanufacturer:CHASSIS:Star League XTA
@@ -185,3 +189,4 @@ systemmanufacturer:ARMOR:Forge Type HH30
 systemmanufacturer:JUMP_JET:Clan Standard Type A2
 systemmanufacturer:COMMUNICATIONS:CH3B
 systemmanufacturer:TARGETING:Version Omega-V TTS
+

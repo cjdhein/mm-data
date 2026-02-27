@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Highlander IIC
 model:4
 mul id:9433
-
 Config:Biped
 techbase:Clan
 era:3147
@@ -27,13 +25,14 @@ source:RG30
 rules level:2
 role:Missile Boat
 
-quirk:difficult_eject
-quirk:cowl
 quirk:command_mech
+quirk:cowl
 quirk:reinforced_legs
+quirk:difficult_eject
+
 
 mass:90
-engine:270 Fusion (Clan) Engine
+engine:270 Fusion (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -187,3 +186,4 @@ systemmanufacturer:ARMOR:Arcadia Compound Delta VII Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Prentiss-IIIA
 systemmanufacturer:COMMUNICATIONS:C-XII Series B4 GDS
 systemmanufacturer:TARGETING:C-12 Mk. III with Artemis IV FCS
+

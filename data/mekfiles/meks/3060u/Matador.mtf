@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Matador
 model:
 mul id:2098
 
 Config:Biped
-techbase:Clan
-era:2846
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:2846
+Source:TR:3060
+Rules Level:2
 role:Juggernaut
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 
-mass:60
-engine:240 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:19
-RA armor:19
-LT armor:21
-RT armor:21
-CT armor:30
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:19
+RA Armor:19
+LT Armor:21
+RT Armor:21
+CT Armor:30
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:13
 Medium Pulse Laser, Left Arm
@@ -178,4 +179,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

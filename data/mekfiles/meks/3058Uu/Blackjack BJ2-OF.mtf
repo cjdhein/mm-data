@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Blackjack
 model:BJ2-OF
 mul id:384
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3061
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3061
+Source:TR:3058U
+Rules Level:2
 role:Sniper
+
+
 
 quirk:non_standard
 
-mass:50
-engine:200 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-base chassis heat sinks:8
-walk mp:4
-jump mp:4
+Mass:50
+Engine:200 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:18
-RT armor:18
-CT armor:22
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:8
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:14
+RA Armor:14
+LT Armor:18
+RT Armor:18
+CT Armor:22
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:5
 ER Medium Laser, Left Arm
@@ -65,13 +67,13 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISERMediumLaser (omnipod)
 
 Right Arm:
 Shoulder
@@ -79,21 +81,21 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
-ISUltraAC10 (OMNIPOD)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
+ISUltraAC10 (omnipod)
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
-ISERPPC (OMNIPOD)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
+ISERPPC (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -105,9 +107,9 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISERMediumLaser (OMNIPOD)
-IS Ultra AC/10 Ammo (OMNIPOD)
-IS Ultra AC/10 Ammo (OMNIPOD)
+ISERMediumLaser (omnipod)
+IS Ultra AC/10 Ammo (omnipod)
+IS Ultra AC/10 Ammo (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -126,7 +128,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
 IS Endo Steel
 
 Head:
@@ -172,9 +174,13 @@ Jump Jet
 -Empty-
 
 overview:An upgrade of the Blackjack BattleMech, the Blackjack OmniMech is a powerful and adaptable medium weight workhorse.
+
 capabilities:Weighing five tons heavier than its parent design, the use of advanced construction materials gives the OmniMech Blackjack 26.5 tons of pod space, allowing it to carry an impressive weapons payload. A maneuverable and enduring design for its size, four permanently mounted Icarus jump jets that allow the Blackjack to jump up to one hundred and twenty meters, the 'Mech protected by nine-and-a-half tons of armor. The Blackjack is also built with a weight saving Alshain 50 Endo Steel chassis and a Nissan 200 XL Engine giving it a top speed of 64.8 kph.
+
 deployment:The F configuration is built around an ER PPC and an UAC/10 as its two primary weapons, which provide the F configuration with a powerful long-range punch. For close ranges, the 'Mech carries two ER medium lasers and an ER small laser, with two extra double heat sinks reduce some of the added burden.
+
 history:Much like the Firestarter OmniMech, the genesis of the omni-Blackjack stems from the Combine's technology exchange program during the initial Clan Invasion with Ceres Metals Industries ' St. Ives Compact branch offering Luthien Armor Works specifications and licences to manufacturer the ill-regarded Blackjack. Even though it received the upgraded and more effective BJ-2 version, LAW manufactured only a few examples before reworking and retooling the line to manufacture an OmniMech version. As well as returning the updated Omni version to Ceres, LAW also exported the BJ2-0 Blackjack to the Free Worlds League's Irian BattleMechs Unlimited, making it the first OmniMech exported for manufacturing. Any goodwill LAW earned from this decision was short-lived when both IBMU and CMI discovered the first production runs of their Blackjacks could only mount Inner Sphere OmniPods, accusing the Combine of only exporting so-called "monkey" versions, the Combine company's claims of not having perfected the complex software interfaces to support Clan weapons when the plans were exported ringing hollow when Draconis Combine Mustered Soldiery Blackjacks did not suffer from this lack. LAW eventually offered up the required details allowing both companies to resolve the issue in future production runs with earlier versions being upgraded during their first major overhaul.
+
 manufacturer:Irian BattleMechs Unlimited,Luthien Armor Works,General Motors/Blackwell Corporation,Irian BattleMechs Unlimited,Ceres Metals Industries,Ceres Metals Industries
 primaryfactory:Irian,Luthien,New Valencia,Shiro III,St. Ives,Warlock
 systemmanufacturer:CHASSIS:Alshain 50 Endo Steel
@@ -183,3 +189,4 @@ systemmanufacturer:ARMOR:Mitchell Argon
 systemmanufacturer:JUMP_JET:Icarus Standard
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
+

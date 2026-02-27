@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -24,9 +33,9 @@ SupportTank
 Carter Medical Emergency Response Vehicle
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5620
@@ -37,7 +46,7 @@ Carter Medical Emergency Response Vehicle
 </year>
 
 <originalBuildYear>
-2341
+2541
 </originalBuildYear>
 
 <type>
@@ -48,18 +57,12 @@ IS Level 2
 Scout
 </role>
 
-<quirks>
-easy_maintain
-obsolete:2580
-gas_hog
-</quirks>
-
 <motion_type>
 Wheeled
 </motion_type>
 
 <transporters>
-cargobay:2.0:1:1::-1:0
+cargobay:2.0:1:1
 </transporters>
 
 <cruiseMP>
@@ -70,18 +73,6 @@ cargobay:2.0:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
-
 <armor>
 14
 14
@@ -90,7 +81,7 @@ cargobay:2.0:1:1::-1:0
 </armor>
 
 <Body Equipment>
-MASH Equipment:SIZE:2.0
+MASH Equipment:SIZE:2
 Paramedic Equipment
 ISOffRoadChassis
 </Body Equipment>
@@ -118,10 +109,6 @@ Paramedic Equipment
 3
 </structural_tech_rating>
 
-<engine_tech_rating>
-3
-</engine_tech_rating>
-
 <source>
 XTR:Primitives III
 </source>
@@ -137,4 +124,10 @@ XTR:Primitives III
 <fuelType>
 PETROCHEMICALS
 </fuelType>
+
+<quirks>
+easy_maintain
+gas_hog
+obsolete:2580
+</quirks>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,58 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kyudo
 model:KY2-D-01
 mul id:1850
 
 Config:Biped
-techbase:Inner Sphere
-era:2443
-source:XTR:Primitives I
-rules level:4
+TechBase:Inner Sphere
+Era:2443
+Source:XTR:Primitives I
+Rules Level:4
 role:Missile Boat
 
-quirk:exp_actuator
+
+
+
 quirk:easy_pilot
+quirk:exp_actuator
 
-mass:45
-engine:220 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Primitive Cockpit
-gyro:Standard Gyro
 
-heat sinks:12 Single
-walk mp:4
-jump mp:0
+Mass:45
+Engine:220 Primitive Fusion Engine
+Structure:Standard
+Cockpit:Primitive Cockpit
+Myomer:Standard
 
-armor:Primitive(Inner Sphere)
-LA armor:9
-RA armor:9
-LT armor:11
-RT armor:11
-CT armor:14
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:12 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Primitive(Inner Sphere)
+LA Armor:9
+RA Armor:9
+LT Armor:11
+RT Armor:11
+CT Armor:14
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:2
-LRM 10, Left Arm
-Large Laser, Right Arm
+1 ISLargeLaser, Right Arm
+1 ISLRM10, Left Arm, Ammo:12
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-LRM 10
-LRM 10
+ISLRM10
+ISLRM10
 -Empty-
 -Empty-
 -Empty-
@@ -76,8 +78,8 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Large Laser
-Large Laser
+ISLargeLaser
+ISLargeLaser
 -Empty-
 -Empty-
 -Empty-
@@ -89,7 +91,7 @@ Large Laser
 Left Torso:
 Heat Sink
 Heat Sink
-IS Ammo LRM-10
+ISLRM10 Ammo
 -Empty-
 -Empty-
 -Empty-
@@ -115,16 +117,16 @@ Heat Sink
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 -Empty-
 -Empty-
 
@@ -135,24 +137,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -163,10 +153,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

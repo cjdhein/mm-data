@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fireball
 model:ALM-XF
 mul id:5781
 
 Config:Biped
-techbase:Inner Sphere
-era:3077
-source:XTR:Most Wanted
-rules level:4
+TechBase:Inner Sphere
+Era:3077
+Source:XTR:Most Wanted
+Rules Level:4
 role:Scout
 
-quirk:hard_pilot
-quirk:low_profile
-quirk:non_standard
+
+
 quirk:imp_com
+quirk:low_profile
+quirk:hard_pilot
+quirk:non_standard
 
-mass:20
-engine:320 XXL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:16
-jump mp:0
+Mass:20
+Engine:320 XXL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:7
-RT armor:7
-CT armor:9
-HD armor:9
-LL armor:7
-RL armor:7
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:16
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:7
+RT Armor:7
+CT Armor:9
+HD Armor:9
+LL Armor:7
+RL Armor:7
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:2
 ER Small Laser, Left Torso
@@ -171,4 +173,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

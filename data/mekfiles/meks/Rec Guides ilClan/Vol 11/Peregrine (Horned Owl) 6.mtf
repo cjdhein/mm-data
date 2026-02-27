@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Peregrine
 clanname:Horned Owl
 model:6
 mul id:7748
-
 Config:Biped
 techbase:Clan
 era:3132
@@ -30,8 +28,9 @@ role:Striker
 
 weaponquirk:stable_weapon:CT:10:CLLargePulseLaser
 
+
 mass:35
-engine:210 Fusion (Clan) Engine
+engine:210 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -168,4 +167,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

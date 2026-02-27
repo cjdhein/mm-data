@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Arcas
 model:2
 mul id:3718
 
 Config:Biped
-techbase:Clan
-era:3061
-source:TR:3067
-rules level:2
+TechBase:Clan
+Era:3061
+Rules Level:2
 role:Skirmisher
+source:TR:3067
 
 quirk:pro_actuator
 
-mass:65
-engine:325 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:18 Clan Double
-walk mp:5
-jump mp:5
+Mass:65
+Engine:325 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:32
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:18 Double
+Walk MP:5
+Jump MP:5
+
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:32
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:4
-ER PPC, Left Arm
-ER PPC, Right Arm
-Medium Pulse Laser, Left Torso
-Medium Pulse Laser, Right Torso
+1 CLERPPC, Right Arm
+1 CLERPPC, Left Arm
+1 CLMediumPulseLaser, Right Torso
+1 CLMediumPulseLaser, Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERPPC
 CLERPPC
 -Empty-
@@ -75,8 +75,8 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERPPC
 CLERPPC
 -Empty-
@@ -88,12 +88,12 @@ CLERPPC
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLMediumPulseLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -102,14 +102,14 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLMediumPulseLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -131,7 +131,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -169,9 +169,12 @@ Jump Jet
 -Empty-
 -Empty-
 
-overview: First produced in 3061, the Arcas is expensive for a second-line 'Mech.
-capabilities:It utilizes an XL Engine that enables it to move up to 86 km/h and jump jets for a maximum jump capacity of one hundred fifty meters at a time. The Arcas mounts thirteen and a half tons of standard armor, the most a 'Mech of its size can carry. This variant is used primarily when far from supply lines. It removes the missiles and ER Large Lasers for a pair of ER PPCs and additional double heat sinks.
+overview: First produced in 3061, the Arcas is expensive for a second-line 'Mech. 
+
+capabilities:It utilizes an XL Engine that enables it to move up to 86 km/h and jump jets for a maximum jump capacity of one hundred fifty meters at a time. The Arcas mounts thirteen and a half tons of standard armor, the most a 'Mech of its size can carry. This variant is used primarily when far from supply lines. It removes the missiles and ER Large Lasers for a pair of ER PPCs and additional double heat sinks. 
+
 history:Following the move of Clan Ghost Bear to the Inner Sphere, Khan Bjorn Jorgensson ordered the creation of a new BattleMech. The Arcas was designed as a symbol to mark the beginning of a new era, so Loremaster Laurie Tseng named it after a character in the mythology of the Greeks who eventually became the constellation known as Ursa Minor.
+
 manufacturer:Bergan Industries
 primaryfactory:Alshain
 systemmanufacturer:CHASSIS:Bergan Version 6.3 Endo Steel

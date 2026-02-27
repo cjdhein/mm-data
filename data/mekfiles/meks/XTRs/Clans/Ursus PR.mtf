@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ursus
 model:PR
 mul id:5330
 
 Config:Biped
-techbase:Mixed (Clan Chassis)
-era:3074
-source:XTR:Clans
-rules level:4
+TechBase:Mixed (Clan Chassis)
+Era:3074
+Source:XTR:Clans
+Rules Level:4
 role:Brawler
 
-quirk:cramped_cockpit
 quirk:distracting
-quirk:prototype
 quirk:pro_actuator
+quirk:cramped_cockpit
+quirk:prototype
 
-mass:50
-engine:200 Fusion Engine(IS)
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:4
-jump mp:0
+Mass:50
+Engine:200 Fusion Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:15
-RA armor:15
-LT armor:18
-RT armor:18
-CT armor:25
-HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:15
+RA Armor:15
+LT Armor:18
+RT Armor:18
+CT Armor:25
+HD Armor:9
+LL Armor:23
+RL Armor:23
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:8
-AP Gauss Rifle, Left Arm
-AP Gauss Rifle, Left Arm
-AP Gauss Rifle, Left Arm
 ProtoMech AC/8, Right Arm
 ProtoMech AC/8, Right Arm
 Improved Heavy Medium Laser, Left Torso
 Improved Heavy Medium Laser, Right Torso
 ER Flamer, Head
+AP Gauss Rifle, Left Arm
+AP Gauss Rifle, Left Arm
+AP Gauss Rifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -175,4 +175,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

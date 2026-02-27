@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Turkina
 model:T
 mul id:8212
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3142
 source:RG16
@@ -29,8 +28,9 @@ role:Sniper
 
 quirk:easy_pilot
 
+
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -39,7 +39,7 @@ base chassis heat sinks:11
 walk mp:3
 jump mp:3
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:32
 RA armor:32
 LT armor:30
@@ -63,26 +63,26 @@ Streak LRM 15, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-CLProtoMechAC8 (OMNIPOD)
-Clan ProtoMech AC/8 Ammo (OMNIPOD)
-Clan ProtoMech AC/8 Ammo (OMNIPOD)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+CLProtoMechAC8 (omnipod)
+Clan ProtoMech AC/8 Ammo (omnipod)
+Clan ProtoMech AC/8 Ammo (omnipod)
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -91,29 +91,29 @@ CLERPPC (OMNIPOD)
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
-CLStreakLRM15 (OMNIPOD)
-CLStreakLRM15 (OMNIPOD)
-CLStreakLRM15 (OMNIPOD)
-Clan Streak LRM 15 Ammo (OMNIPOD)
+CLStreakLRM15 (omnipod)
+CLStreakLRM15 (omnipod)
+CLStreakLRM15 (omnipod)
+Clan Streak LRM 15 Ammo (omnipod)
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 Jump Jet
-CLStreakLRM15 (OMNIPOD)
-CLStreakLRM15 (OMNIPOD)
-CLStreakLRM15 (OMNIPOD)
-Clan Streak LRM 15 Ammo (OMNIPOD)
+CLStreakLRM15 (omnipod)
+CLStreakLRM15 (omnipod)
+CLStreakLRM15 (omnipod)
+Clan Streak LRM 15 Ammo (omnipod)
 -Empty-
 
 Center Torso:
@@ -173,7 +173,9 @@ Foot Actuator
 -Empty-
 
 overview:The Turkina is a powerful OmniMech that was first seen in the Turkina Keshik at the Battle of Tukayyid, and entered general service with Clan Jade Falcon following the end of the Refusal War. In a design oddity, the Turkina mounts enough jump jets to vault 90 meters hardwired onto the frame, rather than using them in modular pods. While this simplified repair, it also uses tonnage that could be devoted to other systems when a mission does not call for jumping. Designers also included fifteen double heat sinks, four more than could be fit into the engine, so they are fixed in the torso. The Turkina has 42 tons available for modular pods.
+
 capabilities:The left and right torso carry a Streak LRM-15 and ton of ammunition. The left arm carries a pair of ProtoMech AC/8s and two tons of AC ammunition, while the right arm carries a pair of ER PPCs.
+
 history:The Turkina is named after Turkina, the first Jade Falcon to be tamed, who inspired the leaders of Clan Jade Falcon in its early days. The name of the Turkina Keshik is also derived from this bird.
 manufacturer:Complex Beta, Olivetti Weapons
 primaryfactory:Ironhold, Sudeten

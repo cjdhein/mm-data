@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hoplite
 model:HOP-4D
 mul id:1543
-
 Config:Biped
 techbase:Inner Sphere
 era:3050
@@ -27,10 +25,13 @@ source:TR:3050
 rules level:2
 role:Sniper
 
+
+
 quirk:no_arms
 
+
 mass:55
-engine:220 Fusion Engine
+engine:220 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -178,3 +179,4 @@ systemmanufacturer:ENGINE:DAV 220
 systemmanufacturer:ARMOR:DuraShield 12-b.1
 systemmanufacturer:COMMUNICATIONS:MultiGab 2000
 systemmanufacturer:TARGETING:Dalban HiRez II
+

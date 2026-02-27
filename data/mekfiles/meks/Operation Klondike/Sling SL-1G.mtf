@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,117 +15,120 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sling
 model:SL-1G
 mul id:2967
+source:His:OK
 
 Config:Biped
-techbase:Inner Sphere
-era:2766
-source:His:OK
-rules level:2
+TechBase:Inner Sphere
+Era:2766
+Rules Level:2
 role:Missile Boat
+
+
+
 
 quirk:cramped_cockpit
 
-mass:25
-engine:175 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:7
-jump mp:6
+Mass:25
+Engine:175 XL Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:6
-RT armor:6
-CT armor:8
-HD armor:6
-LL armor:5
-RL armor:5
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:7
+Jump MP:6
+
+Armor:Ferro-Fibrous
+LA Armor:5
+RA Armor:5
+LT Armor:6
+RT Armor:6
+CT Armor:8
+HD Armor:6
+LL Armor:5
+RL Armor:5
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:4
-LRM 5, Left Arm
-LRM 5, Right Arm
-LRM 5, Center Torso
-TAG, Head
+1 ISLRM5, Right Arm, Ammo:48
+1 ISLRM5, Left Arm
+1 ISLRM5, Center Torso
+1 ISTAG, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM5
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM5
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
-IS Ammo LRM-5
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM5 Ammo
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
-IS Ammo LRM-5
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISLRM5 Ammo
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Heat Sink
-LRM 5
+ISLRM5
 
 Head:
 Life Support
@@ -134,12 +137,6 @@ Cockpit
 ISTAG
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -147,13 +144,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
 
 Right Leg:
 Hip
@@ -161,11 +152,4 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Endo-Steel

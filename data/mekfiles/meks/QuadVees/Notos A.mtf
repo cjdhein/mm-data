@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Notos
 model:A
 mul id:7371
 
-Config:QuadVee OmniMek
-techbase:Clan
-era:3145
-source:XTR:RotS 3
-rules level:3
+Config:QuadVee Omnimech
+TechBase:Clan
+Era:3145
+Source:XTR:RotS 3
+Rules Level:3
 role:Skirmisher
 
+Mass:60
+Engine:300 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
+Motive:Wheel
 
-mass:60
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
-motive:Wheel
-cockpit:QuadVee Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Laser
+Base Chassis Heat Sinks:10
+Walk MP:5
+Jump MP:0
 
-heat sinks:10 Laser
-base chassis heat sinks:10
-walk mp:5
-jump mp:0
-
-armor:Standard(Inner Sphere)
-FLL armor:24
-FRL armor:24
-LT armor:21
-RT armor:21
-CT armor:30
-HD armor:8
-RLL armor:24
-RRL armor:24
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Armor:Standard(Inner Sphere)
+FLL Armor:24
+FRL Armor:24
+LT Armor:21
+RT Armor:21
+CT Armor:30
+HD Armor:8
+RLL Armor:24
+RRL Armor:24
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:3
-ER Small Laser, Left Torso
-ER Small Laser, Left Torso
 HAG/20, Right Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
 
 Front Left Leg:
 Hip
@@ -65,13 +61,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Conversion Gear
-QuadVee Wheels
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Wheels
 
 Front Right Leg:
 Hip
@@ -79,19 +69,13 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Conversion Gear
-QuadVee Wheels
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Wheels
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLERSmallLaser (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
+CLERSmallLaser (omnipod)
+CLERSmallLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -104,12 +88,12 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
-CLHAG20 (OMNIPOD)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
+CLHAG20 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -126,8 +110,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
-Hyper-Assault Gauss Rifle/20 Ammo (OMNIPOD)
+HAG/20 Ammo (omnipod)
+HAG/20 Ammo (omnipod)
 
 Head:
 Life Support
@@ -136,12 +120,6 @@ Cockpit
 Cockpit
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Rear Left Leg:
 Hip
@@ -149,13 +127,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Conversion Gear
-QuadVee Wheels
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Wheels
 
 Rear Right Leg:
 Hip
@@ -163,11 +135,6 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Conversion Gear
-QuadVee Wheels
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Wheels
+
 

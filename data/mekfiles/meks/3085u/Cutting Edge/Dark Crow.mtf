@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dark Crow
 model:
 mul id:827
 
 Config:Biped
-techbase:Clan
-era:3084
+TechBase:Clan
+Era:3084
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Sniper
+
 
 quirk:low_arms
 
-mass:55
-engine:330 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:17
-RT armor:17
-CT armor:20
-HD armor:8
-LL armor:16
-RL armor:16
-RTL armor:4
-RTR armor:4
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:11
+RA Armor:11
+LT Armor:17
+RT Armor:17
+CT Armor:20
+HD Armor:8
+LL Armor:16
+RL Armor:16
+RTL Armor:4
+RTR Armor:4
+RTC Armor:4
 
 Weapons:4
 Ultra AC/5, Left Arm
@@ -91,8 +92,8 @@ Fusion Engine
 CLERLargeLaser
 Clan Ultra AC/5 Ammo
 Clan Ultra AC/5 Ammo
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -106,8 +107,8 @@ CLSRM6
 Clan Ammo SRM-6
 Clan Ultra AC/5 Ammo
 Clan Ultra AC/5 Ammo
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -124,14 +125,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -168,4 +169,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

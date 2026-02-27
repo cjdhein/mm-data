@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,25 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+
+
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-09-07
 chassis:Scorpion
 model:SCP-1B
 
 Config:Quad
 techbase:Inner Sphere
 era:3150
-source:Gothic
 rules level:5
 role:Skirmisher
+source:Gothic
 
 quirk:bad_rep_is
 quirk:hard_pilot
 quirk:bad_rep_clan
 
 mass:55
-engine:275 Fusion Engine
+engine:275 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -182,3 +184,4 @@ systemmanufacturer:COMMUNICATIONS:Garret
 systemmode:COMMUNICATIONS:500A
 systemmanufacturer:TARGETING:Garret
 systemmode:TARGETING:GRNDTRK 9
+

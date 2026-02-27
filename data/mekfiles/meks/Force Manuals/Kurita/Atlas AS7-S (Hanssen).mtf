@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.1-SNAPSHOT on 2024-10-12
 chassis:Atlas
 model:AS7-S (Hanssen)
-mul id:8291
 
 Config:Biped
 techbase:Inner Sphere
@@ -26,6 +25,7 @@ era:3052
 source:CM:Kurita
 rules level:2
 role:Sniper
+mul id:8291
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
@@ -33,7 +33,7 @@ quirk:command_mech
 quirk:imp_com
 
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -187,3 +187,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Durallex Special Heavy
 systemmanufacturer:COMMUNICATIONS:Angst Discom
 systemmanufacturer:TARGETING:Angst Accuracy
+

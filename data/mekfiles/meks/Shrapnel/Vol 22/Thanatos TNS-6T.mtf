@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.07-nightly-2025-08-04 on 2025-08-20
 chassis:Thanatos
 model:TNS-6T
 
@@ -28,7 +28,7 @@ role:Skirmisher
 
 
 mass:75
-engine:375 XL Engine
+engine:375 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -167,4 +167,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

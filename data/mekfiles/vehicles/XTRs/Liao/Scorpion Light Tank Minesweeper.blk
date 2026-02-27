@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,19 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+
+<BlockVersion>
+1
+</BlockVersion>
+
 <UnitType>
 Tank
 </UnitType>
+
+<blockversion>
+1
+</blockversion>
 
 <Name>
 Scorpion Light Tank
@@ -36,9 +45,9 @@ Scorpion Light Tank
 3078
 </year>
 
-<originalBuildYear>
-3078
-</originalBuildYear>
+<source>
+XTR:Liao
+</source>
 
 <type>
 IS Level 4
@@ -48,29 +57,21 @@ IS Level 4
 Missile Boat
 </role>
 
+<tonnage>
+25.0
+</tonnage>
+
 <motion_type>
 Tracked
 </motion_type>
-
-<cruiseMP>
-4
-</cruiseMP>
 
 <engine_type>
 1
 </engine_type>
 
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<cruiseMP>
+4
+</cruiseMP>
 
 <armor>
 16
@@ -87,7 +88,7 @@ IS Machine Gun Ammo - Half
 </Body Equipment>
 
 <Front Equipment>
-ISModularArmor
+IS Modular Armor
 ISMineSweeper
 LRM 5
 LRM 5
@@ -102,16 +103,4 @@ Machine Gun
 
 <Rear Equipment>
 </Rear Equipment>
-
-<source>
-XTR:Liao
-</source>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
 

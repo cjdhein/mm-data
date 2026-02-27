@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dasher II
 model:4
 mul id:6919
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3136
-source:RS:3145-NTNU
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3136
+Source:RS:3145-NTNU
+Rules Level:3
 role:Striker
 
 quirk:poor_performance
 
-mass:40
-engine:280 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Triple-Strength
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:8
+Mass:40
+Engine:280 XXL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Triple-Strength
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Hardened(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:9
-LL armor:7
-RL armor:7
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:8
+
+Armor:Hardened(Clan)
+LA Armor:5
+RA Armor:5
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:9
+LL Armor:7
+RL Armor:7
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:6
-ER Small Laser, Left Arm
-Micro Pulse Laser, Left Arm
+LRM 5, Right Torso
+LRM 5, Left Torso
 ER Large Laser, Right Arm
 ER Medium Laser, Right Arm
-LRM 5, Left Torso
-LRM 5, Right Torso
+ER Small Laser, Left Arm
+Micro Pulse Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -73,7 +73,7 @@ Chain Whip
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
-Triple Strength Myomer
+TSM
 
 Right Arm:
 Shoulder
@@ -84,22 +84,22 @@ CLERMediumLaser
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
+TSM
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
 CLLRM5
 Clan Endo Steel
 
@@ -108,12 +108,12 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
 CLLRM5
 Clan Ammo LRM-5
 
@@ -135,7 +135,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Triple Strength Myomer
+TSM
 Sensors
 Life Support
 -Empty-
@@ -150,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -164,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+IS Improved Jump Jet
+IS Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ti Ts'ang
 model:TSG-9DDC
 mul id:5242
 
 Config:Biped
-techbase:Inner Sphere
-era:3083
-source:TR:Proto
-rules level:4
+TechBase:Inner Sphere
+Era:3083
+Rules Level:4
 role:Skirmisher
+Source:TR:Proto
 
-quirk:difficult_maintain
-quirk:imp_life_support
-quirk:non_standard
-quirk:pro_actuator
+
+
 quirk:hyper_actuator
-weaponquirk:jettison_capable:RA:4:IS Lance
+quirk:difficult_maintain
+quirk:non_standard
+quirk:imp_life_support
+quirk:pro_actuator
+weaponquirk:jettison_capable:RA:4:Lance
 
-mass:60
-engine:360 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Small Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:60
+Engine:360 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Triple-Strength
+Cockpit:Small Cockpit
+Gyro:Standard Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:9
 ER Medium Laser, Left Arm
@@ -79,9 +81,9 @@ ISSmallXPulseLaser
 ISSmallXPulseLaser
 ISSmallXPulseLaser
 ISSmallXPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -91,11 +93,11 @@ Hand Actuator
 IS Lance
 IS Lance
 IS Lance
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
+TSM
+TSM
 
 Left Torso:
 Fusion Engine
@@ -104,12 +106,12 @@ Fusion Engine
 Jump Jet
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -121,9 +123,9 @@ ISERMediumLaser
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -137,15 +139,15 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Supercharger
-Triple Strength Myomer
+TSM
 
 Head:
 Life Support
 Sensors
 Cockpit
 Sensors
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -180,4 +182,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

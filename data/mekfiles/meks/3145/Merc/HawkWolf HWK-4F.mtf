@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:HawkWolf
 model:HWK-4F
 mul id:6576
 
 Config:Biped
-techbase:Inner Sphere
-era:3100
-source:TR:3145:Merc
-rules level:2
+TechBase:Inner Sphere
+Era:3100
+Source:TR:3145:Merc
+Rules Level:2
 role:Missile Boat
 
-quirk:no_arms
+
+
 quirk:easy_maintain
 quirk:fast_reload
+quirk:no_arms
 quirk:pro_actuator
 
-mass:80
-engine:320 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:14 Single
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 Fusion Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:25
-RT armor:25
-CT armor:35
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Heat Sinks:14 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:25
+RT Armor:25
+CT Armor:35
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:4
 LRM 15, Left Arm
@@ -171,4 +173,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

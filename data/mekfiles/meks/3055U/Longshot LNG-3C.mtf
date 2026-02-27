@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Longshot
 model:LNG-3C
 mul id:1949
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:TR:3055U
-rules level:4
+TechBase:Inner Sphere
+Era:3064
+Source:TR:3055U
+Rules Level:4
 role:Striker
+
+
 
 quirk:difficult_maintain
 
-mass:35
-engine:245 XXL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:35
+Engine:245 XXL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:11
-RT armor:11
-CT armor:14
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:11
+RT Armor:11
+CT Armor:14
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:7
 iNarc, Right Arm
@@ -68,9 +70,9 @@ Hand Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -82,9 +84,9 @@ ISImprovedNarc
 ISImprovedNarc
 ISImprovedNarc
 ISiNarc Pods
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -99,7 +101,7 @@ SRM 4
 ISMediumXPulseLaser
 ISERSmallLaser
 IS Ammo SRM-4 Narc-capable
-IS Endo Steel
+Endo Steel
 -Empty-
 
 Right Torso:
@@ -113,7 +115,7 @@ SRM 4
 ISMediumXPulseLaser
 ISERSmallLaser
 IS Ammo SRM-4 Narc-capable
-IS Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -127,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -149,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +165,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

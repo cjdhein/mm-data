@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scourge
 model:SCG-WX1
 mul id:8109
@@ -27,9 +26,12 @@ source:XTR:Caveat
 rules level:4
 role:Skirmisher
 
-quirk:exp_actuator
-quirk:difficult_maintain
+
+
 quirk:reinforced_legs
+quirk:difficult_maintain
+quirk:exp_actuator
+
 
 mass:65
 engine:325 XL Engine(IS)
@@ -38,7 +40,7 @@ myomer:Standard
 cockpit:Standard Cockpit
 gyro:Heavy Duty Gyro
 
-heat sinks:15 IS Double
+heat sinks:15 Double
 walk mp:5
 jump mp:0
 
@@ -56,11 +58,11 @@ RTR armor:10
 RTC armor:12
 
 Weapons:5
-Improved Heavy Large Laser, Left Arm
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
 Ultra AC/10, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
+Improved Heavy Large Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -173,4 +175,5 @@ IS Reflective
 -Empty-
 -Empty-
 -Empty-
+
 

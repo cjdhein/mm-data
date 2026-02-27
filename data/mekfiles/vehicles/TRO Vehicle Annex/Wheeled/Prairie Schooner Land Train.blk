@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -24,9 +33,9 @@ LargeSupportTank
 Prairie Schooner Land Train
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 7334
@@ -35,10 +44,6 @@ Prairie Schooner Land Train
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -52,11 +57,6 @@ Scout
 Wheeled
 </motion_type>
 
-<transporters>
-cargobay:17.0:1:1::-1:0
-2ndclassquarters:21.0:3:-1::-1:0
-</transporters>
-
 <cruiseMP>
 4
 </cruiseMP>
@@ -65,17 +65,9 @@ cargobay:17.0:1:1::-1:0
 0
 </engine_type>
 
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-4
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
+<fuel>
+0
+</fuel>
 
 <armor>
 34
@@ -86,8 +78,16 @@ cargobay:17.0:1:1::-1:0
 30
 </armor>
 
+<barrating>
+6
+</barrating>
+
+<structural_tech_rating>
+4
+</structural_tech_rating>
+
 <Body Equipment>
-SV Chassis Mod [Tractor]
+Tractor
 ISOffRoadChassis
 </Body Equipment>
 
@@ -109,17 +109,10 @@ ISOffRoadChassis
 <Rear Equipment>
 </Rear Equipment>
 
-<barrating>
-6
-</barrating>
-
-<structural_tech_rating>
-4
-</structural_tech_rating>
-
-<engine_tech_rating>
-4
-</engine_tech_rating>
+<transporters>
+cargobay:17:1
+2ndclassquarters:21:3
+</transporters>
 
 <source>
 TR:VAr
@@ -128,8 +121,3 @@ TR:VAr
 <tonnage>
 90.0
 </tonnage>
-
-<fuel>
-0.0
-</fuel>
-

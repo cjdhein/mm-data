@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jenner
 model:JR7-K
 mul id:1694
@@ -27,10 +26,13 @@ source:TR:3050
 rules level:2
 role:Striker
 
+
+
 quirk:no_arms
 
+
 mass:35
-engine:245 Fusion Engine
+engine:245 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -182,3 +184,4 @@ systemmanufacturer:ARMOR:New Samarkand Royal Ferro-Fibrous with CASE
 systemmanufacturer:JUMP_JET:Lexington Ltd. Lifters
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
+

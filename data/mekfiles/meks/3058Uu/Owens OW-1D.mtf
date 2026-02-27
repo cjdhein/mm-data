@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Owens
 model:OW-1D
 mul id:2388
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3056
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3058U
+Rules Level:2
 role:Scout
+
+
 
 quirk:imp_sensors
 
-mass:35
-engine:280 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-base chassis heat sinks:10
-walk mp:8
-jump mp:0
+Mass:35
+Engine:280 XL Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:12
-RT armor:12
-CT armor:16
-HD armor:9
-LL armor:15
-RL armor:15
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Single
+Base Chassis Heat Sinks:10
+Walk MP:8
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:12
+RT Armor:12
+CT Armor:16
+HD Armor:9
+LL Armor:15
+RL Armor:15
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
 Narc, Left Arm
@@ -60,8 +62,8 @@ TAG, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISNarcBeacon (OMNIPOD)
-ISNarcBeacon (OMNIPOD)
+ISNarcBeacon (omnipod)
+ISNarcBeacon (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -74,7 +76,7 @@ ISNarcBeacon (OMNIPOD)
 Right Arm:
 Shoulder
 Upper Arm Actuator
-SRM 4 (OMNIPOD)
+SRM 4 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -89,7 +91,7 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISNarc Pods (OMNIPOD)
+ISNarc Pods (omnipod)
 BeagleActiveProbe
 BeagleActiveProbe
 -Empty-
@@ -103,7 +105,7 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ammo SRM-4 Narc-capable (OMNIPOD)
+IS Ammo SRM-4 Narc-capable (omnipod)
 ISTAG
 ISC3SlaveUnit
 -Empty-
@@ -168,4 +170,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

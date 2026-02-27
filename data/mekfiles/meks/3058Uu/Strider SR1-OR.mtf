@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Strider
 model:SR1-OR
 mul id:3092
 
-Config:Biped OmniMek
-techbase:Mixed (IS Chassis)
-era:3059
-source:TR:3058U
-rules level:4
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3059
+Source:TR:3058U
+Rules Level:4
 role:Striker
+
+
 
 quirk:easy_pilot
 
-mass:40
-engine:240 Fusion Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-base chassis heat sinks:9
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 Fusion Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:14
-RT armor:14
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Single
+Base Chassis Heat Sinks:9
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:14
+RT Armor:14
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:4
 Streak SRM 6, Left Arm
@@ -61,8 +63,8 @@ Medium Pulse Laser, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -75,8 +77,8 @@ CLStreakSRM6 (OMNIPOD)
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -87,7 +89,7 @@ CLStreakSRM6 (OMNIPOD)
 -Empty-
 
 Left Torso:
-Clan Streak SRM 6 Ammo (OMNIPOD)
+Clan Streak SRM 6 Ammo (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -101,7 +103,7 @@ IS Endo Steel
 -Empty-
 
 Right Torso:
-Clan Streak SRM 6 Ammo (OMNIPOD)
+Clan Streak SRM 6 Ammo (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -125,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
 -Empty-
 
 Head:
 Life Support
 Sensors
 Cockpit
-CLMediumPulseLaser (OMNIPOD)
+CLMediumPulseLaser (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -169,4 +171,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

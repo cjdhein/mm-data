@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mad Cat
 clanname:Timber Wolf
 model:H
 mul id:1984
 
-Config:Biped OmniMek
-techbase:Clan
-era:3059
-source:TR:3050
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3059
+Source:TR:3050
+Rules Level:2
 role:Missile Boat
 
 quirk:imp_target_med
 quirk:weak_head_1
 
-mass:75
-engine:375 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:18 Clan Double
-base chassis heat sinks:15
-walk mp:5
-jump mp:0
+Mass:75
+Engine:375 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:24
-RA armor:24
-LT armor:25
-RT armor:25
-CT armor:36
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:7
-RTR armor:7
-RTC armor:9
+Heat Sinks:18 Double
+Base Chassis Heat Sinks:15
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:25
+RT Armor:25
+CT Armor:36
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:7
+RTR Armor:7
+RTC Armor:9
 
 Weapons:5
 Heavy Large Laser, Left Arm
@@ -65,11 +65,11 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLHeavyLargeLaser (omnipod)
+CLHeavyLargeLaser (omnipod)
+CLHeavyLargeLaser (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -79,26 +79,26 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
-CLHeavyLargeLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLHeavyLargeLaser (omnipod)
+CLHeavyLargeLaser (omnipod)
+CLHeavyLargeLaser (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLArtemisIV (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis-capable (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis-capable (OMNIPOD)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLArtemisIV (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -106,13 +106,13 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLArtemisIV (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis-capable (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis-capable (OMNIPOD)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLArtemisIV (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -128,7 +128,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERSmallLaser (OMNIPOD)
+CLERSmallLaser (omnipod)
 Clan Endo Steel
 
 Head:
@@ -174,11 +174,15 @@ Clan Endo Steel
 -Empty-
 
 overview:The Timber Wolf is a fast, heavy OmniMech. A signature design of the Clans' military might, it was arguably the first Clan OmniMech encountered by Inner Sphere forces (as opposed to periphery forces) on The Rock in 3049 by Phelan Kell. The Timber Wolf is vastly more powerful than either the Marauder or the Catapult. It uses its speed and firepower to engage an enemy at the range of its choosing. When first encountered by Inner Sphere forces the idea that a heavy 'Mech could move so swiftly while being as heavily armed and armored as the Timber Wolf was inconceivable. With its twelve tons of Ferro-Fibrous armor and arsenal that rivaled that of most assault 'Mechs of the era, it was completely alien to Inner Sphere military planners, commanders, and even the Precentor Martial of ComStar. Its technological secrets have since been reverse-engineered by the Inner Sphere.
+
 capabilities:A configuration that is capable of engaging an enemy with devastating effect at any range, the H configuration carries a pair of LRM-20 launchers linked to an Artemis IV Fire Control System for long range firepower. For close combat, two Heavy Large Lasers are carried, each of which can strip a full ton of armor from an enemy 'Mech at short ranges. Finally, seemingly added almost as an afterthought, an ER Small Laser completes the H's weaponry loadout.
+
 deployment:First introduced in 2945, the Timber Wolf was designed by Clan Wolf as a second generation OmniMech along with the Gargoyle and the Naga to replace the aging Woodsman. While the Gargoyle may have been a very capable, fast assault OmniMech, and the Naga may have been an excellent fire-support OmniMech, Clan Wolf (and indeed every other Clan) instantly realized the value of the Timber Wolf; thus, production rights to the Timber Wolf were jealously (and successfully) defended. Only through trade, gifts and battlefield salvage has the Timber Wolf entered the armies of other Clans. Until the invasion of the Inner Sphere, production of the Timber Wolf has been limited to a single facility on Strana Mechty. Despite it's prominence among the Wolves during the Clan Invasion, Refusal War and Word of Blake Jihad, the Timber Wolf became increasingly rare following the sundering of ties with the Homeworld Clans during the Wars of Reaving and Blakist scouring of Tamar. Being built by hand at W-7 plant on Weingarten as of 3080, with some parts even being individually machined due to missing data, attrition vastly outstripped supply as the Wolves looked toward other designs. When Alaric Ward forged the Wolf Empire, he left the W-7 facilities to Clan Hell's Horses and ordered the Kallon plant on Thermopolis be retooled for Timber Wolf production, restoring it's position within the Wolves touman.
+
 history:Vaguely resembling a cross-over between the MAD (Marauder) and CAT (Catapult) series, the Timber Wolf was tagged with the Inner Sphere reporting name Mad Cat on first contact. (The targeting computer on Phelan Kell's Wolfhound switched between MAD and CAT when trying to identify it; upon analyzing the data recording from Kell's 'Mech, Precentor Martial Anastasius Focht later officially designated it "Mad Cat".
+
 manufacturer:Wolf Clan Site #1, Wolf Clan Site #2, W-7 Facilities, Kallon Weapon Industries
-primaryfactory:Arc-Royal, Strana Mechty, Weingarten, Thermopolis
+primaryfactory:Arc-Royal, Strana Mechty, Weingarten, Thermopolis 
 systemmanufacturer:CHASSIS:Type W3 Endo-steel
 systemmanufacturer:ENGINE:Starfire 375 XL
 systemmanufacturer:ARMOR:Composite A-2 Ferro-Fibrous

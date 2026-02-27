@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Mercury II
 model:MCY-100
 mul id:2173
+source:JSBD
 
 Config:Biped
-techbase:Inner Sphere
-era:2823
-source:JSBD
-rules level:2
+TechBase:Inner Sphere
+Era:2823
+Rules Level:2
 role:Striker
+
+
+
 
 quirk:low_profile
 quirk:bad_rep_clan
 weaponquirk:stable_weapon:CT:10:Medium Laser
 
-mass:40
-engine:280 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:7
+Mass:40
+Engine:280 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:15
-RT armor:15
-CT armor:16
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:7
 
-Weapons:5
-ER Large Laser, Left Arm
-Small Laser, Left Arm
-Small Laser, Left Arm
-Medium Laser, Right Arm
-Medium Laser, Center Torso
+Armor:Ferro-Fibrous
+LA Armor:12
+RA Armor:12
+LT Armor:15
+RT Armor:15
+CT Armor:16
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
+
+Weapons:6
+1 ISMediumLaser, Right Arm
+1 ISERLargeLaser, Left Arm
+2 ISSmallLaser, Left Arm
+1 ISBeagleActiveProbe, Right Torso
+1 ISGuardianECM, Left Torso
+1 ISMediumLaser, Center Torso
 
 Left Arm:
 Shoulder
@@ -66,11 +70,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
-Small Laser
-Small Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISSmallLaser
+ISSmallLaser
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -79,10 +83,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISMediumLaser
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -92,13 +96,13 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 Jump Jet
 Jump Jet
 Jump Jet
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -106,13 +110,13 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-BeagleActiveProbe
-BeagleActiveProbe
+ISBeagleActiveProbe
+ISBeagleActiveProbe
 Jump Jet
 Jump Jet
 Jump Jet
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -127,7 +131,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
+ISMediumLaser
 Jump Jet
 
 Head:
@@ -149,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -163,8 +167,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -173,12 +177,16 @@ IS Ferro-Fibrous
 -Empty-
 
 overview:The Mercury II is a BattleMech designed by Clan Wolverine. The Not-Named-Clan designed the 'Mech in 2823 during the Clans' early years.
+
 capabilities:The Mercury II was an enlarged and updated design of the Mercury produced by Clan Wolverine. This 'Mech lacks its predecessor's unique modular repair system, being a standard post-SLDF/early Clan era BattleMech.
+
 deployment:Though the Mercury II is designed to be a scout, it can hold its own in a fight. An ER Large Laser gives it a credible ranged threat, while paired Medium Lasers and Small Lasers make it an effective hunter-killer.
+
 history:The fledgling society built this new design around the existing Mercury, but upgraded it to make it a more effective combatant at the cost of speed. Since the design was produced in the formative years of the Clans, it uses Star League technology. The Wolverines spared no expense in the production of the Mercury II, including seven and a half tons of Ferro-Fibrous armor, double heat sinks and an XL Engine. Despite this the medium 'Mech is still slower than its lighter antecedent, only managing 119 km/h, though it makes up for that with jump jets that enable it to leap up to 210 meters at a time. The inclusion of a Beagle Active Probe and Guardian ECM Suite make the 'Mech a capable scout. Clan Coyote claimed their losses on the battlefield during the Not-Named-Clan's annihilation had been acceptable due to capturing a Mercury II, and the design appears to have inspired in part the Coyotl, the very first OmniMech.
+
 manufacturer:Unknown
 primaryfactory:Unknown
-systemmanufacturer:CHASSIS:Unknown
+systemmanufacturer:CHASSIS:Unknown 
 systemmanufacturer:ENGINE:Unknown 280 XL
 systemmanufacturer:ARMOR:Unknown Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Unknown

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Agrotera
 model:AGT-1A
 mul id:6459
-
 Config:Biped
 techbase:Inner Sphere
 era:3108
@@ -27,9 +25,8 @@ source:TR:3145:CC
 rules level:3
 role:Striker
 
-
 mass:50
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 cockpit:Standard Cockpit
@@ -185,3 +182,4 @@ systemmanufacturer:ARMOR:Durallex Light
 systemmanufacturer:JUMP_JET:Rawlings 45 with Partial Wing
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:Tek Tru-Trak with TAG
+

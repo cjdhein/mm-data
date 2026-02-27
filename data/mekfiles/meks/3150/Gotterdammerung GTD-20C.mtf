@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,17 +15,15 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Götterdämmerung
 model:GTD-20C
 mul id:8061
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3138
 source:TR:3145:LC
 rules level:3
-
+role:Brawler
 
 mass:75
 engine:300 Compact Engine(IS)
@@ -171,4 +169,5 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
+
 

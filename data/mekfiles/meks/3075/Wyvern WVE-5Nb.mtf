@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wyvern
 model:WVE-5Nb
 mul id:3598
 
 Config:Biped
-techbase:Inner Sphere
-era:2660
+TechBase:Inner Sphere
+Era:2660
 source:TR:3075
-rules level:2
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:rugged_1
 
-mass:45
-engine:180 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:13 Single
-walk mp:4
-jump mp:4
+Mass:45
+Engine:180 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:13 Single
+Walk MP:4
+Jump MP:4
+
+Armor:Standard
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:5
 Large Pulse Laser, Right Arm
@@ -63,9 +65,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +84,9 @@ ISLargePulseLaser
 ISLargePulseLaser
 Medium Laser
 Small Laser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -95,10 +97,10 @@ Heat Sink
 Jump Jet
 IS Ammo LRM-10
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -111,8 +113,8 @@ SRM 6
 SRM 6
 IS Ammo SRM-6
 ISCASE
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -148,7 +150,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,11 +164,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

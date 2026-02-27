@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Deva
 model:C-DVA-OC Comminus
 mul id:888
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Skirmisher
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:70
-engine:280 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Heavy Duty Gyro
 
-heat sinks:13 IS Double
-base chassis heat sinks:11
-walk mp:4
-jump mp:4
+Mass:70
+Engine:280 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Heavy Duty Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:20
-RT armor:20
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:13 Double
+Base Chassis Heat Sinks:11
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:22
+RA Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:5
 ER Medium Laser, Left Arm
@@ -69,38 +71,38 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISERMediumLaser (omnipod)
+ISERMediumLaser (omnipod)
+ISERMediumLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
 IS Endo Steel
 IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-ISERSmallLaser (R) (OMNIPOD)
-IS Ultra AC/20 Ammo (OMNIPOD)
-IS Ultra AC/20 Ammo (OMNIPOD)
-IS Ultra AC/20 Ammo (OMNIPOD)
-ISCASE (OMNIPOD)
+Jump Jet (omnipod)
+ISERSmallLaser (R) (omnipod)
+IS Ultra AC/20 Ammo (omnipod)
+IS Ultra AC/20 Ammo (omnipod)
+IS Ultra AC/20 Ammo (omnipod)
+ISCASE (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -109,12 +111,12 @@ IS Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-Jump Jet (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
-ISUltraAC20 (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Jump Jet (omnipod)
+ISUltraAC20 (omnipod)
+ISUltraAC20 (omnipod)
 ISC3iUnit
 ISC3iUnit
 IS Endo Steel
@@ -131,16 +133,16 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
 Sensors
-ISGuardianECMSuite (OMNIPOD)
-ISGuardianECMSuite (OMNIPOD)
+ISGuardianECMSuite (omnipod)
+ISGuardianECMSuite (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -175,4 +177,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

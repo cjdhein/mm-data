@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Icarus
 model:ICR-1X
 mul id:1599
-
 Config:Biped
 techbase:Inner Sphere
 era:2470
@@ -27,14 +25,18 @@ source:XTR:Primitives II
 rules level:3
 role:Brawler
 
-quirk:ext_twist
+
+
+
 quirk:difficult_maintain
-quirk:obsolete:2470
-quirk:prototype
+quirk:ext_twist
 quirk:poor_performance
+quirk:prototype
+quirk:obsolete:2470
+
 
 mass:40
-engine:195 Fusion Engine
+engine:195 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Primitive Cockpit
@@ -176,4 +178,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,13 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-20
 chassis:Daishi
 clanname:Dire Wolf
 model:'Prometheus'
 mul id:810
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3051
 source:TR:3050
@@ -32,7 +32,7 @@ quirk:imp_target_long
 quirk:difficult_eject
 
 mass:100
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -186,3 +186,4 @@ systemmanufacturer:ENGINE:Starfire 300 XL
 systemmanufacturer:ARMOR:Compound 12B2 Standard
 systemmanufacturer:COMMUNICATIONS:TJ6 "Bell" Integrated Communication System
 systemmanufacturer:TARGETING:Mars System 9
+

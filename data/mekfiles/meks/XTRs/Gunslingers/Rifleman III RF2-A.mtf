@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman III
 model:RF2-A
 mul id:7323
 
 Config:Biped
-techbase:Inner Sphere
-era:2776
-source:XTR:Gunslingers
-rules level:4
+TechBase:Inner Sphere
+Era:2776
+Source:XTR:Gunslingers
+Rules Level:4
 role:Brawler
 
-quirk:fast_reload
-quirk:obsolete:2778
+
+
+
 quirk:prototype
-quirk:searchlight
+quirk:fast_reload
 quirk:multi_trac
+quirk:searchlight
+quirk:obsolete:2778
 
-mass:90
-engine:180 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
+Mass:90
+Engine:180 XL Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:20
-RT armor:20
-CT armor:31
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:20
+RT Armor:20
+CT Armor:31
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:4
-Gauss Rifle, Left Arm
 Gauss Rifle, Right Arm
 Gauss Rifle, Left Torso
 Gauss Rifle, Right Torso
+Gauss Rifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -172,4 +175,5 @@ Mek Null Signature System
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,53 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Powerman
 model:SC XI LoaderMech
+Config:Biped
+TechBase:Inner Sphere
+Era:2764
+Rules Level:2
+role:Ambusher
+source:His:OK
 mul id:2564
 
-Config:Biped
-techbase:Inner Sphere
-era:2764
-source:His:OK
-rules level:2
-role:Ambusher
+Mass:35
+Engine:140 I.C.E. Engine
+Structure:Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
 
+Heat Sinks:0 Single
+Walk MP:4
+Jump MP:0
 
-mass:35
-engine:140 ICE Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Armor:Commercial
+LA Armor:5
+RA Armor:5
+LT Armor:8
+RT Armor:8
+CT Armor:12
+HD Armor:2
+LL Armor:7
+RL Armor:7
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
-heat sinks:0 Single
-walk mp:4
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:8
-RT armor:8
-CT armor:12
-HD armor:2
-LL armor:7
-RL armor:7
-RTL armor:2
-RTR armor:2
-RTC armor:2
-
-Weapons:0
+Weapons:7
+1 Lift Hoist, Right Arm
+1 Lift Hoist, Left Arm
+1 Cargo (0.5 tons), Center Torso
+1 Cargo (1 ton), Left Torso
+1 Cargo (1 ton), Left Torso
+1 Cargo (1 ton), Right Torso
+1 Cargo (1 ton), Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
+Lift Hoist
+Lift Hoist
+Lift Hoist
 -Empty-
 -Empty-
 -Empty-
@@ -73,9 +76,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
+Lift Hoist
+Lift Hoist
+Lift Hoist
 -Empty-
 -Empty-
 -Empty-
@@ -83,8 +86,8 @@ Lift Hoist/Arresting Hoist
 -Empty-
 
 Left Torso:
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo (1 ton)
+Cargo (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -97,8 +100,8 @@ Cargo:SIZE:1.0
 -Empty-
 
 Right Torso:
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo (1 ton)
+Cargo (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -111,17 +114,17 @@ Cargo:SIZE:1.0
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Cargo:SIZE:0.5
+Engine
+Engine
+Engine
+Cargo (0.5 tons)
 -Empty-
 
 Head:
@@ -131,24 +134,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -159,10 +150,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

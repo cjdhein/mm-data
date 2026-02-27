@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scavenger
 model:SC-V-M MilitiaMech
+
 mul id:7174
 
 Config:Quad
@@ -25,10 +25,10 @@ techbase:Inner Sphere
 era:2990
 source:RS:VA
 rules level:3
-
+role:Ambusher
 
 mass:80
-engine:320 Fuel Cell Engine
+engine:320 Fuel Cell Engine(IS)
 structure:IS Industrial
 myomer:Standard
 
@@ -163,4 +163,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

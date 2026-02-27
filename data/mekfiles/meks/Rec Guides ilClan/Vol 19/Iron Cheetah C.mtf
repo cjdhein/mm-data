@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Iron Cheetah
 model:C
 mul id:8322
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3054
 source:RG19
 rules level:2
 role:Brawler
 
-
 mass:100
-engine:400 XL (Clan) Engine
+engine:400 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -187,3 +184,4 @@ systemmanufacturer:ENGINE:400 Model SF-3 XL
 systemmanufacturer:ARMOR:Composite A-4 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:TJ6 “Bell” Integrated Communication System
 systemmanufacturer:TARGETING:Series III OPT
+

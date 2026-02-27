@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Triskelion
 model:TRK-4V
 mul id:7384
 
 Config:Tripod
-techbase:Mixed (IS Chassis)
-era:3146
-source:XTR:RotS 3
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3146
+Source:XTR:RotS 3
+Rules Level:3
 role:Brawler
 
-quirk:difficult_eject
+
+
+
 quirk:distracting
+quirk:difficult_eject
 quirk:prototype
 
-mass:75
-engine:375 XL (Clan) Engine
-structure:IS Endo-Composite
-myomer:Standard
-cockpit:Tripod Cockpit
-gyro:Standard Gyro
 
-heat sinks:15 IS Double
-walk mp:5
-jump mp:0
+Mass:75
+Engine:375 XL (Clan) Engine
+Structure:IS Endo-Composite
+Myomer:Standard
+Cockpit:Tripod Cockpit
+Gyro:Standard Gyro
 
-armor:Ferro-Fibrous(Clan)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:35
-HD armor:9
-LL armor:31
-RL armor:31
-CL armor:31
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:15 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:35
+HD Armor:9
+LL Armor:31
+RL Armor:31
+CL Armor:31
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:6
 ER Medium Laser, Left Arm
@@ -71,7 +74,7 @@ Lower Arm Actuator
 Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -85,7 +88,7 @@ Lower Arm Actuator
 Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -102,7 +105,7 @@ CLArtemisV
 Clan Ammo LRM-15 (Clan) Artemis V-capable
 Clan Ammo LRM-15 (Clan) Artemis V-capable
 ISCASEII
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 
@@ -116,7 +119,7 @@ CLArtemisV
 Clan Ammo LRM-15 (Clan) Artemis V-capable
 Clan Ammo LRM-15 (Clan) Artemis V-capable
 ISCASEII
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 
@@ -153,7 +156,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -167,7 +170,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -181,7 +184,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo-Composite
+Endo-Composite
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -189,4 +192,5 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

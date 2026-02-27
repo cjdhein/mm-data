@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Longshot
 model:LNG-1B
 mul id:1946
 
 Config:Biped
-techbase:Inner Sphere
-era:3054
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3054
+Source:TR:3055U
+Rules Level:2
 role:Striker
+
+
+
 
 quirk:difficult_maintain
 
-mass:35
-engine:245 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:35
+Engine:245 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:11
-RT armor:11
-CT armor:14
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:11
+RT Armor:11
+CT Armor:14
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:7
 Narc, Right Arm
@@ -68,7 +71,7 @@ Hand Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -81,8 +84,8 @@ Lower Arm Actuator
 ISNarcBeacon
 ISNarcBeacon
 ISNarc Pods
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -97,9 +100,9 @@ SRM 6
 Medium Laser
 Small Laser
 IS Ammo SRM-6 Narc-capable
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Right Torso:
@@ -111,9 +114,9 @@ SRM 6
 Medium Laser
 Small Laser
 IS Ammo SRM-6 Narc-capable
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -127,7 +130,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
+Endo Steel
 -Empty-
 
 Head:
@@ -149,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

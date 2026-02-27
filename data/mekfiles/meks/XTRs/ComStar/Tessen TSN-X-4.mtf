@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tessen
 model:TSN-X-4
 mul id:5549
 
 Config:Biped
-techbase:Inner Sphere
-era:3074
-source:XTR:ComStar
-rules level:4
+TechBase:Inner Sphere
+Era:3074
+Source:XTR:ComStar
+Rules Level:4
 role:Skirmisher
+
+
 
 quirk:bad_rep_is
 quirk:prototype
 
-mass:50
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:6
-jump mp:0
+Mass:50
+Engine:300 XL Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:16
-RT armor:16
-CT armor:25
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:11 Double
+Walk MP:6
+Jump MP:0
 
-Weapons:4
-C3 Remote Sensor Launcher, Left Arm
-ER PPC, Right Arm
-Medium Pulse Laser, Right Arm
-TAG, Head
+Armor:Light Ferro-Fibrous
+LA Armor:15
+RA Armor:15
+LT Armor:16
+RT Armor:16
+CT Armor:25
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
+
+Weapons:6
+1 ISMediumPulseLaser, Right Arm
+1 ISERPPC, Right Arm
+1 ISTAG, Head
+1 ISAngelECM, Center Torso
+1 ISBloodhoundActiveProbe, Right Torso
+1 ISC3RemoteSensorLauncher, Left Arm
 
 Left Arm:
 Shoulder
@@ -70,7 +74,7 @@ ISC3Sensors
 ISC3Sensors
 ISC3Sensors
 ISC3Sensors
-IS Endo Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
@@ -80,53 +84,53 @@ ISERPPC
 ISERPPC
 ISERPPC
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Engine
+Engine
+Engine
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-BloodhoundActiveProbe
-BloodhoundActiveProbe
-BloodhoundActiveProbe
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Engine
+Engine
+Engine
+ISBloodhoundActiveProbe
+ISBloodhoundActiveProbe
+ISBloodhoundActiveProbe
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-ISAngelECMSuite
-ISAngelECMSuite
+Engine
+Engine
+Engine
+ISAngelECM
+ISAngelECM
 
 Head:
 Life Support
@@ -135,38 +139,19 @@ Cockpit
 ISTAG
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Light Ferro-Fibrous
+Light Ferro-Fibrous

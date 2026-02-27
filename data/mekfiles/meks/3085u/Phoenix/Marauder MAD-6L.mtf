@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-6L
 mul id:2045
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
+TechBase:Inner Sphere
+Era:3070
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
 
-quirk:low_profile
+
+
 quirk:command_mech
 quirk:hyper_actuator
+quirk:low_profile
 
-mass:75
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:15 IS Double
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 Fusion Engine(IS)
+Structure:Standard
+Myomer:Triple-Strength
 
-armor:Stealth(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Stealth(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:3
 Plasma Rifle, Left Arm
@@ -66,8 +68,8 @@ ISPlasmaRifle
 ISPlasmaRifle
 ISPlasmaRifleAmmo
 ISPlasmaRifleAmmo
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -79,8 +81,8 @@ Lower Arm Actuator
 ISPlasmaRifle
 ISPlasmaRifle
 ISPlasmaRifleAmmo
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -93,11 +95,11 @@ ISDoubleHeatSink
 PPC
 PPC
 PPC
-IS Stealth
-IS Stealth
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Stealth
+Stealth
+TSM
+TSM
+TSM
 -Empty-
 
 Right Torso:
@@ -107,11 +109,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Stealth
-IS Stealth
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Stealth
+Stealth
+TSM
+TSM
+TSM
 -Empty-
 
 Center Torso:
@@ -147,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -161,12 +163,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

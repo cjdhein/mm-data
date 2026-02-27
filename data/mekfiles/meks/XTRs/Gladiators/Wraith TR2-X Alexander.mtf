@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wraith
 model:TR2-X 'Alexander'
 mul id:3590
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3076
-source:XTR:Gladiators
-rules level:4
+TechBase:Mixed (IS Chassis)
+Era:3076
+Rules Level:4
 role:Skirmisher
+Source:XTR:Gladiators
 
-quirk:difficult_maintain
+
+
 quirk:ubiquitous_is
+quirk:difficult_maintain
 
-mass:55
-engine:385 XL (Clan) Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:7
+Mass:55
+Engine:385 XL Fusion Engine (Clan)
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:23
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double (Inner Sphere)
+Walk MP:7
+Jump MP:7
+
+Armor:Ferro-Fibrous (Clan)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:23
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:3
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-Snub-Nose PPC, Right Arm
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Left Arm
+1 ISSNPPC, Right Arm
 
 Left Arm:
 Shoulder
@@ -64,10 +66,10 @@ Lower Arm Actuator
 Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -78,54 +80,54 @@ Lower Arm Actuator
 Hand Actuator
 ISSNPPC
 ISSNPPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
 CLPartialWing
 CLPartialWing
 CLPartialWing
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 Jump Jet
 Jump Jet
 Jump Jet
 CLPartialWing
 CLPartialWing
 CLPartialWing
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo-Steel
+Endo-Steel
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
-IS Endo Steel
+Endo-Steel
 
 Head:
 Life Support
@@ -134,45 +136,31 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 overview:The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability.
+
 capabilities:It is built around a massive LTV 385 XL engine that allows it to reach speeds of just under 119 km/h. The 'Mech is also fitted with seven CurtissJet 55 jump jets which allow it to jump up to two hundred and ten meters, giving it the ability to outmaneuver most BattleMechs in existence, and also allowing the Wraith to quickly traverse any rough terrain. The 'Mech's speed, firepower, and decent armor make the Wraith a considerable threat to many 'Mechs – some being almost twice its weight.
+
 deployment:Developed under the guidance of Angelique Claw for Zellbrigen Stables, the Wraith Alexander combines Experimental Technology from the Clans and Inner Sphere to create a unique 'Mech. The use of a Clan-made XL engine keeps the speed high, and allows for the installation of more equipment. The jump jets, Endo Steel structure, and Snub-Nose PPC are of Inner Sphere manufacture, but the two ER Medium Lasers, ferro-fibrous armor, and twin Partial Wings were built by the Clans. The partial wings increase the Wraith's jump range to 270 meters.
+
 history:The Wraith marked Curtiss Militech's entry into BattleMech production. When the design was announced, many felt that the design would be little more than a walking water cooler. What the critics got was a shock. Following the destruction of its sole factory, Curtiss Hydroponics announced its withdrawal from the military market altogether and the sale of its Curtiss Militech assets. By 3085, Hellespont Industrials have expressed interest in the Wraith; and by 3145 Production had been ongoing at one of Hellespont Industrials locations in the Sian Commonality for Capellan use.
+
 manufacturer:Refit
 primaryfactory:Refit
 systemmanufacturer:CHASSIS:Curtiss Wraith Endo

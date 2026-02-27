@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Scorpion
 model:SCP-1TB
 mul id:2840
@@ -27,12 +26,15 @@ source:RG19
 rules level:2
 role:Missile Boat
 
+
+
+quirk:bad_rep_clan
 quirk:bad_rep_is
 quirk:hard_pilot
-quirk:bad_rep_clan
+
 
 mass:55
-engine:330 Light Engine
+engine:330 Light Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -54,9 +56,9 @@ RTR armor:5
 RTC armor:8
 
 Weapons:3
+Light PPC, Right Torso
+Light PPC, Right Torso
 MML 9, Right Torso
-Light PPC, Right Torso
-Light PPC, Right Torso
 
 Front Left Leg:
 Hip
@@ -183,3 +185,4 @@ systemmanufacturer:COMMUNICATIONS:Garret
 systemmode:COMMUNICATIONS:500A
 systemmanufacturer:TARGETING:Garret
 systemmode:TARGETING:GRNDTRK 9
+

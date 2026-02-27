@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stinger
 model:STG-3P
 mul id:3060
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
+TechBase:Inner Sphere
+Era:3068
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Scout
 
-quirk:cramped_cockpit
-quirk:ubiquitous_clan
+
+
 quirk:rugged_1
+quirk:ubiquitous_clan
 quirk:ubiquitous_is
+quirk:cramped_cockpit
 
-mass:20
-engine:120 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:6
+Mass:20
+Engine:120 Fusion Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:7
-RT armor:7
-CT armor:8
-HD armor:6
-LL armor:7
-RL armor:7
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:6
+
+Armor:Standard(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:7
+RT Armor:7
+CT Armor:8
+HD Armor:6
+LL Armor:7
+RL Armor:7
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:1
 Light PPC, Right Torso
@@ -90,14 +92,14 @@ Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Heat Sink
@@ -106,12 +108,12 @@ Jump Jet
 Jump Jet
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -169,3 +171,4 @@ Heat Sink
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Stinger .jpg

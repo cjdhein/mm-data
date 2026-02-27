@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,15 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -32,44 +40,32 @@ Nephilim Assault Battle Armor
 8648
 </mul id:>
 
-<year>
-3071
-</year>
+<chassis>
+biped
+</chassis>
 
-<originalBuildYear>
-3071
-</originalBuildYear>
+<weightclass>
+4
+</weightclass>
 
-<type>
-IS Level 2
-</type>
-
-<role>
-Juggernaut
-</role>
-
-<motion_type>
-Leg
-</motion_type>
+<Trooper Count>
+5
+</Trooper Count>
 
 <cruiseMP>
 2
 </cruiseMP>
 
-<armor_type>
-36
-</armor_type>
-
-<armor_tech>
-3
-</armor_tech>
+<Armor>
+16
+</Armor>
 
 <Squad Equipment>
-CLBAMG:RA
+ISBAMachine Gun:RA
 ISBASRM3:Body
 BA-SRM3 Ammo:Body:Shots3#
 BAHeavyBattleClaw:LA
-ISImprovedSensors:Body
+ISBAImprovedSensors:Body
 BASearchlight:Body
 IS BA Mimetic:LA
 IS BA Mimetic:LA
@@ -80,28 +76,41 @@ IS BA Mimetic:RA
 IS BA Mimetic:LA
 </Squad Equipment>
 
-<Trooper 1 Equipment>
-</Trooper 1 Equipment>
+<type>
+IS Level 2
+</type>
 
-<Trooper 2 Equipment>
-</Trooper 2 Equipment>
+<role>
+Juggernaut
+</role>
 
-<Trooper 3 Equipment>
-</Trooper 3 Equipment>
+<year>
+3071
+</year>
 
-<Trooper 4 Equipment>
-</Trooper 4 Equipment>
+<motion_type>
+leg
+</motion_type>
 
-<Trooper 5 Equipment>
-</Trooper 5 Equipment>
+<source>
+TR:3075
+</source>
 
-<capabilities>
-It has a Modular Weapon Mount in the right arm, typically occupied by a Man-Portable Plasma Rifle though it can vary based on trooper preference, and a Heavy Battle Claw in the left. A pair of One-Shot SRM-2s mounted over the shoulders supplement this arsenal.
-</capabilities>
+<armor_type>
+36
+</armor_type>
+
+<armor_tech>
+3
+</armor_tech>
 
 <overview>
 The newest of the Word of Blake's Demon Series of battle armor is the Nephilim. Named for a group of half-angels from the bible who dwelt with mortals, the name may hint at the unit's intended close relationship with the Celestial series.
 </overview>
+
+<capabilities>
+It has a Modular Weapon Mount in the right arm, typically occupied by a Man-Portable Plasma Rifle though it can vary based on trooper preference, and a Heavy Battle Claw in the left. A pair of One-Shot SRM-2s mounted over the shoulders supplement this arsenal.
+</capabilities>
 
 <deployment>
 Dubbed the "Seeker" configuration, this third variant is a dedicated hunter/killer model which usually carries a Machine Gun in the right mount. For anti-vehicle purposes it mounts an SRM-3 with two reloads and utilizes a Searchlight and Improved Sensors in a drum mount over the left shoulder
@@ -123,32 +132,7 @@ Gibson
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
-
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-16
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-

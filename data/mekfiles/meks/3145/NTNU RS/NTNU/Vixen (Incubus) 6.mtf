@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29
 chassis:Vixen
 clanname:Incubus
 model:6
 mul id:8008
-
 Config:Biped
 techbase:Clan
 era:3113
@@ -31,7 +30,7 @@ role:Brawler
 weaponquirk:jettison_capable:RA:3:CLERPPC
 
 mass:30
-engine:270 XXL (Clan) Engine
+engine:270 XXL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -173,4 +172,5 @@ Talons
 -Empty-
 -Empty-
 -Empty-
+
 

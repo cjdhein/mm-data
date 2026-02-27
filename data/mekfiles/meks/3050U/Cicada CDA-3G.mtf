@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,74 +15,77 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cicada
 model:CDA-3G
 mul id:595
 
 Config:Biped
-techbase:Inner Sphere
-era:3056
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3056
+Source:TR:3050
+Rules Level:2
 role:Striker
+
+
 
 quirk:no_arms
 
-mass:40
-engine:320 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:8
-jump mp:8
+Mass:40
+Engine:320 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:15
-RT armor:15
-CT armor:16
-HD armor:9
-LL armor:17
-RL armor:17
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:8
 
-Weapons:3
-ER Large Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Right Torso
+Armor:Ferro-Fibrous
+LA Armor:10
+RA Armor:10
+LT Armor:15
+RT Armor:15
+CT Armor:16
+HD Armor:9
+LL Armor:17
+RL Armor:17
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
+
+Weapons:4
+1 ISMediumLaser, Right Torso
+1 ISBeagleActiveProbe, Right Torso
+1 ISERLargeLaser, Left Torso
+1 ISMediumLaser, Left Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -92,10 +95,10 @@ Jump Jet
 Jump Jet
 ISERLargeLaser
 ISERLargeLaser
-Medium Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISMediumLaser
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -104,12 +107,12 @@ Fusion Engine
 Fusion Engine
 Jump Jet
 Jump Jet
-Medium Laser
-BeagleActiveProbe
-BeagleActiveProbe
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISMediumLaser
+ISBeagleActiveProbe
+ISBeagleActiveProbe
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -123,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
@@ -169,9 +172,13 @@ Jump Jet
 -Empty-
 
 overview:Designed as a supplement or replacement for the popular Locust scout ’Mech, the Cicada found limited use by the Star League after its introduction in 2740.
+
 capabilities:The Cicada's main advantages are its speed and a lack of ammunition. A gigantic Pitban 320 engine, which accounts for more than half of the Cicada's entire mass, propels the 40-ton BattleMech to almost 130 kph. A trio of lasers, two medium and one small, provide the Cicada with ample firepower to take on its chosen targets: lighter 'Mechs. The lasers are implanted in the Cicada's armored midsection, beneath the toughest shielding the 'Mech mounts, however their shooting arcs are limited. A foe who is successful in getting behind the Cicada has little to fear. The rest of the 'Mech, however, is just minimally armored. Its limbs are vestigial—really, wings—and can only carry little armor. The Cicada's legs, while robust enough to carry the 'Mech at breakneck speeds, are also unarmored.
+
 deployment:Based off of the same chassis as the -3F, the -3G was introduced in 3056 to transform the chassis into a more dedicated recon platform. It trades in the PPC for an ER large laser, a Beagle active probe, and additional armor.
+
 history:The Cicada was introduced amidst rising tensions in 2740 by HartfordCo Industries in an attempt to capitalize on the growing need for BattleMechs. At the time Bergan Industries had cornered the market in light recon 'Mechs with their Locust and HartfordCo's only prior experience was building communications and targeting systems. Nevertheless the company designed their 'Mech to compete directly with the Locust by making it just as fast but twice as large, allowing the Cicada to carry slightly better weaponry and give it an edge in physical combat, all while keeping costs down. The Star League was sufficiently impressed that they agreed to a limited contract with HartfordCo for a small number of Cicadas, using them to replace many Locusts lost in fighting along its border regions. The 'Mech's only major issue was faulty heat sinks, although these were eventually replaced in many models with modular sinks. With their base of operations and only Cicada factory located on Bryant, HartfordCo was among the many victims of the fall of the Star League and the onset of the Succession Wars. Although the factory was destroyed, there were a number of built Cicadas in storage on Bryant and its relative position compared to the five Successor States meant the planet was the target of many raids. Thus the Cicada found its way into all of the major House armies, where in service to the Successor Lords, the 'Mech earned a positive reputation. Unfortunately this also meant its expectations sometimes exceeded the design's actual capabilities, and, with no new models being produced, the Cicada's numbers began to dwindle. By the end of the Fourth Succession War the 'Mech was in danger of going extinct. The discovery of the Helm Memory Core allowed Free Worlds Defense Industries to save the Cicada by restarting production of the 'Mech from their newly-refurbished production line on Gibson. The great majority of these newly-built Cicadas went to the Free Worlds League Military, particularly federal units, which were in desperate need for recon 'Mechs after the loss of so many machines during their long battle with Andurien. The chassis was also the perfect platform to apply much of the now-recovered lostech and the improved CDA-3M was introduced shortly before the start of the Clan Invasion. New Cicadas were supplied to the Federated Commonwealth and Draconis Combine as part of an agreement to combat the Clans, and as reports filtered in from the front more variants of the 'Mech were produced. Following the ComStar Schism the Word of Blake relocated to Gibson and an increasing amount of Cicada production was redirected to the Word of Blake Militia, which quickly rivaled the FWLM as the largest Cicada user. As such the 'Mech was found on both sides of the Jihad.
+
 manufacturer:Gibson Federated BattleMechs (A Division of Free Worlds Defense Industries)
 primaryfactory:Gibson
 systemmanufacturer:CHASSIS:Kell Reinforced 240

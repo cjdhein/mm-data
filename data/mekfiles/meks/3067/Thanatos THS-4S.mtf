@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thanatos
 model:TNS-4S
 mul id:5218
 
 Config:Biped
-techbase:Inner Sphere
-era:3061
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3061
+Rules Level:2
 role:Skirmisher
+source:TR:3067
+
+
+
 
 quirk:stable
 
-mass:75
-engine:375 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:16 IS Double
-walk mp:5
-jump mp:5
+Mass:75
+Engine:375 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:25
-RT armor:25
-CT armor:28
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:7
-RTR armor:7
-RTC armor:13
+Heat Sinks:16 Double
+Walk MP:5
+Jump MP:5
 
-Weapons:5
-ER Large Laser, Left Arm
-Medium Pulse Laser, Left Arm
-MRM 20, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
+Armor:Standard Armor
+LA Armor:20
+RA Armor:20
+LT Armor:25
+RT Armor:25
+CT Armor:28
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:7
+RTR Armor:7
+RTC Armor:13
+
+Weapons:7
+1 ISMRM20, Right Arm, Ammo:24
+1 ISERLargeLaser, Left Arm
+1 ISMediumPulseLaser, Left Arm
+1 ISERMediumLaser, Right Torso
+1 ISERMediumLaser, Left Torso
+1 ISGuardianECM, Left Torso
+1 ISC3SlaveUnit, Center Torso
 
 Left Arm:
 Shoulder
@@ -65,25 +70,25 @@ Lower Arm Actuator
 ISERLargeLaser
 ISERLargeLaser
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-MRM 20
-MRM 20
-MRM 20
-IS MRM 20 Ammo
-IS MRM 20 Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMRM20
+ISMRM20
+ISMRM20
+ISMRM20 Ammo
+ISMRM20 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Left Torso:
@@ -91,11 +96,11 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISERMediumLaser
-ISGuardianECMSuite
-ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISGuardianECM
+ISGuardianECM
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -104,12 +109,12 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -132,7 +137,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
 -Empty-

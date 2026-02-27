@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,13 +15,12 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gladiator
 clanname:Executioner
 model:F
 mul id:6842
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3089
 source:RG09
@@ -30,12 +29,13 @@ role:Sniper
 
 quirk:distracting
 
+
 mass:95
-engine:380 XL (Clan) Engine
+engine:380 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:18 Clan Double
+heat sinks:18 Double
 base chassis heat sinks:15
 walk mp:4
 jump mp:4
@@ -61,10 +61,10 @@ Large Pulse Laser, Right Arm
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -77,10 +77,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
 Clan Ferro-Fibrous
 -Empty-
 -Empty-
@@ -93,10 +93,10 @@ CLMASC
 CLMASC
 CLMASC
 CLMASC
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 -Empty-
 -Empty-
 
@@ -105,9 +105,9 @@ Fusion Engine
 Fusion Engine
 CLDoubleHeatSink
 CLDoubleHeatSink
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-Supercharger (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+Supercharger (Clan) (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 -Empty-
@@ -171,7 +171,9 @@ Jump Jet
 -Empty-
 
 overview:Fast and powerful, the Executioner, known as the Gladiator in the Inner Sphere, is an assault OmniMech often deployed by Clan Ghost Bear. Though originally produced by Clan Ghost Bear, design schematics for the Executioner were actually acquired in a trial with Clan Burrock. Using a massive Heavy Force 380 XL Engine, the Executioner has a top speed of 64.8 km/h. A MASC system enhances the top speed to 86.4 km/h (albeit only in short bursts), and four permanently mounted Pryzhok WM10 jump jets give the 'Mech the ability to propel itself 120 meters into the air. This unusual emphasis on speed gives the Executioner unmatched speed for its weight class, as it is often capable of keeping up with 'Mechs twenty or thirty tons lighter than itself. The Executioner also carries thirteen and a half tons of Ferro-Fibrous armor, which is below average for its weight class, but generally adequate. Sixteen double heat sinks are mounted to cool the 'Mech down.
+
 capabilities:This configuration carries a pair of Large Pulse Lasers and a single ER PPC, which are tied into a Targeting Computer. It also sports a Supercharger, which allows it to reach a top speed of 100 km/h when combined with the MASC system.
+
 deployment:Even though the design has not been used since the 3060s, the Home Clans withdrew it from use after the Wars of Reaving, possibly due to its reputation with the Spheroid Clans like Clan Ghost Bear.
 manufacturer:Alshain BattleWorx
 primaryfactory:Alshain

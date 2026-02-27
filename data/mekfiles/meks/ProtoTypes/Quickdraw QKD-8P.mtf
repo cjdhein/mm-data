@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,55 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Quickdraw
 model:QKD-8P
 mul id:4887
 
 Config:Biped
-techbase:Inner Sphere
-era:3084
-source:TR:Proto
-rules level:3
+TechBase:Inner Sphere
+Era:3084
+Rules Level:3
 role:Skirmisher
+Source:TR:Proto
 
-quirk:exp_actuator
+
+
 quirk:hyper_actuator
+quirk:exp_actuator
 
-mass:60
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Torso-Mounted Cockpit
-gyro:Compact Gyro
 
-heat sinks:12 Single
-walk mp:5
-jump mp:0
+Mass:60
+Engine:300 Fusion Engine
+Structure:Endo-Steel
+Gyro:Compact Gyro
+Cockpit:Torso-Mounted Cockpit
+Myomer:Triple Strength Myomer
+History:Handheld weapons NOT available in MegaMek so none are included.
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:18
-RT armor:18
-CT armor:30
-HD armor:8
-LL armor:28
-RL armor:28
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:0
 
-Weapons:5
-Streak SRM 4, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
-PPC, Head
-TAG, Head
+Armor:Standard Armor
+LA Armor:16
+RA Armor:16
+LT Armor:18
+RT Armor:18
+CT Armor:30
+HD Armor:8
+LL Armor:28
+RL Armor:28
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
+
+Weapons:6
+1 ISGuardianECM, Right Torso
+1 ISMediumLaser, Right Torso
+1 ISMediumLaser, Right Torso
+1 ISPPC, Head
+1 ISTAG, Head
+1 ISStreakSRM4, Left Torso, Ammo:25
 
 Left Arm:
 Shoulder
@@ -69,9 +73,9 @@ Hand Actuator
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -83,20 +87,20 @@ Hand Actuator
 Triple Strength Myomer
 Triple Strength Myomer
 Triple Strength Myomer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
 Left Torso:
 Life Support
 ISStreakSRM4
-IS Streak SRM 4 Ammo
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISStreakSRM4 Ammo
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -105,27 +109,27 @@ IS Endo Steel
 
 Right Torso:
 Life Support
-Medium Laser
-Medium Laser
-ISGuardianECMSuite
-ISGuardianECMSuite
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISMediumLaser
+ISMediumLaser
+ISGuardianECM
+ISGuardianECM
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Cockpit
 Sensors
 -Empty-
@@ -134,28 +138,16 @@ Sensors
 Head:
 Sensors
 Sensors
-PPC
-PPC
-PPC
+ISPPC
+ISPPC
+ISPPC
 ISTAG
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -166,11 +158,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
-history:Handheld weapons NOT available in MegaMek so none are included.

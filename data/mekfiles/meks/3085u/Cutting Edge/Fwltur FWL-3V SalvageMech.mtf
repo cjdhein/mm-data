@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fwltur
 model:FWL-3V SalvageMech
 mul id:1163
@@ -27,17 +26,19 @@ source:TR:3085
 rules level:4
 role:None
 
-
 mass:35
-engine:105 Fusion Engine
+engine:105 Fusion Engine(IS)
 structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
 gyro:Standard Gyro
 
 heat sinks:10 Single
+nocrit:Industrial:None
+nocrit:Industrial:None
+nocrit:Industrial:None
 walk mp:3
-jump mp:0
+jump mp:2
 
 armor:Commercial(Inner Sphere)
 LA armor:7
@@ -143,8 +144,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:2.0
-MechanicalJumpBooster:SIZE:2.0
+MechanicalJumpBooster
+MechanicalJumpBooster
 -Empty-
 -Empty-
 -Empty-
@@ -157,8 +158,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:2.0
-MechanicalJumpBooster:SIZE:2.0
+MechanicalJumpBooster
+MechanicalJumpBooster
 -Empty-
 -Empty-
 -Empty-
@@ -168,9 +169,11 @@ MechanicalJumpBooster:SIZE:2.0
 
 manufacturer:New Earth Trading Company
 primaryfactory:New Earth
+imagefile:.\data\images\fluff\Mech\3085Fwltur.jpg
 systemmanufacturer:CHASSIS:FWL Industrial
-systemmanufacturer:ENGINE:Victory
+systemmanufacturer:ENGINE:Victory 
 systemmode:ENGINE:Fusion 105
 systemmanufacturer:ARMOR:Type 7 IndiPlate Commercial
 systemmanufacturer:COMMUNICATIONS:NETC COMSET 3.2
 systemmanufacturer:TARGETING:TargiTrack 717 with Beagle Active Probe
+

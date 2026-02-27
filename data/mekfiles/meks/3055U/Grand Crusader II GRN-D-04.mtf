@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grand Crusader II
 model:GRN-D-04
 mul id:1255
 
 Config:Biped
-techbase:Inner Sphere
-era:3066
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3066
+Source:TR:3055U
+Rules Level:2
 role:Brawler
 
-quirk:bad_rep_is
-quirk:stable
+
+
 quirk:easy_maintain
+quirk:stable
+quirk:bad_rep_is
 
-mass:80
-engine:320 Light Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:11 IS Double
-walk mp:4
-jump mp:4
+Mass:80
+Engine:320 Light Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:24
-RT armor:24
-CT armor:35
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:11 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:24
+RT Armor:24
+CT Armor:35
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:5
 Light Gauss Rifle, Left Arm
@@ -70,9 +72,9 @@ ISLightGaussRifle
 ISLightGaussRifle
 ISLightGaussRifle
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+TSM
 
 Right Arm:
 Shoulder
@@ -82,11 +84,11 @@ ISERPPC
 ISERPPC
 ISERPPC
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
 
 Left Torso:
 Fusion Engine
@@ -97,23 +99,23 @@ IS Streak SRM 6 Ammo
 IS Light Gauss Ammo
 IS Light Gauss Ammo
 ISCASE
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+TSM
+TSM
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
+TSM
 -Empty-
 
 Center Torso:
@@ -171,4 +173,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grand Dragon
 model:DRG-7K (Mark)
 mul id:1261
@@ -27,12 +26,15 @@ source:SB:S&D
 rules level:2
 role:Sniper
 
+
+
 quirk:ext_twist
-quirk:stable
 quirk:low_profile
+quirk:stable
+
 
 mass:60
-engine:300 Light Engine
+engine:300 Light Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -181,3 +183,4 @@ systemmanufacturer:ENGINE:Hermes 360 XL
 systemmanufacturer:ARMOR:Starshield with CASE
 systemmanufacturer:COMMUNICATIONS:Sipher CommSys 3
 systemmanufacturer:TARGETING:Eagle Eye SY10-10
+

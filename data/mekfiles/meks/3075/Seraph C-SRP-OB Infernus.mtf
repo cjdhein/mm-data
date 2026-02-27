@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,63 +15,65 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Seraph
 model:C-SRP-OB Infernus
 mul id:2871
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Juggernaut
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:85
-engine:255 Light Engine
-structure:IS Standard
-myomer:Triple-Strength
-cockpit:Small Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-base chassis heat sinks:10
-walk mp:3
-jump mp:0
+Mass:85
+Engine:255 Light Engine(IS)
+Structure:IS Standard
+Myomer:Triple-Strength
+Cockpit:Small Cockpit
+Gyro:Standard Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:27
-RA armor:27
-LT armor:26
-RT armor:26
-CT armor:40
-HD armor:9
-LL armor:35
-RL armor:35
-RTL armor:9
-RTR armor:9
-RTC armor:13
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:27
+RA Armor:27
+LT Armor:26
+RT Armor:26
+CT Armor:40
+HD Armor:9
+LL Armor:35
+RL Armor:35
+RTL Armor:9
+RTR Armor:9
+RTC Armor:13
 
 Weapons:4
 Heavy PPC, Left Arm
 LB 20-X AC, Right Torso
-Anti-Missile System, Right Torso
+AMS, Right Torso
 Snub-Nose PPC, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Heavy PPC (OMNIPOD)
-Triple Strength Myomer
-Triple Strength Myomer
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+Heavy PPC (omnipod)
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -80,41 +82,41 @@ Triple Strength Myomer
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
-ISLBXAC20 (OMNIPOD)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
+ISLBXAC20 (omnipod)
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 ISC3iUnit
 ISC3iUnit
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-ISLBXAC20 (OMNIPOD)
-ISAntiMissileSystem (OMNIPOD)
-IS LB 20-X AC Ammo (OMNIPOD)
-IS LB 20-X AC Ammo (OMNIPOD)
-IS LB 20-X Cluster Ammo (OMNIPOD)
-ISAMS Ammo (OMNIPOD)
-ISCASE (OMNIPOD)
+ISLBXAC20 (omnipod)
+ISAntiMissileSystem (omnipod)
+IS LB 20-X AC Ammo (omnipod)
+IS LB 20-X AC Ammo (omnipod)
+IS LB 20-X Cluster Ammo (omnipod)
+ISAMS Ammo (omnipod)
+ISCASE (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -138,8 +140,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-ISSNPPC (OMNIPOD)
-ISSNPPC (OMNIPOD)
+ISSNPPC (omnipod)
+ISSNPPC (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -152,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -166,8 +168,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -176,8 +178,11 @@ Triple Strength Myomer
 -Empty-
 
 overview:The light assault 'Mech of the Celestial series of OmniMechs, the Seraph is somewhat slow for its weight, but it attempts to make up for that with the inclusion of Triple-Strength Myomer that enables the 'Mech to speed up to 64 kph when it runs hot.
+
 capabilities:Like the other Celestials, the Seraph makes use of a light fusion engine and a small cockpit, though other newer technologies are present only in its weaponry. As with the other Celestials, a C3i Computer is included. The main criticism of the Seraph Invictus is that it does not make very good use of its Triple-Strength Myomer. The design does not build enough heat to activate the musculature, a problem the Streak missile system only exacerbates.
+
 deployment:Vicious up close or at range, the Seraph B also uses a Targeting Computer to aid its accuracy. Up close it can use its LB-X Autocannon/20, which is capable of firing slugs that can tear holes in an enemy's armor or cluster munitions that spread damage out. Three tons of ammunition is protected by CASE. Also protected by the CASE is the ammo bin for the Anti-Missile System. Farther out, the Infernus variant makes use of a Heavy PPC. Useful at all ranges is the Snub-Nose PPC, though it deals more damage up close.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series SP1

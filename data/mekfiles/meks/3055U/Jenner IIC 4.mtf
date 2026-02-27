@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jenner IIC
 model:4
 mul id:1701
 
 Config:Biped
-techbase:Clan
-era:3061
-source:TR:3055U
-rules level:2
+TechBase:Clan
+Era:3061
+Source:TR:3055U
+Rules Level:2
 role:Striker
 
 quirk:no_arms
 
-mass:35
-engine:315 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:9
-jump mp:7
+Mass:35
+Engine:315 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:3
-RA armor:3
-LT armor:6
-RT armor:6
-CT armor:13
-HD armor:7
-LL armor:8
-RL armor:8
-RTL armor:3
-RTR armor:3
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:9
+Jump MP:7
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:3
+RA Armor:3
+LT Armor:6
+RT Armor:6
+CT Armor:13
+HD Armor:7
+LL Armor:8
+RL Armor:8
+RTL Armor:3
+RTR Armor:3
+RTC Armor:7
 
 Weapons:3
 ATM 3, Left Arm
@@ -62,7 +62,7 @@ Upper Arm Actuator
 CLATM3
 CLATM3
 Clan Ammo ATM-3
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -76,7 +76,7 @@ Upper Arm Actuator
 CLATM3
 CLATM3
 Clan Ammo ATM-3
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -88,12 +88,12 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -103,11 +103,11 @@ Fusion Engine
 Fusion Engine
 Jump Jet
 Clan Streak SRM 4 Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -130,7 +130,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -169,9 +169,13 @@ Jump Jet
 -Empty-
 
 overview:This fast second-line striker BattleMech is still a fast light that is now capable of delivering plenty of short-range missiles.
+
 capabilities:To achieve this, it uses an XL Engine, Endo Steel structure, and mounts only three and a half tons of Ferro-Fibrous armor. It also carries enough jump jets to leap up to 210 meters at a time. This results in an expensive garrison 'Mech, but one that is still in production nonetheless. Unique among the IIC models, the Jenner IIC changes the leg mechanism found on the original design. While the original Jenner, despite otherwise sharing design characteristics common in Marauder-descended reverse articulated 'Mechs, had standard forward articulated legs, the IIC model has reverse articulated legs similar to those on the Stormcrow.
-deployment:Clan Nova Cat, the primary users of the Jenner IIC, created this variant after they moved to the Inner Sphere. Though it changes the appearance of the 'Mech, the actual specifications of the design changed little. It retains the Streak SRM-4, but replaced the standard missile launchers with a pair of ATM 3s, each of which is accompanied by a ton of ammunition.
+
+deployment:Clan Nova Cat, the primary users of the Jenner IIC, created this variant after they moved to the Inner Sphere. Though it changes the appearance of the 'Mech, the actual specifications of the design changed little. It retains the Streak SRM-4, but replaced the standard missile launchers with a pair of ATM 3s, each of which is accompanied by a ton of ammunition. 
+
 history:The Jenner was first fielded in September 2784, the same year the Exodus fleet that would eventually become the Clans left the Inner Sphere in November. How exactly they acquired this design in that short timeframe is not known, but what is known is that the Clan version fields Clan weaponry, so it is known as the Jenner IIC.
+
 manufacturer:Irece Alpha
 primaryfactory:Irece
 systemmanufacturer:CHASSIS:Type D-SA Modified Endo-Steel
@@ -180,3 +184,4 @@ systemmanufacturer:ARMOR:Epsilon Compound 31 Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Clan Type 2 Light
 systemmanufacturer:COMMUNICATIONS:NCO System 7
 systemmanufacturer:TARGETING:Build 1 HLF TTS
+

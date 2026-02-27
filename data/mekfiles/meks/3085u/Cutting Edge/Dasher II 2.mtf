@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,41 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dasher II
 model:2
 mul id:847
 
 Config:Biped
-techbase:Clan
-era:3084
+TechBase:Clan
+Era:3084
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Striker
 
 quirk:poor_performance
 
-mass:40
-engine:400 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:10
-jump mp:0
+Mass:40
+Engine:400 XXL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:9
-RA armor:9
-LT armor:12
-RT armor:12
-CT armor:14
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:10
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:9
+RA Armor:9
+LT Armor:12
+RT Armor:12
+CT Armor:14
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:4
 
 Weapons:6
 ER Medium Laser, Left Arm
@@ -67,8 +67,8 @@ Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -81,8 +81,8 @@ Hand Actuator
 CLERMediumLaser
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -92,10 +92,10 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -106,9 +106,9 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -133,7 +133,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -148,7 +148,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,7 +162,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -170,4 +170,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

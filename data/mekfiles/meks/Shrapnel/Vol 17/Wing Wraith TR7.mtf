@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:Mordel.Net Code Release 2.24.13 on 14-Jun-2024
 chassis:'Wing' Wraith
 model:TR7
+source:Shrap17
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3150
-source:Shrap17
-rules level:3
+TechBase:Mixed (IS Chassis)
+Era:3150
+Rules Level:3
 
+Mass:55
+Engine:330 XL Engine(IS)
+Structure:IS Endo-Composite
+Myomer:Standard
 
-mass:55
-engine:330 XL Engine(IS)
-structure:IS Endo-Composite
-myomer:Standard
+Heat Sinks:13 Double
+Walk MP:6
+Jump MP:6
 
-heat sinks:13 IS Double
-walk mp:6
-jump mp:6
-
-armor:Stealth(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:18
-RT armor:18
-CT armor:23
-HD armor:8
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Armor:Stealth (IS)
+LA Armor:14
+RA Armor:14
+LT Armor:18
+RT Armor:18
+CT Armor:23
+HD Armor:8
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:3
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
 ER PPC, Right Arm
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -60,10 +59,10 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERMediumLaser
-IS Endo-Composite
-IS Endo-Composite
-IS Endo-Composite
-IS Endo-Composite
+Endo-Composite
+Endo-Composite
+Endo-Composite
+Endo-Composite
 IS Stealth
 IS Stealth
 
@@ -74,10 +73,10 @@ Lower Arm Actuator
 Hand Actuator
 CLERPPC
 CLERPPC
-Coolant Pod
-IS Endo-Composite
-IS Endo-Composite
-IS Endo-Composite
+IS Coolant Pod
+Endo-Composite
+Endo-Composite
+Endo-Composite
 IS Stealth
 IS Stealth
 
@@ -165,10 +164,15 @@ IS Stealth
 -Empty-
 -Empty-
 
+
 overview:The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability. Initially developed by Curtiss Militech, it later became a key asset for the Capellan Confederation following the company's financial distress post-Jihad. The Wraith's speed, firepower, and decent armor make it a considerable threat to many 'Mechs, some being almost twice its weight.
+
 capabilities:The “Wing” Wraith enhances the base design’s accurate and ammunition-independent loadout with improved heat dissipation and jump range. Despite the advantages of the partial-wing technology, the TR6 suffers from slower ground speed and a demanding maintenance schedule, making it a less popular export than the more straightforward TR5. However, both variants share parts and construction processes, making continued production a low-cost endeavor.
+
 deployment:The new TR7 combines stealth armor, Clan weaponry, and a hefty price tag to create a potent hunter-killer often paired with Raven II’s for covert ops and headhunting missions. At the request of the Death Commandos, the TR7 also features an exceptionally spacious head module. Aftermarket additions to this open cargo space are unconfirmed but can be speculated at, given the Death Commandos’ reputation.
+
 history:The Wing Wraith project, spearheaded by Hellespont Industries, dates back to the Capellan Crusades, but it wasn't until the 3140s that the mass-produced TR6 variant saw production. The Wraith’s assets were acquired by the Capellan Confederation after Curtiss Hydroponics, the original manufacturer, was forced to sell its military holdings to remain solvent following the Jihad. The destruction of Curtiss Militech’s homeworld, Paradise, by the Regulans during the Jihad significantly contributed to the financial distress that led to this sale. Hellespont Industries capitalized on this opportunity, integrating advanced partial-wing technology into the Wraith design to enhance its maneuverability and heat dissipation capabilities.<p>The TR6’s first major combat deployment occurred during the Victoria Rangers’ assault on Victoria in 3144. However, the results were underwhelming due to the Wraiths being reassigned to unsuitable roles, leading to significant damage and operational issues. Despite this setback, the TR6 found its stride during House Davion’s Operation Cerberus. On Narellan, Wraiths from the Second St. Ives Cheveau-Légers conducted effective raiding operations against the Second Davion Auxiliaries, showcasing their capability in hit-and-run tactics alongside Canopian Agroteras. This success spurred increased orders from various factions, including the Sea Foxes and the Magistracy Armed Forces, solidifying the Wing Wraith’s reputation as a valuable raider and scout hunter in the Capellan Confederation's arsenal.</p>
+
 manufacturer:Hellespont Industries
 primaryfactory:Sian
 systemmanufacturer:CHASSIS:Hellespont Wraith Endo-Composite

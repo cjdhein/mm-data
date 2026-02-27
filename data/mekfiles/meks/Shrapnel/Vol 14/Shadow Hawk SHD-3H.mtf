@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.17-SNAPSHOT on 2023-12-31
 chassis:Shadow Hawk
 model:SHD-3H
 mul id:5037
-
 Config:Biped
 techbase:Inner Sphere
 era:2752
@@ -35,7 +34,7 @@ quirk:rugged_1
 quirk:ubiquitous_is
 
 mass:55
-engine:275 Fusion Engine
+engine:275 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -60,8 +59,8 @@ Weapons:5
 Medium Laser, Right Arm
 AC/5, Left Torso
 LRM 5, Right Torso
-Machine Gun, Center Torso
 Machine Gun, Head
+Machine Gun, Center Torso
 
 Left Arm:
 Shoulder
@@ -188,3 +187,4 @@ systemmanufacturer:COMMUNICATIONS:O/P
 systemmode:COMMUNICATIONS:300 COMSET
 systemmanufacturer:TARGETING:O/P
 systemmode:TARGETING:2000A
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wakazashi
 model:
 mul id:3475
 
 Config:Biped
-techbase:Clan
-era:2830
-source:TR:GC
-rules level:2
+TechBase:Clan
+Era:2830
+Rules Level:2
 role:Juggernaut
+source:TR:GC
+
 
 quirk:difficult_maintain
 
-mass:85
-engine:255 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:14 Clan Double
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:26
-RT armor:26
-CT armor:36
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:10
-RTR armor:10
-RTC armor:18
+Heat Sinks:14 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard Armor
+LA Armor:28
+RA Armor:28
+LT Armor:26
+RT Armor:26
+CT Armor:36
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:10
+RTR Armor:10
+RTC Armor:18
 
 Weapons:5
-Gauss Rifle, Left Arm
-ER PPC, Right Arm
-LB 20-X AC, Right Torso
-ER Medium Laser, Center Torso
-ER Medium Laser, Head
+1 CLERPPC, Right Arm
+1 CLERMediumLaser, Head
+1 CLERMediumLaser, Center Torso
+1 CLGaussRifle, Left Arm, Ammo:24
+1 CLLBXAC20, Right Torso, Ammo:15
 
 Left Arm:
 Shoulder
@@ -68,8 +69,8 @@ CLGaussRifle
 CLGaussRifle
 CLGaussRifle
 CLGaussRifle
-Clan Endo Steel
-Clan Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Arm:
@@ -79,30 +80,30 @@ Lower Arm Actuator
 Hand Actuator
 CLERPPC
 CLERPPC
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 Jump Jet
-Clan LB 20-X Cluster Ammo
-Clan LB 20-X Cluster Ammo
-Clan LB 20-X AC Ammo
-Clan Gauss Ammo
-Clan Gauss Ammo
-Clan Gauss Ammo
-Clan Endo Steel
-Clan Endo Steel
+CLLBXAC20 CL Ammo
+CLLBXAC20 CL Ammo
+CLLBXAC20 Ammo
+CLGauss Ammo
+CLGauss Ammo
+CLGauss Ammo
+Endo-Steel
+Endo-Steel
 -Empty-
 
 Right Torso:
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 Jump Jet
 CLLBXAC20
 CLLBXAC20
@@ -115,16 +116,16 @@ CLLBXAC20
 CLLBXAC20
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Jump Jet
 CLERMediumLaser
 
@@ -135,38 +136,19 @@ Cockpit
 CLERMediumLaser
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+CLDouble Heat Sink
+CLDouble Heat Sink

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grizzly
 model:2
 mul id:1333
 
 Config:Biped
-techbase:Clan
-era:3063
-source:TR:3058U
-rules level:2
+TechBase:Clan
+Era:3063
+Source:TR:3058U
+Rules Level:2
 role:Skirmisher
 
-quirk:exp_actuator
 quirk:difficult_maintain
+quirk:exp_actuator
 
-mass:70
-engine:280 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:4
-jump mp:4
+Mass:70
+Engine:280 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:23
-RT armor:23
-CT armor:31
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:22
+RA Armor:22
+LT Armor:23
+RT Armor:23
+CT Armor:31
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:9
+Gauss Rifle, Right Arm
+ATM 9, Left Torso
 ER Large Laser, Left Arm
 ER Micro Laser, Left Arm
 ER Micro Laser, Left Arm
-Gauss Rifle, Right Arm
-ATM 9, Left Torso
 ER Micro Laser, Right Torso
 ER Micro Laser, Right Torso
 ER Micro Laser, Right Torso
@@ -70,8 +70,8 @@ Lower Arm Actuator
 CLERLargeLaser
 CLERMicroLaser
 CLERMicroLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -110,8 +110,8 @@ CLERMicroLaser
 CLERMicroLaser
 CLERMicroLaser
 CLERMicroLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -130,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -176,9 +176,13 @@ Jump Jet
 -Empty-
 
 overview:The Grizzly is a multi-role heavy 'Mech with design elements shared with Clan Ghost Bear's two most common Omnis, the Vulture and the Gladiator. Because it lacks a specific combat emphasis, it has been plagued with the "jack of all trades, master of none" stigma and has never truly found a role in the Ghost Bear troops.
+
 capabilities:Despite problems in its design—its layers of sloped armor tend to lodge in place when destroyed, causing havoc with joints and even weapon ports—it is still used by several garrison troops. The Grizzly can jump and has a variety of weaponry that cover a wide spectrum of fighting ranges.
+
 deployment:During the Combine-Ghost Bear War, Star Captain Scott of the Gurdel Bloodhouse came to fame for his customized Grizzly that has reignited this failed design. A potent urban defender, Scott's loadout is now a standard, with old Grizzlies being recalled for refit. The variant keeps the Gauss rifle, but swaps out the pulse lasers for an ER Large Laser and six ER Micro Lasers. The missile launcher is replaced with an ATM 9 and two tons of ammunition that are usually High-Explosive rounds as they are the most useful in an urban environment. This refit is especially potent against infantry, both conventional and battle armor.
+
 history:Because it lacks a specific combat emphasis, it has been plagued with the "jack of all trades, master of none" stigma and has never truly found a role in the Ghost Bear troops. With reports of atrocities in the Rasalhague Republic during the current Jihad, the Bear Touman has began to reconsider this out-of-production design for immediate production in order to fast augment material for their anticipated entry into conflict. The Grizzly's production ended in 3013, yet there are still a big number of the design distributed around the Ghost Bear Touman. After the Combine War in 3063 revealed that the Combine was using combat armor personnel more successfully, a recent redesign of the Grizzly was tested. In tandem with the Golem battle armor project, the Technician and Scientist Caste set out to create a 'Mech design to compliment the urban-style defensive armor. Most deployed Grizzlys are being recalled to be reconfigured as a newer, more lethal urban defence variant.
+
 manufacturer:Jötunn BattleWorx,Bergan Industries - Alshain Weapons(formerly GK&T owned),Field Refit
 primaryfactory:Goito,Jarett,Various
 systemmanufacturer:CHASSIS:Type 56-45C Modified Endo Steel

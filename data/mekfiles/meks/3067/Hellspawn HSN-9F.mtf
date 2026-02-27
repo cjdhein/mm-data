@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hellspawn
 model:HSN-9F
 mul id:4309
@@ -27,10 +26,13 @@ source:TR:3067
 rules level:2
 role:Striker
 
+
+
 quirk:bad_rep_is
 
+
 mass:45
-engine:270 XL Engine
+engine:270 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -53,8 +55,8 @@ RTC armor:4
 
 Weapons:4
 Medium Pulse Laser, Left Arm
-MRM 20, Right Arm
 Medium Pulse Laser, Right Arm
+MRM 20, Right Arm
 MRM 20, Left Torso
 
 Left Arm:
@@ -179,3 +181,4 @@ systemmanufacturer:ENGINE:GM 270 XL
 systemmanufacturer:ARMOR:StarGuard III
 systemmanufacturer:COMMUNICATIONS:Dalban SuperMicronics with Guardian ECM
 systemmanufacturer:TARGETING:GME HiTrak-3
+

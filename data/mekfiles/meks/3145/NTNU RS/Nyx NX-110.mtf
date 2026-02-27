@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Nyx
 model:NX-110
 mul id:6936
 
 Config:Biped
-techbase:Inner Sphere
-era:3141
-source:RS:3145-NTNU
-rules level:3
+TechBase:Inner Sphere
+Era:3141
+Source:RS:3145-NTNU
+Rules Level:3
 role:Scout
 
-quirk:difficult_maintain
+
+
 quirk:low_profile
+quirk:difficult_maintain
 
-mass:30
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:10
-jump mp:0
+Mass:30
+Engine:300 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Anti-Penetrative Ablation(Inner Sphere)
-LA armor:7
-RA armor:7
-LT armor:10
-RT armor:10
-CT armor:12
-HD armor:8
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:10
+Jump MP:0
+
+Armor:Anti-Penetrative Ablation(Inner Sphere)
+LA Armor:7
+RA Armor:7
+LT Armor:10
+RT Armor:10
+CT Armor:12
+HD Armor:8
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:4
 
 Weapons:2
 Medium Re-engineered Laser, Left Arm
@@ -169,4 +171,5 @@ IS Anti-Penetrative Ablation
 -Empty-
 -Empty-
 -Empty-
+
 

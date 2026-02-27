@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,56 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legacy
 model:LGC-03
 mul id:4490
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
-source:TR:J
-rules level:2
+TechBase:Inner Sphere
+Era:3070
+Source:TR:J
+Rules Level:2
 role:Brawler
 
-quirk:bad_rep_is
+
+
 quirk:directional_torso_mount
-weaponquirk:direct_torso_mount:LA:4:ISERSmallLaser
-weaponquirk:direct_torso_mount:RA:4:ISERMediumLaser
-weaponquirk:direct_torso_mount:RA:5:ISERMediumLaser
-weaponquirk:direct_torso_mount:LT:5:Heavy PPC
+quirk:bad_rep_is
 weaponquirk:direct_torso_mount:RT:5:Heavy PPC
 weaponquirk:direct_torso_mount:RT:9:ISStreakSRM4
+weaponquirk:direct_torso_mount:LT:5:Heavy PPC
+weaponquirk:direct_torso_mount:RA:4:ISERMediumLaser
+weaponquirk:direct_torso_mount:RA:5:ISERMediumLaser
+weaponquirk:direct_torso_mount:LA:4:ISERSmallLaser
 
-mass:80
-engine:320 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:14 IS Double
-walk mp:4
-jump mp:3
+Mass:80
+Engine:320 Light Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:27
-RT armor:27
-CT armor:40
-HD armor:9
-LL armor:34
-RL armor:34
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:14 Double
+Walk MP:4
+Jump MP:3
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:27
+RT Armor:27
+CT Armor:40
+HD Armor:9
+LL Armor:34
+RL Armor:34
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:6
-ER Small Laser, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
 Heavy PPC, Left Torso
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
+ER Small Laser, Left Arm
 Heavy PPC, Right Torso
 Streak SRM 4, Right Torso
 
@@ -72,11 +74,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERSmallLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -87,10 +89,10 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -106,7 +108,7 @@ Heavy PPC
 Heavy PPC
 ISC3iUnit
 ISC3iUnit
-IS Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -134,13 +136,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -156,7 +158,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -170,7 +172,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Jump Jet
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -179,9 +181,13 @@ IS Endo Steel
 -Empty-
 
 overview:The Legacy was produced as a testbed for new technologies, including the Ultra AC/10 and C3i Computer.
+
 capabilities:They upgraded its targeting system and included the C3i, which allows six units to coordinate fire. Its thick armor protection, standard fusion engine, and CASE give the Legacy remarkable staying power on the battlefield. One of the weaknesses of the 'Mech is its slow speed compared to other 'Mechs of similar size, but the inclusion of jump jets sought to counter that with superior maneuverability.
+
 deployment:This upgrade of the Legacy utilizes a Light Fusion Engine to increase the 'Mech's top speed to 64 km/h, though its jumping capacity does not increase commensurately. All of the 'Mech's backup weapons remain the same, but the autocannons are replaced with a pair of Heavy PPCs. The 'Mech's heat dissipation capability has also not kept up, utilizing only fourteen double heat sinks.
+
 history:At the request of Word of Blake Precentor Martial Cameron St. Jamais. The designers used a failed Star League 'Mech called the Rising Star as the base for the Legacy.
+
 manufacturer:Skobel MechWorks
 primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Skobel Template 8 Endo Steel
@@ -190,3 +196,4 @@ systemmanufacturer:ARMOR:Aldis Plate with CASE
 systemmanufacturer:JUMP_JET:CurtissJet 80
 systemmanufacturer:COMMUNICATIONS:Skobel Wave VII Comm with C3i Computer
 systemmanufacturer:TARGETING:Falcon 15 Watcher
+

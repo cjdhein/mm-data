@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Centurion
 model:CN9-Da
 mul id:524
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3065
+Source:TR:3050
+Rules Level:2
 role:Skirmisher
 
-quirk:non_standard
 quirk:imp_target_short
+quirk:non_standard
 
-mass:50
-engine:300 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:50
+Engine:300 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:13
-RT armor:13
-CT armor:18
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:16
+RA Armor:16
+LT Armor:13
+RT Armor:13
+CT Armor:18
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:4
-AC/5, Right Arm
+Autocannon/5, Right Arm
 LRM 10, Left Torso
 Medium Laser, Center Torso
 Medium Laser, Center Torso
@@ -63,9 +63,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -80,9 +80,9 @@ Autocannon/5
 Autocannon/5
 Autocannon/5
 Autocannon/5
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 
@@ -96,9 +96,9 @@ ISArtemisIV
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -109,10 +109,10 @@ IS Ammo AC/5
 IS Ammo LRM-10 Artemis-capable
 IS Ammo LRM-10 Artemis-capable
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -132,7 +132,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -170,3 +170,4 @@ Foot Actuator
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\Centurion 3050U.jpg

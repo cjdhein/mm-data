@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vulpes
 model:VLP-1DX 'Beast'
 mul id:8382
@@ -27,13 +26,12 @@ source:TR:3145:FS
 rules level:3
 role:Brawler
 
-
 mass:60
 engine:240 XL (Clan) Engine
 structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:11 Clan Double
+heat sinks:11 Double
 walk mp:4
 jump mp:0
 
@@ -51,11 +49,11 @@ RTR armor:6
 RTC armor:9
 
 Weapons:5
-ER Medium Pulse Laser, Left Arm
-ER Flamer, Left Arm
-ER Flamer, Left Arm
 ER Large Laser, Right Arm
+ER Medium Pulse Laser, Left Arm
 RISC Advanced Point Defense System, Left Torso
+ER Flamer, Left Arm
+ER Flamer, Left Arm
 
 Left Arm:
 Shoulder
@@ -168,4 +166,5 @@ Talons
 -Empty-
 -Empty-
 -Empty-
+
 

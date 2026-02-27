@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +44,6 @@ PKR-T5 (TOC)
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -64,18 +69,6 @@ troopspace:0.5
 0
 </engine_type>
 
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
-
 <armor>
 16
 16
@@ -86,7 +79,7 @@ troopspace:0.5
 <Body Equipment>
 ISTankCockpitCommandConsole
 ISGuardianECMSuite
-Communications Equipment:SIZE:2.0
+Communications Equipment (2 ton)
 </Body Equipment>
 
 <Front Equipment>
@@ -101,10 +94,6 @@ Communications Equipment:SIZE:2.0
 <Rear Equipment>
 </Rear Equipment>
 
-<history>
-This unit is a complete hack and only barely represents the actual unit.
-</history>
-
 <source>
 1SS
 </source>
@@ -113,3 +102,6 @@ This unit is a complete hack and only barely represents the actual unit.
 20.0
 </tonnage>
 
+<history>
+This unit is a complete hack and only barely represents the actual unit.
+</history>

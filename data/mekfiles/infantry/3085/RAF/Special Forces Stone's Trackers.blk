@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,15 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 Infantry
 </UnitType>
-
 <Name>
 Special Forces
 </Name>
-
 <Model>
 Stone's Trackers
 </Model>
@@ -31,15 +36,24 @@ Stone's Trackers
 <mul id:>
 3000
 </mul id:>
-
-<year>
-3082
-</year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
-
+<squad_size>
+7
+</squad_size>
+<squadn>
+3
+</squadn>
+<Primary>
+InfantryClanMauserIICIAS
+</Primary>
+<Secondary>
+InfantryClanERHeavyLaser
+</Secondary>
+<secondn>
+2
+</secondn>
+<armorKit>
+ClanKit
+</armorKit>
 <type>
 Clan Level 4
 </type>
@@ -47,35 +61,15 @@ Clan Level 4
 <role>
 Ambusher
 </role>
-
+<year>
+3082
+</year>
+<era>
+TRO: 3085
+</era>
 <motion_type>
 Jump
 </motion_type>
-
-<Troopers Equipment>
-Clan Armor Kit (All)
-</Troopers Equipment>
-
-<Field Guns Equipment>
-</Field Guns Equipment>
-
-<squad_size>
-7
-</squad_size>
-
-<squadn>
-3
-</squadn>
-
-<secondn>
+<JumpMP>
 2
-</secondn>
-
-<Primary>
-Laser Rifle (Mauser IIC IAS)
-</Primary>
-
-<Secondary>
-Support Laser (ER Heavy, Clan)
-</Secondary>
-
+</JumpMP>

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,122 +15,128 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Juggernaut
 model:JG-R9TX1 'Leapin' Lil'
 mul id:1716
 
 Config:Biped
-techbase:Inner Sphere
-era:3074
-source:XTR:Gladiators
-rules level:4
+TechBase:Inner Sphere
+Era:3074
+Rules Level:4
 role:Juggernaut
+Source:XTR:Gladiators
 
-quirk:difficult_maintain
+
+
 quirk:imp_life_support
+quirk:difficult_maintain
 
-mass:90
-engine:270 Light Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:16 IS Double
-walk mp:3
-jump mp:0
+Mass:90
+Engine:270 Light Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:29
-RA armor:29
-LT armor:28
-RT armor:28
-CT armor:44
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:9
-RTR armor:9
-RTC armor:14
+Heat Sinks:16 Double
+Walk MP:3
+Jump MP:2
 
-Weapons:10
-Large X-Pulse Laser, Left Arm
-Medium X-Pulse Laser, Left Arm
-Large X-Pulse Laser, Right Arm
-Medium X-Pulse Laser, Right Arm
-M-Pod, Left Torso
-M-Pod, Left Torso
-M-Pod, Right Torso
-M-Pod, Right Torso
-Snub-Nose PPC, Center Torso
-ER Medium Laser, Head
+Armor:Light Ferro-Fibrous
+LA Armor:29
+RA Armor:29
+LT Armor:28
+RT Armor:28
+CT Armor:44
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:9
+RTR Armor:9
+RTC Armor:14
+
+Weapons:14
+1 ISERMediumLaser, Head
+1 ISSNPPC, Center Torso
+1 ISMPod, Left Torso
+1 ISMPod, Left Torso
+1 ISMPod, Right Torso
+1 ISMPod, Right Torso
+1 ISLargeXPulseLaser, Right Arm
+1 ISLargeXPulseLaser, Left Arm
+1 ISMediumXPulseLaser, Right Arm
+1 ISMediumXPulseLaser, Left Arm
+1 IS Coolant Pod, Left Torso
+1 IS Coolant Pod, Left Torso
+1 IS Coolant Pod, Right Torso
+1 IS Coolant Pod, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISLargeXPulseLaser
 ISLargeXPulseLaser
 ISMediumXPulseLaser
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISLargeXPulseLaser
 ISLargeXPulseLaser
 ISMediumXPulseLaser
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISMPod
 ISMPod
-Coolant Pod
-Coolant Pod
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+IS Coolant Pod
+IS Coolant Pod
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+Engine
+Engine
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISMPod
 ISMPod
-Coolant Pod
-Coolant Pod
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+IS Coolant Pod
+IS Coolant Pod
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 ISSNPPC
 ISSNPPC
 
@@ -141,38 +147,19 @@ Cockpit
 ISERMediumLaser
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:2.0
-MechanicalJumpBooster:SIZE:2.0
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Jump Booster
+Jump Booster
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-MechanicalJumpBooster:SIZE:2.0
-MechanicalJumpBooster:SIZE:2.0
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Jump Booster
+Jump Booster

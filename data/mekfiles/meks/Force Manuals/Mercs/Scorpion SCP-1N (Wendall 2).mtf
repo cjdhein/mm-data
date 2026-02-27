@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.07 on 2025-07-09
 chassis:Scorpion
 model:SCP-1N (Wendall 2)
 mul id:8276
@@ -29,7 +29,7 @@ role:Skirmisher
 
 
 mass:55
-engine:385 XL Engine
+engine:385 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -182,3 +182,4 @@ systemmanufacturer:COMMUNICATIONS:Garret
 systemmode:COMMUNICATIONS:500A
 systemmanufacturer:TARGETING:Garret
 systemmode:TARGETING:GRNDTRK 9
+

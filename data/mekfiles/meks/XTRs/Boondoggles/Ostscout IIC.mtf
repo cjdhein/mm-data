@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,23 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostscout IIC
 model:
 mul id:5844
-
 Config:Biped
 techbase:Mixed (Clan Chassis)
 era:3067
 source:XTR:Boondoggles
 rules level:4
-role:None
+role:Scout
 
+
+quirk:bad_rep_clan
 quirk:bad_rep_is
 quirk:no_eject
-quirk:unbalanced
 quirk:prototype
-quirk:bad_rep_clan
+quirk:unbalanced
+
 
 mass:35
 engine:385 XXL (Clan) Engine
@@ -58,7 +58,7 @@ RTR armor:1
 RTC armor:1
 
 Weapons:1
-TAG, Right Arm
+TAG (Clan), Right Arm
 
 Left Arm:
 Shoulder
@@ -174,3 +174,4 @@ Jump Jet
 
 manufacturer:Olivetti Weaponry
 primaryfactory:Sudeten
+

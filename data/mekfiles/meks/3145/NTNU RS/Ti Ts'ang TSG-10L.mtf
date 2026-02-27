@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ti Ts'ang
 model:TSG-10L
 mul id:6884
 
 Config:Biped
-techbase:Inner Sphere
-era:3125
-source:RS:3145-NTNU
-rules level:4
+TechBase:Inner Sphere
+Era:3125
+Source:RS:3145-NTNU
+Rules Level:4
 role:Skirmisher
+
+
 
 quirk:hyper_actuator
 
-mass:60
-engine:360 XXL Engine
-structure:IS Endo-Composite
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XXL Engine(IS)
+Structure:IS Endo-Composite
+Myomer:Triple-Strength
 
-armor:Heat-Dissipating(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:30
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Heat-Dissipating(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:30
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:10
 Medium VSP Laser, Left Arm
@@ -101,9 +103,9 @@ Fusion Engine
 Medium Laser
 Medium Laser
 IS Endo-Composite
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Right Torso:
 Fusion Engine
@@ -115,9 +117,9 @@ Fusion Engine
 Medium Laser
 Medium Laser
 ISChaffPod
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -174,4 +176,5 @@ IS Heat-Dissipating
 -Empty-
 -Empty-
 -Empty-
+
 

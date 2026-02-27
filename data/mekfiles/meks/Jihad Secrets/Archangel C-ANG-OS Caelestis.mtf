@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Archangel
 model:C-ANG-OS Caelestis
 mul id:71
-
-Config:Biped OmniMek
-techbase:Mixed (IS Chassis)
-era:3075
 source:JSBD
-rules level:4
+
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3075
+Rules Level:4
 role:Juggernaut
 
-quirk:bad_rep_is
+
+
 quirk:command_mech
-quirk:bad_rep_clan
-quirk:imp_sensors
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:100
-engine:300 Compact Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:Compact Gyro
 
-heat sinks:17 IS Double
-base chassis heat sinks:12
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Compact Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:Compact Gyro
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:12
+Walk MP:3
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
 
 Weapons:9
 ER Small Laser, Left Arm
 ER Small Laser, Left Arm
 Thunderbolt 10, Right Arm
-Binary Laser (Blazer) Cannon, Left Torso
-Binary Laser (Blazer) Cannon, Right Torso
+Blazer Cannon, Left Torso
+Blazer Cannon, Right Torso
 ER Medium Laser, Center Torso
 ER Medium Laser, Center Torso
 ER Flamer, Head
@@ -74,11 +76,11 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLERSmallLaser (OMNIPOD)
-CLERSmallLaser (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+CLERSmallLaser (omnipod)
+CLERSmallLaser (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -88,23 +90,23 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Thunderbolt 10 (OMNIPOD)
-Thunderbolt 10 (OMNIPOD)
-IS Ammo Thunderbolt-10 (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+Thunderbolt 10 (omnipod)
+Thunderbolt 10 (omnipod)
+IS Ammo Thunderbolt-10 (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 
 Left Torso:
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -112,13 +114,13 @@ IS Endo Steel
 IS Endo Steel
 
 Right Torso:
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-Binary Laser (Blazer) Cannon (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+Blazer Cannon (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -133,19 +135,19 @@ Gyro
 Gyro
 ISC3iUnit
 ISC3iUnit
-CLERMediumLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLERMediumLaser (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
 
 Head:
 Life Support
 Sensors
 Cockpit
 Sensors
-ER Flamer (OMNIPOD)
-ER Flamer (OMNIPOD)
+ER Flamer (omnipod)
+ER Flamer (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -182,8 +184,11 @@ IS Endo Steel
 -Empty-
 
 overview:Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.
+ 
 capabilities:The Archangel is the largest of these. Designed to be an "anchor" for Word formations, the 'Mech is known as a "zombie" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.
+
 history:An experimental testbed configuration sighted in use among the Blakist Shadow Divisions in 3075, the Caelestis config features a right arm mounted Thunderbolt 10 complimented by a Binary Laser Cannon in each side torso. Support weaponry comes in the form of a pair of Clan-tech ER Small Lasers in the left arm, two Clan ER Mediums in the center torso and a pair of head mounted ER Flamers. A single ton of thunderbolt missiles is carried, while seventeen double heat sinks keep its energy weapons firing.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series AA1E

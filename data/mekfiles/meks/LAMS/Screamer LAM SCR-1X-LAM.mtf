@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Screamer LAM
 model:SCR-1X-LAM
 mul id:7320
@@ -27,17 +26,21 @@ source:XTR:Gunslingers
 rules level:2
 role:Striker
 
-quirk:obsolete:unknown
+
+
+
 quirk:prototype
+quirk:obsolete
 weaponquirk:jettison_capable:RA:4:ISERPPC
 
+
 mass:55
-engine:275 Fusion Engine
+engine:275 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 lam:Standard
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:5
 jump mp:4
 
@@ -168,4 +171,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

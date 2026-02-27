@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,25 +15,28 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Inferno
 model:INF-NO
 mul id:7715
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3146
 source:RG09
 rules level:2
 role:Brawler
 
+
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:easy_pilot
 weaponquirk:em_interference:CT:8:Heavy PPC
 
+
 mass:75
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 cockpit:Standard Cockpit
@@ -186,3 +189,4 @@ systemmanufacturer:COMMUNICATIONS:Garret
 systemmode:COMMUNICATIONS:T-60 FastScan
 systemmanufacturer:TARGETING:Garret
 systemmode:TARGETING:F22c
+

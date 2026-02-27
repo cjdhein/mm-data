@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Anzu
 model:ZU-J70
 mul id:6511
 
 Config:Biped
-techbase:Inner Sphere
-era:3106
-source:TR:3145:FWL
-rules level:2
+TechBase:Inner Sphere
+Era:3106
+Source:TR:3145:FWL
+Rules Level:2
 role:Skirmisher
 
-quirk:imp_life_support
+
+
 quirk:multi_trac
+quirk:imp_life_support
 
-mass:60
-engine:240 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:22
-RT armor:22
-CT armor:26
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:22
+RT Armor:22
+CT Armor:26
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:5
-Rotary AC/5, Left Arm
-Snub-Nose PPC, Right Arm
-ER Medium Laser, Right Arm
-MML 7, Left Torso
 ER Small Laser, Head
+MML 7, Left Torso
+ER Medium Laser, Right Arm
+Snub-Nose PPC, Right Arm
+Rotary AC/5, Left Arm
 
 Left Arm:
 Shoulder
@@ -170,4 +172,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

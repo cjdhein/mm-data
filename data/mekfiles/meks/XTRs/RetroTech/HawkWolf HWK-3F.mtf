@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:HawkWolf
 model:HWK-3F
 mul id:4273
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
-source:XTR:RetroTech
-rules level:4
+TechBase:Inner Sphere
+Era:3076
+Source:XTR:RetroTech
+Rules Level:4
 role:Missile Boat
 
+Mass:80
+Engine:290 Primitive Fusion Engine
+Structure:Standard
+Cockpit:Primitive Cockpit
+Myomer:Standard
 
-mass:80
-engine:290 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Primitive Cockpit
-gyro:Standard Gyro
+Heat Sinks:13 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:13 Single
-walk mp:3
-jump mp:0
-
-armor:Primitive(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:25
-RT armor:25
-CT armor:35
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Armor:Primitive
+LA Armor:20
+RA Armor:20
+LT Armor:25
+RT Armor:25
+CT Armor:35
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:4
-LRM 15, Left Arm
-LRM 15, Right Arm
-MML 5, Left Torso
-MML 5, Right Torso
+1 ISMML5, Right Torso, Ammo:48
+1 ISMML5, Left Torso
+1 ISLRM15, Right Arm, Ammo:24
+1 ISLRM15, Left Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 -Empty-
 -Empty-
 -Empty-
@@ -76,9 +73,9 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 15
-LRM 15
-LRM 15
+ISLRM15
+ISLRM15
+ISLRM15
 -Empty-
 -Empty-
 -Empty-
@@ -104,27 +101,27 @@ Right Torso:
 ISMML5
 ISMML5
 ISMML5
-IS Ammo MML-5 LRM
-IS Ammo MML-5 SRM
-IS Ammo LRM-15
-IS Ammo LRM-15
-IS Ammo LRM-15
+ISMML5 LRM Ammo
+ISMML5 SRM Ammo
+ISLRM15 Ammo
+ISLRM15 Ammo
+ISLRM15 Ammo
 ISCASE
 -Empty-
 -Empty-
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 -Empty-
 -Empty-
 
@@ -135,12 +132,6 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -148,12 +139,6 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 
 Right Leg:
@@ -163,10 +148,3 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

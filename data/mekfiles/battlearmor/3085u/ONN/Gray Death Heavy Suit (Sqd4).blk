@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+
+<mul id:>
+1273
+</mul id:>
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -24,21 +37,39 @@ BattleArmor
 Gray Death Heavy Suit
 </Name>
 
-<Model>
+<model>
 (Sqd4)
-</Model>
+</model>
 
-<mul id:>
-1273
-</mul id:>
+<chassis>
+biped
+</chassis>
 
-<year>
-3083
-</year>
+<weightclass>
+3
+</weightclass>
 
-<originalBuildYear>
-3083
-</originalBuildYear>
+<Trooper Count>
+4
+</Trooper Count>
+
+<cruiseMP>
+2
+</cruiseMP>
+
+<Armor>
+10
+</Armor>
+
+<Squad Equipment>
+ISBASupportPPC:LA
+BAAPMount:RA
+InfantryAssaultRifle:RA:APM
+ISBAImprovedSensors:RA
+ISBASRM4OS:Body
+ISBASRM4OS:Body
+BABasicManipulator:RA
+</Squad Equipment>
 
 <type>
 IS Level 2
@@ -48,13 +79,17 @@ IS Level 2
 Scout
 </role>
 
+<year>
+3083
+</year>
+
 <motion_type>
 Leg
 </motion_type>
 
-<cruiseMP>
-2
-</cruiseMP>
+<source>
+TR:3085
+</source>
 
 <armor_type>
 28
@@ -64,40 +99,13 @@ Leg
 3
 </armor_tech>
 
-<Squad Equipment>
-ISBASupportPPC:LA
-BAAPMount:RA
-InfantryAssaultRifle:APM:RA
-ISImprovedSensors:RA
-ISBASRM4OS:Body
-ISBASRM4OS:Body
-BABasicManipulator:RA
-</Squad Equipment>
-
-<Trooper 1 Equipment>
-</Trooper 1 Equipment>
-
-<Trooper 2 Equipment>
-</Trooper 2 Equipment>
-
-<Trooper 3 Equipment>
-</Trooper 3 Equipment>
-
-<Trooper 4 Equipment>
-</Trooper 4 Equipment>
-
-<slotless_equipment>
-BA-SRM4 Ammo:Shots1#
-BA-SRM4 Ammo:Shots1#
-</slotless_equipment>
+<overview>
+A heavy trooper design, the Gray Death Heavy is a decent suit, with a formidable potential to deliver damage.
+</overview>
 
 <capabilities>
 With a pair of one-shot SRM-4s, the Gray Death Heavy has a serious alpha strike, allowing a four-suit squad to inflict an average of twenty points of damage per launcher. With an Anti-Personnel Weapon Mount the natural choice for the right arm, continuing the Grey Death use of the mount on all but their Scout Suit design, plus a Basic Manipulator to match the small size of the manipulator on the right hand, that quickly filled in some of the blanks. Rounding out the armament, a Support PPC is perhaps the best of the light-to-mid-sized energy weapons available to the Inner Sphere. Following the pattern set by the Gray Death Standard, the GD Heavy isn't jump-capable, and although it moves at the maximum ground speed possible for Heavy suits without the use of advanced technology.
 </capabilities>
-
-<overview>
-A heavy trooper design, the Gray Death Heavy is a decent suit, with a formidable potential to deliver damage.
-</overview>
 
 <deployment>
 Introduced in the Jihad, this version of the Gorilla removes the standard equipment and replaces it with a Small Laser and two Heavy Battle Claws. The armor protection is doubled.
@@ -106,6 +114,7 @@ Introduced in the Jihad, this version of the Gorilla removes the standard equipm
 <history>
 The Gray Death Heavy was introduced in 3083, expanding upon the Jihad introduction era listed. The suit is being sold outside the Lyran Commonwealth, unlike the smaller GD Strike. Found in the ranks of the LCAF and Republic Armed Forces, as well as mercenary units such as the Kell Hounds and the remnants of the Wolf's Dragoons, the Gray Death Heavy is apparently a popular design and fills a sparsely populated niche in the Inner Sphere militaries.
 </history>
+
 
 <manufacturer>
 Defiance Industries
@@ -119,7 +128,7 @@ Furillo
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
@@ -127,28 +136,4 @@ TARGETING:Unknown
 <notes>
 From this forum post. https://bg.battletech.com/forums/fan-articles/battle-armor-of-the-week-gray-death-heavy/
 </notes>
-
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
 

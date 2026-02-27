@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,75 +15,77 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fireball
 model:ALM-10D
 mul id:1074
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
+TechBase:Inner Sphere
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
 
-quirk:low_profile
+
+
 quirk:imp_com
+quirk:low_profile
 
-mass:20
-engine:220 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:11
-jump mp:0
+Mass:20
+Engine:220 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Heavy Ferro-Fibrous(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:9
-HD armor:9
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:11
+Jump MP:0
+
+Armor:Heavy Ferro-Fibrous(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:9
+HD Armor:9
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:3
-ER Small Laser, Right Arm
 ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
+ER Small Laser, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Endo Steel
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISERSmallLaser
-IS Endo Steel
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Endo Steel
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -91,13 +93,13 @@ Fusion Engine
 Fusion Engine
 ISERMediumLaser
 ISMASC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -105,13 +107,13 @@ Fusion Engine
 Fusion Engine
 ISERMediumLaser
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
-IS Heavy Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -124,14 +126,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Heavy Ferro-Fibrous
+Heavy Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -147,7 +149,7 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -161,11 +163,12 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

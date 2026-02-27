@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.02-SNAPSHOT on 2024-12-30
 chassis:Orion
 model:C
 mul id:7998
@@ -25,6 +25,7 @@ techbase:Mixed (IS Chassis)
 era:3142
 source:RS:3150
 rules level:3
+role:Brawler
 
 quirk:easy_maintain
 quirk:anti_air
@@ -170,4 +171,5 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 -Empty-
+
 

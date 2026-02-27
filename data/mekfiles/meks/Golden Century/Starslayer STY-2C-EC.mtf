@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Starslayer
 model:STY-2C-EC
 mul id:7680
@@ -27,14 +26,17 @@ source:TR:GC
 rules level:4
 role:Skirmisher
 
+
+
 quirk:rugged_1
+
 
 mass:50
 engine:250 Fusion (Clan) Engine
 structure:IS Standard
 myomer:Standard
 
-heat sinks:11 IS Double
+heat sinks:11 Double
 walk mp:5
 jump mp:5
 
@@ -53,11 +55,11 @@ RTC armor:5
 
 Weapons:6
 Improved Large Laser, Right Arm
-Prototype Streak SRM 4, Left Torso
-Prototype ER Medium Laser (CP), Left Torso
-Prototype ER Medium Laser (CP), Left Torso
 Improved Large Laser, Right Torso
-Prototype ER Small Laser (CP), Head
+Prototype ER Small Laser, Head
+Prototype ER Medium Laser, Left Torso
+Prototype ER Medium Laser, Left Torso
+Prototype Streak SRM 4, Left Torso
 
 Left Arm:
 Shoulder
@@ -172,9 +174,13 @@ IS Ferro-Fibrous
 -Empty-
 
 overview:The Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes.
+
 capabilities:The Starslayer is built on a lightweight Thor-4 Endo Steel chassis and reaches a top speed of 86.4 km/h with its Magna 250 fusion engine. The Starslayer also has five Odin's Own Model 34z jump jets which give it the ability to jump up to one hundred and fifty meters. Finally, the design carries nine and a half tons of Norse-34 ferro-fibrous with CASE. The CASE protects the BattleMech from complete destruction in the event of an ammunition explosion.
+
 deployment:An interim design built by the Nova Cats, the BattleMech’s lasers were all swapped for improved or early Clan prototypes to support the new Streak 4 system won from the Star Adders.
+
 history:Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of "up-to-date" shipping information and as a result the Starslayer would be far more common in the LCAF service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early TR:GC, with Blue Shot Weaponry resuming with the superior and updated STY-3C model in wake of the Clan Invasion.
+
 manufacturer:Brim Ironworks
 primaryfactory:Brim
 systemmanufacturer:CHASSIS:Thor-4
@@ -183,3 +189,4 @@ systemmanufacturer:ARMOR:Norse-34 Ferro-Fibrous with CASE
 systemmanufacturer:JUMP_JET:Odin’s Own Model 34z
 systemmanufacturer:COMMUNICATIONS:Tek BattleCom
 systemmanufacturer:TARGETING:FireScan with IndirecTrack
+

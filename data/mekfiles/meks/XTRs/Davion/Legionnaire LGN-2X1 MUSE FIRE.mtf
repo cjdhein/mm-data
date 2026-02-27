@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legionnaire
 model:LGN-2X1 MUSE FIRE
 mul id:1864
 
 Config:Biped
-techbase:Mixed (IS Chassis)
-era:3077
+TechBase:Mixed (IS Chassis)
+Era:3077
 source:XTR:Davion
-rules level:4
+Rules Level:4
 role:Striker
 
-quirk:imp_target_med
+
+
 quirk:easy_maintain
+quirk:imp_target_med
 weaponquirk:exposed_linkage:RT:4:CLRotaryAC5
 
-mass:50
-engine:350 XL Engine(IS)
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:50
+Engine:350 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Torso-Mounted Cockpit
+Gyro:Standard Gyro
 
-armor:Reflective(Clan)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Reflective(Clan)
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:3
-ER Medium Laser, Left Arm
 ER Medium Laser, Right Arm
+ER Medium Laser, Left Arm
 Rotary AC/5, Right Torso
 
 Left Arm:
@@ -66,12 +68,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Reflective
-IS Reflective
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Reflective
+Reflective
 -Empty-
 
 Right Arm:
@@ -80,33 +82,33 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Reflective
-IS Reflective
-IS Reflective
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Reflective
+Reflective
+Reflective
 -Empty-
 
 Right Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
 CLRotaryAC5
 CLRotaryAC5
 CLRotaryAC5
@@ -149,7 +151,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -163,7 +165,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -171,4 +173,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

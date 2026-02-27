@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wendigo
 model:B
 mul id:6405
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3150
 source:TR:3145:DC
 rules level:4
 role:Skirmisher
 
+
+
 quirk:distracting
 
+
 mass:50
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 cockpit:Torso-Mounted Cockpit
@@ -94,9 +96,9 @@ Clan Reflective
 Clan Reflective
 
 Left Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
 Improved Jump Jet (OMNIPOD)
 Improved Jump Jet (OMNIPOD)
 Improved Jump Jet (OMNIPOD)
@@ -108,9 +110,9 @@ Clan Endo Steel
 Clan Reflective
 
 Right Torso:
+Fusion Engine
+Fusion Engine
 Life Support
-Fusion Engine
-Fusion Engine
 Improved Jump Jet (OMNIPOD)
 Improved Jump Jet (OMNIPOD)
 Improved Jump Jet (OMNIPOD)
@@ -176,4 +178,5 @@ Improved Jump Jet (OMNIPOD)
 -Empty-
 -Empty-
 -Empty-
+
 

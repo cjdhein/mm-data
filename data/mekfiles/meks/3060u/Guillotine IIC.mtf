@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Guillotine IIC
 model:
 mul id:1345
@@ -27,10 +26,12 @@ source:TR:3060
 rules level:2
 role:Skirmisher
 
+
 quirk:searchlight
 
+
 mass:70
-engine:280 Fusion (Clan) Engine
+engine:280 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -38,7 +39,7 @@ heat sinks:16 Clan Double
 walk mp:4
 jump mp:4
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:20
 RA armor:20
 LT armor:22
@@ -172,10 +173,14 @@ Jump Jet
 -Empty-
 
 overview:The Guillotine IIC is a simple upgrade of the original Guillotine BattleMech using Clan technology.
+
 capabilities:This version of that venerable 'Mech uses double heat sinks and an Endo Steel internal structure to save weight. These weight savings were used to upgrade the 'Mech's weapon systems. The original twelve tons of armor was left unchanged.
+
 deployment:From long range, the Guillotine IIC replaced the Large Laser of the original with a Clan Mk. XVII ER PPC. Of the original four Medium Lasers, two were upgraded to Kolibri Delta Series Large Pulse Lasers, while the other pair were replaced with Series 2f ER Medium Lasers. The SRM-6 was replaced with a lighter Clan Series 4d.
+
 history:Although Clan Coyote created this upgrade, Clan Star Adder was the first to use it in combat in 2892. With the introduction of the OmniMech, most Guillotine IICs were relegated to second-line and solahma duty.
 manufacturer:Omega Orbital Production Plant, Irian BattleMechs Unlimited (Refit ),  W-7 Facilities (Refit)
+
 primaryfactory:Unknown, Angell II, Weingarten
 systemmanufacturer:CHASSIS:Clan Modified Heavy Type X
 systemmanufacturer:ENGINE:Clan Standard 280 series
@@ -183,3 +188,4 @@ systemmanufacturer:ARMOR:Forging OTR17b
 systemmanufacturer:JUMP_JET:Clan Series Type 4 Heavy
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:Series VI KITT
+

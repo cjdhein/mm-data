@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ha Otoko
 model:
 mul id:1355
 
 Config:Biped
-techbase:Clan
-era:3060
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3060
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
+
 
 quirk:bad_rep_clan
 
-mass:65
-engine:260 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 Single
-walk mp:4
-jump mp:0
+Mass:65
+Engine:260 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:23
-RT armor:23
-CT armor:31
-HD armor:9
-LL armor:29
-RL armor:29
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:13 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:23
+RT Armor:23
+CT Armor:31
+HD Armor:9
+LL Armor:29
+RL Armor:29
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:4
 LRM 10, Left Arm
@@ -168,4 +169,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,23 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tenshi
 model:TN-10-OR
 mul id:6424
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (IS Chassis)
 era:3101
 source:TR:3145:DC
 rules level:4
 role:Missile Boat
 
-quirk:difficult_eject
+
+
 quirk:distracting
 quirk:searchlight
+quirk:difficult_eject
+
 
 mass:95
 engine:285 Light Engine(IS)
@@ -43,7 +45,7 @@ base chassis heat sinks:11
 walk mp:3
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:32
 RA armor:32
 LT armor:30
@@ -188,3 +190,4 @@ systemmanufacturer:ENGINE:Hermes 285 Light
 systemmanufacturer:ARMOR:Mitchel Argon Standard
 systemmanufacturer:COMMUNICATIONS:Sipher Clarion
 systemmanufacturer:TARGETING:Matabushi Tenbatsu
+

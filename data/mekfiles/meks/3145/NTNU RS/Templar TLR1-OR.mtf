@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,19 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar
 model:TLR1-OR
 mul id:6852
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Mixed (IS Chassis)
 era:3134
 source:RS:3145-NTNU
 rules level:3
 role:Sniper
 
+
+
 quirk:easy_maintain
+
 
 mass:85
 engine:340 XL Engine(IS)
@@ -39,7 +40,7 @@ base chassis heat sinks:13
 walk mp:4
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:28
 RA armor:28
 LT armor:26
@@ -184,3 +185,4 @@ systemmanufacturer:ENGINE:KalTek 340 Extralight
 systemmanufacturer:ARMOR:Starshield A with CASE
 systemmanufacturer:COMMUNICATIONS:Newberg Telescan 17
 systemmanufacturer:TARGETING:Spar 3C MegaTrak
+

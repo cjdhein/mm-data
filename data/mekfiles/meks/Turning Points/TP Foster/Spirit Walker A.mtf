@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,19 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Spirit Walker
 model:A
-mul id:9236
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2866
 source:TP:Foster
 rules level:2
 role:Brawler
-
+mul id:9236
 
 mass:75
-engine:300 Fusion (Clan) Engine
+engine:300 Fusion (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -53,12 +51,12 @@ RTC armor:6
 
 Weapons:9
 Gauss Rifle, Right Arm
-ER Medium Laser, Right Arm
 ER Medium Laser, Left Torso
-Small Pulse Laser, Left Torso
-Machine Gun, Left Torso
 ER Medium Laser, Right Torso
+ER Medium Laser, Right Arm
+Small Pulse Laser, Left Torso
 Small Pulse Laser, Right Torso
+Machine Gun, Left Torso
 Machine Gun, Right Torso
 ER Small Laser, Head
 
@@ -181,3 +179,4 @@ systemmanufacturer:ENGINE:Type 300 Standard Fusion
 systemmanufacturer:ARMOR:CI Ferro
 systemmanufacturer:COMMUNICATIONS:CI-Com 4
 systemmanufacturer:TARGETING:CI-TransComm with Active Probe
+

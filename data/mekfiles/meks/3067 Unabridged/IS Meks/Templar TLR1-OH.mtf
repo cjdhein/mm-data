@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar
 model:TLR1-OH
 mul id:5711
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3080
-source:RS:3067u
-rules level:3
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3080
+Rules Level:3
 role:Brawler
+source:RS:3067u
+
+
 
 quirk:easy_maintain
 
-mass:85
-engine:340 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:13 IS Double
-base chassis heat sinks:13
-walk mp:4
-jump mp:4
+Mass:85
+Engine:340 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:26
-RT armor:26
-CT armor:44
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:13 Double
+Base Chassis Heat Sinks:13
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Inner Sphere)
+LA Armor:28
+RA Armor:28
+LT Armor:26
+RT Armor:26
+CT Armor:44
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:5
 MRM 30, Left Arm
@@ -62,12 +64,12 @@ Light PPC, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-ISApollo (OMNIPOD)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+ISApollo (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -76,13 +78,13 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-MRM 30 (OMNIPOD)
-ISApollo (OMNIPOD)
-ER Flamer (OMNIPOD)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+MRM 30 (omnipod)
+ISApollo (omnipod)
+ER Flamer (omnipod)
 IS Endo Steel
 -Empty-
 -Empty-
@@ -91,13 +93,13 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISTargeting Computer (OMNIPOD)
-ISC3SlaveUnit (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+Light PPC (omnipod)
+Light PPC (omnipod)
+ISTargeting Computer (omnipod)
+ISTargeting Computer (omnipod)
+ISC3SlaveUnit (omnipod)
 IS Endo Steel
 IS Endo Steel
 
@@ -105,12 +107,12 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-IS MRM 30 Ammo (OMNIPOD)
-IS MRM 30 Ammo (OMNIPOD)
-IS MRM 30 Ammo (OMNIPOD)
-IS MRM 30 Ammo (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
+IS MRM 30 Ammo (omnipod)
+IS MRM 30 Ammo (omnipod)
+IS MRM 30 Ammo (omnipod)
+IS MRM 30 Ammo (omnipod)
 ISCASE
 IS Endo Steel
 IS Endo Steel
@@ -126,8 +128,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 
 Head:
 Life Support
@@ -171,9 +173,12 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-capabilities:This variation carries an MRM-30 with Apollo FCS in each arm. These are supported by a pair of Light PPCs. An ER Flamer provides anti-infantry support, and a Targeting Computer enhances the accuracy of the energy weapons. A C3 Slave unit allows the Templar to share targeting data with lancemates, and additional mobility is provided via four jump jets.
+capabilities:This variation carries an MRM-30 with Apollo FCS in each arm. These are supported by a pair of Light PPCs. An ER Flamer provides anti-infantry support, and a Targeting Computer enhances the accuracy of the energy weapons. A C3 Slave unit allows the Templar to share targeting data with lancemates, and additional mobility is provided via four jump jets. 
+
 deployment: The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h while sacrificing durability. The Templar has thirteen fixed double heat sinks and is armored with sixteen and a half tons of Starshield A armor with CASE fixed in the right torso. Overall, this allows the Templar to have forty tons of free pod space for weapons and equipment which the 'Mech uses effectively in its various configurations.
+
 history:With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.
+
 manufacturer:Kallon Industries
 primaryfactory:Talon
 systemmanufacturer:CHASSIS:Kallon Type XIX Endo Steel

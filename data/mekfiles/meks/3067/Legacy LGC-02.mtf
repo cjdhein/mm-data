@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29
 chassis:Legacy
 model:LGC-02
 mul id:4489
-
 Config:Biped
 techbase:Inner Sphere
 era:3064
@@ -36,7 +35,7 @@ weaponquirk:direct_torso_mount:RT:5:ISStreakSRM4
 weaponquirk:direct_torso_mount:RT:6:ISMediumPulseLaser
 
 mass:80
-engine:240 Fusion Engine
+engine:240 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -191,3 +190,4 @@ systemmanufacturer:ARMOR:Aldis Plate with CASE
 systemmanufacturer:JUMP_JET:CurtissJet 80
 systemmanufacturer:COMMUNICATIONS:Skobel Wave VII Comm with C3i Computer
 systemmanufacturer:TARGETING:Falcon 15 Watcher
+

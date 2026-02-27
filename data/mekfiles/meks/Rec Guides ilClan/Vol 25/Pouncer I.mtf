@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pouncer
 model:I
 mul id:9263
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3142
 source:RG25
@@ -29,8 +27,9 @@ role:Missile Boat
 
 quirk:weak_head_2
 
+
 mass:40
-engine:240 XL (Clan) Engine
+engine:240 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -169,9 +168,13 @@ Clan Endo Steel
 -Empty-
 
 overview:The Pouncer was originally a testbed design that was upgraded to combat specifications on the orders of then ilKhan Ulric Kerensky, as it was realized that a more mobile 'Mech was needed when combating Inner Sphere forces.
+
 capabilities:Overall, the Pouncer is an excellent OmniMech with 15.5 tons of pod space, allowing it to carry a wide variety of weapons payloads.
+
 deployment:No information available on this variant
+
 history:The Pouncer is built on a lightweight DSAM Endo 4 endo steel chassis and is powered by a 240-rated XL engine which gives it a maximum speed of 97.2 km/h. The 'Mech's mobility is enhanced with five Grandthrust Mk. Four jump jets that allow it to jump up to 150 meters. For protection from enemy fire, the Pouncer has a respectable six tons of Forging ZM15 ferro-fibrous armor. The last of the Nova factories on Tokasha were later retooled to create Pouncers after the Wars of Reaving.
+
 manufacturer:WC Primary Facility 5,Manufacturing Plant SFF-TW2
 primaryfactory:Tiber (Clan),CSF Titanic Mobile Production Facility
 systemmanufacturer:CHASSIS:DSAM Endo 4

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Annihilator
 model:ANH-1G
 mul id:37
 
 Config:Biped
-techbase:Inner Sphere
-era:2823
-source:His:OK
-rules level:2
+TechBase:Inner Sphere
+Era:2823
+Rules Level:2
 role:Juggernaut
+source:His:OK
+
+
 
 quirk:easy_maintain
 
-mass:100
-engine:200 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:2
-jump mp:0
+Mass:100
+Engine:200 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:34
-RA armor:34
-LT armor:32
-RT armor:32
-CT armor:46
-HD armor:9
-LL armor:39
-RL armor:39
-RTL armor:10
-RTR armor:10
-RTC armor:11
+Heat Sinks:10 Double
+Walk MP:2
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:34
+RA Armor:34
+LT Armor:32
+RT Armor:32
+CT Armor:46
+HD Armor:9
+LL Armor:39
+RL Armor:39
+RTL Armor:10
+RTR Armor:10
+RTC Armor:11
 
 Weapons:4
-Gauss Rifle, Left Arm
-Gauss Rifle, Right Arm
-Gauss Rifle, Left Torso
-ER PPC, Right Torso
+1 ISERPPC, Right Torso
+1 ISGaussRifle, Left Torso, Ammo:48
+1 ISGaussRifle, Right Arm
+1 ISGaussRifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -68,8 +70,8 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-IS Gauss Ammo
-IS Gauss Ammo
+ISGauss Ammo
+ISGauss Ammo
 
 Right Arm:
 Shoulder
@@ -82,13 +84,13 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-IS Gauss Ammo
-IS Gauss Ammo
+ISGauss Ammo
+ISGauss Ammo
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
@@ -96,13 +98,13 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-IS Gauss Ammo
-IS Gauss Ammo
+ISGauss Ammo
+ISGauss Ammo
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
@@ -114,16 +116,16 @@ ISERPPC
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 -Empty-
 -Empty-
 
@@ -134,24 +136,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -162,17 +152,15 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 overview:Originally developed in the final year of the Amaris Civil War as the ultimate fixed position city defense BattleMech.
+
 capabilities:The Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 100-ton 'Mech has a maximum speed of 32.4 km/h, making it one of the slowest 'Mechs ever designed together with the UrbanMech. It is by no means intended to use speed to outmaneuver an enemy, instead depending on its twelve and a half tons of armor to weather any fire that is directed at the 'Mech.
+
 deployment:This variant had an ER PPC in the right torso, and three Gauss Rifles (one in each arm, and one in the left torso) to provide hard hitting firepower. Each Gauss Rifle had two tons of ammunition. Ten double heat sinks were more than adequate to keep the machine cool.
+
 history:The Annihilator was built as a sign of the military strength of both the Star League in Exile and the newly created Clans. Discontinued before the Clans' Golden Century, in one of their few missteps, the Wolf's Dragoons brought a number of unknown designs with them in 3009, raising more questions to their origins while at the same time adding to their mystique. It was exclusive to the Dragoons until the Jihad disseminated the design to Arc-Royal due to the strengthening of the relationship that Wolf's Dragoons forged with the Kell Hounds and Clan Wolf-in-Exile following their flight from Outreach.
+
 manufacturer:Refit
 primaryfactory:Various
 systemmanufacturer:CHASSIS:Star League MN-01

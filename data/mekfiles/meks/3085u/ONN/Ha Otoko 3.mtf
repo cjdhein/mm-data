@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ha Otoko
 model:3
 mul id:1354
 
 Config:Biped
-techbase:Clan
-era:3082
+TechBase:Clan
+Era:3082
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
 
 quirk:bad_rep_clan
 
-mass:65
-engine:260 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:13 Clan Double
-walk mp:4
-jump mp:0
+Mass:65
+Engine:260 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:23
-RT armor:23
-CT armor:31
-HD armor:9
-LL armor:29
-RL armor:29
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:13 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:23
+RT Armor:23
+CT Armor:31
+HD Armor:9
+LL Armor:29
+RL Armor:29
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:6
-ER Medium Laser, Left Arm
-AP Gauss Rifle, Left Arm
 ER Large Laser, Right Arm
-AP Gauss Rifle, Right Arm
+ER Medium Laser, Left Arm
 LRM 20, Left Torso
 LRM 20, Right Torso
+AP Gauss Rifle, Right Arm
+AP Gauss Rifle, Left Arm
 
 Left Arm:
 Shoulder
@@ -96,10 +96,10 @@ CLArtemisIV
 Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 CLLRM20
@@ -111,9 +111,9 @@ Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
 Clan Ammo LRM-20 (Clan) Artemis-capable
 CLAPGaussRifle Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -170,4 +170,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

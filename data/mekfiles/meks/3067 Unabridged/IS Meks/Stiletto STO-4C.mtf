@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,59 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Stiletto
 model:STO-4C
 mul id:5666
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
-source:RS:3067u
-rules level:2
+TechBase:Inner Sphere
+Era:3076
+Rules Level:2
 role:Striker
+source:RS:3067u
 
-quirk:difficult_eject
+
+
 quirk:multi_trac
+quirk:difficult_eject
 
-mass:35
-engine:280 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:8
-jump mp:0
+Mass:35
+Engine:280 Light Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:11
-RA armor:11
-LT armor:12
-RT armor:12
-CT armor:16
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:8
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:11
+RA Armor:11
+LT Armor:12
+RT Armor:12
+CT Armor:16
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-MML 5, Left Torso
+1 ISERMediumLaser, Right Arm
+1 ISERMediumLaser, Left Arm
+1 ISMML5, Left Torso, Ammo:72
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -75,56 +77,56 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 ISMML5
 ISMML5
 ISMML5
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-IS Ammo MML-5 LRM
-IS Ammo MML-5 LRM
-IS Ammo MML-5 SRM
+Engine
+Engine
+ISMML5 LRM Ammo
+ISMML5 LRM Ammo
+ISMML5 SRM Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
+Engine
+Engine
+Engine
+Endo-Steel
 -Empty-
 
 Head:
@@ -134,38 +136,19 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Endo-Steel
+Endo-Steel

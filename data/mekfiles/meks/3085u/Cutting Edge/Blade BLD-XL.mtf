@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Blade
 model:BLD-XL
 mul id:391
 
 Config:Biped
-techbase:Inner Sphere
-era:3087
+TechBase:Inner Sphere
+Era:3087
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
 
+
+
+
 quirk:easy_maintain
-weaponquirk:mod_weapons:RA:2:ISRotaryAC5
 weaponquirk:exposed_linkage:RA:2:ISRotaryAC5
+weaponquirk:mod_weapons:RA:2:ISRotaryAC5
 weaponquirk:static_feed:RA:2:ISRotaryAC5
 
-mass:35
-engine:245 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:35
+Engine:245 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:12
-RT armor:12
-CT armor:16
-HD armor:9
-LL armor:16
-RL armor:16
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:12
+RT Armor:12
+CT Armor:16
+HD Armor:9
+LL Armor:16
+RL Armor:16
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
 Rotary AC/5, Right Arm
@@ -66,13 +69,13 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -86,22 +89,22 @@ ISRotaryAC5
 ISRotaryAC5
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -114,8 +117,8 @@ ISRotaryAC5 Ammo
 ISRotaryAC5 Ammo
 ISRotaryAC5 Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -135,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -172,4 +175,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

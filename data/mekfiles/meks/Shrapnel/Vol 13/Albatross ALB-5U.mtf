@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Albatross
 model:ALB-5U
 mul id:9511
-
 Config:Biped
 techbase:Inner Sphere
 era:3091
 source:Shrap13
 rules level:2
+role:Brawler
 
-quirk:imp_target_long
+
+
 quirk:easy_maintain
+quirk:imp_target_long
+
 
 mass:95
-engine:380 Light Engine
+engine:380 Light Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Standard Cockpit
@@ -56,9 +58,9 @@ RTC armor:15
 Weapons:6
 Rotary AC/2, Left Arm
 Large X-Pulse Laser, Right Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
 ER Small Laser, Left Torso
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
 MML 7, Right Torso
 
 Left Arm:
@@ -184,3 +186,4 @@ systemmanufacturer:ENGINE:GM 380 XL
 systemmanufacturer:ARMOR:Jolassa 328 Ferro-Fibrous with CASE II
 systemmanufacturer:COMMUNICATIONS:Irian Technologies HMR-35s
 systemmanufacturer:TARGETING:Omicron TrackerKeeper
+

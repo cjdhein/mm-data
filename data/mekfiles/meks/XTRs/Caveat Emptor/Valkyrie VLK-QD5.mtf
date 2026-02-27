@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Valkyrie
 model:VLK-QD5
 mul id:8104
@@ -27,8 +26,11 @@ source:XTR:Caveat
 rules level:3
 role:Missile Boat
 
+
+
 quirk:easy_maintain
 quirk:imp_com
+
 
 mass:30
 engine:150 XL Engine(IS)
@@ -38,7 +40,7 @@ cockpit:Standard Cockpit
 gyro:XL Gyro
 ejection:Full Head Ejection System
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:5
 jump mp:5
 
@@ -57,8 +59,8 @@ RTC armor:4
 
 Weapons:3
 Medium Pulse Laser, Right Arm
-MML 7, Left Torso
 ATM 3, Left Torso
+MML 7, Left Torso
 
 Left Arm:
 Shoulder
@@ -171,4 +173,6 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
+imagefile:.\data\images\fluff\Mech\3085 Valkyrie .jpg
 

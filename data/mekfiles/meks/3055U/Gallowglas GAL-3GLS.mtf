@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gallowglas
 model:GAL-3GLS
 mul id:1185
 
 Config:Biped
-techbase:Inner Sphere
-era:3064
-source:TR:3055U
-rules level:2
+TechBase:Inner Sphere
+Era:3064
+Source:TR:3055U
+Rules Level:2
 role:Brawler
+
+
 
 quirk:good_rep_1
 
-mass:70
-engine:280 Light Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 Light Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:23
-RT armor:23
-CT armor:32
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:7
-RTR armor:7
-RTC armor:9
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:23
+RT Armor:23
+CT Armor:32
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:7
+RTR Armor:7
+RTC Armor:9
 
 Weapons:4
 ER Medium Laser, Left Arm
@@ -63,12 +65,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+TSM
+TSM
 -Empty-
 
 Right Arm:
@@ -82,8 +84,8 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 
 Left Torso:
 Fusion Engine
@@ -95,9 +97,9 @@ ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -109,9 +111,9 @@ ISERLargeLaser
 IS Gauss Ammo
 IS Gauss Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -124,8 +126,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -146,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -160,12 +162,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-Triple Strength Myomer
+Endo Steel
+TSM
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

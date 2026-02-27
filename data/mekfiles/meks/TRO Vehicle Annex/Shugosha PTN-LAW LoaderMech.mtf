@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shugosha
 model:PTN-LAW LoaderMech
 mul id:7157
 
 Config:Biped
-techbase:Inner Sphere
-era:2627
-source:RS:VA
-rules level:2
+TechBase:Inner Sphere
+Era:2627
+Source:RS:VA
+Rules Level:2
 role:None
 
+Mass:20
+Engine:40 Fusion Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
+Gyro:Standard Gyro
 
-mass:20
-engine:40 Fusion Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-LA armor:4
-RA armor:4
-LT armor:4
-RT armor:4
-CT armor:6
-HD armor:2
-LL armor:4
-RL armor:4
-RTL armor:1
-RTR armor:1
-RTC armor:1
+Armor:Commercial(Inner Sphere)
+LA Armor:4
+RA Armor:4
+LT Armor:4
+RT Armor:4
+CT Armor:6
+HD Armor:2
+LL Armor:4
+RL Armor:4
+RTL Armor:1
+RTR Armor:1
+RTC Armor:1
 
 Weapons:0
 
@@ -85,11 +83,11 @@ Hand Actuator
 Left Torso:
 Heat Sink
 Heat Sink
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Cargo:SIZE:1.5
-Cargo:SIZE:1.5
+Lift Hoist
+Lift Hoist
+Lift Hoist
+Cargo (1.5 tons)
+Cargo (1.5 tons)
 -Empty-
 -Empty-
 -Empty-
@@ -99,11 +97,11 @@ Cargo:SIZE:1.5
 Right Torso:
 Heat Sink
 Heat Sink
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Cargo:SIZE:1.5
-Cargo:SIZE:1.5
+Lift Hoist
+Lift Hoist
+Lift Hoist
+Cargo (1.5 tons)
+Cargo (1.5 tons)
 -Empty-
 -Empty-
 -Empty-
@@ -165,4 +163,5 @@ Heat Sink
 -Empty-
 -Empty-
 -Empty-
+
 

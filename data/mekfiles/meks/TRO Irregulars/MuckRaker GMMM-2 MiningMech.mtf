@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:MuckRaker
 model:GMMM-2 MiningMech
 mul id:4220
@@ -27,9 +26,8 @@ source:TR:I
 rules level:2
 role:None
 
-
 mass:70
-engine:140 ICE Engine
+engine:140 ICE Engine(IS)
 structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
@@ -83,31 +81,31 @@ Backhoe
 -Empty-
 
 Left Torso:
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
 Dumper (Front)
 
 Right Torso:
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
-Cargo:SIZE:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
+Cargo:size:11.0
 Dumper (Front)
 
 Center Torso:
@@ -177,3 +175,4 @@ systemmanufacturer:ARMOR:Durallex
 systemmode:ARMOR:Heavy Industrial
 systemmanufacturer:COMMUNICATIONS:Overlook J9
 systemmanufacturer:TARGETING:Kallon Lock-On
+

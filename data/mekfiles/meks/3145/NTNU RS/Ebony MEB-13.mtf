@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ebony
 model:MEB-13
 mul id:6943
 
 Config:Biped
-techbase:Inner Sphere
-era:3137
-source:RS:3145-NTNU
-rules level:3
+TechBase:Inner Sphere
+Era:3137
+Source:RS:3145-NTNU
+Rules Level:3
 role:Scout
+
+
 
 quirk:imp_target_med
 
-mass:25
-engine:225 XL Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:9
-jump mp:0
+Mass:25
+Engine:225 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Triple-Strength
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Heat-Dissipating(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:7
-RT armor:7
-CT armor:9
-HD armor:6
-LL armor:7
-RL armor:7
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:9
+Jump MP:0
+
+Armor:Heat-Dissipating(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:7
+RT Armor:7
+CT Armor:9
+HD Armor:6
+LL Armor:7
+RL Armor:7
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:1
 Large Re-engineered Laser, Right Arm
@@ -94,9 +96,9 @@ ISDoubleHeatSink
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Right Torso:
 Fusion Engine
@@ -108,9 +110,9 @@ IS Endo Steel
 IS Endo Steel
 IS Heat-Dissipating
 IS Heat-Dissipating
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -167,4 +169,5 @@ IS Heat-Dissipating
 -Empty-
 -Empty-
 -Empty-
+
 

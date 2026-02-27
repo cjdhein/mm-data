@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Quickdraw
 model:QKD-9G
 mul id:9320
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3144
@@ -27,8 +25,11 @@ source:RG26
 rules level:2
 role:Skirmisher
 
-quirk:exp_actuator
+
+
 quirk:hyper_actuator
+quirk:exp_actuator
+
 
 mass:60
 engine:300 Light Engine(IS)
@@ -55,11 +56,11 @@ RTC armor:8
 Weapons:7
 ER Medium Laser, Left Arm
 ER Medium Laser, Right Arm
-Streak SRM 6, Left Torso
-Streak SRM 4, Left Torso
-Medium Laser, Right Torso
-Medium Laser, Right Torso
 Streak SRM 4, Center Torso
+Streak SRM 6, Left Torso
+Medium Laser, Right Torso
+Medium Laser, Right Torso
+Streak SRM 4, Left Torso
 
 Left Arm:
 Shoulder
@@ -185,3 +186,4 @@ systemmanufacturer:COMMUNICATIONS:Garret
 systemmode:COMMUNICATIONS:T12E
 systemmanufacturer:TARGETING:Dynatec
 systemmode:TARGETING:2180
+

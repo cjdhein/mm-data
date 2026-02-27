@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cygnus
 model:
 mul id:781
 
 Config:Biped
-techbase:Clan
-era:3075
-source:TR:3075
-rules level:2
+TechBase:Clan
+Era:3075
+Source:TR:3075
+Rules Level:2
 role:Brawler
 
-weaponquirk:exposed_linkage:LA:3:CLUltraAC10
-weaponquirk:static_feed:LA:3:CLUltraAC10
+
 weaponquirk:exposed_linkage:RA:3:CLUltraAC10
 weaponquirk:static_feed:RA:3:CLUltraAC10
+weaponquirk:exposed_linkage:LA:3:CLUltraAC10
+weaponquirk:static_feed:LA:3:CLUltraAC10
 
-mass:95
-engine:380 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:15 Clan Double
-walk mp:4
-jump mp:0
+Mass:95
+Engine:380 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:31
-RA armor:31
-LT armor:26
-RT armor:26
-CT armor:38
-HD armor:9
-LL armor:38
-RL armor:38
-RTL armor:14
-RTR armor:14
-RTC armor:15
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:31
+RA Armor:31
+LT Armor:26
+RT Armor:26
+CT Armor:38
+HD Armor:9
+LL Armor:38
+RL Armor:38
+RTL Armor:14
+RTR Armor:14
+RTC Armor:15
 
 Weapons:6
 Ultra AC/10, Left Arm
@@ -95,8 +96,8 @@ Fusion Engine
 Fusion Engine
 CLMediumPulseLaser
 CLMediumPulseLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -115,8 +116,8 @@ CLTargeting Computer
 CLTargeting Computer
 CLTargeting Computer
 CLTargeting Computer
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -129,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -173,4 +174,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

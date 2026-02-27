@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,118 +15,121 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Osprey
 model:OSP-26 (Lawrence)
 mul id:2347
 
 Config:Biped
-techbase:Inner Sphere
-era:3085
-source:BD:LL
-rules level:2
+TechBase:Inner Sphere
+Era:3085
+Source:BD:LL
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:no_arms
 weaponquirk:direct_torso_mount:RT:5:Heavy PPC
 
-mass:55
-engine:220 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Compact Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:5
+Mass:55
+Engine:220 XL Fusion Engine
+Structure:Endo-Steel
+Gyro:Compact Gyro
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:22
-RT armor:22
-CT armor:30
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:5
 
-Weapons:4
-Medium Pulse Laser, Left Arm
-Medium Pulse Laser, Right Arm
-MML 7, Left Torso
-Heavy PPC, Right Torso
+Armor:Standard Armor
+LA Armor:16
+RA Armor:16
+LT Armor:22
+RT Armor:22
+CT Armor:30
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
+
+Weapons:6
+1 ISHeavyPPC, Right Torso
+1 ISMediumPulseLaser, Right Arm
+1 ISMediumPulseLaser, Left Arm
+1 ISMML7, Left Torso, Ammo:34
+1 ISC3SlaveUnit, Center Torso
+1 ISBeagleActiveProbe, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISMediumPulseLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISMediumPulseLaser
-BeagleActiveProbe
-BeagleActiveProbe
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+ISBeagleActiveProbe
+ISBeagleActiveProbe
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
+Engine
+Engine
+Engine
+ImprovedJump Jet
+ImprovedJump Jet
 ISMML7
 ISMML7
 ISMML7
 ISMML7
-IS Ammo MML-7 LRM
-IS Ammo MML-7 SRM
+ISMML7 LRM Ammo
+ISMML7 SRM Ammo
 ISCASE
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Heavy PPC
-Heavy PPC
-Heavy PPC
-Heavy PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Engine
+Engine
+Engine
+ImprovedJump Jet
+ImprovedJump Jet
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+ISHeavyPPC
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
+Engine
+Engine
+Engine
+ImprovedJump Jet
+ImprovedJump Jet
 ISC3SlaveUnit
 -Empty-
 
@@ -134,48 +137,34 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+ImprovedJump Jet
+ImprovedJump Jet
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+ImprovedJump Jet
+ImprovedJump Jet
 
 overview:Originally a rare and little-known urban combat 'Mech from the Star League era, the Osprey reached new levels of prominence thanks to the Jihad.
+
 capabilities:To allow the Osprey to carry a heavy weapons load-out for its size, the 'Mech was built using a weight saving Endo Steel chassis and DAV 220 XL Fusion Engine. Clad in eleven tons of armor and equipped with ten double heat sinks, the design also carried a Beagle Active Probe to weed out hidden units in the urban environment. To make up for the Ospreys low ground speed, four Anderson Propulsion 25 jump jets were mounted in its torso and legs.
+
 deployment:A customized variant created in 3085 for Lawrence Sawyer of the Lamenkov's Liability, only the MML-7 and Beagle were kept, with the rest of the weaponry replaced with a Heavy PPC, two Medium Pulse Lasers, and a C3 Slave. For improved cross-country handling it also mounted five Improved Jump Jets. A Compact Gyro was also installed.
+
 history:Designed by Hollis Incorporated to fulfill a Star League Defense Force contract for a mobile, medium-weight fire support unit, when Blue Shot Weapons' Lynx design won the bid the Osprey was relegated to a limited contract for the SLDF's Royal units in an urban defense role. Rendered virtually extinct during the Succession Wars, the Word of Blake commissioned Skobel MechWorks to revive the design to bolster its own militia forces, resulting in massive production runs at Skobel and later Achernar BattleMechs during the Jihad. Impressed by the durability and effectiveness of the design during the brutal fighting to take Achernar and Terra, both the Republic of the Sphere and the Capellan Confederation placed a priority on restarting production for their own armed forces after the Jihad.
+
 manufacturer:Skobel MechWorks, Hollis Incorporated, Achernar BattleMechs
 primaryfactory:Terra (Skobel), Corey (Hollis), Achernar (Achernar- Destroyed)
 systemmanufacturer:CHASSIS:Hollis Mk II Endo Steel

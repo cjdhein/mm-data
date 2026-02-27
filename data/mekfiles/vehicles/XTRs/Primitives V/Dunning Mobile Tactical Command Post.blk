@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -24,9 +33,9 @@ SupportTank
 Dunning Mobile Tactical Command Post
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 7409
@@ -48,13 +57,6 @@ IS Level 4
 None
 </role>
 
-<quirks>
-difficult_maintain
-obsolete:2650
-gas_hog
-imp_com
-</quirks>
-
 <motion_type>
 Wheeled
 </motion_type>
@@ -71,18 +73,6 @@ troopspace:3.0
 1
 </engine_type>
 
-<armor_type>
-47
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
-
 <armor>
 18
 18
@@ -91,7 +81,7 @@ troopspace:3.0
 </armor>
 
 <Body Equipment>
-Communications Equipment:SIZE:7.0
+Communications Equipment (7 ton)
 ISOffRoadChassis
 </Body Equipment>
 
@@ -119,6 +109,10 @@ ISOffRoadChassis
 3
 </engine_tech_rating>
 
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
 <source>
 XTR:Primitives V
 </source>
@@ -134,4 +128,11 @@ XTR:Primitives V
 <fuelType>
 PETROCHEMICALS
 </fuelType>
+
+<quirks>
+imp_com
+difficult_maintain
+gas_hog
+obsolete:2650
+</quirks>
 

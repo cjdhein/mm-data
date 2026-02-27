@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Shadow Hawk IIC
 model:
 mul id:2911
@@ -27,12 +26,14 @@ source:RG20
 rules level:2
 role:Striker
 
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:imp_life_support
 
+
 mass:45
-engine:270 Fusion (Clan) Engine
+engine:270 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -176,8 +177,11 @@ Clan Ferro-Fibrous
 -Empty-
 
 overview:The Shadow Hawk IIC is a second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.
+
 capabilities:The inexpensive unit is protected by seven and a half tons of Ferro-Fibrous armor, mounted on a weight-saving Endo Steel chassis. This medium 'Mech can reach a respectable top speed of 97 km/h, though it also carries enough jump jets to vault up to 180 meters at a time.
+
 deployment:The first version of the Shadow Hawk IIC that Inner Sphere forces encountered is meant for close-range fighting, and appears to be designed with urban warfare in mind. Two Medium Pulse Lasers are incredibly accurate in close. Four Streak SRM-2s are best at exploiting holes in an enemy's armor, while the Streak technology ensures the missiles will inflict no collateral damage. An ER Medium Laser and ER Small Laser rounds out the weaponry. Ten double heat sinks take care of most heat, especially since the Streaks will build no heat if they do not achieve a lock and fire.
+
 manufacturer:Unknown
 primaryfactory:Unknown
 systemmanufacturer:CHASSIS:Lang T3
@@ -186,3 +190,4 @@ systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Northrup Starlifters M45
 systemmanufacturer:COMMUNICATIONS:JNE Integrated
 systemmanufacturer:TARGETING:TRTTS Mark II
+

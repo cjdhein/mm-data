@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-9T
 mul id:2707
 
 Config:Biped
-techbase:Inner Sphere
-era:3071
+TechBase:Inner Sphere
+Era:3071
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:60
+Engine:240 Fusion Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Stealth(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:16
-RT armor:16
-CT armor:22
-HD armor:9
-LL armor:21
-RL armor:21
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Stealth(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:16
+RT Armor:16
+CT Armor:22
+HD Armor:9
+LL Armor:21
+RL Armor:21
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:6
 Light PPC, Left Arm
-Light AC/5, Left Arm
+Light Auto Cannon/5, Left Arm
 Light PPC, Right Arm
-Light AC/5, Right Arm
+Light Auto Cannon/5, Right Arm
 ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
 
@@ -70,8 +72,8 @@ Light PPC
 Light PPC
 Light Auto Cannon/5
 Light Auto Cannon/5
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -84,8 +86,8 @@ Light PPC
 Light PPC
 Light Auto Cannon/5
 Light Auto Cannon/5
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -99,8 +101,8 @@ ISERMediumLaser
 IS Ammo LAC/5
 IS Ammo LAC/5
 ISCASE
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -112,8 +114,8 @@ ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
 ISTargeting Computer
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -152,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -166,8 +168,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Stealth
-IS Stealth
+Stealth
+Stealth
 -Empty-
 -Empty-
 -Empty-
@@ -175,3 +177,4 @@ IS Stealth
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Rifleman .jpg

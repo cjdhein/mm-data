@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,26 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hauptmann
 model:HA1-O
 mul id:1420
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3060
 source:TR:3060
 rules level:2
 role:Juggernaut
 
-quirk:ext_twist
+
+
+
 quirk:easy_maintain
+quirk:ext_twist
+
 
 mass:95
-engine:285 Fusion Engine
+engine:285 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -186,3 +189,4 @@ systemmanufacturer:ENGINE:Pitban 285
 systemmanufacturer:ARMOR:Glasgow Limited with CASE
 systemmanufacturer:COMMUNICATIONS:TharHes Muse 54-58S
 systemmanufacturer:TARGETING:Cyclops 9c
+

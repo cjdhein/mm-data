@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:RFL-3C
 mul id:2695
 
 Config:Biped
-techbase:Inner Sphere
-era:3026
-source:TR:3039
-rules level:1
+TechBase:Inner Sphere
+Era:3026
+Source:TR:3039
+Rules Level:1
 role:Brawler
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 Single
-walk mp:4
-jump mp:0
+Mass:60
+Engine:240 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:15
-RA armor:15
-LT armor:15
-RT armor:15
-CT armor:22
-HD armor:9
-LL armor:15
-RL armor:15
-RTL armor:4
-RTR armor:4
-RTC armor:7
+Heat Sinks:10 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:15
+RT Armor:15
+CT Armor:22
+HD Armor:9
+LL Armor:15
+RL Armor:15
+RTL Armor:4
+RTR Armor:4
+RTC Armor:7
 
 Weapons:4
-AC/10, Left Arm
-AC/10, Right Arm
 Medium Laser, Left Torso
 Medium Laser, Right Torso
+Autocannon/10, Left Arm
+Autocannon/10, Right Arm
 
 Left Arm:
 Shoulder
@@ -172,4 +174,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

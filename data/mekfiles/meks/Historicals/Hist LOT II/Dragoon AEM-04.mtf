@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,62 +15,64 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dragoon
 model:AEM-04
 mul id:6783
 
 Config:Biped
-techbase:Inner Sphere
-era:2771
+TechBase:Inner Sphere
+Era:2771
 source:His:LoT2
-rules level:2
+Rules Level:2
 role:None
 
-quirk:bad_rep_is
+
+
 quirk:easy_maintain
-quirk:obsolete:2780
 quirk:bad_rep_clan
-weaponquirk:mod_weapons:LA:2:ISERPPC
-weaponquirk:mod_weapons:LA:5:SRM 4
+quirk:bad_rep_is
+quirk:obsolete:2780
+weaponquirk:mod_weapons:HD:3:Medium Laser
+weaponquirk:mod_weapons:CT:10:SRM 4
+weaponquirk:mod_weapons:RT:3:SRM 4
+weaponquirk:mod_weapons:LT:3:SRM 4
 weaponquirk:mod_weapons:RA:2:ISGaussRifle
 weaponquirk:mod_weapons:RA:9:SRM 4
-weaponquirk:mod_weapons:LT:3:SRM 4
-weaponquirk:mod_weapons:RT:3:SRM 4
-weaponquirk:mod_weapons:CT:10:SRM 4
-weaponquirk:mod_weapons:HD:3:Medium Laser
+weaponquirk:mod_weapons:LA:2:ISERPPC
+weaponquirk:mod_weapons:LA:5:SRM 4
 
-mass:70
-engine:280 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 XL Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:24
-RT armor:24
-CT armor:33
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:6
-RTR armor:6
-RTC armor:10
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:20
+RA Armor:20
+LT Armor:24
+RT Armor:24
+CT Armor:33
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:6
+RTR Armor:6
+RTC Armor:10
 
 Weapons:8
-ER PPC, Left Arm
-SRM 4, Left Arm
-Gauss Rifle, Right Arm
-SRM 4, Right Arm
-SRM 4, Left Torso
-SRM 4, Right Torso
-SRM 4, Center Torso
-Medium Laser, Head
+1 ISERPPC, Left Arm
+1 ISGaussRifle, Right Arm, Ammo:16
+1 ISSRM4, Left Arm, Ammo:50
+1 ISSRM4, Left Torso
+1 ISSRM4, Right Torso
+1 ISSRM4, Right Arm
+1 ISSRM4, Center Torso
+1 ISMediumLaser, Head
 
 Left Arm:
 Shoulder
@@ -78,10 +80,10 @@ Upper Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-SRM 4
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+ISSRM4
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -96,77 +98,65 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-SRM 4
+ISSRM4
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-SRM 4
-IS Ammo SRM-4
-IS Ammo SRM-4
+Engine
+Engine
+Engine
+ISSRM4
+ISSRM4 Ammo
+ISSRM4 Ammo
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
-SRM 4
-IS Gauss Ammo
-IS Gauss Ammo
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Engine
+Engine
+Engine
+ISSRM4
+ISGauss Ammo
+ISGauss Ammo
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-SRM 4
+Engine
+Engine
+Engine
+ISSRM4
 -Empty-
 
 Head:
 Life Support
 Sensors
 Cockpit
-Medium Laser
+ISMediumLaser
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -177,17 +167,15 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 overview:The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of "modular" multi-mission combat units for his Amaris Empire Armed Forces.
+
 capabilities:Armed with only a few, but powerful weapons found only in the 'Mech's arms. Powered by one of Nissan's 280-rated XL Fusion Engines, the 'Mech is able to achieve a modest pace of 64 km/h. Its defenses include a Guardian ECM Suite, while its armored hull is protected by 11.5 tons of Ferro-Fibrous armor.
+
 deployment:Based on a weapon-stripped 01 model, Dragoon 04's long-ranged weapons come in the form of a single Gauss Rifle and an ER PPC. Its short-ranged weapons include four SRM 4s and a pair of Medium Lasers.
+
 history:In the year following the Amaris Coup, now-Emperor Amaris would have a means to make his dream into reality, and he began swiftly issuing contracts which would lead to the creation of the Dragoon. Built by Krupp Stellar Technologies Inc. in 2771 as their second BattleMech design, the Dragoon was designed with a similar modular subsystem akin to the Mercury BattleMech. With this system, the 'Mech's maintenance loads would be eased. Its modular nature would allow repair depots and factories to be able to reconfigure the design's weapons systems and its power plant for any needed mission-specific specs. Produced in limited numbers, only the elite of Amaris's regiments and a select few of Amaris's loyal chosen would receive the design and its variants. The design would see service in the Star League Civil War, often being salvaged by the Star League Defense Force. However, after the liberation of Terra, General Kerensky would order the purging of the design and the retooling of Krupp's two Dragoon production lines. The few remaining Dragoons in service elsewhere would become extinct before the 3rd Succession War.
+
 manufacturer:Krupp Stellar Technologies, Inc.
 primaryfactory:Terra
 systemmanufacturer:CHASSIS:KruppTech 770

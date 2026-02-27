@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Blackjack
 model:BJ-5
 mul id:7499
@@ -23,13 +22,12 @@ mul id:7499
 Config:Biped
 techbase:Inner Sphere
 era:3107
-source:RG04
 rules level:2
 role:Sniper
-
+source:RG04
 
 mass:45
-engine:180 Light Engine
+engine:180 Light Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -171,9 +169,13 @@ Jump Jet
 -Empty-
 
 overview:The original contract between General Motors and the SLDF sought for "a medium BattleMech with insurrection suppression and fire-support capabilities." The outcome was the Blackjack. Despite meeting all of its production requirements, the Blackjack gained an unjust reputation and was rejected by the Star League.
+
 capabilities:The Blackjack's original mission was to assist in suppressing insurgent groups (mostly in the Periphery) that defied Star League authority in the decades preceding its demise. The Blackjack is only a minor success in its secondary capacity as a fire support platform. The autocannons lacked the firepower to take on heavily defended targets. At close range, though, the combination of lasers poses a significantly bigger threat. The addition of jump jets came late in the design phase, but the Whitworth Jetlift units have proven to be a vital asset over the decades. The Blackjack's sole significant disadvantage was negative press, which stated that the entire project was a shambles because the 'Mech's basic architecture was defective and unstable. The 'Mech's tiny footpads were alleged to cause falls and hamper maneuverability, or that the StarGuard II armor was brittle and tended to break off. Despite the fact that none of these accusations were ever proven, the Blackjack went out of favor, and few grieved the loss of GM's production line.
+
 deployment:Introduced in 3107 this variant carries four light PPCs and two light AC/2s to extend the Blackjack's engagement range. To make room for this, the 'Mech uses endo steel chassis, light engine, and light ferro-fibrous armor. A single ton of autocannon ammunition is stored in a CASE II protected bay.
+
 history:The Blackjack had limited use in the Star League, and manufacture was shortly discontinued. Relegated to service with Hegemony planetary militia or sold to League member nations, it can still be encountered on the battlefield today. The majority of them now fight for the Capellan Confederation and the Federated Suns. The Confederation has nothing but disdain for the design. The breakaway St. Ives Compact, on the other hand, could not be as picky, and the Blackjack serves in the St. Ives Lancers. The Federated Suns used the Blackjack in the March Militias until the myth of the Blackjack's inferiority was busted on Xhosa VII in 3022. The Crucis Lancers and Deneb Light Cavalry were re-interested in the 'Mech.
+
 manufacturer:General Motors
 primaryfactory:Talcott
 systemmanufacturer:CHASSIS:GM BJ-EN
@@ -182,3 +184,4 @@ systemmanufacturer:ARMOR:StarGuard I Light with CASE II
 systemmanufacturer:JUMP_JET:Whitworth Jetlift
 systemmanufacturer:COMMUNICATIONS:StarGuard II
 systemmanufacturer:TARGETING:Dalban AQ
+

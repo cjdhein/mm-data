@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Diomede
 model:D-M3D-4 DemolitionMech
 mul id:902
 
 Config:Biped
-techbase:Inner Sphere
-era:3084
+TechBase:Inner Sphere
+Era:3084
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
 
+Mass:100
+Engine:200 Fusion Engine(IS)
+Structure:Industrial
+Myomer:Standard
 
-mass:100
-engine:200 Fusion Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
-
-armor:Heavy Industrial(Inner Sphere)
-LA armor:33
-RA armor:33
-LT armor:30
-RT armor:30
-CT armor:45
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:12
-RTR armor:12
-RTC armor:16
+Armor:Heavy Industrial(Inner Sphere)
+LA Armor:33
+RA Armor:33
+LT Armor:30
+RT Armor:30
+CT Armor:45
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:12
+RTR Armor:12
+RTC Armor:16
 
 Weapons:4
-Nail/Rivet Gun, Right Arm
-Nail/Rivet Gun, Right Arm
+Nail Gun, Right Arm
+Nail Gun, Right Arm
 MML 7, Left Torso
 MML 7, Right Torso
 
@@ -68,15 +66,15 @@ Dual Saw
 Dual Saw
 Dual Saw
 MechSprayer
-Liquid Storage:SIZE:0.5
+Liquid Storage (0.5 tons)
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Spot Welder
-Nail/Rivet Gun
-Nail/Rivet Gun
+Nail Gun
+Nail Gun
 IS Ammo Nail/Rivet - Full
 IS Ammo Nail/Rivet - Full
 -Empty-
@@ -92,9 +90,9 @@ ISMML7
 IS Ammo MML-7 LRM
 IS Ammo MML-7 SRM
 MechSprayer
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
 Searchlight
 ISCASE
 
@@ -106,9 +104,9 @@ ISMML7
 IS Ammo MML-7 LRM
 IS Ammo MML-7 SRM
 MechSprayer
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
 Searchlight
 ISCASE
 
@@ -123,8 +121,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Liquid Storage:SIZE:1.0
-Liquid Storage:SIZE:1.0
+Liquid Storage (1 ton)
+Liquid Storage (1 ton)
 
 Head:
 Life Support
@@ -167,4 +165,5 @@ Tracks
 -Empty-
 -Empty-
 -Empty-
+
 

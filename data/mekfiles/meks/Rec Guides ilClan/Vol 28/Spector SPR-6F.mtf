@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Spector
 model:SPR-6F
 mul id:9375
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3119
@@ -27,8 +25,11 @@ source:RG28
 rules level:3
 role:Striker
 
-quirk:difficult_maintain
+
+
 quirk:rugged_1
+quirk:difficult_maintain
+
 
 mass:35
 engine:280 XL Engine(IS)
@@ -184,3 +185,4 @@ systemmanufacturer:ARMOR:Starshield Light
 systemmanufacturer:JUMP_JET:HildCo Model 11c
 systemmanufacturer:COMMUNICATIONS:AR-12 Sheathed Directional Beacon with Norse Guardian ECM Suite
 systemmanufacturer:TARGETING:DLK Type Phased Array Sensor System
+

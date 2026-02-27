@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Viking IIC
 model:
 mul id:6634
 
 Config:Biped
-techbase:Clan
-era:3095
-source:TR:3145:LC
-rules level:3
+TechBase:Clan
+Era:3095
+Source:TR:3145:LC
+Rules Level:3
 role:Missile Boat
 
-quirk:imp_target_long
-quirk:poor_target_short
+
 quirk:difficult_maintain
+quirk:imp_target_long
 quirk:no_arms
+quirk:poor_target_short
 
-mass:90
-engine:270 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:11 Clan Double
-walk mp:3
-jump mp:0
+Mass:90
+Engine:270 Fusion (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Hardened(Inner Sphere)
-LA armor:30
-RA armor:30
-LT armor:31
-RT armor:31
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:3
+Jump MP:0
+
+Armor:Hardened(Clan)
+LA Armor:30
+RA Armor:30
+LT Armor:31
+RT Armor:31
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:10
 Machine Gun, Left Leg
@@ -177,4 +178,5 @@ CLMG
 -Empty-
 -Empty-
 -Empty-
+
 

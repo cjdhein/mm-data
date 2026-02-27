@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -24,86 +33,58 @@ LargeSupportTank
 HMRV (Hazardous Materials Recovery Vehicle)
 </Name>
 
-<Model>
+<model>
 Salvage Bed
-</Model>
+</model>
 
 <mul id:>
 6960
 </mul id:>
 
-<year>
-2822
-</year>
-
-<originalBuildYear>
-2822
-</originalBuildYear>
-
-<type>
-IS Level 3
-</type>
-
-<motion_type>
-Tracked
-</motion_type>
-
-<transporters>
-cargobay:100.0:1:1::-1:0
-</transporters>
+<Tonnage>
+150
+</Tonnage>
 
 <cruiseMP>
 0
 </cruiseMP>
 
-<engine_type>
+<barrating>
 8
-</engine_type>
+</barrating>
 
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-4
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
-
-<armor>
+<Armor>
 30
 40
 40
 40
 40
 54
-</armor>
+</Armor>
 
-<Body Equipment>
-SV Chassis Mod [Trailer]
-</Body Equipment>
+<structural_tech_rating>
+4
+</structural_tech_rating>
 
 <Front Equipment>
 Searchlight
 </Front Equipment>
 
-<Front Right Equipment>
-Lift Hoist/Arresting Hoist
-Searchlight
-</Front Right Equipment>
-
 <Front Left Equipment>
-Lift Hoist/Arresting Hoist
+Lift Hoist
 Searchlight
 </Front Left Equipment>
 
-<Rear Right Equipment>
-</Rear Right Equipment>
+<Front Right Equipment>
+Lift Hoist
+Searchlight
+</Front Right Equipment>
 
 <Rear Left Equipment>
 </Rear Left Equipment>
+
+<Rear Right Equipment>
+</Rear Right Equipment>
 
 <Rear Equipment>
 Backhoe
@@ -111,23 +92,42 @@ Searchlight
 Searchlight
 </Rear Equipment>
 
-<structural_tech_rating>
-4
-</structural_tech_rating>
+<Body Equipment>
+Trailer
+</Body Equipment>
 
-<engine_tech_rating>
-4
-</engine_tech_rating>
+<transporters>
+cargobay:100:1
+</transporters>
+
+<type>
+IS Level 3
+</type>
+
+
+<role>
+Juggernaut
+</role>
+<year>
+2822
+</year>
+
+<internal_type>
+0
+</internal_type>
+
+<armor_type>
+0
+</armor_type>
+
+<engine_type>
+8
+</engine_type>
+
+<motion_type>
+Tracked
+</motion_type>
 
 <source>
 TR:3075
 </source>
-
-<tonnage>
-150.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-

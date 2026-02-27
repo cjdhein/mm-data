@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lobo
 model:
 mul id:4528
 
 Config:Biped
-techbase:Clan
-era:3059
-source:TR:3067
-rules level:2
+TechBase:Clan
+Era:3059
+Rules Level:2
 role:Striker
+source:TR:3067
+
 
 quirk:ext_twist
 quirk:difficult_maintain
 weaponquirk:direct_torso_mount:HD:3:CLAntiMissileSystem
 
-mass:40
-engine:240 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:6
-jump mp:0
+Mass:40
+Engine:240 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:12
-RA armor:12
-LT armor:15
-RT armor:15
-CT armor:18
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous
+LA Armor:12
+RA Armor:12
+LT Armor:15
+RT Armor:15
+CT Armor:18
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:7
-Heavy Medium Laser, Left Arm
-Heavy Medium Laser, Right Arm
-ATM 6, Left Torso
-Heavy Small Laser, Left Torso
-ATM 6, Right Torso
-ER Large Laser, Right Torso
-Anti-Missile System, Head
+1 CLHeavyMediumLaser, Right Arm
+1 CLHeavyMediumLaser, Left Arm
+1 CLATM6, Right Torso, Ammo:40
+1 CLERLargeLaser, Right Torso
+1 CLATM6, Left Torso
+1 CLHeavySmallLaser, Left Torso
+1 CLAntiMissileSystem, Head, Ammo:24
 
 Left Arm:
 Shoulder
@@ -69,10 +70,10 @@ Lower Arm Actuator
 CLHeavyMediumLaser
 CLHeavyMediumLaser
 CLAMS Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -82,11 +83,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 CLHeavyMediumLaser
 CLHeavyMediumLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -96,10 +97,10 @@ Fusion Engine
 CLATM6
 CLATM6
 CLATM6
-Clan Ammo ATM-6 ER
-Clan Ammo ATM-6
+CLATM6 ER Ammo
+CLATM6 Ammo
 CLHeavySmallLaser
-Clan Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -110,8 +111,8 @@ Fusion Engine
 CLATM6
 CLATM6
 CLATM6
-Clan Ammo ATM-6 HE
-Clan Ammo ATM-6
+CLATM6 HE Ammo
+CLATM6 Ammo
 CLERLargeLaser
 -Empty-
 -Empty-
@@ -129,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 Head:
 Life Support
@@ -151,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -165,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Ferro-Fibrous
+Endo Steel
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-

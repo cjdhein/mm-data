@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pathfinder
 model:PFF-2
 mul id:4790
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
-source:XTR:RetroTech
-rules level:4
+TechBase:Inner Sphere
+Era:3075
+Source:XTR:RetroTech
+Rules Level:4
 role:Scout
+
+
+
 
 quirk:imp_sensors
 
-mass:25
-engine:180 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Primitive Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 Single
-walk mp:6
-jump mp:0
+Mass:25
+Engine:180 Primitive Fusion Engine
+Structure:Standard
+Cockpit:Primitive Cockpit
+Myomer:Standard
 
-armor:Primitive(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:7
-RT armor:7
-CT armor:7
-HD armor:8
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Single
+Walk MP:6
+Jump MP:0
 
-Weapons:1
-ER Medium Laser, Right Arm
+Armor:Primitive
+LA Armor:6
+RA Armor:6
+LT Armor:7
+RT Armor:7
+CT Armor:7
+HD Armor:8
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
+
+Weapons:2
+1 ISERMediumLaser, Right Arm
+1 ISBeagleActiveProbe, Center Torso
 
 Left Arm:
 Shoulder
@@ -113,18 +116,18 @@ Heat Sink
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-BeagleActiveProbe
-BeagleActiveProbe
+Engine
+Engine
+Engine
+ISBeagleActiveProbe
+ISBeagleActiveProbe
 
 Head:
 Life Support
@@ -133,12 +136,6 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -146,12 +143,6 @@ Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
 Heat Sink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 
 Right Leg:
@@ -161,10 +152,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

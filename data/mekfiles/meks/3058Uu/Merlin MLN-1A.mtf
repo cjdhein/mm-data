@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Merlin
 model:MLN-1A
 mul id:2177
 
 Config:Biped
-techbase:Inner Sphere
-era:3010
-source:TR:3058U
-rules level:1
+TechBase:Inner Sphere
+Era:3010
+Source:TR:3058U
+Rules Level:1
 role:Brawler
+
 
 quirk:easy_maintain
 quirk:rugged_1
 
-mass:60
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:18 Single
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:18
-RT armor:18
-CT armor:26
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:18 Single
+Walk MP:4
+Jump MP:4
+
+Armor:Standard((Unknown Technology Base))
+LA Armor:16
+RA Armor:16
+LT Armor:18
+RT Armor:18
+CT Armor:26
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:6
 Medium Laser, Left Arm
 Medium Laser, Right Arm
-Flamer, Left Torso
 Machine Gun, Left Torso
-PPC, Right Torso
+Flamer, Left Torso
+Particle Cannon, Right Torso
 LRM 5, Right Torso
 
 Left Arm:
@@ -107,9 +108,9 @@ Heat Sink
 Heat Sink
 Heat Sink
 Heat Sink
-PPC
-PPC
-PPC
+Particle Cannon
+Particle Cannon
+Particle Cannon
 LRM 5
 -Empty-
 -Empty-
@@ -173,9 +174,13 @@ Jump Jet
 -Empty-
 
 overview:The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech.
+
 capabilities:The 'Mech is powered by a Pitban 240 fusion engine that gives it a top speed of 64.8 km/h. The Merlin carries ten and a half tons of armor, which is a respectable amount of protection for its weight. Additionally, the Merlin carries eighteen heat sinks to handle its heavy heat load.
+
 deployment:The Merlin is armed to be able to engage an enemy at any range. For long range combat, the 'Mech carries a Magna Hellstar PPC and a Holly LRM-5 launcher. To protect itself at medium to short ranges, a pair of Martell Model 5 medium lasers provide the Merlin with respectable short range firepower. Finally, to protect the 'Mech against infantry attacks, the Merlin has a Zippo Flamer and a Sperry Browning Machine Gun. Four Pitban LFT-50 series jump jets allow the 'Mech to travel up to 120 meters in the air.
+
 history:The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years.
+
 manufacturer:Mountain Wolf BattleMechs, Vandenberg Mechanized Industries
 primaryfactory:Alpheratz, New Vandenberg
 systemmanufacturer:CHASSIS:Heavy Star QAT-4

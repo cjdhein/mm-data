@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Men Shen
 model:MS1-OU
 mul id:2167
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3077
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3077
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Striker
 
-quirk:exp_actuator
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:exp_actuator
 
-mass:55
-engine:330 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-base chassis heat sinks:10
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:6
 SRT 4, Left Arm
@@ -65,7 +67,7 @@ TAG, Head
 Left Arm:
 Shoulder
 Upper Arm Actuator
-SRT 4 (OMNIPOD)
+SRT 4 (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -79,7 +81,7 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-SRT 4 (OMNIPOD)
+SRT 4 (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -94,10 +96,10 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+ISUMU (omnipod)
+ISUMU (omnipod)
+ISUMU (omnipod)
+ISERMediumLaser (omnipod)
 ISMASC
 ISMASC
 ISMASC
@@ -108,13 +110,13 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-ISSNPPC (OMNIPOD)
-ISSNPPC (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
-IS Ammo SRTorpedo-4 (OMNIPOD)
+ISUMU (omnipod)
+ISUMU (omnipod)
+ISUMU (omnipod)
+ISSNPPC (omnipod)
+ISSNPPC (omnipod)
+ISERMediumLaser (omnipod)
+IS Ammo SRTorpedo-4 (omnipod)
 -Empty-
 -Empty-
 
@@ -136,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-ISTAG (OMNIPOD)
+ISTAG (omnipod)
 Sensors
 Life Support
 -Empty-
@@ -173,4 +175,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

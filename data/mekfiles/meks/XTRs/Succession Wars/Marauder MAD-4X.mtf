@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marauder
 model:MAD-4X
 mul id:5768
 
 Config:Biped
-techbase:Inner Sphere
-era:3039
-source:XTR:SW
-rules level:4
+TechBase:Inner Sphere
+Era:3039
+Source:XTR:SW
+Rules Level:4
 role:Brawler
 
-quirk:cramped_cockpit
-quirk:no_eject
+
+
 quirk:combat_computer
-quirk:difficult_maintain
-quirk:low_profile
 quirk:command_mech
 quirk:hyper_actuator
-weaponquirk:imp_cooling:LA:6:Binary Laser (Blazer) Cannon
-weaponquirk:imp_cooling:RA:6:Binary Laser (Blazer) Cannon
+quirk:low_profile
+quirk:cramped_cockpit
+quirk:difficult_maintain
+quirk:no_eject
 weaponquirk:direct_torso_mount:RT:6:SRM 6
 weaponquirk:exposed_linkage:RT:6:SRM 6
+weaponquirk:imp_cooling:RA:6:Binary Laser (Blazer) Cannon
+weaponquirk:imp_cooling:LA:6:Binary Laser (Blazer) Cannon
 
-mass:75
-engine:300 Fusion Engine
-structure:IS Endo Steel Prototype
-myomer:Standard
 
-heat sinks:18 Single
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 Fusion Engine(IS)
+Structure:Endo Steel Prototype
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:20
-RT armor:20
-CT armor:35
-HD armor:9
-LL armor:19
-RL armor:19
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:18 Single
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:22
+RA Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:35
+HD Armor:9
+LL Armor:19
+RL Armor:19
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:4
-Binary Laser (Blazer) Cannon, Left Arm
-Binary Laser (Blazer) Cannon, Right Arm
+Blazer Cannon, Left Arm
+Blazer Cannon, Right Arm
 SRM 6, Left Torso
 SRM 6, Right Torso
 
@@ -74,12 +76,12 @@ Lower Arm Actuator
 ISDoubleHeatSinkPrototype
 ISDoubleHeatSinkPrototype
 ISDoubleHeatSinkPrototype
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Blazer Cannon
+Blazer Cannon
+Blazer Cannon
+Blazer Cannon
+Endo Steel Prototype
+Endo Steel Prototype
 
 Right Arm:
 Shoulder
@@ -88,12 +90,12 @@ Lower Arm Actuator
 ISDoubleHeatSinkPrototype
 ISDoubleHeatSinkPrototype
 ISDoubleHeatSinkPrototype
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Blazer Cannon
+Blazer Cannon
+Blazer Cannon
+Blazer Cannon
+Endo Steel Prototype
+Endo Steel Prototype
 
 Left Torso:
 ISDoubleHeatSinkPrototype
@@ -105,9 +107,9 @@ ISDoubleHeatSinkPrototype
 SRM 6
 SRM 6
 IS Ammo SRM-6
-IS Endo Steel Prototype
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
 
 Right Torso:
 ISDoubleHeatSinkPrototype
@@ -119,9 +121,9 @@ ISDoubleHeatSinkPrototype
 SRM 6
 SRM 6
 IS Ammo SRM-6
-IS Endo Steel Prototype
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
 
 Center Torso:
 Fusion Engine
@@ -134,8 +136,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
 
 Head:
 Life Support
@@ -156,8 +158,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
 -Empty-
 -Empty-
 -Empty-
@@ -170,12 +172,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel Prototype
-IS Endo Steel Prototype
+Endo Steel Prototype
+Endo Steel Prototype
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

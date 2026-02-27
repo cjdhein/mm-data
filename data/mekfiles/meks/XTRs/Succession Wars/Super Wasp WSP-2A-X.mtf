@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Super-Wasp
 model:WSP-2A-X
 mul id:5770
@@ -27,10 +26,14 @@ source:XTR:SW
 rules level:4
 role:Striker
 
+
+
+
 quirk:prototype
 
+
 mass:25
-engine:150 Fusion Engine
+engine:150 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -169,9 +172,13 @@ Jump Jet
 -Empty-
 
 overview:The WSP-2A-X Super Wasp is an evolution of the classic Wasp, a re-design that essentially produced a new BattleMech with even a different tonnage.
+
 capabilities:Weighing as much as a Commando, the Super Wasp maintained the basic ground speed and jump capability of its inspiration, but also added an engine Supercharger which allowed it to sprint at speeds of up to 120km/h.
+
 deployment:The Super Wasp remains faithful to the weapon configuration of the regular WSP-1A Wasp, namely a Medium Laser in the right arm and an SRM-2 launcher in the left leg. However, documents from the NAIS indicate that it actually carried an additional Medium Laser in the right arm, giving it twice the firepower of its progenitor.
+
 history:The Super Wasp was designed in 3020 together with the Super Griffin at the Friden Aerospace Park research facility on Hoff by House Davion scientists including Dr. Jorge Belasco. After eighteen months of work, two operational Super Wasp prototypes had been completed but they were still untested when the Black Widow Company attacked the facility on 13 May 3022. The prototypes were deployed as a last line of defense. The two Super Wasp units worked well, disabling a Stinger used by the Black Widows, but an overloaded supercharger led to one of the Super Wasps constantly overheating which made it an easy target for the Widows. The other Super Wasp was doing well until a shot from a large laser penetrated the left torso and touched off an ammunition explosion, destroying the unit. The Super Wasp and Super Griffin were described as the first fully-redesigned units in four decades, but the Hatchetman was hailed as the Inner Sphere's first new 'Mech design in over a century when it entered full production a few years after the attack on Hoff (and in the Periphery the Merlin had been designed in 3010 already). This suggests the Super Wasp and Super Griffin never came beyond the prototype stage.
+
 manufacturer:Belasco Labs/Friden Aerospace Park
 primaryfactory:Hoff
 systemmanufacturer:CHASSIS:Unknown
@@ -180,3 +187,4 @@ systemmanufacturer:ARMOR:Durallex Light
 systemmanufacturer:JUMP_JET:Rawlings 52
 systemmanufacturer:COMMUNICATIONS:Duoteck 65
 systemmanufacturer:TARGETING:RadCom TXX
+

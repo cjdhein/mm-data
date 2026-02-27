@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gunslinger
 model:GUN-3ERD
 mul id:9354
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3131
@@ -27,7 +25,10 @@ source:RG27
 rules level:3
 role:Juggernaut
 
+
+
 quirk:cowl
+
 
 mass:85
 engine:255 XL (Clan) Engine
@@ -54,15 +55,15 @@ RTR armor:11
 RTC armor:17
 
 Weapons:9
-Small X-Pulse Laser, Left Leg
 Small X-Pulse Laser, Right Leg
+Small X-Pulse Laser, Head
 Gauss Rifle, Left Arm
 Gauss Rifle, Right Arm
 ER Medium Laser, Left Torso
 ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
 ER Medium Laser, Right Torso
-Small X-Pulse Laser, Head
+Small X-Pulse Laser, Left Leg
 
 Left Arm:
 Shoulder
@@ -188,3 +189,4 @@ systemmanufacturer:ARMOR:Kevlar 5000
 systemmanufacturer:JUMP_JET:HildCo Model 12
 systemmanufacturer:COMMUNICATIONS:Nashan Quartet ComSy with Guardian ECM
 systemmanufacturer:TARGETING:Nashan Diana Mark II Targeting Computer
+

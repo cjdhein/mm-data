@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,15 +15,20 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 Infantry
 </UnitType>
-
 <Name>
 Motorized Platoon
 </Name>
-
 <Model>
 (Rifle AA)
 </Model>
@@ -31,15 +36,21 @@ Motorized Platoon
 <mul id:>
 4678
 </mul id:>
-
-<year>
-3067
-</year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
-
+<squad_size>
+7
+</squad_size>
+<squadn>
+4
+</squadn>
+<Primary>
+Auto Rifle
+</Primary>
+<Secondary>
+InfantryMk2PortableAA
+</Secondary>
+<secondn>
+2
+</secondn>
 <type>
 IS Level 2
 </type>
@@ -47,35 +58,13 @@ IS Level 2
 <role>
 None
 </role>
-
+<year>
+3067
+</year>
 <motion_type>
 Motorized
 </motion_type>
 
-<Troopers Equipment>
-Generic Infantry Kit
-</Troopers Equipment>
-
-<Field Guns Equipment>
-</Field Guns Equipment>
-
-<squad_size>
-7
-</squad_size>
-
-<squadn>
-4
-</squadn>
-
-<secondn>
-2
-</secondn>
-
-<Primary>
-InfantryAssaultRifle
-</Primary>
-
-<Secondary>
-AA Weapon (Mk. 2, Man-Portable)
-</Secondary>
-
+<armorKit>
+GenericKit
+</armorKit>

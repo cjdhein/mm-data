@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,23 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Doom Courser
 model:C
 mul id:8396
 
-Config:Quad OmniMek
+Config:Quad Omnimech
 techbase:Clan
 era:3147
 source:RG22
 rules level:3
 role:Missile Boat
 
-quirk:exp_actuator
 quirk:imp_com
+quirk:exp_actuator
+
 
 mass:70
-engine:280 Fusion (Clan) Engine
+engine:280 Fusion (Clan) Engine(IS)
 structure:Clan Endo-Composite
 myomer:Standard
 
@@ -54,11 +54,11 @@ RTR armor:7
 RTC armor:10
 
 Weapons:5
+LRM 15, Right Torso
+LRM 15, Right Torso
+LRM 15, Right Torso
+LRM 15, Right Torso
 LRM 15, Left Torso
-LRM 15, Right Torso
-LRM 15, Right Torso
-LRM 15, Right Torso
-LRM 15, Right Torso
 
 Front Left Leg:
 Hip
@@ -180,3 +180,4 @@ systemmanufacturer:ENGINE:Clan Standard 280 series
 systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:CH3V Series Integrated
 systemmanufacturer:TARGETING:Version Kappa-III TTS
+

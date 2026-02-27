@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -24,9 +33,9 @@ Infantry
 Field Gun Infantry Platoon (AC/10)
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 8410
@@ -52,9 +61,8 @@ Ambusher
 Motorized
 </motion_type>
 
-<Troopers Equipment>
-Generic Infantry Kit
-</Troopers Equipment>
+<transporters>
+</transporters>
 
 <Field Guns Equipment>
 Autocannon/10
@@ -72,6 +80,13 @@ IS Ammo AC/10
 </squadn>
 
 <Primary>
-InfantryAssaultRifle
+Auto-Rifle (Modern, Generic)
 </Primary>
 
+<antimek>
+8
+</antimek>
+
+<armorKit>
+Generic Infantry Kit
+</armorKit>

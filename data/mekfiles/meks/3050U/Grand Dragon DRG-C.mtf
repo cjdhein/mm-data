@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,56 +15,59 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grand Dragon
 model:DRG-C
 mul id:1264
 
 Config:Biped
-techbase:Inner Sphere
-era:3050
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3050
+Source:TR:3050
+Rules Level:2
 role:Skirmisher
 
+
+
 quirk:ext_twist
-quirk:stable
 quirk:low_profile
+quirk:stable
 
-mass:60
-engine:360 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:6
-jump mp:0
+Mass:60
+Engine:360 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:27
-HD armor:9
-LL armor:18
-RL armor:18
-RTL armor:8
-RTR armor:8
-RTC armor:12
+Heat Sinks:13 Double
+Walk MP:6
+Jump MP:0
 
-Weapons:4
-Medium Laser, Left Arm
-ER PPC, Right Arm
-Medium Laser, Left Torso
-LRM 10, Center Torso
+Armor:Standard Armor
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:27
+HD Armor:9
+LL Armor:18
+RL Armor:18
+RTL Armor:8
+RTR Armor:8
+RTC Armor:12
+
+Weapons:5
+1 ISLRM10, Center Torso, Ammo:24
+1 ISERPPC, Right Arm
+1 ISMediumLaser, Left Arm
+1 ISMediumLaser, Left Torso (R)
+1 ISC3SlaveUnit, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -91,9 +94,9 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser (R)
-IS Ammo LRM-10
-IS Ammo LRM-10
+ISMediumLaser (R)
+ISLRM10 Ammo
+ISLRM10 Ammo
 ISCASE
 -Empty-
 -Empty-
@@ -126,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 10
-LRM 10
+ISLRM10
+ISLRM10
 
 Head:
 Life Support
@@ -172,9 +175,13 @@ Foot Actuator
 -Empty-
 
 overview:The Grand Dragon is the successful follow-up to the Dragon BattleMech.
+ 
 capabilities:Protected by ten tons of armor, the Grand Dragon uses thirteen double heat sinks for excellent heat management and uses a 16.5 ton Hermes 360 XL engine to achieve a moderate cruising speed of 64 km/h. Originally the Grand Dragon used the same Alshain Type 56-60H chassis as was found in the Dragon 'Mech it replaced. However, when the new Nykvarn plant was being set up an innovative engineering team came up with a way to increase the Grand Dragon's rotation from 250° to 300° by using an alternative assembly method for the hip and torso structure. This improvement was responsible for Nykvarn being awarded the honor of restarting Grand Dragon production, with all new Grand Dragons using this Nykvarn Type 58-66SH chassis
+
 deployment:Modified specifically to carry a C3 slave unit into combat, the C is a modification of the DRG-5K introduced in 3050. The 'Mech carries a C3 slave in the place of its rear-facing medium laser. While this does reduce the Grand Dragons short range firepower somewhat, it also makes the machine far more accurate when working in a C3 lance.
+
 history:The 'Mech was originally a simple variant of the Dragon with some modifications, chiefly replacing the autocannon with a particle projection cannon, introduced around the end of the Fourth Succession War. In 3040 this DRG-1G variant was turned into a production model, with several of the Dragon's production lines turned over to building Grand Dragons. As it reached Draconis Combine Mustered Soldiery units the Grand Dragon became well-liked for its all-around effectiveness in terms of speed, heat management and weaponry. Luthien Armor Works went ahead with phasing in the Grand Dragon, retooling their Dragon factories on Luthien, Saffel, Yorii and Dieron to build the new 'Mechs exclusively, by 3055 all Dragon production had ceased in favor of the Grand Dragon. Just like the Dragon, the Grand Dragon quickly became a favorite in the DCMS, with nearly every line unit fielding a company of either design. Production of the Grand Dragon continued unabated until the Jihad, when the Word of Blake devastated LAW's factories in 3068. It took two years for LAW to get new Grand Dragon factories up and running, the first on Nykvarn followed by Abiy Adi and Savinsville, and ensure the continued use of the 'Mech in years to come.
+
 manufacturer:Refit
 primaryfactory:Various
 systemmanufacturer:CHASSIS:Nykvarn Type 58-66SH

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,89 +15,92 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Firefly
 model:FFL-4DA
 mul id:1091
 
 Config:Biped
-techbase:Inner Sphere
-era:3067
-source:SB:W&B
-rules level:2
+TechBase:Inner Sphere
+Era:3067
+Source:SB:W&B
+Rules Level:2
 role:Striker
+
+
 
 quirk:no_arms
 
-mass:30
-engine:150 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 Single
-walk mp:5
-jump mp:4
+Mass:30
+Engine:150 Light Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:11
-RT armor:11
-CT armor:15
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:3
-RTR armor:3
-RTC armor:5
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:4
 
-Weapons:4
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-LRM 5, Right Torso
-ER Medium Laser, Center Torso
+Armor:Ferro-Fibrous
+LA Armor:10
+RA Armor:10
+LT Armor:11
+RT Armor:11
+CT Armor:15
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:3
+RTR Armor:3
+RTC Armor:5
+
+Weapons:5
+1 ISERMediumLaser, Right Torso
+1 ISLRM5, Right Torso, Ammo:24
+1 ISGuardianECM, Left Torso
+1 ISERMediumLaser, Left Torso
+1 ISERMediumLaser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Heat Sink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Heat Sink
 Heat Sink
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISGuardianECM
+ISGuardianECM
 ISERMediumLaser
-IS Ammo LRM-5 Artemis-capable
+ISLRM5 Ammo Artemis-capable
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -106,12 +109,12 @@ Heat Sink
 Heat Sink
 Heat Sink
 ISERMediumLaser
-LRM 5
+ISLRM5
 ISArtemisIV
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -125,13 +128,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 ISERMediumLaser
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -170,9 +173,13 @@ Jump Jet
 -Empty-
 
 overview:The Firefly is a well-armed recon 'Mech that tips the scales at thirty tons, with a maximum ground speed of 86.4 km/h, the and ability to jump up to 120 meters. As a scout 'Mech, the Firefly gives average performance with its energy weapon-heavy arsenal and is useful in both a recon and guerrilla fighter role.
-capabilities: Although it was slow in comparison to other 'Mechs of its weight class, it was powerfully armed and armored, and it frequently served as an anvil against which opposing forces' recon units were smashed.
+
+capabilities: Although it was slow in comparison to other 'Mechs of its weight class, it was powerfully armed and armored, and it frequently served as an anvil against which opposing forces' recon units were smashed. 
+
 deployment:An electronic warfare variant of the FFL-4D model, the -4DA replaces the anti-missile system and its ammo with a Guardian ECM suite.
+
 history:The Firefly, which entered service in the late 27th century, was one of the SLDF's primary light 'Mechs in its later years. Cases occurred in all House forces, but not in the numbers deployed by the SLDF, and all were presumed destroyed by the end of the Second Succession War, save for tales of anomalous examples in the Periphery. The design reappeared with Wolf's Dragoons in the early 31st century, raising eyebrows, yet the secret of the Firefly's origin was exposed when the Dragoons' Clan origins were revealed. In the 3040s, the advent of a small number of Fireflys with the Com Guard forces elicited a similar reaction.
+
 manufacturer:Refit
 primaryfactory:Arc-Royal
 systemmanufacturer:CHASSIS:Earthwerks Endo Firefly

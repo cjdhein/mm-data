@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Marshal
 model:MHL-2L
 mul id:2088
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3060
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:easy_maintain
 quirk:rugged_2
 
-mass:55
-engine:220 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:11 IS Double
-walk mp:4
-jump mp:4
+Mass:55
+Engine:220 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:11 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:7
 Medium Laser, Left Arm
 Large Laser, Right Arm
 Machine Gun, Left Torso
 Machine Gun, Left Torso
-LRM 15, Right Torso
 Medium Pulse Laser, Right Torso
+LRM 15, Right Torso
 Flamer, Center Torso
 
 Left Arm:
@@ -67,10 +69,10 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 Medium Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -82,9 +84,9 @@ Lower Arm Actuator
 Hand Actuator
 Large Laser
 Large Laser
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -99,9 +101,9 @@ ISDoubleHeatSink
 Machine Gun
 Machine Gun
 IS Machine Gun Ammo - Half
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 ISDoubleHeatSink
@@ -114,8 +116,8 @@ ISMediumPulseLaser
 IS Ammo LRM-15
 IS Ammo LRM-15
 IS Ammo LRM-15
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -129,13 +131,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Flamer
-IS Ferro-Fibrous
+Ferro-Fibrous
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Ferro-Fibrous
+Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -172,4 +174,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cricket
 model:RWN-02
 mul id:9406
-
 Config:Biped
 techbase:Inner Sphere
 era:3142
@@ -27,12 +25,15 @@ source:RG06
 rules level:3
 role:Scout
 
-quirk:difficult_maintain
+
+
 quirk:low_profile
+quirk:difficult_maintain
 quirk:weak_legs
 
+
 mass:30
-engine:270 XXL Engine
+engine:270 XXL Engine(IS)
 structure:IS Composite
 myomer:Standard
 cockpit:Small Cockpit
@@ -56,8 +57,8 @@ RTR armor:3
 RTC armor:3
 
 Weapons:2
-Light PPC, Left Torso
 Light PPC, Right Torso
+Light PPC, Left Torso
 
 Left Arm:
 Shoulder
@@ -183,3 +184,4 @@ systemmanufacturer:ARMOR:Durallex Ballistic-Reinforced
 systemmanufacturer:JUMP_JET:Icarus 81
 systemmanufacturer:COMMUNICATIONS:Sipher CommSys 4
 systemmanufacturer:TARGETING:Dynatec 990 with Targeting Computer
+

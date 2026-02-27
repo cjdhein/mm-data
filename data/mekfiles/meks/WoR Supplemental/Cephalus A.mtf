@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Cephalus
 model:A
 mul id:3929
 
-Config:Biped OmniMek
-techbase:Mixed (Clan Chassis)
-era:3072
+Config:Biped Omnimech
+TechBase:Mixed (Clan Chassis)
+Era:3072
 source:WoR
-rules level:4
+Rules Level:4
 role:Scout
 
-quirk:difficult_maintain
-quirk:no_arms
 quirk:imp_life_support
 quirk:bad_rep_clan
+quirk:difficult_maintain
+quirk:no_arms
 
-mass:25
-engine:250 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:10
-walk mp:10
-jump mp:7
+Mass:25
+Engine:250 XXL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Lamellor(Clan)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:12
-HD armor:8
-LL armor:12
-RL armor:12
-RTL armor:4
-RTR armor:4
-RTC armor:4
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:10
+Jump MP:7
+
+Armor:Ferro-Lamellor(Clan)
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:12
+HD Armor:8
+LL Armor:12
+RL Armor:12
+RTL Armor:4
+RTR Armor:4
+RTC Armor:4
 
 Weapons:2
-TAG, Left Torso
+Clan TAG, Left Torso
 Laser AMS, Right Torso
 
 Left Arm:
@@ -92,10 +92,10 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-CLTAG (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+CLTAG (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Mek Null Signature System
@@ -106,10 +106,10 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-CLLaserAntiMissileSystem (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+CLLaserAntiMissileSystem (omnipod)
 Clan Endo Steel
 Mek Null Signature System
 Chameleon Light Polarization Shield
@@ -126,7 +126,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
 Mek Null Signature System
 
 Head:
@@ -170,4 +170,5 @@ Chameleon Light Polarization Shield
 -Empty-
 -Empty-
 -Empty-
+
 

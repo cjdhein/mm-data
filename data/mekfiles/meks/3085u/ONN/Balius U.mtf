@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Balius
 model:U
 mul id:216
 
-Config:Quad OmniMek
-techbase:Clan
-era:3077
-source:TR:3085
-rules level:3
+Config:Quad Omnimech
+TechBase:Clan
+Era:3077
+Source:TR:3085
+Rules Level:3
 role:Sniper
 
 quirk:rugged_1
 
-mass:65
-engine:390 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:10
-walk mp:6
-jump mp:0
+Mass:65
+Engine:390 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-FLL armor:27
-FRL armor:27
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-RLL armor:27
-RRL armor:27
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:6
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+FLL Armor:27
+FRL Armor:27
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+RLL Armor:27
+RRL Armor:27
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:6
 ER Large Laser, Left Torso
@@ -91,13 +91,13 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLSRT6 (OMNIPOD)
-CLSRT6 (OMNIPOD)
-Clan Ammo SRTorpedo-6 (OMNIPOD)
-Clan Ammo SRTorpedo-6 (OMNIPOD)
+CLUMU (omnipod)
+CLUMU (omnipod)
+CLERLargeLaser (omnipod)
+CLSRT6 (omnipod)
+CLSRT6 (omnipod)
+Clan Ammo SRTorpedo-6 (omnipod)
+Clan Ammo SRTorpedo-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -105,12 +105,12 @@ Clan Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-UMU (OMNIPOD)
-UMU (OMNIPOD)
-CLSRT6 (OMNIPOD)
-CLSRT6 (OMNIPOD)
-Clan Ammo SRTorpedo-6 (OMNIPOD)
-Clan Ammo SRTorpedo-6 (OMNIPOD)
+CLUMU (omnipod)
+CLUMU (omnipod)
+CLSRT6 (omnipod)
+CLSRT6 (omnipod)
+Clan Ammo SRTorpedo-6 (omnipod)
+Clan Ammo SRTorpedo-6 (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -127,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-UMU (OMNIPOD)
-CLECMSuite (OMNIPOD)
+CLUMU (omnipod)
+CLECMSuite (omnipod)
 
 Head:
 Life Support
@@ -172,12 +172,16 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 
-overview:The Balius is a quadrupedal, front-line OmniMech produced by Clan Hell's Horses.
+overview:The Balius is a quadrupedal, front-line OmniMech produced by Clan Hell's Horses. 
+
 capabilities:The Balius, a true frontline Omni, employs weight-saving technologies such as an Endo Steel chassis, eleven tons of ferro-fibrous armor, and an XL engine. In a quad, though, this leaves limited room for other components. The Balius, on the other hand, has a top speed of 97 km/h, which is fairly fast for a 'Mech of its size. The Balius is equipped with a Creosote Special-H Flamer that can be used against troops as well as as a psychological weapon.
+
 deployment:Equipped with five UMUs and two SRT-6s, this configuration is intended for underwater combat. Though the standard Flamer is useless underwater, the ECM Suite, ER Large Laser, and improved underwater mobility more than make up for it.
+
 history:As of 3075, few details were available about the 'Mech. It is a totem 'Mech, resembling a horse, that is meant to improve morale as much as to be an effective combat unit. There is apparently no factory producing this design. Instead, it is hand-crafted by a crew of technicians specifically selected for the task by the Khan. This has led to few Balius' being produced, so the 'Mech is only in the hands of select Bloodnamed warriors.
-manufacturer:Manufacturing Site #3,Transitional Facility HH-Beta
-primaryfactory:New Oslo,Nouveaux Paris
+
+manufacturer:Manufacturing Site #3,Transitional Facility HH-Beta  
+primaryfactory:New Oslo,Nouveaux Paris 
 systemmanufacturer:CHASSIS:Type BMHQ-5 Endo Steel
 systemmanufacturer:ENGINE:390 XL
 systemmanufacturer:ARMOR:Forged Type HH35 Ferro-Fibrous

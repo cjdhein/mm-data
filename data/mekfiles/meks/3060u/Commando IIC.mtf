@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Commando IIC
 model:
 mul id:678
@@ -27,11 +26,13 @@ source:TR:3060
 rules level:2
 role:Striker
 
-quirk:exp_actuator
+
 quirk:low_profile
+quirk:exp_actuator
+
 
 mass:25
-engine:150 Fusion (Clan) Engine
+engine:150 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -39,7 +40,7 @@ heat sinks:10 Clan Double
 walk mp:6
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:6
 RA armor:6
 LT armor:8
@@ -183,3 +184,4 @@ systemmanufacturer:ENGINE:Fusion 150 Standard
 systemmanufacturer:ARMOR:Forging OTR17b with CASE
 systemmanufacturer:COMMUNICATIONS:Build 1685/3 Tacticom
 systemmanufacturer:TARGETING:Mark 11 IHADS
+

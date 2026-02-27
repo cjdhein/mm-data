@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,60 +15,63 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flashman
 model:FLS-C
 mul id:1128
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3050
+Rules Level:2
 role:Skirmisher
+
+
 
 quirk:rugged_1
 
-mass:75
-engine:375 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 IS Double
-walk mp:5
-jump mp:0
+Mass:75
+Engine:375 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:22
-RT armor:22
-CT armor:25
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:10
-RTR armor:10
-RTC armor:16
+Heat Sinks:15 Double
+Walk MP:5
+Jump MP:0
 
-Weapons:9
-Large Laser, Left Arm
-Medium Laser, Left Arm
-Large Laser, Right Arm
-Medium Laser, Right Arm
-Medium Laser, Left Torso
-Medium Laser, Left Torso
-Medium Laser, Right Torso
-Anti-Missile System, Right Torso
-Large Laser, Center Torso
+Armor:Standard
+LA Armor:24
+RA Armor:24
+LT Armor:22
+RT Armor:22
+CT Armor:25
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:10
+RTR Armor:10
+RTC Armor:16
+
+Weapons:10
+1 ISLargeLaser, Right Arm
+1 ISMediumLaser, Right Arm
+1 ISLargeLaser, Left Arm
+1 ISMediumLaser, Left Arm
+1 ISMediumLaser, Right Torso
+1 ISAntiMissileSystem, Right Torso, Ammo:12
+1 ISMediumLaser, Left Torso
+1 ISMediumLaser, Left Torso (R)
+1 ISLargeLaser, Center Torso
+1 ISC3SlaveUnit, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Large Laser
-Large Laser
-Medium Laser
+ISLargeLaser
+ISLargeLaser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -80,9 +83,9 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-Large Laser
-Large Laser
-Medium Laser
+ISLargeLaser
+ISLargeLaser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -94,8 +97,8 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
-Medium Laser (R)
+ISMediumLaser
+ISMediumLaser (R)
 -Empty-
 -Empty-
 -Empty-
@@ -108,7 +111,7 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser
+ISMediumLaser
 ISAntiMissileSystem
 ISAMS Ammo
 -Empty-
@@ -129,8 +132,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Large Laser
-Large Laser
+ISLargeLaser
+ISLargeLaser
 
 Head:
 Life Support
@@ -175,9 +178,13 @@ Foot Actuator
 -Empty-
 
 overview:The Flashman is an underrated heavy 'Mech, commonly called a "flashbulb" by MechWarriors for its heavy-energy configuration.
+
 capabilities:Designed to provide continuous energy based fire support for lancemates moving to attack or covering fire for withdrawing units. The use of a Faust/Shinji AT/TS targeting-tracking system gives the Flashman a level of accuracy few can match, while fifteen double heat sinks give it an effective heat management system. The 'Mech is also notable for using an extralight engine which makes it fast for its size, though not at the expense of protection thanks to thirteen and a half tons of armor.
+
 deployment:Produced by the Draconis Combine in 3063, this variant was based on the 8K models they received as part of Operation Rosebud. The only difference with this variant is the removal of the flamer to carry a C3 Slave Unit.
+
 history:The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. This made it one of the most prized 'Mechs in a commander's arsenal during the Star League and saw heavy use by line regiments, typically in a "fire brigade" role for heavy and assault lances. During advances it would stay to the rear to protect against ambushes and provide fire support for its lancemates. Towards the end of the Star League, several divisions had battalions composed of nothing but Flashmen, and thanks to its popularity these 'Mechs saw frequent use on the front lines. When the League dissolved, the design spread amongst the Successor States but fewer than 500 Flashmen were still operational at the start of the First Succession War. Their heavy use during this fighting saw many destroyed and production of new 'Mechs abruptly stopped in 2796 when Renault-Prime Industries on Wasat was destroyed. The Flashman was saved from extinction thanks to Defiance Industries, which was able to acquire the schematics and produced a downgraded version at their Hesperus II plant. Thanks to the fact that they owned the only remaining Flashman factory and could replace their combat losses, the Lyran Commonwealth remained the largest user of Flashman 'Mechs throughout the Succession Wars - at least until the unveiling of the Com Guards. ComStar also supplied examples of downgraded Flashmen to the Draconis Combine as part of Operation Rosebud. Following the recovery of the Helm Memory Core, Defiance Industries was able to restart production of original-model Flashman 'Mechs in the 3050s and built new variants for ComStar. After the Word of Blake seized control of Defiance Industries they also produced new variants which were supplied to their Militia for the Jihad.
+
 manufacturer:Field Refit
 primaryfactory:Various
 systemmanufacturer:CHASSIS:FLS/HV-1

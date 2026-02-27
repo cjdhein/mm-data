@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,49 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:JagerMech
 model:JM7-C3BS
 mul id:1671
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
+TechBase:Inner Sphere
+Era:3075
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Brawler
+
+
 
 quirk:anti_air
 
-mass:70
-engine:280 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:13 IS Double
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 XL Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:24
-RT armor:24
-CT armor:34
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Heat Sinks:13 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:22
+RA Armor:22
+LT Armor:24
+RT Armor:24
+CT Armor:34
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:7
 Snub-Nose PPC, Left Arm
-Light AC/2, Left Arm
-Light AC/2, Left Arm
+Light Auto Cannon/2, Left Arm
+Light Auto Cannon/2, Left Arm
 Snub-Nose PPC, Right Arm
-Light AC/2, Right Arm
-Light AC/2, Right Arm
+Light Auto Cannon/2, Right Arm
+Light Auto Cannon/2, Right Arm
 ER Medium Laser, Center Torso
 
 Left Arm:
@@ -67,10 +69,10 @@ ISSNPPC
 ISSNPPC
 Light Auto Cannon/2
 Light Auto Cannon/2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -81,10 +83,10 @@ ISSNPPC
 ISSNPPC
 Light Auto Cannon/2
 Light Auto Cannon/2
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -97,10 +99,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 IS Ammo LAC/2
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
@@ -113,8 +115,8 @@ IS Ammo LAC/2
 ISC3BoostedSystemSlaveUnit
 ISC3BoostedSystemSlaveUnit
 ISCASE
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -171,4 +173,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

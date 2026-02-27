@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,40 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Crosscut
 model:ED-X5M LoggerMech MOD
 mul id:7170
 
 Config:Biped
-techbase:Inner Sphere
-era:3074
-source:RS:VA
-rules level:2
+TechBase:Inner Sphere
+Era:3074
+Source:RS:VA
+Rules Level:2
 role:Ambusher
 
+Mass:30
+Engine:90 Fuel Cell Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
 
-mass:30
-engine:90 Fuel Cell Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:1 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:1 Single
-walk mp:3
-jump mp:0
-
-armor:Heavy Industrial(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:6
-RT armor:6
-CT armor:9
-HD armor:8
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Armor:Heavy Industrial(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:6
+RT Armor:6
+CT Armor:9
+HD Armor:8
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:1
 AC/2, Left Arm
@@ -164,4 +162,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

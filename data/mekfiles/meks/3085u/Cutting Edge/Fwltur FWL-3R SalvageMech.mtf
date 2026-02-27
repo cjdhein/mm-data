@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,40 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Fwltur
 model:FWL-3R SalvageMech
 mul id:1162
 
 Config:Biped
-techbase:Inner Sphere
-era:3081
+TechBase:Inner Sphere
+Era:3081
 source:TR:3085
-rules level:4
+Rules Level:4
 role:None
 
+Mass:35
+Engine:105 Fusion Engine(IS)
+Structure:Industrial
+Myomer:Standard
 
-mass:35
-engine:105 Fusion Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:10 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:3
-jump mp:0
-
-armor:Commercial(Inner Sphere)
-LA armor:6
-RA armor:6
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:8
-LL armor:10
-RL armor:10
-RTL armor:6
-RTR armor:6
-RTC armor:6
+Armor:Commercial(Inner Sphere)
+LA Armor:6
+RA Armor:6
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:8
+LL Armor:10
+RL Armor:10
+RTL Armor:6
+RTR Armor:6
+RTC Armor:6
 
 Weapons:0
 
@@ -83,9 +81,9 @@ Environmental Sealing
 Left Torso:
 Heat Sink
 Heat Sink
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
-Lift Hoist/Arresting Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
+Lift Hoist (R)
 Environmental Sealing
 -Empty-
 -Empty-
@@ -119,7 +117,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-UMU
+ISUMU
 Environmental Sealing
 
 Head:
@@ -141,7 +139,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-UMU
+ISUMU
 Environmental Sealing
 -Empty-
 -Empty-
@@ -155,7 +153,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-UMU
+ISUMU
 Environmental Sealing
 -Empty-
 -Empty-
@@ -163,4 +161,5 @@ Environmental Sealing
 -Empty-
 -Empty-
 -Empty-
+
 

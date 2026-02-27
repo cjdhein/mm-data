@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Barghest
 model:BGS-1T
 mul id:252
-
 Config:Quad
 techbase:Inner Sphere
 era:3058
@@ -27,10 +25,14 @@ source:TR:3060
 rules level:2
 role:Sniper
 
+
+
+
 quirk:directional_torso_mount
 
+
 mass:70
-engine:350 XL Engine
+engine:350 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -169,9 +171,13 @@ IS LB 20-X Cluster Ammo
 -Empty-
 
 overview:During her reign over the Lyran Alliance, Katherine Steiner-Davion decided she wanted a four-legged BattleMech that would frighten its adversaries in the same way that the classic Atlas and Banshee designs did.
+
 capabilities:The Earthwerk GRF Quad chassis accommodates a Magna 350 XL engine, which saves weight and lets the 'Mech to carry a hefty weapons payload. The Barghest is shielded by thirteen tons of Durallex Heavy armor, which shields it from all but the most powerful enemy fire. The Barghest features ten double heat sinks to handle the 'Mech's heat buildup from its weaponry.
+
 deployment:The Barghest carries two BlazeFire Sweetshot ER Large Lasers that allow the 'Mech to hit a target at up to five hundred and seventy meters. For medium to close range combat, the Barghest carries a powerful Defiance Disintegrator LB-X Autocannon/20 that is capable of firing both standard ammunition and cluster rounds that act like 'Mech-sized shotgun shells. The 'Mech's simplicity is also a weakness, as the Barghest has only the two ER Large Lasers if the autocannon falls silent from a lack of ammunition or a jam.
+
 history:Katrina Steiner, Archon of the Lyran Alliance, created this novel and distinctive design. The Archon notified Tharkad's TharHes Industries that she desired to build a new design with a horrific appearance, similar to that of the Atlas or the Banshee. She also desired a four-legged design. TharHes executives tried unsuccessfully to persuade her to abandon the quad design, which has been heavily criticized for decades. TharHes Industries only realized the political and military consequences of a new quad design in the Lyran Alliance Armed Forces during the final testing of the new 'Mech, when new four-legged designs debuted in the Draconis Combine and Free Worlds League militaries. The Archon dubbed the finished 'Mech Barghest after the fierce, wolf-like monsters of folklore, after seeing its animalistic elegance and power.
+
 manufacturer:TharHes Industries
 primaryfactory:Tharkad
 systemmanufacturer:CHASSIS:Earthwerk BGS Quad
@@ -179,3 +185,4 @@ systemmanufacturer:ENGINE:Magna 350 XL
 systemmanufacturer:ARMOR:Durallex Heavy
 systemmanufacturer:COMMUNICATIONS:TharHes Euterpe HM-14
 systemmanufacturer:TARGETING:TharHes Ares-8a
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Malak
 model:C-MK-OD Luminos
 mul id:1998
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3069
-source:TR:3075
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3069
+Source:TR:3075
+Rules Level:2
 role:Striker
 
-quirk:bad_rep_is
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_is
 
-mass:30
-engine:210 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Small Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-base chassis heat sinks:8
-walk mp:7
-jump mp:0
+Mass:30
+Engine:210 Light Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:11
-RT armor:11
-CT armor:14
-HD armor:9
-LL armor:13
-RL armor:13
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:8
+Walk MP:7
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:11
+RT Armor:11
+CT Armor:14
+HD Armor:9
+LL Armor:13
+RL Armor:13
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:7
 Light PPC, Left Arm
@@ -71,9 +73,9 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
+ISERMediumLaser (omnipod)
 IS Light Ferro-Fibrous
 IS Light Ferro-Fibrous
 -Empty-
@@ -82,9 +84,9 @@ IS Light Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-ISERMediumLaser (OMNIPOD)
+Light PPC (omnipod)
+Light PPC (omnipod)
+ISERMediumLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -99,7 +101,7 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
 ISC3iUnit
 ISC3iUnit
 IS Endo Steel
@@ -110,7 +112,7 @@ IS Endo Steel
 Right Torso:
 Fusion Engine
 Fusion Engine
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -140,7 +142,7 @@ Life Support
 Sensors
 Cockpit
 Sensors
-ISERSmallLaser (OMNIPOD)
+ISERSmallLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -178,8 +180,11 @@ IS Light Ferro-Fibrous
 -Empty-
 
 overview:The Malak is the lightest in the Word of Blake's Celestial series of OmniMechs designed for the Manei Domini. The Malak, Arabic for "angel," features a dazzling array of new construction materials in an attempt to free up as much weight as possible in a fast and reliable package.
+
 capabilities:The 'Mech is protected with six tons of Light Ferro-Fibrous armor which weighs less than standard armor. To free up even more space, the 'Mech mounts an XL Gyro, and a small cockpit in addition to its Endo Steel frame. A C3i Computer allows it to sync with other Manei Domini so equipped. Nine and a half tons are left for modular equipment.
+
 deployment:The D configuration is effective at all ranges with an all-energy loadout that gives it the ability to operate beyond the range of supply lines. Two Light PPCs have the longest range of the Luminos' weapons. This variant also carries a pair of ER Medium Lasers, giving it a very small window where its four largest guns overlap optimal ranges. Should the Malak D find itself inside the minimum range of the PPCs, it can utilize three ER Small Lasers.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series MK1E

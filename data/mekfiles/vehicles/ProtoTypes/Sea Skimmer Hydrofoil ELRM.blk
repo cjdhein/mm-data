@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,10 +15,19 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+
+<BlockVersion>
+1
+</BlockVersion>
+
 <UnitType>
-Tank
+Naval
 </UnitType>
+
+<blockversion>
+1
+</blockversion>
 
 <Name>
 Sea Skimmer Hydrofoil
@@ -36,9 +45,9 @@ Sea Skimmer Hydrofoil
 3081
 </year>
 
-<originalBuildYear>
-3081
-</originalBuildYear>
+<Source>
+TR:Proto
+</Source>
 
 <type>
 IS Level 4
@@ -48,38 +57,29 @@ IS Level 4
 Missile Boat
 </role>
 
-<quirks>
-searchlight
-poor_performance
-</quirks>
-
-<weaponQuirks>
-accurate:TU:0:Extended LRM 10
-</weaponQuirks>
+<tonnage>
+25.0
+</tonnage>
 
 <motion_type>
 Hydrofoil
 </motion_type>
 
-<cruiseMP>
-10
-</cruiseMP>
-
 <engine_type>
 0
 </engine_type>
+
+<cruiseMP>
+10
+</cruiseMP>
 
 <armor_type>
 6
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 7
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 13
@@ -90,9 +90,13 @@ Hydrofoil
 </armor>
 
 <Body Equipment>
-IS Ammo Extended LRM-10
-IS Ammo Extended LRM-10
+ISExtended LRM10 Ammo
+ISExtended LRM10 Ammo
 </Body Equipment>
+
+<Turret Equipment>
+ISExtendedLRM10
+</Turret Equipment>
 
 <Front Equipment>
 </Front Equipment>
@@ -106,15 +110,13 @@ IS Ammo Extended LRM-10
 <Rear Equipment>
 </Rear Equipment>
 
-<Turret Equipment>
-Extended LRM 10
-</Turret Equipment>
 
-<source>
-TR:Proto
-</source>
 
-<tonnage>
-25.0
-</tonnage>
+<quirks>
+poor_performance
+searchlight
+</quirks>
 
+<weaponQuirks>
+accurate:TU:0:ISExtendedLRM10
+</weaponQuirks>

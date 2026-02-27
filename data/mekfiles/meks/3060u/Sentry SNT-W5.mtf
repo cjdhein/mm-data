@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,62 +15,64 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sentry
 model:SNT-W5
 mul id:2867
 
 Config:Biped
-techbase:Inner Sphere
-era:3072
-source:TR:3060
-rules level:3
+TechBase:Inner Sphere
+Era:3072
+Source:TR:3060
+Rules Level:3
 role:Skirmisher
 
-quirk:easy_pilot
+
+
 quirk:easy_maintain
+quirk:easy_pilot
 quirk:rugged_1
 quirk:ubiquitous_is
 
-mass:40
-engine:200 Light Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:Heavy Duty Gyro
 
-heat sinks:10 IS Double
-walk mp:5
-jump mp:5
+Mass:40
+Engine:200 Light Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:Heavy Duty Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:15
-RT armor:15
-CT armor:18
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Walk MP:5
+Jump MP:5
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:15
+RT Armor:15
+CT Armor:18
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:5
-Large VSP Laser, Left Arm
-Magshot, Left Arm
-Magshot, Left Arm
+Large VSP, Left Arm
 ER Medium Laser, Right Arm
 ER Medium Laser, Right Arm
+Magshot, Left Arm
+Magshot, Left Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISLargeVSPLaser
-ISLargeVSPLaser
-ISLargeVSPLaser
-ISLargeVSPLaser
+ISLargeVariableSpeedLaser
+ISLargeVariableSpeedLaser
+ISLargeVariableSpeedLaser
+ISLargeVariableSpeedLaser
 ISMagshotGR
 ISMagshotGR
 ISMagshotGR
@@ -84,12 +86,12 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -98,12 +100,12 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -111,13 +113,13 @@ Fusion Engine
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -131,13 +133,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -174,4 +176,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

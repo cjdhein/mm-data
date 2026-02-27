@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Arctic Wolf
 model:
 mul id:99
 
 Config:Biped
-techbase:Clan
-era:3059
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:3059
+Source:TR:3060
+Rules Level:2
 role:Striker
+
 
 quirk:imp_target_short
 
-mass:40
-engine:280 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-walk mp:7
-jump mp:0
+Mass:40
+Engine:280 XL (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:14
-RT armor:14
-CT armor:13
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:3
-RTR armor:3
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:8
+RA Armor:8
+LT Armor:14
+RT Armor:14
+CT Armor:13
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:3
+RTR Armor:3
+RTC Armor:4
 
 Weapons:9
 SRM 6, Left Arm
@@ -98,8 +99,8 @@ CLSRM6
 Clan Ammo SRM-6 (Clan) Narc-capable
 Clan Ammo SRM-6 (Clan) Narc-capable
 Clan Ammo SRM-6 (Clan) Narc-capable
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -110,7 +111,7 @@ Fusion Engine
 CLSRM6
 CLSRM6
 Clan Ammo SRM-4 (Clan) Narc-capable
-ISNarc Pods
+CLNarc Pods
 -Empty-
 -Empty-
 -Empty-
@@ -130,7 +131,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLNarcBeacon
-Clan Endo Steel
+Endo Steel
 
 Head:
 Life Support
@@ -151,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +166,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

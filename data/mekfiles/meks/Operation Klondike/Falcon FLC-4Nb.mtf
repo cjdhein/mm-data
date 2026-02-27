@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Falcon
 model:FLC-4Nb
 mul id:1023
 
 Config:Biped
-techbase:Inner Sphere
-era:2776
-source:His:OK
-rules level:2
+TechBase:Inner Sphere
+Era:2776
+Rules Level:2
 role:Striker
+source:His:OK
+
+
 
 quirk:low_profile
 
-mass:30
-engine:180 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:6
-jump mp:6
+Mass:30
+Engine:180 Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:11
-RT armor:11
-CT armor:12
-HD armor:9
-LL armor:11
-RL armor:11
-RTL armor:2
-RTR armor:2
-RTC armor:3
+Heat Sinks:10 Double
+Walk MP:6
+Jump MP:6
+
+Armor:Standard Armor
+LA Armor:8
+RA Armor:8
+LT Armor:11
+RT Armor:11
+CT Armor:12
+HD Armor:9
+LL Armor:11
+RL Armor:11
+RTL Armor:2
+RTR Armor:2
+RTC Armor:3
 
 Weapons:3
-Medium Laser, Left Arm
-Snub-Nose PPC, Right Arm
-Medium Laser, Right Arm
+1 ISSNPPC, Right Arm
+1 ISMediumLaser, Right Arm
+1 ISMediumLaser, Left Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
-IS Endo Steel
-IS Endo Steel
+ISMediumLaser
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -75,56 +77,56 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISSNPPC
 ISSNPPC
-Medium Laser
-IS Endo Steel
-IS Endo Steel
+ISMediumLaser
+Endo-Steel
+Endo-Steel
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 Jump Jet
 Jump Jet
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
-IS Endo Steel
+Engine
+Engine
+Engine
+Endo-Steel
+Endo-Steel
 
 Head:
 Life Support
@@ -133,24 +135,12 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -161,10 +151,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

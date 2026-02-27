@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kiso
 model:K-3N-KRHQ CommandMech
 mul id:5773
 
 Config:Quad
-techbase:Inner Sphere
-era:2823
-source:XTR:SW
-rules level:4
+TechBase:Inner Sphere
+Era:2823
+Source:XTR:SW
+Rules Level:4
+role:Juggernaut
 
+Mass:100
+Engine:200 Fusion Engine(IS)
+Structure:Industrial
+Myomer:Standard
+Cockpit:Command Console
+Gyro:Standard Gyro
 
-mass:100
-engine:200 Fusion Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Command Console
-gyro:Standard Gyro
+Heat Sinks:10 Single
+Walk MP:2
+Jump MP:0
 
-heat sinks:10 Single
-walk mp:2
-jump mp:0
-
-armor:Heavy Industrial(Inner Sphere)
-FLL armor:32
-FRL armor:32
-LT armor:22
-RT armor:22
-CT armor:23
-HD armor:9
-RLL armor:32
-RRL armor:32
-RTL armor:14
-RTR armor:14
-RTC armor:16
+Armor:Heavy Industrial(Inner Sphere)
+FLL Armor:32
+FRL Armor:32
+LT Armor:22
+RT Armor:22
+CT Armor:23
+HD Armor:9
+RLL Armor:32
+RRL Armor:32
+RTL Armor:14
+RTR Armor:14
+RTC Armor:16
 
 Weapons:3
 Machine Gun, Left Torso
@@ -91,12 +90,12 @@ Machine Gun
 Machine Gun
 Machine Gun (R)
 IS Machine Gun Ammo - Half
-Communications Equipment:SIZE:3.0
-Communications Equipment:SIZE:3.0
-Communications Equipment:SIZE:3.0
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
+Communications Equipment (3 ton)
+Communications Equipment (3 ton)
+Communications Equipment (3 ton)
+Lift Hoist
+Lift Hoist
+Lift Hoist
 
 Right Torso:
 ISCollapsibleCommandModule
@@ -169,3 +168,4 @@ Searchlight
 -Empty-
 
 history:This mech is NOT valid. Command Console Isn't coded into MegaMek included for completeness.
+

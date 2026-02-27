@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,40 +15,38 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Lumberjack
 model:LM4/P
 mul id:1961
 
 Config:Biped
-techbase:Inner Sphere
-era:2811
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:2811
+Source:TR:3075
+Rules Level:2
 role:Missile Boat
 
+Mass:70
+Engine:210 ICE Engine
+Structure:Industrial
+Myomer:Standard
 
-mass:70
-engine:210 ICE Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:4 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:4 Single
-walk mp:3
-jump mp:0
-
-armor:Standard(Inner Sphere)
-LA armor:12
-RA armor:12
-LT armor:13
-RT armor:13
-CT armor:19
-HD armor:9
-LL armor:14
-RL armor:14
-RTL armor:4
-RTR armor:4
-RTC armor:6
+Armor:Standard(Inner Sphere)
+LA Armor:12
+RA Armor:12
+LT Armor:13
+RT Armor:13
+CT Armor:19
+HD Armor:9
+LL Armor:14
+RL Armor:14
+RTL Armor:4
+RTR Armor:4
+RTC Armor:6
 
 Weapons:1
 LRM 10, Left Torso
@@ -58,9 +56,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
-Lift Hoist/Arresting Hoist
+Lift Hoist
+Lift Hoist
+Lift Hoist
 -Empty-
 -Empty-
 -Empty-
@@ -97,11 +95,11 @@ IS Ammo LRM-10
 
 Right Torso:
 Dumper (Rear)
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
-Cargo:SIZE:1.0
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
+Cargo (1 ton)
 -Empty-
 -Empty-
 -Empty-
@@ -164,4 +162,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

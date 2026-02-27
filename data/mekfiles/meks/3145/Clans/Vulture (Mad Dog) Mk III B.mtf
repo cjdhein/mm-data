@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vulture Mk III
 clanname:Mad Dog Mk III
 model:B
 mul id:6273
 
-Config:Biped OmniMek
-techbase:Clan
-era:3109
-source:TR:3145:C
-rules level:2
+Config:Biped Omnimech
+TechBase:Clan
+Era:3109
+Source:TR:3145:C
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:stable
 quirk:variable_range_targeting
 
-mass:60
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:14 Clan Double
-base chassis heat sinks:12
-walk mp:5
-jump mp:4
+Mass:60
+Engine:300 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:16
-RA armor:16
-LT armor:20
-RT armor:20
-CT armor:30
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:7
-RTR armor:7
-RTC armor:9
+Heat Sinks:14 Double
+Base Chassis Heat Sinks:12
+Walk MP:5
+Jump MP:4
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:16
+RA Armor:16
+LT Armor:20
+RT Armor:20
+CT Armor:30
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:7
+RTR Armor:7
+RTC Armor:9
 
 Weapons:6
 ER Large Laser, Left Arm
@@ -65,7 +67,7 @@ ER Medium Laser, Center Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -79,7 +81,7 @@ Clan Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLERLargeLaser (OMNIPOD)
+CLERLargeLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -93,28 +95,28 @@ Clan Ferro-Fibrous
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-Clan Ammo LRM-20 (OMNIPOD)
-Clan Ammo LRM-20 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+Clan Ammo LRM-20 (omnipod)
+Clan Ammo LRM-20 (omnipod)
 -Empty-
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-Clan Ammo LRM-20 (OMNIPOD)
-Clan Ammo LRM-20 (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+Clan Ammo LRM-20 (omnipod)
+Clan Ammo LRM-20 (omnipod)
 -Empty-
 -Empty-
 
@@ -129,8 +131,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLERMediumLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLERMediumLaser (omnipod)
 
 Head:
 Life Support
@@ -151,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +167,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

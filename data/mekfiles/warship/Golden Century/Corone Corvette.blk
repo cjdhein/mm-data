@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -53,15 +62,15 @@ Aerodyne
 </motion_type>
 
 <transporters>
-mekbay:45.0:2:-1::-1:0
-asfbay:20.0:3:2::-1:0
+mekbay:45.0:2
+asfbay:20.0:3:2
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-cargobay:35810.0:1:7::-1:0
-crewquarters:168.0:0:-1::-1:0
-2ndclassquarters:1162.0:0:-1::-1:0
+cargobay:35810.0:1:7
+crewquarters:168.0:0
+2ndclassquarters:1162.0:0
 </transporters>
 
 <SafeThrust>
@@ -92,13 +101,9 @@ false
 12
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 6
-</armor_tech_level>
+</armor_tech>
 
 <internal_type>
 -1
@@ -241,10 +246,6 @@ Destroyer
 1000 m Sail
 </height>
 
-<source>
-TR:GC
-</source>
-
 <tonnage>
 290000.0
 </tonnage>
@@ -302,3 +303,6 @@ TR:GC
 30
 </escape_pod>
 
+<source>
+TR:GC
+</source>

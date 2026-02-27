@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,40 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:DemolitionMech
 model:WI-DM
 mul id:868
 
 Config:Biped
-techbase:Inner Sphere
-era:2513
-source:TR:3075
-rules level:2
+TechBase:Inner Sphere
+Era:2513
+Source:TR:3075
+Rules Level:2
 role:Juggernaut
 
+Mass:35
+Engine:105 Fuel Cell Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
+Cockpit:Industrial Cockpit
+Gyro:Standard Gyro
 
-mass:35
-engine:105 Fuel Cell Engine
-structure:IS Industrial
-myomer:Standard
-cockpit:Industrial Cockpit
-gyro:Standard Gyro
+Heat Sinks:1 Single
+Walk MP:3
+Jump MP:0
 
-heat sinks:1 Single
-walk mp:3
-jump mp:0
-
-armor:Industrial (Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:8
-LL armor:10
-RL armor:10
-RTL armor:5
-RTR armor:5
-RTC armor:5
+Armor:Industrial (Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:8
+LL Armor:10
+RL Armor:10
+RTL Armor:5
+RTR Armor:5
+RTC Armor:5
 
 Weapons:1
 Small Laser, Center Torso
@@ -123,7 +121,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Small Laser
-Cargo:SIZE:0.5
+Cargo (0.5 tons)
 
 Head:
 Life Support
@@ -166,4 +164,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

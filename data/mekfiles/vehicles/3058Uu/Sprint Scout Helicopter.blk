@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,31 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+#Write the version number just in case...
+<Version>
+MAM0
+</Version>
 <UnitType>
 VTOL
 </UnitType>
-
 <Name>
 Sprint Scout Helicopter
 </Name>
+<model>
 
-<Model>
-
-</Model>
+</model>
 
 <mul id:>
 3026
 </mul id:>
-
-<year>
-3052
-</year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
-
+<Tonnage>
+10
+</Tonnage>
+<cruiseMP>
+13
+</cruiseMP>
+<Armor>
+6
+3
+3
+3
+2
+</Armor>
+<Front Equipment>
+ISTAG
+ISBeagleActiveProbe
+</Front Equipment>
 <type>
 IS Level 2
 </type>
@@ -47,64 +60,24 @@ IS Level 2
 <role>
 Scout
 </role>
-
-<motion_type>
-VTOL
-</motion_type>
-
-<cruiseMP>
-13
-</cruiseMP>
-
-<engine_type>
+<year>
+3052
+</year>
+<internal_type>
 0
-</engine_type>
-
+</internal_type>
 <armor_type>
 1
 </armor_type>
-
-<armor_tech_rating>
+<armor_tech>
+3
+</armor_tech>
+<engine_type>
 0
-</armor_tech_rating>
-
-<armor_tech_level>
-3
-</armor_tech_level>
-
-<armor>
-6
-3
-3
-3
-2
-</armor>
-
-<Body Equipment>
-</Body Equipment>
-
-<Front Equipment>
-ISTAG
-BeagleActiveProbe
-</Front Equipment>
-
-<Right Equipment>
-</Right Equipment>
-
-<Left Equipment>
-</Left Equipment>
-
-<Rear Equipment>
-</Rear Equipment>
-
-<Rotor Equipment>
-</Rotor Equipment>
-
+</engine_type>
+<motion_type>
+VTOL
+</motion_type>
 <source>
 TR:3058U
 </source>
-
-<tonnage>
-10.0
-</tonnage>
-

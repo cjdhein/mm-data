@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,29 +15,30 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Man O' War
 clanname:Gargoyle
 model:C
 mul id:2004
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2945
 source:TR:CI
 rules level:2
 role:Skirmisher
 
-weaponquirk:stable_weapon:LA:2:CLUltraAC20
 weaponquirk:stable_weapon:RA:4:CLERMediumLaser
 weaponquirk:stable_weapon:RA:5:CLERMediumLaser
 weaponquirk:stable_weapon:RA:6:CLERMediumLaser
 weaponquirk:stable_weapon:RA:7:CLERMediumLaser
 weaponquirk:stable_weapon:RA:8:CLERMediumLaser
 weaponquirk:stable_weapon:RA:9:CLERMediumLaser
+weaponquirk:stable_weapon:LA:2:CLUltraAC20
+weaponquirk:stable_weapon:LA:7:CLUltraAC20
+
 
 mass:80
-engine:400 XL (Clan) Engine
+engine:400 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -190,3 +191,4 @@ systemmanufacturer:ENGINE:400 Model SF-3 XL
 systemmanufacturer:ARMOR:Forging C629/j Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Raldon R1
 systemmanufacturer:TARGETING:Version Kappa-III TTS
+

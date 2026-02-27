@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Longbow
 model:LGB-0W
 mul id:1930
@@ -27,13 +26,16 @@ source:TR:3039
 rules level:1
 role:Missile Boat
 
-quirk:no_arms
-quirk:searchlight
+
+
 quirk:anti_air
+quirk:searchlight
 quirk:ubiquitous_is
+quirk:no_arms
+
 
 mass:85
-engine:340 Fusion Engine
+engine:340 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -174,8 +176,11 @@ Foot Actuator
 -Empty-
 
 overview:The Longbow, introduced in 2480 as the LGB-0C Longbow, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence.
+
 capabilities:The Longbow is a massive BattleMech weighing in at 85 tons and is able to move at a top speed of 54.0 km/h, thanks to a Strand 255 fusion engine. The Longbow is protected by fourteen and a half tons of armor. Some have criticized the design for its lack of CASE - making an otherwise rugged 'Mech vulnerable to a loss by an ammunition explosion. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for.
+
 deployment:To add some speed to the Longbow, the OW variant removes two Medium Lasers and five and a half tons of armor. This allowed the Strand 255 Fusion Engine to be replaced with a larger Strand 340, increasing the top speed of the Longbow to 64 km/h, allowing the 'Mech to keep up with most heavy 'Mechs. The LGB-0W used the O/P 3000 COMSET communications system and the Octagon Tartrac System C targeting and tracking system.
+
 manufacturer:StarCorps Industries,StarCorps (FWL) Industries,StarCorps Industries,StarCorps Industries
 primaryfactory:Crofton,Emris IV,Fletcher (TH),Loburg
 systemmanufacturer:CHASSIS:StarCorps 100 LGB
@@ -183,3 +188,4 @@ systemmanufacturer:ENGINE:Strand 340
 systemmanufacturer:ARMOR:StarSlab/9.5 Mk II
 systemmanufacturer:COMMUNICATIONS:O/P 3000 COMSET
 systemmanufacturer:TARGETING:Octagon Tartrac System C
+

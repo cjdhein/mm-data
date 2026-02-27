@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:King Crab
 model:KGC-005r
 mul id:1775
-
 Config:Biped
 techbase:Inner Sphere
 era:3071
@@ -27,10 +25,13 @@ source:TR:3085
 rules level:2
 role:Juggernaut
 
+
+
 quirk:command_mech
 
+
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -180,3 +181,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:ProtecTech 12
 systemmanufacturer:COMMUNICATIONS:Dalban Commline
 systemmanufacturer:TARGETING:Dalban HiRez-B
+

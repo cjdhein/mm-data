@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:CattleMaster
 model:CTL-3R2 'Hunter' IndustrialMech
 mul id:3906
 
 Config:Biped
-techbase:Inner Sphere
-era:3024
-source:RS:VA
-rules level:2
+TechBase:Inner Sphere
+Era:3024
+Source:RS:VA
+Rules Level:2
 role:Ambusher
 
+Mass:25
+Engine:100 ICE Engine(IS)
+Structure:IS Industrial
+Myomer:Standard
 
-mass:25
-engine:100 ICE Engine
-structure:IS Industrial
-myomer:Standard
+Heat Sinks:1 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:1 Single
-walk mp:4
-jump mp:0
-
-armor:Industrial (Inner Sphere)
-LA armor:4
-RA armor:4
-LT armor:4
-RT armor:4
-CT armor:6
-HD armor:8
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Armor:Industrial (Inner Sphere)
+LA Armor:4
+RA Armor:4
+LT Armor:4
+RT Armor:4
+CT Armor:6
+HD Armor:8
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:5
 Machine Gun, Left Arm
-Small Laser, Right Arm
-Small Laser, Right Arm
 Machine Gun, Right Arm
 Machine Gun, Right Arm
+Small Laser, Right Arm
+Small Laser, Right Arm
 
 Left Arm:
 Shoulder
@@ -168,4 +166,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

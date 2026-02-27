@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Neanderthal
 model:NTL-AG
 mul id:6513
 
 Config:Biped
-techbase:Inner Sphere
-era:3128
-source:TR:3145:FWL
-rules level:3
+TechBase:Inner Sphere
+Era:3128
+Source:TR:3145:FWL
+Rules Level:3
 role:Juggernaut
+
+
 
 quirk:stable
 quirk:distracting
 quirk:non_standard
 
-mass:80
-engine:400 XL Engine
-structure:IS Standard
-myomer:Triple-Strength
 
-heat sinks:11 IS Double
-walk mp:5
-jump mp:0
+Mass:80
+Engine:400 XL Engine(IS)
+Structure:IS Standard
+Myomer:Triple-Strength
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:24
-RT armor:24
-CT armor:32
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:15
+Heat Sinks:11 Double
+Walk MP:5
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:24
+RT Armor:24
+CT Armor:32
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:15
 
 Weapons:5
+Snub-Nose PPC, Right Torso
 Snub-Nose PPC, Left Torso
 M-Pod, Left Torso
-Snub-Nose PPC, Right Torso
 M-Pod, Right Torso
 M-Pod, Head
 
@@ -65,10 +67,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
+TSM
 -Empty-
 -Empty-
 -Empty-
@@ -85,8 +87,8 @@ Hatchet
 Hatchet
 Hatchet
 Hatchet
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
 
 Left Torso:
 Fusion Engine
@@ -171,4 +173,5 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

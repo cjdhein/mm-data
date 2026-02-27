@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Ambusher
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 3
 </cruiseMP>
@@ -67,22 +79,6 @@ false
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -102,7 +98,6 @@ ExtendedJumpJetSystem
 ExtendedJumpJetSystem
 ExtendedJumpJetSystem
 ExtendedJumpJetSystem
-EIInterface
 </Body Equipment>
 
 <Head Equipment>
@@ -122,12 +117,20 @@ CLImprovedMediumHeavyLaser
 <Legs Equipment>
 </Legs Equipment>
 
+<source>
+WoR
+</source>
+
+<tonnage>
+9.0
+</tonnage>
+
 <capabilities>
 Weighing more than any other ProtoMech, it trades speed for armor and weaponry. Intended for defensive operations, the Minotaur's lack of speed isn't an obstacle to completing its mission, and its impressive firepower means an entire Point working together can quickly take down a single target. The drawback to this power however is a slow cruising speed of 32 km/h, which is somewhat compensated by a jumping capacity of 90 meters thanks to its Jump Jets.
 </capabilities>
 
 <overview>
-The Minotaur is the "assault class" of the first generation ProtoMechs.
+The Minotaur is the "assault class" of the first generation ProtoMechs. 
 </overview>
 
 <deployment>
@@ -150,16 +153,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-WoR
-</source>
-
-<tonnage>
-9.0
-</tonnage>
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ninja-To
 model:NJT-3
 mul id:4727
 
 Config:Biped
-techbase:Inner Sphere
-era:3068
-source:TR:3067
-rules level:2
+TechBase:Inner Sphere
+Era:3068
+Rules Level:2
 role:Skirmisher
+source:TR:3067
+
+
 
 quirk:stable
 
-mass:65
-engine:390 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:6
-jump mp:0
+Mass:65
+Engine:390 XL Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:29
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:0
+
+Armor:Standard Armor
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:29
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:4
-PPC, Left Arm
-PPC, Right Arm
-ER Medium Laser, Center Torso
-ER Medium Laser, Center Torso
+1 ISPPC, Right Arm
+1 ISPPC, Left Arm
+2 ISERMediumLaser, Center Torso
+1 ISC3SlaveUnit, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-PPC
-PPC
-PPC
+ISPPC
+ISPPC
+ISPPC
 -Empty-
 -Empty-
 -Empty-
@@ -75,9 +77,9 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-PPC
-PPC
-PPC
+ISPPC
+ISPPC
+ISPPC
 -Empty-
 -Empty-
 -Empty-
@@ -89,13 +91,13 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -103,9 +105,9 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -146,8 +148,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -160,8 +162,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-

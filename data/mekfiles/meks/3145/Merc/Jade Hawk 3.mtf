@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,54 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Jade Hawk
 model:3
 mul id:6568
 
 Config:Biped
-techbase:Clan
-era:3136
-source:TR:3145:Merc
-rules level:3
+TechBase:Clan
+Era:3136
+Source:TR:3145:Merc
+Rules Level:3
 role:Skirmisher
 
 quirk:distracting
 quirk:reinforced_legs
 quirk:non_standard
 
-mass:75
-engine:375 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Laser
-walk mp:5
-jump mp:5
+Mass:75
+Engine:375 XL (Clan) Engine(IS)
+Structure:Clan Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:23
-RA armor:23
-LT armor:22
-RT armor:22
-CT armor:34
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:12 Laser
+Walk MP:5
+Jump MP:5
+
+Armor:Standard(IS/Clan)
+LA Armor:23
+RA Armor:23
+LT Armor:22
+RT Armor:22
+CT Armor:34
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:9
-Medium Pulse Laser, Left Arm
-ER Small Laser, Left Arm
-Medium Pulse Laser, Right Arm
 ER Small Laser, Right Arm
-ATM 6, Left Torso
-ATM 6, Left Torso
-ATM 6, Right Torso
-ATM 6, Right Torso
+ER Small Laser, Left Arm
 ER Small Laser, Center Torso
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Right Arm
+ATM 6, Left Torso
+ATM 6, Right Torso
+ATM 6, Right Torso
+ATM 6, Left Torso
 
 Left Arm:
 Shoulder
@@ -71,7 +71,7 @@ Lower Arm Actuator
 Hand Actuator
 CLMediumPulseLaser
 CLERSmallLaser
-Clan Endo Steel
+Clan Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -85,7 +85,7 @@ Lower Arm Actuator
 Hand Actuator
 CLMediumPulseLaser
 CLERSmallLaser
-Clan Endo Steel
+Clan Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -138,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Clan Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -153,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Clan Endo-Steel
+Clan Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -167,12 +167,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Endo Steel
-Clan Endo Steel
+Clan Endo-Steel
+Clan Endo-Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

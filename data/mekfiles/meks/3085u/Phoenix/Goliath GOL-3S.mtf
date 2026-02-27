@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,11 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Goliath
 model:GOL-3S
 mul id:1233
-
 Config:Quad
 techbase:Inner Sphere
 era:3066
@@ -27,11 +25,14 @@ source:TR:3085S
 rules level:2
 role:Missile Boat
 
-quirk:exp_actuator
+
+
 quirk:multi_trac
+quirk:exp_actuator
+
 
 mass:80
-engine:320 Light Engine
+engine:320 Light Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -53,11 +54,11 @@ RTR armor:7
 RTC armor:10
 
 Weapons:6
+LB 20-X AC, Left Torso
 ER Medium Laser, Front Left Leg
 ER Medium Laser, Front Right Leg
-LB 20-X AC, Center Torso
-ER Large Laser, Right Torso
 LRM 10, Right Torso
+ER Large Laser, Right Torso
 ER Medium Laser, Head
 
 Front Left Leg:
@@ -183,3 +184,4 @@ systemmanufacturer:ENGINE:Pitban 320 Light Fusion Engine
 systemmanufacturer:ARMOR:Durallex Heavy with CASE
 systemmanufacturer:COMMUNICATIONS:Angst Clear Channel 3G
 systemmanufacturer:TARGETING:Angst Clear View Multitask
+

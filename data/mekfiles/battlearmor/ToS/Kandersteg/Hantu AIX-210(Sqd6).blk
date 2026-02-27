@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -52,6 +61,9 @@ Ambusher
 Leg
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 3
 </cruiseMP>
@@ -68,6 +80,10 @@ Leg
 BAArmoredGlove:LA
 BAArmoredGlove:RA
 InfantryAssaultRifle:APM
+SwarmMek
+SwarmWeaponMek
+StopSwarm
+LegAttack
 IS BA Stealth (Standard):LA
 IS BA Stealth (Standard):RA
 IS BA Stealth (Standard):RA
@@ -92,13 +108,33 @@ IS BA Stealth (Standard):LA
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<capabilities>
-Even if Clan-equivalent technology exists, the base AIX-210 has very little integrated hardware. It can carry standard infantry equipment more easily because to the armoured gloves and basic myomers, which increases endurance and fighting effectiveness. However, many versions take advantage of the 200 kilos of spare space to add everything from better life support to modular adapters for sensors, electronic warfare gear, and integrated weaponry. Variants are typically identified by changing the final number of the designation, AIX-21x. Although the Kandersteg Militia only seldom buys variants, several mercenary commands going through Kandersteg's hiring halls like using them.
-</capabilities>
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 
 <overview>
 The CEX-205 Groundhog is the ancestor of the AIX-210 armoured infantry exoskeleton. The adaptability of the Groundhog impressed the Kandersteg Militia.
 </overview>
+
+<capabilities>
+Even if Clan-equivalent technology exists, the base AIX-210 has very little integrated hardware. It can carry standard infantry equipment more easily because to the armoured gloves and basic myomers, which increases endurance and fighting effectiveness. However, many versions take advantage of the 200 kilos of spare space to add everything from better life support to modular adapters for sensors, electronic warfare gear, and integrated weaponry. Variants are typically identified by changing the final number of the designation, AIX-21x. Although the Kandersteg Militia only seldom buys variants, several mercenary commands going through Kandersteg's hiring halls like using them.
+</capabilities>
 
 <deployment>
 Due to the untiring exoskeleton muscles, Kandersteg deploys its AIX-210 Hantus in squads of six and platoons of twenty-four, similar to regular infantry troops, and typically equips them with an abundance of support weapons. Various users are still experimenting with AIX-21x forms.
@@ -120,14 +156,10 @@ Kandersteg
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>
-
-<source>
-TtS:Kandersteg
-</source>
 
 <chassis>
 biped
@@ -149,3 +181,6 @@ biped
 0
 </weightclass>
 
+<source>
+TtS:Kandersteg
+</source>

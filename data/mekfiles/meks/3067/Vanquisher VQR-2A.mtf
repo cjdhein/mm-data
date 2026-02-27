@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Vanquisher
 model:VQR-2A
 mul id:5338
@@ -27,13 +26,17 @@ source:TR:3067
 rules level:2
 role:Sniper
 
-quirk:bad_rep_is
+
+
+
 quirk:stable
-quirk:no_arms
 quirk:bad_rep_clan
+quirk:bad_rep_is
+quirk:no_arms
+
 
 mass:100
-engine:300 Fusion Engine
+engine:300 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -176,9 +179,13 @@ IS Endo Steel
 -Empty-
 
 overview:Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.
+
 capabilities:In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.
+
 deployment:Intended to stay back and let faster units spot for it using the C3i system, the Vanquisher carries a pair of Corean Light Gauss Rifles backed up by two Diverse Optics Sunbeam ER Large Lasers, giving the Vanquisher almost unparalleled reach on the battlefield. For close combat, the 'Mech has three Diverse Optics Type ER Medium Lasers, which are usually enough to dissuade most lighter 'Mechs.
+
 history:The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.
+
 manufacturer:Skobel MechWorks
 primaryfactory:Russia, Terra
 systemmanufacturer:CHASSIS:Hollis Alteration Mark VI
@@ -186,3 +193,4 @@ systemmanufacturer:ENGINE:Vlar 300
 systemmanufacturer:ARMOR:Aldis Plate with CASE
 systemmanufacturer:COMMUNICATIONS:Skobel Wave VI Comm with C3i Computer
 systemmanufacturer:TARGETING:Falcon 12b Watcher
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,45 +15,47 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rifleman
 model:C 2
 mul id:2694
 
 Config:Biped
-techbase:Clan
-era:3083
+TechBase:Clan
+Era:3083
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Skirmisher
 
+
+
+quirk:anti_air
+quirk:imp_com
 quirk:searchlight
 quirk:ubiquitous_clan
-quirk:anti_air
 quirk:ubiquitous_is
-quirk:imp_com
 
-mass:60
-engine:360 XXL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:6
-jump mp:9
+Mass:60
+Engine:360 XXL (Clan) Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:20
-RA armor:20
-LT armor:21
-RT armor:21
-CT armor:25
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:12 Double
+Walk MP:6
+Jump MP:9
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:21
+RT Armor:21
+CT Armor:25
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:4
 ER Large Laser, Left Arm
@@ -67,11 +69,11 @@ Upper Arm Actuator
 CLERLargeLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -81,11 +83,11 @@ Upper Arm Actuator
 CLERLargeLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -94,28 +96,28 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Endo Steel
-Clan Ferro-Fibrous
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Endo Steel
+Ferro-Fibrous
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Improved Jump Jet
-Clan Endo Steel
-Clan Ferro-Fibrous
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
+Endo Steel
+Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -128,8 +130,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 
 Head:
 Life Support
@@ -150,8 +152,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -164,8 +166,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Improved Jump Jet
-Improved Jump Jet
+Clan Improved Jump Jet
+Clan Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
@@ -173,3 +175,4 @@ Improved Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Rifleman .jpg

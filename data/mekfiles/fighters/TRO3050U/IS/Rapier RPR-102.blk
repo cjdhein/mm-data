@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,9 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
-AeroSpaceFighter
+Aero
 </UnitType>
 
 <Name>
@@ -52,6 +61,9 @@ Dogfighter
 Aerodyne
 </motion_type>
 
+<transporters>
+</transporters>
+
 <SafeThrust>
 6
 </SafeThrust>
@@ -75,18 +87,6 @@ Aerodyne
 <engine_type>
 0
 </engine_type>
-
-<armor_type>
-0
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
 
 <armor>
 63
@@ -120,6 +120,14 @@ IS Ammo AC/20
 IS Ammo LRM-10
 </Fuselage Equipment>
 
+<source>
+TR:3050
+</source>
+
+<tonnage>
+85.0
+</tonnage>
+
 <capabilities>
 The Bauer Scope 130Y, the innovation at the heart of the Rapier design, effectively extends the range of all of the mounted weapon systems, and allows the pilot to help direct launched missiles in mid-flight through neural impulses.
 </capabilities>
@@ -151,12 +159,3 @@ ARMOR:PhilterMesh
 COMMUNICATIONS:COMHRT II.Q
 TARGETING:Bauer-Scope 130Y
 </systemManufacturers>
-
-<source>
-TR:3050
-</source>
-
-<tonnage>
-85.0
-</tonnage>
-

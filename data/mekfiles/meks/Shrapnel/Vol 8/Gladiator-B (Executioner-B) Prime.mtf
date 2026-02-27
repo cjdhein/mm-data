@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,24 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Gladiator-B
 clanname:Executioner-B
 model:Prime
 mul id:8463
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:2873
 source:Shrap08
 rules level:2
 role:Juggernaut
 
+
 quirk:distracting
 quirk:poor_performance
 
+
 mass:95
-engine:285 XL (Clan) Engine
+engine:285 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -182,3 +182,4 @@ systemmanufacturer:ARMOR:Compound Alpha Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Pryzhok WM 10
 systemmanufacturer:COMMUNICATIONS:Consolidated BM3-CC
 systemmanufacturer:TARGETING:Series III GB
+

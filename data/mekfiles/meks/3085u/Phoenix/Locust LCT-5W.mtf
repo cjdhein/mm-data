@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Locust
 model:LCT-5W
 mul id:1911
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
+TechBase:Inner Sphere
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Scout
 
-quirk:cramped_cockpit
+
+
 quirk:compact_mech
-quirk:no_arms
 quirk:low_profile
+quirk:cramped_cockpit
+quirk:no_arms
 quirk:weak_legs
 quirk:ubiquitous_clan
 quirk:ubiquitous_is
 
-mass:20
-engine:180 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:9
-jump mp:0
+Mass:20
+Engine:180 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:8
-RT armor:8
-CT armor:10
-HD armor:9
-LL armor:8
-RL armor:8
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:10 Double
+Walk MP:9
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:8
+RT Armor:8
+CT Armor:10
+HD Armor:9
+LL Armor:8
+RL Armor:8
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:3
 ER Medium Laser, Left Arm
@@ -66,10 +68,10 @@ Left Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -80,15 +82,15 @@ Right Arm:
 Shoulder
 Upper Arm Actuator
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -100,9 +102,9 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -113,10 +115,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISC3iUnit
 ISC3iUnit
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -136,7 +138,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -174,3 +176,4 @@ Foot Actuator
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Locust .jpg

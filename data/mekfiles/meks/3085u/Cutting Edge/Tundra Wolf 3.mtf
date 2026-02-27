@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tundra Wolf
 model:3
 mul id:3317
 
 Config:Biped
-techbase:Clan
-era:3076
+TechBase:Clan
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
 
 quirk:easy_maintain
 quirk:weak_head_1
 
-mass:75
-engine:300 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:19 Clan Double
-walk mp:4
-jump mp:4
+Mass:75
+Engine:300 XL (Clan) Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:18
-RT armor:18
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:19 Double
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:18
+RA Armor:18
+LT Armor:18
+RT Armor:18
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:9
 ER PPC, Left Arm
@@ -75,7 +75,7 @@ CLERPPC
 CLERPPC
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
+Endo Steel
 
 Right Arm:
 Shoulder
@@ -87,8 +87,8 @@ CLERPPC
 CLERPPC
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -116,7 +116,7 @@ CLLRM15
 CLLRM15
 Clan Ammo LRM-15
 Clan Ammo LRM-15
-Clan Endo Steel
+Endo Steel
 -Empty-
 
 Center Torso:
@@ -130,14 +130,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Clan Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -175,3 +175,4 @@ Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3076Tundra Wolf.jpg

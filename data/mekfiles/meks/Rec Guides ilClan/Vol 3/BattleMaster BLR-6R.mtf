@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.19-SNAPSHOT on 2024-04-05
 chassis:BattleMaster
 model:BLR-6R
 mul id:9404
@@ -55,12 +55,12 @@ RTC armor:11
 Weapons:8
 Rotary AC/5, Right Arm
 Streak SRM 6, Left Torso
-Light PPC, Left Torso
-Light PPC, Left Torso
-Improved Heavy Medium Laser, Left Torso
 Light PPC, Right Torso
 Light PPC, Right Torso
 Improved Heavy Medium Laser, Right Torso
+Improved Heavy Medium Laser, Left Torso
+Light PPC, Left Torso
+Light PPC, Left Torso
 
 Left Arm:
 Shoulder
@@ -185,3 +185,4 @@ systemmanufacturer:ENGINE:340 VOX Light Fusion
 systemmanufacturer:ARMOR:StarGuard IV
 systemmanufacturer:COMMUNICATIONS:HarfordCo COM 4000
 systemmanufacturer:TARGETING:HarfordCo XKZ 1
+

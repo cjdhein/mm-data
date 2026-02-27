@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Trebaruna
 model:TR-XJ
 mul id:3293
 
 Config:Quad
-techbase:Inner Sphere
-era:3081
+TechBase:Inner Sphere
+Era:3081
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Juggernaut
+
+
 
 quirk:command_mech
 
-mass:95
-engine:285 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:11 IS Double
-walk mp:3
-jump mp:4
+Mass:95
+Engine:285 Fusion Engine
+Structure:Standard
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-FLL armor:39
-FRL armor:39
-LT armor:30
-RT armor:30
-CT armor:50
-HD armor:9
-RLL armor:39
-RRL armor:39
-RTL armor:10
-RTR armor:10
-RTC armor:10
+Heat Sinks:11 Double
+Walk MP:3
+Jump MP:4
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+FLL Armor:39
+FRL Armor:39
+LT Armor:30
+RT Armor:30
+CT Armor:50
+HD Armor:9
+RLL Armor:39
+RRL Armor:39
+RTL Armor:10
+RTR Armor:10
+RTC Armor:10
 
 Weapons:3
 Snub-Nose PPC, Left Torso
@@ -91,11 +93,11 @@ ISSNPPC
 ISSNPPC
 ISSNPPC
 ISSNPPC
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -111,8 +113,8 @@ ISGaussRifle
 IS Gauss Ammo
 IS Gauss Ammo
 ISCASE
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Center Torso:
 Fusion Engine
@@ -169,4 +171,5 @@ Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

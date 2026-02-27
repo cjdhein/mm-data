@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Zeus
 model:ZEU-9S-DC
 mul id:5438
 
 Config:Biped
-techbase:Inner Sphere
-era:3049
-source:TR:3050
-rules level:3
+TechBase:Inner Sphere
+Era:3049
+Source:TR:3050
+Rules Level:3
 role:Sniper
 
-quirk:easy_maintain
+
+
 quirk:barrel_fists_ra
+quirk:easy_maintain
 
-mass:80
-engine:320 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Command Console
-gyro:Standard Gyro
 
-heat sinks:16 IS Double
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 Fusion Engine(IS)
+Structure:IS Standard
+Myomer:Standard
+Cockpit:Command Console
+Gyro:Standard Gyro
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:25
-RT armor:25
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:8
+Heat Sinks:16 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:22
+RA Armor:22
+LT Armor:25
+RT Armor:25
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:8
 
 Weapons:4
+Medium Pulse Laser, Center Torso
+ER Large Laser, Left Torso
 ER PPC, Left Arm
 LRM 15, Right Arm
-ER Large Laser, Left Torso
-Medium Pulse Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -173,9 +175,13 @@ Foot Actuator
 -Empty-
 
 overview:The Zeus was first built by the Lyran Commonwealth in 2787, just as the First Succession War began. Built at the request of Lyran Commonwealth Armed Forces commanders for a new light-assault 'Mech designed to engage the enemy at long range and perform hit-and-run attacks.
+
 capabilities:The Zeus is fast enough to keep up with most heavy 'Mechs, and with a sturdy frame, eleven and a half tons of standard armor and a versatile weapons array, is equally capable of defeating them. Its use of reliable, low-maintenance and easily modified systems at a time when most 'Mechs were built with cutting-edge technology also proved fortuitous, allowing the Zeus to be produced long after those advanced components had become Lostech.
-deployment:Introduced in 3049, this 9S subvariant trades the rear-mounted medium pulse laser and one double heat sink for a Command Console.
+
+deployment:Introduced in 3049, this 9S subvariant trades the rear-mounted medium pulse laser and one double heat sink for a Command Console. 
+
 history:Three years before its release, the first two prototypes of the Zeus would have their first "test run" when they were forced to repel an attack on the Hesperus II factory by the Draconis Combine Mustered Soldiery. As the enemy pushed through Lyran lines, the two 'Mechs were summoned to aid, and through sheer novelty and long-range firepower, the Kuritans were forced to pause. This enabled more reinforcements to push back DCMS forces. While these prototypes were effective in repelling the attack, they were considerably more advanced than the commercial model and armed with a PPC, which proved unpredictable and unreliable during the combat. Inadequate shielding caused wild magnetic interactions between the weapon and the Zeus' engine, which was later revealed to be the source of this behavior. To guarantee that the Zeus arrived at the front lines as soon as possible, the complex energy weapon was replaced with a basic autocannon. The 'Mech initially appeared in substantial numbers after the 15th Lyran Guards regained the planet Sakhalin, and the Zeus had a long and storied history within the Commonwealth during the Succession Wars, becoming a well-respected assault 'Mech. Engineers were able to put a PPC on the Zeus again after the end of the Third Succession War, with the resulting ZEU-6T variant being the standard during the Fourth Succession War and later the War of 3039. The design was also well received by mercenary units, particularly the Zeta Battalion of Wolf's Dragoons.
+
 manufacturer:Field Refit
 primaryfactory:Various
 systemmanufacturer:CHASSIS:Chariot Type III
@@ -183,3 +189,4 @@ systemmanufacturer:ENGINE:Pitban 320
 systemmanufacturer:ARMOR:Glasgow Limited Primo Ferro-Fibrous with CASE
 systemmanufacturer:COMMUNICATIONS:TharHes Calliope ZE-2
 systemmanufacturer:TARGETING:TharHes Ares-7
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 Warship
 </UnitType>
@@ -49,17 +58,17 @@ Aerodyne
 </motion_type>
 
 <transporters>
-asfbay:36.0:4:1::-1:0
-asfbay:36.0:3:2::-1:0
-smallcraftbay:12.0:1:3::-1:0
+asfbay:36.0:4:1
+asfbay:36.0:3:2
+smallcraftbay:12.0:1:3
 dockingcollar
 dockingcollar
 dockingcollar
 dockingcollar
-1stclassquarters:350.0:0:-1::-1:0
-crewquarters:1015.0:0:-1::-1:0
-steeragequarters:500.0:0:-1::-1:0
-cargobay:36370.0:4:11::-1:0
+1stclassquarters:350.0:0
+crewquarters:1015.0:0
+steeragequarters:500.0:0
+cargobay:36370.0:4:11
 </transporters>
 
 <SafeThrust>
@@ -86,13 +95,9 @@ cargobay:36370.0:4:11::-1:0
 11
 </armor_type>
 
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
+<armor_tech>
 5
-</armor_tech_level>
+</armor_tech>
 
 <armor>
 91
@@ -244,49 +249,9 @@ IS Ammo MG - Full:100
 73
 </structural_integrity>
 
-<capabilities>
-The Samarkand-class carriers were designed to utilize their large fighter complements to engage enemy DropShips and destroyers. They excelled in their role as carriers and escorts but were not intended for direct frontline combat. However, they were underarmored and outgunned, with vulnerability near the large engine mounts in the limited aft firing arcs. Despite impressive anti-aerospace defenses, the Samarkands could be easily overwhelmed in the absence of sufficient escorts.
-</capabilities>
-
-<overview>
-The Samarkand-class carrier was the brainchild of Coordinator Hehiro Kurita and was fast-tracked into production during the Reunification War. These carriers played a crucial role in boosting the economy of several planets. The Block I Samarkands, including the Benjamin, Dieron, and Alshain, were deployed during the war and later became symbols of the Dragon's prosperity as they supported colonial expansion and delivered supplies and resources.
-</overview>
-
-<history>
-The Samarkand carriers were deployed during the Reunification War, with the first ships, including the Samarkand and Benjamin, entering service in 2581. After the war, the surviving carriers supported the Dragon's economic expansion and became iconic symbols of prosperity. In 2668, newer Block II versions were authorized, taking advantage of advancements in armor and weapons technologies. Many Samarkands served as escorts in the Star League Defense Force but were largely destroyed during the liberation of Terra. Only one Samarkand, the Togura, remains as a museum piece orbiting New Samarkand. During the Succession Wars, the few remaining carriers defended strategic locations along the Lyran and Suns borders but were mostly destroyed. Samarkands were often used in last-ditch delaying tactics to buy time for ground defenders, although they became vulnerable due to limited escorts and shortages of spare parts and fighters.
-</history>
-
-<manufacturer>
-Tengoku no Ken Master Shipwrights Ltd.
-</manufacturer>
-
-<primaryFactory>
-Mizunami
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
 <notes>
 Unit as constructed in TRO: is 4 tons overweight. Removed 4 tons of Cargo to make unit legal.
 </notes>
-
-<use>
-Carrier
-</use>
-
-<length>
-501 m
-</length>
-
-<height>
-967 m Sail
-</height>
 
 <source>
 TR:3075
@@ -345,3 +310,42 @@ TR:3075
 30
 </escape_pod>
 
+<capabilities>
+The Samarkand-class carriers were designed to utilize their large fighter complements to engage enemy DropShips and destroyers. They excelled in their role as carriers and escorts but were not intended for direct frontline combat. However, they were underarmored and outgunned, with vulnerability near the large engine mounts in the limited aft firing arcs. Despite impressive anti-aerospace defenses, the Samarkands could be easily overwhelmed in the absence of sufficient escorts.
+</capabilities>
+
+<overview>
+The Samarkand-class carrier was the brainchild of Coordinator Hehiro Kurita and was fast-tracked into production during the Reunification War. These carriers played a crucial role in boosting the economy of several planets. The Block I Samarkands, including the Benjamin, Dieron, and Alshain, were deployed during the war and later became symbols of the Dragon's prosperity as they supported colonial expansion and delivered supplies and resources.
+</overview>
+
+<history>
+The Samarkand carriers were deployed during the Reunification War, with the first ships, including the Samarkand and Benjamin, entering service in 2581. After the war, the surviving carriers supported the Dragon's economic expansion and became iconic symbols of prosperity. In 2668, newer Block II versions were authorized, taking advantage of advancements in armor and weapons technologies. Many Samarkands served as escorts in the Star League Defense Force but were largely destroyed during the liberation of Terra. Only one Samarkand, the Togura, remains as a museum piece orbiting New Samarkand. During the Succession Wars, the few remaining carriers defended strategic locations along the Lyran and Suns borders but were mostly destroyed. Samarkands were often used in last-ditch delaying tactics to buy time for ground defenders, although they became vulnerable due to limited escorts and shortages of spare parts and fighters.
+</history>
+
+<manufacturer>
+Tengoku no Ken Master Shipwrights Ltd.
+</manufacturer>
+
+<primaryFactory>
+Mizunami
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<use>
+Carrier
+</use>
+
+<length>
+501 m
+</length>
+
+<height>
+967 m Sail
+</height>

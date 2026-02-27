@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Atlas
 model:AS8-K
 mul id:8435
@@ -27,14 +26,17 @@ source:RG24
 rules level:3
 role:Juggernaut
 
+
+
 quirk:battle_fists_la
 quirk:battle_fists_ra
-quirk:distracting
 quirk:command_mech
+quirk:distracting
 quirk:imp_com
 
+
 mass:100
-engine:300 XL Engine
+engine:300 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 cockpit:Standard Cockpit
@@ -189,3 +191,4 @@ systemmanufacturer:ENGINE:Vlar 300 XL
 systemmanufacturer:ARMOR:Durallex Ballistic-Reinforced with CASE II
 systemmanufacturer:COMMUNICATIONS:Sipher Security Plus
 systemmanufacturer:TARGETING:Matabushi Sentinel
+

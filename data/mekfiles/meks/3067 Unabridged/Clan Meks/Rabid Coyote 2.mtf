@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,66 +15,68 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Rabid Coyote
 model:2
 mul id:5682
 
 Config:Biped
-techbase:Clan
-era:3071
-source:RS:3067u
-rules level:2
+TechBase:Clan
+Era:3071
+Rules Level:2
 role:Skirmisher
+source:RS:3067u
 
-quirk:bad_rep_clan
 quirk:imp_target_short
+quirk:bad_rep_clan
 
-mass:55
-engine:275 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:15 Clan Double
-walk mp:5
-jump mp:0
+Mass:55
+Engine:275 XL Fusion Engine
+Structure:Endo-Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:18
-RA armor:18
-LT armor:20
-RT armor:20
-CT armor:27
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:15 Double
+Walk MP:5
+Jump MP:0
 
-Weapons:10
-ER Medium Laser, Left Arm
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-ATM 3, Left Torso
-ATM 3, Left Torso
-ATM 3, Left Torso
-ATM 3, Right Torso
-ATM 3, Right Torso
-ATM 3, Right Torso
+Armor:Standard Armor
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:27
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
+
+Weapons:12
+1 CLECMSuite, Head
+1 CLActiveProbe, Center Torso
+1 CLATM3, Left Torso, Ammo:120
+1 CLATM3, Left Torso
+1 CLATM3, Left Torso
+1 CLATM3, Right Torso
+1 CLATM3, Right Torso
+1 CLATM3, Right Torso
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Left Arm
+1 CLERMediumLaser, Right Arm
+1 CLERMediumLaser, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
@@ -83,56 +85,56 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
+CLDouble Heat Sink
+CLDouble Heat Sink
 CLERMediumLaser
 CLERMediumLaser
-Clan Endo Steel
-Clan Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 
 Left Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 CLATM3
 CLATM3
 CLATM3
 CLATM3
 CLATM3
 CLATM3
-Clan Ammo ATM-3
-Clan Ammo ATM-3 ER
-Clan Ammo ATM-3 HE
-Clan Endo Steel
+CLATM3 Ammo
+CLATM3 ER Ammo
+CLATM3 HE Ammo
+Endo-Steel
 
 Right Torso:
-Fusion Engine
-Fusion Engine
+Engine
+Engine
 CLATM3
 CLATM3
 CLATM3
 CLATM3
 CLATM3
 CLATM3
-Clan Ammo ATM-3
-Clan Ammo ATM-3 ER
-Clan Ammo ATM-3 HE
-Clan Endo Steel
+CLATM3 Ammo
+CLATM3 ER Ammo
+CLATM3 HE Ammo
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 CLActiveProbe
-Clan Endo Steel
+Endo-Steel
 
 Head:
 Life Support
@@ -141,38 +143,19 @@ Cockpit
 CLECMSuite
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+CLDouble Heat Sink
+CLDouble Heat Sink
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink
-CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+CLDouble Heat Sink
+CLDouble Heat Sink

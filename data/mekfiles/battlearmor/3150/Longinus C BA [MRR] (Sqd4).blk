@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -44,9 +53,16 @@ Longinus C Battle Armor
 Mixed (IS Chassis)
 </type>
 
+
+<role>
+Ambusher
+</role>
 <motion_type>
 Jump
 </motion_type>
+
+<transporters>
+</transporters>
 
 <cruiseMP>
 1
@@ -62,9 +78,13 @@ Jump
 
 <Squad Equipment>
 CLBAMedium Recoilless Rifle:RA
+InfantryAssaultRifle:APM
+SwarmMek
+SwarmWeaponMek
+StopSwarm
+LegAttack
 BABattleClaw:LA
 BAAPMount:LA
-InfantryAssaultRifle:APM
 CLAdvancedSRM4OS:Body
 </Squad Equipment>
 
@@ -79,11 +99,6 @@ CLAdvancedSRM4OS:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-
-<slotless_equipment>
-BAJumpJet
-BA-Advanced SRM-4 Ammo:Shots1#
-</slotless_equipment>
 
 <capabilities>
 The Longinus came closest to mimicking the capabilities of the Elemental suit that inspired it, and was thus considered one of the best ever built by the Inner Sphere at the time. It was also revolutionary for carrying an advanced armor composite which almost perfectly matched the Clans' composite on their suits. The 360kg of plating covering the Longinus is enough to withstand a full blast from a Large Laser and keep the trooper wearing it alive. It was also responsible for the tremendous price increase of the suit as new manufacturing processes were required to supply enough of this material.
@@ -113,7 +128,7 @@ Kalidasa,Stewart
 CHASSIS:Unknown
 ENGINE:Unknown
 ARMOR:Unknown
-JUMP_JET:Unknown
+JUMPJET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemManufacturers>

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Longbow
 model:LGB-13C
 mul id:1933
 
 Config:Biped
-techbase:Inner Sphere
-era:3070
+TechBase:Inner Sphere
+Era:3070
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Missile Boat
 
-quirk:no_arms
-quirk:searchlight
+
+
 quirk:anti_air
+quirk:searchlight
 quirk:ubiquitous_is
+quirk:no_arms
 
-mass:85
-engine:340 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:4
-jump mp:0
+Mass:85
+Engine:340 XL Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:21
-RA armor:21
-LT armor:20
-RT armor:20
-CT armor:31
-HD armor:9
-LL armor:27
-RL armor:27
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:21
+RA Armor:21
+LT Armor:20
+RT Armor:20
+CT Armor:31
+HD Armor:9
+LL Armor:27
+RL Armor:27
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:9
 MML 7, Left Arm
@@ -178,8 +180,11 @@ Foot Actuator
 -Empty-
 
 overview:The Longbow, introduced in 2480 as the LGB-0C Longbow, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence.
+
 capabilities:The Longbow is a massive BattleMech weighing in at 85 tons and is able to move at a top speed of 54.0 km/h, thanks to a Strand 255 fusion engine. The Longbow is protected by fourteen and a half tons of armor. Some have criticized the design for its lack of CASE - making an otherwise rugged 'Mech vulnerable to a loss by an ammunition explosion. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for.
+
 deployment:This upgrade of the 12C mounts six Doombud MML 7s, each of which is tied to an Artemis IV FCS. Six tons of CASE-protected ammunition supply these launchers. Three Diverse Optics ER Small Lasers provide paltry backup, though massed short-range missiles coming from the Multi-Missile Launchers are sure to deter smaller 'Mechs. A larger engine brings the 13C to a speed that matches that of the OW.
+
 manufacturer:StarCorps Industries,StarCorps (FWL) Industries,StarCorps Industries,StarCorps Industries
 primaryfactory:Crofton,Emris IV,Fletcher (TH),Loburg
 systemmanufacturer:CHASSIS:StarCorps 100 LGB

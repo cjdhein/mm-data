@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Ambusher
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 3
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 3
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -99,10 +91,9 @@ false
 <Body Equipment>
 Clan Light Machine Gun Ammo - Proto (10)
 CLMyomerBooster
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -120,6 +111,14 @@ CLLightMG
 
 <Legs Equipment>
 </Legs Equipment>
+
+<source>
+TR:3060
+</source>
+
+<tonnage>
+2.0
+</tonnage>
 
 <capabilities>
 The only real advantage it offered over the battle armor was the top speed and size. Because of this it was quickly relegated to anti-infantry work. As a proof of concept however, the Harpy did demonstrate that the ProtoMech (with improvements) could become a viable weapon. After the destruction of Clan Smoke Jaguar, initially just Clan Hell's Horses and Clan Star Adder adopted the Harpy for their use, joined later by Clan Jade Falcon and Clan Fire Mandrill. Capable of jumping 90 meters at a time and can maintain a cruising speed of 32 km/h, adequate for hunting down infantry. Its light armoring - a single shot from a medium laser will punch through the center torso - is also sufficient for resisting most infantry-scale weapons, while its size can be intimidating to most troopers.
@@ -149,16 +148,7 @@ Unknown
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3060
-</source>
-
-<tonnage>
-2.0
-</tonnage>
-

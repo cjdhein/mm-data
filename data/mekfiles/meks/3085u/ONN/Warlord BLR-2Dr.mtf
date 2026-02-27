@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,52 +15,54 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Warlord
 model:BLR-2Dr
 mul id:3510
 
 Config:Biped
-techbase:Inner Sphere
-era:3078
+TechBase:Inner Sphere
+Era:3078
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
+
 
 quirk:easy_maintain
 
-mass:80
-engine:320 Fusion Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
 
-heat sinks:16 IS Double
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 Fusion Engine
+Structure:Endo Steel
+Myomer:Triple-Strength
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:26
-RT armor:26
-CT armor:38
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:7
-RTR armor:7
-RTC armor:7
+Heat Sinks:16 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:26
+RA Armor:26
+LT Armor:26
+RT Armor:26
+CT Armor:38
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:7
+RTR Armor:7
+RTC Armor:7
 
 Weapons:9
-Heavy PPC, Left Arm
+ER Medium Laser, Left Torso
+ER Medium Laser, Left Torso
+ER Medium Laser, Right Torso
+ER Medium Laser, Right Torso
 ER PPC, Right Arm
 Medium Laser, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
-ER Medium Laser, Right Torso
-ER Medium Laser, Right Torso
 Medium Pulse Laser, Center Torso
 Small Pulse Laser, Center Torso
+Heavy PPC, Left Arm
 
 Left Arm:
 Shoulder
@@ -71,10 +73,10 @@ Heavy PPC
 Heavy PPC
 Heavy PPC
 Heavy PPC
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+TSM
+TSM
+TSM
 
 Right Arm:
 Shoulder
@@ -85,10 +87,10 @@ ISERPPC
 ISERPPC
 ISERPPC
 Medium Laser
-IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+Endo Steel
+TSM
+TSM
+TSM
 
 Left Torso:
 ISDoubleHeatSink
@@ -99,10 +101,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 ISDoubleHeatSink
@@ -113,10 +115,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -151,8 +153,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +167,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

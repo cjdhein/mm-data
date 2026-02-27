@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flamberge
 model:C
 mul id:1118
 
-Config:Biped OmniMek
-techbase:Clan
-era:3077
+Config:Biped Omnimech
+TechBase:Clan
+Era:3077
 source:TR:3085
-rules level:3
+Rules Level:3
 role:Missile Boat
 
 quirk:imp_target_med
 
-mass:70
-engine:280 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:17 Clan Double
-base chassis heat sinks:11
-walk mp:4
-jump mp:0
+Mass:70
+Engine:280 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:20
-RT armor:20
-CT armor:31
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:17 Double
+Base Chassis Heat Sinks:11
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:22
+RA Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:31
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:8
 SRM 6, Left Arm
@@ -60,31 +60,31 @@ ER Large Laser, Right Arm
 Medium Pulse Laser, Right Arm
 Arrow IV, Center Torso
 ER Medium Laser, Right Torso
-TAG, Right Torso
+Clan TAG, Right Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 CLSRM6
-CLMediumPulseLaser (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
-CLArrowIVAmmo (OMNIPOD)
-CLArrowIVAmmo (OMNIPOD)
-CLArrowIVHomingAmmo (OMNIPOD)
+CLMediumPulseLaser (omnipod)
+Clan Ammo SRM-6 (omnipod)
+CLArrowIVAmmo (omnipod)
+CLArrowIVAmmo (omnipod)
+CLArrowIVHomingAmmo (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 CLSRM6
-CLERLargeLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
+CLERLargeLaser (omnipod)
+CLMediumPulseLaser (omnipod)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -93,28 +93,28 @@ Clan Endo Steel
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-CLTAG (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERMediumLaser (omnipod)
+CLTAG (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 
@@ -129,8 +129,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-CLArrowIV (OMNIPOD)
-CLArrowIV (OMNIPOD)
+CLArrowIV (omnipod)
+CLArrowIV (omnipod)
 
 Head:
 Life Support
@@ -151,8 +151,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -165,12 +165,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

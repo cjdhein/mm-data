@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,19 +15,21 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Albatross
 model:C 'Sooty Albatross'
 mul id:9508
-
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3148
 source:Shrap13
 rules level:2
+role:Sniper
 
-quirk:imp_target_long
+
+
 quirk:easy_maintain
+quirk:imp_target_long
+
 
 mass:95
 engine:380 XL Engine(IS)
@@ -54,11 +56,11 @@ RTR armor:12
 RTC armor:12
 
 Weapons:6
-Gauss Rifle, Left Arm
 ER Large Pulse Laser, Right Arm
 ER Medium Laser, Right Arm
 ER Medium Laser, Right Arm
 Plasma Cannon, Left Torso
+Gauss Rifle, Left Arm
 ATM 9, Right Torso
 
 Left Arm:
@@ -184,3 +186,4 @@ systemmanufacturer:ENGINE:GM 380 XL
 systemmanufacturer:ARMOR:Jolassa 328 Ferro-Fibrous with CASE II
 systemmanufacturer:COMMUNICATIONS:Irian Technologies HMR-35s
 systemmanufacturer:TARGETING:Omicron TrackerKeeper
+

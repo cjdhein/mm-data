@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,10 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Hellion
 model:T
 mul id:8326
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3142
 source:RG20
@@ -29,8 +27,9 @@ role:Striker
 
 quirk:weak_head_1
 
+
 mass:30
-engine:210 XL (Clan) Engine
+engine:210 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -184,3 +183,4 @@ systemmanufacturer:ENGINE:210 XL
 systemmanufacturer:ARMOR:Compound Gamma Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:HCFA 3035 3.0
 systemmanufacturer:TARGETING:HCFA 3047 1.5
+

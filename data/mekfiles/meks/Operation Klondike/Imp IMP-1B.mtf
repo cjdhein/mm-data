@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,123 +15,126 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Imp
 model:IMP-1B
 mul id:1608
 
 Config:Biped
-techbase:Inner Sphere
-era:2821
-source:His:OK
-rules level:2
+TechBase:Inner Sphere
+Era:2821
+Rules Level:2
 role:Juggernaut
+source:His:OK
 
-quirk:difficult_maintain
+
+
 quirk:command_mech
+quirk:difficult_maintain
 
-mass:100
-engine:300 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:19 IS Double
-walk mp:3
-jump mp:0
+Mass:100
+Engine:300 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:33
-RA armor:33
-LT armor:30
-RT armor:30
-CT armor:40
-HD armor:9
-LL armor:42
-RL armor:42
-RTL armor:12
-RTR armor:12
-RTC armor:21
+Heat Sinks:19 Double
+Walk MP:3
+Jump MP:0
 
-Weapons:9
-Medium Laser, Left Arm
-LRM 20, Right Arm
-ER PPC, Left Torso
-Medium Laser, Left Torso
-ER PPC, Right Torso
-Medium Laser, Right Torso
-Medium Laser, Center Torso
-Medium Laser, Center Torso
-Medium Pulse Laser, Head
+Armor:Standard Armor
+LA Armor:33
+RA Armor:33
+LT Armor:30
+RT Armor:30
+CT Armor:40
+HD Armor:9
+LL Armor:42
+RL Armor:42
+RTL Armor:12
+RTR Armor:12
+RTC Armor:21
+
+Weapons:10
+1 ISERPPC, Right Torso
+1 ISERPPC, Left Torso
+1 ISLRM20, Right Arm, Ammo:18
+1 ISMediumLaser, Center Torso
+1 ISMediumLaser, Left Torso
+1 ISMediumLaser, Center Torso
+1 ISMediumLaser, Left Arm
+1 ISMediumLaser, Right Torso
+1 ISGuardianECM, Right Torso
+1 ISMediumPulseLaser, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-Medium Laser
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISMediumLaser
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-LRM 20
-LRM 20
-LRM 20
-LRM 20
-LRM 20
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISLRM20
+ISLRM20
+ISLRM20
+ISLRM20
+ISLRM20
 ISArtemisIV
 
 Left Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
-Medium Laser
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
-IS Ammo LRM-20 Artemis-capable
+ISMediumLaser
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
+ISLRM20 Ammo Artemis-capable
 ISCASE
 -Empty-
 
 Right Torso:
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
-ISDoubleHeatSink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
+ISDouble Heat Sink
 ISERPPC
 ISERPPC
 ISERPPC
-Medium Laser
-ISGuardianECMSuite
-ISGuardianECMSuite
+ISMediumLaser
+ISGuardianECM
+ISGuardianECM
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Medium Laser
-Medium Laser
+Engine
+Engine
+Engine
+ISMediumLaser
+ISMediumLaser
 
 Head:
 Life Support
@@ -140,24 +143,12 @@ Cockpit
 ISMediumPulseLaser
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 -Empty-
 -Empty-
 
@@ -168,10 +159,3 @@ Lower Leg Actuator
 Foot Actuator
 -Empty-
 -Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

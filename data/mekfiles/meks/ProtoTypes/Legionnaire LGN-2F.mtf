@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,51 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Legionnaire
 model:LGN-2F
 mul id:4491
 
 Config:Biped
-techbase:Inner Sphere
-era:3077
-source:TR:Proto
-rules level:4
+TechBase:Inner Sphere
+Era:3077
+Rules Level:4
 role:Striker
+Source:TR:Proto
 
-quirk:imp_target_med
+
+
 quirk:easy_maintain
+quirk:imp_target_med
 weaponquirk:exposed_linkage:RT:4:ISRotaryAC5
 
-mass:50
-engine:350 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Torso-Mounted Cockpit
-gyro:Standard Gyro
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:0
+Mass:50
+Engine:350 XL Fusion Engine
+Structure:Endo-Steel
+Cockpit:Torso-Mounted Cockpit
+Myomer:Standard
 
-armor:Reflective(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:0
+
+Armor:Reflective
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:3
-ER Medium Laser, Left Arm
-ER Medium Laser, Right Arm
-Rotary AC/5, Right Torso
+1 ISERMediumLaser, Right Arm
+1 ISRotaryAC5, Right Torso, Ammo:60
+1 ISERMediumLaser, Left Arm
 
 Left Arm:
 Shoulder
@@ -66,11 +67,11 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Reflective
-IS Reflective
-IS Reflective
-IS Reflective
-IS Reflective
+Reflective
+Reflective
+Reflective
+Reflective
+Reflective
 -Empty-
 -Empty-
 
@@ -80,68 +81,62 @@ Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
-IS Reflective
-IS Reflective
-IS Reflective
-IS Reflective
-IS Reflective
+Reflective
+Reflective
+Reflective
+Reflective
+Reflective
 -Empty-
 -Empty-
 
 Left Torso:
+Engine
+Engine
+Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Right Torso:
+Engine
+Engine
+Engine
 Life Support
-Fusion Engine
-Fusion Engine
-Fusion Engine
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
 ISRotaryAC5
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Cockpit
 Sensors
 
 Head:
 Sensors
 Sensors
-ISRotaryAC5 Ammo
-ISRotaryAC5 Ammo
-ISRotaryAC5 Ammo
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+IS Rotary AC/5 Ammo
+IS Rotary AC/5 Ammo
+IS Rotary AC/5 Ammo
 -Empty-
 
 Left Leg:
@@ -149,26 +144,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+Endo-Steel
+Endo-Steel
 
 Right Leg:
 Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-
+Endo-Steel
+Endo-Steel

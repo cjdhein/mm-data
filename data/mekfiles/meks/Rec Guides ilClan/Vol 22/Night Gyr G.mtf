@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Night Gyr
 model:G
 mul id:8399
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3144
 source:RG22
@@ -29,8 +28,9 @@ role:Sniper
 
 quirk:difficult_maintain
 
+
 mass:75
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -53,13 +53,13 @@ RTR armor:10
 RTC armor:10
 
 Weapons:7
-ER PPC, Left Arm
-LB 5-X AC, Left Arm
 ER PPC, Right Arm
+ER PPC, Left Arm
 LB 5-X AC, Right Arm
-ER Flamer, Left Torso
-ER Flamer, Right Torso
+LB 5-X AC, Left Arm
 ER Flamer, Head
+ER Flamer, Right Torso
+ER Flamer, Left Torso
 
 Left Arm:
 Shoulder
@@ -128,7 +128,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Supercharger (OMNIPOD)
+Supercharger (Clan) (OMNIPOD)
 -Empty-
 
 Head:
@@ -185,3 +185,4 @@ systemmanufacturer:ARMOR:Compound JF Ferro Fibrous
 systemmanufacturer:JUMP_JET:JF Standard
 systemmanufacturer:COMMUNICATIONS:JF 3048 Series II
 systemmanufacturer:TARGETING:Ironhold Mk II
+

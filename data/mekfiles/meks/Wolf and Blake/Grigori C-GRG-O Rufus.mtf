@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grigori
 model:C-GRG-O (Rufus)
 mul id:1318
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3071
-source:SB:W&B
-rules level:4
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3071
+Source:SB:W&B
+Rules Level:4
 role:Skirmisher
 
-quirk:bad_rep_is
-quirk:bad_rep_clan
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:bad_rep_clan
+quirk:bad_rep_is
 
-mass:60
-engine:240 Light Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Small Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-base chassis heat sinks:9
-walk mp:4
-jump mp:4
+Mass:60
+Engine:240 Light Engine(IS)
+Structure:IS Standard
+Myomer:Standard
+Cockpit:Small Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:19
-RA armor:19
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:9
+Walk MP:4
+Jump MP:4
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:19
+RA Armor:19
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:5
 MML 7, Left Arm
@@ -70,22 +72,22 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISArtemisIV (OMNIPOD)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISArtemisIV (omnipod)
 -Empty-
 -Empty-
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISMML7 (OMNIPOD)
-ISArtemisIV (OMNIPOD)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISMML7 (omnipod)
+ISArtemisIV (omnipod)
 IS Light Ferro-Fibrous
 IS Light Ferro-Fibrous
 IS Light Ferro-Fibrous
@@ -97,24 +99,24 @@ Fusion Engine
 Fusion Engine
 ISC3iUnit
 ISC3iUnit
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-ISERSmallLaser (R) (OMNIPOD)
-IS Ammo MML-7 SRM Artemis-capable (OMNIPOD)
-IS Ammo MML-7 LRM Artemis-capable (OMNIPOD)
-IS Ammo MML-7 LRM Artemis-capable (OMNIPOD)
-ISCASE (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+ISERSmallLaser (R) (omnipod)
+IS Ammo MML-7 SRM Artemis-capable (omnipod)
+IS Ammo MML-7 LRM Artemis-capable (omnipod)
+IS Ammo MML-7 LRM Artemis-capable (omnipod)
+ISCASE (omnipod)
 -Empty-
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-Supercharger (OMNIPOD)
-Light PPC (OMNIPOD)
-Light PPC (OMNIPOD)
-PPC Capacitor (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+Supercharger (omnipod)
+Light PPC (omnipod)
+Light PPC (omnipod)
+PPC Capacitor (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -139,8 +141,8 @@ Life Support
 Sensors
 Cockpit
 Sensors
-ISMediumVSPLaser (OMNIPOD)
-ISMediumVSPLaser (OMNIPOD)
+ISMediumVSPLaser (omnipod)
+ISMediumVSPLaser (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -177,9 +179,13 @@ IS Light Ferro-Fibrous
 -Empty-
 
 overview:The Grigori is one of the Word of Blake's new Celestial series OmniMechs designed by Doctor Devon Cortland.
+
 capabilities:It is constructed on a standard chassis, but makes use of eleven tons of Light Ferro-Fibrous armor, a light fusion engine, and an XL Gyro; as well as the small cockpit that is common to all of the Celestials. Like the other Celestials, the Grigori has a C3i Computer to help direct its fire.
+
 deployment:Based on the Infernus, the custom config of Opacus Venatori member Rufus Black Bear retains the paired Artemis enhanced Independence 9SL MML 7s and rear facing Diverse Optics ER Small Laser but swaps the Plasma Rifle and Medium Pulse Laser for a Kinslaughter-4 Light PPC with a C4 PPC Capacitor and a Ramtech 5500V Medium Variable Speed Pulse Laser, replacing the Plasma ammo with an extra ton of missile reloads.
+
 history:The Grigori (named after fallen angels from Christianity) was added to the Word of Blake Militia's arsenal in late 3069 as Doctor Cortland oversaw the final production personally.
+
 manufacturer:Gibson Federated BattleMechs, Martinson Armaments
 primaryfactory:Gibson (Gibson Federated), Terra (Martinson)
 systemmanufacturer:CHASSIS:Celestial Series GG1

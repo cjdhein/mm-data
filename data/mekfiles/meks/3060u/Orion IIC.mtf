@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,48 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Orion IIC
 model:
 mul id:2340
 
 Config:Biped
-techbase:Clan
-era:2841
-source:TR:3060
-rules level:2
+TechBase:Clan
+Era:2841
+Source:TR:3060
+Rules Level:2
 role:Sniper
 
-quirk:easy_maintain
+
 quirk:anti_air
+quirk:easy_maintain
 quirk:rugged_1
 
-mass:75
-engine:300 Fusion (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 Fusion (Clan) Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:24
-RA armor:24
-LT armor:22
-RT armor:22
-CT armor:34
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:10
-RTR armor:10
-RTC armor:11
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:22
+RT Armor:22
+CT Armor:34
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:10
+RTR Armor:10
+RTC Armor:11
 
 Weapons:5
-LRM 20, Left Arm
 ER Large Laser, Left Arm
+LRM 20, Left Arm
 ER Large Laser, Right Arm
 SRM 4, Left Torso
 Gauss Rifle, Right Torso
@@ -94,12 +95,12 @@ Clan Ammo LRM-20
 Clan Ammo LRM-20
 Clan Ammo LRM-20
 Clan Ammo SRM-4
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -111,10 +112,10 @@ CLGaussRifle
 CLGaussRifle
 Clan Gauss Ammo
 Clan Gauss Ammo
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
-Clan Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -149,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -163,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Clan Ferro-Fibrous
-Clan Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

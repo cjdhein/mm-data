@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:St. Florian
 model:FLN-366-M FireMech MOD
 mul id:7826
@@ -25,13 +24,13 @@ techbase:Inner Sphere
 era:3133
 source:TR:I
 rules level:3
-role:None
-
+role:Ambusher
 
 mass:90
-engine:270 Fusion Engine
+engine:270 Fusion Engine(IS)
 structure:IS Industrial
 myomer:Standard
+gyro:Standard Gyro
 
 heat sinks:12 Single
 walk mp:3
@@ -180,3 +179,4 @@ systemmanufacturer:ENGINE:GM 270 Fusion
 systemmanufacturer:ARMOR:Lang Heavy Industrial
 systemmanufacturer:COMMUNICATIONS:Hector VII
 systemmanufacturer:TARGETING:Starlight LX-1
+

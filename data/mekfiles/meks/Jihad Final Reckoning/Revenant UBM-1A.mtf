@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Revenant
 model:UBM-1A
 mul id:4911
-
 Config:Quad
 techbase:Inner Sphere
 era:3075
 source:JFR
 rules level:3
+role:Striker
+
+
+
 
 quirk:imp_com
 
+
 mass:30
-engine:180 Fusion Engine
+engine:180 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -52,14 +55,14 @@ RTR armor:4
 RTC armor:6
 
 Weapons:8
-Medium Pulse Laser, Left Torso
 ER Medium Laser, Left Torso
 Light Machine Gun, Left Torso
 Light Machine Gun, Left Torso
-Medium Pulse Laser, Right Torso
 ER Medium Laser, Right Torso
 Light Machine Gun, Right Torso
 Light Machine Gun, Right Torso
+Medium Pulse Laser, Left Torso
+Medium Pulse Laser, Right Torso
 
 Front Left Leg:
 Hip
@@ -172,4 +175,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

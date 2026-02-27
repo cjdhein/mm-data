@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Highlander
 model:HGN-732 (Colleen)
 mul id:4323
@@ -27,13 +26,16 @@ source:His:OK
 rules level:4
 role:Juggernaut
 
-quirk:difficult_eject
-quirk:cowl
+
+
 quirk:command_mech
+quirk:cowl
 quirk:reinforced_legs
+quirk:difficult_eject
+
 
 mass:90
-engine:270 Fusion Engine
+engine:270 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -186,3 +188,4 @@ systemmanufacturer:ARMOR:Grumman-3 Ferro Fibrous with CASE
 systemmanufacturer:JUMP_JET:HildCo Model 10
 systemmanufacturer:COMMUNICATIONS:Hector VII
 systemmanufacturer:TARGETING:Starlight LX-1
+

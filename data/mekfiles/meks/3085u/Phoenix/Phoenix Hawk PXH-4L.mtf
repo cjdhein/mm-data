@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-4L
 mul id:2503
@@ -27,19 +26,22 @@ source:TR:PP
 rules level:2
 role:Striker
 
+
+
 quirk:command_mech
+quirk:imp_com
 quirk:ubiquitous_clan
 quirk:ubiquitous_is
-quirk:imp_com
 weaponquirk:jettison_capable:RA:4:ISERLargeLaser
 
+
 mass:45
-engine:270 Fusion Engine
+engine:270 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 ejection:Full Head Ejection System
 
-heat sinks:11 IS Double
+heat sinks:11 Double
 walk mp:6
 jump mp:6
 
@@ -174,4 +176,5 @@ IS Stealth
 -Empty-
 -Empty-
 -Empty-
+
 

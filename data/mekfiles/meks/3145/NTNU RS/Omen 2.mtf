@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Omen
 model:2
 mul id:6853
 
 Config:Biped
-techbase:Clan
-era:3141
-source:RS:3145-NTNU
-rules level:3
+TechBase:Clan
+Era:3141
+Source:RS:3145-NTNU
+Rules Level:3
 role:Juggernaut
 
-quirk:rugged_1
 quirk:pro_actuator
+quirk:rugged_1
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 Clan Double
-walk mp:3
-jump mp:3
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:28
-RA armor:28
-LT armor:25
-RT armor:25
-CT armor:40
-HD armor:9
-LL armor:36
-RL armor:36
-RTL armor:11
-RTR armor:11
-RTC armor:14
+Heat Sinks:15 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:28
+RA Armor:28
+LT Armor:25
+RT Armor:25
+CT Armor:40
+HD Armor:9
+LL Armor:36
+RL Armor:36
+RTL Armor:11
+RTR Armor:11
+RTC Armor:14
 
 Weapons:6
-Large Pulse Laser, Left Arm
-Medium Pulse Laser, Left Arm
-LB 10-X AC, Right Arm
+AMS, Head
 ER Medium Laser, Right Arm
 ATM 9, Left Torso
-Anti-Missile System, Head
+LB 10-X AC, Right Arm
+Large Pulse Laser, Left Arm
+Medium Pulse Laser, Left Arm
 
 Left Arm:
 Shoulder
@@ -99,8 +99,8 @@ CLATM9
 CLATM9
 Clan Ammo ATM-9
 Clan Ammo ATM-9
-HarJel Repair Systems (HarJel III)
-HarJel Repair Systems (HarJel III)
+HarJel III Self-Repair System
+HarJel III Self-Repair System
 
 Right Torso:
 Fusion Engine
@@ -109,8 +109,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 Jump Jet
 CLAMS Ammo
-HarJel Repair Systems (HarJel III)
-HarJel Repair Systems (HarJel III)
+HarJel III Self-Repair System
+HarJel III Self-Repair System
 -Empty-
 -Empty-
 -Empty-
@@ -127,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-HarJel Repair Systems (HarJel III)
-HarJel Repair Systems (HarJel III)
+HarJel III Self-Repair System
+HarJel III Self-Repair System
 
 Head:
 Life Support
@@ -171,4 +171,6 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
+imagefile:.\data\images\fluff\Mech\3085Omen.jpg
 

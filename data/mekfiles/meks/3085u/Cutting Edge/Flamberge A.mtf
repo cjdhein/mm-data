@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Flamberge
 model:A
 mul id:1116
 
-Config:Biped OmniMek
-techbase:Clan
-era:3077
+Config:Biped Omnimech
+TechBase:Clan
+Era:3077
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Skirmisher
 
 quirk:imp_target_med
 
-mass:70
-engine:280 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:15 Clan Double
-base chassis heat sinks:11
-walk mp:4
-jump mp:5
+Mass:70
+Engine:280 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:22
-RA armor:22
-LT armor:20
-RT armor:20
-CT armor:31
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:15 Double
+Base Chassis Heat Sinks:11
+Walk MP:4
+Jump MP:5
+
+Armor:Standard(Clan)
+LA Armor:22
+RA Armor:22
+LT Armor:20
+RT Armor:20
+CT Armor:31
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:6
 Large Pulse Laser, Left Arm
@@ -63,13 +63,13 @@ SRM 6, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
 CLSRM6
-Clan Ammo SRM-6 (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
+Clan Ammo SRM-6 (omnipod)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -77,12 +77,12 @@ Clan Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 CLSRM6
-Clan Ammo SRM-6 (OMNIPOD)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -91,11 +91,11 @@ Clan Endo Steel
 Left Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-CLSRM6 (OMNIPOD)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+CLSRM6 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -105,14 +105,14 @@ CLSRM6 (OMNIPOD)
 Right Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-CLSRM6 (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
-CLTargeting Computer (OMNIPOD)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+CLSRM6 (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
+CLTargeting Computer (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 
@@ -127,8 +127,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
 
 Head:
 Life Support
@@ -149,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -163,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLDoubleHeatSink (OMNIPOD)
-CLDoubleHeatSink (OMNIPOD)
+CLDoubleHeatSink (omnipod)
+CLDoubleHeatSink (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -173,9 +173,13 @@ CLDoubleHeatSink (OMNIPOD)
 -Empty-
 
 overview:Initially a Partial Wing test-bed, the Flamberge became a prominent Clan Jade Falcon OmniMech, helping to inspire the Falcon's Dark Age era design style aesthetic.
+
 capabilities:Built on an Endo Steel chassis, powered by a 280 rated XL Engine, and clad in thirteen and a half tons of armor, while slower than other front-line OmniMechs of similar weight, the bulk of the Flamberge's variants feature Jump Jets and the design was built with them in mind. Mounting eleven double heat sinks on its base frame, the design had thirty-five tons of available pod space.
-deployment:Built around an ER PPC and a Large Pulse Laser, with both weapons linked to a Targeting Computer, the Flamberge A was a deadly accurate skirmisher. Five Improved Jump Jets, two tons of reloads for the fixed SRM launchers and four extra heat sinks gave it good endurance and maneuverability.
+
+deployment:Built around an ER PPC and a Large Pulse Laser, with both weapons linked to a Targeting Computer, the Flamberge A was a deadly accurate skirmisher. Five Improved Jump Jets, two tons of reloads for the fixed SRM launchers and four extra heat sinks gave it good endurance and maneuverability. 
+
 history:Developing the experimental Partial Wing technology in the 3060s, attempts by the Falcon scientists to develop a new production design using it were unsuccessful and the project was ultimately shelved. Cut-off from the Clan Homeworlds as losses mounted in the Jihad, in 3074 then Khan Marthe Pryde tasked Merchant Daniel and the Falcon design teams to use whatever was available to rebuild her forces. After removing much of the internal components of the wings, retaining the inbuilt Pattern J7 SRM-6 launchers in the shoulders to avoid further delays, the reborn test-bed featured an imposing bird-like cosmetic appearance that helped the Flamberge secure a prominent position in the Clan Jade Falcon Touman.
+
 manufacturer:Olivetti Weaponry
 primaryfactory:Sudeten
 systemmanufacturer:CHASSIS:JF 7 Light Endo Steel

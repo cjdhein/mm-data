@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Men Shen
 model:(Li)
 mul id:6981
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3068
-source:BD:YZ
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3068
+Source:BD:YZ
+Rules Level:2
 role:Striker
 
-quirk:exp_actuator
-quirk:imp_sensors
+
+
 quirk:imp_com
+quirk:imp_sensors
+quirk:exp_actuator
 
-mass:55
-engine:330 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-base chassis heat sinks:10
-walk mp:6
-jump mp:0
+Mass:55
+Engine:330 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:26
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:6
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:26
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:5
 Medium Pulse Laser, Left Arm
@@ -64,8 +66,8 @@ LRM 15, Right Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-ISMediumPulseLaser (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
+ISMediumPulseLaser (omnipod)
+ISMediumPulseLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -78,8 +80,8 @@ IS Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-ISMediumPulseLaser (OMNIPOD)
-ISMediumPulseLaser (OMNIPOD)
+ISMediumPulseLaser (omnipod)
+ISMediumPulseLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -107,11 +109,11 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-LRM 15 (OMNIPOD)
-LRM 15 (OMNIPOD)
-LRM 15 (OMNIPOD)
-ISArtemisIV (OMNIPOD)
-IS Ammo LRM-15 Artemis-capable (OMNIPOD)
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+ISArtemisIV (omnipod)
+IS Ammo LRM-15 Artemis-capable (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -172,4 +174,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

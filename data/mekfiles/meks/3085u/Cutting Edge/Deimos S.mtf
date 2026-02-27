@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Deimos
 model:S
 mul id:857
 
-Config:Biped OmniMek
-techbase:Clan
-era:3086
+Config:Biped Omnimech
+TechBase:Clan
+Era:3086
 source:TR:3085S
-rules level:2
+Rules Level:2
 role:Sniper
 
 quirk:anti_air
 
-mass:85
-engine:255 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:14 Clan Double
-base chassis heat sinks:10
-walk mp:3
-jump mp:4
+Mass:85
+Engine:255 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:28
-RT armor:28
-CT armor:36
-HD armor:9
-LL armor:28
-RL armor:28
-RTL armor:8
-RTR armor:8
-RTC armor:11
+Heat Sinks:14 Double
+Base Chassis Heat Sinks:10
+Walk MP:3
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:28
+RT Armor:28
+CT Armor:36
+HD Armor:9
+LL Armor:28
+RL Armor:28
+RTL Armor:8
+RTR Armor:8
+RTC Armor:11
 
 Weapons:9
 Ultra AC/10, Left Arm
@@ -61,18 +61,18 @@ ER Large Laser, Right Arm
 Small Pulse Laser, Right Arm
 ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
-Anti-Missile System, Head
+AMS, Head
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLSmallPulseLaser (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLERLargeLaser (omnipod)
+CLSmallPulseLaser (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -80,13 +80,13 @@ Clan Endo Steel
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLUltraAC10 (OMNIPOD)
-CLERLargeLaser (OMNIPOD)
-CLSmallPulseLaser (OMNIPOD)
-Clan Ultra AC/10 Ammo (OMNIPOD)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLUltraAC10 (omnipod)
+CLERLargeLaser (omnipod)
+CLSmallPulseLaser (omnipod)
+Clan Ultra AC/10 Ammo (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -98,22 +98,22 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
 CLERMediumLaser
-Clan Ultra AC/10 Ammo (OMNIPOD)
+Clan Ultra AC/10 Ammo (omnipod)
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
-Improved Jump Jet (OMNIPOD)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
+Clan Improved Jump Jet (omnipod)
 CLERMediumLaser
-Clan Ultra AC/10 Ammo (OMNIPOD)
+Clan Ultra AC/10 Ammo (omnipod)
 CLMASC
 CLMASC
 CLMASC
@@ -131,7 +131,7 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 CLAMS Ammo
-Liquid Storage (OMNIPOD):SIZE:1.0
+Liquid Storage (1 ton) (omnipod)
 
 Head:
 Life Support
@@ -175,10 +175,14 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-overview:The Deimos is a Clan Assault OmniMech, which was developed by Clan Snow Raven.
+overview:The Deimos is a Clan Assault OmniMech, which was developed by Clan Snow Raven. 
+
 capabilities:The 85-tonner is powered by a Type 255-rated Extralight Fusion Engine, which it shares with the second-line Assault 'Mech, the Omen. Fourteen Double Heat Sinks are fitted to mitigate any heat issues that the 'Mech's systems may generate. Because its top speed is slower than more typical OmniMechs of the same size, engineers installed a MASC system, which allows the Deimos to go marginally faster and keep up with comparable older designs. The 'Mech is protected by 14.5 tons of Standard Armor, where it again differs from more typical contemporaries. Aside from its 43-ton equipment capacity, the 'Mech has a few permanently mounted weapons. These include two ER Medium Lasers, one assigned to each of the 'Mech's side torsos. To provide protection from inbound missile fire, an Anti-Missile System is mounted in the Deimos' head. The single ton of ammunition for the AMS is located in the center torso.
+
 deployment:The S Configuration is specifically designed to meet the Ravens' need for a space-based 'Mech developed in 3086. The S configuration is almost identical to the "C" configuration with the exception of the ECM suite, which is now replaced with a Liquid Tank. The tank serves as an internal fuel tank.
+
 history:The 'Mech was first introduced during the middle of the 3060s, allegedly on the Kerensky Cluster world of Lum. However, Inner Sphere intelligence agencies stopped hearing rumors about the 'Mech during the Jihad and it faded from memory. In 3085, the Snow Ravens revealed the existence of the Deimos to the Inner Sphere. It was produced on the Clan's Inner Sphere world, Dante. When it first appeared in the Inner Sphere, the Deimos was considered the pride of the Clan and at least one was assigned to every cluster within the Snow Raven touman.
+
 manufacturer:Snow Raven Industrial Complex Alpha
 primaryfactory:Dante
 systemmanufacturer:CHASSIS:Model MHO-14E Endo-Steel
@@ -186,3 +190,5 @@ systemmanufacturer:ENGINE:Type 255 Extralight
 systemmanufacturer:ARMOR:Longanecker PlastiSteel
 systemmanufacturer:COMMUNICATIONS:TDWS-37 Mk. 2.2
 systemmanufacturer:TARGETING:Hermes CT-44
+
+

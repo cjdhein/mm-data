@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Kontio
 model:
 mul id:8352
@@ -27,9 +26,11 @@ source:RG21
 rules level:2
 role:Striker
 
-quirk:bad_rep_is
+
 quirk:distracting
 quirk:bad_rep_clan
+quirk:bad_rep_is
+
 
 mass:40
 engine:280 XL (Clan) Engine
@@ -113,7 +114,7 @@ CLMediumPulseLaser
 CLERSmallLaser
 CLERSmallLaser
 CLERSmallLaser
-Supercharger
+Supercharger (Clan)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -183,3 +184,4 @@ systemmanufacturer:ENGINE:280 Fusion XL
 systemmanufacturer:ARMOR:Hellespont Lite Stealth
 systemmanufacturer:COMMUNICATIONS:Garret L20
 systemmanufacturer:TARGETING:RCA Instatrac Mark IX
+

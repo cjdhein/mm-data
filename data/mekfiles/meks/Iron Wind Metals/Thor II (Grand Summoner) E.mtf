@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,23 +15,25 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Thor II
 clanname:Grand Summoner
 model:E
 mul id:7426
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3093
 source:Iron Wind Metals
 rules level:2
 role:Sniper
 
+
+
 quirk:imp_com
 
+
 mass:70
-engine:350 XL (Clan) Engine
+engine:350 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -171,9 +173,13 @@ Foot Actuator
 -Empty-
 
 overview:The Thor II is a Heavy Class Clan OmniMech which was first produced by Clan Jade Falcon during the early years of the thirty-second century.
+
 capabilities:The Thor II shares some similarities to its predecessor, such as the same size XL Fusion Engine, and physical appearance. What differs from the older design is its Pod Capacity; the Thor II has a 30.5 ton capacity over the older model's 22.5. This increase of capacity comes from the reshuffling of the 'Mech's internal components and dropping the original's permanently-mounted Jump Jets from the design. The Thor II's armor protection is slightly greater than the original, with half a ton more.
-deployment:Equipped with Improved Jump Jets for greater mobility, two ER PPC allow it to slug it out at range.
+
+deployment:Equipped with Improved Jump Jets for greater mobility, two ER PPC allow it to slug it out at range. 
+
 history:Initially produced by the Eagle Craft Group on Erewhon in the Inner Sphere, the Thor II (also known by the Clan as the Grand Summoner) proved to be a highly reliable replacement for the original Thor OmniMech. The design would soon be traded among other Inner Sphere Clans and became popular among their Warrior castes. One of the 'Mech's most noted actions was during Clan Wolf's Trial of Possession for then Clan Diamond Shark's entire Swimmer Khanate’s Beta Aimag. The flotilla’s commanders were able to bid down the Clan Wolf commander to a Cluster’s worth of forces on the world of Feltre. The Thor II's performance in the hands of Diamond Shark MechWarriors in this difficult terrain helped to turn the tide of battle and resulted in winning the Trial. Clan Jade Falcon first produced the Thor II as a distinct symbol of honor. This 'Mech is painted yearly in the parade scheme of a unit chosen by the Clan's Khan as part of tradition of honoring Clusters who had performed services honoring the Clan.
+
 manufacturer:Eagle Craft Group
 primaryfactory:Erewhon
 systemmanufacturer:CHASSIS:Olivetti T4 Endo Steel
@@ -181,3 +187,4 @@ systemmanufacturer:ENGINE:Magna 350 XL
 systemmanufacturer:ARMOR:Compound Beta FF
 systemmanufacturer:COMMUNICATIONS:Model J-D 067
 systemmanufacturer:TARGETING:Hawkeye 58
+

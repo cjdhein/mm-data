@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Buccaneer
 model:BCN-6PX 'Pan'
 mul id:8379
@@ -27,15 +26,16 @@ source:XTR:Royal Fantasy
 rules level:3
 role:Skirmisher
 
-quirk:bad_rep_is
 quirk:imp_target_short
+quirk:bad_rep_is
+
 
 mass:55
 engine:330 XL Engine(IS)
 structure:IS Standard
 myomer:Standard
 
-heat sinks:10 IS Double
+heat sinks:10 Double
 walk mp:6
 jump mp:9
 
@@ -168,4 +168,5 @@ Improved Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

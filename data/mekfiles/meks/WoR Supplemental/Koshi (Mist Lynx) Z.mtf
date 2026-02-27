@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,57 +15,57 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Koshi
 clanname:Mist Lynx
 model:Z
 mul id:5643
 
-Config:Biped OmniMek
-techbase:Mixed (Clan Chassis)
-era:3072
+Config:Biped Omnimech
+TechBase:Mixed (Clan Chassis)
+Era:3072
 source:WoR
-rules level:4
+Rules Level:4
 role:Striker
 
-quirk:low_profile
 quirk:imp_sensors
+quirk:low_profile
 
-mass:25
-engine:175 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:7
-walk mp:7
-jump mp:6
+Mass:25
+Engine:175 XL (Clan) Engine
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:4
-RA armor:4
-LT armor:7
-RT armor:7
-CT armor:10
-HD armor:9
-LL armor:5
-RL armor:5
-RTL armor:5
-RTR armor:5
-RTC armor:6
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:7
+Walk MP:7
+Jump MP:6
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:4
+RA Armor:4
+LT Armor:7
+RT Armor:7
+CT Armor:10
+HD Armor:9
+LL Armor:5
+RL Armor:5
+RTL Armor:5
+RTR Armor:5
+RTC Armor:6
 
 Weapons:2
-Improved ATM 3, Left Arm
-Improved ATM 3, Right Arm
+iATM 3, Left Arm
+iATM 3, Right Arm
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLiATM3 (OMNIPOD)
-CLiATM3 (OMNIPOD)
-Clan Ammo iATM-3 (OMNIPOD)
+CLiATM3 (omnipod)
+CLiATM3 (omnipod)
+Clan Ammo iATM-3 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -77,9 +77,9 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLiATM3 (OMNIPOD)
-CLiATM3 (OMNIPOD)
-Clan Ammo iATM-3 (OMNIPOD)
+CLiATM3 (omnipod)
+CLiATM3 (omnipod)
+Clan Ammo iATM-3 (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 -Empty-
@@ -108,8 +108,8 @@ CLDoubleHeatSink
 Jump Jet
 Jump Jet
 Jump Jet
-NovaCEWS (OMNIPOD)
-ISModularArmor (OMNIPOD)
+NovaCEWS (omnipod)
+CLModularArmor (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -181,3 +181,4 @@ systemmanufacturer:ARMOR:Compound H17 Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Clan Light Series Mk. I
 systemmanufacturer:COMMUNICATIONS:Build 1685/5 Tacticom
 systemmanufacturer:TARGETING:Series III GDS with Active Probe
+

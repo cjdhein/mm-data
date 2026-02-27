@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Grendel
 clanname:Mongrel
 model:D
 mul id:1289
 
-Config:Biped OmniMek
-techbase:Clan
-era:3053
+Config:Biped Omnimech
+TechBase:Clan
+Era:3053
 source:TR:CI
-rules level:2
+Rules Level:2
 role:Striker
 
 quirk:rugged_1
 
-mass:45
-engine:315 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:10 Clan Double
-base chassis heat sinks:10
-walk mp:7
-jump mp:7
+Mass:45
+Engine:315 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:12
-RA armor:12
-LT armor:16
-RT armor:16
-CT armor:18
-HD armor:9
-LL armor:20
-RL armor:20
-RTL armor:6
-RTR armor:6
-RTC armor:9
+Heat Sinks:10 Double
+Base Chassis Heat Sinks:10
+Walk MP:7
+Jump MP:7
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:12
+RA Armor:12
+LT Armor:16
+RT Armor:16
+CT Armor:18
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:6
+RTR Armor:6
+RTC Armor:9
 
 Weapons:5
 ER Medium Laser, Left Arm
@@ -65,8 +65,8 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLERMediumLaser (OMNIPOD)
-CLMediumPulseLaser (OMNIPOD)
+CLERMediumLaser (omnipod)
+CLMediumPulseLaser (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -77,7 +77,7 @@ Clan Ferro-Fibrous
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLSmallPulseLaser (OMNIPOD)
+CLSmallPulseLaser (omnipod)
 Clan Endo Steel
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -92,9 +92,9 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLSRM6 (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
-Clan Ammo SRM-6 (OMNIPOD)
+CLSRM6 (omnipod)
+Clan Ammo SRM-6 (omnipod)
+Clan Ammo SRM-6 (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -106,8 +106,8 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Jump Jet
-CLERPPC (OMNIPOD)
-CLERPPC (OMNIPOD)
+CLERPPC (omnipod)
+CLERPPC (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 Clan Endo Steel
@@ -173,9 +173,13 @@ Jump Jet
 -Empty-
 
 overview:The Mongrel received its baptism of fire during the Battle of Tukayyid. There, it was commonly seen leading light Stars, especially on deep reconnaissance and raiding missions. Its ammo-efficient weapons allowed it to range far afield and helped simplify resupply, while its speed allowed it to dictate its range of engagement and outmaneuver all but the fastest of opponents.
+
 capabilities:A different take on the primary configuration, the Grendel D mounts an ER PPC for long-range engagements. When the 'Mech closes, it brings a Medium Pulse Laser, ER Medium Laser, and SRM 6 to bear. A Small Pulse Laser provides protection against conventional infantry.
+
 deployment:The Grendel features a powerful 315-rated engine, enabling it to move at a fleet 119 km/h, and enough jump jets fixed on the chassis to propel it up to 210 meters at a leap. The Sharks spared no expense in weight-saving materials, making use of an XL Engine, Endo Steel structure, and seven and a half tons of Ferro-Fibrous armor. The incredible speed of the Grendel is not terribly helpful in most zellbrigen duels, but it is effective in large-scale actions especially against Inner Sphere foes of similar weight hard pressed to counter its speed or firepower. The Grendel is also popular with technicians. While many OmniMechs are often "hangar queens," the Grendel can go long periods without maintenance and still remain combat effective.
+
 history:The 'Mech entered full production after a slight physical remodel the following year and was re-christened "Grendel" after the name given to it by Com Guard troops who faced it. One of the few successes of Clan Diamond Shark's defeat on Tukayyid, the other Invading Clans almost immediately staged Trials of Possession of the re-named 'Mech. Rather than waste Warrior Caste resources in fighting the numerous Trials, the Diamond Sharks instead chose to sell production runs or license the design to the other Clans, speeding their recovery and ensuring the Grendel was a common sight among many front-line Clusters. Though the Grendel remains in use among the other Inner Sphere Clans following the Wars of Reaving, most notably the Clan Hell's Horses, the majority of production during the Dark Age era resides in the Khanates of Clan Sea Fox.
+
 manufacturer:Arcadia BattleMech Plant CM-T15, Manufacturing Plant SFF-AL2
 primaryfactory:Arcadia, Alnabog
 systemmanufacturer:CHASSIS:Process 12 Endo Steel
@@ -184,3 +188,4 @@ systemmanufacturer:ARMOR:Arcadia Compound Delta VII Ferro-Fibrous
 systemmanufacturer:JUMP_JET:Clan Standard 14X Series
 systemmanufacturer:COMMUNICATIONS:KP-3 “Screamer”
 systemmanufacturer:TARGETING:Version Gamma-V TTS
+

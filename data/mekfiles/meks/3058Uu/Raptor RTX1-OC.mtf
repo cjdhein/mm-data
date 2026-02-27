@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Raptor
 model:RTX1-OC
 mul id:2650
 
-Config:Biped OmniMek
-techbase:Inner Sphere
-era:3052
-source:TR:3058U
-rules level:2
+Config:Biped Omnimech
+TechBase:Inner Sphere
+Era:3052
+Source:TR:3058U
+Rules Level:2
 role:Striker
+
+
 
 quirk:easy_maintain
 
-mass:25
-engine:175 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 IS Double
-base chassis heat sinks:7
-walk mp:7
-jump mp:0
+Mass:25
+Engine:175 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:5
-RA armor:5
-LT armor:7
-RT armor:7
-CT armor:8
-HD armor:6
-LL armor:6
-RL armor:6
-RTL armor:2
-RTR armor:2
-RTC armor:2
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:7
+Walk MP:7
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:5
+RA Armor:5
+LT Armor:7
+RT Armor:7
+CT Armor:8
+HD Armor:6
+LL Armor:6
+RL Armor:6
+RTL Armor:2
+RTR Armor:2
+RTC Armor:2
 
 Weapons:9
 Small Pulse Laser, Left Arm
@@ -59,7 +61,7 @@ Medium Laser, Left Torso
 Medium Laser, Left Torso
 Medium Laser, Right Torso
 Medium Laser, Right Torso
-Anti-Missile System, Right Torso
+AMS, Right Torso
 Medium Laser, Center Torso
 Medium Laser, Center Torso
 
@@ -72,10 +74,10 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISSmallPulseLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISSmallPulseLaser (omnipod)
 
 Right Arm:
 Shoulder
@@ -83,10 +85,10 @@ Upper Arm Actuator
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISDoubleHeatSink (OMNIPOD)
-ISSmallPulseLaser (OMNIPOD)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISSmallPulseLaser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -95,8 +97,8 @@ Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser (OMNIPOD)
-Medium Laser (OMNIPOD)
+Medium Laser (omnipod)
+Medium Laser (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -109,10 +111,10 @@ Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser (OMNIPOD)
-Medium Laser (OMNIPOD)
-ISAntiMissileSystem (OMNIPOD)
-ISAMS Ammo (OMNIPOD)
+Medium Laser (omnipod)
+Medium Laser (omnipod)
+ISAntiMissileSystem (omnipod)
+ISAMS Ammo (omnipod)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
@@ -130,8 +132,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Medium Laser (OMNIPOD)
-Medium Laser (OMNIPOD)
+Medium Laser (omnipod)
+Medium Laser (omnipod)
 
 Head:
 Life Support
@@ -174,4 +176,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

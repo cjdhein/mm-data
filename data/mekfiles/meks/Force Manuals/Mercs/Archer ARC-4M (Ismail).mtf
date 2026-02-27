@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.50.07 on 2025-07-09
 chassis:Archer
 model:ARC-4M (Ismail)
 mul id:8275
@@ -29,7 +29,7 @@ role:Juggernaut
 
 
 mass:70
-engine:280 Fusion Engine
+engine:280 Fusion Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
@@ -187,3 +187,4 @@ systemmanufacturer:ENGINE:VOX 280
 systemmanufacturer:ARMOR:Maximillian 100 with CASE
 systemmanufacturer:COMMUNICATIONS:Neil 9000
 systemmanufacturer:TARGETING:RCA Instatrac Mark XII
+

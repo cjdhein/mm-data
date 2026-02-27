@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,48 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Wolverine
 model:WVR-9W
 mul id:3583
 
 Config:Biped
-techbase:Inner Sphere
-era:3073
+TechBase:Inner Sphere
+Era:3073
 source:TR:3085
-rules level:4
+Rules Level:4
 role:Striker
 
-quirk:cramped_cockpit
-quirk:ext_twist
+
+
 quirk:command_mech
+quirk:ext_twist
+quirk:imp_com
+quirk:pro_actuator
 quirk:ubiquitous_clan
 quirk:ubiquitous_is
-quirk:pro_actuator
-quirk:imp_com
+quirk:cramped_cockpit
 weaponquirk:jettison_capable:RA:7:Light PPC
 
-mass:55
-engine:275 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:5
-jump mp:7
+Mass:55
+Engine:275 XL Engine(IS)
+Structure:Standard
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:17
-RA armor:17
-LT armor:20
-RT armor:20
-CT armor:25
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:5
-RTR armor:5
-RTC armor:7
+Heat Sinks:12 Double
+Walk MP:5
+Jump MP:7
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:17
+RA Armor:17
+LT Armor:20
+RT Armor:20
+CT Armor:25
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
 
 Weapons:4
 MML 5, Left Arm
@@ -76,7 +78,7 @@ ISArtemisIV
 IS Ammo MML-5 LRM Artemis-capable
 IS Ammo MML-5 SRM Artemis-capable
 ISCASEII
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Arm:
 Shoulder
@@ -90,7 +92,7 @@ Light PPC
 Light PPC
 Light PPC
 Light PPC
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Left Torso:
 Fusion Engine
@@ -100,9 +102,9 @@ Improved Jump Jet
 Improved Jump Jet
 Improved Jump Jet
 Improved Jump Jet
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 
@@ -116,8 +118,8 @@ Improved Jump Jet
 Improved Jump Jet
 ISC3iUnit
 ISC3iUnit
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -177,10 +179,14 @@ Improved Jump Jet
 -Empty-
 
 overview:The Wolverine commonly served as a heavy scout unit. Often deployed in situations where heavy opposition could easily destroy lighter BattleMechs, it has had a reliable service record ever since its initial deployment within the Star League Defense Force. With respectable armor, speed, and firepower, it can easily outfight lighter enemy scouts and defend itself capably if ambushed.
+
 capabilities:The autocannon, missile system and laser found on most Wolverines are all reliable and well-storied systems. Unfortunately, the jump jets suffer from an opposing reputation; the Northrup 12000's are underpowered and prone to breakdowns. The one defining system to be found on the Wolverine, however, are its superb Tek BattleCom and Garret T11-b communications systems. The comgear, regardless of the manufacturer, is well-shielded and features a multi-channel transmitter and receiver, making the Wolverine a powerful Command BattleMech for scouting formations.
+
 deployment:This 3077 variant carries a pair of Light PPCs, an MML-5 with Artemis IV, and a single ER medium laser. To coordinate fire with friendly units, it's equipped with an Improved C3 Computer. Seven Improved Jump Jets provide a 210 meter jump range, and the Mech is protected by an experimental CASE II system and Light Ferro-Fibrous armor.
+
 history:A widespread part of every major military, the Wolverine has manufacturing plants scattered throughout the entire Inner Sphere. While certain states-notably the Free Worlds League-have larger numbers of the design, only the Capellans began facing a shortage of the Wolverine after the loss of their Nanking facilities.
-manufacturer:Luthien Armor Works
+
+manufacturer:Luthien Armor Works 
 primaryfactory:Dieron
 systemmanufacturer:CHASSIS:Crucis-A
 systemmanufacturer:ENGINE:Core Tek 275

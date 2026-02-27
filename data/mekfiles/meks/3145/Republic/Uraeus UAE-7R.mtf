@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Uraeus
 model:UAE-7R
 mul id:6677
 
 Config:Biped
-techbase:Inner Sphere
-era:3135
-source:TR:3145:RotS
-rules level:3
+TechBase:Inner Sphere
+Era:3135
+Source:TR:3145:RotS
+Rules Level:3
 role:Brawler
+
+
+
 
 quirk:bad_rep_clan
 
-mass:75
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Triple-Strength
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:10 IS Double
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 Fusion Engine(IS)
+Structure:IS Endo Steel
+Myomer:Triple-Strength
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:23
-RT armor:23
-CT armor:33
-HD armor:9
-LL armor:29
-RL armor:29
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:23
+RT Armor:23
+CT Armor:33
+HD Armor:9
+LL Armor:29
+RL Armor:29
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:3
 Ultra AC/10, Right Arm
@@ -90,15 +93,15 @@ Left Torso:
 Bombast Laser (T)
 Bombast Laser (T)
 Bombast Laser (T)
-ISShoulderTurret (ARMORED)
+ISShoulderTurret (armored)
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Right Torso:
 ISStreakSRM4
@@ -110,9 +113,9 @@ ISCASEII
 IS Endo Steel
 IS Endo Steel
 IS Endo Steel
-Triple Strength Myomer
-Triple Strength Myomer
-Triple Strength Myomer
+TSM
+TSM
+TSM
 
 Center Torso:
 Fusion Engine
@@ -169,4 +172,5 @@ IS Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

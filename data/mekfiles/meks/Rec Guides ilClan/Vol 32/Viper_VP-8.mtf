@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,22 +15,24 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Viper
 model:VP-8
-mul id:9490
 
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3130
-source:RG32
 rules level:2
 role:Brawler
+mul id:9490
+Source:RG32
 
-quirk:difficult_eject
-quirk:searchlight
-quirk:rugged_1
+
+
 quirk:imp_com
+quirk:rugged_1
+quirk:searchlight
+quirk:difficult_eject
+
 
 mass:70
 engine:350 XL Engine(IS)
@@ -57,8 +59,8 @@ RTC armor:6
 Weapons:5
 ER Large Laser, Left Arm
 ER Large Laser, Right Arm
-ER Medium Laser, Left Torso
 ER Medium Laser, Right Torso
+ER Medium Laser, Left Torso
 ER Medium Laser, Center Torso
 
 Left Arm:
@@ -172,4 +174,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

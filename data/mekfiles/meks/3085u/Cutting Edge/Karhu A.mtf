@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Karhu
 model:A
 mul id:1748
 
-Config:Biped OmniMek
-techbase:Clan
-era:3079
+Config:Biped Omnimech
+TechBase:Clan
+Era:3079
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Sniper
 
 quirk:em_inter_whole
 
-mass:65
-engine:325 XL (Clan) Engine
-structure:Clan Endo Steel
-myomer:Standard
 
-heat sinks:12 Clan Double
-base chassis heat sinks:12
-walk mp:5
-jump mp:5
+Mass:65
+Engine:325 XL (Clan) Engine(IS)
+Structure:Clan Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Clan)
-LA armor:20
-RA armor:20
-LT armor:23
-RT armor:23
-CT armor:30
-HD armor:9
-LL armor:26
-RL armor:26
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:12
+Walk MP:5
+Jump MP:5
+
+Armor:Ferro-Fibrous(Clan)
+LA Armor:20
+RA Armor:20
+LT Armor:23
+RT Armor:23
+CT Armor:30
+HD Armor:9
+LL Armor:26
+RL Armor:26
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:5
 Gauss Rifle, Left Arm
@@ -62,12 +62,12 @@ LRM 10, Left Torso
 Left Arm:
 Shoulder
 Upper Arm Actuator
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
-CLGaussRifle (OMNIPOD)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
+CLGaussRifle (omnipod)
 Clan Endo Steel
 Clan Endo Steel
 -Empty-
@@ -78,10 +78,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-CLLargePulseLaser (OMNIPOD)
-CLLargePulseLaser (OMNIPOD)
-CLERMediumLaser (OMNIPOD)
-CLMicroPulseLaser (OMNIPOD)
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+CLERMediumLaser (omnipod)
+CLMicroPulseLaser (omnipod)
 Clan Endo Steel
 -Empty-
 -Empty-
@@ -90,12 +90,12 @@ Clan Endo Steel
 Left Torso:
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
-CLLRM10 (OMNIPOD)
-Clan Ammo LRM-10 (OMNIPOD)
-Clan Gauss Ammo (OMNIPOD)
-Clan Gauss Ammo (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+CLLRM10 (omnipod)
+Clan Ammo LRM-10 (omnipod)
+Clan Gauss Ammo (omnipod)
+Clan Gauss Ammo (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -104,8 +104,8 @@ Clan Ferro-Fibrous
 Right Torso:
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
+Jump Jet (omnipod)
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
 Clan Ferro-Fibrous
@@ -126,7 +126,7 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Jump Jet (OMNIPOD)
+Jump Jet (omnipod)
 -Empty-
 
 Head:
@@ -170,4 +170,5 @@ Clan Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

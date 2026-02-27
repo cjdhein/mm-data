@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -24,9 +33,9 @@ ProtoMek
 Triton
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5290
@@ -52,6 +61,9 @@ Brawler
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 4
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 4
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -99,11 +91,10 @@ false
 
 <Body Equipment>
 Clan Streak SRM 4 Ammo (10)
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -125,6 +116,14 @@ CLERMicroLaser
 <Main Gun Equipment>
 CLStreakSRM4
 </Main Gun Equipment>
+
+<source>
+TR:3075
+</source>
+
+<tonnage>
+8.0
+</tonnage>
 
 <capabilities>
 The basic hull of the Triton, protected by nearly two tons of armor, can keep up with most Scorpion Seeker MechWarriors with little additional aid, using considerable ground speed and complete jump capability.
@@ -154,16 +153,7 @@ Roche
 CHASSIS:Unspecified
 ENGINE:50 Fusion
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3075
-</source>
-
-<tonnage>
-8.0
-</tonnage>
-

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,44 +15,46 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-3D (Jiemin)
 mul id:7699
 
 Config:Biped
-techbase:Inner Sphere
-era:3065
-source:OTP:FR
-rules level:4
+TechBase:Inner Sphere
+Era:3065
+Source:OTP:FR
+Rules Level:4
 role:Striker
+
+
 
 quirk:command_mech
 quirk:imp_com
 weaponquirk:jettison_capable:RA:4:ISLargeXPulseLaser
 
-mass:45
-engine:315 XL Engine
-structure:IS Endo Steel
-myomer:Standard
-ejection:Full Head Ejection System
 
-heat sinks:13 IS Double
-walk mp:7
-jump mp:7
+Mass:45
+Engine:315 XL Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+Ejection:Full Head Ejection System
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:21
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:13 Double
+Walk MP:7
+Jump MP:7
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:21
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:2
 Medium X-Pulse Laser, Left Arm
@@ -169,4 +171,6 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
+imagefile:.\data\images\fluff\mech\Phoenix Hawk Classic.jpg
 

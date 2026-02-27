@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,50 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Doloire
 model:DLR-OC
 mul id:6681
 
-Config:Biped OmniMek
-techbase:Mixed (IS Chassis)
-era:3121
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3121
 source:TR:3145:RotS
-rules level:3
+Rules Level:3
 role:Juggernaut
 
-quirk:command_mech
+
+
 quirk:multi_trac
+quirk:command_mech
 
-mass:80
-engine:320 XL (Clan) Engine
-structure:IS Endo-Composite
-myomer:Standard
 
-heat sinks:12 IS Double
-base chassis heat sinks:12
-walk mp:4
-jump mp:0
+Mass:80
+Engine:320 XL (Clan) Engine
+Structure:IS Endo-Composite
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:26
-RT armor:26
-CT armor:38
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:7
-RTR armor:7
-RTC armor:11
+Heat Sinks:12 Double
+Base Chassis Heat Sinks:12
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:24
+RA Armor:24
+LT Armor:26
+RT Armor:26
+CT Armor:38
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:7
+RTR Armor:7
+RTC Armor:11
 
 Weapons:8
 Streak SRM 6, Left Leg
 Streak SRM 6, Right Leg
 LRM 20, Right Arm
 ER Small Pulse Laser, Left Torso
-C3 Computer (Master), Left Torso
+C3 Master with TAG, Left Torso
 Streak SRM 6, Right Torso
 ER Medium Laser, Center Torso
 ER Medium Laser, Center Torso
@@ -68,10 +70,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Lance (OMNIPOD)
-IS Lance (OMNIPOD)
-IS Lance (OMNIPOD)
-IS Lance (OMNIPOD)
+IS Lance (omnipod)
+IS Lance (omnipod)
+IS Lance (omnipod)
+IS Lance (omnipod)
 ISAES
 ISAES
 ISAES
@@ -80,12 +82,12 @@ ISAES
 Right Arm:
 Shoulder
 Upper Arm Actuator
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLLRM20 (OMNIPOD)
-CLArtemisV (OMNIPOD)
-CLArtemisV (OMNIPOD)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLLRM20 (omnipod)
+CLArtemisV (omnipod)
+CLArtemisV (omnipod)
 ISAES
 ISAES
 ISAES
@@ -94,12 +96,12 @@ ISAES
 Left Torso:
 Fusion Engine
 Fusion Engine
-CLERSmallPulseLaser (OMNIPOD)
-ISC3MasterUnit (OMNIPOD)
-ISC3MasterUnit (OMNIPOD)
-ISC3MasterUnit (OMNIPOD)
-ISC3MasterUnit (OMNIPOD)
-ISC3MasterUnit (OMNIPOD)
+CLERSmallPulseLaser (omnipod)
+ISC3MasterUnit (omnipod)
+ISC3MasterUnit (omnipod)
+ISC3MasterUnit (omnipod)
+ISC3MasterUnit (omnipod)
+ISC3MasterUnit (omnipod)
 IS Endo-Composite
 IS Endo-Composite
 IS Endo-Composite
@@ -108,14 +110,14 @@ IS Endo-Composite
 Right Torso:
 Fusion Engine
 Fusion Engine
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
-Clan Streak SRM 6 Ammo (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis V-capable (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis V-capable (OMNIPOD)
-Clan Ammo LRM-20 (Clan) Artemis V-capable (OMNIPOD)
-ISCASEII (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
+Clan Streak SRM 6 Ammo (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis V-capable (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis V-capable (omnipod)
+Clan Ammo LRM-20 (Clan) Artemis V-capable (omnipod)
+ISCASEII (omnipod)
 IS Endo-Composite
 IS Endo-Composite
 
@@ -152,8 +154,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
 -Empty-
 -Empty-
 -Empty-
@@ -166,12 +168,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-CLStreakSRM6 (OMNIPOD)
-CLStreakSRM6 (OMNIPOD)
+CLStreakSRM6 (omnipod)
+CLStreakSRM6 (omnipod)
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

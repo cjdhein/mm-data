@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,18 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Templar III
 model:TLR2-O
 mul id:6353
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Inner Sphere
 era:3100
 source:TR:3145:FS
 rules level:2
 role:Brawler
 
-
 mass:85
-engine:340 Light Engine
+engine:340 Light Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 cockpit:Standard Cockpit
@@ -185,3 +182,4 @@ systemmanufacturer:ENGINE:GM 340 Light
 systemmanufacturer:ARMOR:StarGuard CIV
 systemmanufacturer:COMMUNICATIONS:Newberg Telescan 17
 systemmanufacturer:TARGETING:Spar 3C MegaTrak
+

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ryoken II
 model:2
 mul id:2759
@@ -29,8 +28,9 @@ role:Sniper
 
 quirk:stable
 
+
 mass:75
-engine:375 XL (Clan) Engine
+engine:375 XL (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -38,7 +38,7 @@ heat sinks:10 Clan Double
 walk mp:5
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:19
 RA armor:19
 LT armor:19
@@ -52,10 +52,10 @@ RTR armor:6
 RTC armor:9
 
 Weapons:4
-Ultra AC/10, Left Torso
 LRM 15, Left Torso
-Ultra AC/10, Right Torso
+Ultra AC/10, Left Torso
 LRM 15, Right Torso
+Ultra AC/10, Right Torso
 
 Left Arm:
 Shoulder
@@ -180,3 +180,4 @@ systemmanufacturer:ENGINE:GM 375 Fusion Extralight
 systemmanufacturer:ARMOR:Forging ZK20
 systemmanufacturer:COMMUNICATIONS:Garret GBX-2 Amalgamated Targeting and Tracking
 systemmanufacturer:TARGETING:Alshain B4 Series 2 T&T
+

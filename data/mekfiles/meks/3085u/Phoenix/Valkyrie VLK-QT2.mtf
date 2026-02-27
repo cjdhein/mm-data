@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,42 +15,44 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Valkyrie
 model:VLK-QT2
 mul id:3380
 
 Config:Biped
-techbase:Inner Sphere
-era:3081
+TechBase:Inner Sphere
+Era:3081
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Striker
+
+
 
 quirk:easy_maintain
 quirk:imp_com
 
-mass:30
-engine:210 XL Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:10 IS Double
-walk mp:7
-jump mp:7
+Mass:30
+Engine:210 XL Engine(IS)
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:10
-RT armor:10
-CT armor:13
-HD armor:9
-LL armor:11
-RL armor:11
-RTL armor:2
-RTR armor:2
-RTC armor:4
+Heat Sinks:10 Double
+Walk MP:7
+Jump MP:7
+
+Armor:Standard(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:10
+RT Armor:10
+CT Armor:13
+HD Armor:9
+LL Armor:11
+RL Armor:11
+RTL Armor:2
+RTR Armor:2
+RTC Armor:4
 
 Weapons:2
 Light PPC, Right Arm
@@ -76,12 +78,12 @@ Upper Arm Actuator
 Lower Arm Actuator
 Light PPC
 Light PPC
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 
 Left Torso:
@@ -92,11 +94,11 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 Jump Jet
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Right Torso:
 Fusion Engine
@@ -110,7 +112,7 @@ ISStreakSRM6
 ISStreakSRM6
 IS Streak SRM 6 Ammo
 ISCASE
-IS Endo Steel
+Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -124,13 +126,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-IS Endo Steel
+Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -168,3 +170,4 @@ Jump Jet
 -Empty-
 -Empty-
 
+imagefile:.\data\images\fluff\Mech\3085 Valkyrie .jpg

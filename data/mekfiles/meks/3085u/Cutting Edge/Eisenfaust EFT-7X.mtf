@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,53 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Eisenfaust
 model:EFT-7X
 mul id:945
 
 Config:Biped
-techbase:Inner Sphere
-era:3076
+TechBase:Inner Sphere
+Era:3076
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
+
 
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:easy_maintain
 quirk:pro_actuator
 
-mass:45
-engine:180 XL Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:15 IS Double
-walk mp:4
-jump mp:0
+Mass:45
+Engine:180 XL Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:16
-RT armor:16
-CT armor:20
-HD armor:9
-LL armor:22
-RL armor:22
-RTL armor:6
-RTR armor:6
-RTC armor:7
+Heat Sinks:15 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:14
+RA Armor:14
+LT Armor:16
+RT Armor:16
+CT Armor:20
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:6
+RTR Armor:6
+RTC Armor:7
 
 Weapons:5
+Medium Pulse Laser, Center Torso
+Medium Pulse Laser, Center Torso
 ER Large Laser, Left Arm
 ER Small Laser, Left Arm
 Plasma Rifle, Left Torso
-Medium Pulse Laser, Center Torso
-Medium Pulse Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -172,4 +174,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Garm
 model:GRM-01B
 mul id:1191
 
 Config:Biped
-techbase:Inner Sphere
-era:3059
-source:TR:3060
-rules level:2
+TechBase:Inner Sphere
+Era:3059
+Source:TR:3060
+Rules Level:2
 role:Missile Boat
+
+
 
 quirk:ext_twist
 
-mass:35
-engine:175 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:12 Single
-walk mp:5
-jump mp:5
+Mass:35
+Engine:175 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Ferro-Fibrous(Inner Sphere)
-LA armor:8
-RA armor:8
-LT armor:12
-RT armor:12
-CT armor:14
-HD armor:6
-LL armor:8
-RL armor:8
-RTL armor:1
-RTR armor:1
-RTC armor:2
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:5
+
+Armor:Ferro-Fibrous(Inner Sphere)
+LA Armor:8
+RA Armor:8
+LT Armor:12
+RT Armor:12
+CT Armor:14
+HD Armor:6
+LL Armor:8
+RL Armor:8
+RTL Armor:1
+RTR Armor:1
+RTC Armor:2
 
 Weapons:2
 LRM 10, Left Torso
@@ -60,28 +62,28 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 
 Left Torso:
 Heat Sink
@@ -90,23 +92,23 @@ LRM 10
 LRM 10
 ISArtemisIV
 IS Ammo LRM-10 Artemis-capable
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
-IS Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
+Ferro-Fibrous
 
 Right Torso:
 Heat Sink
 Heat Sink
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -129,7 +131,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -166,4 +168,5 @@ Jump Jet
 -Empty-
 -Empty-
 -Empty-
+
 

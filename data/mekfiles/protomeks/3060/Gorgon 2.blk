@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,16 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -52,6 +61,9 @@ Brawler
 Biped
 </motion_type>
 
+<transporters>
+</transporters>
+
 <cruiseMP>
 4
 </cruiseMP>
@@ -60,29 +72,9 @@ Biped
 4
 </jumpingMP>
 
-<interface_cockpit>
-false
-</interface_cockpit>
-
 <engine_type>
 0
 </engine_type>
-
-<clan_engine>
-false
-</clan_engine>
-
-<armor_type>
-42
-</armor_type>
-
-<armor_tech_rating>
-0
-</armor_tech_rating>
-
-<armor_tech_level>
-2
-</armor_tech_level>
 
 <internal_type>
 -1
@@ -98,11 +90,10 @@ false
 </armor>
 
 <Body Equipment>
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-ProtoMechJumpJet
-EIInterface
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
+ProtomechJumpJet
 </Body Equipment>
 
 <Head Equipment>
@@ -123,6 +114,14 @@ EIInterface
 <Main Gun Equipment>
 CLMediumPulseLaser
 </Main Gun Equipment>
+
+<source>
+TR:3060
+</source>
+
+<tonnage>
+8.0
+</tonnage>
 
 <capabilities>
 The Gorgon is also responsible for the practice of ProtoMechs carrying a "main gun" externally mounted to the torso and supported by the arms, a necessity devised by Clan Smoke Jaguar engineers given the size of its primary weapon. Initially only Clan Star Adder adopted the Gorgon after the fall of the Smoke Jaguars, though they were soon joined by the Jade Falcons, Nova Cats and Snow Ravens. The 65-rated fusion engine propels the ProtoMech to a cruising speed of 43 km/h and the Gorgon carries sufficient armoring to survive a full volley from an SRM-6 to the chest.
@@ -152,16 +151,7 @@ Dante,Unknown,
 CHASSIS:Unspecified
 ENGINE:Unspecified
 ARMOR:Unspecified
-JUMP_JET:Unspecified
+JUMPJET:Unspecified
 COMMUNICATIONS:Unspecified
 TARGETING:Unspecified
 </systemManufacturers>
-
-<source>
-TR:3060
-</source>
-
-<tonnage>
-8.0
-</tonnage>
-

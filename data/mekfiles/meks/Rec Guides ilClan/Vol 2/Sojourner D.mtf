@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,12 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+generator:MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-09
 chassis:Sojourner
 model:D
 mul id:7447
-
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3147
 source:RG02
@@ -32,7 +31,7 @@ quirk:easy_maintain
 quirk:rugged_1
 
 mass:60
-engine:240 Fusion (Clan) Engine
+engine:240 Fusion (Clan) Engine(IS)
 structure:Clan Endo Steel
 myomer:Standard
 
@@ -183,3 +182,4 @@ systemmanufacturer:ENGINE:Pitban 240
 systemmanufacturer:ARMOR:Compound RSH5 Ferro-Fibrous
 systemmanufacturer:COMMUNICATIONS:Neil 6000-g
 systemmanufacturer:TARGETING:RCA Instatrac Mark XXII
+

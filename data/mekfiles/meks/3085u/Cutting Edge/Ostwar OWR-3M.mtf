@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,47 +15,49 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Ostwar
 model:OWR-3M
 mul id:2383
 
 Config:Biped
-techbase:Inner Sphere
-era:3075
+TechBase:Inner Sphere
+Era:3075
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
+
 
 quirk:easy_maintain
 
-mass:65
-engine:260 Fusion Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:12 IS Double
-walk mp:4
-jump mp:0
+Mass:65
+Engine:260 Fusion Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:20
-RA armor:20
-LT armor:22
-RT armor:22
-CT armor:30
-HD armor:9
-LL armor:24
-RL armor:24
-RTL armor:7
-RTR armor:7
-RTC armor:10
+Heat Sinks:12 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:20
+RA Armor:20
+LT Armor:22
+RT Armor:22
+CT Armor:30
+HD Armor:9
+LL Armor:24
+RL Armor:24
+RTL Armor:7
+RTR Armor:7
+RTC Armor:10
 
 Weapons:5
-Streak SRM 4, Left Arm
+ER Medium Laser, Left Torso
+ER Medium Laser, Left Torso
 Streak SRM 4, Right Arm
-ER Medium Laser, Left Torso
-ER Medium Laser, Left Torso
+Streak SRM 4, Left Arm
 LRM 20, Right Torso
 
 Left Arm:
@@ -63,7 +65,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISStreakSRM4
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -77,7 +79,7 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 ISStreakSRM4
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -97,7 +99,7 @@ ISERMediumLaser
 ISERMediumLaser
 IS Streak SRM 4 Ammo
 ISCASE
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Right Torso:
@@ -111,7 +113,7 @@ IS Ammo LRM-20 Artemis-capable
 IS Ammo LRM-20 Artemis-capable
 IS Ammo LRM-20 Artemis-capable
 ISCASE
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -132,7 +134,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 Sensors
 Life Support
 -Empty-
@@ -147,7 +149,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -161,7 +163,7 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -169,4 +171,5 @@ IS Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
+
 

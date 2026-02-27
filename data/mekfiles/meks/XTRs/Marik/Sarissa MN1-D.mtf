@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,55 +15,52 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Sarissa
 model:MN1-D
 mul id:2797
 
 Config:Biped
-techbase:Inner Sphere
-era:3080
-source:XTR:Marik
-rules level:4
+TechBase:Inner Sphere
+Era:3080
+Source:XTR:Marik
+Rules Level:4
 role:Brawler
 
+Mass:50
+Engine:240 Primitive Fusion Engine
+Structure:Standard
+Cockpit:Primitive Cockpit
+Myomer:Standard
 
-mass:50
-engine:240 Fusion Engine
-structure:IS Standard
-myomer:Standard
-cockpit:Primitive Cockpit
-gyro:Standard Gyro
+Heat Sinks:14 Single
+Walk MP:4
+Jump MP:0
 
-heat sinks:14 Single
-walk mp:4
-jump mp:0
-
-armor:Primitive(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:15
-RT armor:15
-CT armor:15
-HD armor:9
-LL armor:10
-RL armor:10
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Armor:Primitive(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:15
+RT Armor:15
+CT Armor:15
+HD Armor:9
+LL Armor:10
+RL Armor:10
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:4
-Medium Laser, Left Arm
-Binary Laser (Blazer) Cannon, Right Arm
-Small Laser, Center Torso
-Machine Gun, Center Torso
+1 ISBlazer, Right Arm
+1 ISSmallLaser, Center Torso
+1 ISMediumLaser, Left Arm
+1 ISMachine Gun, Center Torso, Ammo:200
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Medium Laser
+ISMediumLaser
 -Empty-
 -Empty-
 -Empty-
@@ -77,10 +74,10 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
-Binary Laser (Blazer) Cannon
+ISBlazer
+ISBlazer
+ISBlazer
+ISBlazer
 -Empty-
 -Empty-
 -Empty-
@@ -88,7 +85,7 @@ Binary Laser (Blazer) Cannon
 
 Left Torso:
 Heat Sink
-IS Machine Gun Ammo - Half
+ISMG Ammo (100)
 -Empty-
 -Empty-
 -Empty-
@@ -115,18 +112,18 @@ Right Torso:
 -Empty-
 
 Center Torso:
-Fusion Engine
-Fusion Engine
-Fusion Engine
+Engine
+Engine
+Engine
 Gyro
 Gyro
 Gyro
 Gyro
-Fusion Engine
-Fusion Engine
-Fusion Engine
-Small Laser
-Machine Gun
+Engine
+Engine
+Engine
+ISSmallLaser
+ISMachine Gun
 
 Head:
 Life Support
@@ -135,12 +132,6 @@ Cockpit
 -Empty-
 Sensors
 Life Support
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Left Leg:
 Hip
@@ -149,12 +140,6 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Heat Sink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
 
 Right Leg:
 Hip
@@ -163,10 +148,3 @@ Lower Leg Actuator
 Foot Actuator
 Heat Sink
 Heat Sink
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
-

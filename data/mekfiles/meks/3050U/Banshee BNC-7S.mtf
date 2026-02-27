@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,51 +15,50 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Banshee
 model:BNC-7S
 mul id:249
 
 Config:Biped
-techbase:Inner Sphere
-era:3063
-source:TR:3050
-rules level:2
+TechBase:Inner Sphere
+Era:3063
+Source:TR:3050
+Rules Level:2
 role:Brawler
 
-quirk:bad_rep_is
 quirk:rugged_1
+quirk:bad_rep_is
 
-mass:95
-engine:380 Light Engine
-structure:IS Endo Steel
-myomer:Standard
 
-heat sinks:14 IS Double
-walk mp:4
-jump mp:0
+Mass:95
+Engine:380 Light Engine
+Structure:Endo Steel
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:27
-RA armor:27
-LT armor:27
-RT armor:27
-CT armor:38
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:8
-RTR armor:8
-RTC armor:13
+Heat Sinks:14 Double
+Walk MP:4
+Jump MP:0
 
-Weapons:7
-ER PPC, Left Arm
-ER Medium Laser, Right Arm
-ER Medium Laser, Right Arm
-Gauss Rifle, Left Torso
-ER Medium Laser, Left Torso
-SRM 6, Right Torso
-ER Medium Laser, Right Torso
+Armor:Standard Armor
+LA Armor:27
+RA Armor:27
+LT Armor:27
+RT Armor:27
+CT Armor:38
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:8
+RTR Armor:8
+RTC Armor:13
+
+Weapons:6
+1 ISGaussRifle, Left Torso, Ammo:16
+1 ISERPPC, Left Arm
+1 ISSRM6, Right Torso, Ammo:15
+1 ISERMediumLaser, Left Torso
+1 ISERMediumLaser, Right Torso
+2 ISERMediumLaser, Right Arm
 
 Left Arm:
 Shoulder
@@ -68,7 +67,7 @@ Lower Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -82,7 +81,7 @@ Lower Arm Actuator
 Hand Actuator
 ISERMediumLaser
 ISERMediumLaser
-IS Endo Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -100,22 +99,22 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISERMediumLaser
-IS Ammo SRM-6
+ISSRM6 Ammo
 ISCASE
 
 Right Torso:
 Fusion Engine
 Fusion Engine
-SRM 6
-SRM 6
+ISSRM6
+ISSRM6
 ISERMediumLaser
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
+Endo-Steel
 
 Center Torso:
 Fusion Engine
@@ -128,14 +127,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-IS Gauss Ammo
-IS Gauss Ammo
+ISGauss Ammo
+ISGauss Ammo
 
 Head:
 Life Support
 Sensors
 Cockpit
-IS Endo Steel
+Endo-Steel
 Sensors
 Life Support
 -Empty-
@@ -150,8 +149,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -164,8 +163,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Endo Steel
+Endo-Steel
+Endo-Steel
 -Empty-
 -Empty-
 -Empty-
@@ -173,12 +172,18 @@ IS Endo Steel
 -Empty-
 -Empty-
 
+
 overview:The Banshee, introduced in 2445 by the Terran Hegemony, is a 'Mech that was designed specifically for close-assault operations during the early years of BattleMech warfare.
+
 capabilities:A contemporary of the Mackie and Emperor, the Banshee is undeniably fast for one of the heaviest 'Mechs ever produced, and with fifteen tons of armor it is better protected than most other assault 'Mechs. However the use of a massive GM 380 fusion engine left little room for weaponry, and even at the time of its introduction the Banshee was considered undergunned compared to its privately-built competition. As critics noted, what use was impressive armor and mobility if a better-armed enemy could overwhelm and destroy it? The result was a mediocre 'Mech which even the lowly Rifleman could beat as long as it prevented the Banshee's mass from coming into play.
+
 deployment:The 7S is an upgrade of the 5S model and is also powered by a Light Fusion Engine. The 'Mech is built on an Endo Steel chassis and carries fifteen and a half tons of armor. The 7S is armed with a Gauss rifle and an ER PPC for long-range firepower. For close range support, it has an SRM-6 and four ER medium laser
+
 history: The Hegemony soldiered on though, producing five thousand Banshees in a decade before its poor combat performance finally forced them to stop production in 2455 and the 'Mech was relegated to training and militia units for the next few centuries. Even during the Succession Wars the 'Mech's poor reputation meant many commanders saw it as a liability rather than an asset; unless they were fighting on a backwater Periphery world or as part of a poorly-equipped outfit, most Banshees were placed in second-line reserves to provide fire support or fulfill the role of brawlers so that better-armed 'Mechs need not engage in hand-to-hand combat. In this way fully a third of the original Banshee production run remained operational by the dawn of the thirty-first century and could be found throughout the Inner Sphere and Periphery, with the lion's share residing within the Lyran Commonwealth. Though a few attempts had been made over the years to improve the Banshee, Defiance Industries was the first to produce a variant which markedly improved on the original and was suggested by many of its original critics. With help from the Federated Suns and access to blueprints from the original Hesperus II factories, the BNC-3S proved to be such a success the Lyrans began fielding them in front line units, surprising their enemies who ignored them to focus on "real" threats with thoroughly unexpected firepower. Under the Federated Commonwealth improvements would continue to be made, though not at the same priority level as other projects, and the much-improved BNC-5S was active in time to meet the Clan Invasion.
-manufacturer:Defiance Industries
+
+manufacturer:Defiance Industries 
 primaryfactory:Hesperus II
+
 systemmanufacturer:CHASSIS:Foundation
 systemmode:CHASSIS:210 Endo
 systemmanufacturer:ENGINE:Edasich Motors

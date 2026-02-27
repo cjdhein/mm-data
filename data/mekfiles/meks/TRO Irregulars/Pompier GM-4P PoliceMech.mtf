@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Pompier
 model:GM-4P PoliceMech
 mul id:7837
@@ -25,10 +24,10 @@ techbase:Inner Sphere
 era:3085
 source:TR:I
 rules level:2
-
+role:Ambusher
 
 mass:15
-engine:45 Fusion Engine
+engine:45 Fusion Engine(IS)
 structure:IS Industrial
 myomer:Standard
 
@@ -177,3 +176,4 @@ systemmanufacturer:ENGINE:GM 45S Fusion
 systemmanufacturer:ARMOR:Durallex Light
 systemmanufacturer:COMMUNICATIONS:Irian UHF
 systemmanufacturer:TARGETING:Dalban AQ
+

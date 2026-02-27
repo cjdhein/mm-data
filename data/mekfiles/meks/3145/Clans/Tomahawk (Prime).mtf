@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,21 +15,19 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Tomahawk
 model:(Prime)
 mul id:6298
 
-Config:Biped OmniMek
+Config:Biped Omnimech
 techbase:Clan
 era:3063
 source:TR:3145:C
 rules level:2
 role:Juggernaut
 
-
 mass:100
-engine:300 XL (Clan) Engine
+engine:300 XL (Clan) Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -38,7 +36,7 @@ base chassis heat sinks:12
 walk mp:3
 jump mp:0
 
-armor:Standard(Inner Sphere)
+armor:Standard(Clan)
 LA armor:34
 RA armor:34
 LT armor:32
@@ -175,8 +173,11 @@ CLDoubleHeatSink (OMNIPOD)
 -Empty-
 
 overview:The Tomahawk is an assault-class OmniMech designed by Clan Wolf in 3063. The 'Mech ultimately failed to enter production and remained a prototype, presumably due at least in part to the Clan's troubles during the Jihad.
+
 deployment:The Prime configuration is similar in its weapon layout to the later Tomahawk II. The Tomahawk's main weapons focus on pair of Gauss Rifles and ER Large Lasers, which are mounted in its arms. The close-range weaponry includes pair of Medium Pulse Lasers and Streak 4 launchers found in the side torsos. Other features include three additional Double Heat Sinks, an Anti-Missile System, and an ECM Suite.
+
 history:One of these prototypes was piloted by Nathan Wolf in a Circle of Equals on Tamar when he attained the rank of Star Colonel. Although he was victorious against a Thor, it was noted that the Tomahawk still suffered from numerous system errors and gremlins and was not yet ready for mass production. Still, Nathan retained the 'Mech for his subsequent assignment to Omega Galaxy and successfully piloted it in combat on Novo Cressidas in the Star's End system on 11 April 3064. After the Jihad, the design was revisited and improved, and became the Tomahawk II which did enter line production.
+
 manufacturer:Clan Wolf
 primaryfactory:Unknown
 systemmanufacturer:CHASSIS:Unspecified
@@ -185,3 +186,4 @@ systemmanufacturer:ARMOR:Unspecified
 systemmanufacturer:JUMP_JET:Unspecified
 systemmanufacturer:COMMUNICATIONS:Unspecified
 systemmanufacturer:TARGETING:Unspecified
+

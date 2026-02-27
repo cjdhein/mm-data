@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,9 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+
+
+generator:MegaMek Suite 0.50.06 on 2025-05-12
 chassis:Blackjack
 model:BJ-2t
 
@@ -29,7 +31,7 @@ role:Sniper
 quirk:bad_rep_is
 
 mass:45
-engine:180 Fusion Engine
+engine:180 Fusion Engine(IS)
 structure:IS Standard
 myomer:Standard
 
@@ -51,10 +53,10 @@ RTR armor:6
 RTC armor:9
 
 Weapons:4
-ER Large Laser, Left Arm
 ER Large Laser, Right Arm
-SRM 4, Left Torso
+ER Large Laser, Left Arm
 SRM 4, Right Torso
+SRM 4, Left Torso
 
 Left Arm:
 Shoulder
@@ -180,3 +182,4 @@ systemmanufacturer:ARMOR:StarGuard II
 systemmanufacturer:JUMP_JET:Whitworth Jetlift
 systemmanufacturer:COMMUNICATIONS:Dalban Micronics
 systemmanufacturer:TARGETING:Dalban AQ
+

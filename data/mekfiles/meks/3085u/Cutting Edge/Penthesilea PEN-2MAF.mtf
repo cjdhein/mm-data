@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,43 +15,45 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Penthesilea
 model:PEN-2MAF
 mul id:2471
 
 Config:Biped
-techbase:Inner Sphere
-era:3085
+TechBase:Inner Sphere
+Era:3085
 source:TR:3085
-rules level:2
+Rules Level:2
 role:Brawler
+
+
 
 quirk:rugged_1
 
-mass:75
-engine:300 Fusion Engine
-structure:IS Endo Steel
-myomer:Standard
-cockpit:Standard Cockpit
-gyro:XL Gyro
 
-heat sinks:14 IS Double
-walk mp:4
-jump mp:0
+Mass:75
+Engine:300 Fusion Engine
+Structure:Endo Steel
+Myomer:Standard
+Cockpit:Standard Cockpit
+Gyro:XL Gyro
 
-armor:Light Ferro-Fibrous(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:22
-RT armor:22
-CT armor:34
-HD armor:9
-LL armor:32
-RL armor:32
-RTL armor:10
-RTR armor:10
-RTC armor:12
+Heat Sinks:14 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Light Ferro-Fibrous(Inner Sphere)
+LA Armor:24
+RA Armor:24
+LT Armor:22
+RT Armor:22
+CT Armor:34
+HD Armor:9
+LL Armor:32
+RL Armor:32
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
 
 Weapons:4
 ER PPC, Left Arm
@@ -67,10 +69,10 @@ ISERPPC
 ISERPPC
 ISERLargeLaser
 ISERLargeLaser
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 -Empty-
 
 Right Arm:
@@ -94,25 +96,25 @@ ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
 ISDoubleHeatSink
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
+Light Ferro-Fibrous
 
 Right Torso:
 ISLBXAC20
 IS LB 20-X AC Ammo
 IS LB 20-X Cluster Ammo
 ISCASE
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Endo Steel
-IS Light Ferro-Fibrous
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Endo Steel
+Light Ferro-Fibrous
 -Empty-
 
 Center Torso:
@@ -148,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Light Ferro-Fibrous
+Endo Steel
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
@@ -162,12 +164,13 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-IS Endo Steel
-IS Light Ferro-Fibrous
+Endo Steel
+Light Ferro-Fibrous
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
 

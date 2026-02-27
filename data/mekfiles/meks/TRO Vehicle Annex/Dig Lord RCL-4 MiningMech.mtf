@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Dig Lord
 model:RCL-4 MiningMech
 mul id:4079
@@ -27,15 +26,16 @@ source:TR:VAr
 rules level:3
 role:Juggernaut
 
-
 mass:65
-engine:195 Fuel Cell Engine
+engine:195 Fuel Cell Engine(IS)
 structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
 gyro:Standard Gyro
 
 heat sinks:3 Single
+nocrit:Industrial:None
+nocrit:Industrial:None
 walk mp:3
 jump mp:0
 
@@ -53,10 +53,10 @@ RTR armor:3
 RTC armor:5
 
 Weapons:4
-Fluid Gun, Left Torso
+Fluid Gun, Right Torso
 Fluid Gun, Left Torso
 Fluid Gun, Right Torso
-Fluid Gun, Right Torso
+Fluid Gun, Left Torso
 
 Left Arm:
 Shoulder
@@ -179,3 +179,4 @@ systemmode:ENGINE:210 HydroCell
 systemmanufacturer:ARMOR:StrongArm II Heavy Industrial
 systemmanufacturer:COMMUNICATIONS:Achernar Electronics
 systemmode:COMMUNICATIONS:GEO-11
+

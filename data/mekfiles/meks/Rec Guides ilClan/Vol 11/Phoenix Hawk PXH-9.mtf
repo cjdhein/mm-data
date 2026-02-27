@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,6 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk
 model:PXH-9
 mul id:7751
@@ -23,20 +22,23 @@ mul id:7751
 Config:Biped
 techbase:Inner Sphere
 era:3140
-source:RG11
 rules level:2
 role:Striker
+source:RG11
+
+
 
 quirk:combat_computer
 quirk:imp_com
 weaponquirk:jettison_capable:RA:7:ISLargeXPulseLaser
 
+
 mass:45
-engine:270 XL Engine
+engine:270 XL Engine(IS)
 structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:11 IS Double
+heat sinks:11 Double
 walk mp:6
 jump mp:8
 
@@ -54,10 +56,10 @@ RTR armor:4
 RTC armor:6
 
 Weapons:5
-Medium Laser, Left Arm
-Light Machine Gun, Left Arm
 Large X-Pulse Laser, Right Arm
 Medium Laser, Right Arm
+Medium Laser, Left Arm
+Light Machine Gun, Left Arm
 Light Machine Gun, Right Arm
 
 Left Arm:
@@ -171,4 +173,5 @@ IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
+
 

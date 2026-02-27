@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,41 +15,42 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Supernova
 model:
 mul id:3132
 
 Config:Biped
-techbase:Clan
-era:2846
-source:TR:3058U
-rules level:2
+TechBase:Clan
+Era:2846
+Source:TR:3058U
+Rules Level:2
 role:Sniper
+
 
 quirk:imp_target_long
 
-mass:90
-engine:270 Fusion (Clan) Engine
-structure:IS Standard
-myomer:Standard
 
-heat sinks:26 Clan Double
-walk mp:3
-jump mp:3
+Mass:90
+Engine:270 Fusion (Clan) Engine
+Structure:Standard
+Myomer:Standard
 
-armor:Standard(Inner Sphere)
-LA armor:26
-RA armor:26
-LT armor:26
-RT armor:26
-CT armor:33
-HD armor:9
-LL armor:30
-RL armor:30
-RTL armor:8
-RTR armor:8
-RTC armor:10
+Heat Sinks:26 Double
+Walk MP:3
+Jump MP:3
+
+Armor:Standard(Clan)
+LA Armor:26
+RA Armor:26
+LT Armor:26
+RT Armor:26
+CT Armor:33
+HD Armor:9
+LL Armor:30
+RL Armor:30
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
 
 Weapons:6
 ER Large Laser, Left Arm
@@ -170,4 +171,5 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 -Empty-
+
 

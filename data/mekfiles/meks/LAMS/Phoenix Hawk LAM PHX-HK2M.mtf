@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,46 +15,43 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
 chassis:Phoenix Hawk LAM
 model:PHX-HK2M
 mul id:4823
 
 Config:LAM
-techbase:Inner Sphere
-era:2953
-source:TR:3085
-rules level:3
+TechBase:Inner Sphere
+Era:2953
+Source:TR:3085
+Rules Level:3
 role:Striker
 
+Mass:50
+Engine:250 Fusion Engine(IS)
+Structure:IS Standard
+Myomer:Standard
 
-mass:50
-engine:250 Fusion Engine
-structure:IS Standard
-myomer:Standard
-lam:Standard
+Heat Sinks:12 Single
+Walk MP:5
+Jump MP:5
 
-heat sinks:12 Single
-walk mp:5
-jump mp:5
-
-armor:Standard(Inner Sphere)
-LA armor:10
-RA armor:10
-LT armor:18
-RT armor:18
-CT armor:23
-HD armor:6
-LL armor:15
-RL armor:15
-RTL armor:4
-RTR armor:4
-RTC armor:5
+Armor:Standard(Inner Sphere)
+LA Armor:10
+RA Armor:10
+LT Armor:18
+RT Armor:18
+CT Armor:23
+HD Armor:6
+LL Armor:15
+RL Armor:15
+RTL Armor:4
+RTR Armor:4
+RTC Armor:5
 
 Weapons:3
+LRM 10, Right Torso
 Medium Laser, Left Arm
 Medium Laser, Right Arm
-LRM 10, Right Torso
 
 Left Arm:
 Shoulder
@@ -167,4 +164,5 @@ Foot Actuator
 -Empty-
 -Empty-
 -Empty-
+
 
